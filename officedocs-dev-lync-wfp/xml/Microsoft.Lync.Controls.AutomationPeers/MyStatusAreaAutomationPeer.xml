@@ -1,0 +1,44 @@
+﻿<Type Name="MyStatusAreaAutomationPeer" FullName="Microsoft.Lync.Controls.AutomationPeers.MyStatusAreaAutomationPeer">
+  <TypeSignature Language="C#" Value="public class MyStatusAreaAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.MyStatusArea&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MyStatusAreaAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.MyStatusArea&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.MyStatusAreaAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class MyStatusAreaAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of MyStatusArea)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MyStatusAreaAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::MyStatusArea ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.MyStatusArea&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.MyStatusArea</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             MyStatusAreaAutomationPeer class             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MyStatusAreaAutomationPeer (Microsoft.Lync.Controls.MyStatusArea control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.MyStatusArea control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.MyStatusAreaAutomationPeer.#ctor(Microsoft.Lync.Controls.MyStatusArea)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As MyStatusArea)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MyStatusAreaAutomationPeer(Microsoft::Lync::Controls::MyStatusArea ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.MyStatusArea" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>             Constructor             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,139 @@
+﻿<Type Name="RedirectionTypes" FullName="Microsoft.Lync.Model.RedirectionTypes">
+  <TypeSignature Language="C#" Value="public enum RedirectionTypes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RedirectionTypes extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.RedirectionTypes" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RedirectionTypes" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RedirectionTypes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the various types of redirection.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ForwardToContact">
+      <MemberSignature Language="C#" Value="ForwardToContact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RedirectionTypes ForwardToContact = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.ForwardToContact" />
+      <MemberSignature Language="VB.NET" Value="ForwardToContact" />
+      <MemberSignature Language="C++ CLI" Value="ForwardToContact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RedirectionTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Redirect to other contact.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardToVoiceMail">
+      <MemberSignature Language="C#" Value="ForwardToVoiceMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RedirectionTypes ForwardToVoiceMail = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.ForwardToVoiceMail" />
+      <MemberSignature Language="VB.NET" Value="ForwardToVoiceMail" />
+      <MemberSignature Language="C++ CLI" Value="ForwardToVoiceMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RedirectionTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Redirect to voicemail.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RedirectionTypes Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RedirectionTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RedirectionTypes None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RedirectionTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No redirection.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyWithAudioVideo">
+      <MemberSignature Language="C#" Value="ReplyWithAudioVideo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RedirectionTypes ReplyWithAudioVideo = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.ReplyWithAudioVideo" />
+      <MemberSignature Language="VB.NET" Value="ReplyWithAudioVideo" />
+      <MemberSignature Language="C++ CLI" Value="ReplyWithAudioVideo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RedirectionTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Redirect by replying with audio or audio/video.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyWithInstantMessage">
+      <MemberSignature Language="C#" Value="ReplyWithInstantMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RedirectionTypes ReplyWithInstantMessage = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.ReplyWithInstantMessage" />
+      <MemberSignature Language="VB.NET" Value="ReplyWithInstantMessage" />
+      <MemberSignature Language="C++ CLI" Value="ReplyWithInstantMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RedirectionTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Redirect by replying with instant message.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,44 @@
+﻿<Type Name="ContactSearchAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.ContactSearchAutomationPeer">
+  <TypeSignature Language="C#" Value="public class ContactSearchAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.ContactSearch&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactSearchAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.ContactSearch&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.ContactSearchAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactSearchAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of ContactSearch)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::ContactSearch ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.ContactSearch&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.ContactSearch</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactSearchAutomationPeer (Microsoft.Lync.Controls.ContactSearch control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.ContactSearch control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.ContactSearchAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactSearch)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContactSearch)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactSearchAutomationPeer(Microsoft::Lync::Controls::ContactSearch ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.ContactSearch" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

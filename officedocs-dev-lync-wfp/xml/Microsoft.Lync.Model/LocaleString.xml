@@ -1,0 +1,67 @@
+﻿<Type Name="LocaleString" FullName="Microsoft.Lync.Model.LocaleString">
+  <TypeSignature Language="C#" Value="public class LocaleString : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LocaleString extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.LocaleString" />
+  <TypeSignature Language="VB.NET" Value="Public Class LocaleString&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LocaleString : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Class representing a localized string with locale ID.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LocaleId">
+      <MemberSignature Language="C#" Value="public int LocaleId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LocaleId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LocaleString.LocaleId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocaleId As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LocaleId { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>LocaleId</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The Locale Id (LCID).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LocaleString.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Value</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The localized string.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

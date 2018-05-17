@@ -1,0 +1,424 @@
+﻿<Type Name="AutomationModalitySettings" FullName="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings">
+  <TypeSignature Language="C#" Value="public enum AutomationModalitySettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AutomationModalitySettings extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AutomationModalitySettings" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AutomationModalitySettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the settings on an automation modality.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationData">
+      <MemberSignature Language="C#" Value="ApplicationData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings ApplicationData = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ApplicationData" />
+      <MemberSignature Language="VB.NET" Value="ApplicationData" />
+      <MemberSignature Language="C++ CLI" Value="ApplicationData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationId">
+      <MemberSignature Language="C#" Value="ApplicationId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings ApplicationId = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ApplicationId" />
+      <MemberSignature Language="VB.NET" Value="ApplicationId" />
+      <MemberSignature Language="C++ CLI" Value="ApplicationId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DataObjectForFileTransfer">
+      <MemberSignature Language="C#" Value="DataObjectForFileTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings DataObjectForFileTransfer = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.DataObjectForFileTransfer" />
+      <MemberSignature Language="VB.NET" Value="DataObjectForFileTransfer" />
+      <MemberSignature Language="C++ CLI" Value="DataObjectForFileTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>A data object is to be transferred. Property value is object.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileHistoryLink">
+      <MemberSignature Language="C#" Value="FileHistoryLink" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings FileHistoryLink = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FileHistoryLink" />
+      <MemberSignature Language="VB.NET" Value="FileHistoryLink" />
+      <MemberSignature Language="C++ CLI" Value="FileHistoryLink" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>File history link. Property value is of type string.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileIsShared">
+      <MemberSignature Language="C#" Value="FileIsShared" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings FileIsShared = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FileIsShared" />
+      <MemberSignature Language="VB.NET" Value="FileIsShared" />
+      <MemberSignature Language="C++ CLI" Value="FileIsShared" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Returns true if the file is shared. Property value type is Boolean.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FilePathToTransfer">
+      <MemberSignature Language="C#" Value="FilePathToTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings FilePathToTransfer = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FilePathToTransfer" />
+      <MemberSignature Language="VB.NET" Value="FilePathToTransfer" />
+      <MemberSignature Language="C++ CLI" Value="FilePathToTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The file path of a file to be transferred. Property value type is String.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstInstantMessage">
+      <MemberSignature Language="C#" Value="FirstInstantMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings FirstInstantMessage = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FirstInstantMessage" />
+      <MemberSignature Language="VB.NET" Value="FirstInstantMessage" />
+      <MemberSignature Language="C++ CLI" Value="FirstInstantMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>The first instant message. Text sent with conversation invitation. Property value is of type string.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HyperLink">
+      <MemberSignature Language="C#" Value="HyperLink" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings HyperLink = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.HyperLink" />
+      <MemberSignature Language="VB.NET" Value="HyperLink" />
+      <MemberSignature Language="C++ CLI" Value="HyperLink" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookEntryId">
+      <MemberSignature Language="C#" Value="OutlookEntryId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings OutlookEntryId = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.OutlookEntryId" />
+      <MemberSignature Language="VB.NET" Value="OutlookEntryId" />
+      <MemberSignature Language="C++ CLI" Value="OutlookEntryId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Microsoft Outlook entry Id. Property value type is String.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentWindow">
+      <MemberSignature Language="C#" Value="ParentWindow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings ParentWindow = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ParentWindow" />
+      <MemberSignature Language="VB.NET" Value="ParentWindow" />
+      <MemberSignature Language="C++ CLI" Value="ParentWindow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousConversation">
+      <MemberSignature Language="C#" Value="PreviousConversation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings PreviousConversation = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.PreviousConversation" />
+      <MemberSignature Language="VB.NET" Value="PreviousConversation" />
+      <MemberSignature Language="C++ CLI" Value="PreviousConversation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Previous conversation Id. Property value type is String.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings Reserved1 = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings Reserved2 = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SendFirstInstantMessageImmediately">
+      <MemberSignature Language="C#" Value="SendFirstInstantMessageImmediately" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings SendFirstInstantMessageImmediately = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SendFirstInstantMessageImmediately" />
+      <MemberSignature Language="VB.NET" Value="SendFirstInstantMessageImmediately" />
+      <MemberSignature Language="C++ CLI" Value="SendFirstInstantMessageImmediately" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Set to true if the first instant message text is to be sent immediately upon starting a conversation. Property value is of type boolean.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedDesktop">
+      <MemberSignature Language="C#" Value="SharedDesktop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings SharedDesktop = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedDesktop" />
+      <MemberSignature Language="VB.NET" Value="SharedDesktop" />
+      <MemberSignature Language="C++ CLI" Value="SharedDesktop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>Share the desktop of the local computer in conversation. No property value needed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedMonitor">
+      <MemberSignature Language="C#" Value="SharedMonitor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings SharedMonitor = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedMonitor" />
+      <MemberSignature Language="VB.NET" Value="SharedMonitor" />
+      <MemberSignature Language="C++ CLI" Value="SharedMonitor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>Shares a monitor attached to local computer in conversation. Property value the monitor Id an is type Int.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedProcess">
+      <MemberSignature Language="C#" Value="SharedProcess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings SharedProcess = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedProcess" />
+      <MemberSignature Language="VB.NET" Value="SharedProcess" />
+      <MemberSignature Language="C++ CLI" Value="SharedProcess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>Share a process running on local computer in conversation. Property value is of type Int.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedWindow">
+      <MemberSignature Language="C#" Value="SharedWindow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings SharedWindow = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedWindow" />
+      <MemberSignature Language="VB.NET" Value="SharedWindow" />
+      <MemberSignature Language="C++ CLI" Value="SharedWindow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>Share a window open on local computer in conversation. Property value is of type Int.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StartConferenceByCallingMeAt">
+      <MemberSignature Language="C#" Value="StartConferenceByCallingMeAt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings StartConferenceByCallingMeAt = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.StartConferenceByCallingMeAt" />
+      <MemberSignature Language="VB.NET" Value="StartConferenceByCallingMeAt" />
+      <MemberSignature Language="C++ CLI" Value="StartConferenceByCallingMeAt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Telephone number to call out to conversation participant. Property value is of type string.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="Subject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings Subject = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Subject" />
+      <MemberSignature Language="VB.NET" Value="Subject" />
+      <MemberSignature Language="C++ CLI" Value="Subject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalitySettings</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Conversation subject. Property value type is String.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

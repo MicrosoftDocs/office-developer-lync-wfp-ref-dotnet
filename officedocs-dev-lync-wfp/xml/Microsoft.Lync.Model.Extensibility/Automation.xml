@@ -1,0 +1,244 @@
+﻿<Type Name="Automation" FullName="Microsoft.Lync.Model.Extensibility.Automation">
+  <TypeSignature Language="C#" Value="public class Automation : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Automation extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.Automation" />
+  <TypeSignature Language="VB.NET" Value="Public Class Automation&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Automation : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Automates starting a new conversation and showing the resulting conversation window.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginMeetNow">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginMeetNow (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginMeetNow(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.BeginMeetNow(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginMeetNow (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMeetNow(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Launches a Lync Meet Now conversation window using the specified modalities. 
+            The new conversation window is obtained in the System.AsyncCallback method you pass in the callback argument.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginMeetNow">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginMeetNow (IntPtr parentHWND, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginMeetNow(native int parentHWND, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.BeginMeetNow(System.IntPtr,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginMeetNow (parentHWND As IntPtr, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMeetNow(IntPtr parentHWND, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentHWND" Type="System.IntPtr" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="parentHWND">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Launches a Lync Meet Now conversation window using the specified modalities. 
+            The new conversation window is obtained in the System.AsyncCallback method you pass in the callback argument.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginStartConversation">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginStartConversation (string conferenceUrl, int parentHWND, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginStartConversation(string conferenceUrl, int32 parentHWND, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.BeginStartConversation(System.String,System.Int32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginStartConversation (conferenceUrl As String, parentHWND As Integer, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginStartConversation(System::String ^ conferenceUrl, int parentHWND, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conferenceUrl" Type="System.String" />
+        <Parameter Name="parentHWND" Type="System.Int32" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="conferenceUrl">To be added.</param>
+        <param name="parentHWND">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginStartConversation">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginStartConversation (Microsoft.Lync.Model.Extensibility.AutomationModalities conversationModes, System.Collections.Generic.IEnumerable&lt;string&gt; participantUris, System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Lync.Model.Extensibility.AutomationModalitySettings,object&gt;&gt; contextData, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginStartConversation(valuetype Microsoft.Lync.Model.Extensibility.AutomationModalities conversationModes, class System.Collections.Generic.IEnumerable`1&lt;string&gt; participantUris, class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;valuetype Microsoft.Lync.Model.Extensibility.AutomationModalitySettings, object&gt;&gt; contextData, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.BeginStartConversation(Microsoft.Lync.Model.Extensibility.AutomationModalities,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{Microsoft.Lync.Model.Extensibility.AutomationModalitySettings,System.Object}},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginStartConversation (conversationModes As AutomationModalities, participantUris As IEnumerable(Of String), contextData As IEnumerable(Of KeyValuePair(Of AutomationModalitySettings, Object)), callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginStartConversation(Microsoft::Lync::Model::Extensibility::AutomationModalities conversationModes, System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ participantUris, System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;Microsoft::Lync::Model::Extensibility::AutomationModalitySettings, System::Object ^&gt;&gt; ^ contextData, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversationModes" Type="Microsoft.Lync.Model.Extensibility.AutomationModalities" />
+        <Parameter Name="participantUris" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="contextData" Type="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Lync.Model.Extensibility.AutomationModalitySettings,System.Object&gt;&gt;" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="conversationModes">To be added.</param>
+        <param name="participantUris">To be added.</param>
+        <param name="contextData">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Launches a Lync conversation window and invites specified participants using the specified modalities and optional conversation context data. 
+            The new conversation window is obtained in the System.AsyncCallback method you pass in the callback argument.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndMeetNow">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Extensibility.ConversationWindow EndMeetNow (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Extensibility.ConversationWindow EndMeetNow(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.EndMeetNow(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndMeetNow (asyncResult As IAsyncResult) As ConversationWindow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Extensibility::ConversationWindow ^ EndMeetNow(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindow</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary>
+            Ends the MeetNow operation, unblocks program execution on the calling thread, and returns a new conversation window.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndStartConversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Extensibility.ConversationWindow EndStartConversation (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Extensibility.ConversationWindow EndStartConversation(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.EndStartConversation(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndStartConversation (asyncResult As IAsyncResult) As ConversationWindow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Extensibility::ConversationWindow ^ EndStartConversation(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindow</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary>
+            Ends the start conversation operation, unblocks program execution on the calling thread, and returns a new conversation window.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConversationWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Extensibility.ConversationWindow GetConversationWindow (Microsoft.Lync.Model.Conversation.Conversation conversation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Extensibility.ConversationWindow GetConversationWindow(class Microsoft.Lync.Model.Conversation.Conversation conversation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.GetConversationWindow(Microsoft.Lync.Model.Conversation.Conversation)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Extensibility::ConversationWindow ^ GetConversationWindow(Microsoft::Lync::Model::Conversation::Conversation ^ conversation);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindow</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversation" Type="Microsoft.Lync.Model.Conversation.Conversation" />
+      </Parameters>
+      <Docs>
+        <param name="conversation">To be added.</param>
+        <summary>Find or create a ConversationWindow for a given conversation.</summary>
+        <returns>IConversationWindow</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LaunchAddContactWizard">
+      <MemberSignature Language="C#" Value="public void LaunchAddContactWizard (string contactEmail);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void LaunchAddContactWizard(string contactEmail) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.LaunchAddContactWizard(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LaunchAddContactWizard (contactEmail As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LaunchAddContactWizard(System::String ^ contactEmail);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactEmail" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="contactEmail">To be added.</param>
+        <summary>Deprecated : Do not use this method.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

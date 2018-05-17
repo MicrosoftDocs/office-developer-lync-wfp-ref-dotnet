@@ -1,0 +1,77 @@
+﻿<Type Name="ConversationStateChangeProperty" FullName="Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty">
+  <TypeSignature Language="C#" Value="public enum ConversationStateChangeProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationStateChangeProperty extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversationStateChangeProperty" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConversationStateChangeProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the conversation state change properties.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reason">
+      <MemberSignature Language="C#" Value="Reason" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty Reason = int32(805896192)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Reason" />
+      <MemberSignature Language="VB.NET" Value="Reason" />
+      <MemberSignature Language="C++ CLI" Value="Reason" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>805896192</MemberValue>
+      <Docs>
+        <summary>Provides the reason that a call was unparked.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Target">
+      <MemberSignature Language="C#" Value="Target" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty Target = int32(589825)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Target" />
+      <MemberSignature Language="VB.NET" Value="Target" />
+      <MemberSignature Language="C++ CLI" Value="Target" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>589825</MemberValue>
+      <Docs>
+        <summary>The URI of the user who took the parked call.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

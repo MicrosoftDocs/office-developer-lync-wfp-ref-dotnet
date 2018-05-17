@@ -1,0 +1,101 @@
+﻿<Type Name="OrganizationStructureTypes" FullName="Microsoft.Lync.Model.OrganizationStructureTypes">
+  <TypeSignature Language="C#" Value="public enum OrganizationStructureTypes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OrganizationStructureTypes extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.OrganizationStructureTypes" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OrganizationStructureTypes" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OrganizationStructureTypes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the organizational roles of people in the contact's organization.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DirectReports">
+      <MemberSignature Language="C#" Value="DirectReports" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.OrganizationStructureTypes DirectReports = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.OrganizationStructureTypes.DirectReports" />
+      <MemberSignature Language="VB.NET" Value="DirectReports" />
+      <MemberSignature Language="C++ CLI" Value="DirectReports" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.OrganizationStructureTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Contact's direct reports.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.OrganizationStructureTypes Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.OrganizationStructureTypes.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.OrganizationStructureTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Managers">
+      <MemberSignature Language="C#" Value="Managers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.OrganizationStructureTypes Managers = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.OrganizationStructureTypes.Managers" />
+      <MemberSignature Language="VB.NET" Value="Managers" />
+      <MemberSignature Language="C++ CLI" Value="Managers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.OrganizationStructureTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Contact's manager chain.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Peers">
+      <MemberSignature Language="C#" Value="Peers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.OrganizationStructureTypes Peers = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.OrganizationStructureTypes.Peers" />
+      <MemberSignature Language="VB.NET" Value="Peers" />
+      <MemberSignature Language="C++ CLI" Value="Peers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.OrganizationStructureTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Contact's peers.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

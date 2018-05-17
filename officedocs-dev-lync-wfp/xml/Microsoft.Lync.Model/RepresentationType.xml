@@ -1,0 +1,96 @@
+﻿<Type Name="RepresentationType" FullName="Microsoft.Lync.Model.RepresentationType">
+  <TypeSignature Language="C#" Value="public enum RepresentationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RepresentationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.RepresentationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RepresentationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RepresentationType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the representation type of the representation info.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutomaticCallDistributor">
+      <MemberSignature Language="C#" Value="AutomaticCallDistributor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RepresentationType AutomaticCallDistributor = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RepresentationType.AutomaticCallDistributor" />
+      <MemberSignature Language="VB.NET" Value="AutomaticCallDistributor" />
+      <MemberSignature Language="C++ CLI" Value="AutomaticCallDistributor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RepresentationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The representation is an automatic call distributor.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Delegate">
+      <MemberSignature Language="C#" Value="Delegate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RepresentationType Delegate = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RepresentationType.Delegate" />
+      <MemberSignature Language="VB.NET" Value="Delegate" />
+      <MemberSignature Language="C++ CLI" Value="Delegate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RepresentationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Delegate representation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RepresentationType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RepresentationType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RepresentationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Team">
+      <MemberSignature Language="C#" Value="Team" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.RepresentationType Team = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RepresentationType.Team" />
+      <MemberSignature Language="VB.NET" Value="Team" />
+      <MemberSignature Language="C++ CLI" Value="Team" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.RepresentationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Team representation.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

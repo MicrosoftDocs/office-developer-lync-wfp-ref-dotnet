@@ -1,0 +1,1658 @@
+﻿<Type Name="ControlColors" FullName="Microsoft.Lync.Controls.ControlColors">
+  <TypeSignature Language="C#" Value="public class ControlColors : Microsoft.Lync.Internal.Utilities.DataModel.NotifyPropertyChanged" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ControlColors extends Microsoft.Lync.Internal.Utilities.DataModel.NotifyPropertyChanged" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ControlColors" />
+  <TypeSignature Language="VB.NET" Value="Public Class ControlColors&#xA;Inherits NotifyPropertyChanged" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ControlColors : Microsoft::Lync::Internal::Utilities::DataModel::NotifyPropertyChanged" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Internal.Utilities.DataModel.NotifyPropertyChanged</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Reserved for internal use.             Defines a set of standard <see cref="T:System.Windows.Media.Brush" /> colors which are used by             Lync Control templates to emulate the look and feel of Microsoft Lync.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ControlColors ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ControlColors.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ControlColors();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Default constructor.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactCardBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactCardBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactCardBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactCardBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactCardBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactCardBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactCardBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactCardBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactCardBorderBrushLight">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactCardBorderBrushLight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactCardBorderBrushLight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardBorderBrushLight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardBorderBrushLight As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardBorderBrushLight { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactCardBorderBrushLight             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactCardBubbleBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactCardBubbleBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactCardBubbleBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardBubbleBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardBubbleBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardBubbleBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactCardBubbleBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactCardDetailsDividerBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactCardDetailsDividerBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactCardDetailsDividerBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardDetailsDividerBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardDetailsDividerBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardDetailsDividerBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactCardDetailsDividerBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactCardDetailsTabBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactCardDetailsTabBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactCardDetailsTabBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardDetailsTabBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardDetailsTabBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardDetailsTabBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactCardDetailsTabBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactCardSelfIndicatorBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactCardSelfIndicatorBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactCardSelfIndicatorBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardSelfIndicatorBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardSelfIndicatorBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardSelfIndicatorBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactCardSelfIndicatorBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactCardSuperiorIndicatorBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactCardSuperiorIndicatorBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactCardSuperiorIndicatorBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardSuperiorIndicatorBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardSuperiorIndicatorBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardSuperiorIndicatorBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactCardSuperiorIndicatorBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactNameHoverBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactNameHoverBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactNameHoverBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNameHoverBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNameHoverBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNameHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactNameHoverBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactNoteButtonDefaultBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactNoteButtonDefaultBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactNoteButtonDefaultBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNoteButtonDefaultBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNoteButtonDefaultBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNoteButtonDefaultBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactNoteButtonDefaultBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactNoteButtonForegroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactNoteButtonForegroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactNoteButtonForegroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNoteButtonForegroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNoteButtonForegroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNoteButtonForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactNoteButtonForegroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactNoteButtonHoverBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactNoteButtonHoverBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactNoteButtonHoverBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNoteButtonHoverBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNoteButtonHoverBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNoteButtonHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactNoteButtonHoverBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactNoteButtonPressedBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactNoteButtonPressedBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactNoteButtonPressedBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNoteButtonPressedBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNoteButtonPressedBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNoteButtonPressedBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactNoteButtonPressedBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchCancelHoverBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchCancelHoverBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchCancelHoverBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelHoverBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelHoverBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelHoverBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchCancelHoverBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchCancelHoverBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchCancelHoverBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchCancelHoverBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelHoverBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelHoverBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelHoverBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchCancelHoverBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchCancelNormalBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchCancelNormalBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchCancelNormalBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelNormalBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelNormalBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelNormalBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchCancelNormalBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchCancelNormalBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchCancelNormalBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchCancelNormalBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelNormalBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelNormalBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelNormalBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchCancelNormalBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchCancelPressedBorderBrus">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchCancelPressedBorderBrus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchCancelPressedBorderBrus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelPressedBorderBrus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelPressedBorderBrus As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelPressedBorderBrus { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchCancelPressedBorderBrus             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchLeftEdgeHoverBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchLeftEdgeHoverBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchLeftEdgeHoverBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchLeftEdgeHoverBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchLeftEdgeHoverBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchLeftEdgeHoverBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchLeftEdgeHoverBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSearchLeftEdgeNormalBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ContactSearchLeftEdgeNormalBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ContactSearchLeftEdgeNormalBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchLeftEdgeNormalBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchLeftEdgeNormalBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchLeftEdgeNormalBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ContactSearchLeftEdgeNormalBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultControlBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush DefaultControlBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush DefaultControlBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.DefaultControlBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultControlBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ DefaultControlBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             DefaultControlBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterButtonHoverBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush FilterButtonHoverBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush FilterButtonHoverBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.FilterButtonHoverBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilterButtonHoverBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ FilterButtonHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             FilterButtonHoverBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterButtonPressedBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush FilterButtonPressedBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush FilterButtonPressedBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.FilterButtonPressedBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilterButtonPressedBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ FilterButtonPressedBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             FilterButtonPressedBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterButtonSelectedBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush FilterButtonSelectedBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush FilterButtonSelectedBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.FilterButtonSelectedBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilterButtonSelectedBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ FilterButtonSelectedBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             FilterButtonSelectedBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBorderBrush_Tertiary_Default">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Default" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_Default As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_Default { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBorderBrush_Tertiary_Default             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBorderBrush_Tertiary_Hover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_Hover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_Hover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Hover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_Hover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBorderBrush_Tertiary_Hover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBorderBrush_Tertiary_Pressed">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_Pressed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_Pressed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Pressed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_Pressed As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_Pressed { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBorderBrush_Tertiary_Pressed             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBorderBrush_Tertiary_Selected">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_Selected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBorderBrush_Tertiary_Selected" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Selected" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_Selected As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_Selected { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBorderBrush_Tertiary_Selected             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Secondary_Default">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_Default" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_Default As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_Default { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Secondary_Default             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Secondary_HoverA">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_HoverA { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_HoverA" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_HoverA" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_HoverA As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_HoverA { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Secondary_HoverA             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Secondary_HoverB">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_HoverB { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_HoverB" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_HoverB" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_HoverB As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_HoverB { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Secondary_HoverB             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Secondary_PressA">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_PressA { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_PressA" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressA" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_PressA As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_PressA { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Secondary_PressA             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Secondary_PressB">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_PressB { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_PressB" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressB" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_PressB As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_PressB { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Secondary_PressB             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Secondary_PressC">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_PressC { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_PressC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressC" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_PressC As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_PressC { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Secondary_PressC             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Secondary_SelectedA">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_SelectedA { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_SelectedA" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_SelectedA" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_SelectedA As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_SelectedA { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Secondary_SelectedA             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Secondary_SelectedB">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_SelectedB { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Secondary_SelectedB" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_SelectedB" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_SelectedB As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_SelectedB { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Secondary_SelectedB             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Tertiary_Hover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Tertiary_Hover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Tertiary_Hover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_Hover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Tertiary_Hover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Tertiary_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Tertiary_Hover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Tertiary_OppositeHover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Tertiary_OppositeHover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Tertiary_OppositeHover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_OppositeHover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Tertiary_OppositeHover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Tertiary_OppositeHover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Tertiary_OppositeHover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBackgroundBrush_Tertiary_Pressed">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBackgroundBrush_Tertiary_Pressed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBackgroundBrush_Tertiary_Pressed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_Pressed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Tertiary_Pressed As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Tertiary_Pressed { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBackgroundBrush_Tertiary_Pressed             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBorderBrush_Secondary_Default">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBorderBrush_Secondary_Default { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBorderBrush_Secondary_Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Default" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBorderBrush_Secondary_Default As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBorderBrush_Secondary_Default { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBorderBrush_Secondary_Default             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBorderBrush_Secondary_Hover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBorderBrush_Secondary_Hover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBorderBrush_Secondary_Hover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Hover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBorderBrush_Secondary_Hover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBorderBrush_Secondary_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBorderBrush_Secondary_Hover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBorderBrush_Secondary_Press">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBorderBrush_Secondary_Press { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBorderBrush_Secondary_Press" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Press" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBorderBrush_Secondary_Press As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBorderBrush_Secondary_Press { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBorderBrush_Secondary_Press             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonBorderBrush_Secondary_Selected">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonBorderBrush_Secondary_Selected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonBorderBrush_Secondary_Selected" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Selected" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBorderBrush_Secondary_Selected As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBorderBrush_Secondary_Selected { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonBorderBrush_Secondary_Selected             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalButtonInternalBorderBrush_Tertiary_Hover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalButtonInternalBorderBrush_Tertiary_Hover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalButtonInternalBorderBrush_Tertiary_Hover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonInternalBorderBrush_Tertiary_Hover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonInternalBorderBrush_Tertiary_Hover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonInternalBorderBrush_Tertiary_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalButtonInternalBorderBrush_Tertiary_Hover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalListSelection_Focus">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalListSelection_Focus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalListSelection_Focus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelection_Focus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelection_Focus As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelection_Focus { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalListSelection_Focus             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalListSelectionBackground_Hover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalListSelectionBackground_Hover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalListSelectionBackground_Hover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Hover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBackground_Hover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBackground_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalListSelectionBackground_Hover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalListSelectionBackground_Pressed">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalListSelectionBackground_Pressed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalListSelectionBackground_Pressed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Pressed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBackground_Pressed As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBackground_Pressed { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalListSelectionBackground_Pressed             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalListSelectionBackground_Selected">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalListSelectionBackground_Selected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalListSelectionBackground_Selected" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Selected" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBackground_Selected As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBackground_Selected { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalListSelectionBackground_Selected             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalListSelectionBorder_Hover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalListSelectionBorder_Hover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalListSelectionBorder_Hover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBorder_Hover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBorder_Hover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBorder_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalListSelectionBorder_Hover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalListSelectionBorder_Selected">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalListSelectionBorder_Selected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalListSelectionBorder_Selected" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBorder_Selected" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBorder_Selected As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBorder_Selected { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalListSelectionBorder_Selected             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalListSelectionInnerBorder_Hover">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalListSelectionInnerBorder_Hover { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalListSelectionInnerBorder_Hover" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionInnerBorder_Hover" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionInnerBorder_Hover As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionInnerBorder_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalListSelectionInnerBorder_Hover             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalTextColor_Black">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalTextColor_Black { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalTextColor_Black" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Black" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_Black As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_Black { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalTextColor_Black             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalTextColor_Dark">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalTextColor_Dark { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalTextColor_Dark" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Dark" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_Dark As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_Dark { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalTextColor_Dark             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalTextColor_GroupName">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalTextColor_GroupName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalTextColor_GroupName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_GroupName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_GroupName As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_GroupName { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalTextColor_GroupName             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalTextColor_HoverForegroundBlack">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalTextColor_HoverForegroundBlack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalTextColor_HoverForegroundBlack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_HoverForegroundBlack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_HoverForegroundBlack As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_HoverForegroundBlack { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalTextColor_HoverForeground             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalTextColor_HoverForegroundMediumDark">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalTextColor_HoverForegroundMediumDark { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalTextColor_HoverForegroundMediumDark" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_HoverForegroundMediumDark" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_HoverForegroundMediumDark As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_HoverForegroundMediumDark { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalTextColor_HoverForegroundMediumDark             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalTextColor_Link">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalTextColor_Link { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalTextColor_Link" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Link" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_Link As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_Link { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalTextColor_Link             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalTextColor_Medium">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalTextColor_Medium { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalTextColor_Medium" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Medium" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_Medium As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_Medium { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalTextColor_Medium             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalTextColor_MediumDark">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush GlobalTextColor_MediumDark { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush GlobalTextColor_MediumDark" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_MediumDark" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_MediumDark As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_MediumDark { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             GlobalTextColor_MediumDark             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush MenuBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush MenuBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             MenuBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuItemCheckedBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush MenuItemCheckedBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush MenuItemCheckedBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemCheckedBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemCheckedBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemCheckedBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             MenuItemCheckedBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuItemHeaderBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush MenuItemHeaderBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush MenuItemHeaderBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemHeaderBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemHeaderBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemHeaderBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             MenuItemHeaderBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuItemHeaderForegroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush MenuItemHeaderForegroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush MenuItemHeaderForegroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemHeaderForegroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemHeaderForegroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemHeaderForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             MenuItemHeaderForegroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuItemHoverBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush MenuItemHoverBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush MenuItemHoverBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemHoverBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemHoverBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemHoverBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             MenuItemHoverBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuItemHoverBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush MenuItemHoverBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush MenuItemHoverBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemHoverBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemHoverBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemHoverBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             MenuItemHoverBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyNoteBoxBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush MyNoteBoxBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush MyNoteBoxBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MyNoteBoxBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MyNoteBoxBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MyNoteBoxBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             MyNoteBoxBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyNoteBoxBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush MyNoteBoxBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush MyNoteBoxBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MyNoteBoxBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MyNoteBoxBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MyNoteBoxBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             MyNoteBoxBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollButtonBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ScrollButtonBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ScrollButtonBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ScrollButtonBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollButtonContactNoteForegroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ScrollButtonContactNoteForegroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ScrollButtonContactNoteForegroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonContactNoteForegroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonContactNoteForegroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonContactNoteForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ScrollButtonContactNoteForegroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollButtonContactNoteHoverBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ScrollButtonContactNoteHoverBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ScrollButtonContactNoteHoverBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonContactNoteHoverBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonContactNoteHoverBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonContactNoteHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ScrollButtonContactNoteHoverBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollButtonForegroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ScrollButtonForegroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ScrollButtonForegroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonForegroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonForegroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ScrollButtonForegroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollButtonHoverBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ScrollButtonHoverBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ScrollButtonHoverBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonHoverBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonHoverBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ScrollButtonHoverBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabItemHoverBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush TabItemHoverBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush TabItemHoverBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.TabItemHoverBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TabItemHoverBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ TabItemHoverBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             TabItemHoverBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabItemSelectedBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush TabItemSelectedBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush TabItemSelectedBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.TabItemSelectedBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TabItemSelectedBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ TabItemSelectedBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             TabItemSelectedBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabItemSideBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush TabItemSideBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush TabItemSideBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.TabItemSideBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TabItemSideBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ TabItemSideBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             TabItemSideBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToolTipBackgroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ToolTipBackgroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ToolTipBackgroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ToolTipBackgroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolTipBackgroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ToolTipBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ToolTipBackgroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToolTipBorderBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ToolTipBorderBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ToolTipBorderBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ToolTipBorderBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolTipBorderBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ToolTipBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ToolTipBorderBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToolTipForegroundBrush">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Brush ToolTipForegroundBrush { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Media.Brush ToolTipForegroundBrush" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ToolTipForegroundBrush" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolTipForegroundBrush As Brush" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ToolTipForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Brush</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             ToolTipForegroundBrush             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

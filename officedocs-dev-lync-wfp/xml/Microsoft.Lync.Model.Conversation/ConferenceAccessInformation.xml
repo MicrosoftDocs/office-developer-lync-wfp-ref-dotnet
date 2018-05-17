@@ -1,0 +1,121 @@
+﻿<Type Name="ConferenceAccessInformation" FullName="Microsoft.Lync.Model.Conversation.ConferenceAccessInformation">
+  <TypeSignature Language="C#" Value="public class ConferenceAccessInformation : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConferenceAccessInformation extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConferenceAccessInformation&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConferenceAccessInformation : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the properties of a conference that can be provided to other clients that allows them to join the conference.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdmissionKey">
+      <MemberSignature Language="C#" Value="public string AdmissionKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AdmissionKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.AdmissionKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdmissionKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdmissionKey { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the conference admission key.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoAttendantNumbers">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; AutoAttendantNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; AutoAttendantNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.AutoAttendantNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoAttendantNumbers As IList(Of String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ AutoAttendantNumbers { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the conference auto attendant numbers.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalUrl">
+      <MemberSignature Language="C#" Value="public string ExternalUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExternalUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.ExternalUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the conference CWA external Url.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the conference Id.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalUrl">
+      <MemberSignature Language="C#" Value="public string InternalUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternalUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.InternalUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternalUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternalUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the conference CWA internal Url.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

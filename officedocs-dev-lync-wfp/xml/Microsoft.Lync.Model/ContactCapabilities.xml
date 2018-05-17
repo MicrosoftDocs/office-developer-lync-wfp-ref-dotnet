@@ -1,0 +1,215 @@
+﻿<Type Name="ContactCapabilities" FullName="Microsoft.Lync.Model.ContactCapabilities">
+  <TypeSignature Language="C#" Value="public enum ContactCapabilities" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactCapabilities extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactCapabilities" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactCapabilities" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactCapabilities" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines Contact Capability types.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CaptureAppShare">
+      <MemberSignature Language="C#" Value="CaptureAppShare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities CaptureAppShare = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.CaptureAppShare" />
+      <MemberSignature Language="VB.NET" Value="CaptureAppShare" />
+      <MemberSignature Language="C++ CLI" Value="CaptureAppShare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>A contact can perform application sharing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CaptureAudio">
+      <MemberSignature Language="C#" Value="CaptureAudio" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities CaptureAudio = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.CaptureAudio" />
+      <MemberSignature Language="VB.NET" Value="CaptureAudio" />
+      <MemberSignature Language="C++ CLI" Value="CaptureAudio" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>A contact can send audio.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CaptureInstantMessage">
+      <MemberSignature Language="C#" Value="CaptureInstantMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities CaptureInstantMessage = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.CaptureInstantMessage" />
+      <MemberSignature Language="VB.NET" Value="CaptureInstantMessage" />
+      <MemberSignature Language="C++ CLI" Value="CaptureInstantMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>A contact can send instant messages.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CaptureVideo">
+      <MemberSignature Language="C#" Value="CaptureVideo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities CaptureVideo = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.CaptureVideo" />
+      <MemberSignature Language="VB.NET" Value="CaptureVideo" />
+      <MemberSignature Language="C++ CLI" Value="CaptureVideo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>A contact can send video.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RenderAppShare">
+      <MemberSignature Language="C#" Value="RenderAppShare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities RenderAppShare = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.RenderAppShare" />
+      <MemberSignature Language="VB.NET" Value="RenderAppShare" />
+      <MemberSignature Language="C++ CLI" Value="RenderAppShare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>A contact can view application sharing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderAudio">
+      <MemberSignature Language="C#" Value="RenderAudio" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities RenderAudio = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.RenderAudio" />
+      <MemberSignature Language="VB.NET" Value="RenderAudio" />
+      <MemberSignature Language="C++ CLI" Value="RenderAudio" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>A contact can receive audio.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderInstantMessage">
+      <MemberSignature Language="C#" Value="RenderInstantMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities RenderInstantMessage = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.RenderInstantMessage" />
+      <MemberSignature Language="VB.NET" Value="RenderInstantMessage" />
+      <MemberSignature Language="C++ CLI" Value="RenderInstantMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>A contact can receive instant messages.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderVideo">
+      <MemberSignature Language="C#" Value="RenderVideo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities RenderVideo = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.RenderVideo" />
+      <MemberSignature Language="VB.NET" Value="RenderVideo" />
+      <MemberSignature Language="C++ CLI" Value="RenderVideo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>A contact can receive video.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPresence">
+      <MemberSignature Language="C#" Value="ShowPresence" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCapabilities ShowPresence = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.ShowPresence" />
+      <MemberSignature Language="VB.NET" Value="ShowPresence" />
+      <MemberSignature Language="C++ CLI" Value="ShowPresence" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A contact presence state can be shown.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

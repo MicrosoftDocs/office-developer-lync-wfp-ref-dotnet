@@ -1,0 +1,142 @@
+﻿<Type Name="AVModality" FullName="Microsoft.Lync.Model.Conversation.AudioVideo.AVModality">
+  <TypeSignature Language="C#" Value="public class AVModality : Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AVModality extends Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.AVModality" />
+  <TypeSignature Language="VB.NET" Value="Public Class AVModality&#xA;Inherits Modality" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AVModality : Microsoft::Lync::Model::Conversation::Modality" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Conversation.Modality</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Defines the audio/video modality and handles both audio and video calls using the AudioChannel and VideoChannel properties.</summary>
+    <remarks>
+      <para>When the AVModality is connected, the default channel is audio. Starting the video channel will cause the audio channel to start if the modality is disconnected.
+            If the AV call is rejected with a reject reason of ReplyOther, the parent Conversation object is removed and the ConversationManager.ConversationRemoved event is raised.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AudioChannel">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.AudioVideo.AudioChannel AudioChannel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.AudioVideo.AudioChannel AudioChannel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.AVModality.AudioChannel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AudioChannel As AudioChannel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::AudioVideo::AudioChannel ^ AudioChannel { Microsoft::Lync::Model::Conversation::AudioVideo::AudioChannel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.AudioChannel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the audio channel.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityPropertyChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; AVModalityPropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; AVModalityPropertyChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.AudioVideo.AVModality.AVModalityPropertyChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event AVModalityPropertyChanged As EventHandler(Of ModalityPropertyChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityPropertyChangedEventArgs ^&gt; ^ AVModalityPropertyChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a property value changes</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~AVModality ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.AVModality.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!AVModality ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContributingChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.IsContributingChangedEventArgs&gt; IsContributingChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.IsContributingChangedEventArgs&gt; IsContributingChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.AudioVideo.AVModality.IsContributingChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event IsContributingChanged As EventHandler(Of IsContributingChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::IsContributingChangedEventArgs ^&gt; ^ IsContributingChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.IsContributingChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the contributing state changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StreamStateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.StreamStateChangedEventArgs&gt; StreamStateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.AudioVideo.StreamStateChangedEventArgs&gt; StreamStateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.AudioVideo.AVModality.StreamStateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event StreamStateChanged As EventHandler(Of StreamStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::AudioVideo::StreamStateChangedEventArgs ^&gt; ^ StreamStateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.StreamStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the stream state changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VideoChannel">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.AudioVideo.VideoChannel VideoChannel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.AudioVideo.VideoChannel VideoChannel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.AVModality.VideoChannel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VideoChannel As VideoChannel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::AudioVideo::VideoChannel ^ VideoChannel { Microsoft::Lync::Model::Conversation::AudioVideo::VideoChannel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.VideoChannel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the normal video channel.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

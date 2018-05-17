@@ -1,0 +1,326 @@
+﻿<Type Name="MyStatusArea" FullName="Microsoft.Lync.Controls.MyStatusArea">
+  <TypeSignature Language="C#" Value="public class MyStatusArea : Microsoft.Lync.Controls.SelfBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi MyStatusArea extends Microsoft.Lync.Controls.SelfBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.MyStatusArea" />
+  <TypeSignature Language="VB.NET" Value="Public Class MyStatusArea&#xA;Inherits SelfBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MyStatusArea : Microsoft::Lync::Controls::SelfBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.SelfBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="PhotoModeStates", Name="PhotoLarge")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="PhotoModeStates", Name="PhotoSmall")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="PhotoModeStates", Name="PhotoHidden")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             The MyStatusArea control displays the note string, an              availability icon/photo, a textblock with the              user's name, and a textblock with the user's location.             </summary>
+    <remarks>
+      <para>             The MyStatusArea control also displays              the MyStatusArea and MyPresenceChooser controls together. To display              these in separate locations, use MyNoteBox and MyPresenceChooser as              separate controls. Clicking the presence status box displays a list of              presence options, for example "Be Right Back". The user can change              their presence by selecting one of these. The user can change              their note string by typing in new text and pressing the Enter key.             Separately, the <see cref="T:Microsoft.Lync.Controls.MyPresenceChooser" /> and <see cref="T:Microsoft.Lync.Controls.MyNoteBox" /> controls             provide similar functionality, for applications where a customized layout is necessary.             </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MyStatusArea ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MyStatusArea();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Initializes a new instance of the MyStatusArea class.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailabilityState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.ContactAvailability AvailabilityState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.ContactAvailability AvailabilityState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyStatusArea.AvailabilityState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AvailabilityState As ContactAvailability" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ContactAvailability AvailabilityState { Microsoft::Lync::Controls::ContactAvailability get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets an enumeration value that represents the contact's availability.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailabilityStateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty AvailabilityStateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty AvailabilityStateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyStatusArea.AvailabilityStateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AvailabilityStateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ AvailabilityStateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.MyStatusArea.AvailabilityState" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyStatusArea.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a string that shows the location of the currently signed in user.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty LocationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty LocationProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyStatusArea.LocationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LocationProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ LocationProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.MyStatusArea.Location" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             When overridden in a derived class, is invoked whenever application code or              internal processes (such as a rebuilding layout pass)              call <see cref="ApplyTemplate" />.              In simplest terms, this means the method is called just before a UI element displays              in an application.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Return the <see cref="MyStatusAreaAutomationPeer" /> object.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPresenceItemsPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnPresenceItemsPropertyChanged (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems, string propertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPresenceItemsPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems, string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.OnPresenceItemsPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IPresenceItems,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnPresenceItemsPropertyChanged (presenceItems As IPresenceItems, propertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPresenceItemsPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems, System::String ^ propertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+        <Parameter Name="propertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonalNote">
+      <MemberSignature Language="C#" Value="public string PersonalNote { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PersonalNote" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyStatusArea.PersonalNote" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PersonalNote As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PersonalNote { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a string that shows the content of the note box for the signed-in user.             </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This will be the OOF note if the user is OOF and no personal note is set.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonalNoteProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty PersonalNoteProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty PersonalNoteProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyStatusArea.PersonalNoteProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PersonalNoteProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PersonalNoteProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.MyStatusArea.PersonalNote" /> dependency property.             </summary>
+        <remarks>
+          <para>This will be the OOF note if the user is OOF and no Personal Note is set</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhotoDisplayMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.PhotoDisplayMode PhotoDisplayMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.PhotoDisplayMode PhotoDisplayMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyStatusArea.PhotoDisplayMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhotoDisplayMode As PhotoDisplayMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PhotoDisplayMode PhotoDisplayMode { Microsoft::Lync::Controls::PhotoDisplayMode get(); void set(Microsoft::Lync::Controls::PhotoDisplayMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PhotoDisplayMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets an enumeration value that determines the presence photo display mode.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhotoDisplayModeProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty PhotoDisplayModeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty PhotoDisplayModeProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyStatusArea.PhotoDisplayModeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhotoDisplayModeProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PhotoDisplayModeProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.MyStatusArea.PhotoDisplayMode" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwirePresenceItems">
+      <MemberSignature Language="C#" Value="protected override sealed void UnwirePresenceItems (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnwirePresenceItems(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.UnwirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwirePresenceItems (presenceItems As IPresenceItems)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WirePresenceItems">
+      <MemberSignature Language="C#" Value="protected override sealed void WirePresenceItems (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void WirePresenceItems(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.WirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WirePresenceItems (presenceItems As IPresenceItems)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

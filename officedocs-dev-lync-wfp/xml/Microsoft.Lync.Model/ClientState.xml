@@ -1,0 +1,172 @@
+﻿<Type Name="ClientState" FullName="Microsoft.Lync.Model.ClientState">
+  <TypeSignature Language="C#" Value="public enum ClientState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClientState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ClientState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ClientState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ClientState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the SignIn states of the Lync client.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Initializing">
+      <MemberSignature Language="C#" Value="Initializing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientState Initializing = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.Initializing" />
+      <MemberSignature Language="VB.NET" Value="Initializing" />
+      <MemberSignature Language="C++ CLI" Value="Initializing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Client is initializing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientState Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ShuttingDown">
+      <MemberSignature Language="C#" Value="ShuttingDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientState ShuttingDown = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.ShuttingDown" />
+      <MemberSignature Language="VB.NET" Value="ShuttingDown" />
+      <MemberSignature Language="C++ CLI" Value="ShuttingDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Client is in shutting down state.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SignedIn">
+      <MemberSignature Language="C#" Value="SignedIn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientState SignedIn = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.SignedIn" />
+      <MemberSignature Language="VB.NET" Value="SignedIn" />
+      <MemberSignature Language="C++ CLI" Value="SignedIn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Client is in signed in state.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SignedOut">
+      <MemberSignature Language="C#" Value="SignedOut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientState SignedOut = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.SignedOut" />
+      <MemberSignature Language="VB.NET" Value="SignedOut" />
+      <MemberSignature Language="C++ CLI" Value="SignedOut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Client is in signed out state.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SigningIn">
+      <MemberSignature Language="C#" Value="SigningIn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientState SigningIn = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.SigningIn" />
+      <MemberSignature Language="VB.NET" Value="SigningIn" />
+      <MemberSignature Language="C++ CLI" Value="SigningIn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Client is in signing in state.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SigningOut">
+      <MemberSignature Language="C#" Value="SigningOut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientState SigningOut = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.SigningOut" />
+      <MemberSignature Language="VB.NET" Value="SigningOut" />
+      <MemberSignature Language="C++ CLI" Value="SigningOut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Client is in signing out state.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Uninitialized">
+      <MemberSignature Language="C#" Value="Uninitialized" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientState Uninitialized = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.Uninitialized" />
+      <MemberSignature Language="VB.NET" Value="Uninitialized" />
+      <MemberSignature Language="C++ CLI" Value="Uninitialized" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Client is in uninitialized state</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

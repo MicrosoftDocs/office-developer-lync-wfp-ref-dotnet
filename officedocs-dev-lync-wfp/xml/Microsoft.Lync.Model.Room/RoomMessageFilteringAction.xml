@@ -1,0 +1,99 @@
+﻿<Type Name="RoomMessageFilteringAction" FullName="Microsoft.Lync.Model.Room.RoomMessageFilteringAction">
+  <TypeSignature Language="C#" Value="public enum RoomMessageFilteringAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RoomMessageFilteringAction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomMessageFilteringAction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RoomMessageFilteringAction" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RoomMessageFilteringAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the action taken by message filtering logic for a room message when Room.SendFilteredMessge is called.</summary>
+    <remarks>
+      <para>Choose RoomMessageFilteringAction.Canceled when you want to prevent the user's pending message post from completing. Use RoomMessageFilteringAction.Replaced when you have reformatted or replaced text in the user's original pending message text. Use RoomMessageFilteringAction.Passed when you are sending the user's original message text unchanged.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Canceled">
+      <MemberSignature Language="C#" Value="Canceled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomMessageFilteringAction Canceled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Canceled" />
+      <MemberSignature Language="VB.NET" Value="Canceled" />
+      <MemberSignature Language="C++ CLI" Value="Canceled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageFilteringAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The message send operation is canceled.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomMessageFilteringAction Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageFilteringAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Passed">
+      <MemberSignature Language="C#" Value="Passed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomMessageFilteringAction Passed = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Passed" />
+      <MemberSignature Language="VB.NET" Value="Passed" />
+      <MemberSignature Language="C++ CLI" Value="Passed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageFilteringAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The original message text is sent without change.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Replaced">
+      <MemberSignature Language="C#" Value="Replaced" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomMessageFilteringAction Replaced = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Replaced" />
+      <MemberSignature Language="VB.NET" Value="Replaced" />
+      <MemberSignature Language="C++ CLI" Value="Replaced" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageFilteringAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The original message text is replaced with new text and then sent.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

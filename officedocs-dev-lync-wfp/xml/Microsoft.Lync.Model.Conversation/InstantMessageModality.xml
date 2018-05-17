@@ -1,0 +1,301 @@
+﻿<Type Name="InstantMessageModality" FullName="Microsoft.Lync.Model.Conversation.InstantMessageModality">
+  <TypeSignature Language="C#" Value="public class InstantMessageModality : Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InstantMessageModality extends Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.InstantMessageModality" />
+  <TypeSignature Language="VB.NET" Value="Public Class InstantMessageModality&#xA;Inherits Modality" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InstantMessageModality : Microsoft::Lync::Model::Conversation::Modality" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Conversation.Modality</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Defines the instant messaging modality. It supports actions such as sending an instant message, checking or setting the composing (typing) flag, etc.  This class exposes events such as messages being sent or received.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginSendMessage">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSendMessage (System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.InstantMessageContentType,string&gt; contents, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSendMessage(class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Conversation.InstantMessageContentType, string&gt; contents, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.BeginSendMessage(System.Collections.Generic.IDictionary{Microsoft.Lync.Model.Conversation.InstantMessageContentType,System.String},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSendMessage (contents As IDictionary(Of InstantMessageContentType, String), modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendMessage(System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::InstantMessageContentType, System::String ^&gt; ^ contents, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contents" Type="System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.InstantMessageContentType,System.String&gt;" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contents">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Sends a text message formatted for specified content type to a remote conversation participant.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSendMessage">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSendMessage (string text, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSendMessage(string text, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.BeginSendMessage(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSendMessage (text As String, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendMessage(System::String ^ text, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Sends a plain text message to a remote conversation participant.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSetComposing">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSetComposing (bool isComposing, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSetComposing(bool isComposing, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.BeginSetComposing(System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSetComposing (isComposing As Boolean, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetComposing(bool isComposing, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isComposing" Type="System.Boolean" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="isComposing">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Sets the local composing state. The composing flag indicates that the local participant is typing a message.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Capabilities">
+      <MemberSignature Language="C#" Value="public int Capabilities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Capabilities" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.InstantMessageModality.Capabilities" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Capabilities { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets instant messaging Capabilities.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSendMessage">
+      <MemberSignature Language="C#" Value="public void EndSendMessage (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndSendMessage(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.EndSendMessage(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndSendMessage (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSendMessage(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Ends send message operation and un-blocks program execution on calling thread.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSetComposing">
+      <MemberSignature Language="C#" Value="public void EndSetComposing (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndSetComposing(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.EndSetComposing(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndSetComposing (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSetComposing(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Sets the local composing state. The composing flag indicates that the local participant is typing a message.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~InstantMessageModality ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!InstantMessageModality ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessagePropertyChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; InstantMessagePropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; InstantMessagePropertyChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.InstantMessageModality.InstantMessagePropertyChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event InstantMessagePropertyChanged As EventHandler(Of ModalityPropertyChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityPropertyChangedEventArgs ^&gt; ^ InstantMessagePropertyChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a property value changes</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageReceived">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.MessageSentEventArgs&gt; InstantMessageReceived;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.MessageSentEventArgs&gt; InstantMessageReceived" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.InstantMessageModality.InstantMessageReceived" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event InstantMessageReceived As EventHandler(Of MessageSentEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::MessageSentEventArgs ^&gt; ^ InstantMessageReceived;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.MessageSentEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when an instant message is received.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTyping">
+      <MemberSignature Language="C#" Value="public bool IsTyping { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTyping" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.InstantMessageModality.IsTyping" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTyping As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTyping { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a flag indicating whether the endpoint is composing a message.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTypingChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.IsTypingChangedEventArgs&gt; IsTypingChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.IsTypingChangedEventArgs&gt; IsTypingChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.InstantMessageModality.IsTypingChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event IsTypingChanged As EventHandler(Of IsTypingChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::IsTypingChangedEventArgs ^&gt; ^ IsTypingChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.IsTypingChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the istyping state changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCapabilities">
+      <MemberSignature Language="C#" Value="public void SetCapabilities (Microsoft.Lync.Model.Conversation.InstantMessageCapabilities capabilities);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetCapabilities(valuetype Microsoft.Lync.Model.Conversation.InstantMessageCapabilities capabilities) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.SetCapabilities(Microsoft.Lync.Model.Conversation.InstantMessageCapabilities)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCapabilities (capabilities As InstantMessageCapabilities)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetCapabilities(Microsoft::Lync::Model::Conversation::InstantMessageCapabilities capabilities);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="capabilities" Type="Microsoft.Lync.Model.Conversation.InstantMessageCapabilities" />
+      </Parameters>
+      <Docs>
+        <param name="capabilities">To be added.</param>
+        <summary>Sets self instant messaging Capabilities.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

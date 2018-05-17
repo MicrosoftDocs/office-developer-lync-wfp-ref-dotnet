@@ -1,0 +1,44 @@
+﻿<Type Name="StartAudioCallButtonAutomationPeer" FullName="Microsoft.Lync.Controls.AutomationPeers.StartAudioCallButtonAutomationPeer">
+  <TypeSignature Language="C#" Value="public class StartAudioCallButtonAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.StartAudioCallButton&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StartAudioCallButtonAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.StartAudioCallButton&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.StartAudioCallButtonAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class StartAudioCallButtonAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of StartAudioCallButton)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StartAudioCallButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::StartAudioCallButton ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.StartAudioCallButton&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.StartAudioCallButton</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             StartAudioCallButtonAutomationPeer class             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StartAudioCallButtonAutomationPeer (Microsoft.Lync.Controls.StartAudioCallButton control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.StartAudioCallButton control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.StartAudioCallButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.StartAudioCallButton)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As StartAudioCallButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; StartAudioCallButtonAutomationPeer(Microsoft::Lync::Controls::StartAudioCallButton ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.StartAudioCallButton" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>             Constructor             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

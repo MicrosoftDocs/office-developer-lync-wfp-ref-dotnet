@@ -1,0 +1,115 @@
+﻿<Type Name="DeviceType" FullName="Microsoft.Lync.Model.Device.DeviceType">
+  <TypeSignature Language="C#" Value="public enum DeviceType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeviceType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Device.DeviceType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DeviceType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DeviceType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates Device type.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="Custom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.DeviceType Custom = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.Custom" />
+      <MemberSignature Language="VB.NET" Value="Custom" />
+      <MemberSignature Language="C++ CLI" Value="Custom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.DeviceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Custom audio device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HeadSet">
+      <MemberSignature Language="C#" Value="HeadSet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.DeviceType HeadSet = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.HeadSet" />
+      <MemberSignature Language="VB.NET" Value="HeadSet" />
+      <MemberSignature Language="C++ CLI" Value="HeadSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.DeviceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Headset audio device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HumanInterfaceDevice">
+      <MemberSignature Language="C#" Value="HumanInterfaceDevice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.DeviceType HumanInterfaceDevice = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.HumanInterfaceDevice" />
+      <MemberSignature Language="VB.NET" Value="HumanInterfaceDevice" />
+      <MemberSignature Language="C++ CLI" Value="HumanInterfaceDevice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.DeviceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Human interface device (HID) type.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.DeviceType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.DeviceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.DeviceType Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.DeviceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Unknown audio device type.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

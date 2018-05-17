@@ -1,0 +1,41 @@
+﻿<Type Name="ContactInformationChangedEventArgs" FullName="Microsoft.Lync.Model.ContactInformationChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class ContactInformationChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactInformationChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactInformationChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactInformationChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactInformationChangedEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents information that has changed for a given contact.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ChangedContactInformation">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactInformationType&gt; ChangedContactInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Microsoft.Lync.Model.ContactInformationType&gt; ChangedContactInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactInformationChangedEventArgs.ChangedContactInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangedContactInformation As IList(Of ContactInformationType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ ChangedContactInformation { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactInformationType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the contact information that have changed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,169 @@
+﻿<Type Name="AccessEntry" FullName="Microsoft.Lync.Model.AccessEntry">
+  <TypeSignature Language="C#" Value="public class AccessEntry : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AccessEntry extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.AccessEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Class AccessEntry&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AccessEntry : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a user, workgroup, enterprise, federation, or public entity and the associated privacy level.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CanClearPermission">
+      <MemberSignature Language="C#" Value="public bool CanClearPermission ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanClearPermission() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessEntry.CanClearPermission" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanClearPermission () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanClearPermission();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns true when allowed to clear assigned permission.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanSetPermission">
+      <MemberSignature Language="C#" Value="public bool CanSetPermission (Microsoft.Lync.Model.AccessPermission permission);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanSetPermission(class Microsoft.Lync.Model.AccessPermission permission) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessEntry.CanSetPermission(Microsoft.Lync.Model.AccessPermission)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanSetPermission (permission As AccessPermission) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetPermission(Microsoft::Lync::Model::AccessPermission ^ permission);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="permission" Type="Microsoft.Lync.Model.AccessPermission" />
+      </Parameters>
+      <Docs>
+        <param name="permission">To be added.</param>
+        <summary>Returns true when allowed to set to a specific permission.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearPermission">
+      <MemberSignature Language="C#" Value="public void ClearPermission ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearPermission() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessEntry.ClearPermission" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearPermission ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearPermission();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Clear the permission that assigned to this access entry.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AccessEntry.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the access entry id.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permission">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.AccessPermission Permission { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.AccessPermission Permission" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AccessEntry.Permission" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Permission As AccessPermission" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::AccessPermission ^ Permission { Microsoft::Lync::Model::AccessPermission ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessPermission</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>returns the permission the access entry assigned.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.AccessEntryScope Scope { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.AccessEntryScope Scope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AccessEntry.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Scope As AccessEntryScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::AccessEntryScope Scope { Microsoft::Lync::Model::AccessEntryScope get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessEntryScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the access entry scope.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPermission">
+      <MemberSignature Language="C#" Value="public void SetPermission (Microsoft.Lync.Model.AccessPermission permission);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetPermission(class Microsoft.Lync.Model.AccessPermission permission) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessEntry.SetPermission(Microsoft.Lync.Model.AccessPermission)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetPermission (permission As AccessPermission)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetPermission(Microsoft::Lync::Model::AccessPermission ^ permission);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="permission" Type="Microsoft.Lync.Model.AccessPermission" />
+      </Parameters>
+      <Docs>
+        <param name="permission">To be added.</param>
+        <summary>Set this access entry to a specific permission.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

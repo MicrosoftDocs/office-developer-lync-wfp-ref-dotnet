@@ -1,0 +1,44 @@
+﻿<Type Name="StartVideoCallButtonAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.StartVideoCallButtonAutomationPeer">
+  <TypeSignature Language="C#" Value="public class StartVideoCallButtonAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.StartVideoCallButton&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StartVideoCallButtonAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.StartVideoCallButton&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.StartVideoCallButtonAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class StartVideoCallButtonAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of StartVideoCallButton)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StartVideoCallButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::StartVideoCallButton ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.StartVideoCallButton&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.StartVideoCallButton</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StartVideoCallButtonAutomationPeer (Microsoft.Lync.Controls.StartVideoCallButton control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.StartVideoCallButton control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.StartVideoCallButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.StartVideoCallButton)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As StartVideoCallButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; StartVideoCallButtonAutomationPeer(Microsoft::Lync::Controls::StartVideoCallButton ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.StartVideoCallButton" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

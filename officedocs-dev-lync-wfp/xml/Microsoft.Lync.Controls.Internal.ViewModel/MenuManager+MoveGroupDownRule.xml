@@ -1,0 +1,88 @@
+﻿<Type Name="MenuManager+MoveGroupDownRule" FullName="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager+MoveGroupDownRule">
+  <TypeSignature Language="C#" Value="public class MenuManager.MoveGroupDownRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit MenuManager/MoveGroupDownRule extends Microsoft.Lync.Controls.Internal.ViewModel.MenuManager/GroupMenuRule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule" />
+  <TypeSignature Language="VB.NET" Value="Public Class MenuManager.MoveGroupDownRule&#xA;Inherits MenuManager.GroupMenuRule" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::MoveGroupDownRule : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::GroupMenuRule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.ViewModel.MenuManager+GroupMenuRule</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MoveGroupDownRule (Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (manager As MenuManager)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MoveGroupDownRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="manager" Type="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager" />
+      </Parameters>
+      <Docs>
+        <param name="manager">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanExecuteCommand">
+      <MemberSignature Language="C#" Value="protected override bool CanExecuteCommand (object arg);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool CanExecuteCommand(object arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule.CanExecuteCommand(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteCommand (arg As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteCommand(System::Object ^ arg);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="arg" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="arg">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteCommand">
+      <MemberSignature Language="C#" Value="protected override void ExecuteCommand (object arg);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ExecuteCommand(object arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule.ExecuteCommand(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCommand (arg As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCommand(System::Object ^ arg);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="arg" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="arg">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

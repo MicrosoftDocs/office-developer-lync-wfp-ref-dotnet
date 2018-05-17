@@ -1,0 +1,81 @@
+﻿<Type Name="ContextEventArgs" FullName="Microsoft.Lync.Model.Conversation.ContextEventArgs">
+  <TypeSignature Language="C#" Value="public class ContextEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContextEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ContextEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContextEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContextEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the event data of a ContextSent or ContextReceived events.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationId">
+      <MemberSignature Language="C#" Value="public string ApplicationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ContextEventArgs.ApplicationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the contextual conversation application GUID.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextData">
+      <MemberSignature Language="C#" Value="public string ContextData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContextData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ContextEventArgs.ContextData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContextData As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContextData { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the contextual conversation context data.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextDataType">
+      <MemberSignature Language="C#" Value="public string ContextDataType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContextDataType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ContextEventArgs.ContextDataType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContextDataType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContextDataType { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the contextual conversation context data type.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

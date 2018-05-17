@@ -1,0 +1,41 @@
+﻿<Type Name="UCBase+PerformanceTracker" FullName="Microsoft.Lync.Controls.UCBase+PerformanceTracker">
+  <TypeSignature Language="C#" Value="public class UCBase.PerformanceTracker" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit UCBase/PerformanceTracker extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.UCBase.PerformanceTracker" />
+  <TypeSignature Language="VB.NET" Value="Public Class UCBase.PerformanceTracker" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class UCBase::PerformanceTracker" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Reserved for internal use.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PerformanceTracker (Microsoft.Lync.Controls.UCBase control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.UCBase control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.PerformanceTracker.#ctor(Microsoft.Lync.Controls.UCBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As UCBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PerformanceTracker(Microsoft::Lync::Controls::UCBase ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.UCBase" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>              Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

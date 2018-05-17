@@ -1,0 +1,104 @@
+﻿<Type Name="MenuManager+GroupMenuRule" FullName="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager+GroupMenuRule">
+  <TypeSignature Language="C#" Value="public abstract class MenuManager.GroupMenuRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit MenuManager/GroupMenuRule extends Microsoft.Lync.Controls.Internal.ViewModel.MenuManager/MenuRule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class MenuManager.GroupMenuRule&#xA;Inherits MenuManager.MenuRule" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::GroupMenuRule abstract : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.ViewModel.MenuManager+MenuRule</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected GroupMenuRule (Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (manager As MenuManager)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; GroupMenuRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="manager" Type="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager" />
+      </Parameters>
+      <Docs>
+        <param name="manager">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGroupManager">
+      <MemberSignature Language="C#" Value="protected Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager GetGroupManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager GetGroupManager() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule.GetGroupManager" />
+      <MemberSignature Language="VB.NET" Value="Protected Function GetGroupManager () As GroupByGroupsContactsAndGroupsManager" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroupsContactsAndGroupsManager ^ GetGroupManager();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGroupSortingInterface">
+      <MemberSignature Language="C#" Value="protected Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager GetGroupSortingInterface ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager GetGroupSortingInterface() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule.GetGroupSortingInterface" />
+      <MemberSignature Language="VB.NET" Value="Protected Function GetGroupSortingInterface () As ISortableContactsAndGroupManager" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; Microsoft::Lync::Controls::Internal::ViewModel::ISortableContactsAndGroupManager ^ GetGroupSortingInterface();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public override bool IsVisible ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsVisible() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule.IsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function IsVisible () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool IsVisible();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

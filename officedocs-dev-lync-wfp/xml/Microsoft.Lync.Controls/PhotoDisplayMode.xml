@@ -1,0 +1,77 @@
+﻿<Type Name="PhotoDisplayMode" FullName="Microsoft.Lync.Controls.PhotoDisplayMode">
+  <TypeSignature Language="C#" Value="public enum PhotoDisplayMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PhotoDisplayMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.PhotoDisplayMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PhotoDisplayMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PhotoDisplayMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Specifies the display mode of the presence photo for <see cref="T:Microsoft.Lync.Controls.PresenceIndicator" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Hidden">
+      <MemberSignature Language="C#" Value="Hidden" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PhotoDisplayMode Hidden = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PhotoDisplayMode.Hidden" />
+      <MemberSignature Language="VB.NET" Value="Hidden" />
+      <MemberSignature Language="C++ CLI" Value="Hidden" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PhotoDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Do not show photo             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Large">
+      <MemberSignature Language="C#" Value="Large" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PhotoDisplayMode Large = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PhotoDisplayMode.Large" />
+      <MemberSignature Language="VB.NET" Value="Large" />
+      <MemberSignature Language="C++ CLI" Value="Large" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PhotoDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Large Photo (48x48px)             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Small">
+      <MemberSignature Language="C#" Value="Small" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PhotoDisplayMode Small = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PhotoDisplayMode.Small" />
+      <MemberSignature Language="VB.NET" Value="Small" />
+      <MemberSignature Language="C++ CLI" Value="Small" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PhotoDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Small photo (32x32px)             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

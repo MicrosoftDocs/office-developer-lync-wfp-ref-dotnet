@@ -1,0 +1,174 @@
+﻿<Type Name="AccessPermission" FullName="Microsoft.Lync.Model.AccessPermission">
+  <TypeSignature Language="C#" Value="public class AccessPermission : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AccessPermission extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.AccessPermission" />
+  <TypeSignature Language="VB.NET" Value="Public Class AccessPermission&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AccessPermission : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a privacy level.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AccessEntries">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.AccessEntry&gt; AccessEntries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.AccessEntry&gt; AccessEntries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AccessPermission.AccessEntries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccessEntries As IList(Of AccessEntry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::AccessEntry ^&gt; ^ AccessEntries { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::AccessEntry ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.AccessEntry&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns all access entries.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessEntryAdded">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.AccessEntryCollectionChangedEventArgs&gt; AccessEntryAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.AccessEntryCollectionChangedEventArgs&gt; AccessEntryAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.AccessPermission.AccessEntryAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event AccessEntryAdded As EventHandler(Of AccessEntryCollectionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::AccessEntryCollectionChangedEventArgs ^&gt; ^ AccessEntryAdded;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.AccessEntryCollectionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when an access entry is added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessEntryRemoved">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.AccessEntryCollectionChangedEventArgs&gt; AccessEntryRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.AccessEntryCollectionChangedEventArgs&gt; AccessEntryRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.AccessPermission.AccessEntryRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event AccessEntryRemoved As EventHandler(Of AccessEntryCollectionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::AccessEntryCollectionChangedEventArgs ^&gt; ^ AccessEntryRemoved;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.AccessEntryCollectionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when an access entry is removed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.AccessLevel AccessLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.AccessLevel AccessLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AccessPermission.AccessLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccessLevel As AccessLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::AccessLevel AccessLevel { Microsoft::Lync::Model::AccessLevel get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets permission access level.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~AccessPermission ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessPermission.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!AccessPermission ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAccessEntry">
+      <MemberSignature Language="C#" Value="public void GetAccessEntry (Microsoft.Lync.Model.AccessEntryScope scope, string entryId, out Microsoft.Lync.Model.AccessEntry accessEntry);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GetAccessEntry(valuetype Microsoft.Lync.Model.AccessEntryScope scope, string entryId, [out] class Microsoft.Lync.Model.AccessEntry&amp; accessEntry) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessPermission.GetAccessEntry(Microsoft.Lync.Model.AccessEntryScope,System.String,Microsoft.Lync.Model.AccessEntry@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetAccessEntry (scope As AccessEntryScope, entryId As String, ByRef accessEntry As AccessEntry)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetAccessEntry(Microsoft::Lync::Model::AccessEntryScope scope, System::String ^ entryId, [Runtime::InteropServices::Out] Microsoft::Lync::Model::AccessEntry ^ % accessEntry);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scope" Type="Microsoft.Lync.Model.AccessEntryScope" />
+        <Parameter Name="entryId" Type="System.String" />
+        <Parameter Name="accessEntry" Type="Microsoft.Lync.Model.AccessEntry&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="scope">To be added.</param>
+        <param name="entryId">To be added.</param>
+        <param name="accessEntry">To be added.</param>
+        <summary>Gets the access entry instance, or creates a new one if not found.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (Microsoft.Lync.Model.AccessEntryScope scope, string entryId, out Microsoft.Lync.Model.AccessEntry accessEntry);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(valuetype Microsoft.Lync.Model.AccessEntryScope scope, string entryId, [out] class Microsoft.Lync.Model.AccessEntry&amp; accessEntry) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessPermission.TryGetValue(Microsoft.Lync.Model.AccessEntryScope,System.String,Microsoft.Lync.Model.AccessEntry@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (scope As AccessEntryScope, entryId As String, ByRef accessEntry As AccessEntry) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Lync::Model::AccessEntryScope scope, System::String ^ entryId, [Runtime::InteropServices::Out] Microsoft::Lync::Model::AccessEntry ^ % accessEntry);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scope" Type="Microsoft.Lync.Model.AccessEntryScope" />
+        <Parameter Name="entryId" Type="System.String" />
+        <Parameter Name="accessEntry" Type="Microsoft.Lync.Model.AccessEntry&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="scope">To be added.</param>
+        <param name="entryId">To be added.</param>
+        <param name="accessEntry">To be added.</param>
+        <summary>Try to get an access entry object given its scope and id.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

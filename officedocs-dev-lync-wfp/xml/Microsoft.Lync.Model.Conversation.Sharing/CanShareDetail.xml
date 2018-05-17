@@ -1,0 +1,155 @@
+﻿<Type Name="CanShareDetail" FullName="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail">
+  <TypeSignature Language="C#" Value="public enum CanShareDetail" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CanShareDetail extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CanShareDetail" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CanShareDetail" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the detail of why sharing a particular resource is allowed or not allowed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Allowed">
+      <MemberSignature Language="C#" Value="Allowed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail Allowed = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.Allowed" />
+      <MemberSignature Language="VB.NET" Value="Allowed" />
+      <MemberSignature Language="C++ CLI" Value="Allowed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Sharing is allowed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CannotConnect">
+      <MemberSignature Language="C#" Value="CannotConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail CannotConnect = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.CannotConnect" />
+      <MemberSignature Language="VB.NET" Value="CannotConnect" />
+      <MemberSignature Language="C++ CLI" Value="CannotConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Cannot share because a connection to the Lync server cannot be made at this time.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisabledByOrganizerPolicy">
+      <MemberSignature Language="C#" Value="DisabledByOrganizerPolicy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail DisabledByOrganizerPolicy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByOrganizerPolicy" />
+      <MemberSignature Language="VB.NET" Value="DisabledByOrganizerPolicy" />
+      <MemberSignature Language="C++ CLI" Value="DisabledByOrganizerPolicy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Sharing is disabled by organizer policy.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisabledByPolicy">
+      <MemberSignature Language="C#" Value="DisabledByPolicy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail DisabledByPolicy = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByPolicy" />
+      <MemberSignature Language="VB.NET" Value="DisabledByPolicy" />
+      <MemberSignature Language="C++ CLI" Value="DisabledByPolicy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Sharing is disabled by admin policy.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisabledByRole">
+      <MemberSignature Language="C#" Value="DisabledByRole" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail DisabledByRole = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByRole" />
+      <MemberSignature Language="VB.NET" Value="DisabledByRole" />
+      <MemberSignature Language="C++ CLI" Value="DisabledByRole" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Sharing is disabled based on participant role.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisabledForOtherReason">
+      <MemberSignature Language="C#" Value="DisabledForOtherReason" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail DisabledForOtherReason = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledForOtherReason" />
+      <MemberSignature Language="VB.NET" Value="DisabledForOtherReason" />
+      <MemberSignature Language="C++ CLI" Value="DisabledForOtherReason" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary> 
+            Disabled for some other reason.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

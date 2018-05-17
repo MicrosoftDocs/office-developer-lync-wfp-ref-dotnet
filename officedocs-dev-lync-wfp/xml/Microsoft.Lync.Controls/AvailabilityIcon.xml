@@ -1,0 +1,351 @@
+﻿<Type Name="AvailabilityIcon" FullName="Microsoft.Lync.Controls.AvailabilityIcon">
+  <TypeSignature Language="C#" Value="public class AvailabilityIcon : Microsoft.Lync.Controls.ContactBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi AvailabilityIcon extends Microsoft.Lync.Controls.ContactBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AvailabilityIcon" />
+  <TypeSignature Language="VB.NET" Value="Public Class AvailabilityIcon&#xA;Inherits ContactBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AvailabilityIcon : Microsoft::Lync::Controls::ContactBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.ContactBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_PresenceColorGrid", Type=typeof(System.Windows.Controls.Grid))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_Viewbox", Type=typeof(System.Windows.Controls.Viewbox))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="ContactTypeStates", Name="Telephone")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="ContactTypeStates", Name="Person")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="PhotoDisplayAutoSizeStates", Name="LargeSize")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="PhotoVisibilityStates", Name="Visible")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="ContactTypeStates", Name="UnknownContactType")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="AvailabilityStates", Name="Away")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="AvailabilityStates", Name="Busy")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="AvailabilityStates", Name="Unknown")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="AvailabilityStates", Name="DoNotDisturb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="AvailabilityStates", Name="Blocked")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="AvailabilityStates", Name="Offline")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="PhotoVisibilityStates", Name="Hidden")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="AvailabilityStates", Name="Available")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="PhotoDisplayAutoSizeStates", Name="HiddenSize")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="PhotoDisplayAutoSizeStates", Name="SmallSize")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="ContactTypeStates", Name="Bot")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="ContactTypeStates", Name="DistributionGroup")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             Reserved for internal use.  (See <see cref="T:Microsoft.Lync.Controls.PresenceIndicator" />).             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AvailabilityIcon ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AvailabilityIcon();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Constructs an instance of the AvailabilityIcon class.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailabilityState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.ContactAvailability AvailabilityState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.ContactAvailability AvailabilityState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AvailabilityIcon.AvailabilityState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AvailabilityState As ContactAvailability" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ContactAvailability AvailabilityState { Microsoft::Lync::Controls::ContactAvailability get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the user's current aggregated availability.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailabilityStateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty AvailabilityStateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty AvailabilityStateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.AvailabilityIcon.AvailabilityStateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AvailabilityStateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ AvailabilityStateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.AvailabilityIcon.AvailabilityState" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsBlocked">
+      <MemberSignature Language="C#" Value="public bool IsBlocked { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsBlocked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AvailabilityIcon.IsBlocked" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsBlocked As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsBlocked { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a boolean value which indicates whether or not this contact's access level is set to 'blocked'.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsBlockedProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsBlockedProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsBlockedProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.AvailabilityIcon.IsBlockedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsBlockedProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsBlockedProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.AvailabilityIcon.IsBlocked" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             When overridden in a derived class, is invoked whenever application code or              internal processes (such as a rebuilding layout pass)              call <see cref="ApplyTemplate" />.              In simplest terms, this means the method is called just before a UI element displays              in an application.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnContactPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override void OnContactPropertyChanged (Microsoft.Lync.Controls.Internal.Model.IContactModel contactModel, string propertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnContactPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.IContactModel contactModel, string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.OnContactPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IContactModel,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnContactPropertyChanged (contactModel As IContactModel, propertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnContactPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ contactModel, System::String ^ propertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactModel" Type="Microsoft.Lync.Controls.Internal.Model.IContactModel" />
+        <Parameter Name="propertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="contactModel">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Return <see cref="AutomationPeer" /> for <see cref="AvailabilityIcon" /> control.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPresenceItemsPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override void OnPresenceItemsPropertyChanged (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems, string propertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPresenceItemsPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems, string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.OnPresenceItemsPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IPresenceItems,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPresenceItemsPropertyChanged (presenceItems As IPresenceItems, propertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPresenceItemsPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems, System::String ^ propertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+        <Parameter Name="propertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhotoDisplayMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.PhotoDisplayMode PhotoDisplayMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.PhotoDisplayMode PhotoDisplayMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AvailabilityIcon.PhotoDisplayMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhotoDisplayMode As PhotoDisplayMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PhotoDisplayMode PhotoDisplayMode { Microsoft::Lync::Controls::PhotoDisplayMode get(); void set(Microsoft::Lync::Controls::PhotoDisplayMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PhotoDisplayMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Get or sets a value which determines if a presence photo will be shown, and if so, in what size.              Supporting 32x32px, 48x48px, Hidden.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhotoDisplayModeProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty PhotoDisplayModeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty PhotoDisplayModeProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.AvailabilityIcon.PhotoDisplayModeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhotoDisplayModeProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PhotoDisplayModeProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.AvailabilityIcon.PhotoDisplayMode" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwirePresenceItems">
+      <MemberSignature Language="C#" Value="protected override void UnwirePresenceItems (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnwirePresenceItems(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.UnwirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub UnwirePresenceItems (presenceItems As IPresenceItems)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WirePresenceItems">
+      <MemberSignature Language="C#" Value="protected override void WirePresenceItems (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void WirePresenceItems(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.WirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub WirePresenceItems (presenceItems As IPresenceItems)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

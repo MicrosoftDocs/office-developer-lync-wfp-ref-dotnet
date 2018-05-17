@@ -1,0 +1,62 @@
+﻿<Type Name="HelpTextButtonAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer">
+  <TypeSignature Language="C#" Value="public class HelpTextButtonAutomationPeer : System.Windows.Automation.Peers.ButtonAutomationPeer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HelpTextButtonAutomationPeer extends System.Windows.Automation.Peers.ButtonAutomationPeer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class HelpTextButtonAutomationPeer&#xA;Inherits ButtonAutomationPeer" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HelpTextButtonAutomationPeer : System::Windows::Automation::Peers::ButtonAutomationPeer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Windows.Automation.Peers.ButtonAutomationPeer</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HelpTextButtonAutomationPeer (Microsoft.Lync.Controls.Internal.HelpTextButton control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.HelpTextButton control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.HelpTextButton)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As HelpTextButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; HelpTextButtonAutomationPeer(Microsoft::Lync::Controls::Internal::HelpTextButton ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.Internal.HelpTextButton" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNameCore">
+      <MemberSignature Language="C#" Value="protected override string GetNameCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetNameCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer.GetNameCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetNameCore();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

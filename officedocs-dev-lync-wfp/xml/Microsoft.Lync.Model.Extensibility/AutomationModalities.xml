@@ -1,0 +1,158 @@
+﻿<Type Name="AutomationModalities" FullName="Microsoft.Lync.Model.Extensibility.AutomationModalities">
+  <TypeSignature Language="C#" Value="public enum AutomationModalities" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AutomationModalities extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.AutomationModalities" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AutomationModalities" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AutomationModalities" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the types of conversation modality that can be added to a conversation started using the Automation.BeginStartConversation method.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationSharing">
+      <MemberSignature Language="C#" Value="ApplicationSharing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalities ApplicationSharing = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalities.ApplicationSharing" />
+      <MemberSignature Language="VB.NET" Value="ApplicationSharing" />
+      <MemberSignature Language="C++ CLI" Value="ApplicationSharing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalities</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Application sharing modality.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Audio">
+      <MemberSignature Language="C#" Value="Audio" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalities Audio = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalities.Audio" />
+      <MemberSignature Language="VB.NET" Value="Audio" />
+      <MemberSignature Language="C++ CLI" Value="Audio" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalities</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Audio modality. Used for voice transmission</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileTransfer">
+      <MemberSignature Language="C#" Value="FileTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalities FileTransfer = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalities.FileTransfer" />
+      <MemberSignature Language="VB.NET" Value="FileTransfer" />
+      <MemberSignature Language="C++ CLI" Value="FileTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalities</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>File transfer modality.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessage">
+      <MemberSignature Language="C#" Value="InstantMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalities InstantMessage = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalities.InstantMessage" />
+      <MemberSignature Language="VB.NET" Value="InstantMessage" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalities</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Instant messaging modality.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalities Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalities.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalities</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalities Reserved1 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalities.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalities</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Video">
+      <MemberSignature Language="C#" Value="Video" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.AutomationModalities Video = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalities.Video" />
+      <MemberSignature Language="VB.NET" Value="Video" />
+      <MemberSignature Language="C++ CLI" Value="Video" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.AutomationModalities</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Video modality.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

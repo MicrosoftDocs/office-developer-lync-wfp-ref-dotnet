@@ -1,0 +1,172 @@
+﻿<Type Name="ConversationWindowInformationType" FullName="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType">
+  <TypeSignature Language="C#" Value="public enum ConversationWindowInformationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationWindowInformationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversationWindowInformationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConversationWindowInformationType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the conversation window properties.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HasContentStage">
+      <MemberSignature Language="C#" Value="HasContentStage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType HasContentStage = int32(269352964)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasContentStage" />
+      <MemberSignature Language="VB.NET" Value="HasContentStage" />
+      <MemberSignature Language="C++ CLI" Value="HasContentStage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>269352964</MemberValue>
+      <Docs>
+        <summary>Returns true if the content stage is being shown.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HasExtensionPane">
+      <MemberSignature Language="C#" Value="HasExtensionPane" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType HasExtensionPane = int32(269352965)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasExtensionPane" />
+      <MemberSignature Language="VB.NET" Value="HasExtensionPane" />
+      <MemberSignature Language="C++ CLI" Value="HasExtensionPane" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>269352965</MemberValue>
+      <Docs>
+        <summary>Returns true if the conversation window is showing the extension pane.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HasVideo">
+      <MemberSignature Language="C#" Value="HasVideo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType HasVideo = int32(269352963)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasVideo" />
+      <MemberSignature Language="VB.NET" Value="HasVideo" />
+      <MemberSignature Language="C++ CLI" Value="HasVideo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>269352963</MemberValue>
+      <Docs>
+        <summary>Returns true if the conversation window is showing the main video pane.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HeightMin">
+      <MemberSignature Language="C#" Value="HeightMin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType HeightMin = int32(537788417)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HeightMin" />
+      <MemberSignature Language="VB.NET" Value="HeightMin" />
+      <MemberSignature Language="C++ CLI" Value="HeightMin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>537788417</MemberValue>
+      <Docs>
+        <summary>The minimum height of the conversation window.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="IsDocked">
+      <MemberSignature Language="C#" Value="IsDocked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType IsDocked = int32(269352962)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.IsDocked" />
+      <MemberSignature Language="VB.NET" Value="IsDocked" />
+      <MemberSignature Language="C++ CLI" Value="IsDocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>269352962</MemberValue>
+      <Docs>
+        <summary>Is the conversation window docked?</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFullScreen">
+      <MemberSignature Language="C#" Value="IsFullScreen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType IsFullScreen = int32(269352966)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.IsFullScreen" />
+      <MemberSignature Language="VB.NET" Value="IsFullScreen" />
+      <MemberSignature Language="C++ CLI" Value="IsFullScreen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>269352966</MemberValue>
+      <Docs>
+        <summary>Returns true if the conversation window is in fullscreen mode.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WidthMin">
+      <MemberSignature Language="C#" Value="WidthMin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType WidthMin = int32(537788416)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.WidthMin" />
+      <MemberSignature Language="VB.NET" Value="WidthMin" />
+      <MemberSignature Language="C++ CLI" Value="WidthMin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>537788416</MemberValue>
+      <Docs>
+        <summary>The minimum width of the conversation window.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

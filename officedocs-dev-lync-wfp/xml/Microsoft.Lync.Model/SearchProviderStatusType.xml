@@ -1,0 +1,271 @@
+﻿<Type Name="SearchProviderStatusType" FullName="Microsoft.Lync.Model.SearchProviderStatusType">
+  <TypeSignature Language="C#" Value="public enum SearchProviderStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchProviderStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchProviderStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchProviderStatusType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchProviderStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates search provider statuses.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CredentialsNotEntered">
+      <MemberSignature Language="C#" Value="CredentialsNotEntered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType CredentialsNotEntered = int32(1004)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.CredentialsNotEntered" />
+      <MemberSignature Language="VB.NET" Value="CredentialsNotEntered" />
+      <MemberSignature Language="C++ CLI" Value="CredentialsNotEntered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1004</MemberValue>
+      <Docs>
+        <summary>User has not provided credentials to the challenging search provider.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileCorrupted">
+      <MemberSignature Language="C#" Value="FileCorrupted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType FileCorrupted = int32(1003)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.FileCorrupted" />
+      <MemberSignature Language="VB.NET" Value="FileCorrupted" />
+      <MemberSignature Language="C++ CLI" Value="FileCorrupted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1003</MemberValue>
+      <Docs>
+        <summary>Search provider synchronization failed due to corrupted file.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileNotFound">
+      <MemberSignature Language="C#" Value="FileNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType FileNotFound = int32(1002)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.FileNotFound" />
+      <MemberSignature Language="VB.NET" Value="FileNotFound" />
+      <MemberSignature Language="C++ CLI" Value="FileNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1002</MemberValue>
+      <Docs>
+        <summary>Search provider synchronization failed due to file not found.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializationFailed">
+      <MemberSignature Language="C#" Value="InitializationFailed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType InitializationFailed = int32(1006)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.InitializationFailed" />
+      <MemberSignature Language="VB.NET" Value="InitializationFailed" />
+      <MemberSignature Language="C++ CLI" Value="InitializationFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1006</MemberValue>
+      <Docs>
+        <summary>Failed to initialize search provider synchronization.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="LocalDatabaseFailure">
+      <MemberSignature Language="C#" Value="LocalDatabaseFailure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType LocalDatabaseFailure = int32(1001)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.LocalDatabaseFailure" />
+      <MemberSignature Language="VB.NET" Value="LocalDatabaseFailure" />
+      <MemberSignature Language="C++ CLI" Value="LocalDatabaseFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1001</MemberValue>
+      <Docs>
+        <summary>Search provider synchronization failed due to local database failure.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotConfigured">
+      <MemberSignature Language="C#" Value="NotConfigured" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType NotConfigured = int32(1005)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.NotConfigured" />
+      <MemberSignature Language="VB.NET" Value="NotConfigured" />
+      <MemberSignature Language="C++ CLI" Value="NotConfigured" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1005</MemberValue>
+      <Docs>
+        <summary>No search provider has been configured.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherFailure">
+      <MemberSignature Language="C#" Value="OtherFailure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType OtherFailure = int32(1000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.OtherFailure" />
+      <MemberSignature Language="VB.NET" Value="OtherFailure" />
+      <MemberSignature Language="C++ CLI" Value="OtherFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000</MemberValue>
+      <Docs>
+        <summary>Search provider synchronization failed for an unknown reason.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncInProgress">
+      <MemberSignature Language="C#" Value="SyncInProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType SyncInProgress = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncInProgress" />
+      <MemberSignature Language="VB.NET" Value="SyncInProgress" />
+      <MemberSignature Language="C++ CLI" Value="SyncInProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Search provider synchronization is in progress.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncNotStarted">
+      <MemberSignature Language="C#" Value="SyncNotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType SyncNotStarted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncNotStarted" />
+      <MemberSignature Language="VB.NET" Value="SyncNotStarted" />
+      <MemberSignature Language="C++ CLI" Value="SyncNotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Search provider synchronization has not started.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncSucceeded">
+      <MemberSignature Language="C#" Value="SyncSucceeded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType SyncSucceeded = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceeded" />
+      <MemberSignature Language="VB.NET" Value="SyncSucceeded" />
+      <MemberSignature Language="C++ CLI" Value="SyncSucceeded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Search provider synchronization has completed successfully.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncSucceededForExternalOnly">
+      <MemberSignature Language="C#" Value="SyncSucceededForExternalOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType SyncSucceededForExternalOnly = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceededForExternalOnly" />
+      <MemberSignature Language="VB.NET" Value="SyncSucceededForExternalOnly" />
+      <MemberSignature Language="C++ CLI" Value="SyncSucceededForExternalOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary> 
+            Search provider service from external is available.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncSucceededForInternalOnly">
+      <MemberSignature Language="C#" Value="SyncSucceededForInternalOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviderStatusType SyncSucceededForInternalOnly = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceededForInternalOnly" />
+      <MemberSignature Language="VB.NET" Value="SyncSucceededForInternalOnly" />
+      <MemberSignature Language="C++ CLI" Value="SyncSucceededForInternalOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary> 
+            Search provider service from internal is available.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

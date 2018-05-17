@@ -1,0 +1,58 @@
+﻿<Type Name="SortByOption" FullName="Microsoft.Lync.Controls.SortByOption">
+  <TypeSignature Language="C#" Value="public enum SortByOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SortByOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SortByOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SortByOption" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SortByOption" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Sort options for the <see cref="T:Microsoft.Lync.Controls.ContactList" /> control.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Availability">
+      <MemberSignature Language="C#" Value="Availability" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SortByOption Availability = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SortByOption.Availability" />
+      <MemberSignature Language="VB.NET" Value="Availability" />
+      <MemberSignature Language="C++ CLI" Value="Availability" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SortByOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Specifies that items within each group should be sorted by availability.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="DisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SortByOption DisplayName = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SortByOption.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="DisplayName" />
+      <MemberSignature Language="C++ CLI" Value="DisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SortByOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Specifies that items within each group should be sorted by display name.             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,298 @@
+﻿<Type Name="PresenceIndicator" FullName="Microsoft.Lync.Controls.PresenceIndicator">
+  <TypeSignature Language="C#" Value="public class PresenceIndicator : Microsoft.Lync.Controls.AvailabilityIcon" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi PresenceIndicator extends Microsoft.Lync.Controls.AvailabilityIcon" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.PresenceIndicator" />
+  <TypeSignature Language="VB.NET" Value="Public Class PresenceIndicator&#xA;Inherits AvailabilityIcon" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PresenceIndicator : Microsoft::Lync::Controls::AvailabilityIcon" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.AvailabilityIcon</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_PopupContactCard", Type=typeof(Microsoft.Lync.Controls.Internal.PopupContactCard))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             The PresenceIndicator control displays one of several icons that indicate              the presence of a given user.              </summary>
+    <remarks>
+      <para>             The PresenceIndicator control is a stand-alone control representing              a single contact, and enables access to the quick connect menu and the              contact card for the user. The control also can display a photo              for the given user.             </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PresenceIndicator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PresenceIndicator();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Initializes a new instance of the PresenceIndicator class.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivityStatus">
+      <MemberSignature Language="C#" Value="public string ActivityStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActivityStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.PresenceIndicator.ActivityStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivityStatus As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ActivityStatus { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a localized string representing the user's ActivityStatus, for example "In a meeting".             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivityStatusProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ActivityStatusProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ActivityStatusProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceIndicator.ActivityStatusProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ActivityStatusProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ActivityStatusProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.PresenceIndicator.ActivityStatus" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoverAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.PresenceHoverActions HoverAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.PresenceHoverActions HoverAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.PresenceIndicator.HoverAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoverAction As PresenceHoverActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PresenceHoverActions HoverAction { Microsoft::Lync::Controls::PresenceHoverActions get(); void set(Microsoft::Lync::Controls::PresenceHoverActions value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PresenceHoverActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the action the control should take when a user hovers over it.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoverActionProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty HoverActionProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty HoverActionProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceIndicator.HoverActionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoverActionProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HoverActionProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="F:Microsoft.Lync.Controls.PresenceIndicator.HoverActionProperty" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             When overridden in a derived class, is invoked whenever application code or              internal processes (such as a rebuilding layout pass)              call <see cref="ApplyTemplate" />.              In simplest terms, this means the method is called just before a UI element displays              in an application.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Return the <see cref="AutomationPeer" /> object for the <see cref="PresenceIndicator" /> control.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnKeyDown">
+      <MemberSignature Language="C#" Value="protected override void OnKeyDown (System.Windows.Input.KeyEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnKeyDown(class System.Windows.Input.KeyEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.OnKeyDown(System.Windows.Input.KeyEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnKeyDown (e As KeyEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnKeyDown(System::Windows::Input::KeyEventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Windows.Input.KeyEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">The data for the event. </param>
+        <summary>             Called before the <see cref="E:System.Windows.UIElement.KeyDown" /> event occurs.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPresenceItemsPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnPresenceItemsPropertyChanged (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems, string propertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPresenceItemsPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems, string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.OnPresenceItemsPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IPresenceItems,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnPresenceItemsPropertyChanged (presenceItems As IPresenceItems, propertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPresenceItemsPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems, System::String ^ propertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+        <Parameter Name="propertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SingleClickAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.PresenceClickActions SingleClickAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.PresenceClickActions SingleClickAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.PresenceIndicator.SingleClickAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property SingleClickAction As PresenceClickActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PresenceClickActions SingleClickAction { Microsoft::Lync::Controls::PresenceClickActions get(); void set(Microsoft::Lync::Controls::PresenceClickActions value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PresenceClickActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the action the PresenceIndicator control should take when a user single-clicks on it.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SingleClickActionProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty SingleClickActionProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty SingleClickActionProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceIndicator.SingleClickActionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SingleClickActionProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SingleClickActionProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.PresenceIndicator.SingleClickAction" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwirePresenceItems">
+      <MemberSignature Language="C#" Value="protected override sealed void UnwirePresenceItems (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnwirePresenceItems(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.UnwirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwirePresenceItems (presenceItems As IPresenceItems)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WirePresenceItems">
+      <MemberSignature Language="C#" Value="protected override sealed void WirePresenceItems (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void WirePresenceItems(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.WirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WirePresenceItems (presenceItems As IPresenceItems)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

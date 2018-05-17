@@ -1,0 +1,153 @@
+﻿<Type Name="LyncClientNotification" FullName="Microsoft.Lync.Model.LyncClientNotification">
+  <TypeSignature Language="C#" Value="public enum LyncClientNotification" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LyncClientNotification extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.LyncClientNotification" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LyncClientNotification" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LyncClientNotification" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the Lync Client notification type</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Autodiscovery">
+      <MemberSignature Language="C#" Value="Autodiscovery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientNotification Autodiscovery = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.Autodiscovery" />
+      <MemberSignature Language="VB.NET" Value="Autodiscovery" />
+      <MemberSignature Language="C++ CLI" Value="Autodiscovery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientNotification</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Notify for auto discovery event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarQueryStatus">
+      <MemberSignature Language="C#" Value="CalendarQueryStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientNotification CalendarQueryStatus = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.CalendarQueryStatus" />
+      <MemberSignature Language="VB.NET" Value="CalendarQueryStatus" />
+      <MemberSignature Language="C++ CLI" Value="CalendarQueryStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientNotification</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Notify for calendar query status event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderManagerStatus">
+      <MemberSignature Language="C#" Value="FolderManagerStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientNotification FolderManagerStatus = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.FolderManagerStatus" />
+      <MemberSignature Language="VB.NET" Value="FolderManagerStatus" />
+      <MemberSignature Language="C++ CLI" Value="FolderManagerStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientNotification</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Notify for folder manager status event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientNotification Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientNotification</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MapiStatus">
+      <MemberSignature Language="C#" Value="MapiStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientNotification MapiStatus = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.MapiStatus" />
+      <MemberSignature Language="VB.NET" Value="MapiStatus" />
+      <MemberSignature Language="C++ CLI" Value="MapiStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientNotification</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Notify for Mapi status event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookContactProviderStatus">
+      <MemberSignature Language="C#" Value="OutlookContactProviderStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientNotification OutlookContactProviderStatus = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.OutlookContactProviderStatus" />
+      <MemberSignature Language="VB.NET" Value="OutlookContactProviderStatus" />
+      <MemberSignature Language="C++ CLI" Value="OutlookContactProviderStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientNotification</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Notify for Outlook contact provider status event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WabContactProviderStatus">
+      <MemberSignature Language="C#" Value="WabContactProviderStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientNotification WabContactProviderStatus = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.WabContactProviderStatus" />
+      <MemberSignature Language="VB.NET" Value="WabContactProviderStatus" />
+      <MemberSignature Language="C++ CLI" Value="WabContactProviderStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientNotification</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Notify for Windows address book contact provider status event.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

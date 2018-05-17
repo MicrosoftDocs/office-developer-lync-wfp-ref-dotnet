@@ -1,0 +1,62 @@
+﻿<Type Name="HelpTextToggleButtonAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer">
+  <TypeSignature Language="C#" Value="public class HelpTextToggleButtonAutomationPeer : System.Windows.Automation.Peers.ToggleButtonAutomationPeer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HelpTextToggleButtonAutomationPeer extends System.Windows.Automation.Peers.ToggleButtonAutomationPeer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class HelpTextToggleButtonAutomationPeer&#xA;Inherits ToggleButtonAutomationPeer" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HelpTextToggleButtonAutomationPeer : System::Windows::Automation::Peers::ToggleButtonAutomationPeer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Windows.Automation.Peers.ToggleButtonAutomationPeer</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HelpTextToggleButtonAutomationPeer (Microsoft.Lync.Controls.Internal.HelpTextToggleButton control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.HelpTextToggleButton control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.HelpTextToggleButton)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As HelpTextToggleButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; HelpTextToggleButtonAutomationPeer(Microsoft::Lync::Controls::Internal::HelpTextToggleButton ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.Internal.HelpTextToggleButton" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNameCore">
+      <MemberSignature Language="C#" Value="protected override string GetNameCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetNameCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer.GetNameCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetNameCore();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

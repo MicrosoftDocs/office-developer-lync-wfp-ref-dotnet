@@ -1,0 +1,44 @@
+﻿<Type Name="RoomMessageEventArgs" FullName="Microsoft.Lync.Model.Room.RoomMessageEventArgs">
+  <TypeSignature Language="C#" Value="public class RoomMessageEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoomMessageEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomMessageEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class RoomMessageEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RoomMessageEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Encapsulates the state of the event raised when a local user sends a message to a group chat room.</summary>
+    <remarks>
+      <para>When room message filtering is enabled, the IsSendingMessge event is raised when the local user is sending a message to the room.  This class instance gives you access to the message that will be sent to the room or canceled after you take the appropriate action on the message.  For information about taking action on a message, see Room.SendFilteredMessage(Microsoft.Lync.Model.Room.RoomMessage,Microsoft.Lync.Model.Room.RoomZMessageFilteringAction).</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.RoomMessage Message { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Room.RoomMessage Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageEventArgs.Message" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Message As RoomMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomMessage ^ Message { Microsoft::Lync::Model::Room::RoomMessage ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the room message data.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

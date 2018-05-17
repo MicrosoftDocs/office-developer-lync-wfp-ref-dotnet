@@ -1,0 +1,141 @@
+﻿<Type Name="ConversationWindowNeedsSizeChangeEventArgs" FullName="Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs">
+  <TypeSignature Language="C#" Value="public class ConversationWindowNeedsSizeChangeEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationWindowNeedsSizeChangeEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationWindowNeedsSizeChangeEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationWindowNeedsSizeChangeEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the data of a ConversationWindowNeedsSizeChange Event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MaximumWindowHeight">
+      <MemberSignature Language="C#" Value="public int MaximumWindowHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumWindowHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MaximumWindowHeight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaximumWindowHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumWindowHeight { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the maximum required UI window height.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumWindowWidth">
+      <MemberSignature Language="C#" Value="public int MaximumWindowWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumWindowWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MaximumWindowWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaximumWindowWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumWindowWidth { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the maximum required UI window width.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumWindowHeight">
+      <MemberSignature Language="C#" Value="public int MinimumWindowHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumWindowHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MinimumWindowHeight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinimumWindowHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumWindowHeight { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the minimum required UI window height.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumWindowWidth">
+      <MemberSignature Language="C#" Value="public int MinimumWindowWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumWindowWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MinimumWindowWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinimumWindowWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumWindowWidth { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the minimum required UI window width.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecommendedWindowHeight">
+      <MemberSignature Language="C#" Value="public int RecommendedWindowHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RecommendedWindowHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.RecommendedWindowHeight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecommendedWindowHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RecommendedWindowHeight { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the recommended UI window height.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecommendedWindowWidth">
+      <MemberSignature Language="C#" Value="public int RecommendedWindowWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RecommendedWindowWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.RecommendedWindowWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecommendedWindowWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RecommendedWindowWidth { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the recommended UI window width.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

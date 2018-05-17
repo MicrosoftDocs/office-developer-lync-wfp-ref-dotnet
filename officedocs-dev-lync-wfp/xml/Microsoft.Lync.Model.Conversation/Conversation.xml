@@ -1,0 +1,1017 @@
+﻿<Type Name="Conversation" FullName="Microsoft.Lync.Model.Conversation.Conversation">
+  <TypeSignature Language="C#" Value="public class Conversation : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Conversation extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Conversation" />
+  <TypeSignature Language="VB.NET" Value="Public Class Conversation&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Conversation : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Describes a conversation. It includes details such as the conversation participants, modalities (InstantMessaging, AudioVideo), state, etc., and implements actions such as merge, park, terminate or other conversation actions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActionAvailabilityChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs&gt; ActionAvailabilityChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs&gt; ActionAvailabilityChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ActionAvailabilityChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ConversationActionAvailabilityEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationActionAvailabilityEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when an action availability changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddParticipant">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Participant AddParticipant (Microsoft.Lync.Model.Contact contact);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Conversation.Participant AddParticipant(class Microsoft.Lync.Model.Contact contact) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.AddParticipant(Microsoft.Lync.Model.Contact)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Participant ^ AddParticipant(Microsoft::Lync::Model::Contact ^ contact);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Participant</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Lync.Model.Contact" />
+      </Parameters>
+      <Docs>
+        <param name="contact">To be added.</param>
+        <summary>
+            Adds a contact to a conversation and returns the contact as a participant.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddParticipant">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Participant AddParticipant (Microsoft.Lync.Model.ContactEndpoint endpoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Conversation.Participant AddParticipant(class Microsoft.Lync.Model.ContactEndpoint endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.AddParticipant(Microsoft.Lync.Model.ContactEndpoint)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddParticipant (endpoint As ContactEndpoint) As Participant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Participant ^ AddParticipant(Microsoft::Lync::Model::ContactEndpoint ^ endpoint);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Participant</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpoint" Type="Microsoft.Lync.Model.ContactEndpoint" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint">To be added.</param>
+        <summary>
+            Adds one of a contact's endpoints to a conversation and returns the contact as a participant. 
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAdmitParticipants">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginAdmitParticipants (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Conversation.Participant&gt; participants, AsyncCallback conversationCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginAdmitParticipants(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Model.Conversation.Participant&gt; participants, class System.AsyncCallback conversationCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginAdmitParticipants(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Conversation.Participant},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginAdmitParticipants (participants As IEnumerable(Of Participant), conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAdmitParticipants(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ participants, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="participants" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Conversation.Participant&gt;" />
+        <Parameter Name="conversationCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="participants">To be added.</param>
+        <param name="conversationCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Used to admit a set of participants into conference.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDenyParticipants">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginDenyParticipants (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Conversation.Participant&gt; participants, AsyncCallback conversationCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginDenyParticipants(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Model.Conversation.Participant&gt; participants, class System.AsyncCallback conversationCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginDenyParticipants(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Conversation.Participant},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginDenyParticipants (participants As IEnumerable(Of Participant), conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginDenyParticipants(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ participants, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="participants" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Conversation.Participant&gt;" />
+        <Parameter Name="conversationCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="participants">To be added.</param>
+        <param name="conversationCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Used to Deny a set of participants access into a conference.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginMerge">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginMerge (Microsoft.Lync.Model.Conversation.Conversation conversation, Microsoft.Lync.Model.Conversation.ModalityTypes modalityTypes, AsyncCallback conversationCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginMerge(class Microsoft.Lync.Model.Conversation.Conversation conversation, valuetype Microsoft.Lync.Model.Conversation.ModalityTypes modalityTypes, class System.AsyncCallback conversationCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginMerge(Microsoft.Lync.Model.Conversation.Conversation,Microsoft.Lync.Model.Conversation.ModalityTypes,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMerge(Microsoft::Lync::Model::Conversation::Conversation ^ conversation, Microsoft::Lync::Model::Conversation::ModalityTypes modalityTypes, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversation" Type="Microsoft.Lync.Model.Conversation.Conversation" />
+        <Parameter Name="modalityTypes" Type="Microsoft.Lync.Model.Conversation.ModalityTypes" />
+        <Parameter Name="conversationCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="conversation">To be added.</param>
+        <param name="modalityTypes">To be added.</param>
+        <param name="conversationCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Merges another conversation into this one.modalityTypes specifies what modalities to be merged in.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginMuteParticipants">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginMuteParticipants (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Conversation.Participant&gt; participants, AsyncCallback conversationCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginMuteParticipants(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Model.Conversation.Participant&gt; participants, class System.AsyncCallback conversationCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginMuteParticipants(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Conversation.Participant},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginMuteParticipants (participants As IEnumerable(Of Participant), conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMuteParticipants(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ participants, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="participants" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Conversation.Participant&gt;" />
+        <Parameter Name="conversationCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="participants">To be added.</param>
+        <param name="conversationCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Used to mute a set of participants in a conference.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginPark">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginPark (AsyncCallback conversationCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginPark(class System.AsyncCallback conversationCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginPark(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginPark (conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginPark(AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversationCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="conversationCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Parks voice at the Call Park Server and terminates all other modalities.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSendContextData">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSendContextData (string applicationId, string dataType, string data, AsyncCallback conversationCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSendContextData(string applicationId, string dataType, string data, class System.AsyncCallback conversationCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginSendContextData(System.String,System.String,System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSendContextData (applicationId As String, dataType As String, data As String, conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendContextData(System::String ^ applicationId, System::String ^ dataType, System::String ^ data, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="applicationId" Type="System.String" />
+        <Parameter Name="dataType" Type="System.String" />
+        <Parameter Name="data" Type="System.String" />
+        <Parameter Name="conversationCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="applicationId">To be added.</param>
+        <param name="dataType">To be added.</param>
+        <param name="data">To be added.</param>
+        <param name="conversationCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            This is used to send application context type and data to the conversation. The application Id has to be registered on the caller side. The context data will be sent in raw foramts
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSendInitialContext">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSendInitialContext (System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Lync.Model.Conversation.ContextType,object&gt;&gt; contextData, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSendInitialContext(class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;valuetype Microsoft.Lync.Model.Conversation.ContextType, object&gt;&gt; contextData, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginSendInitialContext(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{Microsoft.Lync.Model.Conversation.ContextType,System.Object}},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSendInitialContext (contextData As IEnumerable(Of KeyValuePair(Of ContextType, Object)), callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendInitialContext(System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;Microsoft::Lync::Model::Conversation::ContextType, System::Object ^&gt;&gt; ^ contextData, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextData" Type="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Lync.Model.Conversation.ContextType,System.Object&gt;&gt;" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contextData">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Sends an application hyperlink and application Id as initial conversation context.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSetProperty">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSetProperty (Microsoft.Lync.Model.Conversation.ConversationProperty propertyType, object propertyValue, AsyncCallback conversationCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSetProperty(valuetype Microsoft.Lync.Model.Conversation.ConversationProperty propertyType, object propertyValue, class System.AsyncCallback conversationCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginSetProperty(Microsoft.Lync.Model.Conversation.ConversationProperty,System.Object,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSetProperty (propertyType As ConversationProperty, propertyValue As Object, conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetProperty(Microsoft::Lync::Model::Conversation::ConversationProperty propertyType, System::Object ^ propertyValue, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyType" Type="Microsoft.Lync.Model.Conversation.ConversationProperty" />
+        <Parameter Name="propertyValue" Type="System.Object" />
+        <Parameter Name="conversationCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyType">To be added.</param>
+        <param name="propertyValue">To be added.</param>
+        <param name="conversationCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Sets a property associated with this conversation. This is an asynchronous operation, hence the conversationCallback, if specified, will be called back.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUnmuteParticipants">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginUnmuteParticipants (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Conversation.Participant&gt; participants, AsyncCallback conversationCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginUnmuteParticipants(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Model.Conversation.Participant&gt; participants, class System.AsyncCallback conversationCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginUnmuteParticipants(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Conversation.Participant},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginUnmuteParticipants (participants As IEnumerable(Of Participant), conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginUnmuteParticipants(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ participants, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="participants" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Conversation.Participant&gt;" />
+        <Parameter Name="conversationCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="participants">To be added.</param>
+        <param name="conversationCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Used to unmute a set of participants in a conference.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanInvoke">
+      <MemberSignature Language="C#" Value="public bool CanInvoke (Microsoft.Lync.Model.Conversation.ConversationAction action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanInvoke(valuetype Microsoft.Lync.Model.Conversation.ConversationAction action) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.CanInvoke(Microsoft.Lync.Model.Conversation.ConversationAction)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ConversationAction) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Conversation::ConversationAction action);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="action" Type="Microsoft.Lync.Model.Conversation.ConversationAction" />
+      </Parameters>
+      <Docs>
+        <param name="action">To be added.</param>
+        <summary>Returns a flag indicating whether a specific action is available.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanSetProperty">
+      <MemberSignature Language="C#" Value="public bool CanSetProperty (Microsoft.Lync.Model.Conversation.ConversationProperty convProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanSetProperty(valuetype Microsoft.Lync.Model.Conversation.ConversationProperty convProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.CanSetProperty(Microsoft.Lync.Model.Conversation.ConversationProperty)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanSetProperty (convProperty As ConversationProperty) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetProperty(Microsoft::Lync::Model::Conversation::ConversationProperty convProperty);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="convProperty" Type="Microsoft.Lync.Model.Conversation.ConversationProperty" />
+      </Parameters>
+      <Docs>
+        <param name="convProperty">To be added.</param>
+        <summary>Test whether the property can be set to the conversation.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextDataReceived">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ContextEventArgs&gt; ContextDataReceived;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ContextEventArgs&gt; ContextDataReceived" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ContextDataReceived" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ContextDataReceived As EventHandler(Of ContextEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ContextEventArgs ^&gt; ^ ContextDataReceived;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ContextEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised to notify of the 3rd party applications of incoming info.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextDataSent">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ContextEventArgs&gt; ContextDataSent;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ContextEventArgs&gt; ContextDataSent" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ContextDataSent" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ContextDataSent As EventHandler(Of ContextEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ContextEventArgs ^&gt; ^ ContextDataSent;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ContextEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised to notify of the 3rd party applications of outgoing info.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationContextLinkClicked">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; ConversationContextLinkClicked;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; ConversationContextLinkClicked" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ConversationContextLinkClicked" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ConversationContextLinkClicked As EventHandler(Of InitialContextEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::InitialContextEventArgs ^&gt; ^ ConversationContextLinkClicked;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a contextual conversation launch link is clicked by the user.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationManager">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ConversationManager ConversationManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.ConversationManager ConversationManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.ConversationManager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationManager As ConversationManager" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationManager ^ ConversationManager { Microsoft::Lync::Model::Conversation::ConversationManager ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the parent conversation manager of this conversation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public void End ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void End() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.End" />
+      <MemberSignature Language="VB.NET" Value="Public Sub End ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void End();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Terminates the conversation for all participants.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndAdmitParticipants">
+      <MemberSignature Language="C#" Value="public void EndAdmitParticipants (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndAdmitParticipants(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndAdmitParticipants(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndAdmitParticipants (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndAdmitParticipants(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Used to admit a set of participants into conference.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDenyParticipants">
+      <MemberSignature Language="C#" Value="public void EndDenyParticipants (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndDenyParticipants(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndDenyParticipants(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndDenyParticipants (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDenyParticipants(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Used to Deny a set of participants access into a conference.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndMerge">
+      <MemberSignature Language="C#" Value="public void EndMerge (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndMerge(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndMerge(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndMerge (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndMerge(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Merges another conversation into this one.modalityTypes specifies what modalities to be merged in.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndMuteParticipants">
+      <MemberSignature Language="C#" Value="public void EndMuteParticipants (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndMuteParticipants(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndMuteParticipants(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndMuteParticipants (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndMuteParticipants(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Used to mute a set of participants in a conference.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndPark">
+      <MemberSignature Language="C#" Value="public void EndPark (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndPark(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndPark(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndPark (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndPark(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Parks voice at the Call Park Server and terminates all other modalities.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSendContextData">
+      <MemberSignature Language="C#" Value="public void EndSendContextData (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndSendContextData(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndSendContextData(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndSendContextData (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSendContextData(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            This is used to send application context type and data to the conversation. The application Id has to be registered on the caller side. The context data will be sent in raw foramts
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSendInitialContext">
+      <MemberSignature Language="C#" Value="public void EndSendInitialContext (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndSendInitialContext(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndSendInitialContext(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndSendInitialContext (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSendInitialContext(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            This is used to send application context to the conversation. ContextTypes and contextDatas are mapped together, So they must have the same length.If the contextTypes include application GUID, the caller must have been registered using the same GUID.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSetProperty">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ConversationProperty EndSetProperty (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Lync.Model.Conversation.ConversationProperty EndSetProperty(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndSetProperty(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndSetProperty (asyncResult As IAsyncResult) As ConversationProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::ConversationProperty EndSetProperty(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Sets a property associated with this conversation. This is an asynchronous operation, hence the conversationCallback, if specified, will be called back.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndUnmuteParticipants">
+      <MemberSignature Language="C#" Value="public void EndUnmuteParticipants (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndUnmuteParticipants(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndUnmuteParticipants(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndUnmuteParticipants (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndUnmuteParticipants(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Used to unmute a set of participants in a conference.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~Conversation ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!Conversation ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetApplicationData">
+      <MemberSignature Language="C#" Value="public string GetApplicationData (string appGuid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetApplicationData(string appGuid) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.GetApplicationData(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetApplicationData (appGuid As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetApplicationData(System::String ^ appGuid);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="appGuid" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="appGuid">To be added.</param>
+        <summary>Gets the contextual conversation application data using the given GUID. Only the registered application with the same GUID may call this.</summary>
+        <returns>System.String</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialContextReceived">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; InitialContextReceived;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; InitialContextReceived" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.InitialContextReceived" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event InitialContextReceived As EventHandler(Of InitialContextEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::InitialContextEventArgs ^&gt; ^ InitialContextReceived;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised to notify of the 3rd party applications of incoming calls .</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialContextSent">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; InitialContextSent;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; InitialContextSent" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.InitialContextSent" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event InitialContextSent As EventHandler(Of InitialContextEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::InitialContextEventArgs ^&gt; ^ InitialContextSent;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised to notify of the 3rd party applications of outgoing calls .</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Modalities">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ModalityTypes,Microsoft.Lync.Model.Conversation.Modality&gt; Modalities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Conversation.ModalityTypes, class Microsoft.Lync.Model.Conversation.Modality&gt; Modalities" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.Modalities" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Modalities As IDictionary(Of ModalityTypes, Modality)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityTypes, Microsoft::Lync::Model::Conversation::Modality ^&gt; ^ Modalities { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityTypes, Microsoft::Lync::Model::Conversation::Modality ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ModalityTypes,Microsoft.Lync.Model.Conversation.Modality&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the collection of conversation modalities (activities</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticipantAdded">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt; ParticipantAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt; ParticipantAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ParticipantAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipantAdded As EventHandler(Of ParticipantCollectionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ParticipantCollectionChangedEventArgs ^&gt; ^ ParticipantAdded;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a participant add operation completes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticipantRemoved">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt; ParticipantRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt; ParticipantRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ParticipantRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipantRemoved As EventHandler(Of ParticipantCollectionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ParticipantCollectionChangedEventArgs ^&gt; ^ ParticipantRemoved;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a participant remove operation completes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Participants">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Participant&gt; Participants { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Conversation.Participant&gt; Participants" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.Participants" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Participants As IList(Of Participant)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ Participants { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Participant&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the participant collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ConversationProperty,object&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Conversation.ConversationProperty, object&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ConversationProperty, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ConversationProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ConversationProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ConversationProperty,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of conversation properties.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationPropertyChangedEventArgs&gt; PropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ConversationPropertyChangedEventArgs&gt; PropertyChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.PropertyChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event PropertyChanged As EventHandler(Of ConversationPropertyChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationPropertyChangedEventArgs ^&gt; ^ PropertyChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationPropertyChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a property value changes</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveParticipant">
+      <MemberSignature Language="C#" Value="public void RemoveParticipant (Microsoft.Lync.Model.Conversation.Participant participant);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveParticipant(class Microsoft.Lync.Model.Conversation.Participant participant) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.RemoveParticipant(Microsoft.Lync.Model.Conversation.Participant)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveParticipant(Microsoft::Lync::Model::Conversation::Participant ^ participant);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="participant" Type="Microsoft.Lync.Model.Conversation.Participant" />
+      </Parameters>
+      <Docs>
+        <param name="participant">To be added.</param>
+        <summary>Removes a participant from the collection.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelfParticipant">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Participant SelfParticipant { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Participant SelfParticipant" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.SelfParticipant" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelfParticipant As Participant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ SelfParticipant { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Participant</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the local participant object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ConversationState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.ConversationState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ConversationState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationState State { Microsoft::Lync::Model::Conversation::ConversationState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the current conversation state.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs&gt; StateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs&gt; StateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.StateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ConversationStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the conversation state changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

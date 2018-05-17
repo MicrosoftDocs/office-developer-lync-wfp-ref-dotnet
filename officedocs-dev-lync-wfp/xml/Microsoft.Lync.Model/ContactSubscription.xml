@@ -1,0 +1,199 @@
+﻿<Type Name="ContactSubscription" FullName="Microsoft.Lync.Model.ContactSubscription">
+  <TypeSignature Language="C#" Value="public class ContactSubscription : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactSubscription extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactSubscription" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactSubscription&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactSubscription : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Specifies the type of contact information to be to be subscribed on a collection of contacts set in the subscription.</summary>
+    <remarks>
+      <para>You must cache a ContactSubscription that you create to maintain subscriptions to contacts you get using the search feature, call into GetContactByUri, or other methods that return Contact instances that are not in the Lync client contact list. You continue to receive contact information updates for the contacts in the cached ContactSubscription until you either un-subscribe to the contacts or destroy the ContactSubscription. The ContactSubscription is cached as a class member.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddContact">
+      <MemberSignature Language="C#" Value="public void AddContact (Microsoft.Lync.Model.Contact contact);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddContact(class Microsoft.Lync.Model.Contact contact) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.AddContact(Microsoft.Lync.Model.Contact)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddContact(Microsoft::Lync::Model::Contact ^ contact);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Lync.Model.Contact" />
+      </Parameters>
+      <Docs>
+        <param name="contact">To be added.</param>
+        <summary>Adds a contact to a subscription.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddContacts">
+      <MemberSignature Language="C#" Value="public void AddContacts (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Contact&gt; contacts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddContacts(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Model.Contact&gt; contacts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.AddContacts(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Contact})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddContacts (contacts As IEnumerable(Of Contact))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddContacts(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Contact ^&gt; ^ contacts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contacts" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Contact&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contacts">To be added.</param>
+        <summary>Adds a collection of contacts to a subscription.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Contact&gt; Contacts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Contact&gt; Contacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactSubscription.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contacts As IList(Of Contact)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Contact ^&gt; ^ Contacts { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Contact ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Contact&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the collection of contacts in a subscription.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastSubscribedContactInformation">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactInformationType&gt; LastSubscribedContactInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Microsoft.Lync.Model.ContactInformationType&gt; LastSubscribedContactInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactSubscription.LastSubscribedContactInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastSubscribedContactInformation As IList(Of ContactInformationType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ LastSubscribedContactInformation { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactInformationType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the collection of contact information last subscribed in a subscription.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastSubscribedRefreshRate">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ContactSubscriptionRefreshRate LastSubscribedRefreshRate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.ContactSubscriptionRefreshRate LastSubscribedRefreshRate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactSubscription.LastSubscribedRefreshRate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastSubscribedRefreshRate As ContactSubscriptionRefreshRate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactSubscriptionRefreshRate LastSubscribedRefreshRate { Microsoft::Lync::Model::ContactSubscriptionRefreshRate get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactSubscriptionRefreshRate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the subscription freshness.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveContact">
+      <MemberSignature Language="C#" Value="public void RemoveContact (Microsoft.Lync.Model.Contact contact);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveContact(class Microsoft.Lync.Model.Contact contact) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.RemoveContact(Microsoft.Lync.Model.Contact)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveContact(Microsoft::Lync::Model::Contact ^ contact);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Lync.Model.Contact" />
+      </Parameters>
+      <Docs>
+        <param name="contact">To be added.</param>
+        <summary>Removes a contact from a subscription.</summary>
+        <remarks>
+          <para>It is not necessary to call ContactSubscription.Subscribe after removing a contact from a subscription.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscribe">
+      <MemberSignature Language="C#" Value="public void Subscribe (Microsoft.Lync.Model.ContactSubscriptionRefreshRate subscriptionFreshness, System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.ContactInformationType&gt; contactInformationTypes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Subscribe(valuetype Microsoft.Lync.Model.ContactSubscriptionRefreshRate subscriptionFreshness, class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Lync.Model.ContactInformationType&gt; contactInformationTypes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.Subscribe(Microsoft.Lync.Model.ContactSubscriptionRefreshRate,System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.ContactInformationType})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Subscribe (subscriptionFreshness As ContactSubscriptionRefreshRate, contactInformationTypes As IEnumerable(Of ContactInformationType))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Subscribe(Microsoft::Lync::Model::ContactSubscriptionRefreshRate subscriptionFreshness, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ contactInformationTypes);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionFreshness" Type="Microsoft.Lync.Model.ContactSubscriptionRefreshRate" />
+        <Parameter Name="contactInformationTypes" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.ContactInformationType&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionFreshness">To be added.</param>
+        <param name="contactInformationTypes">To be added.</param>
+        <summary>if a contact is removed from the subscription, the subscription to this contact can only be removed when Unsubscribe or UpdateSubscription is called.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unsubscribe">
+      <MemberSignature Language="C#" Value="public void Unsubscribe ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Unsubscribe() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.Unsubscribe" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Unsubscribe ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Unsubscribe();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Unsubscribes a subscription.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

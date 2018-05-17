@@ -1,0 +1,780 @@
+﻿<Type Name="ModalityStateChangeProperty" FullName="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty">
+  <TypeSignature Language="C#" Value="public enum ModalityStateChangeProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ModalityStateChangeProperty extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ModalityStateChangeProperty" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ModalityStateChangeProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the modality state change properties.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcceptingEndpoint">
+      <MemberSignature Language="C#" Value="AcceptingEndpoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty AcceptingEndpoint = int32(1074528258)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AcceptingEndpoint" />
+      <MemberSignature Language="VB.NET" Value="AcceptingEndpoint" />
+      <MemberSignature Language="C++ CLI" Value="AcceptingEndpoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074528258</MemberValue>
+      <Docs>
+        <summary>When state change to disconnected because accepted by other party, the accepting participant endpoint's uri.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AcceptingParticipant">
+      <MemberSignature Language="C#" Value="AcceptingParticipant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty AcceptingParticipant = int32(1074528257)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AcceptingParticipant" />
+      <MemberSignature Language="VB.NET" Value="AcceptingParticipant" />
+      <MemberSignature Language="C++ CLI" Value="AcceptingParticipant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074528257</MemberValue>
+      <Docs>
+        <summary>When state change to disconnected because accepted by other party, the accepting participant's contact object.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowedRedirection">
+      <MemberSignature Language="C#" Value="AllowedRedirection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty AllowedRedirection = int32(537657351)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AllowedRedirection" />
+      <MemberSignature Language="VB.NET" Value="AllowedRedirection" />
+      <MemberSignature Language="C++ CLI" Value="AllowedRedirection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537657351</MemberValue>
+      <Docs>
+        <summary>Flag indicating if the allowed redirection types of the related modality (value is mask of type RedirectionTypes).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlsoRingingOthers">
+      <MemberSignature Language="C#" Value="AlsoRingingOthers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty AlsoRingingOthers = int32(806092805)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AlsoRingingOthers" />
+      <MemberSignature Language="VB.NET" Value="AlsoRingingOthers" />
+      <MemberSignature Language="C++ CLI" Value="AlsoRingingOthers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806092805</MemberValue>
+      <Docs>
+        <summary>Routing history details provided when receiving a call as team leader or boss.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardHistoryInfo">
+      <MemberSignature Language="C#" Value="ForwardHistoryInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty ForwardHistoryInfo = int32(1074528256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.ForwardHistoryInfo" />
+      <MemberSignature Language="VB.NET" Value="ForwardHistoryInfo" />
+      <MemberSignature Language="C++ CLI" Value="ForwardHistoryInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074528256</MemberValue>
+      <Docs>
+        <summary>Routing history details provided during state change to forwarding.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="InvitingDevice">
+      <MemberSignature Language="C#" Value="InvitingDevice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty InvitingDevice = int32(1074528264)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.InvitingDevice" />
+      <MemberSignature Language="VB.NET" Value="InvitingDevice" />
+      <MemberSignature Language="C++ CLI" Value="InvitingDevice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074528264</MemberValue>
+      <Docs>
+        <summary>The inviting device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAutoAccepted">
+      <MemberSignature Language="C#" Value="IsAutoAccepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty IsAutoAccepted = int32(269221894)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.IsAutoAccepted" />
+      <MemberSignature Language="VB.NET" Value="IsAutoAccepted" />
+      <MemberSignature Language="C++ CLI" Value="IsAutoAccepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269221894</MemberValue>
+      <Docs>
+        <summary>Returns true if the call has been auto-accepted.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved1 = int32(1074561025)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561025</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved10">
+      <MemberSignature Language="C#" Value="Reserved10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved10 = int32(1074561035)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved10" />
+      <MemberSignature Language="VB.NET" Value="Reserved10" />
+      <MemberSignature Language="C++ CLI" Value="Reserved10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561035</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved11">
+      <MemberSignature Language="C#" Value="Reserved11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved11 = int32(1074561036)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved11" />
+      <MemberSignature Language="VB.NET" Value="Reserved11" />
+      <MemberSignature Language="C++ CLI" Value="Reserved11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561036</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved12">
+      <MemberSignature Language="C#" Value="Reserved12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved12 = int32(1074561037)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved12" />
+      <MemberSignature Language="VB.NET" Value="Reserved12" />
+      <MemberSignature Language="C++ CLI" Value="Reserved12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561037</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved13">
+      <MemberSignature Language="C#" Value="Reserved13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved13 = int32(1074561038)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved13" />
+      <MemberSignature Language="VB.NET" Value="Reserved13" />
+      <MemberSignature Language="C++ CLI" Value="Reserved13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561038</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved14">
+      <MemberSignature Language="C#" Value="Reserved14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved14 = int32(1074561039)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved14" />
+      <MemberSignature Language="VB.NET" Value="Reserved14" />
+      <MemberSignature Language="C++ CLI" Value="Reserved14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561039</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved15">
+      <MemberSignature Language="C#" Value="Reserved15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved15 = int32(819216)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved15" />
+      <MemberSignature Language="VB.NET" Value="Reserved15" />
+      <MemberSignature Language="C++ CLI" Value="Reserved15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>819216</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved16">
+      <MemberSignature Language="C#" Value="Reserved16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved16 = int32(537690129)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved16" />
+      <MemberSignature Language="VB.NET" Value="Reserved16" />
+      <MemberSignature Language="C++ CLI" Value="Reserved16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537690129</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved17">
+      <MemberSignature Language="C#" Value="Reserved17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved17 = int32(537690130)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved17" />
+      <MemberSignature Language="VB.NET" Value="Reserved17" />
+      <MemberSignature Language="C++ CLI" Value="Reserved17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537690130</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved18">
+      <MemberSignature Language="C#" Value="Reserved18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved18 = int32(269254675)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved18" />
+      <MemberSignature Language="VB.NET" Value="Reserved18" />
+      <MemberSignature Language="C++ CLI" Value="Reserved18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269254675</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved19">
+      <MemberSignature Language="C#" Value="Reserved19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved19 = int32(269254676)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved19" />
+      <MemberSignature Language="VB.NET" Value="Reserved19" />
+      <MemberSignature Language="C++ CLI" Value="Reserved19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269254676</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved2 = int32(1074561027)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561027</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved20">
+      <MemberSignature Language="C#" Value="Reserved20" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved20 = int32(269254677)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved20" />
+      <MemberSignature Language="VB.NET" Value="Reserved20" />
+      <MemberSignature Language="C++ CLI" Value="Reserved20" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269254677</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved21">
+      <MemberSignature Language="C#" Value="Reserved21" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved21 = int32(269254678)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved21" />
+      <MemberSignature Language="VB.NET" Value="Reserved21" />
+      <MemberSignature Language="C++ CLI" Value="Reserved21" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269254678</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved22">
+      <MemberSignature Language="C#" Value="Reserved22" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved22 = int32(269254679)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved22" />
+      <MemberSignature Language="VB.NET" Value="Reserved22" />
+      <MemberSignature Language="C++ CLI" Value="Reserved22" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269254679</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved23">
+      <MemberSignature Language="C#" Value="Reserved23" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved23 = int32(537690136)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved23" />
+      <MemberSignature Language="VB.NET" Value="Reserved23" />
+      <MemberSignature Language="C++ CLI" Value="Reserved23" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537690136</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved24">
+      <MemberSignature Language="C#" Value="Reserved24" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved24 = int32(269254681)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved24" />
+      <MemberSignature Language="VB.NET" Value="Reserved24" />
+      <MemberSignature Language="C++ CLI" Value="Reserved24" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269254681</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved25">
+      <MemberSignature Language="C#" Value="Reserved25" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved25 = int32(537690138)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved25" />
+      <MemberSignature Language="VB.NET" Value="Reserved25" />
+      <MemberSignature Language="C++ CLI" Value="Reserved25" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537690138</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved26">
+      <MemberSignature Language="C#" Value="Reserved26" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved26 = int32(1074561051)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved26" />
+      <MemberSignature Language="VB.NET" Value="Reserved26" />
+      <MemberSignature Language="C++ CLI" Value="Reserved26" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561051</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved27">
+      <MemberSignature Language="C#" Value="Reserved27" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved27 = int32(537690140)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved27" />
+      <MemberSignature Language="VB.NET" Value="Reserved27" />
+      <MemberSignature Language="C++ CLI" Value="Reserved27" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537690140</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved28">
+      <MemberSignature Language="C#" Value="Reserved28" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved28 = int32(1074561053)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved28" />
+      <MemberSignature Language="VB.NET" Value="Reserved28" />
+      <MemberSignature Language="C++ CLI" Value="Reserved28" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561053</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved29">
+      <MemberSignature Language="C#" Value="Reserved29" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved29 = int32(1074561054)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved29" />
+      <MemberSignature Language="VB.NET" Value="Reserved29" />
+      <MemberSignature Language="C++ CLI" Value="Reserved29" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561054</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved3">
+      <MemberSignature Language="C#" Value="Reserved3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved3 = int32(1074561028)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved3" />
+      <MemberSignature Language="VB.NET" Value="Reserved3" />
+      <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561028</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved30">
+      <MemberSignature Language="C#" Value="Reserved30" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved30 = int32(1074561055)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved30" />
+      <MemberSignature Language="VB.NET" Value="Reserved30" />
+      <MemberSignature Language="C++ CLI" Value="Reserved30" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561055</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved4">
+      <MemberSignature Language="C#" Value="Reserved4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved4 = int32(1074561029)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved4" />
+      <MemberSignature Language="VB.NET" Value="Reserved4" />
+      <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561029</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved5">
+      <MemberSignature Language="C#" Value="Reserved5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved5 = int32(1074561030)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved5" />
+      <MemberSignature Language="VB.NET" Value="Reserved5" />
+      <MemberSignature Language="C++ CLI" Value="Reserved5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561030</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved6">
+      <MemberSignature Language="C#" Value="Reserved6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved6 = int32(1074561031)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved6" />
+      <MemberSignature Language="VB.NET" Value="Reserved6" />
+      <MemberSignature Language="C++ CLI" Value="Reserved6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561031</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved7">
+      <MemberSignature Language="C#" Value="Reserved7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved7 = int32(1074561032)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved7" />
+      <MemberSignature Language="VB.NET" Value="Reserved7" />
+      <MemberSignature Language="C++ CLI" Value="Reserved7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561032</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved8">
+      <MemberSignature Language="C#" Value="Reserved8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved8 = int32(1074561033)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved8" />
+      <MemberSignature Language="VB.NET" Value="Reserved8" />
+      <MemberSignature Language="C++ CLI" Value="Reserved8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561033</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved9">
+      <MemberSignature Language="C#" Value="Reserved9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty Reserved9 = int32(1074561034)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved9" />
+      <MemberSignature Language="VB.NET" Value="Reserved9" />
+      <MemberSignature Language="C++ CLI" Value="Reserved9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074561034</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TransferTargetEndpoint">
+      <MemberSignature Language="C#" Value="TransferTargetEndpoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty TransferTargetEndpoint = int32(1074528260)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.TransferTargetEndpoint" />
+      <MemberSignature Language="VB.NET" Value="TransferTargetEndpoint" />
+      <MemberSignature Language="C++ CLI" Value="TransferTargetEndpoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074528260</MemberValue>
+      <Docs>
+        <summary>When state change result of transfer, the target participant endpoint's uri.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferTargetParticipant">
+      <MemberSignature Language="C#" Value="TransferTargetParticipant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty TransferTargetParticipant = int32(1074528259)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.TransferTargetParticipant" />
+      <MemberSignature Language="VB.NET" Value="TransferTargetParticipant" />
+      <MemberSignature Language="C++ CLI" Value="TransferTargetParticipant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074528259</MemberValue>
+      <Docs>
+        <summary>When state change result of transfer, the target participant's contact object.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

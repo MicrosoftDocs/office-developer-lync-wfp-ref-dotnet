@@ -1,0 +1,334 @@
+﻿<Type Name="GroupByGroupsContactsAndGroupsManager" FullName="Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager">
+  <TypeSignature Language="C#" Value="public class GroupByGroupsContactsAndGroupsManager : Microsoft.Lync.Controls.Internal.ViewModel.GroupByContactsAndGroupsManagerBase&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GroupByGroupsContactsAndGroupsManager extends Microsoft.Lync.Controls.Internal.ViewModel.GroupByContactsAndGroupsManagerBase`1&lt;class Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupByGroupsContactsAndGroupsManager&#xA;Inherits GroupByContactsAndGroupsManagerBase(Of IGroupModel)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupByGroupsContactsAndGroupsManager : Microsoft::Lync::Controls::Internal::ViewModel::GroupByContactsAndGroupsManagerBase&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.ViewModel.GroupByContactsAndGroupsManagerBase&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.Internal.Model.IGroupModel</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupByGroupsContactsAndGroupsManager (Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; comparison, System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groups, System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groupsOrder, bool presenceAware);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Comparison`1&lt;class Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; comparison, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groups, class System.Collections.Generic.List`1&lt;class Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groupsOrder, bool presenceAware) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.#ctor(System.Comparison{Microsoft.Lync.Controls.Internal.Model.IContactModel},System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel},System.Collections.Generic.List{Microsoft.Lync.Controls.Internal.Model.IGroupModel},System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (comparison As Comparison(Of IContactModel), groups As IEnumerable(Of IGroupModel), groupsOrder As List(Of IGroupModel), presenceAware As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupByGroupsContactsAndGroupsManager(Comparison&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ comparison, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groups, System::Collections::Generic::List&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groupsOrder, bool presenceAware);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="comparison" Type="System.Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt;" />
+        <Parameter Name="groups" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;" />
+        <Parameter Name="groupsOrder" Type="System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;" />
+        <Parameter Name="presenceAware" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="comparison">To be added.</param>
+        <param name="groups">To be added.</param>
+        <param name="groupsOrder">To be added.</param>
+        <param name="presenceAware">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanExecuteCreateGroupCommand">
+      <MemberSignature Language="C#" Value="protected override bool CanExecuteCreateGroupCommand (Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup group);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool CanExecuteCreateGroupCommand(class Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.CanExecuteCreateGroupCommand(Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteCreateGroupCommand (group As GroupByGroup) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteCreateGroupCommand(Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ group);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" />
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanExecuteDeleteGroupCommand">
+      <MemberSignature Language="C#" Value="protected override bool CanExecuteDeleteGroupCommand (Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup group);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool CanExecuteDeleteGroupCommand(class Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.CanExecuteDeleteGroupCommand(Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteDeleteGroupCommand (group As GroupByGroup) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteDeleteGroupCommand(Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ group);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" />
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateGroup">
+      <MemberSignature Language="C#" Value="protected override Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup CreateGroup (Microsoft.Lync.Controls.Internal.Model.IGroupModel groupId, string groupName);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup CreateGroup(class Microsoft.Lync.Controls.Internal.Model.IGroupModel groupId, string groupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.CreateGroup(Microsoft.Lync.Controls.Internal.Model.IGroupModel,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateGroup (groupId As IGroupModel, groupName As String) As GroupByGroup" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ CreateGroup(Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ groupId, System::String ^ groupName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groupId" Type="Microsoft.Lync.Controls.Internal.Model.IGroupModel" />
+        <Parameter Name="groupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="groupId">To be added.</param>
+        <param name="groupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateGroups">
+      <MemberSignature Language="C#" Value="protected override void CreateGroups (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; sourceGroups, System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groupsOrder);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void CreateGroups(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; sourceGroups, class System.Collections.Generic.List`1&lt;class Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groupsOrder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.CreateGroups(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel},System.Collections.Generic.List{Microsoft.Lync.Controls.Internal.Model.IGroupModel})" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub CreateGroups (sourceGroups As IEnumerable(Of IGroupModel), groupsOrder As List(Of IGroupModel))" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void CreateGroups(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ sourceGroups, System::Collections::Generic::List&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groupsOrder);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceGroups" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;" />
+        <Parameter Name="groupsOrder" Type="System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="sourceGroups">To be added.</param>
+        <param name="groupsOrder">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Dispose(bool disposing);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteCreateGroupCommand">
+      <MemberSignature Language="C#" Value="protected override void ExecuteCreateGroupCommand (Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup group);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ExecuteCreateGroupCommand(class Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.ExecuteCreateGroupCommand(Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCreateGroupCommand (group As GroupByGroup)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCreateGroupCommand(Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ group);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" />
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteDeleteGroupCommand">
+      <MemberSignature Language="C#" Value="protected override void ExecuteDeleteGroupCommand (Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup group);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ExecuteDeleteGroupCommand(class Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.ExecuteDeleteGroupCommand(Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteDeleteGroupCommand (group As GroupByGroup)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteDeleteGroupCommand(Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ group);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" />
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGroupByGroup">
+      <MemberSignature Language="C#" Value="protected override sealed Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup GetGroupByGroup (Microsoft.Lync.Controls.Internal.Model.IGroupModel groupId);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup GetGroupByGroup(class Microsoft.Lync.Controls.Internal.Model.IGroupModel groupId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.GetGroupByGroup(Microsoft.Lync.Controls.Internal.Model.IGroupModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Function GetGroupByGroup (groupId As IGroupModel) As GroupByGroup" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ GetGroupByGroup(Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ groupId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groupId" Type="Microsoft.Lync.Controls.Internal.Model.IGroupModel" />
+      </Parameters>
+      <Docs>
+        <param name="groupId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSourceContactsAdded">
+      <MemberSignature Language="C#" Value="protected override void OnSourceContactsAdded (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; contacts);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnSourceContactsAdded(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; contacts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.OnSourceContactsAdded(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IContactModel})" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceContactsAdded (contacts As IEnumerable(Of IContactModel))" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceContactsAdded(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ contacts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contacts" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contacts">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSourceContactsRemoved">
+      <MemberSignature Language="C#" Value="protected override void OnSourceContactsRemoved (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; contacts);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnSourceContactsRemoved(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; contacts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.OnSourceContactsRemoved(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IContactModel})" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceContactsRemoved (contacts As IEnumerable(Of IContactModel))" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceContactsRemoved(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ contacts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contacts" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contacts">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSourceGroupsAdded">
+      <MemberSignature Language="C#" Value="protected override void OnSourceGroupsAdded (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groups);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnSourceGroupsAdded(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groups) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.OnSourceGroupsAdded(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel})" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceGroupsAdded (groups As IEnumerable(Of IGroupModel))" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceGroupsAdded(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groups);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groups" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="groups">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSourceGroupsRemoved">
+      <MemberSignature Language="C#" Value="protected override void OnSourceGroupsRemoved (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groups);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnSourceGroupsRemoved(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; groups) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.OnSourceGroupsRemoved(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel})" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceGroupsRemoved (groups As IEnumerable(Of IGroupModel))" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceGroupsRemoved(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groups);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groups" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="groups">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,134 @@
+﻿<Type Name="RoomProperty" FullName="Microsoft.Lync.Model.Room.RoomProperty">
+  <TypeSignature Language="C#" Value="public enum RoomProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RoomProperty extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RoomProperty" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RoomProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the room properties.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="Description" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomProperty Description = int32(983042)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Description" />
+      <MemberSignature Language="VB.NET" Value="Description" />
+      <MemberSignature Language="C++ CLI" Value="Description" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>983042</MemberValue>
+      <Docs>
+        <summary>The room description.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DomainUrl">
+      <MemberSignature Language="C#" Value="DomainUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomProperty DomainUrl = int32(983041)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.DomainUrl" />
+      <MemberSignature Language="VB.NET" Value="DomainUrl" />
+      <MemberSignature Language="C++ CLI" Value="DomainUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>983041</MemberValue>
+      <Docs>
+        <summary>The room url.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomProperty Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="Title" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomProperty Title = int32(983043)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Title" />
+      <MemberSignature Language="VB.NET" Value="Title" />
+      <MemberSignature Language="C++ CLI" Value="Title" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>983043</MemberValue>
+      <Docs>
+        <summary>The room title.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="Type" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomProperty Type = int32(806289412)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Type" />
+      <MemberSignature Language="VB.NET" Value="Type" />
+      <MemberSignature Language="C++ CLI" Value="Type" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806289412</MemberValue>
+      <Docs>
+        <summary>The room Type.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="Uri" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomProperty Uri = int32(983040)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Uri" />
+      <MemberSignature Language="VB.NET" Value="Uri" />
+      <MemberSignature Language="C++ CLI" Value="Uri" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>983040</MemberValue>
+      <Docs>
+        <summary>The room uri.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

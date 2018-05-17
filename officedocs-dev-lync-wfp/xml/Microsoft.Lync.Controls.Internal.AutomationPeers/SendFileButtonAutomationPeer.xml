@@ -1,0 +1,44 @@
+﻿<Type Name="SendFileButtonAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.SendFileButtonAutomationPeer">
+  <TypeSignature Language="C#" Value="public class SendFileButtonAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.SendFileButton&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SendFileButtonAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.SendFileButton&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.SendFileButtonAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class SendFileButtonAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of SendFileButton)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SendFileButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::SendFileButton ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.SendFileButton&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.SendFileButton</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SendFileButtonAutomationPeer (Microsoft.Lync.Controls.SendFileButton control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.SendFileButton control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.SendFileButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.SendFileButton)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As SendFileButton)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SendFileButtonAutomationPeer(Microsoft::Lync::Controls::SendFileButton ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.SendFileButton" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

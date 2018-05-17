@@ -1,0 +1,44 @@
+﻿<Type Name="AddContactAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.AddContactAutomationPeer">
+  <TypeSignature Language="C#" Value="public class AddContactAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.Internal.AddContact&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddContactAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.Internal.AddContact&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.AddContactAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class AddContactAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of AddContact)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AddContactAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::Internal::AddContact ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.Internal.AddContact&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.Internal.AddContact</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AddContactAutomationPeer (Microsoft.Lync.Controls.Internal.AddContact control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.AddContact control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.AddContactAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.AddContact)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As AddContact)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AddContactAutomationPeer(Microsoft::Lync::Controls::Internal::AddContact ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.Internal.AddContact" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

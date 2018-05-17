@@ -1,0 +1,58 @@
+﻿<Type Name="ControlsEnumToString" FullName="Microsoft.Lync.Controls.Internal.Converters.ControlsEnumToString">
+  <TypeSignature Language="C#" Value="public class ControlsEnumToString : Microsoft.Lync.Controls.Internal.Converters.EnumToString" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ControlsEnumToString extends Microsoft.Lync.Controls.Internal.Converters.EnumToString" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Converters.ControlsEnumToString" />
+  <TypeSignature Language="VB.NET" Value="Public Class ControlsEnumToString&#xA;Inherits EnumToString" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ControlsEnumToString : Microsoft::Lync::Controls::Internal::Converters::EnumToString" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.Converters.EnumToString</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ControlsEnumToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.ControlsEnumToString.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ControlsEnumToString();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceManager">
+      <MemberSignature Language="C#" Value="protected override System.Resources.ResourceManager ResourceManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Resources.ResourceManager ResourceManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.Converters.ControlsEnumToString.ResourceManager" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ResourceManager As ResourceManager" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property System::Resources::ResourceManager ^ ResourceManager { System::Resources::ResourceManager ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Resources.ResourceManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

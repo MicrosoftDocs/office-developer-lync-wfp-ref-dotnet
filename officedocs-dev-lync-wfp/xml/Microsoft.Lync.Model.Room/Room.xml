@@ -1,0 +1,780 @@
+﻿<Type Name="Room" FullName="Microsoft.Lync.Model.Room.Room">
+  <TypeSignature Language="C#" Value="public class Room : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Room extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.Room" />
+  <TypeSignature Language="VB.NET" Value="Public Class Room&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Room : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Encapsulates a group chat room.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginJoin">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginJoin (AsyncCallback roomCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginJoin(class System.AsyncCallback roomCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginJoin(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginJoin (roomCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginJoin(AsyncCallback ^ roomCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="roomCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="roomCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Join this room
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginLeave">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginLeave (AsyncCallback roomCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginLeave(class System.AsyncCallback roomCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginLeave(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginLeave (roomCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginLeave(AsyncCallback ^ roomCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="roomCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="roomCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Leave this room.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRetrieveAdditionalMessages">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginRetrieveAdditionalMessages (uint lastMessageID, uint count, AsyncCallback roomCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginRetrieveAdditionalMessages(unsigned int32 lastMessageID, unsigned int32 count, class System.AsyncCallback roomCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginRetrieveAdditionalMessages(System.UInt32,System.UInt32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginRetrieveAdditionalMessages (lastMessageID As UInteger, count As UInteger, roomCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRetrieveAdditionalMessages(System::UInt32 lastMessageID, System::UInt32 count, AsyncCallback ^ roomCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lastMessageID" Type="System.UInt32" />
+        <Parameter Name="count" Type="System.UInt32" />
+        <Parameter Name="roomCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="lastMessageID">To be added.</param>
+        <param name="count">To be added.</param>
+        <param name="roomCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Retrieve additional messages
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRetrieveLatestMessages">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginRetrieveLatestMessages (uint count, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginRetrieveLatestMessages(unsigned int32 count, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginRetrieveLatestMessages(System.UInt32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginRetrieveLatestMessages (count As UInteger, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRetrieveLatestMessages(System::UInt32 count, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="count" Type="System.UInt32" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="count">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Retrieve latest messages from a room
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSendMessage">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSendMessage (System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomMessageFormat,string&gt; contents, Microsoft.Lync.Model.Room.RoomMessageType type, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSendMessage(class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Room.RoomMessageFormat, string&gt; contents, valuetype Microsoft.Lync.Model.Room.RoomMessageType type, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginSendMessage(System.Collections.Generic.IDictionary{Microsoft.Lync.Model.Room.RoomMessageFormat,System.String},Microsoft.Lync.Model.Room.RoomMessageType,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSendMessage (contents As IDictionary(Of RoomMessageFormat, String), type As RoomMessageType, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendMessage(System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Room::RoomMessageFormat, System::String ^&gt; ^ contents, Microsoft::Lync::Model::Room::RoomMessageType type, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contents" Type="System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomMessageFormat,System.String&gt;" />
+        <Parameter Name="type" Type="Microsoft.Lync.Model.Room.RoomMessageType" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contents">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Sends a message in different formats to this room.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSendMessage">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSendMessage (string text, Microsoft.Lync.Model.Room.RoomMessageType type, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSendMessage(string text, valuetype Microsoft.Lync.Model.Room.RoomMessageType type, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginSendMessage(System.String,Microsoft.Lync.Model.Room.RoomMessageType,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSendMessage (text As String, type As RoomMessageType, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendMessage(System::String ^ text, Microsoft::Lync::Model::Room::RoomMessageType type, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="type" Type="Microsoft.Lync.Model.Room.RoomMessageType" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Sends a plain text message to this room.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSendStoryMessage">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSendStoryMessage (System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomMessageFormat,string&gt; contents, Microsoft.Lync.Model.Room.RoomMessageType type, string storyTitle, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSendStoryMessage(class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Room.RoomMessageFormat, string&gt; contents, valuetype Microsoft.Lync.Model.Room.RoomMessageType type, string storyTitle, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginSendStoryMessage(System.Collections.Generic.IDictionary{Microsoft.Lync.Model.Room.RoomMessageFormat,System.String},Microsoft.Lync.Model.Room.RoomMessageType,System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSendStoryMessage (contents As IDictionary(Of RoomMessageFormat, String), type As RoomMessageType, storyTitle As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendStoryMessage(System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Room::RoomMessageFormat, System::String ^&gt; ^ contents, Microsoft::Lync::Model::Room::RoomMessageType type, System::String ^ storyTitle, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contents" Type="System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomMessageFormat,System.String&gt;" />
+        <Parameter Name="type" Type="Microsoft.Lync.Model.Room.RoomMessageType" />
+        <Parameter Name="storyTitle" Type="System.String" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contents">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="storyTitle">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Sends a story message in different formats to this room.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSendStoryMessage">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSendStoryMessage (string text, Microsoft.Lync.Model.Room.RoomMessageType type, string storyTitle, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSendStoryMessage(string text, valuetype Microsoft.Lync.Model.Room.RoomMessageType type, string storyTitle, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginSendStoryMessage(System.String,Microsoft.Lync.Model.Room.RoomMessageType,System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSendStoryMessage (text As String, type As RoomMessageType, storyTitle As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendStoryMessage(System::String ^ text, Microsoft::Lync::Model::Room::RoomMessageType type, System::String ^ storyTitle, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="type" Type="Microsoft.Lync.Model.Room.RoomMessageType" />
+        <Parameter Name="storyTitle" Type="System.String" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="storyTitle">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Sends a story message in plain text to this room.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableOutgoingMessageFilter">
+      <MemberSignature Language="C#" Value="public void DisableOutgoingMessageFilter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DisableOutgoingMessageFilter() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.DisableOutgoingMessageFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisableOutgoingMessageFilter ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableOutgoingMessageFilter();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Disable the outgoing message filter.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableOutgoingMessageFilter">
+      <MemberSignature Language="C#" Value="public void EnableOutgoingMessageFilter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnableOutgoingMessageFilter() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EnableOutgoingMessageFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnableOutgoingMessageFilter ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableOutgoingMessageFilter();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>        
+            Enable the outgoing message filter.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableOutgoingMessageFilter">
+      <MemberSignature Language="C#" Value="public void EnableOutgoingMessageFilter (bool noWarning);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnableOutgoingMessageFilter(bool noWarning) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EnableOutgoingMessageFilter(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnableOutgoingMessageFilter (noWarning As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableOutgoingMessageFilter(bool noWarning);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="noWarning" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="noWarning">To be added.</param>
+        <summary>Enable the outgoing message filter.</summary>
+        <remarks>
+          <para>By default, a warning is generated each time a message is modified by a filter before being sent. To disable the warning, use the EnableOutgoingMessageFilter(false) override.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndJoin">
+      <MemberSignature Language="C#" Value="public void EndJoin (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndJoin(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndJoin(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndJoin (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndJoin(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Join this room
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndLeave">
+      <MemberSignature Language="C#" Value="public void EndLeave (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndLeave(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndLeave(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndLeave (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndLeave(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Leave this room.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRetrieveAdditionalMessages">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessage&gt; EndRetrieveAdditionalMessages (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Room.RoomMessage&gt; EndRetrieveAdditionalMessages(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndRetrieveAdditionalMessages(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndRetrieveAdditionalMessages (asyncResult As IAsyncResult) As IList(Of RoomMessage)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessage ^&gt; ^ EndRetrieveAdditionalMessages(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Retrieve additional messages
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRetrieveLatestMessages">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessage&gt; EndRetrieveLatestMessages (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Room.RoomMessage&gt; EndRetrieveLatestMessages(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndRetrieveLatestMessages(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndRetrieveLatestMessages (asyncResult As IAsyncResult) As IList(Of RoomMessage)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessage ^&gt; ^ EndRetrieveLatestMessages(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary>
+            Ends the Retrevie latest messages operations 
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSendMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.RoomMessage EndSendMessage (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Room.RoomMessage EndSendMessage(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndSendMessage(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndSendMessage (asyncResult As IAsyncResult) As RoomMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Room::RoomMessage ^ EndSendMessage(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary>
+            Ends the SendMessage operation
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSendStoryMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.RoomMessage EndSendStoryMessage (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Room.RoomMessage EndSendStoryMessage(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndSendStoryMessage(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndSendStoryMessage (asyncResult As IAsyncResult) As RoomMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Room::RoomMessage ^ EndSendStoryMessage(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary>
+            Ends the SendStoryMessage operation
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~Room ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!Room ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOutgoingMessageFilterEnabled">
+      <MemberSignature Language="C#" Value="public bool IsOutgoingMessageFilterEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOutgoingMessageFilterEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.IsOutgoingMessageFilterEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOutgoingMessageFilterEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOutgoingMessageFilterEnabled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether the outgoing message filter is enabled.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSendingMessage">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.RoomMessageEventArgs&gt; IsSendingMessage;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.RoomMessageEventArgs&gt; IsSendingMessage" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.IsSendingMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event IsSendingMessage As EventHandler(Of RoomMessageEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomMessageEventArgs ^&gt; ^ IsSendingMessage;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomMessageEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the signed in user has finished typing in the group chat room message typing area or Room.BeginSendMessage has been called and Room.IsOutgoingMessageFilterEnabled returns true.</summary>
+        <remarks>
+          <para>If a user finishes typing a message to be posted to a chat room, your application logic has a chance to review the pending post by catching the IsSendingMessage event and running filter or formatting logic against the message string. If the user's message passes your filter, then post the message to the room by calling SendFilteredMessage with the enumerator RoomMessageFilteringAction.Passed. If the message does not pass your filter, call SendFilteredMessage with the enumerator RoomMessageFilteringAction.Canceled. If the message passes your filter but you reformat the message or replace text, call the method with the RoomMessageFilteringAction.Replaced enumerator.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JoinedState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.RoomJoinState JoinedState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Room.RoomJoinState JoinedState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.JoinedState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JoinedState As RoomJoinState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomJoinState JoinedState { Microsoft::Lync::Model::Room::RoomJoinState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomJoinState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the room join state.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JoinStateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.RoomJoinStateChangedEventArgs&gt; JoinStateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.RoomJoinStateChangedEventArgs&gt; JoinStateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.JoinStateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event JoinStateChanged As EventHandler(Of RoomJoinStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomJoinStateChangedEventArgs ^&gt; ^ JoinStateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomJoinStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a room join state is changed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessagesReceived">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.RoomMessagesEventArgs&gt; MessagesReceived;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.RoomMessagesEventArgs&gt; MessagesReceived" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.MessagesReceived" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event MessagesReceived As EventHandler(Of RoomMessagesEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomMessagesEventArgs ^&gt; ^ MessagesReceived;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomMessagesEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when messages are received.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticipantAdded">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt; ParticipantAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt; ParticipantAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.ParticipantAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipantAdded As EventHandler(Of RoomParticipantsEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomParticipantsEventArgs ^&gt; ^ ParticipantAdded;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a new participant is added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticipantRemoved">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt; ParticipantRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt; ParticipantRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.ParticipantRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipantRemoved As EventHandler(Of RoomParticipantsEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomParticipantsEventArgs ^&gt; ^ ParticipantRemoved;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a existing participant is removed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Participants">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomUser&gt; Participants { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Room.RoomUser&gt; Participants" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.Participants" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Participants As IList(Of RoomUser)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomUser ^&gt; ^ Participants { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomUser ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomUser&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the room participants</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomProperty,object&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Room.RoomProperty, object&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of RoomProperty, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Room::RoomProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Room::RoomProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomProperty,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of room properties.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the Lync client is signed out after you get an instance of Room, then the Properties property is set to null. You should test Properties for a null state or read the LyncClient.State property before attempting to read Properties.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.RoomPropertyChangedEventArgs&gt; PropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.RoomPropertyChangedEventArgs&gt; PropertyChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.PropertyChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event PropertyChanged As EventHandler(Of RoomPropertyChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomPropertyChangedEventArgs ^&gt; ^ PropertyChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomPropertyChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a property value changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendFilteredMessage">
+      <MemberSignature Language="C#" Value="public void SendFilteredMessage (Microsoft.Lync.Model.Room.RoomMessage message, Microsoft.Lync.Model.Room.RoomMessageFilteringAction action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendFilteredMessage(class Microsoft.Lync.Model.Room.RoomMessage message, valuetype Microsoft.Lync.Model.Room.RoomMessageFilteringAction action) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.SendFilteredMessage(Microsoft.Lync.Model.Room.RoomMessage,Microsoft.Lync.Model.Room.RoomMessageFilteringAction)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendFilteredMessage (message As RoomMessage, action As RoomMessageFilteringAction)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendFilteredMessage(Microsoft::Lync::Model::Room::RoomMessage ^ message, Microsoft::Lync::Model::Room::RoomMessageFilteringAction action);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="Microsoft.Lync.Model.Room.RoomMessage" />
+        <Parameter Name="action" Type="Microsoft.Lync.Model.Room.RoomMessageFilteringAction" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <param name="action">To be added.</param>
+        <summary>Sends a message that has passed a filter as defined by a custom application.</summary>
+        <remarks>
+          <para>If a user finishes typing a message to be posted to a chat room, your application logic has a chance to review the pending post by catching the IsSendingMessage event and running filter or formatting logic against the message string. If the user's message passes your filter, then post the message to the room by calling SendFilteredMessage with the enumerator RoomMessageFilteringAction.Passed. If the message does not pass your filter, call SendFilteredMessage with the enumerator RoomMessageFilteringAction.Canceled. If the message passes your filter but you reformat the message or replace text, call the method with the RoomMessageFilteringAction.Replaced enumerator. Note: If you call SendFilteredMessage multiple times with the same message, an exception is raised by Room.EndSendMessage with each send operation after the first send operation.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadMessageCountChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.UnreadMessageCountChangedEventArgs&gt; UnreadMessageCountChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.UnreadMessageCountChangedEventArgs&gt; UnreadMessageCountChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.UnreadMessageCountChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event UnreadMessageCountChanged As EventHandler(Of UnreadMessageCountChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::UnreadMessageCountChangedEventArgs ^&gt; ^ UnreadMessageCountChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.UnreadMessageCountChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when unread message count changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadRoomMessageCount">
+      <MemberSignature Language="C#" Value="public uint UnreadRoomMessageCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 UnreadRoomMessageCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.UnreadRoomMessageCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadRoomMessageCount As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 UnreadRoomMessageCount { System::UInt32 get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the unread room message count.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

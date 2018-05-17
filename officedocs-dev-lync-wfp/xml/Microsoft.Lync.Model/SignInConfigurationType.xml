@@ -1,0 +1,134 @@
+﻿<Type Name="SignInConfigurationType" FullName="Microsoft.Lync.Model.SignInConfigurationType">
+  <TypeSignature Language="C#" Value="public enum SignInConfigurationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SignInConfigurationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SignInConfigurationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SignInConfigurationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SignInConfigurationType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates sign in configuration setting types.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExternalServer">
+      <MemberSignature Language="C#" Value="ExternalServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SignInConfigurationType ExternalServer = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SignInConfigurationType.ExternalServer" />
+      <MemberSignature Language="VB.NET" Value="ExternalServer" />
+      <MemberSignature Language="C++ CLI" Value="ExternalServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SignInConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>A flag indicating whether the server external address is settable.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalServer">
+      <MemberSignature Language="C#" Value="InternalServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SignInConfigurationType InternalServer = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SignInConfigurationType.InternalServer" />
+      <MemberSignature Language="VB.NET" Value="InternalServer" />
+      <MemberSignature Language="C++ CLI" Value="InternalServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SignInConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>A flag indicating whether the server internal address is settable.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SignInConfigurationType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SignInConfigurationType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SignInConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="Mode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SignInConfigurationType Mode = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SignInConfigurationType.Mode" />
+      <MemberSignature Language="VB.NET" Value="Mode" />
+      <MemberSignature Language="C++ CLI" Value="Mode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SignInConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>A flag indicating whether the configuration mode is settable.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SavePassword">
+      <MemberSignature Language="C#" Value="SavePassword" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SignInConfigurationType SavePassword = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SignInConfigurationType.SavePassword" />
+      <MemberSignature Language="VB.NET" Value="SavePassword" />
+      <MemberSignature Language="C++ CLI" Value="SavePassword" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SignInConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>A flag indicating whether the password can be saved.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Transport">
+      <MemberSignature Language="C#" Value="Transport" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SignInConfigurationType Transport = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SignInConfigurationType.Transport" />
+      <MemberSignature Language="VB.NET" Value="Transport" />
+      <MemberSignature Language="C++ CLI" Value="Transport" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SignInConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A flag indicating whether the transport mode is settable.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1183 @@
+﻿<Type Name="ModalityProperty" FullName="Microsoft.Lync.Model.Conversation.ModalityProperty">
+  <TypeSignature Language="C#" Value="public enum ModalityProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ModalityProperty extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ModalityProperty" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ModalityProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the modality properties.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationSharingModalityCanShareApplications">
+      <MemberSignature Language="C#" Value="ApplicationSharingModalityCanShareApplications" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty ApplicationSharingModalityCanShareApplications = int32(806027304)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.ApplicationSharingModalityCanShareApplications" />
+      <MemberSignature Language="VB.NET" Value="ApplicationSharingModalityCanShareApplications" />
+      <MemberSignature Language="C++ CLI" Value="ApplicationSharingModalityCanShareApplications" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027304</MemberValue>
+      <Docs>
+        <summary> 
+            Can applications be shared?
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationSharingModalityCanShareMonitor">
+      <MemberSignature Language="C#" Value="ApplicationSharingModalityCanShareMonitor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty ApplicationSharingModalityCanShareMonitor = int32(806027303)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.ApplicationSharingModalityCanShareMonitor" />
+      <MemberSignature Language="VB.NET" Value="ApplicationSharingModalityCanShareMonitor" />
+      <MemberSignature Language="C++ CLI" Value="ApplicationSharingModalityCanShareMonitor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027303</MemberValue>
+      <Docs>
+        <summary> 
+            Can desktop or monitors be shared?
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioBandwidthQuality">
+      <MemberSignature Language="C#" Value="AVModalityAudioBandwidthQuality" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioBandwidthQuality = int32(806027294)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioBandwidthQuality" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioBandwidthQuality" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioBandwidthQuality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027294</MemberValue>
+      <Docs>
+        <summary>The audio bandwidth quality level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioCanCallComputer">
+      <MemberSignature Language="C#" Value="AVModalityAudioCanCallComputer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioCanCallComputer = int32(269156366)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioCanCallComputer" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioCanCallComputer" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioCanCallComputer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156366</MemberValue>
+      <Docs>
+        <summary>Can make a SIP call.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioCanCallTelephone">
+      <MemberSignature Language="C#" Value="AVModalityAudioCanCallTelephone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioCanCallTelephone = int32(269156367)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioCanCallTelephone" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioCanCallTelephone" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioCanCallTelephone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156367</MemberValue>
+      <Docs>
+        <summary>Can make a telephony call.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioCaptureDevice">
+      <MemberSignature Language="C#" Value="AVModalityAudioCaptureDevice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioCaptureDevice = int32(720913)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioCaptureDevice" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioCaptureDevice" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioCaptureDevice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>720913</MemberValue>
+      <Docs>
+        <summary>The description of the recording device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioCaptureIntensity">
+      <MemberSignature Language="C#" Value="AVModalityAudioCaptureIntensity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioCaptureIntensity = int32(537591819)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioCaptureIntensity" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioCaptureIntensity" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioCaptureIntensity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591819</MemberValue>
+      <Docs>
+        <summary>The outgoing audio intensity level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioCaptureIntensityMax">
+      <MemberSignature Language="C#" Value="AVModalityAudioCaptureIntensityMax" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioCaptureIntensityMax = int32(537591821)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioCaptureIntensityMax" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioCaptureIntensityMax" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioCaptureIntensityMax" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591821</MemberValue>
+      <Docs>
+        <summary>The outgoing audio intensity maximum level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioCaptureIntensityMin">
+      <MemberSignature Language="C#" Value="AVModalityAudioCaptureIntensityMin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioCaptureIntensityMin = int32(537591820)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioCaptureIntensityMin" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioCaptureIntensityMin" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioCaptureIntensityMin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591820</MemberValue>
+      <Docs>
+        <summary>The outgoing audio intensity minimum level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioCaptureMute">
+      <MemberSignature Language="C#" Value="AVModalityAudioCaptureMute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioCaptureMute = int32(269156362)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioCaptureMute" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioCaptureMute" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioCaptureMute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156362</MemberValue>
+      <Docs>
+        <summary>The outgoing audio volume is Muted</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioCaptureVolume">
+      <MemberSignature Language="C#" Value="AVModalityAudioCaptureVolume" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioCaptureVolume = int32(537591817)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioCaptureVolume" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioCaptureVolume" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioCaptureVolume" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591817</MemberValue>
+      <Docs>
+        <summary>The outgoing audio volume level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioDeviceQuality">
+      <MemberSignature Language="C#" Value="AVModalityAudioDeviceQuality" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioDeviceQuality = int32(806027295)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioDeviceQuality" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioDeviceQuality" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioDeviceQuality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027295</MemberValue>
+      <Docs>
+        <summary>The audio device quality level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioHistoryInfo">
+      <MemberSignature Language="C#" Value="AVModalityAudioHistoryInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioHistoryInfo = int32(1074462739)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioHistoryInfo" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioHistoryInfo" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioHistoryInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074462739</MemberValue>
+      <Docs>
+        <summary>The audio history information object.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioIsEmergencyCall">
+      <MemberSignature Language="C#" Value="AVModalityAudioIsEmergencyCall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioIsEmergencyCall = int32(806027300)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioIsEmergencyCall" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioIsEmergencyCall" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioIsEmergencyCall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027300</MemberValue>
+      <Docs>
+        <summary>Is this an emergency call?</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioNetworkQuality">
+      <MemberSignature Language="C#" Value="AVModalityAudioNetworkQuality" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioNetworkQuality = int32(806027293)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioNetworkQuality" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioNetworkQuality" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioNetworkQuality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027293</MemberValue>
+      <Docs>
+        <summary>The audio network quality level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioOnHoldRepeated">
+      <MemberSignature Language="C#" Value="AVModalityAudioOnHoldRepeated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioOnHoldRepeated = int32(269156377)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioOnHoldRepeated" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioOnHoldRepeated" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioOnHoldRepeated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156377</MemberValue>
+      <Docs>
+        <summary>Should the music-on-hold be repeated?</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioOnHoldSource">
+      <MemberSignature Language="C#" Value="AVModalityAudioOnHoldSource" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioOnHoldSource = int32(720920)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioOnHoldSource" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioOnHoldSource" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioOnHoldSource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>720920</MemberValue>
+      <Docs>
+        <summary>The source filename for music-on-hold.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioOriginalTargetUri">
+      <MemberSignature Language="C#" Value="AVModalityAudioOriginalTargetUri" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioOriginalTargetUri = int32(720916)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioOriginalTargetUri" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioOriginalTargetUri" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioOriginalTargetUri" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>720916</MemberValue>
+      <Docs>
+        <summary>The URI of the original target (Obsolete, use participant property).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioQuality">
+      <MemberSignature Language="C#" Value="AVModalityAudioQuality" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioQuality = int32(806027287)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioQuality" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioQuality" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioQuality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027287</MemberValue>
+      <Docs>
+        <summary>The audio quality level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioReferredByUri">
+      <MemberSignature Language="C#" Value="AVModalityAudioReferredByUri" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioReferredByUri = int32(720917)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioReferredByUri" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioReferredByUri" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioReferredByUri" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>720917</MemberValue>
+      <Docs>
+        <summary>The URI of the audio device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioRenderDevice">
+      <MemberSignature Language="C#" Value="AVModalityAudioRenderDevice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioRenderDevice = int32(720912)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioRenderDevice" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioRenderDevice" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioRenderDevice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>720912</MemberValue>
+      <Docs>
+        <summary>The description of the playback device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioRenderIntensity">
+      <MemberSignature Language="C#" Value="AVModalityAudioRenderIntensity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioRenderIntensity = int32(537591814)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioRenderIntensity" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioRenderIntensity" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioRenderIntensity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591814</MemberValue>
+      <Docs>
+        <summary>The incoming audio intensity level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioRenderIntensityMax">
+      <MemberSignature Language="C#" Value="AVModalityAudioRenderIntensityMax" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioRenderIntensityMax = int32(537591816)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioRenderIntensityMax" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioRenderIntensityMax" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioRenderIntensityMax" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591816</MemberValue>
+      <Docs>
+        <summary>The incoming audio intensity maximum level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioRenderIntensityMin">
+      <MemberSignature Language="C#" Value="AVModalityAudioRenderIntensityMin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioRenderIntensityMin = int32(537591815)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioRenderIntensityMin" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioRenderIntensityMin" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioRenderIntensityMin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591815</MemberValue>
+      <Docs>
+        <summary>The incoming audio intensity minimum level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioRenderMute">
+      <MemberSignature Language="C#" Value="AVModalityAudioRenderMute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioRenderMute = int32(269156357)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioRenderMute" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioRenderMute" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioRenderMute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156357</MemberValue>
+      <Docs>
+        <summary>The incoming audio volume is muted</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioRenderVolume">
+      <MemberSignature Language="C#" Value="AVModalityAudioRenderVolume" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioRenderVolume = int32(537591812)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioRenderVolume" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioRenderVolume" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioRenderVolume" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591812</MemberValue>
+      <Docs>
+        <summary>The incoming audio volume level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioSpeakerMode">
+      <MemberSignature Language="C#" Value="AVModalityAudioSpeakerMode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioSpeakerMode = int32(806027282)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioSpeakerMode" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioSpeakerMode" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioSpeakerMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027282</MemberValue>
+      <Docs>
+        <summary>The audio device category (public or private).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioSupportsAdvancedTransfer">
+      <MemberSignature Language="C#" Value="AVModalityAudioSupportsAdvancedTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioSupportsAdvancedTransfer = int32(269156374)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioSupportsAdvancedTransfer" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioSupportsAdvancedTransfer" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioSupportsAdvancedTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156374</MemberValue>
+      <Docs>
+        <summary>Is advanced transfer supported by the remote party?</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityAudioSupportsSafeTransfer">
+      <MemberSignature Language="C#" Value="AVModalityAudioSupportsSafeTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityAudioSupportsSafeTransfer = int32(269156380)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityAudioSupportsSafeTransfer" />
+      <MemberSignature Language="VB.NET" Value="AVModalityAudioSupportsSafeTransfer" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityAudioSupportsSafeTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156380</MemberValue>
+      <Docs>
+        <summary>Is safe transfer supported by the remote party?</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityIsAutoAccepted">
+      <MemberSignature Language="C#" Value="AVModalityIsAutoAccepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityIsAutoAccepted = int32(269156379)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityIsAutoAccepted" />
+      <MemberSignature Language="VB.NET" Value="AVModalityIsAutoAccepted" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityIsAutoAccepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156379</MemberValue>
+      <Docs>
+        <summary>The audio/video invitation has been auto accepted.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityUsbDisplayName">
+      <MemberSignature Language="C#" Value="AVModalityUsbDisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityUsbDisplayName = int32(720934)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityUsbDisplayName" />
+      <MemberSignature Language="VB.NET" Value="AVModalityUsbDisplayName" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityUsbDisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>720934</MemberValue>
+      <Docs>
+        <summary>The name for the usb stream.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityUsbOffHookLedStatus">
+      <MemberSignature Language="C#" Value="AVModalityUsbOffHookLedStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityUsbOffHookLedStatus = int32(269156389)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityUsbOffHookLedStatus" />
+      <MemberSignature Language="VB.NET" Value="AVModalityUsbOffHookLedStatus" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityUsbOffHookLedStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156389</MemberValue>
+      <Docs>
+        <summary>The USB device off-hook condition LED status.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityVideoBandwidthQuality">
+      <MemberSignature Language="C#" Value="AVModalityVideoBandwidthQuality" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityVideoBandwidthQuality = int32(806027298)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityVideoBandwidthQuality" />
+      <MemberSignature Language="VB.NET" Value="AVModalityVideoBandwidthQuality" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityVideoBandwidthQuality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027298</MemberValue>
+      <Docs>
+        <summary>The video bandwidth quality level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityVideoDeviceQuality">
+      <MemberSignature Language="C#" Value="AVModalityVideoDeviceQuality" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityVideoDeviceQuality = int32(806027299)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityVideoDeviceQuality" />
+      <MemberSignature Language="VB.NET" Value="AVModalityVideoDeviceQuality" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityVideoDeviceQuality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027299</MemberValue>
+      <Docs>
+        <summary>The video device quality level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityVideoNetworkQuality">
+      <MemberSignature Language="C#" Value="AVModalityVideoNetworkQuality" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityVideoNetworkQuality = int32(806027297)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityVideoNetworkQuality" />
+      <MemberSignature Language="VB.NET" Value="AVModalityVideoNetworkQuality" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityVideoNetworkQuality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027297</MemberValue>
+      <Docs>
+        <summary>The video network quality level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AVModalityVoicemailItemId">
+      <MemberSignature Language="C#" Value="AVModalityVoicemailItemId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty AVModalityVoicemailItemId = int32(720928)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.AVModalityVoicemailItemId" />
+      <MemberSignature Language="VB.NET" Value="AVModalityVoicemailItemId" />
+      <MemberSignature Language="C++ CLI" Value="AVModalityVoicemailItemId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>720928</MemberValue>
+      <Docs>
+        <summary>The id of the individual voicemail item being played by this conversation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageModalityInviteForked">
+      <MemberSignature Language="C#" Value="InstantMessageModalityInviteForked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty InstantMessageModalityInviteForked = int32(269156355)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.InstantMessageModalityInviteForked" />
+      <MemberSignature Language="VB.NET" Value="InstantMessageModalityInviteForked" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessageModalityInviteForked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156355</MemberValue>
+      <Docs>
+        <summary>The IM invitation was forked to more than one endpoint.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageModalityInviteMessage">
+      <MemberSignature Language="C#" Value="InstantMessageModalityInviteMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty InstantMessageModalityInviteMessage = int32(720897)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.InstantMessageModalityInviteMessage" />
+      <MemberSignature Language="VB.NET" Value="InstantMessageModalityInviteMessage" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessageModalityInviteMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>720897</MemberValue>
+      <Docs>
+        <summary>The first message that is sent with the IM invite.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageModalityNoAutoAccept">
+      <MemberSignature Language="C#" Value="InstantMessageModalityNoAutoAccept" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty InstantMessageModalityNoAutoAccept = int32(269156354)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.InstantMessageModalityNoAutoAccept" />
+      <MemberSignature Language="VB.NET" Value="InstantMessageModalityNoAutoAccept" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessageModalityNoAutoAccept" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269156354</MemberValue>
+      <Docs>
+        <summary>Do not auto-accept the IM invitation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageModalitySharedCapabilities">
+      <MemberSignature Language="C#" Value="InstantMessageModalitySharedCapabilities" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty InstantMessageModalitySharedCapabilities = int32(537591808)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.InstantMessageModalitySharedCapabilities" />
+      <MemberSignature Language="VB.NET" Value="InstantMessageModalitySharedCapabilities" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessageModalitySharedCapabilities" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537591808</MemberValue>
+      <Docs>
+        <summary>The shared capabilities of the IM modality.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved1 = int32(806027290)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>806027290</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved10">
+      <MemberSignature Language="C#" Value="Reserved10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved10 = int32(537624584)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved10" />
+      <MemberSignature Language="VB.NET" Value="Reserved10" />
+      <MemberSignature Language="C++ CLI" Value="Reserved10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537624584</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved11">
+      <MemberSignature Language="C#" Value="Reserved11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved11 = int32(269189129)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved11" />
+      <MemberSignature Language="VB.NET" Value="Reserved11" />
+      <MemberSignature Language="C++ CLI" Value="Reserved11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189129</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved12">
+      <MemberSignature Language="C#" Value="Reserved12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved12 = int32(1074495498)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved12" />
+      <MemberSignature Language="VB.NET" Value="Reserved12" />
+      <MemberSignature Language="C++ CLI" Value="Reserved12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074495498</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved13">
+      <MemberSignature Language="C#" Value="Reserved13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved13 = int32(269189131)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved13" />
+      <MemberSignature Language="VB.NET" Value="Reserved13" />
+      <MemberSignature Language="C++ CLI" Value="Reserved13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189131</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved14">
+      <MemberSignature Language="C#" Value="Reserved14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved14 = int32(269189132)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved14" />
+      <MemberSignature Language="VB.NET" Value="Reserved14" />
+      <MemberSignature Language="C++ CLI" Value="Reserved14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189132</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved15">
+      <MemberSignature Language="C#" Value="Reserved15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved15 = int32(269189133)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved15" />
+      <MemberSignature Language="VB.NET" Value="Reserved15" />
+      <MemberSignature Language="C++ CLI" Value="Reserved15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189133</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved16">
+      <MemberSignature Language="C#" Value="Reserved16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved16 = int32(537624590)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved16" />
+      <MemberSignature Language="VB.NET" Value="Reserved16" />
+      <MemberSignature Language="C++ CLI" Value="Reserved16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537624590</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved17">
+      <MemberSignature Language="C#" Value="Reserved17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved17 = int32(1074495503)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved17" />
+      <MemberSignature Language="VB.NET" Value="Reserved17" />
+      <MemberSignature Language="C++ CLI" Value="Reserved17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074495503</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved18">
+      <MemberSignature Language="C#" Value="Reserved18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved18 = int32(753680)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved18" />
+      <MemberSignature Language="VB.NET" Value="Reserved18" />
+      <MemberSignature Language="C++ CLI" Value="Reserved18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>753680</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved19">
+      <MemberSignature Language="C#" Value="Reserved19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved19 = int32(753681)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved19" />
+      <MemberSignature Language="VB.NET" Value="Reserved19" />
+      <MemberSignature Language="C++ CLI" Value="Reserved19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>753681</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved2 = int32(1074495488)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074495488</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved20">
+      <MemberSignature Language="C#" Value="Reserved20" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved20 = int32(537624594)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved20" />
+      <MemberSignature Language="VB.NET" Value="Reserved20" />
+      <MemberSignature Language="C++ CLI" Value="Reserved20" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537624594</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved3">
+      <MemberSignature Language="C#" Value="Reserved3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved3 = int32(269189121)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved3" />
+      <MemberSignature Language="VB.NET" Value="Reserved3" />
+      <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189121</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved4">
+      <MemberSignature Language="C#" Value="Reserved4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved4 = int32(269189122)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved4" />
+      <MemberSignature Language="VB.NET" Value="Reserved4" />
+      <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189122</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved5">
+      <MemberSignature Language="C#" Value="Reserved5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved5 = int32(269189123)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved5" />
+      <MemberSignature Language="VB.NET" Value="Reserved5" />
+      <MemberSignature Language="C++ CLI" Value="Reserved5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189123</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved6">
+      <MemberSignature Language="C#" Value="Reserved6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved6 = int32(269189124)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved6" />
+      <MemberSignature Language="VB.NET" Value="Reserved6" />
+      <MemberSignature Language="C++ CLI" Value="Reserved6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189124</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved7">
+      <MemberSignature Language="C#" Value="Reserved7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved7 = int32(269189125)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved7" />
+      <MemberSignature Language="VB.NET" Value="Reserved7" />
+      <MemberSignature Language="C++ CLI" Value="Reserved7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189125</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved8">
+      <MemberSignature Language="C#" Value="Reserved8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved8 = int32(269189126)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved8" />
+      <MemberSignature Language="VB.NET" Value="Reserved8" />
+      <MemberSignature Language="C++ CLI" Value="Reserved8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189126</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved9">
+      <MemberSignature Language="C#" Value="Reserved9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityProperty Reserved9 = int32(269189127)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityProperty.Reserved9" />
+      <MemberSignature Language="VB.NET" Value="Reserved9" />
+      <MemberSignature Language="C++ CLI" Value="Reserved9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>269189127</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

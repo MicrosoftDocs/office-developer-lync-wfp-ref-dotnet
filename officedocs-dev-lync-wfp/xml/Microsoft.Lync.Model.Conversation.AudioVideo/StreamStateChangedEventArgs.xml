@@ -1,0 +1,81 @@
+﻿<Type Name="StreamStateChangedEventArgs" FullName="Microsoft.Lync.Model.Conversation.AudioVideo.StreamStateChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class StreamStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StreamStateChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.StreamStateChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class StreamStateChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StreamStateChangedEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the event data of a StreamStateChanged event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Channel">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.AudioVideo.Channel Channel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.AudioVideo.Channel Channel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.StreamStateChangedEventArgs.Channel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Channel As Channel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::AudioVideo::Channel ^ Channel { Microsoft::Lync::Model::Conversation::AudioVideo::Channel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.Channel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the channel object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Direction">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.AudioVideo.MediaStreamDirection Direction { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.AudioVideo.MediaStreamDirection Direction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.StreamStateChangedEventArgs.Direction" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Direction As MediaStreamDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::AudioVideo::MediaStreamDirection Direction { Microsoft::Lync::Model::Conversation::AudioVideo::MediaStreamDirection get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.MediaStreamDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the stream direction.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsActive">
+      <MemberSignature Language="C#" Value="public bool IsActive { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsActive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.StreamStateChangedEventArgs.IsActive" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsActive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsActive { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the flag indicating whether the stream is active.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

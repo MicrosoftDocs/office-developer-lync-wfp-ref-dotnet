@@ -1,0 +1,231 @@
+﻿<Type Name="SearchException+FailureReason" FullName="Microsoft.Lync.Model.SearchException+FailureReason">
+  <TypeSignature Language="C#" Value="public enum SearchException.FailureReason" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed SearchException/FailureReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchException.FailureReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchException.FailureReason" />
+  <TypeSignature Language="C++ CLI" Value="public: enum class SearchException::FailureReason" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Enumerates reasons why search failed
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllNoise">
+      <MemberSignature Language="C#" Value="AllNoise" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason AllNoise = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.AllNoise" />
+      <MemberSignature Language="VB.NET" Value="AllNoise" />
+      <MemberSignature Language="C++ CLI" Value="AllNoise" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="BadQuery">
+      <MemberSignature Language="C#" Value="BadQuery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason BadQuery = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.BadQuery" />
+      <MemberSignature Language="VB.NET" Value="BadQuery" />
+      <MemberSignature Language="C++ CLI" Value="BadQuery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="BadRequest">
+      <MemberSignature Language="C#" Value="BadRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason BadRequest = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.BadRequest" />
+      <MemberSignature Language="VB.NET" Value="BadRequest" />
+      <MemberSignature Language="C++ CLI" Value="BadRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="BadScope">
+      <MemberSignature Language="C#" Value="BadScope" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason BadScope = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.BadScope" />
+      <MemberSignature Language="VB.NET" Value="BadScope" />
+      <MemberSignature Language="C++ CLI" Value="BadScope" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NoAuthorization">
+      <MemberSignature Language="C#" Value="NoAuthorization" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason NoAuthorization = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.NoAuthorization" />
+      <MemberSignature Language="VB.NET" Value="NoAuthorization" />
+      <MemberSignature Language="C++ CLI" Value="NoAuthorization" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NoQuery">
+      <MemberSignature Language="C#" Value="NoQuery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason NoQuery = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.NoQuery" />
+      <MemberSignature Language="VB.NET" Value="NoQuery" />
+      <MemberSignature Language="C++ CLI" Value="NoQuery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NoResponse">
+      <MemberSignature Language="C#" Value="NoResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason NoResponse = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.NoResponse" />
+      <MemberSignature Language="VB.NET" Value="NoResponse" />
+      <MemberSignature Language="C++ CLI" Value="NoResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ServerError">
+      <MemberSignature Language="C#" Value="ServerError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason ServerError = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.ServerError" />
+      <MemberSignature Language="VB.NET" Value="ServerError" />
+      <MemberSignature Language="C++ CLI" Value="ServerError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SharepointNotConfigured">
+      <MemberSignature Language="C#" Value="SharepointNotConfigured" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason SharepointNotConfigured = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.SharepointNotConfigured" />
+      <MemberSignature Language="VB.NET" Value="SharepointNotConfigured" />
+      <MemberSignature Language="C++ CLI" Value="SharepointNotConfigured" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Unspecified">
+      <MemberSignature Language="C#" Value="Unspecified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchException/FailureReason Unspecified = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.Unspecified" />
+      <MemberSignature Language="VB.NET" Value="Unspecified" />
+      <MemberSignature Language="C++ CLI" Value="Unspecified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchException+FailureReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

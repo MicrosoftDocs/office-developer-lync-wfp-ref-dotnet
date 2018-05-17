@@ -1,0 +1,813 @@
+﻿<Type Name="ApplicationSharingModality" FullName="Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality">
+  <TypeSignature Language="C#" Value="public class ApplicationSharingModality : Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationSharingModality extends Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality" />
+  <TypeSignature Language="VB.NET" Value="Public Class ApplicationSharingModality&#xA;Inherits Modality" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ApplicationSharingModality : Microsoft::Lync::Model::Conversation::Modality" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Conversation.Modality</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the application sharing modality of a conversation or participant modality collection.</summary>
+    <remarks>
+      <para>Use the ApplicationSharingModality from a participant modality collection when you want to take some controlling action for that participant on the shared resource. For example, if you want to grant control of a shared resource to a participant, you call BeginGrantControl on that participant modality.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationSharingModalityPropertyChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; ApplicationSharingModalityPropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; ApplicationSharingModalityPropertyChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ApplicationSharingModalityPropertyChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ApplicationSharingModalityPropertyChanged As EventHandler(Of ModalityPropertyChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityPropertyChangedEventArgs ^&gt; ^ ApplicationSharingModalityPropertyChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> 
+            Raised when a property value changes
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAcceptControlRequest">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginAcceptControlRequest (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginAcceptControlRequest(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginAcceptControlRequest(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginAcceptControlRequest (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAcceptControlRequest(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Accepts a pending control request.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeclineControlRequest">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginDeclineControlRequest (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginDeclineControlRequest(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginDeclineControlRequest(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginDeclineControlRequest (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginDeclineControlRequest(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Declines a pending control request.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGrantControl">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGrantControl (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginGrantControl(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginGrantControl(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginGrantControl (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginGrantControl(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Grants control of the shared resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginReleaseControl">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginReleaseControl (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginReleaseControl(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginReleaseControl(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginReleaseControl (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginReleaseControl(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Releases control of the shared resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRequestControl">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginRequestControl (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginRequestControl(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginRequestControl(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginRequestControl (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRequestControl(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Requests control of the shared resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRevokeControl">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginRevokeControl (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginRevokeControl(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginRevokeControl(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginRevokeControl (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRevokeControl(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Revokes control of the shared resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginShareDesktop">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginShareDesktop (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginShareDesktop(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginShareDesktop(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginShareDesktop (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShareDesktop(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Connects the modality, if not connected already, and starts sharing the desktop.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginShareResources">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginShareResources (Microsoft.Lync.Model.Conversation.Sharing.SharingResource resource, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginShareResources(class Microsoft.Lync.Model.Conversation.Sharing.SharingResource resource, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginShareResources(Microsoft.Lync.Model.Conversation.Sharing.SharingResource,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginShareResources (resource As SharingResource, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShareResources(Microsoft::Lync::Model::Conversation::Sharing::SharingResource ^ resource, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resource" Type="Microsoft.Lync.Model.Conversation.Sharing.SharingResource" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="resource">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Starts sharing resources with the given a resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginShareResources">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginShareResources (Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList resources, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginShareResources(class Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList resources, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginShareResources(Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginShareResources (resources As SharingResourceList, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShareResources(Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ resources, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resources" Type="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="resources">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Connects the modality, if not connected already, and starts sharing the given resources.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginShareResources">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginShareResources (System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Sharing.SharingResource&gt; resourceList, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginShareResources(class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.SharingResource&gt; resourceList, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginShareResources(System.Collections.Generic.IList{Microsoft.Lync.Model.Conversation.Sharing.SharingResource},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginShareResources (resourceList As IList(Of SharingResource), callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShareResources(System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Sharing::SharingResource ^&gt; ^ resourceList, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceList" Type="System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Sharing.SharingResource&gt;" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="resourceList">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Starts sharing resources with the given a list of resources.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanShare">
+      <MemberSignature Language="C#" Value="public bool CanShare (Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanShare(valuetype Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.CanShare(Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanShare (type As SharingResourceType) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanShare(Microsoft::Lync::Model::Conversation::Sharing::SharingResourceType type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <summary>
+            Finds if the given resource type can be shared 
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanShare">
+      <MemberSignature Language="C#" Value="public bool CanShare (Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType type, out Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail detail);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanShare(valuetype Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType type, [out] valuetype Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail&amp; detail) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.CanShare(Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType,Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanShare (type As SharingResourceType, ByRef detail As CanShareDetail) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanShare(Microsoft::Lync::Model::Conversation::Sharing::SharingResourceType type, [Runtime::InteropServices::Out] Microsoft::Lync::Model::Conversation::Sharing::CanShareDetail % detail);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType" />
+        <Parameter Name="detail" Type="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="detail">To be added.</param>
+        <summary>
+            Finds if the given resource type can be shared and provides some detail.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Controller">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Participant Controller { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Participant Controller" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.Controller" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Controller As Participant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ Controller { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Participant</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the conversation participant that is in control of the shared resource.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The Controller property returns null when the resource owner is in control of the resource. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControllerChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ControllerChangedEventArgs&gt; ControllerChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.ControllerChangedEventArgs&gt; ControllerChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ControllerChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ControllerChanged As EventHandler(Of ControllerChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ControllerChangedEventArgs ^&gt; ^ ControllerChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ControllerChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Registered on the Conversation ApplicationSharingModality and raised when the shared resource controller changed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlRequestReceived">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ControlRequestReceivedEventArgs&gt; ControlRequestReceived;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.ControlRequestReceivedEventArgs&gt; ControlRequestReceived" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ControlRequestReceived" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ControlRequestReceived As EventHandler(Of ControlRequestReceivedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ControlRequestReceivedEventArgs ^&gt; ^ ControlRequestReceived;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ControlRequestReceivedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Registered on the Conversation ApplicationSharingModality and raised when someone requests control of a resource.</summary>
+        <remarks>
+          <para>To accept a control request, call BeginAcceptControlRequest or BeginGrantControl on the ApplicationSharingResource from the requesting participant modalities collection. Do not call these methods on the ApplicationSharingResource from the Conversation.Modalities collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndAcceptControlRequest">
+      <MemberSignature Language="C#" Value="public void EndAcceptControlRequest (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndAcceptControlRequest(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndAcceptControlRequest(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndAcceptControlRequest (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndAcceptControlRequest(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Accepts a pending control request.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDeclineControlRequest">
+      <MemberSignature Language="C#" Value="public void EndDeclineControlRequest (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndDeclineControlRequest(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndDeclineControlRequest(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndDeclineControlRequest (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDeclineControlRequest(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Declines a pending control request.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGrantControl">
+      <MemberSignature Language="C#" Value="public void EndGrantControl (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndGrantControl(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndGrantControl(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndGrantControl (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndGrantControl(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Grants control of the shared resource.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndReleaseControl">
+      <MemberSignature Language="C#" Value="public void EndReleaseControl (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndReleaseControl(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndReleaseControl(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndReleaseControl (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndReleaseControl(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Releases control of the shared resource.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRequestControl">
+      <MemberSignature Language="C#" Value="public void EndRequestControl (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRequestControl(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndRequestControl(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndRequestControl (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRequestControl(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Requests control of the shared resource.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRevokeControl">
+      <MemberSignature Language="C#" Value="public void EndRevokeControl (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRevokeControl(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndRevokeControl(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndRevokeControl (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRevokeControl(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Revokes control of the shared resource.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndShareDesktop">
+      <MemberSignature Language="C#" Value="public void EndShareDesktop (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndShareDesktop(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndShareDesktop(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndShareDesktop (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndShareDesktop(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Connects the modality, if not connected already, and starts sharing the desktop.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndShareResources">
+      <MemberSignature Language="C#" Value="public void EndShareResources (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndShareResources(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndShareResources(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndShareResources (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndShareResources(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Connects the modality, if not connected already, and starts sharing the given resources.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~ApplicationSharingModality ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!ApplicationSharingModality ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalSharedResources">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList LocalSharedResources { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList LocalSharedResources" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.LocalSharedResources" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocalSharedResources As SharingResourceList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ LocalSharedResources { Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get the list of resources currently shared by the local participant.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalSharedResourcesChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.LocalSharedResourcesChangedEventArgs&gt; LocalSharedResourcesChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.LocalSharedResourcesChangedEventArgs&gt; LocalSharedResourcesChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.LocalSharedResourcesChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event LocalSharedResourcesChanged As EventHandler(Of LocalSharedResourcesChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::LocalSharedResourcesChangedEventArgs ^&gt; ^ LocalSharedResourcesChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.LocalSharedResourcesChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the list of locally shared resources changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticipationState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Sharing.ParticipationState ParticipationState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.Sharing.ParticipationState ParticipationState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ParticipationState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParticipationState As ParticipationState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ParticipationState ParticipationState { Microsoft::Lync::Model::Conversation::Sharing::ParticipationState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get the participation state.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticipationStateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs&gt; ParticipationStateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs&gt; ParticipationStateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ParticipationStateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipationStateChanged As EventHandler(Of ParticipationStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ParticipationStateChangedEventArgs ^&gt; ^ ParticipationStateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the participation state has changed.</summary>
+        <remarks>
+          <para>The participation state change event is raised multiple times when a participant attempts to take a control action on a shared resource. For example, if a user requests control of a shared resource and the control request is granted, the event is rased when the ParticipationState goes from Viewing to RequestingControl. When the request is granted, the event is raised again when the ParticipationState changes to Controlling. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShareableResources">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList ShareableResources { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList ShareableResources" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ShareableResources" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShareableResources As SharingResourceList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ ShareableResources { Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get the list of available resources.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sharer">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Participant Sharer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Participant Sharer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.Sharer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sharer As Participant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ Sharer { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Participant</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> 
+            Gets the participant who is sharing. It returns null when nobody is sharing.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharerChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.SharerChangedEventArgs&gt; SharerChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.SharerChangedEventArgs&gt; SharerChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.SharerChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event SharerChanged As EventHandler(Of SharerChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::SharerChangedEventArgs ^&gt; ^ SharerChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.SharerChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> 
+            Raised when the sharer changed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

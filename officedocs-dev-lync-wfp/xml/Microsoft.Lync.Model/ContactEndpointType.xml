@@ -1,0 +1,155 @@
+﻿<Type Name="ContactEndpointType" FullName="Microsoft.Lync.Model.ContactEndpointType">
+  <TypeSignature Language="C#" Value="public enum ContactEndpointType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactEndpointType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactEndpointType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactEndpointType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactEndpointType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates collaboration endpoint types.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HomePhone">
+      <MemberSignature Language="C#" Value="HomePhone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactEndpointType HomePhone = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.HomePhone" />
+      <MemberSignature Language="VB.NET" Value="HomePhone" />
+      <MemberSignature Language="C++ CLI" Value="HomePhone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Contact's home phone number.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactEndpointType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Lync">
+      <MemberSignature Language="C#" Value="Lync" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactEndpointType Lync = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.Lync" />
+      <MemberSignature Language="VB.NET" Value="Lync" />
+      <MemberSignature Language="C++ CLI" Value="Lync" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary> 
+            Contact's SIP address.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MobilePhone">
+      <MemberSignature Language="C#" Value="MobilePhone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactEndpointType MobilePhone = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.MobilePhone" />
+      <MemberSignature Language="VB.NET" Value="MobilePhone" />
+      <MemberSignature Language="C++ CLI" Value="MobilePhone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Contact's mobile phone number.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherPhone">
+      <MemberSignature Language="C#" Value="OtherPhone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactEndpointType OtherPhone = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.OtherPhone" />
+      <MemberSignature Language="VB.NET" Value="OtherPhone" />
+      <MemberSignature Language="C++ CLI" Value="OtherPhone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Contact's other phone number.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VoiceMail">
+      <MemberSignature Language="C#" Value="VoiceMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactEndpointType VoiceMail = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.VoiceMail" />
+      <MemberSignature Language="VB.NET" Value="VoiceMail" />
+      <MemberSignature Language="C++ CLI" Value="VoiceMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Contact's voice memo SIP address.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkPhone">
+      <MemberSignature Language="C#" Value="WorkPhone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactEndpointType WorkPhone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.WorkPhone" />
+      <MemberSignature Language="VB.NET" Value="WorkPhone" />
+      <MemberSignature Language="C++ CLI" Value="WorkPhone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Contact's work phone number.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,84 @@
+﻿<Type Name="FrequentContacts" FullName="Microsoft.Lync.Model.Group.FrequentContacts">
+  <TypeSignature Language="C#" Value="public class FrequentContacts : Microsoft.Lync.Model.Group.Group" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FrequentContacts extends Microsoft.Lync.Model.Group.Group" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.FrequentContacts" />
+  <TypeSignature Language="VB.NET" Value="Public Class FrequentContacts&#xA;Inherits Group" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FrequentContacts : Microsoft::Lync::Model::Group::Group" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Group.Group</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the group the signed in user's most frequently used contacts.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContactPositionChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs&gt; ContactPositionChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs&gt; ContactPositionChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.FrequentContacts.ContactPositionChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ContactPositionChanged As EventHandler(Of ContactPositionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::ContactPositionChangedEventArgs ^&gt; ^ ContactPositionChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when one or more contacts in a group are moved to different positions.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~FrequentContacts ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.FrequentContacts.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!FrequentContacts ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValueAt">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Contact GetValueAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Contact GetValueAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.FrequentContacts.GetValueAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetValueAt (index As Integer) As Contact" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Contact ^ GetValueAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Contact</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>Returns the contact at a given index.</summary>
+        <returns>IContact</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

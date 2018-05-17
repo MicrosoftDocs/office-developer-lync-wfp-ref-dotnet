@@ -1,0 +1,234 @@
+﻿<Type Name="SearchFields" FullName="Microsoft.Lync.Model.SearchFields">
+  <TypeSignature Language="C#" Value="public enum SearchFields" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchFields extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchFields" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchFields" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchFields" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates search filter properties.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alias">
+      <MemberSignature Language="C#" Value="Alias" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields Alias = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.Alias" />
+      <MemberSignature Language="VB.NET" Value="Alias" />
+      <MemberSignature Language="C++ CLI" Value="Alias" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>Search against alias if indexed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AllFields">
+      <MemberSignature Language="C#" Value="AllFields" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields AllFields = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.AllFields" />
+      <MemberSignature Language="VB.NET" Value="AllFields" />
+      <MemberSignature Language="C++ CLI" Value="AllFields" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>Search against any indexed field.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Company">
+      <MemberSignature Language="C#" Value="Company" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields Company = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.Company" />
+      <MemberSignature Language="VB.NET" Value="Company" />
+      <MemberSignature Language="C++ CLI" Value="Company" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Search against company name if indexed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="DisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields DisplayName = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="DisplayName" />
+      <MemberSignature Language="C++ CLI" Value="DisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Search against display name if indexed, several forms of display name may or may not supported by search provider</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="EmailAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields EmailAddresses = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="EmailAddresses" />
+      <MemberSignature Language="C++ CLI" Value="EmailAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>Search against all email addresses if indexed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstName">
+      <MemberSignature Language="C#" Value="FirstName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields FirstName = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.FirstName" />
+      <MemberSignature Language="VB.NET" Value="FirstName" />
+      <MemberSignature Language="C++ CLI" Value="FirstName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Search against first name if indexed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="LastName">
+      <MemberSignature Language="C#" Value="LastName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields LastName = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.LastName" />
+      <MemberSignature Language="VB.NET" Value="LastName" />
+      <MemberSignature Language="C++ CLI" Value="LastName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Search against last name if indexed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneExtention">
+      <MemberSignature Language="C#" Value="PhoneExtention" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields PhoneExtention = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.PhoneExtention" />
+      <MemberSignature Language="VB.NET" Value="PhoneExtention" />
+      <MemberSignature Language="C++ CLI" Value="PhoneExtention" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>Search against phone numbers if indexed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="PhoneNumbers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields PhoneNumbers = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="PhoneNumbers" />
+      <MemberSignature Language="C++ CLI" Value="PhoneNumbers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>Search against phone numbers if indexed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimaryEmailAddress">
+      <MemberSignature Language="C#" Value="PrimaryEmailAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchFields PrimaryEmailAddress = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchFields.PrimaryEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="PrimaryEmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="PrimaryEmailAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Search against primary email address if indexed.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

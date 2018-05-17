@@ -1,0 +1,120 @@
+﻿<Type Name="ContactSourceTypes" FullName="Microsoft.Lync.Model.ContactSourceTypes">
+  <TypeSignature Language="C#" Value="public enum ContactSourceTypes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactSourceTypes extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactSourceTypes" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactSourceTypes" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactSourceTypes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the contact provider type.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExchangeService">
+      <MemberSignature Language="C#" Value="ExchangeService" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactSourceTypes ExchangeService = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSourceTypes.ExchangeService" />
+      <MemberSignature Language="VB.NET" Value="ExchangeService" />
+      <MemberSignature Language="C++ CLI" Value="ExchangeService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactSourceTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The contact source is the Exchange Service.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalAddressList">
+      <MemberSignature Language="C#" Value="GlobalAddressList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactSourceTypes GlobalAddressList = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSourceTypes.GlobalAddressList" />
+      <MemberSignature Language="VB.NET" Value="GlobalAddressList" />
+      <MemberSignature Language="C++ CLI" Value="GlobalAddressList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactSourceTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The contact source is the Global Address List.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactSourceTypes Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSourceTypes.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactSourceTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactSourceTypes Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSourceTypes.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactSourceTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The contact source is unknown.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowsAddressBook">
+      <MemberSignature Language="C#" Value="WindowsAddressBook" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactSourceTypes WindowsAddressBook = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSourceTypes.WindowsAddressBook" />
+      <MemberSignature Language="VB.NET" Value="WindowsAddressBook" />
+      <MemberSignature Language="C++ CLI" Value="WindowsAddressBook" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactSourceTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The contact source is the Windows Address Book.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

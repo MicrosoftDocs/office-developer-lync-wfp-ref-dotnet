@@ -1,0 +1,461 @@
+﻿<Type Name="MenuManager+MenuRule" FullName="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager+MenuRule">
+  <TypeSignature Language="C#" Value="public abstract class MenuManager.MenuRule : Microsoft.Lync.Internal.Utilities.DataModel.NotifyPropertyChanged" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit MenuManager/MenuRule extends Microsoft.Lync.Internal.Utilities.DataModel.NotifyPropertyChanged" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class MenuManager.MenuRule&#xA;Inherits NotifyPropertyChanged" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::MenuRule abstract : Microsoft::Lync::Internal::Utilities::DataModel::NotifyPropertyChanged" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Internal.Utilities.DataModel.NotifyPropertyChanged</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected MenuRule (Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (manager As MenuManager)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; MenuRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="manager" Type="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager" />
+      </Parameters>
+      <Docs>
+        <param name="manager">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppendUri">
+      <MemberSignature Language="C#" Value="protected static void AppendUri (string value, System.Text.StringBuilder builder);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig void AppendUri(string value, class System.Text.StringBuilder builder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.AppendUri(System.String,System.Text.StringBuilder)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Sub AppendUri (value As String, builder As StringBuilder)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; static void AppendUri(System::String ^ value, System::Text::StringBuilder ^ builder);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="builder" Type="System.Text.StringBuilder" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="builder">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanExecuteCommand">
+      <MemberSignature Language="C#" Value="protected abstract bool CanExecuteCommand (object arg);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool CanExecuteCommand(object arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.CanExecuteCommand(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function CanExecuteCommand (arg As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract bool CanExecuteCommand(System::Object ^ arg);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="arg" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="arg">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfigureMenu">
+      <MemberSignature Language="C#" Value="public virtual void ConfigureMenu ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ConfigureMenu() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.ConfigureMenu" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ConfigureMenu ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ConfigureMenu();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.MenuContext Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.MenuContext Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As MenuContext" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::MenuContext Context { Microsoft::Lync::Controls::MenuContext get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.MenuContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteCommand">
+      <MemberSignature Language="C#" Value="protected abstract void ExecuteCommand (object arg);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void ExecuteCommand(object arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.ExecuteCommand(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub ExecuteCommand (arg As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void ExecuteCommand(System::Object ^ arg);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="arg" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="arg">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOtherContactsGroup">
+      <MemberSignature Language="C#" Value="protected Microsoft.Lync.Controls.Internal.Model.IGroupModel GetOtherContactsGroup ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class Microsoft.Lync.Controls.Internal.Model.IGroupModel GetOtherContactsGroup() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.GetOtherContactsGroup" />
+      <MemberSignature Language="VB.NET" Value="Protected Function GetOtherContactsGroup () As IGroupModel" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ GetOtherContactsGroup();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Model.IGroupModel</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUcClient">
+      <MemberSignature Language="C#" Value="protected Microsoft.Lync.Controls.Internal.Model.IUCClientModel GetUcClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class Microsoft.Lync.Controls.Internal.Model.IUCClientModel GetUcClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.GetUcClient" />
+      <MemberSignature Language="VB.NET" Value="Protected Function GetUcClient () As IUCClientModel" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ GetUcClient();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Model.IUCClientModel</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCustomGroupSelected">
+      <MemberSignature Language="C#" Value="protected bool IsCustomGroupSelected ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool IsCustomGroupSelected() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsCustomGroupSelected" />
+      <MemberSignature Language="VB.NET" Value="Protected Function IsCustomGroupSelected () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; bool IsCustomGroupSelected();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotSelfContact">
+      <MemberSignature Language="C#" Value="protected bool IsNotSelfContact ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool IsNotSelfContact() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsNotSelfContact" />
+      <MemberSignature Language="VB.NET" Value="Protected Function IsNotSelfContact () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; bool IsNotSelfContact();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOtherContactsGroup">
+      <MemberSignature Language="C#" Value="protected static bool IsOtherContactsGroup (Microsoft.Lync.Controls.Internal.Model.IGroupModel groupModel);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig bool IsOtherContactsGroup(class Microsoft.Lync.Controls.Internal.Model.IGroupModel groupModel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsOtherContactsGroup(Microsoft.Lync.Controls.Internal.Model.IGroupModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function IsOtherContactsGroup (groupModel As IGroupModel) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; static bool IsOtherContactsGroup(Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ groupModel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groupModel" Type="Microsoft.Lync.Controls.Internal.Model.IGroupModel" />
+      </Parameters>
+      <Docs>
+        <param name="groupModel">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public virtual bool IsVisible ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsVisible() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsVisible () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsVisible();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Manager">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.ViewModel.MenuManager Manager { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.ViewModel.MenuManager Manager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Manager" />
+      <MemberSignature Language="VB.NET" Value="Public Property Manager As MenuManager" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ Manager { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.ViewModel.MenuManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuCommand">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.Framework.Commands.DelegateCommand&lt;object&gt; MenuCommand { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.Framework.Commands.DelegateCommand`1&lt;object&gt; MenuCommand" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.MenuCommand" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuCommand As DelegateCommand(Of Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::Framework::Commands::DelegateCommand&lt;System::Object ^&gt; ^ MenuCommand { Microsoft::Lync::Controls::Internal::Framework::Commands::DelegateCommand&lt;System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Framework.Commands.DelegateCommand&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuVisibility">
+      <MemberSignature Language="C#" Value="public System.Windows.Visibility MenuVisibility { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Visibility MenuVisibility" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.MenuVisibility" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuVisibility As Visibility" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility MenuVisibility { System::Windows::Visibility get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Visibility</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Models">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.Model.IContactModel[] Models { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.Model.IContactModel[] Models" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Models" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Models As IContactModel()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ Models { cli::array &lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Model.IContactModel[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionIncludesContactType">
+      <MemberSignature Language="C#" Value="protected bool SelectionIncludesContactType (Microsoft.Lync.Controls.Internal.Model.ContactType type);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool SelectionIncludesContactType(valuetype Microsoft.Lync.Controls.Internal.Model.ContactType type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.SelectionIncludesContactType(Microsoft.Lync.Controls.Internal.Model.ContactType)" />
+      <MemberSignature Language="VB.NET" Value="Protected Function SelectionIncludesContactType (type As ContactType) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; bool SelectionIncludesContactType(Microsoft::Lync::Controls::Internal::Model::ContactType type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Lync.Controls.Internal.Model.ContactType" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartConversation">
+      <MemberSignature Language="C#" Value="protected void StartConversation (Microsoft.Lync.Controls.Internal.Model.ConversationModality modality);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void StartConversation(valuetype Microsoft.Lync.Controls.Internal.Model.ConversationModality modality) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.StartConversation(Microsoft.Lync.Controls.Internal.Model.ConversationModality)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub StartConversation (modality As ConversationModality)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void StartConversation(Microsoft::Lync::Controls::Internal::Model::ConversationModality modality);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modality" Type="Microsoft.Lync.Controls.Internal.Model.ConversationModality" />
+      </Parameters>
+      <Docs>
+        <param name="modality">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartConversation">
+      <MemberSignature Language="C#" Value="protected void StartConversation (Microsoft.Lync.Controls.Internal.Model.ConversationModality modality, Microsoft.Lync.Controls.Internal.Model.ConversationContextModel contextModel);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void StartConversation(valuetype Microsoft.Lync.Controls.Internal.Model.ConversationModality modality, class Microsoft.Lync.Controls.Internal.Model.ConversationContextModel contextModel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.StartConversation(Microsoft.Lync.Controls.Internal.Model.ConversationModality,Microsoft.Lync.Controls.Internal.Model.ConversationContextModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub StartConversation (modality As ConversationModality, contextModel As ConversationContextModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void StartConversation(Microsoft::Lync::Controls::Internal::Model::ConversationModality modality, Microsoft::Lync::Controls::Internal::Model::ConversationContextModel ^ contextModel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modality" Type="Microsoft.Lync.Controls.Internal.Model.ConversationModality" />
+        <Parameter Name="contextModel" Type="Microsoft.Lync.Controls.Internal.Model.ConversationContextModel" />
+      </Parameters>
+      <Docs>
+        <param name="modality">To be added.</param>
+        <param name="contextModel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartConversation">
+      <MemberSignature Language="C#" Value="protected void StartConversation (Microsoft.Lync.Controls.Internal.Model.ConversationModality modality, Microsoft.Lync.Controls.Internal.Model.ConversationContextModel contextModel, Microsoft.Lync.Controls.Internal.Model.IContactModel[] contactModels);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void StartConversation(valuetype Microsoft.Lync.Controls.Internal.Model.ConversationModality modality, class Microsoft.Lync.Controls.Internal.Model.ConversationContextModel contextModel, class Microsoft.Lync.Controls.Internal.Model.IContactModel[] contactModels) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.StartConversation(Microsoft.Lync.Controls.Internal.Model.ConversationModality,Microsoft.Lync.Controls.Internal.Model.ConversationContextModel,Microsoft.Lync.Controls.Internal.Model.IContactModel[])" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub StartConversation (modality As ConversationModality, contextModel As ConversationContextModel, contactModels As IContactModel())" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void StartConversation(Microsoft::Lync::Controls::Internal::Model::ConversationModality modality, Microsoft::Lync::Controls::Internal::Model::ConversationContextModel ^ contextModel, cli::array &lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ contactModels);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modality" Type="Microsoft.Lync.Controls.Internal.Model.ConversationModality" />
+        <Parameter Name="contextModel" Type="Microsoft.Lync.Controls.Internal.Model.ConversationContextModel" />
+        <Parameter Name="contactModels" Type="Microsoft.Lync.Controls.Internal.Model.IContactModel[]" />
+      </Parameters>
+      <Docs>
+        <param name="modality">To be added.</param>
+        <param name="contextModel">To be added.</param>
+        <param name="contactModels">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

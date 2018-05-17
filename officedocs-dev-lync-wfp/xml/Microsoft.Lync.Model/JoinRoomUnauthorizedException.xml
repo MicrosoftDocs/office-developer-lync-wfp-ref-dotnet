@@ -1,0 +1,54 @@
+﻿<Type Name="JoinRoomUnauthorizedException" FullName="Microsoft.Lync.Model.JoinRoomUnauthorizedException">
+  <TypeSignature Language="C#" Value="public class JoinRoomUnauthorizedException : Microsoft.Lync.Model.LyncClientException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit JoinRoomUnauthorizedException extends Microsoft.Lync.Model.LyncClientException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.JoinRoomUnauthorizedException" />
+  <TypeSignature Language="VB.NET" Value="Public Class JoinRoomUnauthorizedException&#xA;Inherits LyncClientException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class JoinRoomUnauthorizedException : Microsoft::Lync::Model::LyncClientException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.LyncClientException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Exception thrown when joining a room is unauthorized
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected JoinRoomUnauthorizedException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class System.Runtime.Serialization.SerializationInfo info, valuetype System.Runtime.Serialization.StreamingContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.JoinRoomUnauthorizedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (info As SerializationInfo, context As StreamingContext)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; JoinRoomUnauthorizedException(System::Runtime::Serialization::SerializationInfo ^ info, System::Runtime::Serialization::StreamingContext context);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
+        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
+      </Parameters>
+      <Docs>
+        <param name="info">
+            SerializationInfo object that holds the serialized object data about the 
+            exception being thrown.
+            </param>
+        <param name="context">
+            StreamingContext object that contains contextual information about the 
+            source or destination.
+            </param>
+        <summary>
+            Initializes a new instance of the JoinRoomFailException class with 
+            serialized data.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

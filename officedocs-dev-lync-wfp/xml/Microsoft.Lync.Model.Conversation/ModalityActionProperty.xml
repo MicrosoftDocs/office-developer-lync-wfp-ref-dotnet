@@ -1,0 +1,77 @@
+﻿<Type Name="ModalityActionProperty" FullName="Microsoft.Lync.Model.Conversation.ModalityActionProperty">
+  <TypeSignature Language="C#" Value="public enum ModalityActionProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ModalityActionProperty extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityActionProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ModalityActionProperty" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ModalityActionProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the modality control action properties.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConnectContextFailures">
+      <MemberSignature Language="C#" Value="ConnectContextFailures" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityActionProperty ConnectContextFailures = int32(1611464705)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityActionProperty.ConnectContextFailures" />
+      <MemberSignature Language="VB.NET" Value="ConnectContextFailures" />
+      <MemberSignature Language="C++ CLI" Value="ConnectContextFailures" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityActionProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1611464705</MemberValue>
+      <Docs>
+        <summary>String array of failed conversation contexts sent with connect (by conversation context id).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityActionProperty Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityActionProperty.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityActionProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TransferContextFailures">
+      <MemberSignature Language="C#" Value="TransferContextFailures" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityActionProperty TransferContextFailures = int32(1611464704)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityActionProperty.TransferContextFailures" />
+      <MemberSignature Language="VB.NET" Value="TransferContextFailures" />
+      <MemberSignature Language="C++ CLI" Value="TransferContextFailures" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityActionProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1611464704</MemberValue>
+      <Docs>
+        <summary>String array of failed conversation context transfers (by conversation context id).</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
