@@ -1,0 +1,96 @@
+﻿<Type Name="PreviousConversationHistoryRetrievalState" FullName="Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState">
+  <TypeSignature Language="C#" Value="public enum PreviousConversationHistoryRetrievalState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreviousConversationHistoryRetrievalState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PreviousConversationHistoryRetrievalState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PreviousConversationHistoryRetrievalState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Complete">
+      <MemberSignature Language="C#" Value="Complete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState Complete = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.Complete" />
+      <MemberSignature Language="VB.NET" Value="Complete" />
+      <MemberSignature Language="C++ CLI" Value="Complete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InProgress">
+      <MemberSignature Language="C#" Value="InProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState InProgress = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.InProgress" />
+      <MemberSignature Language="VB.NET" Value="InProgress" />
+      <MemberSignature Language="C++ CLI" Value="InProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotStarted">
+      <MemberSignature Language="C#" Value="NotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState NotStarted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.NotStarted" />
+      <MemberSignature Language="VB.NET" Value="NotStarted" />
+      <MemberSignature Language="C++ CLI" Value="NotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

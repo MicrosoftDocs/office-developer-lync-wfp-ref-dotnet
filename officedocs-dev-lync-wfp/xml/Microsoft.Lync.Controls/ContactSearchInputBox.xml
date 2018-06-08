@@ -1,0 +1,485 @@
+﻿<Type Name="ContactSearchInputBox" FullName="Microsoft.Lync.Controls.ContactSearchInputBox">
+  <TypeSignature Language="C#" Value="public class ContactSearchInputBox : Microsoft.Lync.Controls.UCBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ContactSearchInputBox extends Microsoft.Lync.Controls.UCBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactSearchInputBox" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactSearchInputBox&#xA;Inherits UCBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchInputBox : Microsoft::Lync::Controls::UCBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.UCBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_SearchHint", Type=typeof(System.Windows.Controls.ContentControl))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_ClearButton", Type=typeof(System.Windows.Controls.Button))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_TextSearch", Type=typeof(System.Windows.Controls.TextBox))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="SearchInUseStates", Name="SearchNotInUse")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="SearchInUseStates", Name="SearchInUse")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             Use the <see cref="T:Microsoft.Lync.Controls.ContactSearchInputBox" /> control to enable users to search their organization for people based on name,              phone number, or skill.             </summary>
+    <remarks>
+      <para>             The <see cref="T:Microsoft.Lync.Controls.ContactSearchInputBox" /> control displays a text box where users enter a search string.              The search is executed automatically, one second after the search text is changed, or              explicitly when the user presses Enter in the ContactSearchInputBox. Once a search              is complete, the results appear in a <see cref="T:Microsoft.Lync.Controls.ContactSearchResultList" /> control. The <see cref="T:Microsoft.Lync.Controls.ContactSearchResultList" /> control              provides an input box for searching for contacts by name or keyword.                          The <see cref="T:Microsoft.Lync.Controls.ContactSearchInputBox" /> and <see cref="T:Microsoft.Lync.Controls.ContactSearchResultList" /> controls, while related, are designed              as separate controls to allow the developer to display search results and search              input in separate locations on a page. Use the <see cref="T:Microsoft.Lync.Controls.ContactSearch" /> control in Lync               Control applications to display the <see cref="T:Microsoft.Lync.Controls.ContactSearchInputBox" /> and <see cref="T:Microsoft.Lync.Controls.ContactSearchResultList" /> controls together in the same location on a page.             </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactSearchInputBox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactSearchInputBox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Initializes a new instance of the <see cref="ContactSearchInputBox" /> class.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsClearEnabled">
+      <MemberSignature Language="C#" Value="public bool IsClearEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsClearEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.IsClearEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsClearEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsClearEnabled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a bool that specifies whether the <see cref="ClearButton" /> is enabled.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsClearEnabledProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsClearEnabledProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsClearEnabledProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.IsClearEnabledProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsClearEnabledProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsClearEnabledProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactSearchInputBox.IsClearEnabled" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSkillSearchEnabled">
+      <MemberSignature Language="C#" Value="public bool IsSkillSearchEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSkillSearchEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.IsSkillSearchEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsSkillSearchEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSkillSearchEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a bool value which indicates whether or not the skill search feature is enabled.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSkillSearchEnabledProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsSkillSearchEnabledProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsSkillSearchEnabledProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.IsSkillSearchEnabledProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsSkillSearchEnabledProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsSkillSearchEnabledProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactSearchInputBox.IsSkillSearchEnabled" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxResults">
+      <MemberSignature Language="C#" Value="public int MaxResults { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxResults" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.MaxResults" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxResults As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxResults { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>              Gets or sets the maximum number of results to return.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxResultsProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty MaxResultsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty MaxResultsProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.MaxResultsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxResultsProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ MaxResultsProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactSearchInputBox.MaxResults" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             When overridden in a derived class, is invoked whenever application code or              internal processes (such as a rebuilding layout pass)              call <see cref="ApplyTemplate" />.              In simplest terms, this means the method is called just before a UI element displays              in an application.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnContactManagerPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnContactManagerPropertyChanged (Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel oldContactManager, Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel newContactManager);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnContactManagerPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel oldContactManager, class Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel newContactManager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnContactManagerPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel,Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnContactManagerPropertyChanged (oldContactManager As IContactsAndGroupsManagerModel, newContactManager As IContactsAndGroupsManagerModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnContactManagerPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ oldContactManager, Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ newContactManager);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldContactManager" Type="Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel" />
+        <Parameter Name="newContactManager" Type="Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel" />
+      </Parameters>
+      <Docs>
+        <param name="oldContactManager">To be added.</param>
+        <param name="newContactManager">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Return the <see cref="AutomationPeer" /> object for the <see cref="ContactSearchInputBox" /> control.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIsSignedPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnIsSignedPropertyChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnIsSignedPropertyChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnIsSignedPropertyChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnIsSignedPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnIsSignedPropertyChanged(bool oldValue, bool newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnUnloaded">
+      <MemberSignature Language="C#" Value="protected override sealed void OnUnloaded ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnUnloaded() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnUnloaded" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnUnloaded ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnUnloaded();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Results">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.SearchResultCollection Results { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.SearchResultCollection Results" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.Results" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Results As SearchResultCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchResultCollection ^ Results { Microsoft::Lync::Controls::SearchResultCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchResultCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a <see cref="T:Microsoft.Lync.Controls.SearchResultCollection" /> object containing the results of a completed search operation.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResultsProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ResultsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ResultsProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.ResultsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResultsProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ResultsProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactSearchInputBox.Results" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.SearchState SearchState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.SearchState SearchState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchState As SearchState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchState SearchState { Microsoft::Lync::Controls::SearchState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a SearchState enumeration, which will specify either Cleared, Searching, Finished, or Error.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchStateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty SearchStateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty SearchStateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.SearchStateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchStateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SearchStateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchState" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchTextInput">
+      <MemberSignature Language="C#" Value="public string SearchTextInput { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchTextInput" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchTextInput" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchTextInput As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchTextInput { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the search input text. When set, any current             search operation is cancelled, search results are reset, and a new search operation is initiated.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchTextInputProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty SearchTextInputProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty SearchTextInputProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.SearchTextInputProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchTextInputProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SearchTextInputProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchTextInput" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchType">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.SearchType SearchType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.SearchType SearchType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchType" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchType As SearchType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchType SearchType { Microsoft::Lync::Controls::SearchType get(); void set(Microsoft::Lync::Controls::SearchType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets an enumerated value which determines the type of search to be performed by this control.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchTypeProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty SearchTypeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty SearchTypeProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.SearchTypeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchTypeProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SearchTypeProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchType" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwireUCClient">
+      <MemberSignature Language="C#" Value="protected override sealed void UnwireUCClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnwireUCClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.UnwireUCClient" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwireUCClient ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwireUCClient();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WireUCClient">
+      <MemberSignature Language="C#" Value="protected override sealed void WireUCClient (Microsoft.Lync.Controls.Internal.Model.IUCClientModel ucClientModel);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void WireUCClient(class Microsoft.Lync.Controls.Internal.Model.IUCClientModel ucClientModel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.WireUCClient(Microsoft.Lync.Controls.Internal.Model.IUCClientModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WireUCClient (ucClientModel As IUCClientModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WireUCClient(Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ ucClientModel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ucClientModel" Type="Microsoft.Lync.Controls.Internal.Model.IUCClientModel" />
+      </Parameters>
+      <Docs>
+        <param name="ucClientModel">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

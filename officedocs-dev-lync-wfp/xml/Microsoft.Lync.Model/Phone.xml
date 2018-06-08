@@ -1,0 +1,61 @@
+﻿<Type Name="Phone" FullName="Microsoft.Lync.Model.Phone">
+  <TypeSignature Language="C#" Value="public class Phone : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Phone extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Phone" />
+  <TypeSignature Language="VB.NET" Value="Public Class Phone&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Phone : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a publishable telephone number used to reach a contact.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Endpoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ContactEndpoint Endpoint { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.ContactEndpoint Endpoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Phone.Endpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Endpoint As ContactEndpoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactEndpoint ^ Endpoint { Microsoft::Lync::Model::ContactEndpoint ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpoint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets Collaboration Endpoint object representing the phone number and type.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Published">
+      <MemberSignature Language="C#" Value="public bool Published { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Published" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Phone.Published" />
+      <MemberSignature Language="VB.NET" Value="Public Property Published As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Published { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Read-write property that indicates a phone has been published when the property value returns as true.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

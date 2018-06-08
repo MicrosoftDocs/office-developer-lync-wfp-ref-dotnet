@@ -1,0 +1,129 @@
+﻿<Type Name="WatermarkedTextBox" FullName="Microsoft.Lync.Controls.Internal.WatermarkedTextBox">
+  <TypeSignature Language="C#" Value="public class WatermarkedTextBox : System.Windows.Controls.TextBox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi WatermarkedTextBox extends System.Windows.Controls.TextBox" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.WatermarkedTextBox" />
+  <TypeSignature Language="VB.NET" Value="Public Class WatermarkedTextBox&#xA;Inherits TextBox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WatermarkedTextBox : System::Windows::Controls::TextBox" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Windows.Controls.TextBox</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="ContentElement", Type=typeof(System.Windows.Controls.ContentControl))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="Watermark", Type=typeof(System.Windows.Controls.ContentControl))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_ContentHost", Type=typeof(System.Windows.Controls.ContentControl))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="WatermarkStates", Name="Unwatermarked")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="CommonStates", Name="MouseOver")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="CommonStates", Name="Normal")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="FocusStates", Name="Unfocused")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="CommonStates", Name="Disabled")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="FocusStates", Name="Focused")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplateVisualState(GroupName="WatermarkStates", Name="Watermarked")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WatermarkedTextBox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.WatermarkedTextBox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WatermarkedTextBox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.WatermarkedTextBox.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Watermark">
+      <MemberSignature Language="C#" Value="public object Watermark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Watermark" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.WatermarkedTextBox.Watermark" />
+      <MemberSignature Language="VB.NET" Value="Public Property Watermark As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Watermark { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WatermarkProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty WatermarkProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty WatermarkProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.WatermarkedTextBox.WatermarkProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WatermarkProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ WatermarkProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

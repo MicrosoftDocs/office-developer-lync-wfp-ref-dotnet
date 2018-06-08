@@ -1,0 +1,569 @@
+﻿<Type Name="LyncClient" FullName="Microsoft.Lync.Model.LyncClient">
+  <TypeSignature Language="C#" Value="public class LyncClient : Microsoft.Lync.Model.Client" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LyncClient extends Microsoft.Lync.Model.Client" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.LyncClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class LyncClient&#xA;Inherits Client" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LyncClient : Microsoft::Lync::Model::Client" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Client</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Implements the client class which represents the main entry point for the API.  Represents the Lync client and provides access to conversations and contacts via their respective manager classes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginInitialize">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginInitialize (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginInitialize(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.BeginInitialize(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginInitialize (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginInitialize(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Initializes LyncClient when the Lync is in Suppressed Mode. You do not 
+            call this method when Lync is not suppressed.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginShutdown">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginShutdown (AsyncCallback communicatorClientCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginShutdown(class System.AsyncCallback communicatorClientCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.BeginShutdown(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginShutdown (communicatorClientCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShutdown(AsyncCallback ^ communicatorClientCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="communicatorClientCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="communicatorClientCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Starts the collaboration platform shutdown process.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSignIn">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSignIn (string userUri, string domainAndUsername, string password, AsyncCallback communicatorClientCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSignIn(string userUri, string domainAndUsername, string password, class System.AsyncCallback communicatorClientCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.BeginSignIn(System.String,System.String,System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSignIn (userUri As String, domainAndUsername As String, password As String, communicatorClientCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSignIn(System::String ^ userUri, System::String ^ domainAndUsername, System::String ^ password, AsyncCallback ^ communicatorClientCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userUri" Type="System.String" />
+        <Parameter Name="domainAndUsername" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="communicatorClientCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="userUri">To be added.</param>
+        <param name="domainAndUsername">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="communicatorClientCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Starts the uc Client sign in process with a specific availability.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSignOut">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSignOut (AsyncCallback communicatorClientCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSignOut(class System.AsyncCallback communicatorClientCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.BeginSignOut(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSignOut (communicatorClientCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSignOut(AsyncCallback ^ communicatorClientCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="communicatorClientCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="communicatorClientCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Starts the uc Client sign out process.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Capabilities">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.LyncClientCapabilityTypes Capabilities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes Capabilities" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.Capabilities" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As LyncClientCapabilityTypes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::LyncClientCapabilityTypes Capabilities { Microsoft::Lync::Model::LyncClientCapabilityTypes get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determine whether ours is the preferred client for a capability.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CapabilitiesChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.PreferredCapabilitiesChangedEventArgs&gt; CapabilitiesChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.PreferredCapabilitiesChangedEventArgs&gt; CapabilitiesChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.CapabilitiesChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CapabilitiesChanged As EventHandler(Of PreferredCapabilitiesChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::PreferredCapabilitiesChangedEventArgs ^&gt; ^ CapabilitiesChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.PreferredCapabilitiesChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the preferred capabilities changed</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientDisconnected">
+      <MemberSignature Language="C#" Value="public event EventHandler ClientDisconnected;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ClientDisconnected" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.ClientDisconnected" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ClientDisconnected As EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ClientDisconnected;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Raised when Lync connection is broken.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateApplicationRegistration">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Extensibility.ApplicationRegistration CreateApplicationRegistration (string appGuid, string appName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Extensibility.ApplicationRegistration CreateApplicationRegistration(string appGuid, string appName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.CreateApplicationRegistration(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateApplicationRegistration (appGuid As String, appName As String) As ApplicationRegistration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Extensibility::ApplicationRegistration ^ CreateApplicationRegistration(System::String ^ appGuid, System::String ^ appName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ApplicationRegistration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="appGuid" Type="System.String" />
+        <Parameter Name="appName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="appGuid">To be added.</param>
+        <param name="appName">To be added.</param>
+        <summary>Construct an application registration object used to register a Silverlight conversation window extension application.</summary>
+        <returns>ApplicationRegistration. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CredentialRequested">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.CredentialRequestedEventArgs&gt; CredentialRequested;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.CredentialRequestedEventArgs&gt; CredentialRequested" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.CredentialRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CredentialRequested As EventHandler(Of CredentialRequestedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::CredentialRequestedEventArgs ^&gt; ^ CredentialRequested;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.CredentialRequestedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a user credential is requested by a server such as the Lync server.</summary>
+        <remarks>
+          <para>This event is only raised when Lync client is in Full UI supression mode and a user has not provided acceptable sign-in credentials or other credential types requested by othe r servers.  When not in UI suppression mode, this even is not raised when credentials are requested. In this case, the Lync client presents a credential request dialog.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatorClientAdded">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt; DelegatorClientAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt; DelegatorClientAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.DelegatorClientAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DelegatorClientAdded As EventHandler(Of DelegatorClientCollectionEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::DelegatorClientCollectionEventArgs ^&gt; ^ DelegatorClientAdded;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a new delegate endpoint is created.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatorClientRemoved">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt; DelegatorClientRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt; DelegatorClientRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.DelegatorClientRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DelegatorClientRemoved As EventHandler(Of DelegatorClientCollectionEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::DelegatorClientCollectionEventArgs ^&gt; ^ DelegatorClientRemoved;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when an existing delegate endpoint is released.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatorClients">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.DelegatorClient&gt; DelegatorClients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.DelegatorClient&gt; DelegatorClients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.DelegatorClients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DelegatorClients As IList(Of DelegatorClient)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::DelegatorClient ^&gt; ^ DelegatorClients { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::DelegatorClient ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.DelegatorClient&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets an array of IDelegatorClient objects.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceManager">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Device.DeviceManager DeviceManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Device.DeviceManager DeviceManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.DeviceManager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceManager As DeviceManager" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Device::DeviceManager ^ DeviceManager { Microsoft::Lync::Model::Device::DeviceManager ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.DeviceManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the device manager.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndInitialize">
+      <MemberSignature Language="C#" Value="public void EndInitialize (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndInitialize(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.EndInitialize(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndInitialize (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndInitialize(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary>
+            Ends the Initialize operation and unblocks program execution on the calling thread.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndShutdown">
+      <MemberSignature Language="C#" Value="public void EndShutdown (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndShutdown(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.EndShutdown(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndShutdown (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndShutdown(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Starts the collaboration platform shutdown process.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSignIn">
+      <MemberSignature Language="C#" Value="public void EndSignIn (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndSignIn(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.EndSignIn(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndSignIn (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSignIn(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Starts the uc Client sign in process with a specific availability.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSignOut">
+      <MemberSignature Language="C#" Value="public void EndSignOut (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndSignOut(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.EndSignOut(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndSignOut (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSignOut(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Starts the uc Client sign out process.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~LyncClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!LyncClient ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAutomation">
+      <MemberSignature Language="C#" Value="public static Microsoft.Lync.Model.Extensibility.Automation GetAutomation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Lync.Model.Extensibility.Automation GetAutomation() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.GetAutomation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetAutomation () As Automation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Lync::Model::Extensibility::Automation ^ GetAutomation();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.Automation</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates an instance of Automation and returns.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClient">
+      <MemberSignature Language="C#" Value="public static Microsoft.Lync.Model.LyncClient GetClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Lync.Model.LyncClient GetClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.GetClient" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetClient () As LyncClient" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Lync::Model::LyncClient ^ GetClient();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClient</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InSuppressedMode">
+      <MemberSignature Language="C#" Value="public bool InSuppressedMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InSuppressedMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.InSuppressedMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InSuppressedMode As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InSuppressedMode { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns true when in Full UI Suppression mode.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignInConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.SignInConfiguration SignInConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.SignInConfiguration SignInConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.SignInConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignInConfiguration As SignInConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::SignInConfiguration ^ SignInConfiguration { Microsoft::Lync::Model::SignInConfiguration ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SignInConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the configuration manager.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignInDelayed">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.SignInDelayedEventArgs&gt; SignInDelayed;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.SignInDelayedEventArgs&gt; SignInDelayed" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.SignInDelayed" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event SignInDelayed As EventHandler(Of SignInDelayedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::SignInDelayedEventArgs ^&gt; ^ SignInDelayed;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.SignInDelayedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when there is a delay in the SignIn/auto-recover process</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Utilities">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Utilities Utilities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Utilities Utilities" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.Utilities" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Utilities As Utilities" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Utilities ^ Utilities { Microsoft::Lync::Model::Utilities ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Utilities</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an instance of the Utilities class.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

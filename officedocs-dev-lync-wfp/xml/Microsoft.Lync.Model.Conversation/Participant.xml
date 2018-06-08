@@ -1,0 +1,747 @@
+﻿<Type Name="Participant" FullName="Microsoft.Lync.Model.Conversation.Participant">
+  <TypeSignature Language="C#" Value="public class Participant : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Participant extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Participant" />
+  <TypeSignature Language="VB.NET" Value="Public Class Participant&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Participant : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>A participant is a contact (person or phone number) that was added to a conversation. Each participant has its own modality set that represents the state of the participant in this conversation for each modality.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActionAvailabilityChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantActionAvailabilityChangedEventArgs&gt; ActionAvailabilityChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ParticipantActionAvailabilityChangedEventArgs&gt; ActionAvailabilityChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Participant.ActionAvailabilityChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ParticipantActionAvailabilityChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ParticipantActionAvailabilityChangedEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantActionAvailabilityChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when an action availability changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAdmit">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginAdmit (AsyncCallback participantCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginAdmit(class System.AsyncCallback participantCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.BeginAdmit(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginAdmit (participantCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAdmit(AsyncCallback ^ participantCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="participantCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="participantCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Admits the participant to the conference.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeny">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginDeny (AsyncCallback participantCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginDeny(class System.AsyncCallback participantCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.BeginDeny(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginDeny (participantCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginDeny(AsyncCallback ^ participantCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="participantCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="participantCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Denies the participant access to the conference and removes him from the lobby.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginLockVideo">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginLockVideo (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginLockVideo(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.BeginLockVideo(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginLockVideo (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginLockVideo(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Asynchronously locks the participants video
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginPinVideo">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginPinVideo (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginPinVideo(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.BeginPinVideo(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginPinVideo (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginPinVideo(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Asynchronously pins the participant video
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSetMute">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSetMute (bool mute, AsyncCallback participantCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSetMute(bool mute, class System.AsyncCallback participantCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.BeginSetMute(System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSetMute (mute As Boolean, participantCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetMute(bool mute, AsyncCallback ^ participantCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mute" Type="System.Boolean" />
+        <Parameter Name="participantCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="mute">To be added.</param>
+        <param name="participantCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Sets the mute state.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSetProperty">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSetProperty (Microsoft.Lync.Model.Conversation.ParticipantProperty propertyType, object propertyValue, AsyncCallback participantCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSetProperty(valuetype Microsoft.Lync.Model.Conversation.ParticipantProperty propertyType, object propertyValue, class System.AsyncCallback participantCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.BeginSetProperty(Microsoft.Lync.Model.Conversation.ParticipantProperty,System.Object,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSetProperty (propertyType As ParticipantProperty, propertyValue As Object, participantCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetProperty(Microsoft::Lync::Model::Conversation::ParticipantProperty propertyType, System::Object ^ propertyValue, AsyncCallback ^ participantCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyType" Type="Microsoft.Lync.Model.Conversation.ParticipantProperty" />
+        <Parameter Name="propertyValue" Type="System.Object" />
+        <Parameter Name="participantCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyType">To be added.</param>
+        <param name="propertyValue">To be added.</param>
+        <param name="participantCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Sets a property associated with this participant.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUnLockVideo">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginUnLockVideo (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginUnLockVideo(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.BeginUnLockVideo(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginUnLockVideo (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginUnLockVideo(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Asynchronously unlocks the participants video
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUnPinVideo">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginUnPinVideo (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginUnPinVideo(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.BeginUnPinVideo(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginUnPinVideo (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginUnPinVideo(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Asynchronously unpins the participant video
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanAdmit">
+      <MemberSignature Language="C#" Value="public bool CanAdmit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanAdmit() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.CanAdmit" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanAdmit () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanAdmit();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns true if a participant can be admitted from the lobby.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>
+          <para>Do not use this method. Use Participant.CanInvoke(ParticipantAction.Admit) instead.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanBeMuted">
+      <MemberSignature Language="C#" Value="public bool CanBeMuted ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanBeMuted() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.CanBeMuted" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanBeMuted () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanBeMuted();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns true if a participant can be muted.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>
+          <para>Do not use this method. Use Participant.CanInvoke(ParticipantAction.SetMute) instead.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanDeny">
+      <MemberSignature Language="C#" Value="public bool CanDeny ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanDeny() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.CanDeny" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanDeny () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanDeny();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns true if a participant waiting in the lobby can be denied access to a conference.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>
+          <para>Do not use this method. Use Participant.CanInvoke(ParticipantAction.Deny) instead.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanSetProperty">
+      <MemberSignature Language="C#" Value="public bool CanSetProperty (Microsoft.Lync.Model.Conversation.ParticipantProperty participantProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanSetProperty(valuetype Microsoft.Lync.Model.Conversation.ParticipantProperty participantProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.CanSetProperty(Microsoft.Lync.Model.Conversation.ParticipantProperty)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetProperty(Microsoft::Lync::Model::Conversation::ParticipantProperty participantProperty);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="participantProperty" Type="Microsoft.Lync.Model.Conversation.ParticipantProperty" />
+      </Parameters>
+      <Docs>
+        <param name="participantProperty">To be added.</param>
+        <summary>Test whether the property can be set to the participant.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>
+          <para>Do not use this method. Use CanInvoke(ParticipantAction.SetProperty) instead.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contact">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Contact Contact { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Contact Contact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Participant.Contact" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contact As Contact" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Contact ^ Contact { Microsoft::Lync::Model::Contact ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Contact</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the contact object associated with the participant.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Conversation Conversation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Conversation Conversation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Participant.Conversation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversation As Conversation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Conversation ^ Conversation { Microsoft::Lync::Model::Conversation::Conversation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Conversation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the parent conversation object of the participant.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndAdmit">
+      <MemberSignature Language="C#" Value="public void EndAdmit (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndAdmit(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.EndAdmit(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndAdmit (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndAdmit(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Admits the participant to the conference.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDeny">
+      <MemberSignature Language="C#" Value="public void EndDeny (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndDeny(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.EndDeny(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndDeny (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDeny(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Denies the participant access to the conference and removes him from the lobby.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndLockVideo">
+      <MemberSignature Language="C#" Value="public void EndLockVideo (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndLockVideo(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.EndLockVideo(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndLockVideo (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndLockVideo(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Asynchronously locks the participants video
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndPinVideo">
+      <MemberSignature Language="C#" Value="public void EndPinVideo (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndPinVideo(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.EndPinVideo(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndPinVideo (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndPinVideo(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Asynchronously pins the participant video
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSetMute">
+      <MemberSignature Language="C#" Value="public void EndSetMute (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndSetMute(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.EndSetMute(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndSetMute (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSetMute(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Sets the mute state.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSetProperty">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ParticipantProperty EndSetProperty (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Lync.Model.Conversation.ParticipantProperty EndSetProperty(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.EndSetProperty(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndSetProperty (asyncResult As IAsyncResult) As ParticipantProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::ParticipantProperty EndSetProperty(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ParticipantProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Sets a property associated with this participant.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndUnLockVideo">
+      <MemberSignature Language="C#" Value="public void EndUnLockVideo (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndUnLockVideo(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.EndUnLockVideo(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndUnLockVideo (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndUnLockVideo(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Asynchronously unlocks the participants video
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndUnPinVideo">
+      <MemberSignature Language="C#" Value="public void EndUnPinVideo (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndUnPinVideo(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.EndUnPinVideo(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndUnPinVideo (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndUnPinVideo(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Asynchronously unpins the participant video
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~Participant ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Participant.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!Participant ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMuted">
+      <MemberSignature Language="C#" Value="public bool IsMuted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMuted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Participant.IsMuted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMuted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMuted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a flag indicating whether the participant is muted.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMutedChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.MutedChangedEventArgs&gt; IsMutedChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.MutedChangedEventArgs&gt; IsMutedChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Participant.IsMutedChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event IsMutedChanged As EventHandler(Of MutedChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::MutedChangedEventArgs ^&gt; ^ IsMutedChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.MutedChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the mute state changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSelf">
+      <MemberSignature Language="C#" Value="public bool IsSelf { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSelf" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Participant.IsSelf" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSelf As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSelf { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets flag indicating whether this is the local participant.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Modalities">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ModalityTypes,Microsoft.Lync.Model.Conversation.Modality&gt; Modalities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Conversation.ModalityTypes, class Microsoft.Lync.Model.Conversation.Modality&gt; Modalities" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Participant.Modalities" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Modalities As IDictionary(Of ModalityTypes, Modality)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityTypes, Microsoft::Lync::Model::Conversation::Modality ^&gt; ^ Modalities { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityTypes, Microsoft::Lync::Model::Conversation::Modality ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ModalityTypes,Microsoft.Lync.Model.Conversation.Modality&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the collection of conversation modalities (activities</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ParticipantProperty,object&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Conversation.ParticipantProperty, object&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Participant.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ParticipantProperty, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ParticipantProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ParticipantProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ParticipantProperty,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of participant properties.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantPropertyChangedEventArgs&gt; PropertyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ParticipantPropertyChangedEventArgs&gt; PropertyChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Participant.PropertyChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event PropertyChanged As EventHandler(Of ParticipantPropertyChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ParticipantPropertyChangedEventArgs ^&gt; ^ PropertyChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantPropertyChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a property value changes</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

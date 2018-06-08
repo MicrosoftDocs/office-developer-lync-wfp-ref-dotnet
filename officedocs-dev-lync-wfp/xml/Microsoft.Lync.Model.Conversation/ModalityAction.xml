@@ -1,0 +1,514 @@
+﻿<Type Name="ModalityAction" FullName="Microsoft.Lync.Model.Conversation.ModalityAction">
+  <TypeSignature Language="C#" Value="public enum ModalityAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ModalityAction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityAction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ModalityAction" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ModalityAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the modality actions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accept">
+      <MemberSignature Language="C#" Value="Accept" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Accept = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Accept" />
+      <MemberSignature Language="VB.NET" Value="Accept" />
+      <MemberSignature Language="C++ CLI" Value="Accept" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>Accept the modality invitation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AcceptSharingControlRequest">
+      <MemberSignature Language="C#" Value="AcceptSharingControlRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction AcceptSharingControlRequest = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.AcceptSharingControlRequest" />
+      <MemberSignature Language="VB.NET" Value="AcceptSharingControlRequest" />
+      <MemberSignature Language="C++ CLI" Value="AcceptSharingControlRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>Accept the request to grant sharing control.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="Connect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Connect = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Connect" />
+      <MemberSignature Language="VB.NET" Value="Connect" />
+      <MemberSignature Language="C++ CLI" Value="Connect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Connect to the conversation with a modality.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsultAndTransfer">
+      <MemberSignature Language="C#" Value="ConsultAndTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction ConsultAndTransfer = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.ConsultAndTransfer" />
+      <MemberSignature Language="VB.NET" Value="ConsultAndTransfer" />
+      <MemberSignature Language="C++ CLI" Value="ConsultAndTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Transfer a conversation modality into another existing conversation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateShareableNativeFileOnlyContent">
+      <MemberSignature Language="C#" Value="CreateShareableNativeFileOnlyContent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction CreateShareableNativeFileOnlyContent = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.CreateShareableNativeFileOnlyContent" />
+      <MemberSignature Language="VB.NET" Value="CreateShareableNativeFileOnlyContent" />
+      <MemberSignature Language="C++ CLI" Value="CreateShareableNativeFileOnlyContent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>Create shareable native file content.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateShareablePowerPointContent">
+      <MemberSignature Language="C#" Value="CreateShareablePowerPointContent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction CreateShareablePowerPointContent = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.CreateShareablePowerPointContent" />
+      <MemberSignature Language="VB.NET" Value="CreateShareablePowerPointContent" />
+      <MemberSignature Language="C++ CLI" Value="CreateShareablePowerPointContent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>Create shareable PowerPoint content.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateShareableWhiteboardContent">
+      <MemberSignature Language="C#" Value="CreateShareableWhiteboardContent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction CreateShareableWhiteboardContent = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.CreateShareableWhiteboardContent" />
+      <MemberSignature Language="VB.NET" Value="CreateShareableWhiteboardContent" />
+      <MemberSignature Language="C++ CLI" Value="CreateShareableWhiteboardContent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>Create shareable Whiteboard content.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeclineSharingControlRequest">
+      <MemberSignature Language="C#" Value="DeclineSharingControlRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction DeclineSharingControlRequest = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.DeclineSharingControlRequest" />
+      <MemberSignature Language="VB.NET" Value="DeclineSharingControlRequest" />
+      <MemberSignature Language="C++ CLI" Value="DeclineSharingControlRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>Decline the request to grant sharing control.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnect">
+      <MemberSignature Language="C#" Value="Disconnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Disconnect = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Disconnect" />
+      <MemberSignature Language="VB.NET" Value="Disconnect" />
+      <MemberSignature Language="C++ CLI" Value="Disconnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Disconnect a modality from the conversation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="Forward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Forward = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Forward" />
+      <MemberSignature Language="VB.NET" Value="Forward" />
+      <MemberSignature Language="C++ CLI" Value="Forward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Forward a conversation modality.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GrantSharingControl">
+      <MemberSignature Language="C#" Value="GrantSharingControl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction GrantSharingControl = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.GrantSharingControl" />
+      <MemberSignature Language="VB.NET" Value="GrantSharingControl" />
+      <MemberSignature Language="C++ CLI" Value="GrantSharingControl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Grant control of shared resources to another participant.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hold">
+      <MemberSignature Language="C#" Value="Hold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Hold = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Hold" />
+      <MemberSignature Language="VB.NET" Value="Hold" />
+      <MemberSignature Language="C++ CLI" Value="Hold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Put a conversation modality on hold.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="LocalTransfer">
+      <MemberSignature Language="C#" Value="LocalTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction LocalTransfer = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.LocalTransfer" />
+      <MemberSignature Language="VB.NET" Value="LocalTransfer" />
+      <MemberSignature Language="C++ CLI" Value="LocalTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>Transfer the local participant to another endpoint.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reject">
+      <MemberSignature Language="C#" Value="Reject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Reject = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Reject" />
+      <MemberSignature Language="VB.NET" Value="Reject" />
+      <MemberSignature Language="C++ CLI" Value="Reject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>Reject the modality invitation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReleaseSharingControl">
+      <MemberSignature Language="C#" Value="ReleaseSharingControl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction ReleaseSharingControl = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.ReleaseSharingControl" />
+      <MemberSignature Language="VB.NET" Value="ReleaseSharingControl" />
+      <MemberSignature Language="C++ CLI" Value="ReleaseSharingControl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>Release control of shared resources.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoteTransfer">
+      <MemberSignature Language="C#" Value="RemoteTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction RemoteTransfer = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.RemoteTransfer" />
+      <MemberSignature Language="VB.NET" Value="RemoteTransfer" />
+      <MemberSignature Language="C++ CLI" Value="RemoteTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Transfer a conversation modality.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestSharingControl">
+      <MemberSignature Language="C#" Value="RequestSharingControl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction RequestSharingControl = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.RequestSharingControl" />
+      <MemberSignature Language="VB.NET" Value="RequestSharingControl" />
+      <MemberSignature Language="C++ CLI" Value="RequestSharingControl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>Request control of shared resources.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Reserved1 = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Reserved2 = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Retrieve">
+      <MemberSignature Language="C#" Value="Retrieve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction Retrieve = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.Retrieve" />
+      <MemberSignature Language="VB.NET" Value="Retrieve" />
+      <MemberSignature Language="C++ CLI" Value="Retrieve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Retrieve a conversation modality.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RevokeSharingControl">
+      <MemberSignature Language="C#" Value="RevokeSharingControl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction RevokeSharingControl = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.RevokeSharingControl" />
+      <MemberSignature Language="VB.NET" Value="RevokeSharingControl" />
+      <MemberSignature Language="C++ CLI" Value="RevokeSharingControl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>Revoke control of shared resources.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendInstantMessage">
+      <MemberSignature Language="C#" Value="SendInstantMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction SendInstantMessage = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.SendInstantMessage" />
+      <MemberSignature Language="VB.NET" Value="SendInstantMessage" />
+      <MemberSignature Language="C++ CLI" Value="SendInstantMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Send an instant message.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAudioEndpoint">
+      <MemberSignature Language="C#" Value="SetAudioEndpoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction SetAudioEndpoint = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.SetAudioEndpoint" />
+      <MemberSignature Language="VB.NET" Value="SetAudioEndpoint" />
+      <MemberSignature Language="C++ CLI" Value="SetAudioEndpoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>Set the local endpoint for audio.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsTyping">
+      <MemberSignature Language="C#" Value="SetIsTyping" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction SetIsTyping = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.SetIsTyping" />
+      <MemberSignature Language="VB.NET" Value="SetIsTyping" />
+      <MemberSignature Language="C++ CLI" Value="SetIsTyping" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Set the IM composing flag. This indicates that an IM is being typed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProperty">
+      <MemberSignature Language="C#" Value="SetProperty" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ModalityAction SetProperty = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityAction.SetProperty" />
+      <MemberSignature Language="VB.NET" Value="SetProperty" />
+      <MemberSignature Language="C++ CLI" Value="SetProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Set a conversation modality property.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,139 @@
+﻿<Type Name="SearchOptions" FullName="Microsoft.Lync.Model.SearchOptions">
+  <TypeSignature Language="C#" Value="public enum SearchOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchOptions extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchOptions" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchOptions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates search options.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContactsOnly">
+      <MemberSignature Language="C#" Value="ContactsOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchOptions ContactsOnly = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchOptions.ContactsOnly" />
+      <MemberSignature Language="VB.NET" Value="ContactsOnly" />
+      <MemberSignature Language="C++ CLI" Value="ContactsOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Searching contacts only, ignore group matches.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchOptions Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchOptions.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The default option used for search.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeContactsWithoutSipOrTelUri">
+      <MemberSignature Language="C#" Value="IncludeContactsWithoutSipOrTelUri" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchOptions IncludeContactsWithoutSipOrTelUri = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchOptions.IncludeContactsWithoutSipOrTelUri" />
+      <MemberSignature Language="VB.NET" Value="IncludeContactsWithoutSipOrTelUri" />
+      <MemberSignature Language="C++ CLI" Value="IncludeContactsWithoutSipOrTelUri" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Allow contacts without SIP, email, or TEL addresses in the search results.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchOptions Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchOptions.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MatchWholeWord">
+      <MemberSignature Language="C#" Value="MatchWholeWord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchOptions MatchWholeWord = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchOptions.MatchWholeWord" />
+      <MemberSignature Language="VB.NET" Value="MatchWholeWord" />
+      <MemberSignature Language="C++ CLI" Value="MatchWholeWord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Match the whole word instead of the prefix match.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchOptions Reserved1 = int32(268435456)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchOptions.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>268435456</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,65 @@
+﻿<Type Name="AvailabilityIconAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.AvailabilityIconAutomationPeer">
+  <TypeSignature Language="C#" Value="public class AvailabilityIconAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.AvailabilityIcon&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AvailabilityIconAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.AvailabilityIcon&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.AvailabilityIconAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class AvailabilityIconAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of AvailabilityIcon)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AvailabilityIconAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::AvailabilityIcon ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;Microsoft.Lync.Controls.AvailabilityIcon&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.AvailabilityIcon</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AvailabilityIconAutomationPeer (Microsoft.Lync.Controls.AvailabilityIcon control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.AvailabilityIcon control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.AvailabilityIconAutomationPeer.#ctor(Microsoft.Lync.Controls.AvailabilityIcon)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As AvailabilityIcon)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AvailabilityIconAutomationPeer(Microsoft::Lync::Controls::AvailabilityIcon ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.AvailabilityIcon" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBoundingRectangleCore">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Rect GetBoundingRectangleCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.Windows.Rect GetBoundingRectangleCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.AvailabilityIconAutomationPeer.GetBoundingRectangleCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetBoundingRectangleCore () As Rect" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Rect GetBoundingRectangleCore();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

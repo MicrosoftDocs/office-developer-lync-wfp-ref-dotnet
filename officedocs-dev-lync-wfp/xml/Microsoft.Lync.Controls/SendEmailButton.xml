@@ -1,0 +1,211 @@
+﻿<Type Name="SendEmailButton" FullName="Microsoft.Lync.Controls.SendEmailButton">
+  <TypeSignature Language="C#" Value="public class SendEmailButton : Microsoft.Lync.Controls.ContactButton" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi SendEmailButton extends Microsoft.Lync.Controls.ContactButton" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SendEmailButton" />
+  <TypeSignature Language="VB.NET" Value="Public Class SendEmailButton&#xA;Inherits ContactButton" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SendEmailButton : Microsoft::Lync::Controls::ContactButton" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.ContactButton</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Use the SendEmailButton control in Lync Control applications to              launch the user's preferred email program and compose an email to a selected contact.             </summary>
+    <remarks>
+      <para>             The selected contact must have an email address exposed in order for this              feature to work. Optionally, you can specify a subject for the email as well.              The control is designed to mimic the functionality provided by the corresponding              button on the Quick Connect toolbar of the ContactCard. As such, it must be bound              to a contact using the <see cref="P:Microsoft.Lync.Controls.ContactBase.Source" /> property before it can be used. When clicked, it              launches the Microsoft Outlook dialog to initiate the desired action with that              contact. This button is not a general purpose Outlook Integration tool. It is              intended to be used together with other Lync Controls to provide a full              set of collaboration options for interacting with a specific contact or              distribution group. Despite the fact that no Lync             functionality is actually used here, this control leverages the binding model              of the other Lync Controls to provide the full scope of features accessible              on the ContactCard quick-connect toolbar.             </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SendEmailButton ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.SendEmailButton.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SendEmailButton();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Initializes a new instance of the SendEmailButton class.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress">
+      <MemberSignature Language="C#" Value="public string EmailAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SendEmailButton.EmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EmailAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the email address of the bound contact, as specified by the <see cref="P:Microsoft.Lync.Controls.ContactBase.Source" /> property.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddressProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty EmailAddressProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty EmailAddressProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SendEmailButton.EmailAddressProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddressProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ EmailAddressProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.SendEmailButton.EmailAddress" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.SendEmailButton.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Overrides the OnCreateAutomationPeer method to return the SendEmailButtonAutomationPeer object.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPresenceItemsPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnPresenceItemsPropertyChanged (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems, string propertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPresenceItemsPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems, string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.SendEmailButton.OnPresenceItemsPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IPresenceItems,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnPresenceItemsPropertyChanged (presenceItems As IPresenceItems, propertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPresenceItemsPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems, System::String ^ propertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+        <Parameter Name="propertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SendEmailButton.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the email subject.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubjectProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty SubjectProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty SubjectProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SendEmailButton.SubjectProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SubjectProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SubjectProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.SendEmailButton.Subject" /> dependency property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwirePresenceItems">
+      <MemberSignature Language="C#" Value="protected override sealed void UnwirePresenceItems (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnwirePresenceItems(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.SendEmailButton.UnwirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwirePresenceItems (presenceItems As IPresenceItems)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WirePresenceItems">
+      <MemberSignature Language="C#" Value="protected override sealed void WirePresenceItems (Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void WirePresenceItems(class Microsoft.Lync.Controls.Internal.Model.IPresenceItems presenceItems) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.SendEmailButton.WirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WirePresenceItems (presenceItems As IPresenceItems)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="presenceItems" Type="Microsoft.Lync.Controls.Internal.Model.IPresenceItems" />
+      </Parameters>
+      <Docs>
+        <param name="presenceItems">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

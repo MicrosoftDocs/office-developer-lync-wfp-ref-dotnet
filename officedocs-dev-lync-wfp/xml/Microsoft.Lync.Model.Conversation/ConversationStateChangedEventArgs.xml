@@ -1,0 +1,101 @@
+﻿<Type Name="ConversationStateChangedEventArgs" FullName="Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class ConversationStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationStateChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationStateChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationStateChangedEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the event data of a ConversationStateChanged event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NewState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ConversationState NewState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.ConversationState NewState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs.NewState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As ConversationState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationState NewState { Microsoft::Lync::Model::Conversation::ConversationState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the new conversation state value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ConversationState OldState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.ConversationState OldState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs.OldState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldState As ConversationState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationState OldState { Microsoft::Lync::Model::Conversation::ConversationState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the old conversation state value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty,object&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty, object&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ConversationStateChangeProperty, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ConversationStateChangeProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ConversationStateChangeProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the properties of the change.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusCode">
+      <MemberSignature Language="C#" Value="public int StatusCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StatusCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs.StatusCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusCode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StatusCode { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the StatusCode of the change.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

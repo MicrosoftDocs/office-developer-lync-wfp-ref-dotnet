@@ -1,0 +1,538 @@
+﻿<Type Name="SystemsColorsWrapper" FullName="Microsoft.Lync.Controls.SystemsColorsWrapper">
+  <TypeSignature Language="C#" Value="public class SystemsColorsWrapper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SystemsColorsWrapper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SystemsColorsWrapper" />
+  <TypeSignature Language="VB.NET" Value="Public Class SystemsColorsWrapper" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SystemsColorsWrapper" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Reserved for internal use.             Defines a set of standard <see cref="T:System.Windows.Media.Color" /> values which are used by             Lync Control templates to emulate the look and feel of Microsoft Lync.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SystemsColorsWrapper ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.SystemsColorsWrapper.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SystemsColorsWrapper();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveBorderColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ActiveBorderColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ActiveBorderColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveBorderColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveBorderColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ActiveBorderColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of the active window's border.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveCaptionColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ActiveCaptionColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ActiveCaptionColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveCaptionColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveCaptionColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ActiveCaptionColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the background color of the active window's title bar.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveCaptionTextColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ActiveCaptionTextColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ActiveCaptionTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveCaptionTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveCaptionTextColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ActiveCaptionTextColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of the text in the active window's title bar.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppWorkspaceColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color AppWorkspaceColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color AppWorkspaceColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.AppWorkspaceColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppWorkspaceColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color AppWorkspaceColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of the application workspace.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ControlColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ControlColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the face color of a three-dimensional display element.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlDarkColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ControlDarkColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ControlDarkColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlDarkColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlDarkColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlDarkColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the shadow color of a three-dimensional display element.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlDarkDarkColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ControlDarkDarkColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ControlDarkDarkColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlDarkDarkColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlDarkDarkColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlDarkDarkColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the dark shadow color of a three-dimensional display element.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlLightColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ControlLightColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ControlLightColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlLightColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlLightColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlLightColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the light color of a three-dimensional display element.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlLightLightColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ControlLightLightColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ControlLightLightColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlLightLightColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlLightLightColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlLightLightColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the highlight color of a three-dimensional display element.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlTextColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ControlTextColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ControlTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlTextColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlTextColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of text in a three-dimensional display element.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DesktopColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color DesktopColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color DesktopColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.DesktopColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DesktopColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color DesktopColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of the desktop.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GrayTextColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color GrayTextColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color GrayTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.GrayTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GrayTextColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color GrayTextColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of disabled text.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color HighlightColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color HighlightColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.HighlightColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighlightColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color HighlightColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the background color of selected items.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightTextColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color HighlightTextColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color HighlightTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.HighlightTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighlightTextColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color HighlightTextColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of the text of selected items.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InactiveBorderColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color InactiveBorderColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color InactiveBorderColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveBorderColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InactiveBorderColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InactiveBorderColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of an inactive window's border.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InactiveCaptionColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color InactiveCaptionColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color InactiveCaptionColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveCaptionColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InactiveCaptionColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InactiveCaptionColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the background color of an inactive window's title bar.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InactiveCaptionTextColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color InactiveCaptionTextColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color InactiveCaptionTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveCaptionTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InactiveCaptionTextColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InactiveCaptionTextColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of the text of an inactive window's title bar.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InfoColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color InfoColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color InfoColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InfoColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InfoColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InfoColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the background color for the ToolTip control.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InfoTextColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color InfoTextColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color InfoTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InfoTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InfoTextColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InfoTextColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the text color for the ToolTip control.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color MenuColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color MenuColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.MenuColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color MenuColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of a menu's background.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MenuTextColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color MenuTextColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color MenuTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.MenuTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuTextColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color MenuTextColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of a menu's text.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollBarColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color ScrollBarColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color ScrollBarColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ScrollBarColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollBarColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ScrollBarColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the background color of a scroll bar.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color WindowColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color WindowColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.WindowColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color WindowColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the background color in the client area of a window.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowFrameColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color WindowFrameColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color WindowFrameColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.WindowFrameColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowFrameColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color WindowFrameColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of a window frame.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowTextColor">
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Color WindowTextColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Media.Color WindowTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.WindowTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowTextColor As Color" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color WindowTextColor { System::Windows::Media::Color get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Media.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a Color structure that is the color of the text in the client area of a window.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

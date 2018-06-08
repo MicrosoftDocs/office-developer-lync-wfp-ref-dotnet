@@ -1,0 +1,81 @@
+﻿<Type Name="ModalityStateChangedEventArgs" FullName="Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class ModalityStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ModalityStateChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ModalityStateChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ModalityStateChangedEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the event data of a ModalityStateChanged event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NewState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ModalityState NewState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.ModalityState NewState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.NewState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As ModalityState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ModalityState NewState { Microsoft::Lync::Model::Conversation::ModalityState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the new modality state value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ModalityState OldState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.ModalityState OldState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.OldState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldState As ModalityState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ModalityState OldState { Microsoft::Lync::Model::Conversation::ModalityState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the old modality state value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusCode">
+      <MemberSignature Language="C#" Value="public int StatusCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StatusCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.StatusCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusCode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StatusCode { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the StatusCode of the change.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

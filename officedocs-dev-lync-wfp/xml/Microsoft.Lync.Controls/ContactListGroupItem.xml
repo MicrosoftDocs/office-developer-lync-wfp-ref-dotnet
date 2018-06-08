@@ -1,0 +1,401 @@
+﻿<Type Name="ContactListGroupItem" FullName="Microsoft.Lync.Controls.ContactListGroupItem">
+  <TypeSignature Language="C#" Value="public class ContactListGroupItem : Microsoft.Lync.Controls.UCTreeViewItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ContactListGroupItem extends Microsoft.Lync.Controls.UCTreeViewItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactListGroupItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactListGroupItem&#xA;Inherits UCTreeViewItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactListGroupItem : Microsoft::Lync::Controls::UCTreeViewItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.UCTreeViewItem</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_GroupRenameTextbox", Type=typeof(System.Windows.Controls.TextBox))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             Reserved for internal use.  This control is used to display the group nodes in a <see cref="T:Microsoft.Lync.Controls.ContactList" /> control.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactListGroupItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactListGroupItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactListGroupItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Constructs an instance of a ContactListGroupItem class.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearContainerForItemOverride">
+      <MemberSignature Language="C#" Value="protected override void ClearContainerForItemOverride (System.Windows.DependencyObject element, object item);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ClearContainerForItemOverride(class System.Windows.DependencyObject element, object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactListGroupItem.ClearContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ClearContainerForItemOverride (element As DependencyObject, item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ClearContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="System.Windows.DependencyObject" />
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="element">The <see cref="T:Microsoft.Lync.Controls.ContactListGroupItem" /> element to clear.</param>
+        <param name="item">The item that is contained in the <see cref="T:Microsoft.Lync.Controls.ContactListGroupItem" />.</param>
+        <summary>             Removes all templates, styles, and bindings for the object displayed as              a <see cref="T:Microsoft.Lync.Controls.ContactListGroupItem" />.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContainerForItemOverride">
+      <MemberSignature Language="C#" Value="protected override System.Windows.DependencyObject GetContainerForItemOverride ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.DependencyObject GetContainerForItemOverride() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactListGroupItem.GetContainerForItemOverride" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetContainerForItemOverride () As DependencyObject" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::DependencyObject ^ GetContainerForItemOverride();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyObject</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Creates a <see cref="T:Microsoft.Lync.Controls.ContactListGroupItem" /> to display content.             </summary>
+        <returns>             A <see cref="T:Microsoft.Lync.Controls.ContactListGroupItem" /> to use as a container for content.             </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupRenameCommand">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand GroupRenameCommand { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand GroupRenameCommand" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactListGroupItem.GroupRenameCommand" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupRenameCommand As ICommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ GroupRenameCommand { System::Windows::Input::ICommand ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             A command which, when executed, will rename a custom group on the contact list.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupRenameCommandProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty GroupRenameCommandProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty GroupRenameCommandProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactListGroupItem.GroupRenameCommandProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupRenameCommandProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupRenameCommandProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactListGroupItem.GroupRenameCommand" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupViewBySetting">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.GroupByOption GroupViewBySetting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.GroupByOption GroupViewBySetting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactListGroupItem.GroupViewBySetting" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupViewBySetting As GroupByOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::GroupByOption GroupViewBySetting { Microsoft::Lync::Controls::GroupByOption get(); void set(Microsoft::Lync::Controls::GroupByOption value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.GroupByOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets an enumerated value which identifies the method by which contacts should be grouped.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupViewBySettingProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty GroupViewBySettingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty GroupViewBySettingProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactListGroupItem.GroupViewBySettingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupViewBySettingProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupViewBySettingProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactListGroupItem.GroupViewBySetting" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsItemItsOwnContainerOverride">
+      <MemberSignature Language="C#" Value="protected override bool IsItemItsOwnContainerOverride (object item);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool IsItemItsOwnContainerOverride(object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactListGroupItem.IsItemItsOwnContainerOverride(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function IsItemItsOwnContainerOverride (item As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool IsItemItsOwnContainerOverride(System::Object ^ item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="item">The object to evaluate.</param>
+        <summary>             Determines whether an object is a <see cref="T:Microsoft.Lync.Controls.ContactListGroupItem" />.             </summary>
+        <returns>             true if <paramref name="item" /> is a <see cref="T:Microsoft.Lync.Controls.ContactListGroupItem" />; otherwise, false.             </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRenameMode">
+      <MemberSignature Language="C#" Value="public bool IsRenameMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRenameMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactListGroupItem.IsRenameMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRenameMode As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRenameMode { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a boolean value which indicates whether or not this control is currently in <see cref="rename" /> mode.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRenameModeProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsRenameModeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsRenameModeProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactListGroupItem.IsRenameModeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRenameModeProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsRenameModeProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactListGroupItem.IsRenameMode" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Model">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup Model { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup Model" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactListGroupItem.Model" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Model As GroupByGroup" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ Model { Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModelProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ModelProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ModelProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactListGroupItem.ModelProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ModelProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ModelProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactListGroupItem.Model" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactListGroupItem.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             When overridden in a derived class, is invoked whenever application code or              internal processes (such as a rebuilding layout pass)              call <see cref="ApplyTemplate" />.              In simplest terms, this means the method is called just before a UI element displays              in an application.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnItemsChanged">
+      <MemberSignature Language="C#" Value="protected override void OnItemsChanged (System.Collections.Specialized.NotifyCollectionChangedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnItemsChanged(class System.Collections.Specialized.NotifyCollectionChangedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactListGroupItem.OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnItemsChanged (e As NotifyCollectionChangedEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnItemsChanged(System::Collections::Specialized::NotifyCollectionChangedEventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Collections.Specialized.NotifyCollectionChangedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSourceChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnSourceChanged (object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnSourceChanged(object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactListGroupItem.OnSourceChanged(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnSourceChanged (oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceChanged(System::Object ^ oldValue, System::Object ^ newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrepareContainerForItemOverride">
+      <MemberSignature Language="C#" Value="protected override void PrepareContainerForItemOverride (System.Windows.DependencyObject element, object item);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PrepareContainerForItemOverride(class System.Windows.DependencyObject element, object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactListGroupItem.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PrepareContainerForItemOverride (element As DependencyObject, item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PrepareContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="System.Windows.DependencyObject" />
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="element">Container element used to display the specified item.</param>
+        <param name="item">The item to display.</param>
+        <summary>             Prepares the specified container element to display the specified item.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowContactCount">
+      <MemberSignature Language="C#" Value="public bool ShowContactCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowContactCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactListGroupItem.ShowContactCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowContactCount As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowContactCount { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a boolean value which indicates whether or not the count of contacts contained in each group is displayed.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowContactCountProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ShowContactCountProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ShowContactCountProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactListGroupItem.ShowContactCountProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShowContactCountProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ShowContactCountProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactListGroupItem.ShowContactCount" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

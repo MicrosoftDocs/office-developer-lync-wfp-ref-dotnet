@@ -1,0 +1,41 @@
+﻿<Type Name="RoomParticipantsEventArgs" FullName="Microsoft.Lync.Model.Room.RoomParticipantsEventArgs">
+  <TypeSignature Language="C#" Value="public class RoomParticipantsEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoomParticipantsEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomParticipantsEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class RoomParticipantsEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RoomParticipantsEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Encapsulates the state of the ParticpiantsAdded and ParticipantsRemoved events and contains a collection of the room Participants added or removed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Participants">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomUser&gt; Participants { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Room.RoomUser&gt; Participants" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomParticipantsEventArgs.Participants" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Participants As IList(Of RoomUser)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomUser ^&gt; ^ Participants { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomUser ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomUser&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get new room participants.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

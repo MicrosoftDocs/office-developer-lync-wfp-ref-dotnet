@@ -1,0 +1,44 @@
+﻿<Type Name="MyPresenceChooserAutomationPeer" FullName="Microsoft.Lync.Controls.AutomationPeers.MyPresenceChooserAutomationPeer">
+  <TypeSignature Language="C#" Value="public class MyPresenceChooserAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.MyPresenceChooser&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MyPresenceChooserAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.MyPresenceChooser&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.MyPresenceChooserAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class MyPresenceChooserAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of MyPresenceChooser)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MyPresenceChooserAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::MyPresenceChooser ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.MyPresenceChooser&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.MyPresenceChooser</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             MyPresenceChooserAutomationPeer class             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MyPresenceChooserAutomationPeer (Microsoft.Lync.Controls.MyPresenceChooser control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.MyPresenceChooser control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.MyPresenceChooserAutomationPeer.#ctor(Microsoft.Lync.Controls.MyPresenceChooser)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As MyPresenceChooser)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MyPresenceChooserAutomationPeer(Microsoft::Lync::Controls::MyPresenceChooser ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.MyPresenceChooser" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>             Constructor             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

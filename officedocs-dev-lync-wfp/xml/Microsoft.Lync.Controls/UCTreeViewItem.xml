@@ -1,0 +1,572 @@
+﻿<Type Name="UCTreeViewItem" FullName="Microsoft.Lync.Controls.UCTreeViewItem">
+  <TypeSignature Language="C#" Value="public class UCTreeViewItem : System.Windows.Controls.TreeViewItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UCTreeViewItem extends System.Windows.Controls.TreeViewItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.UCTreeViewItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class UCTreeViewItem&#xA;Inherits TreeViewItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UCTreeViewItem : System::Windows::Controls::TreeViewItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Windows.Controls.TreeViewItem</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_PopupContactCardHost", Type=typeof(Microsoft.Lync.Controls.Internal.PopupContactCardHost))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             Reserved for internal use.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UCTreeViewItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UCTreeViewItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_callButton">
+      <MemberSignature Language="C#" Value="protected Microsoft.Lync.Controls.StartAudioCallButton _callButton;" />
+      <MemberSignature Language="ILAsm" Value=".field family class Microsoft.Lync.Controls.StartAudioCallButton _callButton" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem._callButton" />
+      <MemberSignature Language="VB.NET" Value="Protected _callButton As StartAudioCallButton " />
+      <MemberSignature Language="C++ CLI" Value="protected: Microsoft::Lync::Controls::StartAudioCallButton ^ _callButton;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.StartAudioCallButton</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The call button part </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallButtonVisibility">
+      <MemberSignature Language="C#" Value="public System.Windows.Visibility CallButtonVisibility { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Visibility CallButtonVisibility" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCTreeViewItem.CallButtonVisibility" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallButtonVisibility As Visibility" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility CallButtonVisibility { System::Windows::Visibility get(); void set(System::Windows::Visibility value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Visibility</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets an enumerated value which indicates whether or not the call button on this contact item's template is visible.             This property is updated based on <see cref="MouseEnter" /> and <see cref="MouseLeave" /> events.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallButtonVisibilityProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty CallButtonVisibilityProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty CallButtonVisibilityProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.CallButtonVisibilityProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CallButtonVisibilityProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CallButtonVisibilityProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.UCTreeViewItem.CallButtonVisibility" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearContainerForItemOverride">
+      <MemberSignature Language="C#" Value="protected override void ClearContainerForItemOverride (System.Windows.DependencyObject element, object item);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ClearContainerForItemOverride(class System.Windows.DependencyObject element, object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.ClearContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ClearContainerForItemOverride (element As DependencyObject, item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ClearContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="System.Windows.DependencyObject" />
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="element">The <see cref="T:Microsoft.Lync.Controls.UCTreeViewItem" /> element to clear.</param>
+        <param name="item">The item that is contained in the <see cref="T:Microsoft.Lync.Controls.UCTreeViewItem" />.</param>
+        <summary>             Removes all templates, styles, and bindings for the object displayed as              a <see cref="T:Microsoft.Lync.Controls.UCTreeViewItem" />.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextualInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.ConversationContextualInfo ContextualInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.ConversationContextualInfo ContextualInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCTreeViewItem.ContextualInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContextualInformation As ConversationContextualInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ConversationContextualInfo ^ ContextualInformation { Microsoft::Lync::Controls::ConversationContextualInfo ^ get(); void set(Microsoft::Lync::Controls::ConversationContextualInfo ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ConversationContextualInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets data structure which provides contextual information for use with the contextual conversation feature.             </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>             Contextual information is provided to the destination user when a conversation is initiated.             This information may include a link or subject line which provides background on the purpose of a conversation.             Optionally, context may be delivered in the form of an application reference and embedded application data.             For more information, please refer to the related conceptual topics in the Lync SDK documentation.             </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextualInformationProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ContextualInformationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ContextualInformationProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.ContextualInformationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextualInformationProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextualInformationProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.UCTreeViewItem.ContextualInformation" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HandleDropDownClosed">
+      <MemberSignature Language="C#" Value="protected void HandleDropDownClosed (object sender, EventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void HandleDropDownClosed(object sender, class System.EventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.HandleDropDownClosed(System.Object,System.EventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub HandleDropDownClosed (sender As Object, e As EventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void HandleDropDownClosed(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="System.EventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HandleDropDownOpened">
+      <MemberSignature Language="C#" Value="protected void HandleDropDownOpened (object sender, EventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void HandleDropDownOpened(object sender, class System.EventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.HandleDropDownOpened(System.Object,System.EventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub HandleDropDownOpened (sender As Object, e As EventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void HandleDropDownOpened(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="System.EventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContainerSelected">
+      <MemberSignature Language="C#" Value="public bool IsContainerSelected { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsContainerSelected" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCTreeViewItem.IsContainerSelected" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsContainerSelected As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContainerSelected { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContainerSelectedProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsContainerSelectedProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsContainerSelectedProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.IsContainerSelectedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsContainerSelectedProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsContainerSelectedProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.UCTreeViewItem.IsContainerSelected" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsItemItsOwnContainerOverride">
+      <MemberSignature Language="C#" Value="protected override bool IsItemItsOwnContainerOverride (object item);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool IsItemItsOwnContainerOverride(object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.IsItemItsOwnContainerOverride(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function IsItemItsOwnContainerOverride (item As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool IsItemItsOwnContainerOverride(System::Object ^ item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="item">The object to evaluate.</param>
+        <summary>             Determines whether an object is a <see cref="T:Microsoft.Lync.Controls.UCTreeViewItem" />.             </summary>
+        <returns>             true if <paramref name="item" /> is a <see cref="T:Microsoft.Lync.Controls.UCTreeViewItem" />; otherwise, false.             </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             When overridden in a derived class, is invoked whenever application code or              internal processes (such as a rebuilding layout pass)              call <see cref="ApplyTemplate" />.              In simplest terms, this means the method is called just before a UI element displays              in an application.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             OnCreateAutomationPeer             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnGotFocus">
+      <MemberSignature Language="C#" Value="protected override void OnGotFocus (System.Windows.RoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnGotFocus(class System.Windows.RoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnGotFocus(System.Windows.RoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnGotFocus (e As RoutedEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnGotFocus(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Windows.RoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">A <see cref="T:System.Windows.RoutedEventArgs" /> that contains the event data.</param>
+        <summary>             Provides handling for the <see cref="E:System.Windows.UIElement.GotFocus" /> event.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnKeyDown">
+      <MemberSignature Language="C#" Value="protected override void OnKeyDown (System.Windows.Input.KeyEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnKeyDown(class System.Windows.Input.KeyEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnKeyDown(System.Windows.Input.KeyEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnKeyDown (e As KeyEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnKeyDown(System::Windows::Input::KeyEventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Windows.Input.KeyEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">A <see cref="T:System.Windows.Input.KeyEventArgs" /> that contains the event data.</param>
+        <summary>             Provides handling for the <see cref="E:System.Windows.UIElement.KeyDown" /> event when the <see cref="T:System.Windows.Controls.TreeViewItem" /> has focus.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnLostFocus">
+      <MemberSignature Language="C#" Value="protected override void OnLostFocus (System.Windows.RoutedEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnLostFocus(class System.Windows.RoutedEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnLostFocus(System.Windows.RoutedEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnLostFocus (e As RoutedEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnLostFocus(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Windows.RoutedEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">A <see cref="T:System.Windows.RoutedEventArgs" /> that contains the event data.</param>
+        <summary>             Provides handling for the <see cref="E:System.Windows.UIElement.LostFocus" /> event.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnMouseLeftButtonDown">
+      <MemberSignature Language="C#" Value="protected override void OnMouseLeftButtonDown (System.Windows.Input.MouseButtonEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnMouseLeftButtonDown(class System.Windows.Input.MouseButtonEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeftButtonDown (e As MouseButtonEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeftButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Windows.Input.MouseButtonEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">A <see cref="T:System.Windows.Input.MouseButtonEventArgs" /> that contains the event data.</param>
+        <summary>             Provides handling for the <see cref="E:System.Windows.UIElement.MouseLeftButtonDown" /> event.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnMouseLeftButtonUp">
+      <MemberSignature Language="C#" Value="protected override void OnMouseLeftButtonUp (System.Windows.Input.MouseButtonEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnMouseLeftButtonUp(class System.Windows.Input.MouseButtonEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeftButtonUp (e As MouseButtonEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeftButtonUp(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Windows.Input.MouseButtonEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">A <see cref="T:System.Windows.Input.MouseButtonEventArgs" /> that contains the event data.</param>
+        <summary>             Provides handling for the <see cref="E:System.Windows.UIElement.MouseLeftButtonUp" /> event.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnMouseRightButtonDown">
+      <MemberSignature Language="C#" Value="protected override void OnMouseRightButtonDown (System.Windows.Input.MouseButtonEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnMouseRightButtonDown(class System.Windows.Input.MouseButtonEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseRightButtonDown (e As MouseButtonEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseRightButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Windows.Input.MouseButtonEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">A <see cref="T:System.Windows.Input.MouseButtonEventArgs" /> that contains the event data.</param>
+        <summary>             Raises the <see cref="E:System.Windows.UIElement.MouseRightButtonDown" /> event.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSourceChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnSourceChanged (object oldValue, object newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnSourceChanged(object oldValue, object newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnSourceChanged(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnSourceChanged (oldValue As Object, newValue As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnSourceChanged(System::Object ^ oldValue, System::Object ^ newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Object" />
+        <Parameter Name="newValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>             Called when <see cref="Source" /> property has changed             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartNameCallButton">
+      <MemberSignature Language="C#" Value="protected const string PartNameCallButton;" />
+      <MemberSignature Language="ILAsm" Value=".field family static literal string PartNameCallButton" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.PartNameCallButton" />
+      <MemberSignature Language="VB.NET" Value="Protected Const PartNameCallButton As String " />
+      <MemberSignature Language="C++ CLI" Value="protected: System::String ^ PartNameCallButton;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The call button part name </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrepareContainerForItemOverride">
+      <MemberSignature Language="C#" Value="protected override void PrepareContainerForItemOverride (System.Windows.DependencyObject element, object item);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PrepareContainerForItemOverride(class System.Windows.DependencyObject element, object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PrepareContainerForItemOverride (element As DependencyObject, item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PrepareContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="System.Windows.DependencyObject" />
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="element">Container element used to display the specified item.</param>
+        <param name="item">The item to display.</param>
+        <summary>             Prepares the specified container element to display the specified item.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public object Source { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Source" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCTreeViewItem.Source" />
+      <MemberSignature Language="VB.NET" Value="Public Property Source As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Source { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Specifies a contact or distribution group to which this control should be bound.             </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>             Valid values for this property include:             TypeValuestringSearch fragment, such as <see cref="mary" />stringSIP URI, such as <see cref="sip:mary@contoso.com" />Contact<see cref="T:Microsoft.Lync.Model.Contact" /> object, obtained using the Lync Platform API.DistributionGroup<see cref="T:Microsoft.Lync.Model.Group.DistributionGroup" /> object, obtained using the Lync Platform API.DistributionGroup                          These options are shown in increasing order of performance.             If a search fragment is used,  the control will perform a best-effort match (non-deterministic)              </para>
+          <para />
+        </remarks>
+        <exception cref="T:System.ArgumentException">Thrown when an invalid object type is provided.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty SourceProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty SourceProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.SourceProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SourceProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SourceProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.UCTreeViewItem.Source" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

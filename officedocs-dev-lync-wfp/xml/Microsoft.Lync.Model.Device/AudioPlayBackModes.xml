@@ -1,0 +1,177 @@
+﻿<Type Name="AudioPlayBackModes" FullName="Microsoft.Lync.Model.Device.AudioPlayBackModes">
+  <TypeSignature Language="C#" Value="public enum AudioPlayBackModes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AudioPlayBackModes extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Device.AudioPlayBackModes" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AudioPlayBackModes" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AudioPlayBackModes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates AudioFeedback Devices.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alert">
+      <MemberSignature Language="C#" Value="Alert" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes Alert = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.AudioPlayBackModes.Alert" />
+      <MemberSignature Language="VB.NET" Value="Alert" />
+      <MemberSignature Language="C++ CLI" Value="Alert" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioPlayBackModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Playback audio through device configured for alert sounds.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlertAndCommunication">
+      <MemberSignature Language="C#" Value="AlertAndCommunication" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes AlertAndCommunication = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.AudioPlayBackModes.AlertAndCommunication" />
+      <MemberSignature Language="VB.NET" Value="AlertAndCommunication" />
+      <MemberSignature Language="C++ CLI" Value="AlertAndCommunication" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioPlayBackModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Playback audio through both Lync and alert devices.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Communication">
+      <MemberSignature Language="C#" Value="Communication" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes Communication = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.AudioPlayBackModes.Communication" />
+      <MemberSignature Language="VB.NET" Value="Communication" />
+      <MemberSignature Language="C++ CLI" Value="Communication" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioPlayBackModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Playback audio through device configured for Unified Communications.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Handset">
+      <MemberSignature Language="C#" Value="Handset" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes Handset = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.AudioPlayBackModes.Handset" />
+      <MemberSignature Language="VB.NET" Value="Handset" />
+      <MemberSignature Language="C++ CLI" Value="Handset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioPlayBackModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Playback audio through telephone handset device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.AudioPlayBackModes.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioPlayBackModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.AudioPlayBackModes.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioPlayBackModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Play audio file back through no device.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Ringing">
+      <MemberSignature Language="C#" Value="Ringing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes Ringing = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.AudioPlayBackModes.Ringing" />
+      <MemberSignature Language="VB.NET" Value="Ringing" />
+      <MemberSignature Language="C++ CLI" Value="Ringing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioPlayBackModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Playback audio through device configured to play ringing tone.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressOnDeskphones">
+      <MemberSignature Language="C#" Value="SuppressOnDeskphones" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes SuppressOnDeskphones = int32(-2147483648)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.AudioPlayBackModes.SuppressOnDeskphones" />
+      <MemberSignature Language="VB.NET" Value="SuppressOnDeskphones" />
+      <MemberSignature Language="C++ CLI" Value="SuppressOnDeskphones" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioPlayBackModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2147483648</MemberValue>
+      <Docs>
+        <summary>Suppress playback audio through desk telephone device.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

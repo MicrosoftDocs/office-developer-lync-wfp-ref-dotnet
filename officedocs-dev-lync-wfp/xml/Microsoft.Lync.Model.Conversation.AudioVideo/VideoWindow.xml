@@ -1,0 +1,556 @@
+﻿<Type Name="VideoWindow" FullName="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow">
+  <TypeSignature Language="C#" Value="public class VideoWindow : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VideoWindow extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow" />
+  <TypeSignature Language="VB.NET" Value="Public Class VideoWindow&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VideoWindow : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Draws the video content for either the outgoing (capture) or the incoming (render) video.  Native implementation of the IVideoWindow interface http://go.microsoft.com/fwlink/?LinkId=202572</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutoShow">
+      <MemberSignature Language="C#" Value="public int AutoShow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AutoShow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.AutoShow" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoShow As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AutoShow { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Not implemented.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackgroundPalette">
+      <MemberSignature Language="C#" Value="public int BackgroundPalette { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BackgroundPalette" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.BackgroundPalette" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackgroundPalette As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BackgroundPalette { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Not implemented.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderColor">
+      <MemberSignature Language="C#" Value="public int BorderColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BorderColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.BorderColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BorderColor As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BorderColor { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Not implemented.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Not implemented.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullScreenMode">
+      <MemberSignature Language="C#" Value="public int FullScreenMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FullScreenMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.FullScreenMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property FullScreenMode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FullScreenMode { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>FullScreenMode</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMaxIdealImageSize">
+      <MemberSignature Language="C#" Value="public void GetMaxIdealImageSize (out int pWidth, out int pHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GetMaxIdealImageSize([out] int32&amp; pWidth, [out] int32&amp; pHeight) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.GetMaxIdealImageSize(System.Int32@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetMaxIdealImageSize (ByRef pWidth As Integer, ByRef pHeight As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetMaxIdealImageSize([Runtime::InteropServices::Out] int % pWidth, [Runtime::InteropServices::Out] int % pHeight);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pWidth" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pHeight" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pWidth">To be added.</param>
+        <param name="pHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMinIdealImageSize">
+      <MemberSignature Language="C#" Value="public void GetMinIdealImageSize (out int pWidth, out int pHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GetMinIdealImageSize([out] int32&amp; pWidth, [out] int32&amp; pHeight) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.GetMinIdealImageSize(System.Int32@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetMinIdealImageSize (ByRef pWidth As Integer, ByRef pHeight As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetMinIdealImageSize([Runtime::InteropServices::Out] int % pWidth, [Runtime::InteropServices::Out] int % pHeight);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pWidth" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pHeight" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pWidth">To be added.</param>
+        <param name="pHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRestorePosition">
+      <MemberSignature Language="C#" Value="public void GetRestorePosition (out int pLeft, out int pTop, out int pWidth, out int pHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GetRestorePosition([out] int32&amp; pLeft, [out] int32&amp; pTop, [out] int32&amp; pWidth, [out] int32&amp; pHeight) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.GetRestorePosition(System.Int32@,System.Int32@,System.Int32@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetRestorePosition (ByRef pLeft As Integer, ByRef pTop As Integer, ByRef pWidth As Integer, ByRef pHeight As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetRestorePosition([Runtime::InteropServices::Out] int % pLeft, [Runtime::InteropServices::Out] int % pTop, [Runtime::InteropServices::Out] int % pWidth, [Runtime::InteropServices::Out] int % pHeight);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pLeft" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pTop" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pWidth" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pHeight" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pLeft">To be added.</param>
+        <param name="pTop">To be added.</param>
+        <param name="pWidth">To be added.</param>
+        <param name="pHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWindowPosition">
+      <MemberSignature Language="C#" Value="public void GetWindowPosition (out int pLeft, out int pTop, out int pWidth, out int pHeight);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GetWindowPosition([out] int32&amp; pLeft, [out] int32&amp; pTop, [out] int32&amp; pWidth, [out] int32&amp; pHeight) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.GetWindowPosition(System.Int32@,System.Int32@,System.Int32@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetWindowPosition (ByRef pLeft As Integer, ByRef pTop As Integer, ByRef pWidth As Integer, ByRef pHeight As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetWindowPosition([Runtime::InteropServices::Out] int % pLeft, [Runtime::InteropServices::Out] int % pTop, [Runtime::InteropServices::Out] int % pWidth, [Runtime::InteropServices::Out] int % pHeight);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pLeft" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pTop" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pWidth" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pHeight" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pLeft">To be added.</param>
+        <param name="pTop">To be added.</param>
+        <param name="pWidth">To be added.</param>
+        <param name="pHeight">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or gets the height of the video window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HideCursor">
+      <MemberSignature Language="C#" Value="public void HideCursor (int hideCursor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void HideCursor(int32 hideCursor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.HideCursor(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HideCursor (hideCursor As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HideCursor(int hideCursor);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hideCursor" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="hideCursor">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCursorHidden">
+      <MemberSignature Language="C#" Value="public void IsCursorHidden (out int cursorHidden);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void IsCursorHidden([out] int32&amp; cursorHidden) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.IsCursorHidden(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IsCursorHidden (ByRef cursorHidden As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IsCursorHidden([Runtime::InteropServices::Out] int % cursorHidden);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cursorHidden" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="cursorHidden">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or gets the x-axis coordinate for the video window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageDrain">
+      <MemberSignature Language="C#" Value="public int MessageDrain { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MessageDrain" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.MessageDrain" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageDrain As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MessageDrain { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Not implemented.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyOwnerMessage">
+      <MemberSignature Language="C#" Value="public void NotifyOwnerMessage (int hwnd, int uMsg, int wParam, int lParam);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void NotifyOwnerMessage(int32 hwnd, int32 uMsg, int32 wParam, int32 lParam) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.NotifyOwnerMessage(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NotifyOwnerMessage (hwnd As Integer, uMsg As Integer, wParam As Integer, lParam As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NotifyOwnerMessage(int hwnd, int uMsg, int wParam, int lParam);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hwnd" Type="System.Int32" />
+        <Parameter Name="uMsg" Type="System.Int32" />
+        <Parameter Name="wParam" Type="System.Int32" />
+        <Parameter Name="lParam" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="hwnd">To be added.</param>
+        <param name="uMsg">To be added.</param>
+        <param name="wParam">To be added.</param>
+        <param name="lParam">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public int Owner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Owner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public Property Owner As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Owner { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or gets the owning parent window for the video playback window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetWindowForeground">
+      <MemberSignature Language="C#" Value="public void SetWindowForeground (int focus);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetWindowForeground(int32 focus) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.SetWindowForeground(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetWindowForeground (focus As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetWindowForeground(int focus);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="focus" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="focus">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetWindowPosition">
+      <MemberSignature Language="C#" Value="public void SetWindowPosition (int left, int top, int width, int height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetWindowPosition(int32 left, int32 top, int32 width, int32 height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.SetWindowPosition(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetWindowPosition (left As Integer, top As Integer, width As Integer, height As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetWindowPosition(int left, int top, int width, int height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Int32" />
+        <Parameter Name="top" Type="System.Int32" />
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="top">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or gets the y-axis coordinates for the video window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public int Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Visible { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or gets the width of the video window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowState">
+      <MemberSignature Language="C#" Value="public int WindowState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 WindowState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowState" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowState As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WindowState { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowStyle">
+      <MemberSignature Language="C#" Value="public int WindowStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 WindowStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowStyle As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WindowStyle { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowStyleEx">
+      <MemberSignature Language="C#" Value="public int WindowStyleEx { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 WindowStyleEx" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowStyleEx" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowStyleEx As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WindowStyleEx { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

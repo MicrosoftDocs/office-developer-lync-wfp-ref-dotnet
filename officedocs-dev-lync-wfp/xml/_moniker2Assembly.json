@@ -1,0 +1,18 @@
+{
+  "dependencies": [
+    "Microsoft.Lync.Controls.Framework",
+    "Microsoft.Lync.Utilities",
+    "microsoft.office.uc",
+    "PresentationCore",
+    "PresentationFramework",
+    "System.Core",
+    "System.Windows.Browser",
+    "UIAutomationProvider",
+    "UIAutomationTypes",
+    "WindowsBase"
+  ],
+  "lync-wfp": [
+    "Microsoft.Lync.Controls",
+    "Microsoft.Lync.Model"
+  ]
+}

@@ -1,0 +1,141 @@
+﻿<Type Name="ConversationContextualInfo" FullName="Microsoft.Lync.Controls.ConversationContextualInfo">
+  <TypeSignature Language="C#" Value="public class ConversationContextualInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationContextualInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ConversationContextualInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationContextualInfo" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationContextualInfo" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             A data structure which defines the contextual information that              can be used to personalize and customize a conversation that is initiated by a Lync control.             </summary>
+    <remarks>
+      <para>             Conversation context provides a mechanism for control developers to attach information such as              a link, subject line, or embedded application reference to their conversation invitation.             This context is used to personalize the conversation experience, and provide richer metadata for              collaboration.              </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationContextualInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ConversationContextualInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationContextualInfo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationData">
+      <MemberSignature Language="C#" Value="public string ApplicationData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.ApplicationData" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationData As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationData { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a string which represents the initial data structure to be shared with the             application specified by <see cref="P:Microsoft.Lync.Controls.ConversationContextualInfo.ApplicationId" /> when the conversation is initialized.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationId">
+      <MemberSignature Language="C#" Value="public string ApplicationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.ApplicationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a string which represents the GUID of an external application which             will be used to communicate context for this conversation.             For more information, please refer to the conceptual topics in the Lync SDK documentation.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextualLink">
+      <MemberSignature Language="C#" Value="public string ContextualLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContextualLink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.ContextualLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContextualLink As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContextualLink { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a simple hyperlink which is used to convey the context of this conversation.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentWindowHandle">
+      <MemberSignature Language="C#" Value="public IntPtr ParentWindowHandle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ParentWindowHandle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.ParentWindowHandle" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentWindowHandle As IntPtr" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property IntPtr ParentWindowHandle { IntPtr get(); void set(IntPtr value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             A pointer to a parent window to use to dock this conversation             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a subject which is used to convey the context of this conversation.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

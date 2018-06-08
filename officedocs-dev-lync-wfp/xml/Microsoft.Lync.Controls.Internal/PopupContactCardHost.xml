@@ -1,0 +1,596 @@
+﻿<Type Name="PopupContactCardHost" FullName="Microsoft.Lync.Controls.Internal.PopupContactCardHost">
+  <TypeSignature Language="C#" Value="public class PopupContactCardHost : System.Windows.Controls.Grid" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PopupContactCardHost extends System.Windows.Controls.Grid" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.PopupContactCardHost" />
+  <TypeSignature Language="VB.NET" Value="Public Class PopupContactCardHost&#xA;Inherits Grid" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PopupContactCardHost : System::Windows::Controls::Grid" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Windows.Controls.Grid</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PopupContactCardHost ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PopupContactCardHost();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIsClickTarget">
+      <MemberSignature Language="C#" Value="public static bool GetIsClickTarget (System.Windows.DependencyObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsClickTarget(class System.Windows.DependencyObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.GetIsClickTarget(System.Windows.DependencyObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsClickTarget (obj As DependencyObject) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsClickTarget(System::Windows::DependencyObject ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIsHoverOffTarget">
+      <MemberSignature Language="C#" Value="public static bool GetIsHoverOffTarget (System.Windows.DependencyObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsHoverOffTarget(class System.Windows.DependencyObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.GetIsHoverOffTarget(System.Windows.DependencyObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsHoverOffTarget (obj As DependencyObject) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsHoverOffTarget(System::Windows::DependencyObject ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIsHoverOnTarget">
+      <MemberSignature Language="C#" Value="public static bool GetIsHoverOnTarget (System.Windows.DependencyObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsHoverOnTarget(class System.Windows.DependencyObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.GetIsHoverOnTarget(System.Windows.DependencyObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsHoverOnTarget (obj As DependencyObject) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsHoverOnTarget(System::Windows::DependencyObject ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIsModelTarget">
+      <MemberSignature Language="C#" Value="public static bool GetIsModelTarget (System.Windows.DependencyObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsModelTarget(class System.Windows.DependencyObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.GetIsModelTarget(System.Windows.DependencyObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsModelTarget (obj As DependencyObject) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsModelTarget(System::Windows::DependencyObject ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIsPlacementTarget">
+      <MemberSignature Language="C#" Value="public static bool GetIsPlacementTarget (System.Windows.DependencyObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsPlacementTarget(class System.Windows.DependencyObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.GetIsPlacementTarget(System.Windows.DependencyObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsPlacementTarget (obj As DependencyObject) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsPlacementTarget(System::Windows::DependencyObject ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIsSingleClickActionTarget">
+      <MemberSignature Language="C#" Value="public static bool GetIsSingleClickActionTarget (System.Windows.DependencyObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsSingleClickActionTarget(class System.Windows.DependencyObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.GetIsSingleClickActionTarget(System.Windows.DependencyObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsSingleClickActionTarget (obj As DependencyObject) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool GetIsSingleClickActionTarget(System::Windows::DependencyObject ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsClickTarget">
+      <MemberSignature Language="C#" Value="see GetIsClickTarget, and SetIsClickTarget" />
+      <MemberSignature Language="ILAsm" Value="see GetIsClickTarget, and SetIsClickTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsClickTarget" />
+      <MemberSignature Language="VB.NET" Value="see GetIsClickTarget, and SetIsClickTarget" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsClickTargetProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsClickTargetProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsClickTargetProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsClickTargetProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsClickTargetProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsClickTargetProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHoverOffTarget">
+      <MemberSignature Language="C#" Value="see GetIsHoverOffTarget, and SetIsHoverOffTarget" />
+      <MemberSignature Language="ILAsm" Value="see GetIsHoverOffTarget, and SetIsHoverOffTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsHoverOffTarget" />
+      <MemberSignature Language="VB.NET" Value="see GetIsHoverOffTarget, and SetIsHoverOffTarget" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHoverOffTargetProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsHoverOffTargetProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsHoverOffTargetProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsHoverOffTargetProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsHoverOffTargetProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsHoverOffTargetProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHoverOnTarget">
+      <MemberSignature Language="C#" Value="see GetIsHoverOnTarget, and SetIsHoverOnTarget" />
+      <MemberSignature Language="ILAsm" Value="see GetIsHoverOnTarget, and SetIsHoverOnTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsHoverOnTarget" />
+      <MemberSignature Language="VB.NET" Value="see GetIsHoverOnTarget, and SetIsHoverOnTarget" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHoverOnTargetProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsHoverOnTargetProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsHoverOnTargetProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsHoverOnTargetProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsHoverOnTargetProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsHoverOnTargetProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsModelTarget">
+      <MemberSignature Language="C#" Value="see GetIsModelTarget, and SetIsModelTarget" />
+      <MemberSignature Language="ILAsm" Value="see GetIsModelTarget, and SetIsModelTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsModelTarget" />
+      <MemberSignature Language="VB.NET" Value="see GetIsModelTarget, and SetIsModelTarget" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsModelTargetProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsModelTargetProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsModelTargetProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsModelTargetProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsModelTargetProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsModelTargetProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPlacementTarget">
+      <MemberSignature Language="C#" Value="see GetIsPlacementTarget, and SetIsPlacementTarget" />
+      <MemberSignature Language="ILAsm" Value="see GetIsPlacementTarget, and SetIsPlacementTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsPlacementTarget" />
+      <MemberSignature Language="VB.NET" Value="see GetIsPlacementTarget, and SetIsPlacementTarget" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPlacementTargetProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsPlacementTargetProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsPlacementTargetProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsPlacementTargetProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPlacementTargetProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsPlacementTargetProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSingleClickActionTarget">
+      <MemberSignature Language="C#" Value="see GetIsSingleClickActionTarget, and SetIsSingleClickActionTarget" />
+      <MemberSignature Language="ILAsm" Value="see GetIsSingleClickActionTarget, and SetIsSingleClickActionTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsSingleClickActionTarget" />
+      <MemberSignature Language="VB.NET" Value="see GetIsSingleClickActionTarget, and SetIsSingleClickActionTarget" />
+      <MemberType>AttachedProperty</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSingleClickActionTargetProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsSingleClickActionTargetProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsSingleClickActionTargetProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCardHost.IsSingleClickActionTargetProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsSingleClickActionTargetProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsSingleClickActionTargetProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopupContactCard">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.PopupContactCard PopupContactCard { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.PopupContactCard PopupContactCard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCardHost.PopupContactCard" />
+      <MemberSignature Language="VB.NET" Value="Public Property PopupContactCard As PopupContactCard" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::PopupContactCard ^ PopupContactCard { Microsoft::Lync::Controls::Internal::PopupContactCard ^ get(); void set(Microsoft::Lync::Controls::Internal::PopupContactCard ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.PopupContactCard</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopupContactCardProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty PopupContactCardProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty PopupContactCardProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCardHost.PopupContactCardProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PopupContactCardProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PopupContactCardProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsClickTarget">
+      <MemberSignature Language="C#" Value="public static void SetIsClickTarget (System.Windows.DependencyObject obj, bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsClickTarget(class System.Windows.DependencyObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.SetIsClickTarget(System.Windows.DependencyObject,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsClickTarget (obj As DependencyObject, value As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsClickTarget(System::Windows::DependencyObject ^ obj, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsHoverOffTarget">
+      <MemberSignature Language="C#" Value="public static void SetIsHoverOffTarget (System.Windows.DependencyObject obj, bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsHoverOffTarget(class System.Windows.DependencyObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.SetIsHoverOffTarget(System.Windows.DependencyObject,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsHoverOffTarget (obj As DependencyObject, value As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsHoverOffTarget(System::Windows::DependencyObject ^ obj, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsHoverOnTarget">
+      <MemberSignature Language="C#" Value="public static void SetIsHoverOnTarget (System.Windows.DependencyObject obj, bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsHoverOnTarget(class System.Windows.DependencyObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.SetIsHoverOnTarget(System.Windows.DependencyObject,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsHoverOnTarget (obj As DependencyObject, value As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsHoverOnTarget(System::Windows::DependencyObject ^ obj, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsModelTarget">
+      <MemberSignature Language="C#" Value="public static void SetIsModelTarget (System.Windows.DependencyObject obj, bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsModelTarget(class System.Windows.DependencyObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.SetIsModelTarget(System.Windows.DependencyObject,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsModelTarget (obj As DependencyObject, value As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsModelTarget(System::Windows::DependencyObject ^ obj, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsPlacementTarget">
+      <MemberSignature Language="C#" Value="public static void SetIsPlacementTarget (System.Windows.DependencyObject obj, bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsPlacementTarget(class System.Windows.DependencyObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.SetIsPlacementTarget(System.Windows.DependencyObject,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsPlacementTarget (obj As DependencyObject, value As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsPlacementTarget(System::Windows::DependencyObject ^ obj, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsSingleClickActionTarget">
+      <MemberSignature Language="C#" Value="public static void SetIsSingleClickActionTarget (System.Windows.DependencyObject obj, bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsSingleClickActionTarget(class System.Windows.DependencyObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCardHost.SetIsSingleClickActionTarget(System.Windows.DependencyObject,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsSingleClickActionTarget (obj As DependencyObject, value As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetIsSingleClickActionTarget(System::Windows::DependencyObject ^ obj, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

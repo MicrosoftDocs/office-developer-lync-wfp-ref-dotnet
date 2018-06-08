@@ -1,0 +1,71 @@
+﻿<Type Name="SortedCollaborationEndpointConverter+CollaborationEndpointTypeComparator" FullName="Microsoft.Lync.Controls.Internal.Converters.SortedCollaborationEndpointConverter+CollaborationEndpointTypeComparator">
+  <TypeSignature Language="C#" Value="public class SortedCollaborationEndpointConverter.CollaborationEndpointTypeComparator : System.Collections.Generic.IComparer&lt;Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit SortedCollaborationEndpointConverter/CollaborationEndpointTypeComparator extends System.Object implements class System.Collections.Generic.IComparer`1&lt;class Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Converters.SortedCollaborationEndpointConverter.CollaborationEndpointTypeComparator" />
+  <TypeSignature Language="VB.NET" Value="Public Class SortedCollaborationEndpointConverter.CollaborationEndpointTypeComparator&#xA;Implements IComparer(Of ICollaborationEndpointModel)" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SortedCollaborationEndpointConverter::CollaborationEndpointTypeComparator : System::Collections::Generic::IComparer&lt;Microsoft::Lync::Controls::Internal::Model::ICollaborationEndpointModel ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IComparer&lt;Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CollaborationEndpointTypeComparator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.SortedCollaborationEndpointConverter.CollaborationEndpointTypeComparator.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CollaborationEndpointTypeComparator();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Compare">
+      <MemberSignature Language="C#" Value="public int Compare (Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel cem1, Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel cem2);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Compare(class Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel cem1, class Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel cem2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.SortedCollaborationEndpointConverter.CollaborationEndpointTypeComparator.Compare(Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel,Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Compare (cem1 As ICollaborationEndpointModel, cem2 As ICollaborationEndpointModel) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int Compare(Microsoft::Lync::Controls::Internal::Model::ICollaborationEndpointModel ^ cem1, Microsoft::Lync::Controls::Internal::Model::ICollaborationEndpointModel ^ cem2);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IComparer`1.Compare(`0,`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cem1" Type="Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel" />
+        <Parameter Name="cem2" Type="Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel" />
+      </Parameters>
+      <Docs>
+        <param name="cem1">To be added.</param>
+        <param name="cem2">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

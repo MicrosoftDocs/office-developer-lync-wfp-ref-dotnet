@@ -1,0 +1,61 @@
+﻿<Type Name="ContactPositionChangedEventArgs" FullName="Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class ContactPositionChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactPositionChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactPositionChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactPositionChangedEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Provides a range of contacts within the FrequentContacts group whose position has changed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EndPosition">
+      <MemberSignature Language="C#" Value="public int EndPosition { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EndPosition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs.EndPosition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndPosition As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int EndPosition { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the end position of the contacts that have their positions changed. A value greater than the contact count means that all contacts from the start position have their positions changed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartPosition">
+      <MemberSignature Language="C#" Value="public int StartPosition { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StartPosition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs.StartPosition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartPosition As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartPosition { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the start position of the contacts that have their positions changed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

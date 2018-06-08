@@ -1,0 +1,93 @@
+﻿<Type Name="AlertLevel" FullName="Microsoft.Lync.Model.AlertLevel">
+  <TypeSignature Language="C#" Value="public class AlertLevel : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlertLevel extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.AlertLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlertLevel&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlertLevel : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Presence-based alert policy.</summary>
+    <remarks>
+      <para>The AlertLevel.NotificationEnabled property tells you whether notification for new group chat messages, conversation invitations, or meeting reminders should be displayed. You do not display such notifications if a user is presenting in a meeting and is sharing a display or presenting a PowerPoint slide deck. In those cases, NotificationEnabled returns false and you must honor the policy.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AlertModes">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.AlertModeTypes AlertModes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.AlertModeTypes AlertModes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AlertLevel.AlertModes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AlertModes As AlertModeTypes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::AlertModeTypes AlertModes { Microsoft::Lync::Model::AlertModeTypes get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AlertModeTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the modes to be used for alert.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Not implemented.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LevelOfPrivacy">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.AlertPrivacyType LevelOfPrivacy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.AlertPrivacyType LevelOfPrivacy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AlertLevel.LevelOfPrivacy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LevelOfPrivacy As AlertPrivacyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::AlertPrivacyType LevelOfPrivacy { Microsoft::Lync::Model::AlertPrivacyType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AlertPrivacyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the level of privacy.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Not implemented.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotificationEnabled">
+      <MemberSignature Language="C#" Value="public bool NotificationEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NotificationEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AlertLevel.NotificationEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NotificationEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NotificationEnabled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns true when notification is allowed.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The AlertLevel.NotificationEnabled property tells you whether notification for new group chat messages, conversation invitations, or meeting reminders should be displayed. You do not display such notifications if a user is presenting in a meeting and is sharing a display or presenting a PowerPoint slide deck. In those cases, NotificationEnabled returns false and you must honor the policy.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

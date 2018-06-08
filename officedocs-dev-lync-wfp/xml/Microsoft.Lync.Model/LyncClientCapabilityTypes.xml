@@ -1,0 +1,253 @@
+﻿<Type Name="LyncClientCapabilityTypes" FullName="Microsoft.Lync.Model.LyncClientCapabilityTypes">
+  <TypeSignature Language="C#" Value="public enum LyncClientCapabilityTypes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LyncClientCapabilityTypes extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.LyncClientCapabilityTypes" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LyncClientCapabilityTypes" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LyncClientCapabilityTypes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the capabilities that for preferred client.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationSharing">
+      <MemberSignature Language="C#" Value="ApplicationSharing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes ApplicationSharing = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.ApplicationSharing" />
+      <MemberSignature Language="VB.NET" Value="ApplicationSharing" />
+      <MemberSignature Language="C++ CLI" Value="ApplicationSharing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports application sharing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Audio">
+      <MemberSignature Language="C#" Value="Audio" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes Audio = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.Audio" />
+      <MemberSignature Language="VB.NET" Value="Audio" />
+      <MemberSignature Language="C++ CLI" Value="Audio" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports voice.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Breakthrough">
+      <MemberSignature Language="C#" Value="Breakthrough" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes Breakthrough = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.Breakthrough" />
+      <MemberSignature Language="VB.NET" Value="Breakthrough" />
+      <MemberSignature Language="C++ CLI" Value="Breakthrough" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports the remote call control.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Calendar">
+      <MemberSignature Language="C#" Value="Calendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes Calendar = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.Calendar" />
+      <MemberSignature Language="VB.NET" Value="Calendar" />
+      <MemberSignature Language="C++ CLI" Value="Calendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports publishing the calendar data.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Cccp">
+      <MemberSignature Language="C#" Value="Cccp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes Cccp = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.Cccp" />
+      <MemberSignature Language="VB.NET" Value="Cccp" />
+      <MemberSignature Language="C++ CLI" Value="Cccp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports the Centralized Conferencing Control Protocol.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GifInk">
+      <MemberSignature Language="C#" Value="GifInk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes GifInk = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.GifInk" />
+      <MemberSignature Language="VB.NET" Value="GifInk" />
+      <MemberSignature Language="C++ CLI" Value="GifInk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports the GifInk formats in IM.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="IsfInk">
+      <MemberSignature Language="C#" Value="IsfInk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes IsfInk = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.IsfInk" />
+      <MemberSignature Language="VB.NET" Value="IsfInk" />
+      <MemberSignature Language="C++ CLI" Value="IsfInk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports the Ink serialized formats in IM.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoteCallControl">
+      <MemberSignature Language="C#" Value="RemoteCallControl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes RemoteCallControl = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.RemoteCallControl" />
+      <MemberSignature Language="VB.NET" Value="RemoteCallControl" />
+      <MemberSignature Language="C++ CLI" Value="RemoteCallControl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports the GifInk formats in the Instant Messaging.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="Text" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes Text = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.Text" />
+      <MemberSignature Language="VB.NET" Value="Text" />
+      <MemberSignature Language="C++ CLI" Value="Text" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports the Instant Messaging.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserActivity">
+      <MemberSignature Language="C#" Value="UserActivity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes UserActivity = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.UserActivity" />
+      <MemberSignature Language="VB.NET" Value="UserActivity" />
+      <MemberSignature Language="C++ CLI" Value="UserActivity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint is the most active one.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Video">
+      <MemberSignature Language="C#" Value="Video" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.LyncClientCapabilityTypes Video = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientCapabilityTypes.Video" />
+      <MemberSignature Language="VB.NET" Value="Video" />
+      <MemberSignature Language="C++ CLI" Value="Video" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.LyncClientCapabilityTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>Indicates that the endpoint supports video.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

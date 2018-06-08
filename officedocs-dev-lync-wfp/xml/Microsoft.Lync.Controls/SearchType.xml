@@ -1,0 +1,61 @@
+﻿<Type Name="SearchType" FullName="Microsoft.Lync.Controls.SearchType">
+  <TypeSignature Language="C#" Value="public enum SearchType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SearchType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Specifies the desired type of search to perform.             </summary>
+    <remarks>
+      <para>             The search control can find contacts by name or by skill.             See <see cref="T:Microsoft.Lync.Controls.ContactSearch" />, <see cref="T:Microsoft.Lync.Controls.ContactSearchResultList" />, and <see cref="T:Microsoft.Lync.Controls.ContactSearchInputBox" /></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="Name" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SearchType Name = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchType.Name" />
+      <MemberSignature Language="VB.NET" Value="Name" />
+      <MemberSignature Language="C++ CLI" Value="Name" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Specifies that the search is by name.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Skill">
+      <MemberSignature Language="C#" Value="Skill" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SearchType Skill = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchType.Skill" />
+      <MemberSignature Language="VB.NET" Value="Skill" />
+      <MemberSignature Language="C++ CLI" Value="Skill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Specifies that the search is by skill.             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

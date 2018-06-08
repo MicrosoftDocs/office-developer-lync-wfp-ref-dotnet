@@ -1,0 +1,377 @@
+﻿<Type Name="Channel" FullName="Microsoft.Lync.Model.Conversation.AudioVideo.Channel">
+  <TypeSignature Language="C#" Value="public abstract class Channel : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Channel extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.Channel" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Channel&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Channel abstract : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>The base class for AudioChannel and VideoChannel.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActionAvailabilityChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.ChannelActionAvailabilityEventArgs&gt; ActionAvailabilityChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.AudioVideo.ChannelActionAvailabilityEventArgs&gt; ActionAvailabilityChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.ActionAvailabilityChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ChannelActionAvailabilityEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::AudioVideo::ChannelActionAvailabilityEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.ChannelActionAvailabilityEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the availability of a channel action changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginPause">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginPause (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginPause(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.BeginPause(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginPause (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginPause(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Pause the channel.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginResume">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginResume (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginResume(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.BeginResume(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginResume (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginResume(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Resume the channel.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginStart">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginStart (AsyncCallback mediaChannelCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginStart(class System.AsyncCallback mediaChannelCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.BeginStart(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginStart (mediaChannelCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginStart(AsyncCallback ^ mediaChannelCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mediaChannelCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="mediaChannelCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Start the audio or video channel.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginStop">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginStop (AsyncCallback mediaChannelCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginStop(class System.AsyncCallback mediaChannelCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.BeginStop(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginStop (mediaChannelCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginStop(AsyncCallback ^ mediaChannelCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mediaChannelCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="mediaChannelCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Stop the audio or video channel.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanInvoke">
+      <MemberSignature Language="C#" Value="public bool CanInvoke (Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanInvoke(valuetype Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction action) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.CanInvoke(Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ChannelAction) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Conversation::AudioVideo::ChannelAction action);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="action" Type="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction" />
+      </Parameters>
+      <Docs>
+        <param name="action">To be added.</param>
+        <summary> 
+            Returns a flag indicating whether the specific action is allowed.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndPause">
+      <MemberSignature Language="C#" Value="public void EndPause (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndPause(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.EndPause(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndPause (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndPause(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Pause the channel.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndResume">
+      <MemberSignature Language="C#" Value="public void EndResume (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndResume(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.EndResume(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndResume (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndResume(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Resume the channel.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndStart">
+      <MemberSignature Language="C#" Value="public void EndStart (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndStart(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.EndStart(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndStart (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndStart(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Start the audio or video channel.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndStop">
+      <MemberSignature Language="C#" Value="public void EndStop (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndStop(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.EndStop(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndStop (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndStop(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Stop the audio or video channel.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~Channel ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!Channel ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContributing">
+      <MemberSignature Language="C#" Value="public bool IsContributing { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsContributing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.IsContributing" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsContributing As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContributing { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns true if the channel is contributing to the conversation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Modality">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Modality Modality { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Modality Modality" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.Modality" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Modality As Modality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Modality ^ Modality { Microsoft::Lync::Model::Conversation::Modality ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Modality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the associated Microsoft.Lync.Model.Conversation.Modality object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ChannelState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::AudioVideo::ChannelState State { Microsoft::Lync::Model::Conversation::AudioVideo::ChannelState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the state of the channel.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.ChannelStateChangedEventArgs&gt; StateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.AudioVideo.ChannelStateChangedEventArgs&gt; StateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.StateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ChannelStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::AudioVideo::ChannelStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.ChannelStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the state of a channel changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

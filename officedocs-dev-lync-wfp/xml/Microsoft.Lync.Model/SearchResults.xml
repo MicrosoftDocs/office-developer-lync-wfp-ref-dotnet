@@ -1,0 +1,101 @@
+﻿<Type Name="SearchResults" FullName="Microsoft.Lync.Model.SearchResults">
+  <TypeSignature Language="C#" Value="public class SearchResults : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchResults extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchResults" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchResults&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchResults : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents all results of a search.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllResults">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.SearchResult&gt; AllResults { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.SearchResult&gt; AllResults" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResults.AllResults" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllResults As IList(Of SearchResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::SearchResult ^&gt; ^ AllResults { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::SearchResult ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.SearchResult&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns all search results (contacts, groups or expert search results)</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Contact&gt; Contacts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Contact&gt; Contacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResults.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contacts As IList(Of Contact)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Contact ^&gt; ^ Contacts { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Contact ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Contact&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns all retrieved contacts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Groups">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Group.Group&gt; Groups { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Group.Group&gt; Groups" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResults.Groups" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Groups As IList(Of Group)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Group::Group ^&gt; ^ Groups { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Group::Group ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Group.Group&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns all retrieved groups.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMoreAvailable">
+      <MemberSignature Language="C#" Value="public bool IsMoreAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMoreAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResults.IsMoreAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMoreAvailable As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMoreAvailable { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a flag indicating whether more search results are available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

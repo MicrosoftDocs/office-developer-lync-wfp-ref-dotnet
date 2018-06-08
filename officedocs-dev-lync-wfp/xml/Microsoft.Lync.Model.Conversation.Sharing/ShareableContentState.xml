@@ -1,0 +1,178 @@
+﻿<Type Name="ShareableContentState" FullName="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState">
+  <TypeSignature Language="C#" Value="public enum ShareableContentState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ShareableContentState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ShareableContentState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ShareableContentState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the states of a shareable content object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState Active = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="C++ CLI" Value="Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>The content is being presented.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Connecting">
+      <MemberSignature Language="C#" Value="Connecting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState Connecting = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Connecting" />
+      <MemberSignature Language="VB.NET" Value="Connecting" />
+      <MemberSignature Language="C++ CLI" Value="Connecting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The content is being converted/uploaded, or is being downloaded for viewing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnecting">
+      <MemberSignature Language="C#" Value="Disconnecting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState Disconnecting = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Disconnecting" />
+      <MemberSignature Language="VB.NET" Value="Disconnecting" />
+      <MemberSignature Language="C++ CLI" Value="Disconnecting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The content is being deleted from the server.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Initializing">
+      <MemberSignature Language="C#" Value="Initializing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState Initializing = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Initializing" />
+      <MemberSignature Language="VB.NET" Value="Initializing" />
+      <MemberSignature Language="C++ CLI" Value="Initializing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary> 
+            The content is in the initializing state.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Offline">
+      <MemberSignature Language="C#" Value="Offline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState Offline = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Offline" />
+      <MemberSignature Language="VB.NET" Value="Offline" />
+      <MemberSignature Language="C++ CLI" Value="Offline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary> 
+            The content has been created, but is not uploaded yet.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Online">
+      <MemberSignature Language="C#" Value="Online" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState Online = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Online" />
+      <MemberSignature Language="VB.NET" Value="Online" />
+      <MemberSignature Language="C++ CLI" Value="Online" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The content has been successfully uploaded or downloaded, and is fully functional.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unusable">
+      <MemberSignature Language="C#" Value="Unusable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState Unusable = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Unusable" />
+      <MemberSignature Language="VB.NET" Value="Unusable" />
+      <MemberSignature Language="C++ CLI" Value="Unusable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary> 
+            The content is not usable anymore.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

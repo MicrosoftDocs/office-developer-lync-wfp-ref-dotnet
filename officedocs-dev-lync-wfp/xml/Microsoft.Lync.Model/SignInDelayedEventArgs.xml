@@ -1,0 +1,61 @@
+﻿<Type Name="SignInDelayedEventArgs" FullName="Microsoft.Lync.Model.SignInDelayedEventArgs">
+  <TypeSignature Language="C#" Value="public class SignInDelayedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SignInDelayedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SignInDelayedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class SignInDelayedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SignInDelayedEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Used to get the estimated start delay in milliseconds, and the status code for the delay from the event SignInDelayed in the LyncClient class.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EstimatedStartDelay">
+      <MemberSignature Language="C#" Value="public uint EstimatedStartDelay { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 EstimatedStartDelay" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SignInDelayedEventArgs.EstimatedStartDelay" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EstimatedStartDelay As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 EstimatedStartDelay { System::UInt32 get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the estimated start delay.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusCode">
+      <MemberSignature Language="C#" Value="public int StatusCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StatusCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SignInDelayedEventArgs.StatusCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusCode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StatusCode { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the status that caused the auto-recovery.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

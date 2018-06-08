@@ -1,0 +1,153 @@
+﻿<Type Name="ShareableContentType" FullName="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType">
+  <TypeSignature Language="C#" Value="public enum ShareableContentType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ShareableContentType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ShareableContentType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ShareableContentType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates supported content types</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NativeFile">
+      <MemberSignature Language="C#" Value="NativeFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType NativeFile = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.NativeFile" />
+      <MemberSignature Language="VB.NET" Value="NativeFile" />
+      <MemberSignature Language="C++ CLI" Value="NativeFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Native file attachment.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PowerPoint">
+      <MemberSignature Language="C#" Value="PowerPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType PowerPoint = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.PowerPoint" />
+      <MemberSignature Language="VB.NET" Value="PowerPoint" />
+      <MemberSignature Language="C++ CLI" Value="PowerPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>PowerPoint content.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType Reserved1 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType Reserved2 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Unsupported">
+      <MemberSignature Language="C#" Value="Unsupported" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType Unsupported = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Unsupported" />
+      <MemberSignature Language="VB.NET" Value="Unsupported" />
+      <MemberSignature Language="C++ CLI" Value="Unsupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Unsupported content.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Whiteboard">
+      <MemberSignature Language="C#" Value="Whiteboard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType Whiteboard = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Whiteboard" />
+      <MemberSignature Language="VB.NET" Value="Whiteboard" />
+      <MemberSignature Language="C++ CLI" Value="Whiteboard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Whiteboarding content.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

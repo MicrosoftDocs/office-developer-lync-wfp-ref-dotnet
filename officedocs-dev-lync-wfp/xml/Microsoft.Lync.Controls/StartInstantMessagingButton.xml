@@ -1,0 +1,62 @@
+﻿<Type Name="StartInstantMessagingButton" FullName="Microsoft.Lync.Controls.StartInstantMessagingButton">
+  <TypeSignature Language="C#" Value="public class StartInstantMessagingButton : Microsoft.Lync.Controls.ContactButton" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi StartInstantMessagingButton extends Microsoft.Lync.Controls.ContactButton" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.StartInstantMessagingButton" />
+  <TypeSignature Language="VB.NET" Value="Public Class StartInstantMessagingButton&#xA;Inherits ContactButton" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StartInstantMessagingButton : Microsoft::Lync::Controls::ContactButton" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.ContactButton</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Use the StartInstantMessagingButton control in Lync Control applications to              enable the user to open a Lync conversation window and start an instant              messaging conversation between the user who activated the control, and another user specified              by the <see cref="P:Microsoft.Lync.Controls.ContactBase.Source" /> property.             </summary>
+    <remarks>
+      <para>             The control can also start an IM conversation with a distribution group.             </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StartInstantMessagingButton ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.StartInstantMessagingButton.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; StartInstantMessagingButton();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Instantiates a StartInstantMessagingButton class.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.StartInstantMessagingButton.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Returns the StartInstantMessagingButton automation peer.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

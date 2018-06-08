@@ -1,0 +1,908 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Lync.Controls" Version="15.0.0.0">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("© 2012 Microsoft Corporation.  All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Microsoft Lync WPF Controls")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("15.0.4458.2008")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft Office 2013")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Lync WPF Controls")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("Microsoft® is a registered trademark of Microsoft Corporation. Windows® is a registered trademark of Microsoft Corporation.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.0", FrameworkDisplayName=".NET Framework 4")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Windows.Markup.XmlnsDefinition("clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls", "Microsoft.Lync.Controls")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Windows.Markup.XmlnsPrefix("clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls", "controls")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Windows.ThemeInfo(System.Windows.ResourceDictionaryLocation.None, System.Windows.ResourceDictionaryLocation.SourceAssembly)</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+    <Assembly Name="Microsoft.Lync.Model" Version="15.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 af d4 a0 e7 72 41 51 d5 dd 52 cb 23 a3 0d ed 7c 00 91 cc 01 cf e9 4b 2b cd 85 b3 f4 ee e3 c4 d8 f6 41 7b ff 76 37 63 a9 96 d6 b2 df c1 e7 c2 9b cf b8 29 97 79 df 87 85 cd e2 c1 68 ce ee 48 0e 57 07 25 f2 46 8e 78 2a 9c 24 01 30 2c f6 dc 17 e1 19 11 8e d2 01 19 37 ba e9 69 83 57 ad 21 e8 b6 df b4 04 75 d1 6e 87 eb 03 c7 44 a5 d3 28 99 a0 db c5 96 a6 b2 cf a1 e5 09 be 5f bd 09 fa cf ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("© 2012 Microsoft Corporation.  All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Microsoft Office 2013 component")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("15.0.4454.1509")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft Office 2013")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Office 2013 component")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("Microsoft® is a registered trademark of Microsoft Corporation. Windows® is a registered trademark of Microsoft Corporation.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Lync.Controls">
+      <Type Name="AvailabilityIcon" Kind="Class" />
+      <Type Name="ContactAvailability" Kind="Enumeration" />
+      <Type Name="ContactBase" Kind="Class" />
+      <Type Name="ContactButton" Kind="Class" />
+      <Type Name="ContactCard" Kind="Class" />
+      <Type Name="ContactContentPresenter" Kind="Class" />
+      <Type Name="ContactItem" Kind="Class" />
+      <Type Name="ContactItemContentPresenter" Kind="Class" />
+      <Type Name="ContactLayoutOption" Kind="Enumeration" />
+      <Type Name="ContactList" Kind="Class" />
+      <Type Name="ContactListGroupItem" Kind="Class" />
+      <Type Name="ContactListItem" Kind="Class" />
+      <Type Name="ContactSearch" Kind="Class" />
+      <Type Name="ContactSearchInputBox" Kind="Class" />
+      <Type Name="ContactSearchResultList" Kind="Class" />
+      <Type Name="ControlColors" Kind="Class" />
+      <Type Name="ConversationContextualInfo" Kind="Class" />
+      <Type Name="CustomContactList" Kind="Class" />
+      <Type Name="CustomContactListItem" Kind="Class" />
+      <Type Name="GroupByOption" Kind="Enumeration" />
+      <Type Name="LyncControlInitializationError" Kind="Enumeration" />
+      <Type Name="LyncServiceProvider" Kind="Class" />
+      <Type Name="MenuContext" Kind="Enumeration" />
+      <Type Name="MyNoteBox" Kind="Class" />
+      <Type Name="MyPresenceChooser" Kind="Class" />
+      <Type Name="MyStatusArea" Kind="Class" />
+      <Type Name="PhotoDisplayMode" Kind="Enumeration" />
+      <Type Name="PopupPlacementMode" Kind="Enumeration" />
+      <Type Name="PresenceClickActions" Kind="Enumeration" />
+      <Type Name="PresenceHoverActions" Kind="Enumeration" />
+      <Type Name="PresenceIndicator" Kind="Class" />
+      <Type Name="ResourcesWrapper" Kind="Class" />
+      <Type Name="ScheduleMeetingButton" Kind="Class" />
+      <Type Name="SearchError" Kind="Enumeration" />
+      <Type Name="SearchResult" Kind="Class" />
+      <Type Name="SearchResultCollection" Kind="Class" />
+      <Type Name="SearchState" Kind="Enumeration" />
+      <Type Name="SearchType" Kind="Enumeration" />
+      <Type Name="SelfBase" Kind="Class" />
+      <Type Name="SendEmailButton" Kind="Class" />
+      <Type Name="SendFileButton" Kind="Class" />
+      <Type Name="ShareDesktopButton" Kind="Class" />
+      <Type Name="SortByOption" Kind="Enumeration" />
+      <Type Name="StartAudioCallButton" Kind="Class" />
+      <Type Name="StartInstantMessagingButton" Kind="Class" />
+      <Type Name="StartVideoCallButton" Kind="Class" />
+      <Type Name="SyncState" Kind="Enumeration" />
+      <Type Name="SystemsColorsWrapper" Kind="Class" />
+      <Type Name="UCBase" Kind="Class" />
+      <Type Name="UCBase+PerformanceTracker" Kind="Class" />
+      <Type Name="UCListBox" Kind="Class" />
+      <Type Name="UCListBoxItem" Kind="Class" />
+      <Type Name="UCTreeView" Kind="Class" />
+      <Type Name="UCTreeViewItem" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Controls.AutomationPeers">
+      <Type Name="ContactCardAutomationPeer" Kind="Class" />
+      <Type Name="ContactItemAutomationPeer" Kind="Class" />
+      <Type Name="ContactListAutomationPeer" Kind="Class" />
+      <Type Name="ContactSearchInputBoxAutomationPeer" Kind="Class" />
+      <Type Name="ContactSearchResultListAutomationPeer" Kind="Class" />
+      <Type Name="MyNoteBoxAutomationPeer" Kind="Class" />
+      <Type Name="MyPresenceChooserAutomationPeer" Kind="Class" />
+      <Type Name="MyStatusAreaAutomationPeer" Kind="Class" />
+      <Type Name="PresenceIndicatorAutomationPeer" Kind="Class" />
+      <Type Name="StartAudioCallButtonAutomationPeer" Kind="Class" />
+      <Type Name="StartInstantMessagingButtonAutomationPeer" Kind="Class" />
+      <Type Name="UCTreeViewItemAutomationPeer" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Controls.Internal">
+      <Type Name="ActionsBar" Kind="Class" />
+      <Type Name="AddContact" Kind="Class" />
+      <Type Name="Clock" Kind="Class" />
+      <Type Name="ContactListMenu" Kind="Class" />
+      <Type Name="ContactNote" Kind="Class" />
+      <Type Name="ContactSearchResultListItem" Kind="Class" />
+      <Type Name="ContextMenu" Kind="Class" />
+      <Type Name="ContextMenuHost" Kind="Class" />
+      <Type Name="ControlHelpers" Kind="Class" />
+      <Type Name="Dock" Kind="Enumeration" />
+      <Type Name="DockPanel" Kind="Class" />
+      <Type Name="EnterEnabledRadioButton" Kind="Class" />
+      <Type Name="FocuslessButton" Kind="Class" />
+      <Type Name="FrameworkElementHelpers" Kind="Class" />
+      <Type Name="HelpTextButton" Kind="Class" />
+      <Type Name="HelpTextToggleButton" Kind="Class" />
+      <Type Name="HyperlinkButton" Kind="Class" />
+      <Type Name="ImageButton" Kind="Class" />
+      <Type Name="MenuItem" Kind="Class" />
+      <Type Name="OverflowMenu" Kind="Class" />
+      <Type Name="PopupContactCard" Kind="Class" />
+      <Type Name="PopupContactCardHost" Kind="Class" />
+      <Type Name="RadioMenuItem" Kind="Class" />
+      <Type Name="SplitButton" Kind="Class" />
+      <Type Name="TruncatedTextBlock" Kind="Class" />
+      <Type Name="WatermarkedTextBox" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Controls.Internal.AutomationPeers">
+      <Type Name="AddContactAutomationPeer" Kind="Class" />
+      <Type Name="AvailabilityIconAutomationPeer" Kind="Class" />
+      <Type Name="ClockAutomationPeer" Kind="Class" />
+      <Type Name="ContactBaseAutomationPeer`1" DisplayName="ContactBaseAutomationPeer&lt;T&gt;" Kind="Class" />
+      <Type Name="ContactSearchAutomationPeer" Kind="Class" />
+      <Type Name="ContextMenuAutomationPeer" Kind="Class" />
+      <Type Name="FocuslessButtonAutomationPeer" Kind="Class" />
+      <Type Name="HelpTextButtonAutomationPeer" Kind="Class" />
+      <Type Name="HelpTextToggleButtonAutomationPeer" Kind="Class" />
+      <Type Name="HyperlinkButtonAutomationPeer" Kind="Class" />
+      <Type Name="OverflowMenuAutomationPeer" Kind="Class" />
+      <Type Name="PopupContactCardAutomationPeer" Kind="Class" />
+      <Type Name="PopupContactCardHostAutomationPeer" Kind="Class" />
+      <Type Name="RadioMenuItemAutomationPeer" Kind="Class" />
+      <Type Name="ScheduleMeetingButtonAutomationPeer" Kind="Class" />
+      <Type Name="SendEmailButtonAutomationPeer" Kind="Class" />
+      <Type Name="SendFileButtonAutomationPeer" Kind="Class" />
+      <Type Name="ShareDesktopButtonAutomationPeer" Kind="Class" />
+      <Type Name="SplitButtonAutomationPeer" Kind="Class" />
+      <Type Name="StartVideoCallButtonAutomationPeer" Kind="Class" />
+      <Type Name="UCBaseAutomationPeer`1" DisplayName="UCBaseAutomationPeer&lt;T&gt;" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Controls.Internal.Common">
+      <Type Name="CompoundCollection" Kind="Class" />
+      <Type Name="CompoundCollectionPart" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Controls.Internal.Converters">
+      <Type Name="AvailabilityStateToTemplate" Kind="Class" />
+      <Type Name="BooleanToSelectedObject" Kind="Class" />
+      <Type Name="BooleanToTextWrap" Kind="Class" />
+      <Type Name="BooleanToVisibility" Kind="Class" />
+      <Type Name="CalendarStateToString" Kind="Class" />
+      <Type Name="ContactsListNodeToContacts" Kind="Class" />
+      <Type Name="ContactTypeToPhotoIconStyle" Kind="Class" />
+      <Type Name="ControlsEnumToString" Kind="Class" />
+      <Type Name="ConversationContextToContextModel" Kind="Class" />
+      <Type Name="DateTimeToShortTimeString" Kind="Class" />
+      <Type Name="EmailAddressToStartEmailTooltip" Kind="Class" />
+      <Type Name="EmailAddressToStartInstantMessagingConversationTooltip" Kind="Class" />
+      <Type Name="EndpointTypeToControl" Kind="Class" />
+      <Type Name="EndpointTypeToStartAudioConversationToolTip" Kind="Class" />
+      <Type Name="EnumberableContainsGreaterThanEqualToVisibility" Kind="Class" />
+      <Type Name="EnumberableContainsLessThanToVisibility" Kind="Class" />
+      <Type Name="EnumToBool" Kind="Class" />
+      <Type Name="EnumToInt" Kind="Class" />
+      <Type Name="EnumToNotBool" Kind="Class" />
+      <Type Name="EnumToNotVisible" Kind="Class" />
+      <Type Name="EnumToString" Kind="Class" />
+      <Type Name="EnumToVisibility" Kind="Class" />
+      <Type Name="EqualToVisibility" Kind="Class" />
+      <Type Name="IdleTimeToString" Kind="Class" />
+      <Type Name="IntGreaterThanEqualToVisibility" Kind="Class" />
+      <Type Name="MonitorNumberToIcon" Kind="Class" />
+      <Type Name="MonitorNumberToName" Kind="Class" />
+      <Type Name="NotBooleanToVisibility" Kind="Class" />
+      <Type Name="NotNullOrEmptyStringToVisibility" Kind="Class" />
+      <Type Name="NotVisibility" Kind="Class" />
+      <Type Name="NullObjectToVisibility" Kind="Class" />
+      <Type Name="NullOrEmptyStringToBoolean" Kind="Class" />
+      <Type Name="NullOrEmptyStringToVerticalAlignment" Kind="Class" />
+      <Type Name="NullOrEmptyStringToVisibility" Kind="Class" />
+      <Type Name="PhoneNumberToCallToolTip" Kind="Class" />
+      <Type Name="PresenceAvailabilityToControl" Kind="Class" />
+      <Type Name="SearchErrorToLabel" Kind="Class" />
+      <Type Name="SearchResultsToLabel" Kind="Class" />
+      <Type Name="SortedCollaborationEndpointConverter" Kind="Class" />
+      <Type Name="SortedCollaborationEndpointConverter+CollaborationEndpointTypeComparator" Kind="Class" />
+      <Type Name="StreamToImageSource" Kind="Class" />
+      <Type Name="StringToAccelerator" Kind="Class" />
+      <Type Name="StringToSingleLineString" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Controls.Internal.ViewModel">
+      <Type Name="GroupByContactsAndGroupsManagerBase`1" DisplayName="GroupByContactsAndGroupsManagerBase&lt;T&gt;" Kind="Class" />
+      <Type Name="GroupByGroup" Kind="Class" />
+      <Type Name="GroupByGroupFrequentContacts" Kind="Class" />
+      <Type Name="GroupByGroupsContactsAndGroupsManager" Kind="Class" />
+      <Type Name="GroupByRelationshipContactsAndGroupsManager" Kind="Class" />
+      <Type Name="GroupByStatusContactsAndGroupsManager" Kind="Class" />
+      <Type Name="ISortableContactsAndGroupManager" Kind="Interface" />
+      <Type Name="MenuManager" Kind="Class" />
+      <Type Name="MenuManager+AddToContactListRule" Kind="Class" />
+      <Type Name="MenuManager+ChangePrivacyRelationshipRule" Kind="Class" />
+      <Type Name="MenuManager+ContactManagementMenuRule" Kind="Class" />
+      <Type Name="MenuManager+ContactManagementMenuRule+GroupManagementSubmenuRule" Kind="Class" />
+      <Type Name="MenuManager+CopyContactToRule" Kind="Class" />
+      <Type Name="MenuManager+CopySubmenuRule" Kind="Class" />
+      <Type Name="MenuManager+CopyUriRule" Kind="Class" />
+      <Type Name="MenuManager+CreateGroupRule" Kind="Class" />
+      <Type Name="MenuManager+DeleteGroupRule" Kind="Class" />
+      <Type Name="MenuManager+GroupMenuRule" Kind="Class" />
+      <Type Name="MenuManager+MenuRule" Kind="Class" />
+      <Type Name="MenuManager+MoveContactToRule" Kind="Class" />
+      <Type Name="MenuManager+MoveGroupDownRule" Kind="Class" />
+      <Type Name="MenuManager+MoveGroupUpRule" Kind="Class" />
+      <Type Name="MenuManager+MoveSubmenuRule" Kind="Class" />
+      <Type Name="MenuManager+PasteUriRule" Kind="Class" />
+      <Type Name="MenuManager+PinContactsRule" Kind="Class" />
+      <Type Name="MenuManager+RemoveFromContactListRule" Kind="Class" />
+      <Type Name="MenuManager+RemoveFromGroupRule" Kind="Class" />
+      <Type Name="MenuManager+RenameGroupRule" Kind="Class" />
+      <Type Name="MenuManager+ScheduleMeetingRule" Kind="Class" />
+      <Type Name="MenuManager+SendFileRule" Kind="Class" />
+      <Type Name="MenuManager+ShareDesktopMultipleRule" Kind="Class" />
+      <Type Name="MenuManager+ShareDesktopSingleRule" Kind="Class" />
+      <Type Name="MenuManager+StartAudioCallRule" Kind="Class" />
+      <Type Name="MenuManager+StartConferenceCallRule" Kind="Class" />
+      <Type Name="MenuManager+StartEmailRule" Kind="Class" />
+      <Type Name="MenuManager+StartInstantMessagingRule" Kind="Class" />
+      <Type Name="MenuManager+StartVideoRule" Kind="Class" />
+      <Type Name="MenuManager+TagContactRule" Kind="Class" />
+      <Type Name="MenuManager+UnpinContactsRule" Kind="Class" />
+      <Type Name="MenuManager+ViewContactCardRule" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Controls.Properties">
+      <Type Name="Resources" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model">
+      <Type Name="AccessEntry" Kind="Class" />
+      <Type Name="AccessEntryCollectionChangedEventArgs" Kind="Class" />
+      <Type Name="AccessEntryScope" Kind="Enumeration" />
+      <Type Name="AccessLevel" Kind="Enumeration" />
+      <Type Name="AccessPermission" Kind="Class" />
+      <Type Name="AlertLevel" Kind="Class" />
+      <Type Name="AlertLevelChangedEventArgs" Kind="Class" />
+      <Type Name="AlertModeTypes" Kind="Enumeration" />
+      <Type Name="AlertPrivacyType" Kind="Enumeration" />
+      <Type Name="AlreadyInitializedException" Kind="Class" />
+      <Type Name="Client" Kind="Class" />
+      <Type Name="ClientNotFoundException" Kind="Class" />
+      <Type Name="ClientSettings" Kind="Class" />
+      <Type Name="ClientSettingsChangedEventArgs" Kind="Class" />
+      <Type Name="ClientSettingsType" Kind="Enumeration" />
+      <Type Name="ClientState" Kind="Enumeration" />
+      <Type Name="ClientStateChangedEventArgs" Kind="Class" />
+      <Type Name="ConfigurationErrorException" Kind="Class" />
+      <Type Name="Contact" Kind="Class" />
+      <Type Name="ContactAvailability" Kind="Enumeration" />
+      <Type Name="ContactCalendarState" Kind="Enumeration" />
+      <Type Name="ContactCapabilities" Kind="Enumeration" />
+      <Type Name="ContactEndpoint" Kind="Class" />
+      <Type Name="ContactEndpointCollection" Kind="Class" />
+      <Type Name="ContactEndpointType" Kind="Enumeration" />
+      <Type Name="ContactInformationChangedEventArgs" Kind="Class" />
+      <Type Name="ContactInformationType" Kind="Enumeration" />
+      <Type Name="ContactManager" Kind="Class" />
+      <Type Name="ContactSetting" Kind="Enumeration" />
+      <Type Name="ContactSettingChangedEventArgs" Kind="Class" />
+      <Type Name="ContactSourceTypes" Kind="Enumeration" />
+      <Type Name="ContactSubscription" Kind="Class" />
+      <Type Name="ContactSubscriptionRefreshRate" Kind="Enumeration" />
+      <Type Name="ContactType" Kind="Enumeration" />
+      <Type Name="ContentNotAuthorizedException" Kind="Class" />
+      <Type Name="ContentOtherErrorsException" Kind="Class" />
+      <Type Name="ContentTitleExistException" Kind="Class" />
+      <Type Name="ContentTitleInvalidException" Kind="Class" />
+      <Type Name="CredentialRequestedEventArgs" Kind="Class" />
+      <Type Name="CredentialRequestedType" Kind="Enumeration" />
+      <Type Name="CredentialRequestResult" Kind="Enumeration" />
+      <Type Name="CustomAvailabilityState" Kind="Class" />
+      <Type Name="DefaultNoteType" Kind="Enumeration" />
+      <Type Name="DelegatorClient" Kind="Class" />
+      <Type Name="DelegatorClientCollectionEventArgs" Kind="Class" />
+      <Type Name="ExchangeECPUrlChangedEventArgs" Kind="Class" />
+      <Type Name="InvalidStateException" Kind="Class" />
+      <Type Name="ItemAlreadyExistException" Kind="Class" />
+      <Type Name="ItemNotFoundException" Kind="Class" />
+      <Type Name="JoinRoomFailException" Kind="Class" />
+      <Type Name="JoinRoomUnauthorizedException" Kind="Class" />
+      <Type Name="LocaleString" Kind="Class" />
+      <Type Name="LyncClient" Kind="Class" />
+      <Type Name="LyncClientCapabilityTypes" Kind="Enumeration" />
+      <Type Name="LyncClientConfigurationMode" Kind="Enumeration" />
+      <Type Name="LyncClientException" Kind="Class" />
+      <Type Name="LyncClientNotification" Kind="Enumeration" />
+      <Type Name="MaxContentsExceededException" Kind="Class" />
+      <Type Name="NotificationTypes" Kind="Enumeration" />
+      <Type Name="NotificationUrgencyType" Kind="Enumeration" />
+      <Type Name="NotInitializedException" Kind="Class" />
+      <Type Name="NotReadyException" Kind="Class" />
+      <Type Name="NotSignedInException" Kind="Class" />
+      <Type Name="NotStartedByUserException" Kind="Class" />
+      <Type Name="OperationException" Kind="Class" />
+      <Type Name="OrganizationStructureTypes" Kind="Enumeration" />
+      <Type Name="PendingOperationException" Kind="Class" />
+      <Type Name="Phone" Kind="Class" />
+      <Type Name="PhonesChangedEventArgs" Kind="Class" />
+      <Type Name="PhotoSetting" Kind="Enumeration" />
+      <Type Name="PreferredCapabilitiesChangedEventArgs" Kind="Class" />
+      <Type Name="PresenceCapability" Kind="Class" />
+      <Type Name="PresenceCapabilityType" Kind="Enumeration" />
+      <Type Name="PublicCloudProviderInfo" Kind="Class" />
+      <Type Name="PublishableContactInformationType" Kind="Enumeration" />
+      <Type Name="RedirectionTypes" Kind="Enumeration" />
+      <Type Name="RepresentationInfo" Kind="Class" />
+      <Type Name="RepresentationType" Kind="Enumeration" />
+      <Type Name="RequestCanceledException" Kind="Class" />
+      <Type Name="ResiliencyModeChangedEventArgs" Kind="Class" />
+      <Type Name="ResultOverflowException" Kind="Class" />
+      <Type Name="RoomNotJoinedException" Kind="Class" />
+      <Type Name="SearchException" Kind="Class" />
+      <Type Name="SearchException+FailureReason" Kind="Enumeration" />
+      <Type Name="SearchFields" Kind="Enumeration" />
+      <Type Name="SearchOptions" Kind="Enumeration" />
+      <Type Name="SearchProviders" Kind="Enumeration" />
+      <Type Name="SearchProviderStateChangedEventArgs" Kind="Class" />
+      <Type Name="SearchProviderStatusType" Kind="Enumeration" />
+      <Type Name="SearchResult" Kind="Class" />
+      <Type Name="SearchResults" Kind="Class" />
+      <Type Name="Self" Kind="Class" />
+      <Type Name="SignInConfiguration" Kind="Class" />
+      <Type Name="SignInConfigurationType" Kind="Enumeration" />
+      <Type Name="SignInDelayedEventArgs" Kind="Class" />
+      <Type Name="SoftMuteChangeInitiator" Kind="Enumeration" />
+      <Type Name="SourceNetworkType" Kind="Enumeration" />
+      <Type Name="SupportedFeatures" Kind="Enumeration" />
+      <Type Name="TransportMode" Kind="Enumeration" />
+      <Type Name="TypeMismatchException" Kind="Class" />
+      <Type Name="UnifiedCommunicationType" Kind="Enumeration" />
+      <Type Name="UriChangedEventArgs" Kind="Class" />
+      <Type Name="Utilities" Kind="Class" />
+      <Type Name="UtilitiesAction" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model.Conversation">
+      <Type Name="ConferenceAccessInformation" Kind="Class" />
+      <Type Name="ConferenceAccessType" Kind="Enumeration" />
+      <Type Name="ConferenceDisclaimerState" Kind="Enumeration" />
+      <Type Name="ConferenceEscalationProgress" Kind="Enumeration" />
+      <Type Name="ContextEventArgs" Kind="Class" />
+      <Type Name="ContextType" Kind="Enumeration" />
+      <Type Name="Conversation" Kind="Class" />
+      <Type Name="ConversationAcceptanceState" Kind="Enumeration" />
+      <Type Name="ConversationAction" Kind="Enumeration" />
+      <Type Name="ConversationActionAvailabilityEventArgs" Kind="Class" />
+      <Type Name="ConversationImportance" Kind="Enumeration" />
+      <Type Name="ConversationManager" Kind="Class" />
+      <Type Name="ConversationManagerEventArgs" Kind="Class" />
+      <Type Name="ConversationProperty" Kind="Enumeration" />
+      <Type Name="ConversationPropertyChangedEventArgs" Kind="Class" />
+      <Type Name="ConversationState" Kind="Enumeration" />
+      <Type Name="ConversationStateChangedEventArgs" Kind="Class" />
+      <Type Name="ConversationStateChangeProperty" Kind="Enumeration" />
+      <Type Name="InitialContextEventArgs" Kind="Class" />
+      <Type Name="InstantMessageCapabilities" Kind="Enumeration" />
+      <Type Name="InstantMessageContentType" Kind="Enumeration" />
+      <Type Name="InstantMessageModality" Kind="Class" />
+      <Type Name="IsContributingChangedEventArgs" Kind="Class" />
+      <Type Name="IsTypingChangedEventArgs" Kind="Class" />
+      <Type Name="MessageSentEventArgs" Kind="Class" />
+      <Type Name="Modality" Kind="Class" />
+      <Type Name="ModalityAction" Kind="Enumeration" />
+      <Type Name="ModalityActionAvailabilityChangedEventArgs" Kind="Class" />
+      <Type Name="ModalityActionProperty" Kind="Enumeration" />
+      <Type Name="ModalityDisconnectReason" Kind="Enumeration" />
+      <Type Name="ModalityProperty" Kind="Enumeration" />
+      <Type Name="ModalityPropertyChangedEventArgs" Kind="Class" />
+      <Type Name="ModalityState" Kind="Enumeration" />
+      <Type Name="ModalityStateChangedEventArgs" Kind="Class" />
+      <Type Name="ModalityStateChangeProperty" Kind="Enumeration" />
+      <Type Name="ModalityTypes" Kind="Enumeration" />
+      <Type Name="MutedChangedEventArgs" Kind="Class" />
+      <Type Name="Participant" Kind="Class" />
+      <Type Name="ParticipantAction" Kind="Enumeration" />
+      <Type Name="ParticipantActionAvailabilityChangedEventArgs" Kind="Class" />
+      <Type Name="ParticipantCollectionChangedEventArgs" Kind="Class" />
+      <Type Name="ParticipantProperty" Kind="Enumeration" />
+      <Type Name="ParticipantPropertyChangedEventArgs" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model.Conversation.AudioVideo">
+      <Type Name="AudioChannel" Kind="Class" />
+      <Type Name="AVModality" Kind="Class" />
+      <Type Name="CallParkOrbit" Kind="Class" />
+      <Type Name="CallUnparkReason" Kind="Enumeration" />
+      <Type Name="Channel" Kind="Class" />
+      <Type Name="ChannelAction" Kind="Enumeration" />
+      <Type Name="ChannelActionAvailabilityEventArgs" Kind="Class" />
+      <Type Name="ChannelState" Kind="Enumeration" />
+      <Type Name="ChannelStateChangedEventArgs" Kind="Class" />
+      <Type Name="MediaQuality" Kind="Enumeration" />
+      <Type Name="MediaStreamDirection" Kind="Enumeration" />
+      <Type Name="SpeakerMode" Kind="Enumeration" />
+      <Type Name="StreamStateChangedEventArgs" Kind="Class" />
+      <Type Name="TransferOptions" Kind="Enumeration" />
+      <Type Name="VideoChannel" Kind="Class" />
+      <Type Name="VideoWindow" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model.Conversation.Sharing">
+      <Type Name="ActiveContentChangedEventArgs" Kind="Class" />
+      <Type Name="ActivePresenterChangedEventArgs" Kind="Class" />
+      <Type Name="ApplicationSharingModality" Kind="Class" />
+      <Type Name="CanShareDetail" Kind="Enumeration" />
+      <Type Name="ContentCollectionChangedEventArgs" Kind="Class" />
+      <Type Name="ContentSavingFileType" Kind="Enumeration" />
+      <Type Name="ContentSharingModality" Kind="Class" />
+      <Type Name="ControllerChangedEventArgs" Kind="Class" />
+      <Type Name="ControlRequestReceivedEventArgs" Kind="Class" />
+      <Type Name="LocalSharedResourcesChangedEventArgs" Kind="Class" />
+      <Type Name="ParticipationState" Kind="Enumeration" />
+      <Type Name="ParticipationStateChangedEventArgs" Kind="Class" />
+      <Type Name="PowerPointContent" Kind="Class" />
+      <Type Name="ShareableContent" Kind="Class" />
+      <Type Name="ShareableContentAction" Kind="Enumeration" />
+      <Type Name="ShareableContentActionAvailabilityChangedEventArgs" Kind="Class" />
+      <Type Name="ShareableContentCollection" Kind="Class" />
+      <Type Name="ShareableContentProperty" Kind="Enumeration" />
+      <Type Name="ShareableContentPropertyChangedEventArgs" Kind="Class" />
+      <Type Name="ShareableContentState" Kind="Enumeration" />
+      <Type Name="ShareableContentStateChangedEventArgs" Kind="Class" />
+      <Type Name="ShareableContentType" Kind="Enumeration" />
+      <Type Name="SharerChangedEventArgs" Kind="Class" />
+      <Type Name="SharingResource" Kind="Class" />
+      <Type Name="SharingResourceList" Kind="Class" />
+      <Type Name="SharingResourceType" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model.Device">
+      <Type Name="AudioDevice" Kind="Class" />
+      <Type Name="AudioPlayBackModes" Kind="Enumeration" />
+      <Type Name="Device" Kind="Class" />
+      <Type Name="DeviceManager" Kind="Class" />
+      <Type Name="DeviceType" Kind="Enumeration" />
+      <Type Name="VideoDevice" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model.Extensibility">
+      <Type Name="ApplicationRegistration" Kind="Class" />
+      <Type Name="Automation" Kind="Class" />
+      <Type Name="AutomationModalities" Kind="Enumeration" />
+      <Type Name="AutomationModalitySettings" Kind="Enumeration" />
+      <Type Name="ConversationWindow" Kind="Class" />
+      <Type Name="ConversationWindowAction" Kind="Enumeration" />
+      <Type Name="ConversationWindowActionAvailabilityChangedEventArgs" Kind="Class" />
+      <Type Name="ConversationWindowExtensionSize" Kind="Enumeration" />
+      <Type Name="ConversationWindowInformationChangedEventArgs" Kind="Class" />
+      <Type Name="ConversationWindowInformationDictionary" Kind="Class" />
+      <Type Name="ConversationWindowInformationType" Kind="Enumeration" />
+      <Type Name="ConversationWindowNeedsAttentionEventArgs" Kind="Class" />
+      <Type Name="ConversationWindowNeedsSizeChangeEventArgs" Kind="Class" />
+      <Type Name="ConversationWindowState" Kind="Enumeration" />
+      <Type Name="ConversationWindowStateChangedEventArgs" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model.Group">
+      <Type Name="ContactCollection" Kind="Class" />
+      <Type Name="ContactPositionChangedEventArgs" Kind="Class" />
+      <Type Name="CustomGroup" Kind="Class" />
+      <Type Name="DescriptionChangedEventArgs" Kind="Class" />
+      <Type Name="DistributionGroup" Kind="Class" />
+      <Type Name="DistributionGroupExpansionStateChangedEventArgs" Kind="Class" />
+      <Type Name="FavoriteContacts" Kind="Class" />
+      <Type Name="FrequentContacts" Kind="Class" />
+      <Type Name="Group" Kind="Class" />
+      <Type Name="GroupAction" Kind="Enumeration" />
+      <Type Name="GroupCollection" Kind="Class" />
+      <Type Name="GroupCollectionChangedEventArgs" Kind="Class" />
+      <Type Name="GroupMemberChangedEventArgs" Kind="Class" />
+      <Type Name="GroupNameChangedEventArgs" Kind="Class" />
+      <Type Name="GroupType" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model.Internal">
+      <Type Name="AsynchronousOperation" Kind="Class" />
+      <Type Name="ChannelType" Kind="Enumeration" />
+      <Type Name="ConversationDirection" Kind="Enumeration" />
+      <Type Name="DeviceCollection" Kind="Class" />
+      <Type Name="ModalityConnectOptions" Kind="Enumeration" />
+      <Type Name="ModalityStateChangePropertyDictionary" Kind="Class" />
+      <Type Name="NamedPropertyList" Kind="Class" />
+      <Type Name="PreviousConversationHistoryRetrievalState" Kind="Enumeration" />
+      <Type Name="PreviousConversationsConnectionState" Kind="Enumeration" />
+      <Type Name="PreviousConversationsErrorType" Kind="Enumeration" />
+      <Type Name="PreviousConversationsManagerConnectionStateChangedEventArgs" Kind="Class" />
+      <Type Name="PropertyClass" Kind="Enumeration" />
+      <Type Name="PropertyMask" Kind="Enumeration" />
+      <Type Name="PropertyMaskIndex" Kind="Enumeration" />
+      <Type Name="PropertyType" Kind="Enumeration" />
+      <Type Name="UCWBase" Kind="Class" />
+      <Type Name="UCWFull" Kind="Class" />
+      <Type Name="UCWLite" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Lync.Model.Room">
+      <Type Name="FollowedRoomsChangedEventArgs" Kind="Class" />
+      <Type Name="Room" Kind="Class" />
+      <Type Name="RoomJoinState" Kind="Enumeration" />
+      <Type Name="RoomJoinStateChangedEventArgs" Kind="Class" />
+      <Type Name="RoomManager" Kind="Class" />
+      <Type Name="RoomManagerState" Kind="Enumeration" />
+      <Type Name="RoomManagerStateChangedEventArgs" Kind="Class" />
+      <Type Name="RoomMessage" Kind="Class" />
+      <Type Name="RoomMessageDictionary" Kind="Class" />
+      <Type Name="RoomMessageEventArgs" Kind="Class" />
+      <Type Name="RoomMessageFilteringAction" Kind="Enumeration" />
+      <Type Name="RoomMessageFormat" Kind="Enumeration" />
+      <Type Name="RoomMessagesEventArgs" Kind="Class" />
+      <Type Name="RoomMessageType" Kind="Enumeration" />
+      <Type Name="RoomParticipantsEventArgs" Kind="Class" />
+      <Type Name="RoomProperty" Kind="Enumeration" />
+      <Type Name="RoomPropertyChangedEventArgs" Kind="Class" />
+      <Type Name="RoomPropertyDictionary" Kind="Class" />
+      <Type Name="RoomSearchModeType" Kind="Enumeration" />
+      <Type Name="RoomType" Kind="Enumeration" />
+      <Type Name="RoomUser" Kind="Class" />
+      <Type Name="RoomUserChangedEventArgs" Kind="Class" />
+      <Type Name="UnreadMessageCountChangedEventArgs" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Untitled</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Windows.Controls.Control" />
+      </Targets>
+      <Member MemberName="CastTemplatePart&lt;T&gt;">
+        <MemberSignature Language="C#" Value="public static T CastTemplatePart&lt;T&gt; (this System.Windows.Controls.Control control, string partName, System.Windows.DependencyObject obj, bool isPartRequired) where T : System.Windows.DependencyObject;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T CastTemplatePart&lt;(class System.Windows.DependencyObject) T&gt;(class System.Windows.Controls.Control control, string partName, class System.Windows.DependencyObject obj, bool isPartRequired) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ControlHelpers.CastTemplatePart``1(System.Windows.Controls.Control,System.String,System.Windows.DependencyObject,System.Boolean)" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject[System::Runtime::CompilerServices::Extension]&#xA; static T CastTemplatePart(System::Windows::Controls::Control ^ control, System::String ^ partName, System::Windows::DependencyObject ^ obj, bool isPartRequired);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>T</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="T">
+            <Constraints>
+              <BaseTypeName>System.Windows.DependencyObject</BaseTypeName>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="control" Type="System.Windows.Controls.Control" RefType="this" />
+          <Parameter Name="partName" Type="System.String" />
+          <Parameter Name="obj" Type="System.Windows.DependencyObject" />
+          <Parameter Name="isPartRequired" Type="System.Boolean" />
+        </Parameters>
+        <Docs>
+          <typeparam name="T">To be added.</typeparam>
+          <param name="control">To be added.</param>
+          <param name="partName">To be added.</param>
+          <param name="obj">To be added.</param>
+          <param name="isPartRequired">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.ControlHelpers" Member="M:Microsoft.Lync.Controls.Internal.ControlHelpers.CastTemplatePart``1(System.Windows.Controls.Control,System.String,System.Windows.DependencyObject,System.Boolean)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Windows.FrameworkElement" />
+      </Targets>
+      <Member MemberName="BindToControlDependencyProperty">
+        <MemberSignature Language="C#" Value="public static void BindToControlDependencyProperty (this System.Windows.FrameworkElement targetControl, System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, System.Windows.Data.BindingMode bindingMode, System.Windows.DependencyProperty targetDependencyProperty);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BindToControlDependencyProperty(class System.Windows.FrameworkElement targetControl, class System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, valuetype System.Windows.Data.BindingMode bindingMode, class System.Windows.DependencyProperty targetDependencyProperty) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.String,System.Windows.Data.BindingMode,System.Windows.DependencyProperty)" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToControlDependencyProperty(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ sourceControl, System::String ^ sourceDependencyPropertyName, System::Windows::Data::BindingMode bindingMode, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="targetControl" Type="System.Windows.FrameworkElement" RefType="this" />
+          <Parameter Name="sourceControl" Type="System.Windows.FrameworkElement" />
+          <Parameter Name="sourceDependencyPropertyName" Type="System.String" />
+          <Parameter Name="bindingMode" Type="System.Windows.Data.BindingMode" />
+          <Parameter Name="targetDependencyProperty" Type="System.Windows.DependencyProperty" />
+        </Parameters>
+        <Docs>
+          <param name="targetControl">To be added.</param>
+          <param name="sourceControl">To be added.</param>
+          <param name="sourceDependencyPropertyName">To be added.</param>
+          <param name="bindingMode">To be added.</param>
+          <param name="targetDependencyProperty">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.String,System.Windows.Data.BindingMode,System.Windows.DependencyProperty)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Windows.FrameworkElement" />
+      </Targets>
+      <Member MemberName="BindToControlDependencyProperty">
+        <MemberSignature Language="C#" Value="public static void BindToControlDependencyProperty (this System.Windows.FrameworkElement targetControl, System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, System.Windows.DependencyProperty targetDependencyProperty);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BindToControlDependencyProperty(class System.Windows.FrameworkElement targetControl, class System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, class System.Windows.DependencyProperty targetDependencyProperty) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.String,System.Windows.DependencyProperty)" />
+        <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BindToControlDependencyProperty (targetControl As FrameworkElement, sourceControl As FrameworkElement, sourceDependencyPropertyName As String, targetDependencyProperty As DependencyProperty)" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToControlDependencyProperty(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ sourceControl, System::String ^ sourceDependencyPropertyName, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="targetControl" Type="System.Windows.FrameworkElement" RefType="this" />
+          <Parameter Name="sourceControl" Type="System.Windows.FrameworkElement" />
+          <Parameter Name="sourceDependencyPropertyName" Type="System.String" />
+          <Parameter Name="targetDependencyProperty" Type="System.Windows.DependencyProperty" />
+        </Parameters>
+        <Docs>
+          <param name="targetControl">To be added.</param>
+          <param name="sourceControl">To be added.</param>
+          <param name="sourceDependencyPropertyName">To be added.</param>
+          <param name="targetDependencyProperty">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.String,System.Windows.DependencyProperty)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Windows.FrameworkElement" />
+      </Targets>
+      <Member MemberName="BindToProperty">
+        <MemberSignature Language="C#" Value="public static void BindToProperty (this System.Windows.FrameworkElement targetControl, object sourceObject, string sourcePropertyPath, System.Windows.DependencyProperty targetDependencyProperty);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BindToProperty(class System.Windows.FrameworkElement targetControl, object sourceObject, string sourcePropertyPath, class System.Windows.DependencyProperty targetDependencyProperty) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToProperty(System.Windows.FrameworkElement,System.Object,System.String,System.Windows.DependencyProperty)" />
+        <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BindToProperty (targetControl As FrameworkElement, sourceObject As Object, sourcePropertyPath As String, targetDependencyProperty As DependencyProperty)" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToProperty(System::Windows::FrameworkElement ^ targetControl, System::Object ^ sourceObject, System::String ^ sourcePropertyPath, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="targetControl" Type="System.Windows.FrameworkElement" RefType="this" />
+          <Parameter Name="sourceObject" Type="System.Object" />
+          <Parameter Name="sourcePropertyPath" Type="System.String" />
+          <Parameter Name="targetDependencyProperty" Type="System.Windows.DependencyProperty" />
+        </Parameters>
+        <Docs>
+          <param name="targetControl">To be added.</param>
+          <param name="sourceObject">To be added.</param>
+          <param name="sourcePropertyPath">To be added.</param>
+          <param name="targetDependencyProperty">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToProperty(System.Windows.FrameworkElement,System.Object,System.String,System.Windows.DependencyProperty)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Windows.FrameworkElement" />
+      </Targets>
+      <Member MemberName="FindParent&lt;T&gt;">
+        <MemberSignature Language="C#" Value="public static T FindParent&lt;T&gt; (this System.Windows.FrameworkElement element) where T : System.Windows.FrameworkElement;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T FindParent&lt;(class System.Windows.FrameworkElement) T&gt;(class System.Windows.FrameworkElement element) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.FindParent``1(System.Windows.FrameworkElement)" />
+        <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FindParent(Of T As FrameworkElement) (element As FrameworkElement) As T" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::FrameworkElement[System::Runtime::CompilerServices::Extension]&#xA; static T FindParent(System::Windows::FrameworkElement ^ element);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>T</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="T">
+            <Constraints>
+              <BaseTypeName>System.Windows.FrameworkElement</BaseTypeName>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="element" Type="System.Windows.FrameworkElement" RefType="this" />
+        </Parameters>
+        <Docs>
+          <typeparam name="T">To be added.</typeparam>
+          <param name="element">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.FindParent``1(System.Windows.FrameworkElement)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="System.Windows.DependencyObject" />
+      </Targets>
+      <Member MemberName="GetAncestorValue&lt;T&gt;">
+        <MemberSignature Language="C#" Value="public static T GetAncestorValue&lt;T&gt; (this System.Windows.DependencyObject reference, System.Windows.DependencyProperty property);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetAncestorValue&lt;T&gt;(class System.Windows.DependencyObject reference, class System.Windows.DependencyProperty property) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAncestorValue``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)" />
+        <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAncestorValue(Of T) (reference As DependencyObject, property As DependencyProperty) As T" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T GetAncestorValue(System::Windows::DependencyObject ^ reference, System::Windows::DependencyProperty ^ property);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>T</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="T" />
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="reference" Type="System.Windows.DependencyObject" RefType="this" />
+          <Parameter Name="property" Type="System.Windows.DependencyProperty" />
+        </Parameters>
+        <Docs>
+          <typeparam name="T">To be added.</typeparam>
+          <param name="reference">To be added.</param>
+          <param name="property">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAncestorValue``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="System.Windows.DependencyObject" />
+      </Targets>
+      <Member MemberName="GetOldestParent&lt;T&gt;">
+        <MemberSignature Language="C#" Value="public static T GetOldestParent&lt;T&gt; (this System.Windows.DependencyObject dependencyObject) where T : System.Windows.DependencyObject;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetOldestParent&lt;(class System.Windows.DependencyObject) T&gt;(class System.Windows.DependencyObject dependencyObject) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetOldestParent``1(System.Windows.DependencyObject)" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject[System::Runtime::CompilerServices::Extension]&#xA; static T GetOldestParent(System::Windows::DependencyObject ^ dependencyObject);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>T</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="T">
+            <Constraints>
+              <BaseTypeName>System.Windows.DependencyObject</BaseTypeName>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="dependencyObject" Type="System.Windows.DependencyObject" RefType="this" />
+        </Parameters>
+        <Docs>
+          <typeparam name="T">To be added.</typeparam>
+          <param name="dependencyObject">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetOldestParent``1(System.Windows.DependencyObject)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Windows.Media.Visual" />
+      </Targets>
+      <Member MemberName="IsInVisualTree">
+        <MemberSignature Language="C#" Value="public static bool IsInVisualTree (this System.Windows.Media.Visual visual);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsInVisualTree(class System.Windows.Media.Visual visual) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsInVisualTree(System.Windows.Media.Visual)" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsInVisualTree(System::Windows::Media::Visual ^ visual);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="visual" Type="System.Windows.Media.Visual" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="visual">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsInVisualTree(System.Windows.Media.Visual)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Windows.FrameworkElement" />
+      </Targets>
+      <Member MemberName="IsParentOf">
+        <MemberSignature Language="C#" Value="public static bool IsParentOf (this System.Windows.FrameworkElement targetControl, System.Windows.FrameworkElement child);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsParentOf(class System.Windows.FrameworkElement targetControl, class System.Windows.FrameworkElement child) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentOf(System.Windows.FrameworkElement,System.Windows.FrameworkElement)" />
+        <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsParentOf (targetControl As FrameworkElement, child As FrameworkElement) As Boolean" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsParentOf(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ child);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="targetControl" Type="System.Windows.FrameworkElement" RefType="this" />
+          <Parameter Name="child" Type="System.Windows.FrameworkElement" />
+        </Parameters>
+        <Docs>
+          <param name="targetControl">To be added.</param>
+          <param name="child">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentOf(System.Windows.FrameworkElement,System.Windows.FrameworkElement)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="System.Windows.DependencyObject" />
+      </Targets>
+      <Member MemberName="IsParentPopup">
+        <MemberSignature Language="C#" Value="public static bool IsParentPopup (this System.Windows.DependencyObject dependencyObject);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsParentPopup(class System.Windows.DependencyObject dependencyObject) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentPopup(System.Windows.DependencyObject)" />
+        <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsParentPopup(System::Windows::DependencyObject ^ dependencyObject);" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="dependencyObject" Type="System.Windows.DependencyObject" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="dependencyObject">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" Member="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentPopup(System.Windows.DependencyObject)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

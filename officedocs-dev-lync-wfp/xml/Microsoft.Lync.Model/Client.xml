@@ -1,0 +1,202 @@
+﻿<Type Name="Client" FullName="Microsoft.Lync.Model.Client">
+  <TypeSignature Language="C#" Value="public abstract class Client : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Client extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Client" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Client&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Client abstract : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Abstract client class which represents the main entry point for the API. Represents the  Lync client and provides access to conversations and contacts via their respective manager classes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContactManager">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ContactManager ContactManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.ContactManager ContactManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.ContactManager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactManager As ContactManager" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactManager ^ ContactManager { Microsoft::Lync::Model::ContactManager ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the contact group manager.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationManager">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ConversationManager ConversationManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.ConversationManager ConversationManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.ConversationManager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationManager As ConversationManager" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationManager ^ ConversationManager { Microsoft::Lync::Model::Conversation::ConversationManager ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the conversation manager.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~Client ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Client.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!Client ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoomManager">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.RoomManager RoomManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Room.RoomManager RoomManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.RoomManager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RoomManager As RoomManager" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomManager ^ RoomManager { Microsoft::Lync::Model::Room::RoomManager ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the group chat room manager.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Self">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Self Self { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Self Self" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.Self" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Self As Self" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Self ^ Self { Microsoft::Lync::Model::Self ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Self</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the self Contact object representing the signed in user.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ClientSettings Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.ClientSettings Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As ClientSettings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ClientSettings ^ Settings { Microsoft::Lync::Model::ClientSettings ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> 
+            Gets the settings object.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ClientState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.ClientState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ClientState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ClientState State { Microsoft::Lync::Model::ClientState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the current platform state.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.ClientStateChangedEventArgs&gt; StateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.ClientStateChangedEventArgs&gt; StateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Client.StateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ClientStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ClientStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.ClientStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the Client state changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public string Uri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Uri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uri As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the URI of the client.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

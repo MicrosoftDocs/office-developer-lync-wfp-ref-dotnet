@@ -1,0 +1,61 @@
+﻿<Type Name="ParticipationStateChangedEventArgs" FullName="Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class ParticipationStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ParticipationStateChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ParticipationStateChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ParticipationStateChangedEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the event data of a ParticipationStateChangedEvent event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NewState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Sharing.ParticipationState NewState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.Sharing.ParticipationState NewState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs.NewState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As ParticipationState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ParticipationState NewState { Microsoft::Lync::Model::Conversation::Sharing::ParticipationState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the new participation state value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldState">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Sharing.ParticipationState OldState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.Sharing.ParticipationState OldState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs.OldState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldState As ParticipationState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ParticipationState OldState { Microsoft::Lync::Model::Conversation::Sharing::ParticipationState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ParticipationState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the old participation state value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

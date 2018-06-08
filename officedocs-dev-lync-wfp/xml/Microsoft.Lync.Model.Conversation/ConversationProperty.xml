@@ -1,0 +1,953 @@
+﻿<Type Name="ConversationProperty" FullName="Microsoft.Lync.Model.Conversation.ConversationProperty">
+  <TypeSignature Language="C#" Value="public enum ConversationProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationProperty extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversationProperty" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConversationProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the conversation properties.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcceptanceState">
+      <MemberSignature Language="C#" Value="AcceptanceState" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty AcceptanceState = int32(805830668)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.AcceptanceState" />
+      <MemberSignature Language="VB.NET" Value="AcceptanceState" />
+      <MemberSignature Language="C++ CLI" Value="AcceptanceState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>805830668</MemberValue>
+      <Docs>
+        <summary>The acceptance state (from local point of view) of this conversation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoTerminateOnIdle">
+      <MemberSignature Language="C#" Value="AutoTerminateOnIdle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty AutoTerminateOnIdle = int32(268959758)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.AutoTerminateOnIdle" />
+      <MemberSignature Language="VB.NET" Value="AutoTerminateOnIdle" />
+      <MemberSignature Language="C++ CLI" Value="AutoTerminateOnIdle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959758</MemberValue>
+      <Docs>
+        <summary>Indicates whether the conversation will implicitly terminate when last modality session becomes inactive.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CallParkOrbit">
+      <MemberSignature Language="C#" Value="CallParkOrbit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty CallParkOrbit = int32(1074266136)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.CallParkOrbit" />
+      <MemberSignature Language="VB.NET" Value="CallParkOrbit" />
+      <MemberSignature Language="C++ CLI" Value="CallParkOrbit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074266136</MemberValue>
+      <Docs>
+        <summary>The orbit that is used to retrieve a parked call.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceAcceptingParticipant">
+      <MemberSignature Language="C#" Value="ConferenceAcceptingParticipant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceAcceptingParticipant = int32(1074266122)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceAcceptingParticipant" />
+      <MemberSignature Language="VB.NET" Value="ConferenceAcceptingParticipant" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceAcceptingParticipant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074266122</MemberValue>
+      <Docs>
+        <summary>If this conference conversation is answered by another party, this provides the party's contact object.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceAccessInformation">
+      <MemberSignature Language="C#" Value="ConferenceAccessInformation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceAccessInformation = int32(1074266133)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceAccessInformation" />
+      <MemberSignature Language="VB.NET" Value="ConferenceAccessInformation" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceAccessInformation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074266133</MemberValue>
+      <Docs>
+        <summary>Conference access information that details accessibility mechanisms for this conference. (ConferenceAccessInfo).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceDisclaimer">
+      <MemberSignature Language="C#" Value="ConferenceDisclaimer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceDisclaimer = int32(1074266137)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceDisclaimer" />
+      <MemberSignature Language="VB.NET" Value="ConferenceDisclaimer" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceDisclaimer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074266137</MemberValue>
+      <Docs>
+        <summary>Disclaimer title and body.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceDisclaimerAccepted">
+      <MemberSignature Language="C#" Value="ConferenceDisclaimerAccepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceDisclaimerAccepted = int32(537395226)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceDisclaimerAccepted" />
+      <MemberSignature Language="VB.NET" Value="ConferenceDisclaimerAccepted" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceDisclaimerAccepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537395226</MemberValue>
+      <Docs>
+        <summary>Set to true if the user has accepted the conference disclaimer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceEscalationProgress">
+      <MemberSignature Language="C#" Value="ConferenceEscalationProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceEscalationProgress = int32(805830671)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceEscalationProgress" />
+      <MemberSignature Language="VB.NET" Value="ConferenceEscalationProgress" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceEscalationProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>805830671</MemberValue>
+      <Docs>
+        <summary>Indicates progression of escalation to conference.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceEscalationResult">
+      <MemberSignature Language="C#" Value="ConferenceEscalationResult" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceEscalationResult = int32(537395216)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceEscalationResult" />
+      <MemberSignature Language="VB.NET" Value="ConferenceEscalationResult" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceEscalationResult" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537395216</MemberValue>
+      <Docs>
+        <summary>Indicates result code of escalation to conference.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceInviterRepresentationInfo">
+      <MemberSignature Language="C#" Value="ConferenceInviterRepresentationInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceInviterRepresentationInfo = int32(1074266119)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceInviterRepresentationInfo" />
+      <MemberSignature Language="VB.NET" Value="ConferenceInviterRepresentationInfo" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceInviterRepresentationInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074266119</MemberValue>
+      <Docs>
+        <summary>If this conference conversation is effected by boss/admin retargeting, this provides the representation details.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceJoinDialogCompleted">
+      <MemberSignature Language="C#" Value="ConferenceJoinDialogCompleted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceJoinDialogCompleted = int32(268959773)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceJoinDialogCompleted" />
+      <MemberSignature Language="VB.NET" Value="ConferenceJoinDialogCompleted" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceJoinDialogCompleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959773</MemberValue>
+      <Docs>
+        <summary>Application should set this to true after selecting audio device during conference join.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceTerminateOnLeave">
+      <MemberSignature Language="C#" Value="ConferenceTerminateOnLeave" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceTerminateOnLeave = int32(268959771)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceTerminateOnLeave" />
+      <MemberSignature Language="VB.NET" Value="ConferenceTerminateOnLeave" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceTerminateOnLeave" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959771</MemberValue>
+      <Docs>
+        <summary>Terminate conference when terminating the conversation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceVideoHardMute">
+      <MemberSignature Language="C#" Value="ConferenceVideoHardMute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferenceVideoHardMute = int32(268959782)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferenceVideoHardMute" />
+      <MemberSignature Language="VB.NET" Value="ConferenceVideoHardMute" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceVideoHardMute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959782</MemberValue>
+      <Docs>
+        <summary> 
+            Conference Video Hard Mute
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferencingAccessType">
+      <MemberSignature Language="C#" Value="ConferencingAccessType" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferencingAccessType = int32(537395222)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferencingAccessType" />
+      <MemberSignature Language="VB.NET" Value="ConferencingAccessType" />
+      <MemberSignature Language="C++ CLI" Value="ConferencingAccessType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537395222</MemberValue>
+      <Docs>
+        <summary>Indicates the current access type of the conference.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferencingFirstInstantMessage">
+      <MemberSignature Language="C#" Value="ConferencingFirstInstantMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferencingFirstInstantMessage = int32(524308)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferencingFirstInstantMessage" />
+      <MemberSignature Language="VB.NET" Value="ConferencingFirstInstantMessage" />
+      <MemberSignature Language="C++ CLI" Value="ConferencingFirstInstantMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524308</MemberValue>
+      <Docs>
+        <summary>Initial instant message that was sent with the conference invitation, formatted as plain text.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferencingInvitedModes">
+      <MemberSignature Language="C#" Value="ConferencingInvitedModes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferencingInvitedModes = int32(537395217)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferencingInvitedModes" />
+      <MemberSignature Language="VB.NET" Value="ConferencingInvitedModes" />
+      <MemberSignature Language="C++ CLI" Value="ConferencingInvitedModes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537395217</MemberValue>
+      <Docs>
+        <summary>Mask with bits set corresponding to invited types.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferencingLocked">
+      <MemberSignature Language="C#" Value="ConferencingLocked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferencingLocked = int32(268959763)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferencingLocked" />
+      <MemberSignature Language="VB.NET" Value="ConferencingLocked" />
+      <MemberSignature Language="C++ CLI" Value="ConferencingLocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959763</MemberValue>
+      <Docs>
+        <summary>Flag corresponding to whether conference is currently locked.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferencingUri">
+      <MemberSignature Language="C#" Value="ConferencingUri" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty ConferencingUri = int32(524293)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.ConferencingUri" />
+      <MemberSignature Language="VB.NET" Value="ConferencingUri" />
+      <MemberSignature Language="C++ CLI" Value="ConferencingUri" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524293</MemberValue>
+      <Docs>
+        <summary>If this conversation is/has ever been in conference, the conference focus uri it is connected/will reconnect to.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FollowUp">
+      <MemberSignature Language="C#" Value="FollowUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty FollowUp = int32(268959752)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.FollowUp" />
+      <MemberSignature Language="VB.NET" Value="FollowUp" />
+      <MemberSignature Language="C++ CLI" Value="FollowUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959752</MemberValue>
+      <Docs>
+        <summary>The conversation follow up flag.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="Id" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Id = int32(524288)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Id" />
+      <MemberSignature Language="VB.NET" Value="Id" />
+      <MemberSignature Language="C++ CLI" Value="Id" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524288</MemberValue>
+      <Docs>
+        <summary>The conversation identifier.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="Importance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Importance = int32(805830658)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Importance" />
+      <MemberSignature Language="VB.NET" Value="Importance" />
+      <MemberSignature Language="C++ CLI" Value="Importance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>805830658</MemberValue>
+      <Docs>
+        <summary>The conversation importance level.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Inviter">
+      <MemberSignature Language="C#" Value="Inviter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Inviter = int32(1074266130)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Inviter" />
+      <MemberSignature Language="VB.NET" Value="Inviter" />
+      <MemberSignature Language="C++ CLI" Value="Inviter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074266130</MemberValue>
+      <Docs>
+        <summary>Contact class instance for the person that sent the invitation to the conversation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUsbConversation">
+      <MemberSignature Language="C#" Value="IsUsbConversation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty IsUsbConversation = int32(268959757)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.IsUsbConversation" />
+      <MemberSignature Language="VB.NET" Value="IsUsbConversation" />
+      <MemberSignature Language="C++ CLI" Value="IsUsbConversation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959757</MemberValue>
+      <Docs>
+        <summary>Indicates if the conversation is a USB conversation</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastActivityTimeStamp">
+      <MemberSignature Language="C#" Value="LastActivityTimeStamp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty LastActivityTimeStamp = int32(1342701598)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.LastActivityTimeStamp" />
+      <MemberSignature Language="VB.NET" Value="LastActivityTimeStamp" />
+      <MemberSignature Language="C++ CLI" Value="LastActivityTimeStamp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1342701598</MemberValue>
+      <Docs>
+        <summary>The time stamp of the last conversation activity.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfParticipantsRecording">
+      <MemberSignature Language="C#" Value="NumberOfParticipantsRecording" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty NumberOfParticipantsRecording = int32(537395228)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.NumberOfParticipantsRecording" />
+      <MemberSignature Language="VB.NET" Value="NumberOfParticipantsRecording" />
+      <MemberSignature Language="C++ CLI" Value="NumberOfParticipantsRecording" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537395228</MemberValue>
+      <Docs>
+        <summary>Number of participants recording this conversation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Replaced">
+      <MemberSignature Language="C#" Value="Replaced" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Replaced = int32(524292)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Replaced" />
+      <MemberSignature Language="VB.NET" Value="Replaced" />
+      <MemberSignature Language="C++ CLI" Value="Replaced" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524292</MemberValue>
+      <Docs>
+        <summary>If this conversation result of consultative transfer replacement, then Id of the conversation it replaces.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RepresentedBy">
+      <MemberSignature Language="C#" Value="RepresentedBy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty RepresentedBy = int32(1074266118)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.RepresentedBy" />
+      <MemberSignature Language="VB.NET" Value="RepresentedBy" />
+      <MemberSignature Language="C++ CLI" Value="RepresentedBy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074266118</MemberValue>
+      <Docs>
+        <summary>If this conversation is effected by boss/admin retargeting, this provides the representation details.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved1 = int32(805830665)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>805830665</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved10">
+      <MemberSignature Language="C#" Value="Reserved10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved10 = int32(268992515)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved10" />
+      <MemberSignature Language="VB.NET" Value="Reserved10" />
+      <MemberSignature Language="C++ CLI" Value="Reserved10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268992515</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved11">
+      <MemberSignature Language="C#" Value="Reserved11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved11 = int32(1074298884)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved11" />
+      <MemberSignature Language="VB.NET" Value="Reserved11" />
+      <MemberSignature Language="C++ CLI" Value="Reserved11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074298884</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved12">
+      <MemberSignature Language="C#" Value="Reserved12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved12 = int32(1074298885)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved12" />
+      <MemberSignature Language="VB.NET" Value="Reserved12" />
+      <MemberSignature Language="C++ CLI" Value="Reserved12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074298885</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved13">
+      <MemberSignature Language="C#" Value="Reserved13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved13 = int32(1074298886)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved13" />
+      <MemberSignature Language="VB.NET" Value="Reserved13" />
+      <MemberSignature Language="C++ CLI" Value="Reserved13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074298886</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved14">
+      <MemberSignature Language="C#" Value="Reserved14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved14 = int32(268992519)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved14" />
+      <MemberSignature Language="VB.NET" Value="Reserved14" />
+      <MemberSignature Language="C++ CLI" Value="Reserved14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268992519</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved15">
+      <MemberSignature Language="C#" Value="Reserved15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved15 = int32(1074298888)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved15" />
+      <MemberSignature Language="VB.NET" Value="Reserved15" />
+      <MemberSignature Language="C++ CLI" Value="Reserved15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074298888</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved16">
+      <MemberSignature Language="C#" Value="Reserved16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved16 = int32(1074298889)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved16" />
+      <MemberSignature Language="VB.NET" Value="Reserved16" />
+      <MemberSignature Language="C++ CLI" Value="Reserved16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1074298889</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved17">
+      <MemberSignature Language="C#" Value="Reserved17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved17 = int32(268992522)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved17" />
+      <MemberSignature Language="VB.NET" Value="Reserved17" />
+      <MemberSignature Language="C++ CLI" Value="Reserved17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268992522</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved18">
+      <MemberSignature Language="C#" Value="Reserved18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved18 = int32(268959780)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved18" />
+      <MemberSignature Language="VB.NET" Value="Reserved18" />
+      <MemberSignature Language="C++ CLI" Value="Reserved18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959780</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved19">
+      <MemberSignature Language="C#" Value="Reserved19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved19 = int32(268959781)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved19" />
+      <MemberSignature Language="VB.NET" Value="Reserved19" />
+      <MemberSignature Language="C++ CLI" Value="Reserved19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959781</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved2 = int32(524299)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524299</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved3">
+      <MemberSignature Language="C#" Value="Reserved3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved3 = int32(524319)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved3" />
+      <MemberSignature Language="VB.NET" Value="Reserved3" />
+      <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524319</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved4">
+      <MemberSignature Language="C#" Value="Reserved4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved4 = int32(524320)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved4" />
+      <MemberSignature Language="VB.NET" Value="Reserved4" />
+      <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524320</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved5">
+      <MemberSignature Language="C#" Value="Reserved5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved5 = int32(524321)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved5" />
+      <MemberSignature Language="VB.NET" Value="Reserved5" />
+      <MemberSignature Language="C++ CLI" Value="Reserved5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524321</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved6">
+      <MemberSignature Language="C#" Value="Reserved6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved6 = int32(268959778)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved6" />
+      <MemberSignature Language="VB.NET" Value="Reserved6" />
+      <MemberSignature Language="C++ CLI" Value="Reserved6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959778</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved7">
+      <MemberSignature Language="C#" Value="Reserved7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved7 = int32(268959779)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved7" />
+      <MemberSignature Language="VB.NET" Value="Reserved7" />
+      <MemberSignature Language="C++ CLI" Value="Reserved7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>268959779</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved8">
+      <MemberSignature Language="C#" Value="Reserved8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved8 = int32(537427969)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved8" />
+      <MemberSignature Language="VB.NET" Value="Reserved8" />
+      <MemberSignature Language="C++ CLI" Value="Reserved8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537427969</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved9">
+      <MemberSignature Language="C#" Value="Reserved9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Reserved9 = int32(537427970)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Reserved9" />
+      <MemberSignature Language="VB.NET" Value="Reserved9" />
+      <MemberSignature Language="C++ CLI" Value="Reserved9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>537427970</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="Subject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty Subject = int32(524289)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.Subject" />
+      <MemberSignature Language="VB.NET" Value="Subject" />
+      <MemberSignature Language="C++ CLI" Value="Subject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524289</MemberValue>
+      <Docs>
+        <summary>The conversation subject.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferredBy">
+      <MemberSignature Language="C#" Value="TransferredBy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConversationProperty TransferredBy = int32(524291)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationProperty.TransferredBy" />
+      <MemberSignature Language="VB.NET" Value="TransferredBy" />
+      <MemberSignature Language="C++ CLI" Value="TransferredBy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConversationProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>524291</MemberValue>
+      <Docs>
+        <summary>If this conversation originated through a transfer, then ID of the conversation that originated transfer.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,81 @@
+﻿<Type Name="VideoChannel" FullName="Microsoft.Lync.Model.Conversation.AudioVideo.VideoChannel">
+  <TypeSignature Language="C#" Value="public class VideoChannel : Microsoft.Lync.Model.Conversation.AudioVideo.Channel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VideoChannel extends Microsoft.Lync.Model.Conversation.AudioVideo.Channel" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.VideoChannel" />
+  <TypeSignature Language="VB.NET" Value="Public Class VideoChannel&#xA;Inherits Channel" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VideoChannel : Microsoft::Lync::Model::Conversation::AudioVideo::Channel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Conversation.AudioVideo.Channel</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a media channel that carries a video data stream.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CaptureVideoWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow CaptureVideoWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow CaptureVideoWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoChannel.CaptureVideoWindow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CaptureVideoWindow As VideoWindow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::AudioVideo::VideoWindow ^ CaptureVideoWindow { Microsoft::Lync::Model::Conversation::AudioVideo::VideoWindow ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns IVideoWindow for capture video.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~VideoChannel ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoChannel.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!VideoChannel ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderVideoWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow RenderVideoWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow RenderVideoWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoChannel.RenderVideoWindow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RenderVideoWindow As VideoWindow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::AudioVideo::VideoWindow ^ RenderVideoWindow { Microsoft::Lync::Model::Conversation::AudioVideo::VideoWindow ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns IVideoWindow for render video.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

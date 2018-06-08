@@ -1,0 +1,255 @@
+﻿<Type Name="RoomManager" FullName="Microsoft.Lync.Model.Room.RoomManager">
+  <TypeSignature Language="C#" Value="public class RoomManager : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoomManager extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class RoomManager&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RoomManager : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Group chat room manager that provides room query functionality.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginQueryRoomByUri">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginQueryRoomByUri (string roomUri, AsyncCallback roomManagerCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginQueryRoomByUri(string roomUri, class System.AsyncCallback roomManagerCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.BeginQueryRoomByUri(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginQueryRoomByUri (roomUri As String, roomManagerCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginQueryRoomByUri(System::String ^ roomUri, AsyncCallback ^ roomManagerCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="roomUri" Type="System.String" />
+        <Parameter Name="roomManagerCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="roomUri">To be added.</param>
+        <param name="roomManagerCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Query a room by its URI.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginQueryRooms">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginQueryRooms (string keyword, Microsoft.Lync.Model.Room.RoomSearchModeType searchType, AsyncCallback roomManagerCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginQueryRooms(string keyword, valuetype Microsoft.Lync.Model.Room.RoomSearchModeType searchType, class System.AsyncCallback roomManagerCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.BeginQueryRooms(System.String,Microsoft.Lync.Model.Room.RoomSearchModeType,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginQueryRooms (keyword As String, searchType As RoomSearchModeType, roomManagerCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginQueryRooms(System::String ^ keyword, Microsoft::Lync::Model::Room::RoomSearchModeType searchType, AsyncCallback ^ roomManagerCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="keyword" Type="System.String" />
+        <Parameter Name="searchType" Type="Microsoft.Lync.Model.Room.RoomSearchModeType" />
+        <Parameter Name="roomManagerCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="keyword">To be added.</param>
+        <param name="searchType">To be added.</param>
+        <param name="roomManagerCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Query room(s)
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndQueryRoomByUri">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.Room EndQueryRoomByUri (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Room.Room EndQueryRoomByUri(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.EndQueryRoomByUri(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndQueryRoomByUri (asyncResult As IAsyncResult) As Room" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Room::Room ^ EndQueryRoomByUri(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.Room</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Query a room by its URI.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndQueryRooms">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.Room&gt; EndQueryRooms (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Room.Room&gt; EndQueryRooms(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.EndQueryRooms(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndQueryRooms (asyncResult As IAsyncResult) As IList(Of Room)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::Room ^&gt; ^ EndQueryRooms(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.Room&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Query room(s)
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~RoomManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!RoomManager ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FollowedRoomAdded">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt; FollowedRoomAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt; FollowedRoomAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.RoomManager.FollowedRoomAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event FollowedRoomAdded As EventHandler(Of FollowedRoomsChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::FollowedRoomsChangedEventArgs ^&gt; ^ FollowedRoomAdded;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a room is added to the user's contact list.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FollowedRoomRemoved">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt; FollowedRoomRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt; FollowedRoomRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.RoomManager.FollowedRoomRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event FollowedRoomRemoved As EventHandler(Of FollowedRoomsChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::FollowedRoomsChangedEventArgs ^&gt; ^ FollowedRoomRemoved;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a room is removed from the user's contact list.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FollowedRooms">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.Room&gt; FollowedRooms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Room.Room&gt; FollowedRooms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomManager.FollowedRooms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FollowedRooms As IList(Of Room)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::Room ^&gt; ^ FollowedRooms { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::Room ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.Room&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a collection of followed rooms</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A followed room is a room that is added to the local user's contact list. When a user signs in to Lync, all rooms in the followed room list are automatically entered and the user is visible on the participant roster of each followed room. When the user signs out of Lync, then the user automatically leaves all chat rooms.In addition, you get message posting notification events on every followed room as soon as the user signs in and you register for the appropriate room events.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoomManagerStateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Room.RoomManagerStateChangedEventArgs&gt; RoomManagerStateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Room.RoomManagerStateChangedEventArgs&gt; RoomManagerStateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.RoomManager.RoomManagerStateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event RoomManagerStateChanged As EventHandler(Of RoomManagerStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomManagerStateChangedEventArgs ^&gt; ^ RoomManagerStateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomManagerStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the room manager is changing its state.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.RoomManagerState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Room.RoomManagerState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomManager.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As RoomManagerState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomManagerState State { Microsoft::Lync::Model::Room::RoomManagerState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomManagerState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the room manager state.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

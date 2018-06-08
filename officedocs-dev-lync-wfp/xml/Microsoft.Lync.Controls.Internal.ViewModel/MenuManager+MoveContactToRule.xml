@@ -1,0 +1,111 @@
+﻿<Type Name="MenuManager+MoveContactToRule" FullName="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager+MoveContactToRule">
+  <TypeSignature Language="C#" Value="public class MenuManager.MoveContactToRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit MenuManager/MoveContactToRule extends Microsoft.Lync.Controls.Internal.ViewModel.MenuManager/ContactManagementMenuRule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveContactToRule" />
+  <TypeSignature Language="VB.NET" Value="Public Class MenuManager.MoveContactToRule&#xA;Inherits MenuManager.ContactManagementMenuRule" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::MoveContactToRule : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::ContactManagementMenuRule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.ViewModel.MenuManager+ContactManagementMenuRule</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MoveContactToRule (Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveContactToRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (manager As MenuManager)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MoveContactToRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="manager" Type="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager" />
+      </Parameters>
+      <Docs>
+        <param name="manager">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateSubmenu">
+      <MemberSignature Language="C#" Value="public override Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule.GroupManagementSubmenuRule CreateSubmenu (Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager, Microsoft.Lync.Controls.Internal.Model.IGroupModel model);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class Microsoft.Lync.Controls.Internal.ViewModel.MenuManager/ContactManagementMenuRule/GroupManagementSubmenuRule CreateSubmenu(class Microsoft.Lync.Controls.Internal.ViewModel.MenuManager manager, class Microsoft.Lync.Controls.Internal.Model.IGroupModel model) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveContactToRule.CreateSubmenu(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager,Microsoft.Lync.Controls.Internal.Model.IGroupModel)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateSubmenu (manager As MenuManager, model As IGroupModel) As MenuManager.ContactManagementMenuRule.GroupManagementSubmenuRule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::ContactManagementMenuRule::GroupManagementSubmenuRule ^ CreateSubmenu(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager, Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ model);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.ViewModel.MenuManager+ContactManagementMenuRule+GroupManagementSubmenuRule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="manager" Type="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager" />
+        <Parameter Name="model" Type="Microsoft.Lync.Controls.Internal.Model.IGroupModel" />
+      </Parameters>
+      <Docs>
+        <param name="manager">To be added.</param>
+        <param name="model">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteCommand">
+      <MemberSignature Language="C#" Value="protected override void ExecuteCommand (object arg);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ExecuteCommand(object arg) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveContactToRule.ExecuteCommand(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCommand (arg As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCommand(System::Object ^ arg);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="arg" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="arg">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public override bool IsVisible ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsVisible() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveContactToRule.IsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function IsVisible () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool IsVisible();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

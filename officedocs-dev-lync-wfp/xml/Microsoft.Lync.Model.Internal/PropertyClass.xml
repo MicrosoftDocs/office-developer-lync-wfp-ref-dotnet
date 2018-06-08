@@ -1,0 +1,476 @@
+﻿<Type Name="PropertyClass" FullName="Microsoft.Lync.Model.Internal.PropertyClass">
+  <TypeSignature Language="C#" Value="public enum PropertyClass" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PropertyClass extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.PropertyClass" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PropertyClass" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PropertyClass" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClientSettings">
+      <MemberSignature Language="C#" Value="ClientSettings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass ClientSettings = int32(1179648)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ClientSettings" />
+      <MemberSignature Language="VB.NET" Value="ClientSettings" />
+      <MemberSignature Language="C++ CLI" Value="ClientSettings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>1179648</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceInfo">
+      <MemberSignature Language="C#" Value="ConferenceInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass ConferenceInfo = int32(393216)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ConferenceInfo" />
+      <MemberSignature Language="VB.NET" Value="ConferenceInfo" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>393216</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceSetting">
+      <MemberSignature Language="C#" Value="ConferenceSetting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass ConferenceSetting = int32(458752)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ConferenceSetting" />
+      <MemberSignature Language="VB.NET" Value="ConferenceSetting" />
+      <MemberSignature Language="C++ CLI" Value="ConferenceSetting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>458752</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Contact">
+      <MemberSignature Language="C#" Value="Contact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Contact = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Contact" />
+      <MemberSignature Language="VB.NET" Value="Contact" />
+      <MemberSignature Language="C++ CLI" Value="Contact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="Content" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Content = int32(1048576)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Content" />
+      <MemberSignature Language="VB.NET" Value="Content" />
+      <MemberSignature Language="C++ CLI" Value="Content" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>1048576</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Conversation">
+      <MemberSignature Language="C#" Value="Conversation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Conversation = int32(524288)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Conversation" />
+      <MemberSignature Language="VB.NET" Value="Conversation" />
+      <MemberSignature Language="C++ CLI" Value="Conversation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>524288</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationStateChange">
+      <MemberSignature Language="C#" Value="ConversationStateChange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass ConversationStateChange = int32(589824)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ConversationStateChange" />
+      <MemberSignature Language="VB.NET" Value="ConversationStateChange" />
+      <MemberSignature Language="C++ CLI" Value="ConversationStateChange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>589824</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationWindow">
+      <MemberSignature Language="C#" Value="ConversationWindow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass ConversationWindow = int32(917504)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ConversationWindow" />
+      <MemberSignature Language="VB.NET" Value="ConversationWindow" />
+      <MemberSignature Language="C++ CLI" Value="ConversationWindow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>917504</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Group">
+      <MemberSignature Language="C#" Value="Group" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Group = int32(65536)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Group" />
+      <MemberSignature Language="VB.NET" Value="Group" />
+      <MemberSignature Language="C++ CLI" Value="Group" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>65536</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Modality">
+      <MemberSignature Language="C#" Value="Modality" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Modality = int32(720896)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Modality" />
+      <MemberSignature Language="VB.NET" Value="Modality" />
+      <MemberSignature Language="C++ CLI" Value="Modality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>720896</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ModalityAction">
+      <MemberSignature Language="C#" Value="ModalityAction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass ModalityAction = int32(851968)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ModalityAction" />
+      <MemberSignature Language="VB.NET" Value="ModalityAction" />
+      <MemberSignature Language="C++ CLI" Value="ModalityAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>851968</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ModalityStateChange">
+      <MemberSignature Language="C#" Value="ModalityStateChange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass ModalityStateChange = int32(786432)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ModalityStateChange" />
+      <MemberSignature Language="VB.NET" Value="ModalityStateChange" />
+      <MemberSignature Language="C++ CLI" Value="ModalityStateChange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>786432</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Operation">
+      <MemberSignature Language="C#" Value="Operation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Operation = int32(131072)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Operation" />
+      <MemberSignature Language="VB.NET" Value="Operation" />
+      <MemberSignature Language="C++ CLI" Value="Operation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>131072</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Participant">
+      <MemberSignature Language="C#" Value="Participant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Participant = int32(655360)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Participant" />
+      <MemberSignature Language="VB.NET" Value="Participant" />
+      <MemberSignature Language="C++ CLI" Value="Participant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>655360</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Reserved1 = int32(327680000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>327680000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Reserved2 = int32(327745536)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>327745536</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved3">
+      <MemberSignature Language="C#" Value="Reserved3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Reserved3 = int32(327811072)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved3" />
+      <MemberSignature Language="VB.NET" Value="Reserved3" />
+      <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>327811072</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved4">
+      <MemberSignature Language="C#" Value="Reserved4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Reserved4 = int32(327876608)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved4" />
+      <MemberSignature Language="VB.NET" Value="Reserved4" />
+      <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>327876608</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved5">
+      <MemberSignature Language="C#" Value="Reserved5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Reserved5 = int32(327680)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved5" />
+      <MemberSignature Language="VB.NET" Value="Reserved5" />
+      <MemberSignature Language="C++ CLI" Value="Reserved5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>327680</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Room">
+      <MemberSignature Language="C#" Value="Room" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass Room = int32(983040)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Room" />
+      <MemberSignature Language="VB.NET" Value="Room" />
+      <MemberSignature Language="C++ CLI" Value="Room" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>983040</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchProvider">
+      <MemberSignature Language="C#" Value="SearchProvider" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass SearchProvider = int32(262144)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.SearchProvider" />
+      <MemberSignature Language="VB.NET" Value="SearchProvider" />
+      <MemberSignature Language="C++ CLI" Value="SearchProvider" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>262144</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UCClientAddtionalInfo">
+      <MemberSignature Language="C#" Value="UCClientAddtionalInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass UCClientAddtionalInfo = int32(196608)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.UCClientAddtionalInfo" />
+      <MemberSignature Language="VB.NET" Value="UCClientAddtionalInfo" />
+      <MemberSignature Language="C++ CLI" Value="UCClientAddtionalInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>196608</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VideoView">
+      <MemberSignature Language="C#" Value="VideoView" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyClass VideoView = int32(1114112)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.VideoView" />
+      <MemberSignature Language="VB.NET" Value="VideoView" />
+      <MemberSignature Language="C++ CLI" Value="VideoView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyClass</ReturnType>
+      </ReturnValue>
+      <MemberValue>1114112</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

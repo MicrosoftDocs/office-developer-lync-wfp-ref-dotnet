@@ -1,0 +1,210 @@
+﻿<Type Name="ContactAvailability" FullName="Microsoft.Lync.Controls.ContactAvailability">
+  <TypeSignature Language="C#" Value="public enum ContactAvailability" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactAvailability extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactAvailability" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactAvailability" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactAvailability" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Contact Availability.  Enumerates the possible states for a contact's aggregated availability.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Away">
+      <MemberSignature Language="C#" Value="Away" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability Away = int32(15500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.Away" />
+      <MemberSignature Language="VB.NET" Value="Away" />
+      <MemberSignature Language="C++ CLI" Value="Away" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>15500</MemberValue>
+      <Docs>
+        <summary>             Away             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Busy">
+      <MemberSignature Language="C#" Value="Busy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability Busy = int32(6500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.Busy" />
+      <MemberSignature Language="VB.NET" Value="Busy" />
+      <MemberSignature Language="C++ CLI" Value="Busy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>6500</MemberValue>
+      <Docs>
+        <summary>             Busy             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BusyIdle">
+      <MemberSignature Language="C#" Value="BusyIdle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability BusyIdle = int32(7500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.BusyIdle" />
+      <MemberSignature Language="VB.NET" Value="BusyIdle" />
+      <MemberSignature Language="C++ CLI" Value="BusyIdle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>7500</MemberValue>
+      <Docs>
+        <summary>             BusyIdle             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DoNotDisturb">
+      <MemberSignature Language="C#" Value="DoNotDisturb" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability DoNotDisturb = int32(9500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.DoNotDisturb" />
+      <MemberSignature Language="VB.NET" Value="DoNotDisturb" />
+      <MemberSignature Language="C++ CLI" Value="DoNotDisturb" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>9500</MemberValue>
+      <Docs>
+        <summary>             DoNotDisturb             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Free">
+      <MemberSignature Language="C#" Value="Free" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability Free = int32(3500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.Free" />
+      <MemberSignature Language="VB.NET" Value="Free" />
+      <MemberSignature Language="C++ CLI" Value="Free" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>3500</MemberValue>
+      <Docs>
+        <summary>             Free             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeIdle">
+      <MemberSignature Language="C#" Value="FreeIdle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability FreeIdle = int32(5000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.FreeIdle" />
+      <MemberSignature Language="VB.NET" Value="FreeIdle" />
+      <MemberSignature Language="C++ CLI" Value="FreeIdle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>5000</MemberValue>
+      <Docs>
+        <summary>             FreeIdle             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>             Invalid             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             None             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Offline">
+      <MemberSignature Language="C#" Value="Offline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability Offline = int32(18500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.Offline" />
+      <MemberSignature Language="VB.NET" Value="Offline" />
+      <MemberSignature Language="C++ CLI" Value="Offline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>18500</MemberValue>
+      <Docs>
+        <summary>             Offline             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TemporarilyAway">
+      <MemberSignature Language="C#" Value="TemporarilyAway" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactAvailability TemporarilyAway = int32(12500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactAvailability.TemporarilyAway" />
+      <MemberSignature Language="VB.NET" Value="TemporarilyAway" />
+      <MemberSignature Language="C++ CLI" Value="TemporarilyAway" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactAvailability</ReturnType>
+      </ReturnValue>
+      <MemberValue>12500</MemberValue>
+      <Docs>
+        <summary>             TemporarilyAway             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

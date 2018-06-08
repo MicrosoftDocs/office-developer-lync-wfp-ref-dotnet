@@ -1,0 +1,581 @@
+﻿<Type Name="UCBase" FullName="Microsoft.Lync.Controls.UCBase">
+  <TypeSignature Language="C#" Value="public abstract class UCBase : System.Windows.Controls.Control" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit UCBase extends System.Windows.Controls.Control" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.UCBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class UCBase&#xA;Inherits Control" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UCBase abstract : System::Windows::Controls::Control" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Windows.Controls.Control</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected UCBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; UCBase();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtractTemplatePart&lt;T&gt;">
+      <MemberSignature Language="C#" Value="protected T ExtractTemplatePart&lt;T&gt; (string partName) where T : System.Windows.DependencyObject;" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance !!T ExtractTemplatePart&lt;(class System.Windows.DependencyObject) T&gt;(string partName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.ExtractTemplatePart``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Function ExtractTemplatePart(Of T As DependencyObject) (partName As String) As T" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject T ExtractTemplatePart(System::String ^ partName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>System.Windows.DependencyObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="partName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T"></typeparam>
+        <param name="partName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtractTemplatePart&lt;T&gt;">
+      <MemberSignature Language="C#" Value="protected T ExtractTemplatePart&lt;T&gt; (string partName, bool isPartRequired) where T : System.Windows.DependencyObject;" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance !!T ExtractTemplatePart&lt;(class System.Windows.DependencyObject) T&gt;(string partName, bool isPartRequired) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.ExtractTemplatePart``1(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Function ExtractTemplatePart(Of T As DependencyObject) (partName As String, isPartRequired As Boolean) As T" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject T ExtractTemplatePart(System::String ^ partName, bool isPartRequired);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>System.Windows.DependencyObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="partName" Type="System.String" />
+        <Parameter Name="isPartRequired" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T"></typeparam>
+        <param name="partName">To be added.</param>
+        <param name="isPartRequired">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializationCompleted">
+      <MemberSignature Language="C#" Value="public event System.Windows.RoutedEventHandler InitializationCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.Windows.RoutedEventHandler InitializationCompleted" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.UCBase.InitializationCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event InitializationCompleted As RoutedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::RoutedEventHandler ^ InitializationCompleted;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.RoutedEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializationError">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.LyncControlInitializationError InitializationError { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.LyncControlInitializationError InitializationError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.InitializationError" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializationError As LyncControlInitializationError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::LyncControlInitializationError InitializationError { Microsoft::Lync::Controls::LyncControlInitializationError get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.LyncControlInitializationError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializationErrorMessage">
+      <MemberSignature Language="C#" Value="public string InitializationErrorMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InitializationErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.InitializationErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitializationErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InitializationErrorMessage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializationErrorMessageProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty InitializationErrorMessageProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty InitializationErrorMessageProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.InitializationErrorMessageProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationErrorMessageProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationErrorMessageProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializationErrorProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty InitializationErrorProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty InitializationErrorProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.InitializationErrorProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationErrorProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationErrorProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializationFailed">
+      <MemberSignature Language="C#" Value="public bool InitializationFailed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InitializationFailed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.InitializationFailed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializationFailed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InitializationFailed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializationFailedProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty InitializationFailedProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty InitializationFailedProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.InitializationFailedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationFailedProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationFailedProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInResiliencyMode">
+      <MemberSignature Language="C#" Value="public bool IsInResiliencyMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInResiliencyMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.IsInResiliencyMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInResiliencyMode As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInResiliencyMode { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInResiliencyModeProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsInResiliencyModeProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsInResiliencyModeProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.IsInResiliencyModeProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsInResiliencyModeProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsInResiliencyModeProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLoadedAndIsInVisualTree">
+      <MemberSignature Language="C#" Value="protected bool IsLoadedAndIsInVisualTree { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLoadedAndIsInVisualTree" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.IsLoadedAndIsInVisualTree" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property IsLoadedAndIsInVisualTree As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; property bool IsLoadedAndIsInVisualTree { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSignedIn">
+      <MemberSignature Language="C#" Value="public bool IsSignedIn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSignedIn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.IsSignedIn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSignedIn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSignedIn { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSignedInProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsSignedInProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsSignedInProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.IsSignedInProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsSignedInProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsSignedInProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnClientDisconnected">
+      <MemberSignature Language="C#" Value="protected virtual void OnClientDisconnected ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnClientDisconnected() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnClientDisconnected" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnClientDisconnected ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnClientDisconnected();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnContactManagerPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnContactManagerPropertyChanged (Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel oldContactManager, Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel newContactManager);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnContactManagerPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel oldContactManager, class Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel newContactManager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnContactManagerPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel,Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnContactManagerPropertyChanged (oldContactManager As IContactsAndGroupsManagerModel, newContactManager As IContactsAndGroupsManagerModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnContactManagerPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ oldContactManager, Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ newContactManager);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldContactManager" Type="Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel" />
+        <Parameter Name="newContactManager" Type="Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel" />
+      </Parameters>
+      <Docs>
+        <param name="oldContactManager">To be added.</param>
+        <param name="newContactManager">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIsInResiliencyModePropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnIsInResiliencyModePropertyChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnIsInResiliencyModePropertyChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnIsInResiliencyModePropertyChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnIsInResiliencyModePropertyChanged (oldValue As Boolean, newValue As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnIsInResiliencyModePropertyChanged(bool oldValue, bool newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIsSignedPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnIsSignedPropertyChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnIsSignedPropertyChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnIsSignedPropertyChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnIsSignedPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnIsSignedPropertyChanged(bool oldValue, bool newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnLoaded">
+      <MemberSignature Language="C#" Value="protected virtual void OnLoaded ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnLoaded() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnLoaded" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnLoaded ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnLoaded();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSelfModelPropertyChanged">
+      <MemberSignature Language="C#" Value="protected virtual void OnSelfModelPropertyChanged (Microsoft.Lync.Controls.Internal.Model.ISelfModel oldSelfModel, Microsoft.Lync.Controls.Internal.Model.ISelfModel newSelfModel);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnSelfModelPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.ISelfModel oldSelfModel, class Microsoft.Lync.Controls.Internal.Model.ISelfModel newSelfModel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnSelfModelPropertyChanged(Microsoft.Lync.Controls.Internal.Model.ISelfModel,Microsoft.Lync.Controls.Internal.Model.ISelfModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnSelfModelPropertyChanged (oldSelfModel As ISelfModel, newSelfModel As ISelfModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnSelfModelPropertyChanged(Microsoft::Lync::Controls::Internal::Model::ISelfModel ^ oldSelfModel, Microsoft::Lync::Controls::Internal::Model::ISelfModel ^ newSelfModel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldSelfModel" Type="Microsoft.Lync.Controls.Internal.Model.ISelfModel" />
+        <Parameter Name="newSelfModel" Type="Microsoft.Lync.Controls.Internal.Model.ISelfModel" />
+      </Parameters>
+      <Docs>
+        <param name="oldSelfModel">To be added.</param>
+        <param name="newSelfModel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnUnloaded">
+      <MemberSignature Language="C#" Value="protected virtual void OnUnloaded ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnUnloaded() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnUnloaded" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnUnloaded ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnUnloaded();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UCClientModel">
+      <MemberSignature Language="C#" Value="protected Microsoft.Lync.Controls.Internal.Model.IUCClientModel UCClientModel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.Model.IUCClientModel UCClientModel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.UCClientModel" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property UCClientModel As IUCClientModel" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; property Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ UCClientModel { Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Model.IUCClientModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwireUCClient">
+      <MemberSignature Language="C#" Value="protected virtual void UnwireUCClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void UnwireUCClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.UnwireUCClient" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub UnwireUCClient ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void UnwireUCClient();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WireUCClient">
+      <MemberSignature Language="C#" Value="protected virtual void WireUCClient (Microsoft.Lync.Controls.Internal.Model.IUCClientModel ucClientModel);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void WireUCClient(class Microsoft.Lync.Controls.Internal.Model.IUCClientModel ucClientModel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.WireUCClient(Microsoft.Lync.Controls.Internal.Model.IUCClientModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub WireUCClient (ucClientModel As IUCClientModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void WireUCClient(Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ ucClientModel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ucClientModel" Type="Microsoft.Lync.Controls.Internal.Model.IUCClientModel" />
+      </Parameters>
+      <Docs>
+        <param name="ucClientModel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

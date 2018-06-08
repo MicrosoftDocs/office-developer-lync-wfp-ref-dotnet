@@ -1,0 +1,41 @@
+﻿<Type Name="ContextMenuAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.ContextMenuAutomationPeer">
+  <TypeSignature Language="C#" Value="public class ContextMenuAutomationPeer : System.Windows.Automation.Peers.ContextMenuAutomationPeer" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContextMenuAutomationPeer extends System.Windows.Automation.Peers.ContextMenuAutomationPeer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.ContextMenuAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContextMenuAutomationPeer&#xA;Inherits ContextMenuAutomationPeer" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContextMenuAutomationPeer : System::Windows::Automation::Peers::ContextMenuAutomationPeer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Windows.Automation.Peers.ContextMenuAutomationPeer</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContextMenuAutomationPeer (Microsoft.Lync.Controls.Internal.ContextMenu control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.ContextMenu control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.ContextMenuAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.ContextMenu)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContextMenu)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContextMenuAutomationPeer(Microsoft::Lync::Controls::Internal::ContextMenu ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.Internal.ContextMenu" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

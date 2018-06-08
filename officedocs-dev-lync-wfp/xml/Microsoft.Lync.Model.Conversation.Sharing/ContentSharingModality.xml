@@ -1,0 +1,306 @@
+﻿<Type Name="ContentSharingModality" FullName="Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality">
+  <TypeSignature Language="C#" Value="public class ContentSharingModality : Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContentSharingModality extends Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContentSharingModality&#xA;Inherits Modality" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContentSharingModality : Microsoft::Lync::Model::Conversation::Modality" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Conversation.Modality</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Creates and manages a collection of shareable content items.</summary>
+    <remarks>
+      <para>The ContentSharingModality inherits the methods, properties, and events from the Modality class. If you are sharing a whiteboard session with annotations in a conversation and then disconnect the ContentSharingModality, all of the whiteboard annotations are lost unless you save the whiteboard and associated annotations to a local file first.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveContent">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Sharing.ShareableContent ActiveContent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Sharing.ShareableContent ActiveContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.ActiveContent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveContent As ShareableContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ShareableContent ^ ActiveContent { Microsoft::Lync::Model::Conversation::Sharing::ShareableContent ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the active content. NULL is valid.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveContentChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ActiveContentChangedEventArgs&gt; ActiveContentChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.ActiveContentChangedEventArgs&gt; ActiveContentChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.ActiveContentChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ActiveContentChanged As EventHandler(Of ActiveContentChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ActiveContentChangedEventArgs ^&gt; ^ ActiveContentChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ActiveContentChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the active content is changed</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivePresenter">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Participant ActivePresenter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Participant ActivePresenter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.ActivePresenter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivePresenter As Participant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ ActivePresenter { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Participant</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the active presenter. NULL is valid.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivePresenterChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ActivePresenterChangedEventArgs&gt; ActivePresenterChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.ActivePresenterChangedEventArgs&gt; ActivePresenterChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.ActivePresenterChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ActivePresenterChanged As EventHandler(Of ActivePresenterChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ActivePresenterChangedEventArgs ^&gt; ^ ActivePresenterChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ActivePresenterChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the active presenter is changed</summary>
+        <remarks>
+          <para>The active presenter is changed when the the shared content of one conversation participant is swapped for the shared content of a different conversation participant.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateContent">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCreateContent (Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType contentType, string title, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginCreateContent(valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType contentType, string title, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.BeginCreateContent(Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType,System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCreateContent (contentType As ShareableContentType, title As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginCreateContent(Microsoft::Lync::Model::Conversation::Sharing::ShareableContentType contentType, System::String ^ title, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentType" Type="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType" />
+        <Parameter Name="title" Type="System.String" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contentType">To be added.</param>
+        <param name="title">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Creates a content object of the given type with the given title
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateContentFromFile">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginCreateContentFromFile (Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType contentType, string title, string fileName, bool includeNativeFile, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginCreateContentFromFile(valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType contentType, string title, string fileName, bool includeNativeFile, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.BeginCreateContentFromFile(Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType,System.String,System.String,System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginCreateContentFromFile (contentType As ShareableContentType, title As String, fileName As String, includeNativeFile As Boolean, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginCreateContentFromFile(Microsoft::Lync::Model::Conversation::Sharing::ShareableContentType contentType, System::String ^ title, System::String ^ fileName, bool includeNativeFile, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentType" Type="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType" />
+        <Parameter Name="title" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="includeNativeFile" Type="System.Boolean" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contentType">To be added.</param>
+        <param name="title">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <param name="includeNativeFile">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Creates a content object of the given type with the given title and file name.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAdded">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ContentCollectionChangedEventArgs&gt; ContentAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.ContentCollectionChangedEventArgs&gt; ContentAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.ContentAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ContentAdded As EventHandler(Of ContentCollectionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ContentCollectionChangedEventArgs ^&gt; ^ ContentAdded;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ContentCollectionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when any conversation participant has added a ShareableContent object  to the conversation.</summary>
+        <remarks>
+          <para>Be careful about calling the ShareableContent.Present() method on the added ShearableContent object. This event is raised when content is added by any participant, while you can only invoke the Present() method on content added by the local user.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentCollection">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContent&gt; ContentCollection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.ShareableContent&gt; ContentCollection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.ContentCollection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentCollection As IList(Of ShareableContent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Sharing::ShareableContent ^&gt; ^ ContentCollection { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Sharing::ShareableContent ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContent&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the collection of content.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentRemoved">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ContentCollectionChangedEventArgs&gt; ContentRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.Sharing.ContentCollectionChangedEventArgs&gt; ContentRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.ContentRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ContentRemoved As EventHandler(Of ContentCollectionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ContentCollectionChangedEventArgs ^&gt; ^ ContentRemoved;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ContentCollectionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when an existing ShareableContent has been removed from the content collection of the ContentSharingModality.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCreateContent">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Sharing.ShareableContent EndCreateContent (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Conversation.Sharing.ShareableContent EndCreateContent(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.EndCreateContent(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndCreateContent (asyncResult As IAsyncResult) As ShareableContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Sharing::ShareableContent ^ EndCreateContent(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Creates a content object of the given type with the given title
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndCreateContentFromFile">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Sharing.ShareableContent EndCreateContentFromFile (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Conversation.Sharing.ShareableContent EndCreateContentFromFile(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.EndCreateContentFromFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndCreateContentFromFile (asyncResult As IAsyncResult) As ShareableContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Sharing::ShareableContent ^ EndCreateContentFromFile(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Creates a content object of the given type with the given title and file name.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~ContentSharingModality ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ContentSharingModality.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!ContentSharingModality ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

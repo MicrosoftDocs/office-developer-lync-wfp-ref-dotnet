@@ -1,0 +1,1029 @@
+﻿<Type Name="ContactList" FullName="Microsoft.Lync.Controls.ContactList">
+  <TypeSignature Language="C#" Value="public class ContactList : Microsoft.Lync.Controls.UCBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ContactList extends Microsoft.Lync.Controls.UCBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactList" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactList&#xA;Inherits UCBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactList : Microsoft::Lync::Controls::UCBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.UCBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_SortByAvailabilityMenuItem", Type=typeof(Microsoft.Lync.Controls.Internal.MenuItem))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_ContactListMenu", Type=typeof(Microsoft.Lync.Controls.Internal.ContactListMenu))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_TreeControl", Type=typeof(Microsoft.Lync.Controls.UCTreeView))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_ViewLayoutMenu", Type=typeof(Microsoft.Lync.Controls.Internal.SplitButton))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_OneLineMenuItem", Type=typeof(Microsoft.Lync.Controls.Internal.MenuItem))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_TwoLinesMenuItem", Type=typeof(Microsoft.Lync.Controls.Internal.MenuItem))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_SortByDisplayNameMenuItem", Type=typeof(Microsoft.Lync.Controls.Internal.MenuItem))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             Use the ContactList control to display the Lync contacts list,              and give users the ability to launch voice, instant messaging (IM), or e-mail conversations              with any of their contacts.             </summary>
+    <remarks>
+      <para>             The control supports Group, Relationship, and Status views, in the same manner as              Lync, and includes the option to switch between status              only, and status with photo display modes. The ContactList control gives users              the ability to copy, move, delete, multi-select and sort contacts, set status              alerts, and manage privacy settings.             </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactList();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Initializes a new instance of the ContactList class.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BotItemTemplate">
+      <MemberSignature Language="C#" Value="public System.Windows.DataTemplate BotItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.DataTemplate BotItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.BotItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property BotItemTemplate As DataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ BotItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used for Bot-type contacts in <see cref="F:Microsoft.Lync.Controls.ContactLayoutOption.OneLine" /> mode.             (See <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />).             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BotItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty BotItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty BotItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.BotItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BotItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ BotItemTemplateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.BotItemTemplate" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BotTwoLineItemTemplate">
+      <MemberSignature Language="C#" Value="public System.Windows.DataTemplate BotTwoLineItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.DataTemplate BotTwoLineItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.BotTwoLineItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property BotTwoLineItemTemplate As DataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ BotTwoLineItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used for Bot-type contacts in <see cref="F:Microsoft.Lync.Controls.ContactLayoutOption.TwoLines" /> mode.             (See <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />).             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BotTwoLineItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty BotTwoLineItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty BotTwoLineItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.BotTwoLineItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BotTwoLineItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ BotTwoLineItemTemplateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.BotTwoLineItemTemplate" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactLayoutView">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.ContactLayoutOption ContactLayoutView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.ContactLayoutOption ContactLayoutView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactLayoutView As ContactLayoutOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ContactLayoutOption ContactLayoutView { Microsoft::Lync::Controls::ContactLayoutOption get(); void set(Microsoft::Lync::Controls::ContactLayoutOption value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactLayoutOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the current layout view for all contact nodes.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactLayoutViewProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ContactLayoutViewProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ContactLayoutViewProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.ContactLayoutViewProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContactLayoutViewProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContactLayoutViewProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerable Contacts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IEnumerable Contacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public Property Contacts As IEnumerable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IEnumerable ^ Contacts { System::Collections::IEnumerable ^ get(); void set(System::Collections::IEnumerable ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerable</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactsProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ContactsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ContactsProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.ContactsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContactsProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContactsProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.Contacts" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextualInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.ConversationContextualInfo ContextualInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.ConversationContextualInfo ContextualInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.ContextualInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContextualInformation As ConversationContextualInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ConversationContextualInfo ^ ContextualInformation { Microsoft::Lync::Controls::ConversationContextualInfo ^ get(); void set(Microsoft::Lync::Controls::ConversationContextualInfo ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ConversationContextualInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets data structure which provides contextual information for use with the contextual conversation feature.             </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>             Contextual information is provided to the destination user when a conversation is initiated.             This information may include a link or subject line which provides background on the purpose of a conversation.             Optionally, context may be delivered in the form of an application reference and embedded application data.             For more information, please refer to the related conceptual topics in the Lync SDK documentation.             </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextualInformationProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ContextualInformationProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ContextualInformationProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.ContextualInformationProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextualInformationProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextualInformationProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.ContextualInformation" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupItemContainerStyle">
+      <MemberSignature Language="C#" Value="public System.Windows.Style GroupItemContainerStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Style GroupItemContainerStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.GroupItemContainerStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupItemContainerStyle As Style" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Style ^ GroupItemContainerStyle { System::Windows::Style ^ get(); void set(System::Windows::Style ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.Style" /> which is applied to top-level group nodes in the contact list.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupItemContainerStyleProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty GroupItemContainerStyleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty GroupItemContainerStyleProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.GroupItemContainerStyleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupItemContainerStyleProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupItemContainerStyleProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.GroupItemContainerStyle" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupItemTemplate">
+      <MemberSignature Language="C#" Value="public System.Windows.DataTemplate GroupItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.DataTemplate GroupItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.GroupItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupItemTemplate As DataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ GroupItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used for Group-type contacts in <see cref="F:Microsoft.Lync.Controls.ContactLayoutOption.OneLine" /> mode.             (See <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />).             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty GroupItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty GroupItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.GroupItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupItemTemplateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.GroupItemTemplate" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupTwoLineItemTemplate">
+      <MemberSignature Language="C#" Value="public System.Windows.DataTemplate GroupTwoLineItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.DataTemplate GroupTwoLineItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.GroupTwoLineItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupTwoLineItemTemplate As DataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ GroupTwoLineItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used for Group-type contacts in <see cref="F:Microsoft.Lync.Controls.ContactLayoutOption.TwoLines" /> mode.             (See <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />).             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupTwoLineItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty GroupTwoLineItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty GroupTwoLineItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.GroupTwoLineItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupTwoLineItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupTwoLineItemTemplateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.GroupTwoLineItemTemplate" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupViewBySetting">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.GroupByOption GroupViewBySetting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.GroupByOption GroupViewBySetting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.GroupViewBySetting" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupViewBySetting As GroupByOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::GroupByOption GroupViewBySetting { Microsoft::Lync::Controls::GroupByOption get(); void set(Microsoft::Lync::Controls::GroupByOption value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.GroupByOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets an enumerated value which determines the manner in which contacts are grouped on the contact list.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupViewBySettingProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty GroupViewBySettingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty GroupViewBySettingProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.GroupViewBySettingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupViewBySettingProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupViewBySettingProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.GroupViewBySetting" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemContainerStyle">
+      <MemberSignature Language="C#" Value="public System.Windows.Style ItemContainerStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Style ItemContainerStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.ItemContainerStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemContainerStyle As Style" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Style ^ ItemContainerStyle { System::Windows::Style ^ get(); void set(System::Windows::Style ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.Style" /> which is applied to contact nodes in the contact list.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemContainerStyleProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ItemContainerStyleProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ItemContainerStyleProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.ItemContainerStyleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemContainerStyleProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ItemContainerStyleProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.ItemContainerStyle" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Model">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel Model { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel Model" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.Model" />
+      <MemberSignature Language="VB.NET" Value="Public Property Model As IContactsAndGroupsManagerModel" />
+      <MemberSignature Language="C++ CLI" Value="public:  property Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ Model {  public:&#xA;Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ get(); protected:&#xA; void set(Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModelProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ModelProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ModelProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.ModelProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ModelProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ModelProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.Model" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             When overridden in a derived class, is invoked whenever application code or              internal processes (such as a rebuilding layout pass)              call <see cref="ApplyTemplate" />.              In simplest terms, this means the method is called just before a UI element displays              in an application.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnContactManagerPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnContactManagerPropertyChanged (Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel oldContactManager, Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel newContactManager);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnContactManagerPropertyChanged(class Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel oldContactManager, class Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel newContactManager) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.OnContactManagerPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel,Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnContactManagerPropertyChanged (oldContactManager As IContactsAndGroupsManagerModel, newContactManager As IContactsAndGroupsManagerModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnContactManagerPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ oldContactManager, Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ newContactManager);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldContactManager" Type="Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel" />
+        <Parameter Name="newContactManager" Type="Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel" />
+      </Parameters>
+      <Docs>
+        <param name="oldContactManager">To be added.</param>
+        <param name="newContactManager">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Overrides OnCreateAutomationPeer to return the ContactListAutomationPeer object.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIsInResiliencyModePropertyChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnIsInResiliencyModePropertyChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnIsInResiliencyModePropertyChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.OnIsInResiliencyModePropertyChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnIsInResiliencyModePropertyChanged (oldValue As Boolean, newValue As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnIsInResiliencyModePropertyChanged(bool oldValue, bool newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnIsSignedPropertyChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnIsSignedPropertyChanged (bool oldValue, bool newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnIsSignedPropertyChanged(bool oldValue, bool newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.OnIsSignedPropertyChanged(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnIsSignedPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnIsSignedPropertyChanged(bool oldValue, bool newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="System.Boolean" />
+        <Parameter Name="newValue" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnUnloaded">
+      <MemberSignature Language="C#" Value="protected override sealed void OnUnloaded ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnUnloaded() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.OnUnloaded" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnUnloaded ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnUnloaded();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonItemTemplate">
+      <MemberSignature Language="C#" Value="public System.Windows.DataTemplate PersonItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.DataTemplate PersonItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.PersonItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PersonItemTemplate As DataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ PersonItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used for Person-type contacts in <see cref="F:Microsoft.Lync.Controls.ContactLayoutOption.OneLine" /> mode.             (See <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />).             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty PersonItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty PersonItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.PersonItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PersonItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PersonItemTemplateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.PersonItemTemplate" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonTwoLineItemTemplate">
+      <MemberSignature Language="C#" Value="public System.Windows.DataTemplate PersonTwoLineItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.DataTemplate PersonTwoLineItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.PersonTwoLineItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PersonTwoLineItemTemplate As DataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ PersonTwoLineItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used for Person-type contacts in <see cref="F:Microsoft.Lync.Controls.ContactLayoutOption.TwoLines" /> mode.             (See <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />).             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonTwoLineItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty PersonTwoLineItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty PersonTwoLineItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.PersonTwoLineItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PersonTwoLineItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PersonTwoLineItemTemplateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.PersonTwoLineItemTemplate" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedContactUris">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; SelectedContactUris { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; SelectedContactUris" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.SelectedContactUris" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelectedContactUris As IEnumerable(Of String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ SelectedContactUris { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a collection of strings which represent the set of contacts that are currently selected in the <see cref="ContactList" />.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedContactUrisChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler SelectedContactUrisChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SelectedContactUrisChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.ContactList.SelectedContactUrisChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event SelectedContactUrisChanged As EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ SelectedContactUrisChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>              Fired when the content of <see cref="P:Microsoft.Lync.Controls.ContactList.SelectedContactUris" /> has changed.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFrequentContacts">
+      <MemberSignature Language="C#" Value="public bool ShowFrequentContacts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowFrequentContacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.ShowFrequentContacts" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowFrequentContacts As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowFrequentContacts { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether the Frequent Contacts Group is shown when <see cref="P:Microsoft.Lync.Controls.ContactList.GroupViewBySetting" />              is set to <see cref="F:Microsoft.Lync.Controls.GroupByOption.Groups" />.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFrequentContactsProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ShowFrequentContactsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ShowFrequentContactsProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.ShowFrequentContactsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShowFrequentContactsProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ShowFrequentContactsProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.ShowFrequentContacts" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFriendlyName">
+      <MemberSignature Language="C#" Value="public bool ShowFriendlyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowFriendlyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.ShowFriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowFriendlyName As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowFriendlyName { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether contacts in the list are shown using their <see cref="displaynames" /> or their <see cref="SIPURI's" />.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFriendlyNameProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ShowFriendlyNameProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ShowFriendlyNameProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.ShowFriendlyNameProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShowFriendlyNameProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ShowFriendlyNameProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.ShowFriendlyName" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPivotBar">
+      <MemberSignature Language="C#" Value="public bool ShowPivotBar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowPivotBar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.ShowPivotBar" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowPivotBar As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowPivotBar { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether the pivot bar is visible.             </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>             The pivot bar is the part of the <see cref="ContactList" /> template which displays links for changing             the <see cref="P:Microsoft.Lync.Controls.ContactList.GroupViewBySetting" />, as well as a menu button for changing other display properties and preferences.             </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPivotBarProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ShowPivotBarProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ShowPivotBarProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.ShowPivotBarProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShowPivotBarProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ShowPivotBarProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.ShowPivotBar" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortBySetting">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.SortByOption SortBySetting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Controls.SortByOption SortBySetting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.SortBySetting" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortBySetting As SortByOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SortByOption SortBySetting { Microsoft::Lync::Controls::SortByOption get(); void set(Microsoft::Lync::Controls::SortByOption value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SortByOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets an enumerated value which determines the sort order of contacts within the group nodes on the contact list.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortBySettingProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty SortBySettingProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty SortBySettingProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.SortBySettingProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SortBySettingProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SortBySettingProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.SortBySetting" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TelephoneItemTemplate">
+      <MemberSignature Language="C#" Value="public System.Windows.DataTemplate TelephoneItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.DataTemplate TelephoneItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.TelephoneItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property TelephoneItemTemplate As DataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ TelephoneItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used for Telephone-type contacts in <see cref="F:Microsoft.Lync.Controls.ContactLayoutOption.OneLine" /> mode.             (See <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />).             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TelephoneItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty TelephoneItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty TelephoneItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.TelephoneItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TelephoneItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TelephoneItemTemplateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.TelephoneItemTemplate" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TelephoneTwoLineItemTemplate">
+      <MemberSignature Language="C#" Value="public System.Windows.DataTemplate TelephoneTwoLineItemTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.DataTemplate TelephoneTwoLineItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactList.TelephoneTwoLineItemTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property TelephoneTwoLineItemTemplate As DataTemplate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ TelephoneTwoLineItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DataTemplate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:System.Windows.DataTemplate" /> used for Telephone-type contacts in <see cref="F:Microsoft.Lync.Controls.ContactLayoutOption.TwoLines" /> mode.             (See <see cref="P:Microsoft.Lync.Controls.ContactList.ContactLayoutView" />).             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TelephoneTwoLineItemTemplateProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty TelephoneTwoLineItemTemplateProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty TelephoneTwoLineItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactList.TelephoneTwoLineItemTemplateProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TelephoneTwoLineItemTemplateProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TelephoneTwoLineItemTemplateProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.ContactList.TelephoneTwoLineItemTemplate" /> dependency property.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwireUCClient">
+      <MemberSignature Language="C#" Value="protected override sealed void UnwireUCClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnwireUCClient() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.UnwireUCClient" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwireUCClient ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwireUCClient();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WireUCClient">
+      <MemberSignature Language="C#" Value="protected override sealed void WireUCClient (Microsoft.Lync.Controls.Internal.Model.IUCClientModel ucClientModel);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void WireUCClient(class Microsoft.Lync.Controls.Internal.Model.IUCClientModel ucClientModel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactList.WireUCClient(Microsoft.Lync.Controls.Internal.Model.IUCClientModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WireUCClient (ucClientModel As IUCClientModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WireUCClient(Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ ucClientModel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ucClientModel" Type="Microsoft.Lync.Controls.Internal.Model.IUCClientModel" />
+      </Parameters>
+      <Docs>
+        <param name="ucClientModel">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

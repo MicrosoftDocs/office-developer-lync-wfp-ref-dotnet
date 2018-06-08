@@ -1,0 +1,96 @@
+﻿<Type Name="LyncControlInitializationError" FullName="Microsoft.Lync.Controls.LyncControlInitializationError">
+  <TypeSignature Language="C#" Value="public enum LyncControlInitializationError" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LyncControlInitializationError extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.LyncControlInitializationError" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LyncControlInitializationError" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LyncControlInitializationError" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Enumerates the error that a Lync Control experienced in Initialization.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LyncIsNotRunning">
+      <MemberSignature Language="C#" Value="LyncIsNotRunning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.LyncControlInitializationError LyncIsNotRunning = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.LyncIsNotRunning" />
+      <MemberSignature Language="VB.NET" Value="LyncIsNotRunning" />
+      <MemberSignature Language="C++ CLI" Value="LyncIsNotRunning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.LyncControlInitializationError</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Lync is not running.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LyncRunningUnderSuppression">
+      <MemberSignature Language="C#" Value="LyncRunningUnderSuppression" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.LyncControlInitializationError LyncRunningUnderSuppression = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.LyncRunningUnderSuppression" />
+      <MemberSignature Language="VB.NET" Value="LyncRunningUnderSuppression" />
+      <MemberSignature Language="C++ CLI" Value="LyncRunningUnderSuppression" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.LyncControlInitializationError</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Lync is running under UISupression mode.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.LyncControlInitializationError None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.LyncControlInitializationError</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             None.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.LyncControlInitializationError Unknown = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.LyncControlInitializationError</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             Unknown.             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

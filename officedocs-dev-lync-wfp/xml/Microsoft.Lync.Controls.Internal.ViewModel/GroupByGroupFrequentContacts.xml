@@ -1,0 +1,243 @@
+﻿<Type Name="GroupByGroupFrequentContacts" FullName="Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts">
+  <TypeSignature Language="C#" Value="public class GroupByGroupFrequentContacts : Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GroupByGroupFrequentContacts extends Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupByGroupFrequentContacts&#xA;Inherits GroupByGroup" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupByGroupFrequentContacts : Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupByGroupFrequentContacts (Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager manager, object id, Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; comparison, string name, int maxDisplayedContacts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager manager, object id, class System.Comparison`1&lt;class Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; comparison, string name, int32 maxDisplayedContacts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager,System.Object,System.Comparison{Microsoft.Lync.Controls.Internal.Model.IContactModel},System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (manager As ISortableContactsAndGroupManager, id As Object, comparison As Comparison(Of IContactModel), name As String, maxDisplayedContacts As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupByGroupFrequentContacts(Microsoft::Lync::Controls::Internal::ViewModel::ISortableContactsAndGroupManager ^ manager, System::Object ^ id, Comparison&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ comparison, System::String ^ name, int maxDisplayedContacts);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="manager" Type="Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager" />
+        <Parameter Name="id" Type="System.Object" />
+        <Parameter Name="comparison" Type="System.Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt;" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="maxDisplayedContacts" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="manager">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="comparison">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="maxDisplayedContacts">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddContact">
+      <MemberSignature Language="C#" Value="public override bool AddContact (Microsoft.Lync.Controls.Internal.Model.IContactModel contact);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool AddContact(class Microsoft.Lync.Controls.Internal.Model.IContactModel contact) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.AddContact(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function AddContact (contact As IContactModel) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool AddContact(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ contact);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Lync.Controls.Internal.Model.IContactModel" />
+      </Parameters>
+      <Docs>
+        <param name="contact">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public override System.Collections.Generic.IList&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; Contacts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; Contacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Contacts As IList(Of IContactModel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Collections::Generic::IList&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ Contacts { System::Collections::Generic::IList&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Dispose(bool disposing);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FavoriteContacts">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; FavoriteContacts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; FavoriteContacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.FavoriteContacts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FavoriteContacts As IList(Of IContactModel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ FavoriteContacts { System::Collections::Generic::IList&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InhibitSorting">
+      <MemberSignature Language="C#" Value="public override bool InhibitSorting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InhibitSorting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.InhibitSorting" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property InhibitSorting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool InhibitSorting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastPinnedContact">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.Model.IContactModel LastPinnedContact { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.Model.IContactModel LastPinnedContact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.LastPinnedContact" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastPinnedContact As IContactModel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::Model::IContactModel ^ LastPinnedContact { Microsoft::Lync::Controls::Internal::Model::IContactModel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Model.IContactModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public void Refresh ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Refresh() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.Refresh" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Refresh ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Refresh();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveContact">
+      <MemberSignature Language="C#" Value="public override bool RemoveContact (Microsoft.Lync.Controls.Internal.Model.IContactModel contact);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool RemoveContact(class Microsoft.Lync.Controls.Internal.Model.IContactModel contact) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.RemoveContact(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function RemoveContact (contact As IContactModel) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool RemoveContact(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ contact);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Lync.Controls.Internal.Model.IContactModel" />
+      </Parameters>
+      <Docs>
+        <param name="contact">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public override void Sort (Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; comparison);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Sort(class System.Comparison`1&lt;class Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; comparison) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupFrequentContacts.Sort(System.Comparison{Microsoft.Lync.Controls.Internal.Model.IContactModel})" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Sort (comparison As Comparison(Of IContactModel))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Sort(Comparison&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ comparison);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="comparison" Type="System.Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="comparison">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

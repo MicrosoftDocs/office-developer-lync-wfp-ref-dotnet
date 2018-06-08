@@ -1,0 +1,191 @@
+﻿<Type Name="ContactCalendarState" FullName="Microsoft.Lync.Model.ContactCalendarState">
+  <TypeSignature Language="C#" Value="public enum ContactCalendarState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactCalendarState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactCalendarState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactCalendarState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactCalendarState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines contact calendar states.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Available">
+      <MemberSignature Language="C#" Value="Available" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState Available = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Available" />
+      <MemberSignature Language="VB.NET" Value="Available" />
+      <MemberSignature Language="C++ CLI" Value="Available" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>A contact is available.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Busy">
+      <MemberSignature Language="C#" Value="Busy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState Busy = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Busy" />
+      <MemberSignature Language="VB.NET" Value="Busy" />
+      <MemberSignature Language="C++ CLI" Value="Busy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>A contact is busy.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NotAvailable">
+      <MemberSignature Language="C#" Value="NotAvailable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState NotAvailable = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.NotAvailable" />
+      <MemberSignature Language="VB.NET" Value="NotAvailable" />
+      <MemberSignature Language="C++ CLI" Value="NotAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>A contact's state is not available.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OutOfOffice">
+      <MemberSignature Language="C#" Value="OutOfOffice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState OutOfOffice = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.OutOfOffice" />
+      <MemberSignature Language="VB.NET" Value="OutOfOffice" />
+      <MemberSignature Language="C++ CLI" Value="OutOfOffice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>A contact is out of office.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OutsideWorkPeriod">
+      <MemberSignature Language="C#" Value="OutsideWorkPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState OutsideWorkPeriod = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.OutsideWorkPeriod" />
+      <MemberSignature Language="VB.NET" Value="OutsideWorkPeriod" />
+      <MemberSignature Language="C++ CLI" Value="OutsideWorkPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>A contact is not working.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tentative">
+      <MemberSignature Language="C#" Value="Tentative" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState Tentative = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Tentative" />
+      <MemberSignature Language="VB.NET" Value="Tentative" />
+      <MemberSignature Language="C++ CLI" Value="Tentative" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A contact has a tentative appointment scheduled.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState Unknown = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>A contact's state is unknown.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingElsewhere">
+      <MemberSignature Language="C#" Value="WorkingElsewhere" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ContactCalendarState WorkingElsewhere = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.WorkingElsewhere" />
+      <MemberSignature Language="VB.NET" Value="WorkingElsewhere" />
+      <MemberSignature Language="C++ CLI" Value="WorkingElsewhere" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactCalendarState</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>A contact's state is working elsewhere.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

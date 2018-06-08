@@ -1,0 +1,41 @@
+﻿<Type Name="FavoriteContacts" FullName="Microsoft.Lync.Model.Group.FavoriteContacts">
+  <TypeSignature Language="C#" Value="public class FavoriteContacts : Microsoft.Lync.Model.Group.Group" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FavoriteContacts extends Microsoft.Lync.Model.Group.Group" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.FavoriteContacts" />
+  <TypeSignature Language="VB.NET" Value="Public Class FavoriteContacts&#xA;Inherits Group" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FavoriteContacts : Microsoft::Lync::Model::Group::Group" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Group.Group</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the favorite contacts of the signed in user.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~FavoriteContacts ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.FavoriteContacts.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!FavoriteContacts ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

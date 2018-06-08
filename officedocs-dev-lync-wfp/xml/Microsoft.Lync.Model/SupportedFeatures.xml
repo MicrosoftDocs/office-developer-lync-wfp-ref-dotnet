@@ -1,0 +1,500 @@
+﻿<Type Name="SupportedFeatures" FullName="Microsoft.Lync.Model.SupportedFeatures">
+  <TypeSignature Language="C#" Value="public enum SupportedFeatures" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SupportedFeatures extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SupportedFeatures" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SupportedFeatures" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SupportedFeatures" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the supported features.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationInvite">
+      <MemberSignature Language="C#" Value="ApplicationInvite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures ApplicationInvite = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.ApplicationInvite" />
+      <MemberSignature Language="VB.NET" Value="ApplicationInvite" />
+      <MemberSignature Language="C++ CLI" Value="ApplicationInvite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>The application invite feature is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationSharing">
+      <MemberSignature Language="C#" Value="ApplicationSharing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures ApplicationSharing = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.ApplicationSharing" />
+      <MemberSignature Language="VB.NET" Value="ApplicationSharing" />
+      <MemberSignature Language="C++ CLI" Value="ApplicationSharing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>The application sharing feature is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Audio">
+      <MemberSignature Language="C#" Value="Audio" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Audio = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Audio" />
+      <MemberSignature Language="VB.NET" Value="Audio" />
+      <MemberSignature Language="C++ CLI" Value="Audio" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>The Voice over Internet Protocol feature is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatorContexts">
+      <MemberSignature Language="C#" Value="DelegatorContexts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures DelegatorContexts = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.DelegatorContexts" />
+      <MemberSignature Language="VB.NET" Value="DelegatorContexts" />
+      <MemberSignature Language="C++ CLI" Value="DelegatorContexts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The delegator contexts feature is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileTransfer">
+      <MemberSignature Language="C#" Value="FileTransfer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures FileTransfer = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.FileTransfer" />
+      <MemberSignature Language="VB.NET" Value="FileTransfer" />
+      <MemberSignature Language="C++ CLI" Value="FileTransfer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>The file transfer feature in IM is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessage">
+      <MemberSignature Language="C#" Value="InstantMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures InstantMessage = int32(4096)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.InstantMessage" />
+      <MemberSignature Language="VB.NET" Value="InstantMessage" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>4096</MemberValue>
+      <Docs>
+        <summary>The Instant Messaging feature is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageGif">
+      <MemberSignature Language="C#" Value="InstantMessageGif" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures InstantMessageGif = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.InstantMessageGif" />
+      <MemberSignature Language="VB.NET" Value="InstantMessageGif" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessageGif" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The Gif format in IM is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageHtml">
+      <MemberSignature Language="C#" Value="InstantMessageHtml" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures InstantMessageHtml = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.InstantMessageHtml" />
+      <MemberSignature Language="VB.NET" Value="InstantMessageHtml" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessageHtml" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>The Html format in IM is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageInk">
+      <MemberSignature Language="C#" Value="InstantMessageInk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures InstantMessageInk = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.InstantMessageInk" />
+      <MemberSignature Language="VB.NET" Value="InstantMessageInk" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessageInk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The Ink serialized Format in IM is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantMessageRtf">
+      <MemberSignature Language="C#" Value="InstantMessageRtf" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures InstantMessageRtf = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.InstantMessageRtf" />
+      <MemberSignature Language="VB.NET" Value="InstantMessageRtf" />
+      <MemberSignature Language="C++ CLI" Value="InstantMessageRtf" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>The Rtf format in IM is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyApplicationSharing">
+      <MemberSignature Language="C#" Value="LegacyApplicationSharing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures LegacyApplicationSharing = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.LegacyApplicationSharing" />
+      <MemberSignature Language="VB.NET" Value="LegacyApplicationSharing" />
+      <MemberSignature Language="C++ CLI" Value="LegacyApplicationSharing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>The legacy application sharing feature is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No feature is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PhonePairing">
+      <MemberSignature Language="C#" Value="PhonePairing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures PhonePairing = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.PhonePairing" />
+      <MemberSignature Language="VB.NET" Value="PhonePairing" />
+      <MemberSignature Language="C++ CLI" Value="PhonePairing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>The desk phone pairing feature is supported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved1 = int32(8192)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>8192</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved10">
+      <MemberSignature Language="C#" Value="Reserved10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved10 = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved10" />
+      <MemberSignature Language="VB.NET" Value="Reserved10" />
+      <MemberSignature Language="C++ CLI" Value="Reserved10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved2 = int32(16384)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>16384</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved3">
+      <MemberSignature Language="C#" Value="Reserved3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved3 = int32(32768)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved3" />
+      <MemberSignature Language="VB.NET" Value="Reserved3" />
+      <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>32768</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved4">
+      <MemberSignature Language="C#" Value="Reserved4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved4 = int32(65536)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved4" />
+      <MemberSignature Language="VB.NET" Value="Reserved4" />
+      <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>65536</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved5">
+      <MemberSignature Language="C#" Value="Reserved5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved5 = int32(131072)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved5" />
+      <MemberSignature Language="VB.NET" Value="Reserved5" />
+      <MemberSignature Language="C++ CLI" Value="Reserved5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>131072</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved6">
+      <MemberSignature Language="C#" Value="Reserved6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved6 = int32(262144)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved6" />
+      <MemberSignature Language="VB.NET" Value="Reserved6" />
+      <MemberSignature Language="C++ CLI" Value="Reserved6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>262144</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved7">
+      <MemberSignature Language="C#" Value="Reserved7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved7 = int32(524288)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved7" />
+      <MemberSignature Language="VB.NET" Value="Reserved7" />
+      <MemberSignature Language="C++ CLI" Value="Reserved7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>524288</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved8">
+      <MemberSignature Language="C#" Value="Reserved8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved8 = int32(1048576)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved8" />
+      <MemberSignature Language="VB.NET" Value="Reserved8" />
+      <MemberSignature Language="C++ CLI" Value="Reserved8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>1048576</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved9">
+      <MemberSignature Language="C#" Value="Reserved9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Reserved9 = int32(2097152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Reserved9" />
+      <MemberSignature Language="VB.NET" Value="Reserved9" />
+      <MemberSignature Language="C++ CLI" Value="Reserved9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>2097152</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Video">
+      <MemberSignature Language="C#" Value="Video" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SupportedFeatures Video = int32(2048)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SupportedFeatures.Video" />
+      <MemberSignature Language="VB.NET" Value="Video" />
+      <MemberSignature Language="C++ CLI" Value="Video" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SupportedFeatures</ReturnType>
+      </ReturnValue>
+      <MemberValue>2048</MemberValue>
+      <Docs>
+        <summary>The video feature is supported.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

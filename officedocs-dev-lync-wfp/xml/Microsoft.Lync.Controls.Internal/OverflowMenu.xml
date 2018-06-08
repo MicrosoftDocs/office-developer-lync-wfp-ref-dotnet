@@ -1,0 +1,169 @@
+﻿<Type Name="OverflowMenu" FullName="Microsoft.Lync.Controls.Internal.OverflowMenu">
+  <TypeSignature Language="C#" Value="public class OverflowMenu : Microsoft.Lync.Controls.ContactBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi OverflowMenu extends Microsoft.Lync.Controls.ContactBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.OverflowMenu" />
+  <TypeSignature Language="VB.NET" Value="Public Class OverflowMenu&#xA;Inherits ContactBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OverflowMenu : Microsoft::Lync::Controls::ContactBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.ContactBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OverflowMenu ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OverflowMenu();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextInformationModelsProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ContextInformationModelsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ContextInformationModelsProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.OverflowMenu.ContextInformationModelsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextInformationModelsProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextInformationModelsProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnContextualInformationChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnContextualInformationChanged (Microsoft.Lync.Controls.ConversationContextualInfo oldValue, Microsoft.Lync.Controls.ConversationContextualInfo newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnContextualInformationChanged(class Microsoft.Lync.Controls.ConversationContextualInfo oldValue, class Microsoft.Lync.Controls.ConversationContextualInfo newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.OnContextualInformationChanged(Microsoft.Lync.Controls.ConversationContextualInfo,Microsoft.Lync.Controls.ConversationContextualInfo)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnContextualInformationChanged (oldValue As ConversationContextualInfo, newValue As ConversationContextualInfo)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnContextualInformationChanged(Microsoft::Lync::Controls::ConversationContextualInfo ^ oldValue, Microsoft::Lync::Controls::ConversationContextualInfo ^ newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="Microsoft.Lync.Controls.ConversationContextualInfo" />
+        <Parameter Name="newValue" Type="Microsoft.Lync.Controls.ConversationContextualInfo" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwireModel">
+      <MemberSignature Language="C#" Value="protected override sealed void UnwireModel (Microsoft.Lync.Controls.Internal.Model.IContactModel model);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnwireModel(class Microsoft.Lync.Controls.Internal.Model.IContactModel model) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.UnwireModel(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwireModel (model As IContactModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwireModel(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ model);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="model" Type="Microsoft.Lync.Controls.Internal.Model.IContactModel" />
+      </Parameters>
+      <Docs>
+        <param name="model">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WireModel">
+      <MemberSignature Language="C#" Value="protected override sealed void WireModel (Microsoft.Lync.Controls.Internal.Model.IContactModel model);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void WireModel(class Microsoft.Lync.Controls.Internal.Model.IContactModel model) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.WireModel(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WireModel (model As IContactModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WireModel(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ model);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="model" Type="Microsoft.Lync.Controls.Internal.Model.IContactModel" />
+      </Parameters>
+      <Docs>
+        <param name="model">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

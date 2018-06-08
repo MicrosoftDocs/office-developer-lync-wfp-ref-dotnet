@@ -1,0 +1,172 @@
+﻿<Type Name="PropertyType" FullName="Microsoft.Lync.Model.Internal.PropertyType">
+  <TypeSignature Language="C#" Value="public enum PropertyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PropertyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.PropertyType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PropertyType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PropertyType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Boolean">
+      <MemberSignature Language="C#" Value="Boolean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyType Boolean = int32(268435456)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyType.Boolean" />
+      <MemberSignature Language="VB.NET" Value="Boolean" />
+      <MemberSignature Language="C++ CLI" Value="Boolean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>268435456</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Date">
+      <MemberSignature Language="C#" Value="Date" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyType Date = int32(1342177280)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyType.Date" />
+      <MemberSignature Language="VB.NET" Value="Date" />
+      <MemberSignature Language="C++ CLI" Value="Date" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1342177280</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Enumeration">
+      <MemberSignature Language="C#" Value="Enumeration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyType Enumeration = int32(805306368)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyType.Enumeration" />
+      <MemberSignature Language="VB.NET" Value="Enumeration" />
+      <MemberSignature Language="C++ CLI" Value="Enumeration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>805306368</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Numeric">
+      <MemberSignature Language="C#" Value="Numeric" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyType Numeric = int32(536870912)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyType.Numeric" />
+      <MemberSignature Language="VB.NET" Value="Numeric" />
+      <MemberSignature Language="C++ CLI" Value="Numeric" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>536870912</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Object">
+      <MemberSignature Language="C#" Value="Object" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyType Object = int32(1073741824)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyType.Object" />
+      <MemberSignature Language="VB.NET" Value="Object" />
+      <MemberSignature Language="C++ CLI" Value="Object" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1073741824</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SafeArray">
+      <MemberSignature Language="C#" Value="SafeArray" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyType SafeArray = int32(1610612736)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyType.SafeArray" />
+      <MemberSignature Language="VB.NET" Value="SafeArray" />
+      <MemberSignature Language="C++ CLI" Value="SafeArray" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1610612736</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="String">
+      <MemberSignature Language="C#" Value="String" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PropertyType String = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyType.String" />
+      <MemberSignature Language="VB.NET" Value="String" />
+      <MemberSignature Language="C++ CLI" Value="String" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

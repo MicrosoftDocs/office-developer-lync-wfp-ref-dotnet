@@ -1,0 +1,345 @@
+﻿<Type Name="RoomMessageDictionary" FullName="Microsoft.Lync.Model.Room.RoomMessageDictionary">
+  <TypeSignature Language="C#" Value="public class RoomMessageDictionary : Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoomMessageDictionary extends Microsoft.Lync.Model.Internal.UCWLite" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomMessageDictionary" />
+  <TypeSignature Language="VB.NET" Value="Public Class RoomMessageDictionary&#xA;Inherits UCWLite" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RoomMessageDictionary : Microsoft::Lync::Model::Internal::UCWLite" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWLite</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>A key/value pairing of a message format enumerator and actual message text.</summary>
+    <remarks>
+      <para>The RoomMessageDictionary contains a collection of Microsoft.Lync.Model.Room.RoomMessageFormat objects. To send a message to a room, you must add at least one key/value pair where the key is RoomMessageFormat.PlainText. You may also add another key/value pair where the key is RoomMessageFormat.Rtf</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Lync.Model.Room.RoomMessageFormat key, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(valuetype Microsoft.Lync.Model.Room.RoomMessageFormat key, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.Add(Microsoft.Lync.Model.Room.RoomMessageFormat,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (key As RoomMessageFormat, value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Lync::Model::Room::RoomMessageFormat key, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Lync.Model.Room.RoomMessageFormat" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Add a key/value pair composed of RoomMessageType and the message text as a string.</summary>
+        <remarks>
+          <para>You can only add a single message of a given RoomMessageType enumerator. This means that you can add a version of your message in plain text and a version in rich text format (rtf). You must always add a plain text version and rtf version is optiona.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsKey">
+      <MemberSignature Language="C#" Value="public bool ContainsKey (Microsoft.Lync.Model.Room.RoomMessageFormat key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool ContainsKey(valuetype Microsoft.Lync.Model.Room.RoomMessageFormat key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.ContainsKey(Microsoft.Lync.Model.Room.RoomMessageFormat)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ContainsKey (key As RoomMessageFormat) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ContainsKey(Microsoft::Lync::Model::Room::RoomMessageFormat key);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Lync.Model.Room.RoomMessageFormat" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>Checks to see if there is a value associated with the given key</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns number of items in the dictionary.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyAt">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.RoomMessageFormat GetKeyAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Lync.Model.Room.RoomMessageFormat GetKeyAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.GetKeyAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetKeyAt (index As Integer) As RoomMessageFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Room::RoomMessageFormat GetKeyAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageFormat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>Gets a key based on the index.</summary>
+        <returns>RoomMessageFormat</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValueAt">
+      <MemberSignature Language="C#" Value="public object GetValueAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetValueAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.GetValueAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetValueAt (index As Integer) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValueAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>Gets a value based on the index.</summary>
+        <returns>System.Object</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[Microsoft.Lync.Model.Room.RoomMessageFormat _key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(valuetype Microsoft.Lync.Model.Room.RoomMessageFormat)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Item(Microsoft.Lync.Model.Room.RoomMessageFormat)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(_key As RoomMessageFormat) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[Microsoft::Lync::Model::Room::RoomMessageFormat] { System::Object ^ get(Microsoft::Lync::Model::Room::RoomMessageFormat _key); void set(Microsoft::Lync::Model::Room::RoomMessageFormat _key, System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="_key" Type="Microsoft.Lync.Model.Room.RoomMessageFormat" />
+      </Parameters>
+      <Docs>
+        <param name="_key">To be added.</param>
+        <summary> 
+            Given a message format, returns the item related value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Keys">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessageFormat&gt; Keys { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Microsoft.Lync.Model.Room.RoomMessageFormat&gt; Keys" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Keys" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Keys As IList(Of RoomMessageFormat)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessageFormat&gt; ^ Keys { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessageFormat&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessageFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keys collection</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (Microsoft.Lync.Model.Room.RoomMessageFormat key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Remove(valuetype Microsoft.Lync.Model.Room.RoomMessageFormat key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.Remove(Microsoft.Lync.Model.Room.RoomMessageFormat)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (key As RoomMessageFormat)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(Microsoft::Lync::Model::Room::RoomMessageFormat key);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Lync.Model.Room.RoomMessageFormat" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>Tries to remove a value based on the key.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAll">
+      <MemberSignature Language="C#" Value="public void RemoveAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAll() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.RemoveAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAll ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes all values.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>Tries to remove a value based on the index.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoryTitle">
+      <MemberSignature Language="C#" Value="public string StoryTitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StoryTitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.StoryTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property StoryTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StoryTitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The title of a story message.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns an empty string when the message type is not Story.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (Microsoft.Lync.Model.Room.RoomMessageFormat key, out object itemValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(valuetype Microsoft.Lync.Model.Room.RoomMessageFormat key, [out] object&amp; itemValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.TryGetValue(Microsoft.Lync.Model.Room.RoomMessageFormat,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As RoomMessageFormat, ByRef itemValue As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Lync::Model::Room::RoomMessageFormat key, [Runtime::InteropServices::Out] System::Object ^ % itemValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Lync.Model.Room.RoomMessageFormat" />
+        <Parameter Name="itemValue" Type="System.Object&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="itemValue">To be added.</param>
+        <summary>Tries to find a value for the given key.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Room.RoomMessageType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Room.RoomMessageType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As RoomMessageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomMessageType Type { Microsoft::Lync::Model::Room::RoomMessageType get(); void set(Microsoft::Lync::Model::Room::RoomMessageType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Puts the room message type</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;object&gt; Values { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;object&gt; Values" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Values" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Values As IList(Of Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::Object ^&gt; ^ Values { System::Collections::Generic::IList&lt;System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Values collection</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

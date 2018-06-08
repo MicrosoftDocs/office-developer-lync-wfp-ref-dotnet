@@ -1,0 +1,77 @@
+﻿<Type Name="PopupPlacementMode" FullName="Microsoft.Lync.Controls.PopupPlacementMode">
+  <TypeSignature Language="C#" Value="public enum PopupPlacementMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PopupPlacementMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.PopupPlacementMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PopupPlacementMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PopupPlacementMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Reserved for internal use.             Specifies the relative position in which to display a popup contact card.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="Left" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PopupPlacementMode Left = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PopupPlacementMode.Left" />
+      <MemberSignature Language="VB.NET" Value="Left" />
+      <MemberSignature Language="C++ CLI" Value="Left" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PopupPlacementMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             By default, put the card to the left of the Placement target and align their bottom edges.               If there is no room left, move it right             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftAndVerticallyCentered">
+      <MemberSignature Language="C#" Value="LeftAndVerticallyCentered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PopupPlacementMode LeftAndVerticallyCentered = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PopupPlacementMode.LeftAndVerticallyCentered" />
+      <MemberSignature Language="VB.NET" Value="LeftAndVerticallyCentered" />
+      <MemberSignature Language="C++ CLI" Value="LeftAndVerticallyCentered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PopupPlacementMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             By default, put the card to the left of the Placement target and align the middle of the card              and the <see cref="PlacementTarget" />.              If there is no room left, move it right             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="Top" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PopupPlacementMode Top = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PopupPlacementMode.Top" />
+      <MemberSignature Language="VB.NET" Value="Top" />
+      <MemberSignature Language="C++ CLI" Value="Top" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PopupPlacementMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             By default, put the card above the Placement target and align their left edges.               If there is no room above, move it below             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

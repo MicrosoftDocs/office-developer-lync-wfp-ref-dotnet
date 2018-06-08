@@ -1,0 +1,139 @@
+﻿<Type Name="InstantMessageCapabilities" FullName="Microsoft.Lync.Model.Conversation.InstantMessageCapabilities">
+  <TypeSignature Language="C#" Value="public enum InstantMessageCapabilities" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed InstantMessageCapabilities extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.InstantMessageCapabilities" />
+  <TypeSignature Language="VB.NET" Value="Public Enum InstantMessageCapabilities" />
+  <TypeSignature Language="C++ CLI" Value="public enum class InstantMessageCapabilities" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the InstantMessage Capabilities</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CanRenderGif">
+      <MemberSignature Language="C#" Value="CanRenderGif" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.InstantMessageCapabilities CanRenderGif = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageCapabilities.CanRenderGif" />
+      <MemberSignature Language="VB.NET" Value="CanRenderGif" />
+      <MemberSignature Language="C++ CLI" Value="CanRenderGif" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.InstantMessageCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Supports GIF format.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CanRenderHtml">
+      <MemberSignature Language="C#" Value="CanRenderHtml" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.InstantMessageCapabilities CanRenderHtml = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageCapabilities.CanRenderHtml" />
+      <MemberSignature Language="VB.NET" Value="CanRenderHtml" />
+      <MemberSignature Language="C++ CLI" Value="CanRenderHtml" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.InstantMessageCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Supports hypertext markup language (HTML) format.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CanRenderIsf">
+      <MemberSignature Language="C#" Value="CanRenderIsf" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.InstantMessageCapabilities CanRenderIsf = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageCapabilities.CanRenderIsf" />
+      <MemberSignature Language="VB.NET" Value="CanRenderIsf" />
+      <MemberSignature Language="C++ CLI" Value="CanRenderIsf" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.InstantMessageCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Supports ISF format.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CanRenderRtf">
+      <MemberSignature Language="C#" Value="CanRenderRtf" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.InstantMessageCapabilities CanRenderRtf = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageCapabilities.CanRenderRtf" />
+      <MemberSignature Language="VB.NET" Value="CanRenderRtf" />
+      <MemberSignature Language="C++ CLI" Value="CanRenderRtf" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.InstantMessageCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Supports RTF format.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.InstantMessageCapabilities Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageCapabilities.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.InstantMessageCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SupportMime">
+      <MemberSignature Language="C#" Value="SupportMime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.InstantMessageCapabilities SupportMime = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageCapabilities.SupportMime" />
+      <MemberSignature Language="VB.NET" Value="SupportMime" />
+      <MemberSignature Language="C++ CLI" Value="SupportMime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.InstantMessageCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Supports MIME format.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

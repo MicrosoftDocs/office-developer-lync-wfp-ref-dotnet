@@ -1,0 +1,58 @@
+﻿<Type Name="ContactLayoutOption" FullName="Microsoft.Lync.Controls.ContactLayoutOption">
+  <TypeSignature Language="C#" Value="public enum ContactLayoutOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactLayoutOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactLayoutOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactLayoutOption" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactLayoutOption" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Possible layout views for <see cref="T:Microsoft.Lync.Controls.ContactList" /> and <see cref="T:Microsoft.Lync.Controls.CustomContactList" /> controls.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OneLine">
+      <MemberSignature Language="C#" Value="OneLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactLayoutOption OneLine = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactLayoutOption.OneLine" />
+      <MemberSignature Language="VB.NET" Value="OneLine" />
+      <MemberSignature Language="C++ CLI" Value="OneLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactLayoutOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             One line layout             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TwoLines">
+      <MemberSignature Language="C#" Value="TwoLines" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.ContactLayoutOption TwoLines = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactLayoutOption.TwoLines" />
+      <MemberSignature Language="VB.NET" Value="TwoLines" />
+      <MemberSignature Language="C++ CLI" Value="TwoLines" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.ContactLayoutOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Two lines layout             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,20 @@
+﻿<Type Name="ConversationWindowNeedsAttentionEventArgs" FullName="Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsAttentionEventArgs">
+  <TypeSignature Language="C#" Value="public class ConversationWindowNeedsAttentionEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationWindowNeedsAttentionEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsAttentionEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationWindowNeedsAttentionEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationWindowNeedsAttentionEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the state of a ConversationWindowNeedsAttention event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

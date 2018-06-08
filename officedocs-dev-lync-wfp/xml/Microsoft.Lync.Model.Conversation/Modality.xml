@@ -1,0 +1,804 @@
+﻿<Type Name="Modality" FullName="Microsoft.Lync.Model.Conversation.Modality">
+  <TypeSignature Language="C#" Value="public abstract class Modality : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Modality extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Modality" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Modality&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Modality abstract : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Modality is the base class for any modality, including InstantMessageModality and AVModality.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accept">
+      <MemberSignature Language="C#" Value="public void Accept ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Accept() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.Accept" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Accept ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Accept();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Accept an offer for the modality.</summary>
+        <remarks>
+          <para>Call Accept() on the participant modality that made the offer. For exa mple, when a remote participant offers to share a whiteboard in a meeting, call ContentSharingModality.Accept() on the ContentSharingModality object in the remote participant modalities collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionAvailabilityChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityActionAvailabilityChangedEventArgs&gt; ActionAvailabilityChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ModalityActionAvailabilityChangedEventArgs&gt; ActionAvailabilityChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Modality.ActionAvailabilityChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ModalityActionAvailabilityChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityActionAvailabilityChangedEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityActionAvailabilityChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when an action availability changes.</summary>
+        <remarks>
+          <para>When you want to be advised that an action to be taken is on a single participant modality instead of the conversation modality, register for this event on Participant.Modalities[ModalityType].  For example, if the availability of a controller action changes on a conversation participant's ApplicationSharingModality, you get the event if you have registered for it on the modality at Participant.Modalities[ModalityType.ApplicationSharing].  Note: You must always register for this event on the conversation Modality in addition to event registration on any participant's modalty.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginConnect">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginConnect (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginConnect(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginConnect(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginConnect (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginConnect(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Activates a conversation modality by connecting the modality to its associated local and remote endpoints. 
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginConsultativeTransfer">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginConsultativeTransfer (Microsoft.Lync.Model.Conversation.Conversation conversation, Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions options, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginConsultativeTransfer(class Microsoft.Lync.Model.Conversation.Conversation conversation, valuetype Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions options, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginConsultativeTransfer(Microsoft.Lync.Model.Conversation.Conversation,Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginConsultativeTransfer(Microsoft::Lync::Model::Conversation::Conversation ^ conversation, Microsoft::Lync::Model::Conversation::AudioVideo::TransferOptions options, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversation" Type="Microsoft.Lync.Model.Conversation.Conversation" />
+        <Parameter Name="options" Type="Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="conversation">To be added.</param>
+        <param name="options">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Transfers a connected modality to an existing conversation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDisconnect">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginDisconnect (Microsoft.Lync.Model.Conversation.ModalityDisconnectReason reason, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginDisconnect(valuetype Microsoft.Lync.Model.Conversation.ModalityDisconnectReason reason, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginDisconnect(Microsoft.Lync.Model.Conversation.ModalityDisconnectReason,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginDisconnect (reason As ModalityDisconnectReason, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginDisconnect(Microsoft::Lync::Model::Conversation::ModalityDisconnectReason reason, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reason" Type="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="reason">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Disconnects from the modality.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginForward">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginForward (Microsoft.Lync.Model.Contact contact, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginForward(class Microsoft.Lync.Model.Contact contact, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginForward(Microsoft.Lync.Model.Contact,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginForward(Microsoft::Lync::Model::Contact ^ contact, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Lync.Model.Contact" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contact">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Forwards an active conversation (in ringing state) to a specified remote contact endpoint. 
+            You cannot forward conversations between the local contacts endpoints.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Available only for the AvModality.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginForward">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginForward (Microsoft.Lync.Model.ContactEndpoint endpoint, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginForward(class Microsoft.Lync.Model.ContactEndpoint endpoint, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginForward(Microsoft.Lync.Model.ContactEndpoint,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginForward (endpoint As ContactEndpoint, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginForward(Microsoft::Lync::Model::ContactEndpoint ^ endpoint, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpoint" Type="Microsoft.Lync.Model.ContactEndpoint" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Forwards an active conversation to a specified remote contact endpoint. You cannot forward
+            conversations between the local contacts endpoints.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Available only for the AvModality.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginHold">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginHold (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginHold(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginHold(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginHold (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginHold(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Places the modality on hold.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRetrieve">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginRetrieve (AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginRetrieve(class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginRetrieve(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginRetrieve (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRetrieve(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Retrives a held modality.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSetProperty">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSetProperty (Microsoft.Lync.Model.Conversation.ModalityProperty propertyType, object propertyValue, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSetProperty(valuetype Microsoft.Lync.Model.Conversation.ModalityProperty propertyType, object propertyValue, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginSetProperty(Microsoft.Lync.Model.Conversation.ModalityProperty,System.Object,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSetProperty (propertyType As ModalityProperty, propertyValue As Object, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetProperty(Microsoft::Lync::Model::Conversation::ModalityProperty propertyType, System::Object ^ propertyValue, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyType" Type="Microsoft.Lync.Model.Conversation.ModalityProperty" />
+        <Parameter Name="propertyValue" Type="System.Object" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyType">To be added.</param>
+        <param name="propertyValue">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Sets a property associated with this modality.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginTransfer">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginTransfer (Microsoft.Lync.Model.Contact contact, Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions options, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginTransfer(class Microsoft.Lync.Model.Contact contact, valuetype Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions options, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginTransfer(Microsoft.Lync.Model.Contact,Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginTransfer(Microsoft::Lync::Model::Contact ^ contact, Microsoft::Lync::Model::Conversation::AudioVideo::TransferOptions options, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Lync.Model.Contact" />
+        <Parameter Name="options" Type="Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contact">To be added.</param>
+        <param name="options">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Transfers an active conversation to a specified remote contact. 
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Available only for the AvModality.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginTransfer">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginTransfer (Microsoft.Lync.Model.ContactEndpoint endpoint, Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions options, AsyncCallback modalityCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginTransfer(class Microsoft.Lync.Model.ContactEndpoint endpoint, valuetype Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions options, class System.AsyncCallback modalityCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginTransfer(Microsoft.Lync.Model.ContactEndpoint,Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginTransfer (endpoint As ContactEndpoint, options As TransferOptions, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginTransfer(Microsoft::Lync::Model::ContactEndpoint ^ endpoint, Microsoft::Lync::Model::Conversation::AudioVideo::TransferOptions options, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpoint" Type="Microsoft.Lync.Model.ContactEndpoint" />
+        <Parameter Name="options" Type="Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions" />
+        <Parameter Name="modalityCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint">To be added.</param>
+        <param name="options">To be added.</param>
+        <param name="modalityCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Transfer an active conversation to a specified remote contact endpoint. You cannot transfer
+            a conversation to another local contact endpoint.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Available only for the AvModality.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanInvoke">
+      <MemberSignature Language="C#" Value="public bool CanInvoke (Microsoft.Lync.Model.Conversation.ModalityAction action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanInvoke(valuetype Microsoft.Lync.Model.Conversation.ModalityAction action) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.CanInvoke(Microsoft.Lync.Model.Conversation.ModalityAction)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ModalityAction) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Conversation::ModalityAction action);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="action" Type="Microsoft.Lync.Model.Conversation.ModalityAction" />
+      </Parameters>
+      <Docs>
+        <param name="action">To be added.</param>
+        <summary> 
+            Returns a flag indicating whether a specific action is available.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanSetProperty">
+      <MemberSignature Language="C#" Value="public bool CanSetProperty (Microsoft.Lync.Model.Conversation.ModalityProperty modalityProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanSetProperty(valuetype Microsoft.Lync.Model.Conversation.ModalityProperty modalityProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.CanSetProperty(Microsoft.Lync.Model.Conversation.ModalityProperty)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetProperty(Microsoft::Lync::Model::Conversation::ModalityProperty modalityProperty);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityProperty" Type="Microsoft.Lync.Model.Conversation.ModalityProperty" />
+      </Parameters>
+      <Docs>
+        <param name="modalityProperty">To be added.</param>
+        <summary> 
+            Test whether the property can be set to the modality.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Conversation Conversation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Conversation Conversation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.Conversation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversation As Conversation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Conversation ^ Conversation { Microsoft::Lync::Model::Conversation::Conversation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Conversation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the associated conversation object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndConnect">
+      <MemberSignature Language="C#" Value="public void EndConnect (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndConnect(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndConnect(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndConnect (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndConnect(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Connects to the modality.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndConsultativeTransfer">
+      <MemberSignature Language="C#" Value="public void EndConsultativeTransfer (out Microsoft.Lync.Model.Conversation.ModalityState targetState, out System.Collections.Generic.IList&lt;string&gt; contextProperties, IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndConsultativeTransfer([out] valuetype Microsoft.Lync.Model.Conversation.ModalityState&amp; targetState, [out] class System.Collections.Generic.IList`1&lt;string&gt;&amp; contextProperties, class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndConsultativeTransfer(Microsoft.Lync.Model.Conversation.ModalityState@,System.Collections.Generic.IList{System.String}@,System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndConsultativeTransfer (ByRef targetState As ModalityState, ByRef contextProperties As IList(Of String), asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndConsultativeTransfer([Runtime::InteropServices::Out] Microsoft::Lync::Model::Conversation::ModalityState % targetState, [Runtime::InteropServices::Out] System::Collections::Generic::IList&lt;System::String ^&gt; ^ % contextProperties, IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetState" Type="Microsoft.Lync.Model.Conversation.ModalityState&amp;" RefType="out" />
+        <Parameter Name="contextProperties" Type="System.Collections.Generic.IList&lt;System.String&gt;&amp;" RefType="out" />
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="targetState">To be added.</param>
+        <param name="contextProperties">To be added.</param>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Transfers a connected modality to an existing conversation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDisconnect">
+      <MemberSignature Language="C#" Value="public void EndDisconnect (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndDisconnect(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndDisconnect(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndDisconnect (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDisconnect(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Disconnects from the modality.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndForward">
+      <MemberSignature Language="C#" Value="public void EndForward (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndForward(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndForward(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndForward (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndForward(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Forwards a connecting incoming modality to a different location.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndHold">
+      <MemberSignature Language="C#" Value="public void EndHold (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndHold(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndHold(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndHold (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndHold(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Places the modality on hold.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Endpoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ContactEndpoint Endpoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.ContactEndpoint Endpoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.Endpoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property Endpoint As ContactEndpoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactEndpoint ^ Endpoint { Microsoft::Lync::Model::ContactEndpoint ^ get(); void set(Microsoft::Lync::Model::ContactEndpoint ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpoint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the collaboration endpoint that is used by the modality.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRetrieve">
+      <MemberSignature Language="C#" Value="public void EndRetrieve (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRetrieve(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndRetrieve(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndRetrieve (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRetrieve(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Retrives a held modality.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSetProperty">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ModalityProperty EndSetProperty (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Lync.Model.Conversation.ModalityProperty EndSetProperty(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndSetProperty(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndSetProperty (asyncResult As IAsyncResult) As ModalityProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::ModalityProperty EndSetProperty(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Sets a property associated with this modality.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTransfer">
+      <MemberSignature Language="C#" Value="public void EndTransfer (out Microsoft.Lync.Model.Conversation.ModalityState targetState, out System.Collections.Generic.IList&lt;string&gt; contextProperties, IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndTransfer([out] valuetype Microsoft.Lync.Model.Conversation.ModalityState&amp; targetState, [out] class System.Collections.Generic.IList`1&lt;string&gt;&amp; contextProperties, class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndTransfer(Microsoft.Lync.Model.Conversation.ModalityState@,System.Collections.Generic.IList{System.String}@,System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndTransfer (ByRef targetState As ModalityState, ByRef contextProperties As IList(Of String), asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndTransfer([Runtime::InteropServices::Out] Microsoft::Lync::Model::Conversation::ModalityState % targetState, [Runtime::InteropServices::Out] System::Collections::Generic::IList&lt;System::String ^&gt; ^ % contextProperties, IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetState" Type="Microsoft.Lync.Model.Conversation.ModalityState&amp;" RefType="out" />
+        <Parameter Name="contextProperties" Type="System.Collections.Generic.IList&lt;System.String&gt;&amp;" RefType="out" />
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="targetState">To be added.</param>
+        <param name="contextProperties">To be added.</param>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Transfers a connected modality to a different location.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~Modality ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!Modality ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModalityStateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs&gt; ModalityStateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs&gt; ModalityStateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Modality.ModalityStateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ModalityStateChanged As EventHandler(Of ModalityStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityStateChangedEventArgs ^&gt; ^ ModalityStateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when modality state changes</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Participant">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Participant Participant { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Participant Participant" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.Participant" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Participant As Participant" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ Participant { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Participant</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the associated participant object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ModalityProperty,object&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Conversation.ModalityProperty, object&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ModalityProperty, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ModalityProperty,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of modality properties.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reject">
+      <MemberSignature Language="C#" Value="public void Reject (Microsoft.Lync.Model.Conversation.ModalityDisconnectReason reason);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reject(valuetype Microsoft.Lync.Model.Conversation.ModalityDisconnectReason reason) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.Reject(Microsoft.Lync.Model.Conversation.ModalityDisconnectReason)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reject (reason As ModalityDisconnectReason)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reject(Microsoft::Lync::Model::Conversation::ModalityDisconnectReason reason);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reason" Type="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason" />
+      </Parameters>
+      <Docs>
+        <param name="reason">To be added.</param>
+        <summary> 
+            Reject an offer for the modality.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.ModalityState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Conversation.ModalityState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ModalityState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ModalityState State { Microsoft::Lync::Model::Conversation::ModalityState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ModalityState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the modality state.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

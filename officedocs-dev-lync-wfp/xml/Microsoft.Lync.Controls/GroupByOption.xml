@@ -1,0 +1,77 @@
+﻿<Type Name="GroupByOption" FullName="Microsoft.Lync.Controls.GroupByOption">
+  <TypeSignature Language="C#" Value="public enum GroupByOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GroupByOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.GroupByOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum GroupByOption" />
+  <TypeSignature Language="C++ CLI" Value="public enum class GroupByOption" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Grouping options for the <see cref="T:Microsoft.Lync.Controls.ContactList" /> control.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Groups">
+      <MemberSignature Language="C#" Value="Groups" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.GroupByOption Groups = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.GroupByOption.Groups" />
+      <MemberSignature Language="VB.NET" Value="Groups" />
+      <MemberSignature Language="C++ CLI" Value="Groups" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.GroupByOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Specifies that the list should be grouped by user groups.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Relationship">
+      <MemberSignature Language="C#" Value="Relationship" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.GroupByOption Relationship = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.GroupByOption.Relationship" />
+      <MemberSignature Language="VB.NET" Value="Relationship" />
+      <MemberSignature Language="C++ CLI" Value="Relationship" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.GroupByOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Specifies that the list should be grouped by relationship.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="Status" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.GroupByOption Status = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.GroupByOption.Status" />
+      <MemberSignature Language="VB.NET" Value="Status" />
+      <MemberSignature Language="C++ CLI" Value="Status" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.GroupByOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Specifies that the list should be grouped by status.             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,144 @@
+﻿<Type Name="ConversationManager" FullName="Microsoft.Lync.Model.Conversation.ConversationManager">
+  <TypeSignature Language="C#" Value="public class ConversationManager : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationManager extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationManager&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationManager : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Manages conversation creation and removal, retrieves the collection of the conversations, joins a conference, and other conversation collection-related actions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddConversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Conversation AddConversation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Conversation.Conversation AddConversation() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.ConversationManager.AddConversation" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddConversation () As Conversation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Conversation ^ AddConversation();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Conversation</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Adds a new outgoing conversation instance.</summary>
+        <returns>Microsoft.Lync.Model.Conversation.Conversation</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationAdded">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt; ConversationAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt; ConversationAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.ConversationManager.ConversationAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ConversationAdded As EventHandler(Of ConversationManagerEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationManagerEventArgs ^&gt; ^ ConversationAdded;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a conversation add operation completes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationRemoved">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt; ConversationRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt; ConversationRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.ConversationManager.ConversationRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ConversationRemoved As EventHandler(Of ConversationManagerEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationManagerEventArgs ^&gt; ^ ConversationRemoved;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a conversation remove operation completes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conversations">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Conversation&gt; Conversations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Conversation.Conversation&gt; Conversations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConversationManager.Conversations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversations As IList(Of Conversation)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Conversation ^&gt; ^ Conversations { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Conversation ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Conversation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get the collection of conversations.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~ConversationManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.ConversationManager.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!ConversationManager ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JoinConference">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Conversation JoinConference (string conferenceUrl);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Conversation.Conversation JoinConference(string conferenceUrl) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.ConversationManager.JoinConference(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function JoinConference (conferenceUrl As String) As Conversation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Conversation ^ JoinConference(System::String ^ conferenceUrl);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Conversation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conferenceUrl" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="conferenceUrl">To be added.</param>
+        <summary>Retrieves/Creates a conversation initialized so as to join conference at given URL.</summary>
+        <returns>Microsoft.Lync.Model.Conversation.Conversation</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

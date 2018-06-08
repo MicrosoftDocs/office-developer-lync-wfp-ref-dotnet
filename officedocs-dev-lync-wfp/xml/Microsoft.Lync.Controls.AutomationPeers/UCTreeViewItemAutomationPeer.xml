@@ -1,0 +1,239 @@
+﻿<Type Name="UCTreeViewItemAutomationPeer" FullName="Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer">
+  <TypeSignature Language="C#" Value="public class UCTreeViewItemAutomationPeer : System.Windows.Automation.Peers.TreeViewItemAutomationPeer, System.Windows.Automation.Provider.ISelectionItemProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UCTreeViewItemAutomationPeer extends System.Windows.Automation.Peers.TreeViewItemAutomationPeer implements class System.Windows.Automation.Provider.ISelectionItemProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class UCTreeViewItemAutomationPeer&#xA;Inherits TreeViewItemAutomationPeer&#xA;Implements ISelectionItemProvider" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UCTreeViewItemAutomationPeer : System::Windows::Automation::Peers::TreeViewItemAutomationPeer, System::Windows::Automation::Provider::ISelectionItemProvider" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Windows.Automation.Peers.TreeViewItemAutomationPeer</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Windows.Automation.Provider.ISelectionItemProvider</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>             UCBaseAutomationPeer class             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UCTreeViewItemAutomationPeer (Microsoft.Lync.Controls.UCTreeViewItem control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.UCTreeViewItem control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.#ctor(Microsoft.Lync.Controls.UCTreeViewItem)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As UCTreeViewItem)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UCTreeViewItemAutomationPeer(Microsoft::Lync::Controls::UCTreeViewItem ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.UCTreeViewItem" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>             Constructor             </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">Thrown when <see cref="control" /> parameter is null</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAutomationIdCore">
+      <MemberSignature Language="C#" Value="protected override string GetAutomationIdCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetAutomationIdCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.GetAutomationIdCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetAutomationIdCore () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetAutomationIdCore();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             GetAutomationIdCore override.  Return a control-specific string to identify the type of the control             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClassNameCore">
+      <MemberSignature Language="C#" Value="protected override string GetClassNameCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetClassNameCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.GetClassNameCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetClassNameCore () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetClassNameCore();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             GetClassNameCore override.  Return a control-specific string to identify the type of the control.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNameCore">
+      <MemberSignature Language="C#" Value="protected override string GetNameCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetNameCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.GetNameCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetNameCore();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             GetNameCore override.  Return an instance-specific string to identify the control.             Each control will override this to provide an implementation relevant to that control's             available information, and by default it will not be instance-specific.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPattern">
+      <MemberSignature Language="C#" Value="public override object GetPattern (System.Windows.Automation.Peers.PatternInterface patternInterface);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object GetPattern(valuetype System.Windows.Automation.Peers.PatternInterface patternInterface) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.GetPattern(System.Windows.Automation.Peers.PatternInterface)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ GetPattern(System::Windows::Automation::Peers::PatternInterface patternInterface);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="patternInterface" Type="System.Windows.Automation.Peers.PatternInterface" />
+      </Parameters>
+      <Docs>
+        <param name="patternInterface">To be added.</param>
+        <summary>             Override GetPattern             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Windows.Automation.Provider.ISelectionItemProvider.AddToSelection">
+      <MemberSignature Language="C#" Value="void ISelectionItemProvider.AddToSelection ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Windows.Automation.Provider.ISelectionItemProvider.AddToSelection() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.System#Windows#Automation#Provider#ISelectionItemProvider#AddToSelection" />
+      <MemberSignature Language="VB.NET" Value="Sub AddToSelection () Implements ISelectionItemProvider.AddToSelection" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void System.Windows.Automation.Provider.ISelectionItemProvider.AddToSelection() = System::Windows::Automation::Provider::ISelectionItemProvider::AddToSelection;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Automation.Provider.ISelectionItemProvider.AddToSelection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Adds the current element to the collection of selected items.             </summary>
+        <remarks>
+          <para>             This API supports the .NET Framework infrastructure and is not              intended to be used directly from your code.             </para>
+          <para />
+        </remarks>
+        <exception cref="T:System.InvalidOperationException">Operation cannot be performed</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Windows.Automation.Provider.ISelectionItemProvider.RemoveFromSelection">
+      <MemberSignature Language="C#" Value="void ISelectionItemProvider.RemoveFromSelection ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Windows.Automation.Provider.ISelectionItemProvider.RemoveFromSelection() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.System#Windows#Automation#Provider#ISelectionItemProvider#RemoveFromSelection" />
+      <MemberSignature Language="VB.NET" Value="Sub RemoveFromSelection () Implements ISelectionItemProvider.RemoveFromSelection" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void System.Windows.Automation.Provider.ISelectionItemProvider.RemoveFromSelection() = System::Windows::Automation::Provider::ISelectionItemProvider::RemoveFromSelection;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Automation.Provider.ISelectionItemProvider.RemoveFromSelection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Removes the current element from the collection of selected items.             </summary>
+        <remarks>
+          <para>             This API supports the .NET Framework infrastructure and is not              intended to be used directly from your code.             </para>
+          <para />
+        </remarks>
+        <exception cref="T:System.InvalidOperationException">Operation cannot be performed</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Windows.Automation.Provider.ISelectionItemProvider.Select">
+      <MemberSignature Language="C#" Value="void ISelectionItemProvider.Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Windows.Automation.Provider.ISelectionItemProvider.Select() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.System#Windows#Automation#Provider#ISelectionItemProvider#Select" />
+      <MemberSignature Language="VB.NET" Value="Sub Select () Implements ISelectionItemProvider.Select" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void System.Windows.Automation.Provider.ISelectionItemProvider.Select() = System::Windows::Automation::Provider::ISelectionItemProvider::Select;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Automation.Provider.ISelectionItemProvider.Select</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Clears any selection and then selects the current element.             </summary>
+        <remarks>
+          <para>             This API supports the .NET Framework infrastructure and is not              intended to be used directly from your code.             </para>
+          <para />
+        </remarks>
+        <exception cref="T:System.InvalidOperationException">Operation cannot be performed</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Windows.Automation.Provider.ISelectionItemProvider.SelectionContainer">
+      <MemberSignature Language="C#" Value="System.Windows.Automation.Provider.IRawElementProviderSimple System.Windows.Automation.Provider.ISelectionItemProvider.SelectionContainer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Automation.Provider.IRawElementProviderSimple System.Windows.Automation.Provider.ISelectionItemProvider.SelectionContainer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AutomationPeers.UCTreeViewItemAutomationPeer.System#Windows#Automation#Provider#ISelectionItemProvider#SelectionContainer" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property SelectionContainer As IRawElementProviderSimple Implements ISelectionItemProvider.SelectionContainer" />
+      <MemberSignature Language="C++ CLI" Value="property System::Windows::Automation::Provider::IRawElementProviderSimple ^ System.Windows.Automation.Provider.ISelectionItemProvider.SelectionContainer { System::Windows::Automation::Provider::IRawElementProviderSimple ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Windows.Automation.Provider.ISelectionItemProvider.SelectionContainer</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Provider.IRawElementProviderSimple</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the UI automation provider that implements             <see cref="T:System.Windows.Automation.Provider.ISelectionProvider" />             and acts as the container for the calling object.             </summary>
+        <value>The UI automation provider.</value>
+        <remarks>
+          <para>             This API supports the .NET Framework infrastructure and is not              intended to be used directly from your code.             </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

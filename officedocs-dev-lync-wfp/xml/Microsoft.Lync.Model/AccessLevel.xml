@@ -1,0 +1,153 @@
+﻿<Type Name="AccessLevel" FullName="Microsoft.Lync.Model.AccessLevel">
+  <TypeSignature Language="C#" Value="public enum AccessLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AccessLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.AccessLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AccessLevel" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AccessLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the access entry levels.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Blocked">
+      <MemberSignature Language="C#" Value="Blocked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.AccessLevel Blocked = int32(32000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Blocked" />
+      <MemberSignature Language="VB.NET" Value="Blocked" />
+      <MemberSignature Language="C++ CLI" Value="Blocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>32000</MemberValue>
+      <Docs>
+        <summary>The access level assigned to users who have been blocked from accessing contact information.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Colleague">
+      <MemberSignature Language="C#" Value="Colleague" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.AccessLevel Colleague = int32(200)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Colleague" />
+      <MemberSignature Language="VB.NET" Value="Colleague" />
+      <MemberSignature Language="C++ CLI" Value="Colleague" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>200</MemberValue>
+      <Docs>
+        <summary>The access level of a user in the same enterprise.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.AccessLevel Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The access level all users have by default.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="External">
+      <MemberSignature Language="C#" Value="External" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.AccessLevel External = int32(100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.External" />
+      <MemberSignature Language="VB.NET" Value="External" />
+      <MemberSignature Language="C++ CLI" Value="External" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>100</MemberValue>
+      <Docs>
+        <summary>The access level of a public user.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Friends">
+      <MemberSignature Language="C#" Value="Friends" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.AccessLevel Friends = int32(400)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Friends" />
+      <MemberSignature Language="VB.NET" Value="Friends" />
+      <MemberSignature Language="C++ CLI" Value="Friends" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>400</MemberValue>
+      <Docs>
+        <summary>The highest access level, assigned to friends.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.AccessLevel Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Workgroup">
+      <MemberSignature Language="C#" Value="Workgroup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.AccessLevel Workgroup = int32(300)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Workgroup" />
+      <MemberSignature Language="VB.NET" Value="Workgroup" />
+      <MemberSignature Language="C++ CLI" Value="Workgroup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.AccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>300</MemberValue>
+      <Docs>
+        <summary>The access level of users in the same workgroup.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

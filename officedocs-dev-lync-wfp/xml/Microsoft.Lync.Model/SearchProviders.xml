@@ -1,0 +1,196 @@
+﻿<Type Name="SearchProviders" FullName="Microsoft.Lync.Model.SearchProviders">
+  <TypeSignature Language="C#" Value="public enum SearchProviders" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchProviders extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchProviders" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchProviders" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchProviders" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enumerates the search provider types.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Searches in the default location Obsolete.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeService">
+      <MemberSignature Language="C#" Value="ExchangeService" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders ExchangeService = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.ExchangeService" />
+      <MemberSignature Language="VB.NET" Value="ExchangeService" />
+      <MemberSignature Language="C++ CLI" Value="ExchangeService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Searches in the Exchange Service contacts. Obsolete.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Expert">
+      <MemberSignature Language="C#" Value="Expert" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders Expert = int32(65535)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.Expert" />
+      <MemberSignature Language="VB.NET" Value="Expert" />
+      <MemberSignature Language="C++ CLI" Value="Expert" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>65535</MemberValue>
+      <Docs>
+        <summary>Expert search by keywords.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalAddressList">
+      <MemberSignature Language="C#" Value="GlobalAddressList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders GlobalAddressList = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.GlobalAddressList" />
+      <MemberSignature Language="VB.NET" Value="GlobalAddressList" />
+      <MemberSignature Language="C++ CLI" Value="GlobalAddressList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Searches in the Global Address List. Obsolete.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="OtherContacts">
+      <MemberSignature Language="C#" Value="OtherContacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders OtherContacts = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.OtherContacts" />
+      <MemberSignature Language="VB.NET" Value="OtherContacts" />
+      <MemberSignature Language="C++ CLI" Value="OtherContacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Searches for Contacts that are neither in custom groups nor in other address lists. Obsolete.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonalContacts">
+      <MemberSignature Language="C#" Value="PersonalContacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders PersonalContacts = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.PersonalContacts" />
+      <MemberSignature Language="VB.NET" Value="PersonalContacts" />
+      <MemberSignature Language="C++ CLI" Value="PersonalContacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Searches in the Windows Address Book and in the Exchange Service contacts. Obsolete</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders Reserved1 = int32(65534)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>65534</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="WindowsAddressBook">
+      <MemberSignature Language="C#" Value="WindowsAddressBook" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.SearchProviders WindowsAddressBook = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.WindowsAddressBook" />
+      <MemberSignature Language="VB.NET" Value="WindowsAddressBook" />
+      <MemberSignature Language="C++ CLI" Value="WindowsAddressBook" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviders</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Searches in the Windows Address Book. Obsolete.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

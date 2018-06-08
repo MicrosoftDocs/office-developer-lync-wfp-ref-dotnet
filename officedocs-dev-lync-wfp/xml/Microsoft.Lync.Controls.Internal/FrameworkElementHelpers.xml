@@ -1,0 +1,274 @@
+﻿<Type Name="FrameworkElementHelpers" FullName="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers">
+  <TypeSignature Language="C#" Value="public static class FrameworkElementHelpers" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit FrameworkElementHelpers extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" />
+  <TypeSignature Language="VB.NET" Value="Public Module FrameworkElementHelpers" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FrameworkElementHelpers abstract sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BindToControlDependencyProperty">
+      <MemberSignature Language="C#" Value="public static void BindToControlDependencyProperty (this System.Windows.FrameworkElement targetControl, System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, System.Windows.DependencyProperty targetDependencyProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BindToControlDependencyProperty(class System.Windows.FrameworkElement targetControl, class System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, class System.Windows.DependencyProperty targetDependencyProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.String,System.Windows.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BindToControlDependencyProperty (targetControl As FrameworkElement, sourceControl As FrameworkElement, sourceDependencyPropertyName As String, targetDependencyProperty As DependencyProperty)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToControlDependencyProperty(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ sourceControl, System::String ^ sourceDependencyPropertyName, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetControl" Type="System.Windows.FrameworkElement" RefType="this" />
+        <Parameter Name="sourceControl" Type="System.Windows.FrameworkElement" />
+        <Parameter Name="sourceDependencyPropertyName" Type="System.String" />
+        <Parameter Name="targetDependencyProperty" Type="System.Windows.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="targetControl">To be added.</param>
+        <param name="sourceControl">To be added.</param>
+        <param name="sourceDependencyPropertyName">To be added.</param>
+        <param name="targetDependencyProperty">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToControlDependencyProperty">
+      <MemberSignature Language="C#" Value="public static void BindToControlDependencyProperty (this System.Windows.FrameworkElement targetControl, System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, System.Windows.Data.BindingMode bindingMode, System.Windows.DependencyProperty targetDependencyProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BindToControlDependencyProperty(class System.Windows.FrameworkElement targetControl, class System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, valuetype System.Windows.Data.BindingMode bindingMode, class System.Windows.DependencyProperty targetDependencyProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.String,System.Windows.Data.BindingMode,System.Windows.DependencyProperty)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToControlDependencyProperty(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ sourceControl, System::String ^ sourceDependencyPropertyName, System::Windows::Data::BindingMode bindingMode, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetControl" Type="System.Windows.FrameworkElement" RefType="this" />
+        <Parameter Name="sourceControl" Type="System.Windows.FrameworkElement" />
+        <Parameter Name="sourceDependencyPropertyName" Type="System.String" />
+        <Parameter Name="bindingMode" Type="System.Windows.Data.BindingMode" />
+        <Parameter Name="targetDependencyProperty" Type="System.Windows.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="targetControl">To be added.</param>
+        <param name="sourceControl">To be added.</param>
+        <param name="sourceDependencyPropertyName">To be added.</param>
+        <param name="bindingMode">To be added.</param>
+        <param name="targetDependencyProperty">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToProperty">
+      <MemberSignature Language="C#" Value="public static void BindToProperty (this System.Windows.FrameworkElement targetControl, object sourceObject, string sourcePropertyPath, System.Windows.DependencyProperty targetDependencyProperty);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BindToProperty(class System.Windows.FrameworkElement targetControl, object sourceObject, string sourcePropertyPath, class System.Windows.DependencyProperty targetDependencyProperty) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToProperty(System.Windows.FrameworkElement,System.Object,System.String,System.Windows.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BindToProperty (targetControl As FrameworkElement, sourceObject As Object, sourcePropertyPath As String, targetDependencyProperty As DependencyProperty)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToProperty(System::Windows::FrameworkElement ^ targetControl, System::Object ^ sourceObject, System::String ^ sourcePropertyPath, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetControl" Type="System.Windows.FrameworkElement" RefType="this" />
+        <Parameter Name="sourceObject" Type="System.Object" />
+        <Parameter Name="sourcePropertyPath" Type="System.String" />
+        <Parameter Name="targetDependencyProperty" Type="System.Windows.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <param name="targetControl">To be added.</param>
+        <param name="sourceObject">To be added.</param>
+        <param name="sourcePropertyPath">To be added.</param>
+        <param name="targetDependencyProperty">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindParent&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T FindParent&lt;T&gt; (this System.Windows.FrameworkElement element) where T : System.Windows.FrameworkElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T FindParent&lt;(class System.Windows.FrameworkElement) T&gt;(class System.Windows.FrameworkElement element) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.FindParent``1(System.Windows.FrameworkElement)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FindParent(Of T As FrameworkElement) (element As FrameworkElement) As T" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::FrameworkElement[System::Runtime::CompilerServices::Extension]&#xA; static T FindParent(System::Windows::FrameworkElement ^ element);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>System.Windows.FrameworkElement</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="element" Type="System.Windows.FrameworkElement" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="element">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAncestorValue&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T GetAncestorValue&lt;T&gt; (this System.Windows.DependencyObject reference, System.Windows.DependencyProperty property);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetAncestorValue&lt;T&gt;(class System.Windows.DependencyObject reference, class System.Windows.DependencyProperty property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAncestorValue``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAncestorValue(Of T) (reference As DependencyObject, property As DependencyProperty) As T" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T GetAncestorValue(System::Windows::DependencyObject ^ reference, System::Windows::DependencyProperty ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="reference" Type="System.Windows.DependencyObject" RefType="this" />
+        <Parameter Name="property" Type="System.Windows.DependencyProperty" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="reference">To be added.</param>
+        <param name="property">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOldestParent&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T GetOldestParent&lt;T&gt; (this System.Windows.DependencyObject dependencyObject) where T : System.Windows.DependencyObject;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetOldestParent&lt;(class System.Windows.DependencyObject) T&gt;(class System.Windows.DependencyObject dependencyObject) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetOldestParent``1(System.Windows.DependencyObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject[System::Runtime::CompilerServices::Extension]&#xA; static T GetOldestParent(System::Windows::DependencyObject ^ dependencyObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>System.Windows.DependencyObject</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="dependencyObject" Type="System.Windows.DependencyObject" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="dependencyObject">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInVisualTree">
+      <MemberSignature Language="C#" Value="public static bool IsInVisualTree (this System.Windows.Media.Visual visual);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsInVisualTree(class System.Windows.Media.Visual visual) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsInVisualTree(System.Windows.Media.Visual)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsInVisualTree(System::Windows::Media::Visual ^ visual);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="visual" Type="System.Windows.Media.Visual" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="visual">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsParentOf">
+      <MemberSignature Language="C#" Value="public static bool IsParentOf (this System.Windows.FrameworkElement targetControl, System.Windows.FrameworkElement child);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsParentOf(class System.Windows.FrameworkElement targetControl, class System.Windows.FrameworkElement child) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentOf(System.Windows.FrameworkElement,System.Windows.FrameworkElement)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsParentOf (targetControl As FrameworkElement, child As FrameworkElement) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsParentOf(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ child);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetControl" Type="System.Windows.FrameworkElement" RefType="this" />
+        <Parameter Name="child" Type="System.Windows.FrameworkElement" />
+      </Parameters>
+      <Docs>
+        <param name="targetControl">To be added.</param>
+        <param name="child">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsParentPopup">
+      <MemberSignature Language="C#" Value="public static bool IsParentPopup (this System.Windows.DependencyObject dependencyObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsParentPopup(class System.Windows.DependencyObject dependencyObject) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentPopup(System.Windows.DependencyObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsParentPopup(System::Windows::DependencyObject ^ dependencyObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyObject" Type="System.Windows.DependencyObject" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="dependencyObject">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

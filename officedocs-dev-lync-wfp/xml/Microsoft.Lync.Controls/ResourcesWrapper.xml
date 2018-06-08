@@ -1,0 +1,58 @@
+﻿<Type Name="ResourcesWrapper" FullName="Microsoft.Lync.Controls.ResourcesWrapper">
+  <TypeSignature Language="C#" Value="public class ResourcesWrapper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourcesWrapper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ResourcesWrapper" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResourcesWrapper" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ResourcesWrapper" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Reserved for internal use.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResourcesWrapper ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ResourcesWrapper.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ResourcesWrapper();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resources">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Properties.Resources Resources { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Properties.Resources Resources" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ResourcesWrapper.Resources" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Resources As Resources" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Properties::Resources ^ Resources { Microsoft::Lync::Controls::Properties::Resources ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Properties.Resources</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Facilitates access to the localized <see cref="P:Microsoft.Lync.Controls.ResourcesWrapper.Resources" /> class in XAML templates.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

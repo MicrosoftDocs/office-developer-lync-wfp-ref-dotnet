@@ -1,0 +1,77 @@
+﻿<Type Name="RoomMessageFormat" FullName="Microsoft.Lync.Model.Room.RoomMessageFormat">
+  <TypeSignature Language="C#" Value="public enum RoomMessageFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RoomMessageFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomMessageFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RoomMessageFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RoomMessageFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the possible format types of a room message.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomMessageFormat Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFormat.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PlainText">
+      <MemberSignature Language="C#" Value="PlainText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomMessageFormat PlainText = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFormat.PlainText" />
+      <MemberSignature Language="VB.NET" Value="PlainText" />
+      <MemberSignature Language="C++ CLI" Value="PlainText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The room message in plain text format</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Rtf">
+      <MemberSignature Language="C#" Value="Rtf" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Room.RoomMessageFormat Rtf = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFormat.Rtf" />
+      <MemberSignature Language="VB.NET" Value="Rtf" />
+      <MemberSignature Language="C++ CLI" Value="Rtf" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Room.RoomMessageFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The room message in RTF format.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

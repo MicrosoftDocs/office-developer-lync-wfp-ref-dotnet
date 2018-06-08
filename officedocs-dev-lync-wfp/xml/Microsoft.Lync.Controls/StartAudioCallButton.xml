@@ -1,0 +1,217 @@
+﻿<Type Name="StartAudioCallButton" FullName="Microsoft.Lync.Controls.StartAudioCallButton">
+  <TypeSignature Language="C#" Value="public class StartAudioCallButton : Microsoft.Lync.Controls.ContactButton" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi StartAudioCallButton extends Microsoft.Lync.Controls.ContactButton" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.StartAudioCallButton" />
+  <TypeSignature Language="VB.NET" Value="Public Class StartAudioCallButton&#xA;Inherits ContactButton" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StartAudioCallButton : Microsoft::Lync::Controls::ContactButton" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.ContactButton</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_CommandControl", Type=typeof(Microsoft.Lync.Controls.Internal.SplitButton))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             Use the StartAudioCallButton control in Lync Control              applications to enable the user to open a Lync              conversation window and start a voice conversation between the              user who activated the control, and another user.             </summary>
+    <remarks>
+      <para>             StartAudioCallButton is a split-button control. When clicked,              the left side of the split button places a call to the default              number associated with the contact. The right side of the control              exposes a menu of calling options, such as Lync Call,              Work, and Voice Mail.             </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StartAudioCallButton ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.StartAudioCallButton.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; StartAudioCallButton();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Instantiates a StartAudioCallButton control.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextInformationModels">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.ConversationContextModel&gt; ContextInformationModels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Lync.Controls.Internal.Model.ConversationContextModel&gt; ContextInformationModels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.StartAudioCallButton.ContextInformationModels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContextInformationModels As List(Of ConversationContextModel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Lync::Controls::Internal::Model::ConversationContextModel ^&gt; ^ ContextInformationModels { System::Collections::Generic::List&lt;Microsoft::Lync::Controls::Internal::Model::ConversationContextModel ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.ConversationContextModel&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextInformationModelsProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ContextInformationModelsProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ContextInformationModelsProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.StartAudioCallButton.ContextInformationModelsProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextInformationModelsProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextInformationModelsProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Identifies the <see cref="P:Microsoft.Lync.Controls.StartAudioCallButton.ContextInformationModels" /> property.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnApplyTemplate">
+      <MemberSignature Language="C#" Value="public override void OnApplyTemplate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnApplyTemplate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.StartAudioCallButton.OnApplyTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             When overridden in a derived class, is invoked whenever application code or              internal processes (such as a rebuilding layout pass)              call <see cref="ApplyTemplate" />.              In simplest terms, this means the method is called just before a UI element displays              in an application.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnContextualInformationChanged">
+      <MemberSignature Language="C#" Value="protected override sealed void OnContextualInformationChanged (Microsoft.Lync.Controls.ConversationContextualInfo oldValue, Microsoft.Lync.Controls.ConversationContextualInfo newValue);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnContextualInformationChanged(class Microsoft.Lync.Controls.ConversationContextualInfo oldValue, class Microsoft.Lync.Controls.ConversationContextualInfo newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.StartAudioCallButton.OnContextualInformationChanged(Microsoft.Lync.Controls.ConversationContextualInfo,Microsoft.Lync.Controls.ConversationContextualInfo)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnContextualInformationChanged (oldValue As ConversationContextualInfo, newValue As ConversationContextualInfo)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnContextualInformationChanged(Microsoft::Lync::Controls::ConversationContextualInfo ^ oldValue, Microsoft::Lync::Controls::ConversationContextualInfo ^ newValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldValue" Type="Microsoft.Lync.Controls.ConversationContextualInfo" />
+        <Parameter Name="newValue" Type="Microsoft.Lync.Controls.ConversationContextualInfo" />
+      </Parameters>
+      <Docs>
+        <param name="oldValue">To be added.</param>
+        <param name="newValue">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.StartAudioCallButton.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Returns the <see cref="AutomationPeer" /> object for the StartAudioCallButton control.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartConferenceCallConditionalCommand">
+      <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand StartConferenceCallConditionalCommand { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand StartConferenceCallConditionalCommand" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.StartAudioCallButton.StartConferenceCallConditionalCommand" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartConferenceCallConditionalCommand As ICommand" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ StartConferenceCallConditionalCommand { System::Windows::Input::ICommand ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Input.ICommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>              Reserved for internal use.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnwireModel">
+      <MemberSignature Language="C#" Value="protected override sealed void UnwireModel (Microsoft.Lync.Controls.Internal.Model.IContactModel model);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnwireModel(class Microsoft.Lync.Controls.Internal.Model.IContactModel model) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.StartAudioCallButton.UnwireModel(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwireModel (model As IContactModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwireModel(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ model);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="model" Type="Microsoft.Lync.Controls.Internal.Model.IContactModel" />
+      </Parameters>
+      <Docs>
+        <param name="model">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WireModel">
+      <MemberSignature Language="C#" Value="protected override sealed void WireModel (Microsoft.Lync.Controls.Internal.Model.IContactModel model);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void WireModel(class Microsoft.Lync.Controls.Internal.Model.IContactModel model) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.StartAudioCallButton.WireModel(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WireModel (model As IContactModel)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WireModel(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ model);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="model" Type="Microsoft.Lync.Controls.Internal.Model.IContactModel" />
+      </Parameters>
+      <Docs>
+        <param name="model">To be added.</param>
+        <summary>             Reserved for internal use.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

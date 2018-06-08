@@ -1,0 +1,96 @@
+﻿<Type Name="SyncState" FullName="Microsoft.Lync.Controls.SyncState">
+  <TypeSignature Language="C#" Value="public enum SyncState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SyncState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SyncState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SyncState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SyncState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Enumerated values which identify the synchronization state of the search provider.  See <see cref="T:Microsoft.Lync.Controls.ContactSearch" />.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SyncState Failed = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SyncState.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="C++ CLI" Value="Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SyncState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             Failed             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InProgress">
+      <MemberSignature Language="C#" Value="InProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SyncState InProgress = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SyncState.InProgress" />
+      <MemberSignature Language="VB.NET" Value="InProgress" />
+      <MemberSignature Language="C++ CLI" Value="InProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SyncState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             In progress.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotStarted">
+      <MemberSignature Language="C#" Value="NotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SyncState NotStarted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SyncState.NotStarted" />
+      <MemberSignature Language="VB.NET" Value="NotStarted" />
+      <MemberSignature Language="C++ CLI" Value="NotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SyncState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Not started.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Succeeded">
+      <MemberSignature Language="C#" Value="Succeeded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SyncState Succeeded = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SyncState.Succeeded" />
+      <MemberSignature Language="VB.NET" Value="Succeeded" />
+      <MemberSignature Language="C++ CLI" Value="Succeeded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SyncState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Succeeded.             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

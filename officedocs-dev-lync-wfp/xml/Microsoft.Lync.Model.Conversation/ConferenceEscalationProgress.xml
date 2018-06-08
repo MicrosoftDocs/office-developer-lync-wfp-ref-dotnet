@@ -1,0 +1,248 @@
+﻿<Type Name="ConferenceEscalationProgress" FullName="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress">
+  <TypeSignature Language="C#" Value="public enum ConferenceEscalationProgress" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConferenceEscalationProgress extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConferenceEscalationProgress" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConferenceEscalationProgress" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the progressive stages of a conversation's escalation to conference.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AwaitingDisclaimerResponse">
+      <MemberSignature Language="C#" Value="AwaitingDisclaimerResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress AwaitingDisclaimerResponse = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.AwaitingDisclaimerResponse" />
+      <MemberSignature Language="VB.NET" Value="AwaitingDisclaimerResponse" />
+      <MemberSignature Language="C++ CLI" Value="AwaitingDisclaimerResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Waiting for the disclaimer response.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AwaitingJoinDialogResponse">
+      <MemberSignature Language="C#" Value="AwaitingJoinDialogResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress AwaitingJoinDialogResponse = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.AwaitingJoinDialogResponse" />
+      <MemberSignature Language="VB.NET" Value="AwaitingJoinDialogResponse" />
+      <MemberSignature Language="C++ CLI" Value="AwaitingJoinDialogResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>Waiting for the join audio dialog response.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Completed">
+      <MemberSignature Language="C#" Value="Completed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress Completed = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Completed" />
+      <MemberSignature Language="VB.NET" Value="Completed" />
+      <MemberSignature Language="C++ CLI" Value="Completed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Conference escalation completed successfully.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectedToLobby">
+      <MemberSignature Language="C#" Value="ConnectedToLobby" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress ConnectedToLobby = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.ConnectedToLobby" />
+      <MemberSignature Language="VB.NET" Value="ConnectedToLobby" />
+      <MemberSignature Language="C++ CLI" Value="ConnectedToLobby" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Connected to the conference lobby.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectingToConference">
+      <MemberSignature Language="C#" Value="ConnectingToConference" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress ConnectingToConference = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.ConnectingToConference" />
+      <MemberSignature Language="VB.NET" Value="ConnectingToConference" />
+      <MemberSignature Language="C++ CLI" Value="ConnectingToConference" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Connecting to the conference.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress Failed = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="C++ CLI" Value="Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Failed to join the conference.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="JoiningLocalMedia">
+      <MemberSignature Language="C#" Value="JoiningLocalMedia" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress JoiningLocalMedia = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.JoiningLocalMedia" />
+      <MemberSignature Language="VB.NET" Value="JoiningLocalMedia" />
+      <MemberSignature Language="C++ CLI" Value="JoiningLocalMedia" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Joining the conference media.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotStarted">
+      <MemberSignature Language="C#" Value="NotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress NotStarted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.NotStarted" />
+      <MemberSignature Language="VB.NET" Value="NotStarted" />
+      <MemberSignature Language="C++ CLI" Value="NotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The conference has not started yet.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SchedulingConference">
+      <MemberSignature Language="C#" Value="SchedulingConference" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress SchedulingConference = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.SchedulingConference" />
+      <MemberSignature Language="VB.NET" Value="SchedulingConference" />
+      <MemberSignature Language="C++ CLI" Value="SchedulingConference" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The conference is being scheduled.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitingForPair">
+      <MemberSignature Language="C#" Value="WaitingForPair" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress WaitingForPair = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.WaitingForPair" />
+      <MemberSignature Language="VB.NET" Value="WaitingForPair" />
+      <MemberSignature Language="C++ CLI" Value="WaitingForPair" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>The conference escalation is in waiting for the paired device state.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitingForPeer">
+      <MemberSignature Language="C#" Value="WaitingForPeer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress WaitingForPeer = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.WaitingForPeer" />
+      <MemberSignature Language="VB.NET" Value="WaitingForPeer" />
+      <MemberSignature Language="C++ CLI" Value="WaitingForPeer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>The conference escalation is in waiting for the peer state.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

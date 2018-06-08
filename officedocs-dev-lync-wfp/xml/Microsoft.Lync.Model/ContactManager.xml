@@ -1,0 +1,598 @@
+﻿<Type Name="ContactManager" FullName="Microsoft.Lync.Model.ContactManager">
+  <TypeSignature Language="C#" Value="public class ContactManager : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactManager extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactManager&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactManager : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>The contact manager class is used to add, remove, and update contacts and their properties.  The contact manager is also used to access Lync contact list groups.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginAddGroup">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginAddGroup (Microsoft.Lync.Model.Group.DistributionGroup distributionGroup, AsyncCallback contactsAndGroupsCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginAddGroup(class Microsoft.Lync.Model.Group.DistributionGroup distributionGroup, class System.AsyncCallback contactsAndGroupsCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.BeginAddGroup(Microsoft.Lync.Model.Group.DistributionGroup,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAddGroup(Microsoft::Lync::Model::Group::DistributionGroup ^ distributionGroup, AsyncCallback ^ contactsAndGroupsCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="distributionGroup" Type="Microsoft.Lync.Model.Group.DistributionGroup" />
+        <Parameter Name="contactsAndGroupsCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="distributionGroup">To be added.</param>
+        <param name="contactsAndGroupsCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Adds a distribution group to the group list.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAddGroup">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginAddGroup (string customGroupName, AsyncCallback contactsAndGroupsCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginAddGroup(string customGroupName, class System.AsyncCallback contactsAndGroupsCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.BeginAddGroup(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginAddGroup (customGroupName As String, contactsAndGroupsCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAddGroup(System::String ^ customGroupName, AsyncCallback ^ contactsAndGroupsCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customGroupName" Type="System.String" />
+        <Parameter Name="contactsAndGroupsCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="customGroupName">To be added.</param>
+        <param name="contactsAndGroupsCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Adds a new custom group to the group list.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginLookup">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginLookup (string lookupString, AsyncCallback contactsAndGroupsCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginLookup(string lookupString, class System.AsyncCallback contactsAndGroupsCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.BeginLookup(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginLookup (lookupString As String, contactsAndGroupsCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginLookup(System::String ^ lookupString, AsyncCallback ^ contactsAndGroupsCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lookupString" Type="System.String" />
+        <Parameter Name="contactsAndGroupsCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="lookupString">To be added.</param>
+        <param name="contactsAndGroupsCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Looks up a contact or a distribution group by entryid, sip address, email address, display name, etc..
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRemoveContactFromAllGroups">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginRemoveContactFromAllGroups (Microsoft.Lync.Model.Contact contact, AsyncCallback contactsAndGroupsCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginRemoveContactFromAllGroups(class Microsoft.Lync.Model.Contact contact, class System.AsyncCallback contactsAndGroupsCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.BeginRemoveContactFromAllGroups(Microsoft.Lync.Model.Contact,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRemoveContactFromAllGroups(Microsoft::Lync::Model::Contact ^ contact, AsyncCallback ^ contactsAndGroupsCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Lync.Model.Contact" />
+        <Parameter Name="contactsAndGroupsCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contact">To be added.</param>
+        <param name="contactsAndGroupsCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Removes a contact from all groups except distribution groups.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRemoveGroup">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginRemoveGroup (Microsoft.Lync.Model.Group.Group group, AsyncCallback contactsAndGroupsCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginRemoveGroup(class Microsoft.Lync.Model.Group.Group group, class System.AsyncCallback contactsAndGroupsCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.BeginRemoveGroup(Microsoft.Lync.Model.Group.Group,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRemoveGroup(Microsoft::Lync::Model::Group::Group ^ group, AsyncCallback ^ contactsAndGroupsCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="Microsoft.Lync.Model.Group.Group" />
+        <Parameter Name="contactsAndGroupsCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <param name="contactsAndGroupsCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Removes a group from the group list.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSearch">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSearch (string searchString, AsyncCallback contactsAndGroupsCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSearch(string searchString, class System.AsyncCallback contactsAndGroupsCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.BeginSearch(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginSearch (searchString As String, contactsAndGroupsCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSearch(System::String ^ searchString, AsyncCallback ^ contactsAndGroupsCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchString" Type="System.String" />
+        <Parameter Name="contactsAndGroupsCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="searchString">To be added.</param>
+        <param name="contactsAndGroupsCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary>
+            Begins to search for contacts or distribution groups matching a specified search string. Results of the search
+            are returned in the System.AsyncCallback you pass in the contactsAndGroupsCallback argument.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSearch">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginSearch (string searchString, Microsoft.Lync.Model.SearchProviders providers, Microsoft.Lync.Model.SearchFields searchFields, Microsoft.Lync.Model.SearchOptions searchOptions, uint maxResults, AsyncCallback contactsAndGroupsCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginSearch(string searchString, valuetype Microsoft.Lync.Model.SearchProviders providers, valuetype Microsoft.Lync.Model.SearchFields searchFields, valuetype Microsoft.Lync.Model.SearchOptions searchOptions, unsigned int32 maxResults, class System.AsyncCallback contactsAndGroupsCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.BeginSearch(System.String,Microsoft.Lync.Model.SearchProviders,Microsoft.Lync.Model.SearchFields,Microsoft.Lync.Model.SearchOptions,System.UInt32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSearch(System::String ^ searchString, Microsoft::Lync::Model::SearchProviders providers, Microsoft::Lync::Model::SearchFields searchFields, Microsoft::Lync::Model::SearchOptions searchOptions, System::UInt32 maxResults, AsyncCallback ^ contactsAndGroupsCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchString" Type="System.String" />
+        <Parameter Name="providers" Type="Microsoft.Lync.Model.SearchProviders" />
+        <Parameter Name="searchFields" Type="Microsoft.Lync.Model.SearchFields" />
+        <Parameter Name="searchOptions" Type="Microsoft.Lync.Model.SearchOptions" />
+        <Parameter Name="maxResults" Type="System.UInt32" />
+        <Parameter Name="contactsAndGroupsCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="searchString">To be added.</param>
+        <param name="providers">To be added.</param>
+        <param name="searchFields">To be added.</param>
+        <param name="searchOptions">To be added.</param>
+        <param name="maxResults">To be added.</param>
+        <param name="contactsAndGroupsCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Searches for contacts and distribution groups that match the given search criteria.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateSubscription">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ContactSubscription CreateSubscription ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.ContactSubscription CreateSubscription() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.CreateSubscription" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateSubscription () As ContactSubscription" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::ContactSubscription ^ CreateSubscription();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactSubscription</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Creates a Subscription object that can be used for batching subscriptions or queries.</summary>
+        <returns>Microsoft.Lync.Model.ContactSubscription</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndAddGroup">
+      <MemberSignature Language="C#" Value="public void EndAddGroup (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndAddGroup(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.EndAddGroup(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndAddGroup (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndAddGroup(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Adds a new custom group to the group list.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndLookup">
+      <MemberSignature Language="C#" Value="public object EndLookup (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object EndLookup(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.EndLookup(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndLookup (asyncResult As IAsyncResult) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ EndLookup(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Looks up a contact or a distribution group by entryid, sip address, email address, display name, etc..
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRemoveContactFromAllGroups">
+      <MemberSignature Language="C#" Value="public void EndRemoveContactFromAllGroups (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRemoveContactFromAllGroups(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.EndRemoveContactFromAllGroups(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndRemoveContactFromAllGroups (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRemoveContactFromAllGroups(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Removes a contact from all groups except distribution groups.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndRemoveGroup">
+      <MemberSignature Language="C#" Value="public void EndRemoveGroup (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRemoveGroup(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.EndRemoveGroup(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndRemoveGroup (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRemoveGroup(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Removes a group from the group list.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSearch">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.SearchResults EndSearch (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.SearchResults EndSearch(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.EndSearch(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndSearch (asyncResult As IAsyncResult) As SearchResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::SearchResults ^ EndSearch(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Searches for contacts and distribution groups that match the given search criteria.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~ContactManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!ContactManager ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContactByUri">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Contact GetContactByUri (string contactUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Contact GetContactByUri(string contactUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.GetContactByUri(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetContactByUri (contactUri As String) As Contact" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Contact ^ GetContactByUri(System::String ^ contactUri);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Contact</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactUri" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="contactUri">To be added.</param>
+        <summary>Finds or creates a new contact using the contact URI.</summary>
+        <returns>Microsoft.Lync.Model.Contact</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetExpertSearchQueryString">
+      <MemberSignature Language="C#" Value="public string GetExpertSearchQueryString (string searchString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetExpertSearchQueryString(string searchString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.GetExpertSearchQueryString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetExpertSearchQueryString (searchString As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetExpertSearchQueryString(System::String ^ searchString);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="searchString">To be added.</param>
+        <summary>Gets the search query string used for expert search.</summary>
+        <returns>System.String</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSearchFields">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.SearchFields GetSearchFields ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Lync.Model.SearchFields GetSearchFields() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.GetSearchFields" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSearchFields () As SearchFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::SearchFields GetSearchFields();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchFields</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Gets the supported search fields.</summary>
+        <returns>Microsoft.Lync.Model.SearchFields</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSearchProviderID">
+      <MemberSignature Language="C#" Value="public string GetSearchProviderID (Microsoft.Lync.Model.SearchProviders provider);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetSearchProviderID(valuetype Microsoft.Lync.Model.SearchProviders provider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.GetSearchProviderID(Microsoft.Lync.Model.SearchProviders)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSearchProviderID (provider As SearchProviders) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetSearchProviderID(Microsoft::Lync::Model::SearchProviders provider);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="provider" Type="Microsoft.Lync.Model.SearchProviders" />
+      </Parameters>
+      <Docs>
+        <param name="provider">To be added.</param>
+        <summary>Gets the ID of a search provider.</summary>
+        <returns>System.String</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSearchProviderStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.SearchProviderStatusType GetSearchProviderStatus (Microsoft.Lync.Model.SearchProviders provider);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Lync.Model.SearchProviderStatusType GetSearchProviderStatus(valuetype Microsoft.Lync.Model.SearchProviders provider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactManager.GetSearchProviderStatus(Microsoft.Lync.Model.SearchProviders)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSearchProviderStatus (provider As SearchProviders) As SearchProviderStatusType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::SearchProviderStatusType GetSearchProviderStatus(Microsoft::Lync::Model::SearchProviders provider);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.SearchProviderStatusType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="provider" Type="Microsoft.Lync.Model.SearchProviders" />
+      </Parameters>
+      <Docs>
+        <param name="provider">To be added.</param>
+        <summary>Gets the search provider status.</summary>
+        <returns>Microsoft.Lync.Model.SearchProviderStatusType</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupAdded">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt; GroupAdded;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt; GroupAdded" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.ContactManager.GroupAdded" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event GroupAdded As EventHandler(Of GroupCollectionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::GroupCollectionChangedEventArgs ^&gt; ^ GroupAdded;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a group is added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupRemoved">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt; GroupRemoved;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt; GroupRemoved" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.ContactManager.GroupRemoved" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event GroupRemoved As EventHandler(Of GroupCollectionChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::GroupCollectionChangedEventArgs ^&gt; ^ GroupRemoved;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a group is removed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Groups">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Group.GroupCollection Groups { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Group.GroupCollection Groups" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactManager.Groups" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Groups As GroupCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Group::GroupCollection ^ Groups { Microsoft::Lync::Model::Group::GroupCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Group.GroupCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the group collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchProviderStateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.SearchProviderStateChangedEventArgs&gt; SearchProviderStateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.SearchProviderStateChangedEventArgs&gt; SearchProviderStateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.ContactManager.SearchProviderStateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event SearchProviderStateChanged As EventHandler(Of SearchProviderStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::SearchProviderStateChangedEventArgs ^&gt; ^ SearchProviderStateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.SearchProviderStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the status of a search provider changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,207 @@
+﻿<Type Name="DeviceManager" FullName="Microsoft.Lync.Model.Device.DeviceManager">
+  <TypeSignature Language="C#" Value="public class DeviceManager : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeviceManager extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Device.DeviceManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeviceManager&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeviceManager : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Manages the UC-enabled audio/video devices connected to a computer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveAudioDevice">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Device.AudioDevice ActiveAudioDevice { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Device.AudioDevice ActiveAudioDevice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Device.DeviceManager.ActiveAudioDevice" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActiveAudioDevice As AudioDevice" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Device::AudioDevice ^ ActiveAudioDevice { Microsoft::Lync::Model::Device::AudioDevice ^ get(); void set(Microsoft::Lync::Model::Device::AudioDevice ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.AudioDevice</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets and sets the active audio device.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If a conversation is going on, then setting this changes the currently in used device to the new device. This change happens in mid call and is not remembered when that conversation ends.
+            If a conversation is not going on, then setting this property changes default device so the set device will be used any time a new conversation starts. Please note that when you change the active audio device between calls, the device you set is not persisted after you close the Lync client. To persist an audio device, you must set the audio device in the Lync client options Audio Device Settings page.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveVideoDevice">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Device.VideoDevice ActiveVideoDevice { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Device.VideoDevice ActiveVideoDevice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Device.DeviceManager.ActiveVideoDevice" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActiveVideoDevice As VideoDevice" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Device::VideoDevice ^ ActiveVideoDevice { Microsoft::Lync::Model::Device::VideoDevice ^ get(); void set(Microsoft::Lync::Model::Device::VideoDevice ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Device.VideoDevice</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the active video device.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AudioDevices">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt; AudioDevices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Device.Device&gt; AudioDevices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Device.DeviceManager.AudioDevices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AudioDevices As IList(Of Device)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ AudioDevices { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the collection of audio devices.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>All audio devices that have both a microphone and speaker are returned. For example, a UC-enabled headset such as a headset with microphone is returned. Audio devices that have only one of these two components are not returned. A virtual audio device that is defined in the Lync Audio Device Setting option page is also returned as long as it is defined with a physical speaker and a physical microphone.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginPlayAudioFile">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginPlayAudioFile (string audioFileName, Microsoft.Lync.Model.Device.AudioPlayBackModes playbackDevices, bool loop, AsyncCallback deviceManagerCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginPlayAudioFile(string audioFileName, valuetype Microsoft.Lync.Model.Device.AudioPlayBackModes playbackDevices, bool loop, class System.AsyncCallback deviceManagerCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Device.DeviceManager.BeginPlayAudioFile(System.String,Microsoft.Lync.Model.Device.AudioPlayBackModes,System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginPlayAudioFile (audioFileName As String, playbackDevices As AudioPlayBackModes, loop As Boolean, deviceManagerCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginPlayAudioFile(System::String ^ audioFileName, Microsoft::Lync::Model::Device::AudioPlayBackModes playbackDevices, bool loop, AsyncCallback ^ deviceManagerCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="audioFileName" Type="System.String" />
+        <Parameter Name="playbackDevices" Type="Microsoft.Lync.Model.Device.AudioPlayBackModes" />
+        <Parameter Name="loop" Type="System.Boolean" />
+        <Parameter Name="deviceManagerCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="audioFileName">To be added.</param>
+        <param name="playbackDevices">To be added.</param>
+        <param name="loop">To be added.</param>
+        <param name="deviceManagerCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Plays audio file.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndPlayAudioFile">
+      <MemberSignature Language="C#" Value="public void EndPlayAudioFile (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndPlayAudioFile(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Device.DeviceManager.EndPlayAudioFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndPlayAudioFile (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndPlayAudioFile(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Plays audio file.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~DeviceManager ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Device.DeviceManager.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!DeviceManager ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopPlayingAllAudioFiles">
+      <MemberSignature Language="C#" Value="public void StopPlayingAllAudioFiles ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void StopPlayingAllAudioFiles() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Device.DeviceManager.StopPlayingAllAudioFiles" />
+      <MemberSignature Language="VB.NET" Value="Public Sub StopPlayingAllAudioFiles ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StopPlayingAllAudioFiles();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Stop playing all audio files.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VideoDevices">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt; VideoDevices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Device.Device&gt; VideoDevices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Device.DeviceManager.VideoDevices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VideoDevices As IList(Of Device)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ VideoDevices { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the collection of devices.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

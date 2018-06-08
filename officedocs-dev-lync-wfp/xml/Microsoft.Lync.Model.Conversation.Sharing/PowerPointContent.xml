@@ -1,0 +1,121 @@
+﻿<Type Name="PowerPointContent" FullName="Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent">
+  <TypeSignature Language="C#" Value="public class PowerPointContent : Microsoft.Lync.Model.Conversation.Sharing.ShareableContent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PowerPointContent extends Microsoft.Lync.Model.Conversation.Sharing.ShareableContent" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent" />
+  <TypeSignature Language="VB.NET" Value="Public Class PowerPointContent&#xA;Inherits ShareableContent" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PowerPointContent : Microsoft::Lync::Model::Conversation::Sharing::ShareableContent" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Conversation.Sharing.ShareableContent</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Encapsulates a PowerPoint slide deck in a conversation content bin.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~PowerPointContent ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!PowerPointContent ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoBackward">
+      <MemberSignature Language="C#" Value="public void GoBackward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GoBackward() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.GoBackward" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GoBackward ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoBackward();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Go to previous slide.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoForward">
+      <MemberSignature Language="C#" Value="public void GoForward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GoForward() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.GoForward" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GoForward ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoForward();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Go to next slide.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInSyncWithPresenter">
+      <MemberSignature Language="C#" Value="public bool IsInSyncWithPresenter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInSyncWithPresenter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.IsInSyncWithPresenter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInSyncWithPresenter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInSyncWithPresenter { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns false if this content is not in synchronization with presenter.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncWithPresenter">
+      <MemberSignature Language="C#" Value="public void SyncWithPresenter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SyncWithPresenter() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.SyncWithPresenter" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SyncWithPresenter ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SyncWithPresenter();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Synchronize PowerPoint slide view with presenter and leave private viewing mode.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

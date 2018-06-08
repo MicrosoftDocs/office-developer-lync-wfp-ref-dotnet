@@ -1,0 +1,86 @@
+﻿<Type Name="LyncServiceProvider" FullName="Microsoft.Lync.Controls.LyncServiceProvider">
+  <TypeSignature Language="C#" Value="public static class LyncServiceProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit LyncServiceProvider extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.LyncServiceProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Class LyncServiceProvider" />
+  <TypeSignature Language="C++ CLI" Value="public ref class LyncServiceProvider abstract sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Reserved for internal use.             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContextChanged">
+      <MemberSignature Language="C#" Value="public static event EventHandler ContextChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ContextChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.LyncServiceProvider.ContextChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Custom Event ContextChanged As EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ ContextChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Event which is fired when Context property changes.             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProvider">
+      <MemberSignature Language="C#" Value="public static Microsoft.Lync.Controls.Internal.Model.IUCClientModel GetProvider (System.Windows.DependencyObject dependencyObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Lync.Controls.Internal.Model.IUCClientModel GetProvider(class System.Windows.DependencyObject dependencyObject) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.LyncServiceProvider.GetProvider(System.Windows.DependencyObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ GetProvider(System::Windows::DependencyObject ^ dependencyObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Model.IUCClientModel</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyObject" Type="System.Windows.DependencyObject" />
+      </Parameters>
+      <Docs>
+        <param name="dependencyObject">To be added.</param>
+        <summary>             Get the <see cref="IUCClientModel" /> for the <paramref name="dependencyObject" /></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProvider">
+      <MemberSignature Language="C#" Value="public static void SetProvider (Microsoft.Lync.Controls.Internal.Model.IUCClientModel ucClientModel);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetProvider(class Microsoft.Lync.Controls.Internal.Model.IUCClientModel ucClientModel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.LyncServiceProvider.SetProvider(Microsoft.Lync.Controls.Internal.Model.IUCClientModel)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SetProvider (ucClientModel As IUCClientModel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetProvider(Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ ucClientModel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ucClientModel" Type="Microsoft.Lync.Controls.Internal.Model.IUCClientModel" />
+      </Parameters>
+      <Docs>
+        <param name="ucClientModel">To be added.</param>
+        <summary>             Set the global <see cref="IUCClientModel" /> to <paramref name="ucClientModel" /></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

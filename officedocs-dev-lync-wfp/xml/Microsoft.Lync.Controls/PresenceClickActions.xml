@@ -1,0 +1,77 @@
+﻿<Type Name="PresenceClickActions" FullName="Microsoft.Lync.Controls.PresenceClickActions">
+  <TypeSignature Language="C#" Value="public enum PresenceClickActions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PresenceClickActions extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.PresenceClickActions" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PresenceClickActions" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PresenceClickActions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Represents the actions that can be taken when a user single-clicks on the availability icon             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PresenceClickActions None = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceClickActions.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PresenceClickActions</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Take no action after single clicking on the availability icon             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowContactBrief">
+      <MemberSignature Language="C#" Value="ShowContactBrief" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PresenceClickActions ShowContactBrief = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceClickActions.ShowContactBrief" />
+      <MemberSignature Language="VB.NET" Value="ShowContactBrief" />
+      <MemberSignature Language="C++ CLI" Value="ShowContactBrief" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PresenceClickActions</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Show the brief representation of a contact, which             includes basic information and the actions bar             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowContactDetails">
+      <MemberSignature Language="C#" Value="ShowContactDetails" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.PresenceClickActions ShowContactDetails = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceClickActions.ShowContactDetails" />
+      <MemberSignature Language="VB.NET" Value="ShowContactDetails" />
+      <MemberSignature Language="C++ CLI" Value="ShowContactDetails" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.PresenceClickActions</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Show the detailed representation of a contact, which             includes the brief representation as well as further details             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

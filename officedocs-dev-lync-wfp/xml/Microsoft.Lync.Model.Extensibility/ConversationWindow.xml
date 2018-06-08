@@ -1,0 +1,729 @@
+﻿<Type Name="ConversationWindow" FullName="Microsoft.Lync.Model.Extensibility.ConversationWindow">
+  <TypeSignature Language="C#" Value="public class ConversationWindow : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationWindow extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindow" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationWindow&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationWindow : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a conversation window and exposes operations to manipulate the window of a conversation, including docking into a parent window.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActionAvailabilityChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowActionAvailabilityChangedEventArgs&gt; ActionAvailabilityChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Extensibility.ConversationWindowActionAvailabilityChangedEventArgs&gt; ActionAvailabilityChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.ActionAvailabilityChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ConversationWindowActionAvailabilityChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowActionAvailabilityChangedEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowActionAvailabilityChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> 
+            Raised when a conversation window information changes.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginOpenExtensibilityWindow">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginOpenExtensibilityWindow (string applicationId, AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginOpenExtensibilityWindow(string applicationId, class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.BeginOpenExtensibilityWindow(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginOpenExtensibilityWindow (applicationId As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginOpenExtensibilityWindow(System::String ^ applicationId, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="applicationId" Type="System.String" />
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="applicationId">To be added.</param>
+        <param name="callback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Show the extensibility window for a registered application.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanInvoke">
+      <MemberSignature Language="C#" Value="public bool CanInvoke (Microsoft.Lync.Model.Extensibility.ConversationWindowAction action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanInvoke(valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowAction action) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.CanInvoke(Microsoft.Lync.Model.Extensibility.ConversationWindowAction)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ConversationWindowAction) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Extensibility::ConversationWindowAction action);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="action" Type="Microsoft.Lync.Model.Extensibility.ConversationWindowAction" />
+      </Parameters>
+      <Docs>
+        <param name="action">To be added.</param>
+        <summary> 
+            Returns whether the given action is available
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Closes the window.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseExtensibilityWindow">
+      <MemberSignature Language="C#" Value="public void CloseExtensibilityWindow (string applicationId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CloseExtensibilityWindow(string applicationId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.CloseExtensibilityWindow(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CloseExtensibilityWindow (applicationId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CloseExtensibilityWindow(System::String ^ applicationId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="applicationId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="applicationId">To be added.</param>
+        <summary>Closes the extensibility window of the given application GUID.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Conversation.Conversation Conversation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Conversation.Conversation Conversation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Conversation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversation As Conversation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Conversation ^ Conversation { Microsoft::Lync::Model::Conversation::Conversation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Conversation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get the corresponding conversation object for this window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dock">
+      <MemberSignature Language="C#" Value="public void Dock (IntPtr parentHwnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Dock(native int parentHwnd) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Dock(System.IntPtr)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dock (parentHwnd As IntPtr)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Dock(IntPtr parentHwnd);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentHwnd" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="parentHwnd">To be added.</param>
+        <summary>
+            Docks a conversation window inside a specified control. You can also dock a conversation
+            window inside a form or a WPF WindowsFormsHostControl.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndOpenExtensibilityWindow">
+      <MemberSignature Language="C#" Value="public void EndOpenExtensibilityWindow (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndOpenExtensibilityWindow(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.EndOpenExtensibilityWindow(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndOpenExtensibilityWindow (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndOpenExtensibilityWindow(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Show the extensibility window for a registered application.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitFullScreen">
+      <MemberSignature Language="C#" Value="public void ExitFullScreen ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ExitFullScreen() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.ExitFullScreen" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ExitFullScreen ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ExitFullScreen();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> 
+            Exits fullscreen.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~ConversationWindow ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!ConversationWindow ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlashExtensibilityWindow">
+      <MemberSignature Language="C#" Value="public void FlashExtensibilityWindow (string applicationId, bool flash);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void FlashExtensibilityWindow(string applicationId, bool flash) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.FlashExtensibilityWindow(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub FlashExtensibilityWindow (applicationId As String, flash As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void FlashExtensibilityWindow(System::String ^ applicationId, bool flash);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="applicationId" Type="System.String" />
+        <Parameter Name="flash" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="applicationId">To be added.</param>
+        <param name="flash">To be added.</param>
+        <summary>Start or stop flashing the extensibility window of the given application GUID.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Handle">
+      <MemberSignature Language="C#" Value="public IntPtr Handle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int Handle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Handle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Handle As IntPtr" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property IntPtr Handle { IntPtr get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns the handle of the conversation window.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Height" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The height of the conversation window in pixels.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HideContent">
+      <MemberSignature Language="C#" Value="public void HideContent ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void HideContent() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.HideContent" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HideContent ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HideContent();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> 
+            Hides the content
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InformationChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowInformationChangedEventArgs&gt; InformationChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Extensibility.ConversationWindowInformationChangedEventArgs&gt; InformationChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.InformationChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event InformationChanged As EventHandler(Of ConversationWindowInformationChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowInformationChangedEventArgs ^&gt; ^ InformationChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowInformationChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when a conversation window information changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDocked">
+      <MemberSignature Language="C#" Value="public bool IsDocked { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDocked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.IsDocked" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDocked As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDocked { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the window docked?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFullScreen">
+      <MemberSignature Language="C#" Value="public bool IsFullScreen { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFullScreen" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.IsFullScreen" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFullScreen As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFullScreen { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the window in full screen mode?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Left" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The horizontal position of the conversation window in pixels.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public void Move (int left, int top);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Move(int32 left, int32 top) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Move(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Move (left As Integer, top As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Move(int left, int top);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Int32" />
+        <Parameter Name="top" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="top">To be added.</param>
+        <summary>Move the window to new position.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveAndResize">
+      <MemberSignature Language="C#" Value="public void MoveAndResize (int left, int top, int width, int height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MoveAndResize(int32 left, int32 top, int32 width, int32 height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.MoveAndResize(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MoveAndResize (left As Integer, top As Integer, width As Integer, height As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveAndResize(int left, int top, int width, int height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Int32" />
+        <Parameter Name="top" Type="System.Int32" />
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="top">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary> 
+            Move And Resize the window with new position and size.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NeedsAttention">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsAttentionEventArgs&gt; NeedsAttention;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsAttentionEventArgs&gt; NeedsAttention" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.NeedsAttention" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event NeedsAttention As EventHandler(Of ConversationWindowNeedsAttentionEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowNeedsAttentionEventArgs ^&gt; ^ NeedsAttention;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsAttentionEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the UI Window needs attention.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NeedsSizeChange">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs&gt; NeedsSizeChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs&gt; NeedsSizeChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.NeedsSizeChange" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event NeedsSizeChange As EventHandler(Of ConversationWindowNeedsSizeChangeEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowNeedsSizeChangeEventArgs ^&gt; ^ NeedsSizeChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the UI Window size changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentWindow">
+      <MemberSignature Language="C#" Value="public IntPtr ParentWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int ParentWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.ParentWindow" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentWindow As IntPtr" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property IntPtr ParentWindow { IntPtr get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> 
+            Returns the handle of the parent window or control in which the conversation window is docked.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType,object&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType, object&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ConversationWindowInformationType, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowInformationType, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowInformationType, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of conversation window properties.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resize">
+      <MemberSignature Language="C#" Value="public void Resize (int width, int height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Resize(int32 width, int32 height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Resize(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Resize (width As Integer, height As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Resize(int width, int height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>Resize the window.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowContent">
+      <MemberSignature Language="C#" Value="public void ShowContent ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ShowContent() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.ShowContent" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowContent ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowContent();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> 
+            Displays the content
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFullScreen">
+      <MemberSignature Language="C#" Value="public void ShowFullScreen (int monitorId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ShowFullScreen(int32 monitorId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.ShowFullScreen(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowFullScreen (monitorId As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowFullScreen(int monitorId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="monitorId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="monitorId">To be added.</param>
+        <summary> 
+            Fullscreens the ConversationWindow in it's current monitor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Extensibility.ConversationWindowState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.Extensibility.ConversationWindowState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ConversationWindowState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Extensibility::ConversationWindowState State { Microsoft::Lync::Model::Extensibility::ConversationWindowState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Extensibility.ConversationWindowState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the current state of the window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs&gt; StateChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs&gt; StateChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.StateChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ConversationWindowStateChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the conversation window state changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Top" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The vertical position of the conversation window in pixels.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Undock">
+      <MemberSignature Language="C#" Value="public void Undock ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Undock() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Undock" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Undock ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Undock();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Undock the window.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Width" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The width of the conversation window in pixels.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

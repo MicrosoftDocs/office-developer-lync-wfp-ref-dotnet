@@ -1,0 +1,77 @@
+﻿<Type Name="PreviousConversationsConnectionState" FullName="Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState">
+  <TypeSignature Language="C#" Value="public enum PreviousConversationsConnectionState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreviousConversationsConnectionState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PreviousConversationsConnectionState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PreviousConversationsConnectionState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Connected">
+      <MemberSignature Language="C#" Value="Connected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState Connected = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState.Connected" />
+      <MemberSignature Language="VB.NET" Value="Connected" />
+      <MemberSignature Language="C++ CLI" Value="Connected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnected">
+      <MemberSignature Language="C#" Value="Disconnected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState Disconnected = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState.Disconnected" />
+      <MemberSignature Language="VB.NET" Value="Disconnected" />
+      <MemberSignature Language="C++ CLI" Value="Disconnected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Internal.PreviousConversationsConnectionState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

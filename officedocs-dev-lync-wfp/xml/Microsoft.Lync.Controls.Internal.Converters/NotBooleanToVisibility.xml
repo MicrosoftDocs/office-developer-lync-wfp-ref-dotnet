@@ -1,0 +1,62 @@
+﻿<Type Name="NotBooleanToVisibility" FullName="Microsoft.Lync.Controls.Internal.Converters.NotBooleanToVisibility">
+  <TypeSignature Language="C#" Value="public class NotBooleanToVisibility : Microsoft.Lync.Controls.Internal.Converters.BooleanToVisibility" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NotBooleanToVisibility extends Microsoft.Lync.Controls.Internal.Converters.BooleanToVisibility" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Converters.NotBooleanToVisibility" />
+  <TypeSignature Language="VB.NET" Value="Public Class NotBooleanToVisibility&#xA;Inherits BooleanToVisibility" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NotBooleanToVisibility : Microsoft::Lync::Controls::Internal::Converters::BooleanToVisibility" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.Converters.BooleanToVisibility</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NotBooleanToVisibility ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.NotBooleanToVisibility.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NotBooleanToVisibility();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertValue">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Visibility ConvertValue (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.Windows.Visibility ConvertValue(bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.NotBooleanToVisibility.ConvertValue(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function ConvertValue (value As Boolean) As Visibility" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Visibility ConvertValue(bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Visibility</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

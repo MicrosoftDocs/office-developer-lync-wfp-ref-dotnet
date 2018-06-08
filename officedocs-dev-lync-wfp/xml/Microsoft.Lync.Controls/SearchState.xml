@@ -1,0 +1,99 @@
+﻿<Type Name="SearchState" FullName="Microsoft.Lync.Controls.SearchState">
+  <TypeSignature Language="C#" Value="public enum SearchState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SearchState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Enumerates the current state of the search operation.             </summary>
+    <remarks>
+      <para>             The search control reports its current state using these enumerated values.             See <see cref="T:Microsoft.Lync.Controls.ContactSearch" />, <see cref="T:Microsoft.Lync.Controls.ContactSearchResultList" />, and <see cref="T:Microsoft.Lync.Controls.ContactSearchInputBox" /></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Cleared">
+      <MemberSignature Language="C#" Value="Cleared" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SearchState Cleared = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchState.Cleared" />
+      <MemberSignature Language="VB.NET" Value="Cleared" />
+      <MemberSignature Language="C++ CLI" Value="Cleared" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Cleared             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="Error" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SearchState Error = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchState.Error" />
+      <MemberSignature Language="VB.NET" Value="Error" />
+      <MemberSignature Language="C++ CLI" Value="Error" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             Error             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Finished">
+      <MemberSignature Language="C#" Value="Finished" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SearchState Finished = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchState.Finished" />
+      <MemberSignature Language="VB.NET" Value="Finished" />
+      <MemberSignature Language="C++ CLI" Value="Finished" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Finished             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Searching">
+      <MemberSignature Language="C#" Value="Searching" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.SearchState Searching = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchState.Searching" />
+      <MemberSignature Language="VB.NET" Value="Searching" />
+      <MemberSignature Language="C++ CLI" Value="Searching" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.SearchState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Searching             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

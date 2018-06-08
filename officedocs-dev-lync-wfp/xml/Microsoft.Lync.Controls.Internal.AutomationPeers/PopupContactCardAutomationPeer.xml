@@ -1,0 +1,44 @@
+﻿<Type Name="PopupContactCardAutomationPeer" FullName="Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardAutomationPeer">
+  <TypeSignature Language="C#" Value="public class PopupContactCardAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.Internal.PopupContactCard&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PopupContactCardAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.Internal.PopupContactCard&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class PopupContactCardAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of PopupContactCard)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PopupContactCardAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::Internal::PopupContactCard ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.Internal.PopupContactCard&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.Internal.PopupContactCard</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PopupContactCardAutomationPeer (Microsoft.Lync.Controls.Internal.PopupContactCard control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.Internal.PopupContactCard control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.PopupContactCard)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As PopupContactCard)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PopupContactCardAutomationPeer(Microsoft::Lync::Controls::Internal::PopupContactCard ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.Internal.PopupContactCard" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

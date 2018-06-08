@@ -1,0 +1,172 @@
+﻿<Type Name="CallUnparkReason" FullName="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason">
+  <TypeSignature Language="C#" Value="public enum CallUnparkReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CallUnparkReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CallUnparkReason" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CallUnparkReason" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the specific reason why a previously-parked call was unparked.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Abandoned">
+      <MemberSignature Language="C#" Value="Abandoned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason Abandoned = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Abandoned" />
+      <MemberSignature Language="VB.NET" Value="Abandoned" />
+      <MemberSignature Language="C++ CLI" Value="Abandoned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The parked call was hung up before being retrieved.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnected">
+      <MemberSignature Language="C#" Value="Disconnected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason Disconnected = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Disconnected" />
+      <MemberSignature Language="VB.NET" Value="Disconnected" />
+      <MemberSignature Language="C++ CLI" Value="Disconnected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The parked call was disconnected.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Fallback">
+      <MemberSignature Language="C#" Value="Fallback" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason Fallback = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Fallback" />
+      <MemberSignature Language="VB.NET" Value="Fallback" />
+      <MemberSignature Language="C++ CLI" Value="Fallback" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The parked call was transferred to the configured fallback.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Other reasons.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Retrieved">
+      <MemberSignature Language="C#" Value="Retrieved" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason Retrieved = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Retrieved" />
+      <MemberSignature Language="VB.NET" Value="Retrieved" />
+      <MemberSignature Language="C++ CLI" Value="Retrieved" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The parked call was manually retrieved.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Ringback">
+      <MemberSignature Language="C#" Value="Ringback" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason Ringback = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Ringback" />
+      <MemberSignature Language="VB.NET" Value="Ringback" />
+      <MemberSignature Language="C++ CLI" Value="Ringback" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>The parked call was auto-transferred back to the parker.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason Unknown = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>The reason is unknown.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,523 @@
+﻿<Type Name="Contact" FullName="Microsoft.Lync.Model.Contact">
+  <TypeSignature Language="C#" Value="public class Contact : Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Contact extends Microsoft.Lync.Model.Internal.UCWFull" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Contact" />
+  <TypeSignature Language="VB.NET" Value="Public Class Contact&#xA;Inherits UCWFull" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Contact : Microsoft::Lync::Model::Internal::UCWFull" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Model.Internal.UCWFull</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a contact within the Lync client. A contact can be person, bot or phone number.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginChangeSetting">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginChangeSetting (Microsoft.Lync.Model.ContactSetting contactSettingType, object contactSettingValue, AsyncCallback contactCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginChangeSetting(valuetype Microsoft.Lync.Model.ContactSetting contactSettingType, object contactSettingValue, class System.AsyncCallback contactCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.BeginChangeSetting(Microsoft.Lync.Model.ContactSetting,System.Object,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginChangeSetting (contactSettingType As ContactSetting, contactSettingValue As Object, contactCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginChangeSetting(Microsoft::Lync::Model::ContactSetting contactSettingType, System::Object ^ contactSettingValue, AsyncCallback ^ contactCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactSettingType" Type="Microsoft.Lync.Model.ContactSetting" />
+        <Parameter Name="contactSettingValue" Type="System.Object" />
+        <Parameter Name="contactCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="contactSettingType">To be added.</param>
+        <param name="contactSettingValue">To be added.</param>
+        <param name="contactCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Sets a setting associated with this contact.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGetOrganizationInformation">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetOrganizationInformation (Microsoft.Lync.Model.OrganizationStructureTypes orgInfoTypes, AsyncCallback contactCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginGetOrganizationInformation(valuetype Microsoft.Lync.Model.OrganizationStructureTypes orgInfoTypes, class System.AsyncCallback contactCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.BeginGetOrganizationInformation(Microsoft.Lync.Model.OrganizationStructureTypes,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginGetOrganizationInformation (orgInfoTypes As OrganizationStructureTypes, contactCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginGetOrganizationInformation(Microsoft::Lync::Model::OrganizationStructureTypes orgInfoTypes, AsyncCallback ^ contactCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="orgInfoTypes" Type="Microsoft.Lync.Model.OrganizationStructureTypes" />
+        <Parameter Name="contactCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="orgInfoTypes">To be added.</param>
+        <param name="contactCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Gets the Organization Info of this contact.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginMoveToGroup">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginMoveToGroup (Microsoft.Lync.Model.Group.Group targetGroup, Microsoft.Lync.Model.Group.Group sourceGroup, AsyncCallback contactCallback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginMoveToGroup(class Microsoft.Lync.Model.Group.Group targetGroup, class Microsoft.Lync.Model.Group.Group sourceGroup, class System.AsyncCallback contactCallback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.BeginMoveToGroup(Microsoft.Lync.Model.Group.Group,Microsoft.Lync.Model.Group.Group,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginMoveToGroup (targetGroup As Group, sourceGroup As Group, contactCallback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMoveToGroup(Microsoft::Lync::Model::Group::Group ^ targetGroup, Microsoft::Lync::Model::Group::Group ^ sourceGroup, AsyncCallback ^ contactCallback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetGroup" Type="Microsoft.Lync.Model.Group.Group" />
+        <Parameter Name="sourceGroup" Type="Microsoft.Lync.Model.Group.Group" />
+        <Parameter Name="contactCallback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="targetGroup">To be added.</param>
+        <param name="sourceGroup">To be added.</param>
+        <param name="contactCallback">To be added.</param>
+        <param name="state">To be added.</param>
+        <summary> 
+            Moves this contact from a source group to a target group.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanChangeSetting">
+      <MemberSignature Language="C#" Value="public bool CanChangeSetting (Microsoft.Lync.Model.ContactSetting contactSetting);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanChangeSetting(valuetype Microsoft.Lync.Model.ContactSetting contactSetting) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.CanChangeSetting(Microsoft.Lync.Model.ContactSetting)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanChangeSetting(Microsoft::Lync::Model::ContactSetting contactSetting);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactSetting" Type="Microsoft.Lync.Model.ContactSetting" />
+      </Parameters>
+      <Docs>
+        <param name="contactSetting">To be added.</param>
+        <summary>Checks if the setting can be set for this contact.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanMoveToGroup">
+      <MemberSignature Language="C#" Value="public bool CanMoveToGroup (Microsoft.Lync.Model.Group.Group targetGroup, Microsoft.Lync.Model.Group.Group sourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanMoveToGroup(class Microsoft.Lync.Model.Group.Group targetGroup, class Microsoft.Lync.Model.Group.Group sourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.CanMoveToGroup(Microsoft.Lync.Model.Group.Group,Microsoft.Lync.Model.Group.Group)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanMoveToGroup (targetGroup As Group, sourceGroup As Group) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanMoveToGroup(Microsoft::Lync::Model::Group::Group ^ targetGroup, Microsoft::Lync::Model::Group::Group ^ sourceGroup);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetGroup" Type="Microsoft.Lync.Model.Group.Group" />
+        <Parameter Name="sourceGroup" Type="Microsoft.Lync.Model.Group.Group" />
+      </Parameters>
+      <Docs>
+        <param name="targetGroup">To be added.</param>
+        <param name="sourceGroup">To be added.</param>
+        <summary>Checks if this contact can be moved from a source group to a target group.</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanStart">
+      <MemberSignature Language="C#" Value="public bool CanStart (Microsoft.Lync.Model.Conversation.ModalityTypes modalityTypes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanStart(valuetype Microsoft.Lync.Model.Conversation.ModalityTypes modalityTypes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.CanStart(Microsoft.Lync.Model.Conversation.ModalityTypes)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanStart(Microsoft::Lync::Model::Conversation::ModalityTypes modalityTypes);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modalityTypes" Type="Microsoft.Lync.Model.Conversation.ModalityTypes" />
+      </Parameters>
+      <Docs>
+        <param name="modalityTypes">To be added.</param>
+        <summary>Checks if this contact can start a given mode of communication (modality</summary>
+        <returns>System.Boolean</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactInformationChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.ContactInformationChangedEventArgs&gt; ContactInformationChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.ContactInformationChangedEventArgs&gt; ContactInformationChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Contact.ContactInformationChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ContactInformationChanged As EventHandler(Of ContactInformationChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ContactInformationChangedEventArgs ^&gt; ^ ContactInformationChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.ContactInformationChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when one or more pieces of contact information are changed.</summary>
+        <remarks>
+          <para>Application logic must subscribe to contact information publication before the ContactInformationChanged event can be received. Call the CreateSubscription method on the ContactManager object and then add the Contact to be subscribed and the ContactInformationTypes that you are interested in. Finally, call the Subscribe method on the ContactSubscription object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactManager">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ContactManager ContactManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.ContactManager ContactManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.ContactManager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactManager As ContactManager" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactManager ^ ContactManager { Microsoft::Lync::Model::ContactManager ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the parent Contact and Group Manager of this contact.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateContactEndpoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.ContactEndpoint CreateContactEndpoint (string telephoneUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.ContactEndpoint CreateContactEndpoint(string telephoneUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.CreateContactEndpoint(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateContactEndpoint (telephoneUri As String) As ContactEndpoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::ContactEndpoint ^ CreateContactEndpoint(System::String ^ telephoneUri);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ContactEndpoint</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="telephoneUri" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="telephoneUri">To be added.</param>
+        <summary> 
+            Creates a collaboration endpoint object from a telephone number.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomGroups">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.Group.GroupCollection CustomGroups { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Model.Group.GroupCollection CustomGroups" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.CustomGroups" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomGroups As GroupCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Group::GroupCollection ^ CustomGroups { Microsoft::Lync::Model::Group::GroupCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Group.GroupCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the list of all groups of which this contact is a member of.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndChangeSetting">
+      <MemberSignature Language="C#" Value="public void EndChangeSetting (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndChangeSetting(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.EndChangeSetting(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndChangeSetting (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndChangeSetting(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Sets a setting associated with this contact.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGetOrganizationInformation">
+      <MemberSignature Language="C#" Value="public void EndGetOrganizationInformation (out Microsoft.Lync.Model.Group.ContactCollection managers, out Microsoft.Lync.Model.Group.ContactCollection peers, out Microsoft.Lync.Model.Group.ContactCollection directors, IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndGetOrganizationInformation([out] class Microsoft.Lync.Model.Group.ContactCollection&amp; managers, [out] class Microsoft.Lync.Model.Group.ContactCollection&amp; peers, [out] class Microsoft.Lync.Model.Group.ContactCollection&amp; directors, class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.EndGetOrganizationInformation(Microsoft.Lync.Model.Group.ContactCollection@,Microsoft.Lync.Model.Group.ContactCollection@,Microsoft.Lync.Model.Group.ContactCollection@,System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndGetOrganizationInformation (ByRef managers As ContactCollection, ByRef peers As ContactCollection, ByRef directors As ContactCollection, asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndGetOrganizationInformation([Runtime::InteropServices::Out] Microsoft::Lync::Model::Group::ContactCollection ^ % managers, [Runtime::InteropServices::Out] Microsoft::Lync::Model::Group::ContactCollection ^ % peers, [Runtime::InteropServices::Out] Microsoft::Lync::Model::Group::ContactCollection ^ % directors, IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="managers" Type="Microsoft.Lync.Model.Group.ContactCollection&amp;" RefType="out" />
+        <Parameter Name="peers" Type="Microsoft.Lync.Model.Group.ContactCollection&amp;" RefType="out" />
+        <Parameter Name="directors" Type="Microsoft.Lync.Model.Group.ContactCollection&amp;" RefType="out" />
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="managers">To be added.</param>
+        <param name="peers">To be added.</param>
+        <param name="directors">To be added.</param>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Gets the Organization Info of this contact.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndMoveToGroup">
+      <MemberSignature Language="C#" Value="public void EndMoveToGroup (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndMoveToGroup(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.EndMoveToGroup(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndMoveToGroup (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndMoveToGroup(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">To be added.</param>
+        <summary> 
+            Moves this contact from a source group to a target group.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~Contact ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!Contact ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContactInformation">
+      <MemberSignature Language="C#" Value="public object GetContactInformation (Microsoft.Lync.Model.ContactInformationType contactInformationType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetContactInformation(valuetype Microsoft.Lync.Model.ContactInformationType contactInformationType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.GetContactInformation(Microsoft.Lync.Model.ContactInformationType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetContactInformation(Microsoft::Lync::Model::ContactInformationType contactInformationType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactInformationType" Type="Microsoft.Lync.Model.ContactInformationType" />
+      </Parameters>
+      <Docs>
+        <param name="contactInformationType">To be added.</param>
+        <summary>Gets a single contact information from this contact.</summary>
+        <returns>System.Object</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContactInformation">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.ContactInformationType,object&gt; GetContactInformation (System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.ContactInformationType&gt; contactInformationTypes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.ContactInformationType, object&gt; GetContactInformation(class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Lync.Model.ContactInformationType&gt; contactInformationTypes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.GetContactInformation(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.ContactInformationType})" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetContactInformation (contactInformationTypes As IEnumerable(Of ContactInformationType)) As IDictionary(Of ContactInformationType, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::ContactInformationType, System::Object ^&gt; ^ GetContactInformation(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ contactInformationTypes);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.ContactInformationType,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactInformationTypes" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.ContactInformationType&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contactInformationTypes">To be added.</param>
+        <summary> 
+            Gets contact information from this contact.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SettingChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.ContactSettingChangedEventArgs&gt; SettingChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.ContactSettingChangedEventArgs&gt; SettingChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Contact.SettingChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event SettingChanged As EventHandler(Of ContactSettingChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ContactSettingChangedEventArgs ^&gt; ^ SettingChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.ContactSettingChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the value of a contact property changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.ContactSetting,object&gt; Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Lync.Model.ContactSetting, object&gt; Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As IDictionary(Of ContactSetting, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::ContactSetting, System::Object ^&gt; ^ Settings { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::ContactSetting, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.ContactSetting,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of contact settings.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnifiedCommunicationType">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Model.UnifiedCommunicationType UnifiedCommunicationType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Lync.Model.UnifiedCommunicationType UnifiedCommunicationType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.UnifiedCommunicationType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnifiedCommunicationType As UnifiedCommunicationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::UnifiedCommunicationType UnifiedCommunicationType { Microsoft::Lync::Model::UnifiedCommunicationType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.UnifiedCommunicationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the Unified Communication type of this contact.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public string Uri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Uri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uri As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the contact URI.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UriChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Lync.Model.UriChangedEventArgs&gt; UriChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Lync.Model.UriChangedEventArgs&gt; UriChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Contact.UriChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event UriChanged As EventHandler(Of UriChangedEventArgs) " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::UriChangedEventArgs ^&gt; ^ UriChanged;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.Lync.Model.UriChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the contact URI is changed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

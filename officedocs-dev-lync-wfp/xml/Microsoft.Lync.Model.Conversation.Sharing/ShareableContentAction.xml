@@ -1,0 +1,212 @@
+﻿<Type Name="ShareableContentAction" FullName="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction">
+  <TypeSignature Language="C#" Value="public enum ShareableContentAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ShareableContentAction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ShareableContentAction" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ShareableContentAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates supported content actions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClearAllAnnotations">
+      <MemberSignature Language="C#" Value="ClearAllAnnotations" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction ClearAllAnnotations = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.ClearAllAnnotations" />
+      <MemberSignature Language="VB.NET" Value="ClearAllAnnotations" />
+      <MemberSignature Language="C++ CLI" Value="ClearAllAnnotations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Clears all annotations from the shared whiteboard.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DownloadFile">
+      <MemberSignature Language="C#" Value="DownloadFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction DownloadFile = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.DownloadFile" />
+      <MemberSignature Language="VB.NET" Value="DownloadFile" />
+      <MemberSignature Language="C++ CLI" Value="DownloadFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Download a PowerPoint slide deck or file attachment from the meeting content bin.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Present">
+      <MemberSignature Language="C#" Value="Present" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction Present = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Present" />
+      <MemberSignature Language="VB.NET" Value="Present" />
+      <MemberSignature Language="C++ CLI" Value="Present" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Present a content item.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="Remove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction Remove = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Remove" />
+      <MemberSignature Language="VB.NET" Value="Remove" />
+      <MemberSignature Language="C++ CLI" Value="Remove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Remove a content item.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAnnotation">
+      <MemberSignature Language="C#" Value="SaveAnnotation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction SaveAnnotation = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.SaveAnnotation" />
+      <MemberSignature Language="VB.NET" Value="SaveAnnotation" />
+      <MemberSignature Language="C++ CLI" Value="SaveAnnotation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Save the annotations added to the shared whiteboard.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StopPresenting">
+      <MemberSignature Language="C#" Value="StopPresenting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction StopPresenting = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.StopPresenting" />
+      <MemberSignature Language="VB.NET" Value="StopPresenting" />
+      <MemberSignature Language="C++ CLI" Value="StopPresenting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Stop presenting a content item.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncWithPresenter">
+      <MemberSignature Language="C#" Value="SyncWithPresenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction SyncWithPresenter = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.SyncWithPresenter" />
+      <MemberSignature Language="VB.NET" Value="SyncWithPresenter" />
+      <MemberSignature Language="C++ CLI" Value="SyncWithPresenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Synchronize the content to the presenter.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TakeOverAsPresenter">
+      <MemberSignature Language="C#" Value="TakeOverAsPresenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction TakeOverAsPresenter = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.TakeOverAsPresenter" />
+      <MemberSignature Language="VB.NET" Value="TakeOverAsPresenter" />
+      <MemberSignature Language="C++ CLI" Value="TakeOverAsPresenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Take over as the presenter in the meeting.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Upload">
+      <MemberSignature Language="C#" Value="Upload" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction Upload = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Upload" />
+      <MemberSignature Language="VB.NET" Value="Upload" />
+      <MemberSignature Language="C++ CLI" Value="Upload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary> 
+            Upload a content.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

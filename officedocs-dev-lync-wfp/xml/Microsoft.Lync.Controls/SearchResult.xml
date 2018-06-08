@@ -1,0 +1,107 @@
+﻿<Type Name="SearchResult" FullName="Microsoft.Lync.Controls.SearchResult">
+  <TypeSignature Language="C#" Value="public class SearchResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SearchResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchResult" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchResult" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             A data structure which contains a single search result.  See <see cref="T:Microsoft.Lync.Controls.ContactSearchInputBox" />.             </summary>
+    <remarks>
+      <para>             A search <see cref="P:Microsoft.Lync.Controls.SearchResult.Result" /> consists of a single contact or distribution group.             For skill searches, the result also contains a <see cref="P:Microsoft.Lync.Controls.SearchResult.HitHighlightSummary" /> which              highlights matches for the contact's skill description.             </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.SearchResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchResult();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contact">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.Model.IContactModel Contact { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.Model.IContactModel Contact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResult.Contact" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contact As IContactModel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::Model::IContactModel ^ Contact { Microsoft::Lync::Controls::Internal::Model::IContactModel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.Model.IContactModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Reserved for internal use.             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HitHighlightSummary">
+      <MemberSignature Language="C#" Value="public string HitHighlightSummary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HitHighlightSummary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResult.HitHighlightSummary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HitHighlightSummary As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HitHighlightSummary { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             An XML string which describes the matches in a Skill search summary.             </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>             This string contains a sequence of skills which describe the contact found in the <see cref="P:Microsoft.Lync.Controls.SearchResult.Result" />.             The skill descriptions are separated by delimiters, and within each delimited sstring,              there is additional XML markup which identifies the specific word or words which matched the search.             </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public object Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Result" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResult.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Result { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             The contact or distribution group which was returned for this search result.             </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>             This value references either a <see cref="T:Microsoft.Lync.Model.Contact" />             or a  <see cref="T:Microsoft.Lync.Model.Group.DistributionGroup" />.             </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

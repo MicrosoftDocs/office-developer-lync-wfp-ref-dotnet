@@ -1,0 +1,134 @@
+﻿<Type Name="ClientSettingsType" FullName="Microsoft.Lync.Model.ClientSettingsType">
+  <TypeSignature Language="C#" Value="public enum ClientSettingsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClientSettingsType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ClientSettingsType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ClientSettingsType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ClientSettingsType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates the client access levels in use.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EnableP2PVideo">
+      <MemberSignature Language="C#" Value="EnableP2PVideo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientSettingsType EnableP2PVideo = int32(269615105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.EnableP2PVideo" />
+      <MemberSignature Language="VB.NET" Value="EnableP2PVideo" />
+      <MemberSignature Language="C++ CLI" Value="EnableP2PVideo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientSettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>269615105</MemberValue>
+      <Docs>
+        <summary>True to enable p2p video</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientSettingsType Invalid = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientSettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PublicCloudProviderInfo">
+      <MemberSignature Language="C#" Value="PublicCloudProviderInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientSettingsType PublicCloudProviderInfo = int32(1611792386)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.PublicCloudProviderInfo" />
+      <MemberSignature Language="VB.NET" Value="PublicCloudProviderInfo" />
+      <MemberSignature Language="C++ CLI" Value="PublicCloudProviderInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientSettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1611792386</MemberValue>
+      <Docs>
+        <summary>returns a list of PublicCloudProviderInfo objects</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="Reserved1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientSettingsType Reserved1 = int32(269615104)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Reserved1" />
+      <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientSettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>269615104</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="Reserved2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientSettingsType Reserved2 = int32(538050563)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Reserved2" />
+      <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientSettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>538050563</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved3">
+      <MemberSignature Language="C#" Value="Reserved3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Model.ClientSettingsType Reserved3 = int32(538050564)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.Reserved3" />
+      <MemberSignature Language="VB.NET" Value="Reserved3" />
+      <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Model</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Model.ClientSettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>538050564</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,65 @@
+﻿<Type Name="ContactSearchInputBoxAutomationPeer" FullName="Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer">
+  <TypeSignature Language="C#" Value="public class ContactSearchInputBoxAutomationPeer : Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.ContactSearchInputBox&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactSearchInputBoxAutomationPeer extends Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer`1&lt;class Microsoft.Lync.Controls.ContactSearchInputBox&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactSearchInputBoxAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of ContactSearchInputBox)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchInputBoxAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::ContactSearchInputBox ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.Internal.AutomationPeers.UCBaseAutomationPeer&lt;Microsoft.Lync.Controls.ContactSearchInputBox&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Microsoft.Lync.Controls.ContactSearchInputBox</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             ContactSearchInputBoxAutomationPeer class             </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactSearchInputBoxAutomationPeer (Microsoft.Lync.Controls.ContactSearchInputBox control);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Lync.Controls.ContactSearchInputBox control) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactSearchInputBox)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContactSearchInputBox)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactSearchInputBoxAutomationPeer(Microsoft::Lync::Controls::ContactSearchInputBox ^ control);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="control" Type="Microsoft.Lync.Controls.ContactSearchInputBox" />
+      </Parameters>
+      <Docs>
+        <param name="control">To be added.</param>
+        <summary>             ContactSearchInputBoxAutomationPeer Constructor             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHelpTextCore">
+      <MemberSignature Language="C#" Value="protected override string GetHelpTextCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetHelpTextCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer.GetHelpTextCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetHelpTextCore () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetHelpTextCore();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Override GetHelpTextCore.             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

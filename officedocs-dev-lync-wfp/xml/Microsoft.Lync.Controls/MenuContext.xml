@@ -1,0 +1,118 @@
+﻿<Type Name="MenuContext" FullName="Microsoft.Lync.Controls.MenuContext">
+  <TypeSignature Language="C#" Value="public enum MenuContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MenuContext extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.MenuContext" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MenuContext" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MenuContext" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>              Specifies the context in which a context menu is being used.             </summary>
+    <remarks>
+      <para>              Specifies the context in which a context menu is being used.              See <see cref="T:Microsoft.Lync.Controls.ContactList" />, <see cref="T:Microsoft.Lync.Controls.ContactSearchResultList" />, or <see cref="F:Microsoft.Lync.Controls.MenuContext.CustomContactList" />.              </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContactListByGroup">
+      <MemberSignature Language="C#" Value="ContactListByGroup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.MenuContext ContactListByGroup = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MenuContext.ContactListByGroup" />
+      <MemberSignature Language="VB.NET" Value="ContactListByGroup" />
+      <MemberSignature Language="C++ CLI" Value="ContactListByGroup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.MenuContext</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>              Specifies the menu context of a ContactsList in group-by-group mode             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactListByRelationship">
+      <MemberSignature Language="C#" Value="ContactListByRelationship" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.MenuContext ContactListByRelationship = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MenuContext.ContactListByRelationship" />
+      <MemberSignature Language="VB.NET" Value="ContactListByRelationship" />
+      <MemberSignature Language="C++ CLI" Value="ContactListByRelationship" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.MenuContext</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>              Specifies the menu context of a ContactsList in group-by-relationship mode             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactListByStatus">
+      <MemberSignature Language="C#" Value="ContactListByStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.MenuContext ContactListByStatus = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MenuContext.ContactListByStatus" />
+      <MemberSignature Language="VB.NET" Value="ContactListByStatus" />
+      <MemberSignature Language="C++ CLI" Value="ContactListByStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.MenuContext</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>              Specifies the menu context of a ContactsList in group-by-status mode             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomContactList">
+      <MemberSignature Language="C#" Value="CustomContactList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.MenuContext CustomContactList = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MenuContext.CustomContactList" />
+      <MemberSignature Language="VB.NET" Value="CustomContactList" />
+      <MemberSignature Language="C++ CLI" Value="CustomContactList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.MenuContext</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>              Specifies the menu context of a CustomContactList             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchResult">
+      <MemberSignature Language="C#" Value="SearchResult" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.MenuContext SearchResult = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MenuContext.SearchResult" />
+      <MemberSignature Language="VB.NET" Value="SearchResult" />
+      <MemberSignature Language="C++ CLI" Value="SearchResult" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.MenuContext</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>              Specifies the menu context of a ContactSearchResultList list             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

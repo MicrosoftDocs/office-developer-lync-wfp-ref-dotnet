@@ -1,0 +1,146 @@
+﻿<Type Name="ContactSearchResultListItem" FullName="Microsoft.Lync.Controls.Internal.ContactSearchResultListItem">
+  <TypeSignature Language="C#" Value="public class ContactSearchResultListItem : Microsoft.Lync.Controls.UCListBoxItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ContactSearchResultListItem extends Microsoft.Lync.Controls.UCListBoxItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactSearchResultListItem&#xA;Inherits UCListBoxItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchResultListItem : Microsoft::Lync::Controls::UCListBoxItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Lync.Controls.UCListBoxItem</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Windows.TemplatePart(Name="PART_HighlightTextBlock", Type=typeof(System.Windows.Controls.TextBlock))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactSearchResultListItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactSearchResultListItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HandlePartContactItemOnItemTemplated">
+      <MemberSignature Language="C#" Value="protected override void HandlePartContactItemOnItemTemplated (object sender, EventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void HandlePartContactItemOnItemTemplated(object sender, class System.EventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HandlePartContactItemOnItemTemplated(System.Object,System.EventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub HandlePartContactItemOnItemTemplated (sender As Object, e As EventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void HandlePartContactItemOnItemTemplated(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="System.EventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightRunCollection">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Windows.Documents.Run&gt; HighlightRunCollection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class System.Windows.Documents.Run&gt; HighlightRunCollection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HighlightRunCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Property HighlightRunCollection As List(Of Run)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;System::Windows::Documents::Run ^&gt; ^ HighlightRunCollection { System::Collections::Generic::List&lt;System::Windows::Documents::Run ^&gt; ^ get(); void set(System::Collections::Generic::List&lt;System::Windows::Documents::Run ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Windows.Documents.Run&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightRunCollectionProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty HighlightRunCollectionProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty HighlightRunCollectionProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HighlightRunCollectionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HighlightRunCollectionProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HighlightRunCollectionProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HitHighlightSummary">
+      <MemberSignature Language="C#" Value="public string HitHighlightSummary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HitHighlightSummary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HitHighlightSummary" />
+      <MemberSignature Language="VB.NET" Value="Public Property HitHighlightSummary As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HitHighlightSummary { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HitHighlightSummaryProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty HitHighlightSummaryProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty HitHighlightSummaryProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HitHighlightSummaryProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HitHighlightSummaryProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HitHighlightSummaryProperty;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
