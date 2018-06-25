@@ -73,6 +73,44 @@
         <summary>             None.             </summary>
       </Docs>
     </Member>
+    <Member MemberName="OutOfBrowserNotSupported">
+      <MemberSignature Language="C#" Value="OutOfBrowserNotSupported" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.LyncControlInitializationError OutOfBrowserNotSupported = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.OutOfBrowserNotSupported" />
+      <MemberSignature Language="VB.NET" Value="OutOfBrowserNotSupported" />
+      <MemberSignature Language="C++ CLI" Value="OutOfBrowserNotSupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.LyncControlInitializationError</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             Out of browswer applications are not supported.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SiteNotTrusted">
+      <MemberSignature Language="C#" Value="SiteNotTrusted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.LyncControlInitializationError SiteNotTrusted = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.SiteNotTrusted" />
+      <MemberSignature Language="VB.NET" Value="SiteNotTrusted" />
+      <MemberSignature Language="C++ CLI" Value="SiteNotTrusted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.LyncControlInitializationError</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             The website is not trusted.             </summary>
+      </Docs>
+    </Member>
     <Member MemberName="Unknown">
       <MemberSignature Language="C#" Value="Unknown" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.LyncControlInitializationError Unknown = int32(3)" />
@@ -90,6 +128,25 @@
       <MemberValue>3</MemberValue>
       <Docs>
         <summary>             Unknown.             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnsupportedBrowser">
+      <MemberSignature Language="C#" Value="UnsupportedBrowser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Lync.Controls.LyncControlInitializationError UnsupportedBrowser = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.UnsupportedBrowser" />
+      <MemberSignature Language="VB.NET" Value="UnsupportedBrowser" />
+      <MemberSignature Language="C++ CLI" Value="UnsupportedBrowser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.LyncControlInitializationError</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>             The current web browser is not supported.             </summary>
       </Docs>
     </Member>
   </Members>

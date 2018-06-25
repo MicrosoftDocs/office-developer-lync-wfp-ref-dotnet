@@ -10,6 +10,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Controls.Button</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="lync-silverlight">System.Windows.Controls.HyperlinkButton</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>

@@ -10,6 +10,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Automation.Peers.ContextMenuAutomationPeer</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="lync-silverlight">System.Windows.Automation.Peers.ListBoxAutomationPeer</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>

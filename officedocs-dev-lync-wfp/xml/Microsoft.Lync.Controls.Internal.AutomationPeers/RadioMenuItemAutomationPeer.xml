@@ -10,6 +10,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Automation.Peers.MenuItemAutomationPeer</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="lync-silverlight">Microsoft.Lync.Controls.Internal.AutomationPeers.MenuItemAutomationPeer</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>

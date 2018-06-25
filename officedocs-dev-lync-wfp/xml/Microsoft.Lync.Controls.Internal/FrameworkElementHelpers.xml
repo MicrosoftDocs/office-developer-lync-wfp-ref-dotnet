@@ -137,6 +137,56 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetAbsolutePosition">
+      <MemberSignature Language="C#" Value="public static System.Windows.Point GetAbsolutePosition (this System.Windows.UIElement elt);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Windows.Point GetAbsolutePosition(class System.Windows.UIElement elt) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAbsolutePosition(System.Windows.UIElement)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAbsolutePosition (elt As UIElement) As Point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Windows::Point GetAbsolutePosition(System::Windows::UIElement ^ elt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Point</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="elt" Type="System.Windows.UIElement" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="elt">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAbsolutePositionOrDefault">
+      <MemberSignature Language="C#" Value="public static System.Windows.Point GetAbsolutePositionOrDefault (this System.Windows.UIElement elt, System.Windows.Point defaultPoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Windows.Point GetAbsolutePositionOrDefault(class System.Windows.UIElement elt, valuetype System.Windows.Point defaultPoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAbsolutePositionOrDefault(System.Windows.UIElement,System.Windows.Point)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAbsolutePositionOrDefault (elt As UIElement, defaultPoint As Point) As Point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Windows::Point GetAbsolutePositionOrDefault(System::Windows::UIElement ^ elt, System::Windows::Point defaultPoint);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Point</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="elt" Type="System.Windows.UIElement" RefType="this" />
+        <Parameter Name="defaultPoint" Type="System.Windows.Point" />
+      </Parameters>
+      <Docs>
+        <param name="elt">To be added.</param>
+        <param name="defaultPoint">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetAncestorValue&lt;T&gt;">
       <MemberSignature Language="C#" Value="public static T GetAncestorValue&lt;T&gt; (this System.Windows.DependencyObject reference, System.Windows.DependencyProperty property);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetAncestorValue&lt;T&gt;(class System.Windows.DependencyObject reference, class System.Windows.DependencyProperty property) cil managed" />
@@ -160,6 +210,32 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
+        <param name="reference">To be added.</param>
+        <param name="property">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInheritedValue">
+      <MemberSignature Language="C#" Value="public static object GetInheritedValue (this System.Windows.DependencyObject reference, System.Windows.DependencyProperty property);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetInheritedValue(class System.Windows.DependencyObject reference, class System.Windows.DependencyProperty property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetInheritedValue(System.Windows.DependencyObject,System.Windows.DependencyProperty)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetInheritedValue (reference As DependencyObject, property As DependencyProperty) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Object ^ GetInheritedValue(System::Windows::DependencyObject ^ reference, System::Windows::DependencyProperty ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reference" Type="System.Windows.DependencyObject" RefType="this" />
+        <Parameter Name="property" Type="System.Windows.DependencyProperty" />
+      </Parameters>
+      <Docs>
         <param name="reference">To be added.</param>
         <param name="property">To be added.</param>
         <summary>To be added.</summary>
@@ -192,6 +268,29 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
+        <param name="dependencyObject">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInVisualTree">
+      <MemberSignature Language="C#" Value="public static bool IsInVisualTree (this System.Windows.DependencyObject dependencyObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsInVisualTree(class System.Windows.DependencyObject dependencyObject) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsInVisualTree(System.Windows.DependencyObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsInVisualTree(System::Windows::DependencyObject ^ dependencyObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dependencyObject" Type="System.Windows.DependencyObject" RefType="this" />
+      </Parameters>
+      <Docs>
         <param name="dependencyObject">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
