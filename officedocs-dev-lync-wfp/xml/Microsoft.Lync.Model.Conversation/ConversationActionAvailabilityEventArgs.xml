@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationActionAvailabilityEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConversationActionAvailabilityEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ConversationActionAvailabilityEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs.Action" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Action As ConversationAction" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationAction Action { Microsoft::Lync::Model::Conversation::ConversationAction get(); };" />
+      <MemberSignature Language="F#" Value="member this.Action : Microsoft.Lync.Model.Conversation.ConversationAction" Usage="Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs.Action" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs.IsAvailable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAvailable As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAvailable { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsAvailable : bool" Usage="Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs.IsAvailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

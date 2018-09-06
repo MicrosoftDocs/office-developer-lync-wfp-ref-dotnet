@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.AccessLevel" />
   <TypeSignature Language="VB.NET" Value="Public Enum AccessLevel" />
   <TypeSignature Language="C++ CLI" Value="public enum class AccessLevel" />
+  <TypeSignature Language="F#" Value="type AccessLevel = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Blocked" />
       <MemberSignature Language="VB.NET" Value="Blocked" />
       <MemberSignature Language="C++ CLI" Value="Blocked" />
+      <MemberSignature Language="F#" Value="Blocked = 32000" Usage="Microsoft.Lync.Model.AccessLevel.Blocked" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Colleague" />
       <MemberSignature Language="VB.NET" Value="Colleague" />
       <MemberSignature Language="C++ CLI" Value="Colleague" />
+      <MemberSignature Language="F#" Value="Colleague = 200" Usage="Microsoft.Lync.Model.AccessLevel.Colleague" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
       <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Lync.Model.AccessLevel.Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.External" />
       <MemberSignature Language="VB.NET" Value="External" />
       <MemberSignature Language="C++ CLI" Value="External" />
+      <MemberSignature Language="F#" Value="External = 100" Usage="Microsoft.Lync.Model.AccessLevel.External" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Friends" />
       <MemberSignature Language="VB.NET" Value="Friends" />
       <MemberSignature Language="C++ CLI" Value="Friends" />
+      <MemberSignature Language="F#" Value="Friends = 400" Usage="Microsoft.Lync.Model.AccessLevel.Friends" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.AccessLevel.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessLevel.Workgroup" />
       <MemberSignature Language="VB.NET" Value="Workgroup" />
       <MemberSignature Language="C++ CLI" Value="Workgroup" />
+      <MemberSignature Language="F#" Value="Workgroup = 300" Usage="Microsoft.Lync.Model.AccessLevel.Workgroup" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

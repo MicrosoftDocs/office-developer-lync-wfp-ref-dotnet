@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchResults" />
   <TypeSignature Language="VB.NET" Value="Public Class SearchResults&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class SearchResults : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type SearchResults = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResults.AllResults" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllResults As IList(Of SearchResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::SearchResult ^&gt; ^ AllResults { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::SearchResult ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AllResults : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.SearchResult&gt;" Usage="Microsoft.Lync.Model.SearchResults.AllResults" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResults.Contacts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contacts As IList(Of Contact)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Contact ^&gt; ^ Contacts { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Contact ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Contacts : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Contact&gt;" Usage="Microsoft.Lync.Model.SearchResults.Contacts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResults.Groups" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Groups As IList(Of Group)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Group::Group ^&gt; ^ Groups { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Group::Group ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Groups : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Group.Group&gt;" Usage="Microsoft.Lync.Model.SearchResults.Groups" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResults.IsMoreAvailable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMoreAvailable As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMoreAvailable { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsMoreAvailable : bool" Usage="Microsoft.Lync.Model.SearchResults.IsMoreAvailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

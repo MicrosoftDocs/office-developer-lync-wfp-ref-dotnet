@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.GroupType" />
   <TypeSignature Language="VB.NET" Value="Public Enum GroupType" />
   <TypeSignature Language="C++ CLI" Value="public enum class GroupType" />
+  <TypeSignature Language="F#" Value="type GroupType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Group.GroupType.CustomGroup" />
       <MemberSignature Language="VB.NET" Value="CustomGroup" />
       <MemberSignature Language="C++ CLI" Value="CustomGroup" />
+      <MemberSignature Language="F#" Value="CustomGroup = 1" Usage="Microsoft.Lync.Model.Group.GroupType.CustomGroup" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Group.GroupType.DistributionGroup" />
       <MemberSignature Language="VB.NET" Value="DistributionGroup" />
       <MemberSignature Language="C++ CLI" Value="DistributionGroup" />
+      <MemberSignature Language="F#" Value="DistributionGroup = 3" Usage="Microsoft.Lync.Model.Group.GroupType.DistributionGroup" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Group.GroupType.FavoriteContacts" />
       <MemberSignature Language="VB.NET" Value="FavoriteContacts" />
       <MemberSignature Language="C++ CLI" Value="FavoriteContacts" />
+      <MemberSignature Language="F#" Value="FavoriteContacts = 5" Usage="Microsoft.Lync.Model.Group.GroupType.FavoriteContacts" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Group.GroupType.FrequentContacts" />
       <MemberSignature Language="VB.NET" Value="FrequentContacts" />
       <MemberSignature Language="C++ CLI" Value="FrequentContacts" />
+      <MemberSignature Language="F#" Value="FrequentContacts = 4" Usage="Microsoft.Lync.Model.Group.GroupType.FrequentContacts" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Group.GroupType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Group.GroupType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

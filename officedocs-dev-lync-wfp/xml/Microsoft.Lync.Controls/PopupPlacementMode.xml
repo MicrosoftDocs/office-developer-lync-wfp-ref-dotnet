@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.PopupPlacementMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum PopupPlacementMode" />
   <TypeSignature Language="C++ CLI" Value="public enum class PopupPlacementMode" />
+  <TypeSignature Language="F#" Value="type PopupPlacementMode = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PopupPlacementMode.Left" />
       <MemberSignature Language="VB.NET" Value="Left" />
       <MemberSignature Language="C++ CLI" Value="Left" />
+      <MemberSignature Language="F#" Value="Left = 1" Usage="Microsoft.Lync.Controls.PopupPlacementMode.Left" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PopupPlacementMode.LeftAndVerticallyCentered" />
       <MemberSignature Language="VB.NET" Value="LeftAndVerticallyCentered" />
       <MemberSignature Language="C++ CLI" Value="LeftAndVerticallyCentered" />
+      <MemberSignature Language="F#" Value="LeftAndVerticallyCentered = 2" Usage="Microsoft.Lync.Controls.PopupPlacementMode.LeftAndVerticallyCentered" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PopupPlacementMode.Top" />
       <MemberSignature Language="VB.NET" Value="Top" />
       <MemberSignature Language="C++ CLI" Value="Top" />
+      <MemberSignature Language="F#" Value="Top = 0" Usage="Microsoft.Lync.Controls.PopupPlacementMode.Top" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

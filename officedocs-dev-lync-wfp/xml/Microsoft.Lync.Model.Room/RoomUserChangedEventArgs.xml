@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomUserChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class RoomUserChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class RoomUserChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type RoomUserChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomUserChangedEventArgs.CanSendMessage" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanSendMessage As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanSendMessage { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.CanSendMessage : bool" Usage="Microsoft.Lync.Model.Room.RoomUserChangedEventArgs.CanSendMessage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

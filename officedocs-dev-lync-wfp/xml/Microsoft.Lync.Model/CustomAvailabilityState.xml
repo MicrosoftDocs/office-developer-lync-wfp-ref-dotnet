@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.CustomAvailabilityState" />
   <TypeSignature Language="VB.NET" Value="Public Class CustomAvailabilityState&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class CustomAvailabilityState : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type CustomAvailabilityState = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.CustomAvailabilityState.Activity" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Activity As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Activity { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Activity : string" Usage="Microsoft.Lync.Model.CustomAvailabilityState.Activity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.CustomAvailabilityState.Availability" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Availability As ContactAvailability" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactAvailability Availability { Microsoft::Lync::Model::ContactAvailability get(); };" />
+      <MemberSignature Language="F#" Value="member this.Availability : Microsoft.Lync.Model.ContactAvailability" Usage="Microsoft.Lync.Model.CustomAvailabilityState.Availability" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.CustomAvailabilityState.Id" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Id { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Lync.Model.CustomAvailabilityState.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

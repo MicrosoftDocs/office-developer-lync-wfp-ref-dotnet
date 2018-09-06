@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.Room" />
   <TypeSignature Language="VB.NET" Value="Public Class Room&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class Room : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type Room = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginJoin(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginJoin (roomCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginJoin(AsyncCallback ^ roomCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginJoin : AsyncCallback * obj -&gt; IAsyncResult" Usage="room.BeginJoin (roomCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -51,6 +53,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginLeave(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginLeave (roomCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginLeave(AsyncCallback ^ roomCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginLeave : AsyncCallback * obj -&gt; IAsyncResult" Usage="room.BeginLeave (roomCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +82,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginRetrieveAdditionalMessages(System.UInt32,System.UInt32,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginRetrieveAdditionalMessages (lastMessageID As UInteger, count As UInteger, roomCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRetrieveAdditionalMessages(System::UInt32 lastMessageID, System::UInt32 count, AsyncCallback ^ roomCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginRetrieveAdditionalMessages : uint32 * uint32 * AsyncCallback * obj -&gt; IAsyncResult" Usage="room.BeginRetrieveAdditionalMessages (lastMessageID, count, roomCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -111,6 +115,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginRetrieveLatestMessages(System.UInt32,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginRetrieveLatestMessages (count As UInteger, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRetrieveLatestMessages(System::UInt32 count, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginRetrieveLatestMessages : uint32 * AsyncCallback * obj -&gt; IAsyncResult" Usage="room.BeginRetrieveLatestMessages (count, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -141,6 +146,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginSendMessage(System.Collections.Generic.IDictionary{Microsoft.Lync.Model.Room.RoomMessageFormat,System.String},Microsoft.Lync.Model.Room.RoomMessageType,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendMessage (contents As IDictionary(Of RoomMessageFormat, String), type As RoomMessageType, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendMessage(System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Room::RoomMessageFormat, System::String ^&gt; ^ contents, Microsoft::Lync::Model::Room::RoomMessageType type, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendMessage : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomMessageFormat, string&gt; * Microsoft.Lync.Model.Room.RoomMessageType * AsyncCallback * obj -&gt; IAsyncResult" Usage="room.BeginSendMessage (contents, type, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -173,6 +179,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginSendMessage(System.String,Microsoft.Lync.Model.Room.RoomMessageType,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendMessage (text As String, type As RoomMessageType, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendMessage(System::String ^ text, Microsoft::Lync::Model::Room::RoomMessageType type, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendMessage : string * Microsoft.Lync.Model.Room.RoomMessageType * AsyncCallback * obj -&gt; IAsyncResult" Usage="room.BeginSendMessage (text, type, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -205,6 +212,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginSendStoryMessage(System.Collections.Generic.IDictionary{Microsoft.Lync.Model.Room.RoomMessageFormat,System.String},Microsoft.Lync.Model.Room.RoomMessageType,System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendStoryMessage (contents As IDictionary(Of RoomMessageFormat, String), type As RoomMessageType, storyTitle As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendStoryMessage(System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Room::RoomMessageFormat, System::String ^&gt; ^ contents, Microsoft::Lync::Model::Room::RoomMessageType type, System::String ^ storyTitle, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendStoryMessage : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomMessageFormat, string&gt; * Microsoft.Lync.Model.Room.RoomMessageType * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="room.BeginSendStoryMessage (contents, type, storyTitle, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -239,6 +247,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.BeginSendStoryMessage(System.String,Microsoft.Lync.Model.Room.RoomMessageType,System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendStoryMessage (text As String, type As RoomMessageType, storyTitle As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendStoryMessage(System::String ^ text, Microsoft::Lync::Model::Room::RoomMessageType type, System::String ^ storyTitle, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendStoryMessage : string * Microsoft.Lync.Model.Room.RoomMessageType * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="room.BeginSendStoryMessage (text, type, storyTitle, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -273,6 +282,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.DisableOutgoingMessageFilter" />
       <MemberSignature Language="VB.NET" Value="Public Sub DisableOutgoingMessageFilter ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableOutgoingMessageFilter();" />
+      <MemberSignature Language="F#" Value="member this.DisableOutgoingMessageFilter : unit -&gt; unit" Usage="room.DisableOutgoingMessageFilter " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -293,6 +303,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EnableOutgoingMessageFilter" />
       <MemberSignature Language="VB.NET" Value="Public Sub EnableOutgoingMessageFilter ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableOutgoingMessageFilter();" />
+      <MemberSignature Language="F#" Value="member this.EnableOutgoingMessageFilter : unit -&gt; unit" Usage="room.EnableOutgoingMessageFilter " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -315,6 +326,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EnableOutgoingMessageFilter(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EnableOutgoingMessageFilter (noWarning As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableOutgoingMessageFilter(bool noWarning);" />
+      <MemberSignature Language="F#" Value="member this.EnableOutgoingMessageFilter : bool -&gt; unit" Usage="room.EnableOutgoingMessageFilter noWarning" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -341,6 +353,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndJoin(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndJoin (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndJoin(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndJoin : IAsyncResult -&gt; unit" Usage="room.EndJoin asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -366,6 +379,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndLeave(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndLeave (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndLeave(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndLeave : IAsyncResult -&gt; unit" Usage="room.EndLeave asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -391,6 +405,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndRetrieveAdditionalMessages(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndRetrieveAdditionalMessages (asyncResult As IAsyncResult) As IList(Of RoomMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessage ^&gt; ^ EndRetrieveAdditionalMessages(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndRetrieveAdditionalMessages : IAsyncResult -&gt; System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessage&gt;" Usage="room.EndRetrieveAdditionalMessages asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -417,6 +432,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndRetrieveLatestMessages(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndRetrieveLatestMessages (asyncResult As IAsyncResult) As IList(Of RoomMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessage ^&gt; ^ EndRetrieveLatestMessages(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndRetrieveLatestMessages : IAsyncResult -&gt; System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessage&gt;" Usage="room.EndRetrieveLatestMessages asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -443,6 +459,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndSendMessage(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndSendMessage (asyncResult As IAsyncResult) As RoomMessage" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Room::RoomMessage ^ EndSendMessage(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSendMessage : IAsyncResult -&gt; Microsoft.Lync.Model.Room.RoomMessage" Usage="room.EndSendMessage asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -469,6 +486,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.EndSendStoryMessage(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndSendStoryMessage (asyncResult As IAsyncResult) As RoomMessage" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Room::RoomMessage ^ EndSendStoryMessage(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSendStoryMessage : IAsyncResult -&gt; Microsoft.Lync.Model.Room.RoomMessage" Usage="room.EndSendStoryMessage asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -495,6 +513,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Room ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="room.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -515,6 +534,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.IsOutgoingMessageFilterEnabled" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOutgoingMessageFilterEnabled As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOutgoingMessageFilterEnabled { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsOutgoingMessageFilterEnabled : bool" Usage="Microsoft.Lync.Model.Room.Room.IsOutgoingMessageFilterEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -535,6 +555,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.IsSendingMessage" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event IsSendingMessage As EventHandler(Of RoomMessageEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomMessageEventArgs ^&gt; ^ IsSendingMessage;" />
+      <MemberSignature Language="F#" Value="member this.IsSendingMessage : EventHandler&lt;Microsoft.Lync.Model.Room.RoomMessageEventArgs&gt; " Usage="member this.IsSendingMessage : System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomMessageEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -557,6 +578,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.JoinedState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JoinedState As RoomJoinState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomJoinState JoinedState { Microsoft::Lync::Model::Room::RoomJoinState get(); };" />
+      <MemberSignature Language="F#" Value="member this.JoinedState : Microsoft.Lync.Model.Room.RoomJoinState" Usage="Microsoft.Lync.Model.Room.Room.JoinedState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -577,6 +599,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.JoinStateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event JoinStateChanged As EventHandler(Of RoomJoinStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomJoinStateChangedEventArgs ^&gt; ^ JoinStateChanged;" />
+      <MemberSignature Language="F#" Value="member this.JoinStateChanged : EventHandler&lt;Microsoft.Lync.Model.Room.RoomJoinStateChangedEventArgs&gt; " Usage="member this.JoinStateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomJoinStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -596,6 +619,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.MessagesReceived" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event MessagesReceived As EventHandler(Of RoomMessagesEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomMessagesEventArgs ^&gt; ^ MessagesReceived;" />
+      <MemberSignature Language="F#" Value="member this.MessagesReceived : EventHandler&lt;Microsoft.Lync.Model.Room.RoomMessagesEventArgs&gt; " Usage="member this.MessagesReceived : System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomMessagesEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -615,6 +639,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.ParticipantAdded" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipantAdded As EventHandler(Of RoomParticipantsEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomParticipantsEventArgs ^&gt; ^ ParticipantAdded;" />
+      <MemberSignature Language="F#" Value="member this.ParticipantAdded : EventHandler&lt;Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt; " Usage="member this.ParticipantAdded : System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -634,6 +659,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.ParticipantRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipantRemoved As EventHandler(Of RoomParticipantsEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomParticipantsEventArgs ^&gt; ^ ParticipantRemoved;" />
+      <MemberSignature Language="F#" Value="member this.ParticipantRemoved : EventHandler&lt;Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt; " Usage="member this.ParticipantRemoved : System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomParticipantsEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -653,6 +679,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.Participants" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Participants As IList(Of RoomUser)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomUser ^&gt; ^ Participants { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomUser ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Participants : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomUser&gt;" Usage="Microsoft.Lync.Model.Room.Room.Participants" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -673,6 +700,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of RoomProperty, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Room::RoomProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Room::RoomProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Room.RoomProperty, obj&gt;" Usage="Microsoft.Lync.Model.Room.Room.Properties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -696,6 +724,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event PropertyChanged As EventHandler(Of RoomPropertyChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomPropertyChangedEventArgs ^&gt; ^ PropertyChanged;" />
+      <MemberSignature Language="F#" Value="member this.PropertyChanged : EventHandler&lt;Microsoft.Lync.Model.Room.RoomPropertyChangedEventArgs&gt; " Usage="member this.PropertyChanged : System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomPropertyChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -715,6 +744,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.Room.SendFilteredMessage(Microsoft.Lync.Model.Room.RoomMessage,Microsoft.Lync.Model.Room.RoomMessageFilteringAction)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendFilteredMessage (message As RoomMessage, action As RoomMessageFilteringAction)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendFilteredMessage(Microsoft::Lync::Model::Room::RoomMessage ^ message, Microsoft::Lync::Model::Room::RoomMessageFilteringAction action);" />
+      <MemberSignature Language="F#" Value="member this.SendFilteredMessage : Microsoft.Lync.Model.Room.RoomMessage * Microsoft.Lync.Model.Room.RoomMessageFilteringAction -&gt; unit" Usage="room.SendFilteredMessage (message, action)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -743,6 +773,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.Room.UnreadMessageCountChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event UnreadMessageCountChanged As EventHandler(Of UnreadMessageCountChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::UnreadMessageCountChangedEventArgs ^&gt; ^ UnreadMessageCountChanged;" />
+      <MemberSignature Language="F#" Value="member this.UnreadMessageCountChanged : EventHandler&lt;Microsoft.Lync.Model.Room.UnreadMessageCountChangedEventArgs&gt; " Usage="member this.UnreadMessageCountChanged : System.EventHandler&lt;Microsoft.Lync.Model.Room.UnreadMessageCountChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -762,6 +793,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.Room.UnreadRoomMessageCount" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadRoomMessageCount As UInteger" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 UnreadRoomMessageCount { System::UInt32 get(); };" />
+      <MemberSignature Language="F#" Value="member this.UnreadRoomMessageCount : uint32" Usage="Microsoft.Lync.Model.Room.Room.UnreadRoomMessageCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

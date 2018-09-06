@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ContextType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContextType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContextType" />
+  <TypeSignature Language="F#" Value="type ContextType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ContextType.ApplicationData" />
       <MemberSignature Language="VB.NET" Value="ApplicationData" />
       <MemberSignature Language="C++ CLI" Value="ApplicationData" />
+      <MemberSignature Language="F#" Value="ApplicationData = 1" Usage="Microsoft.Lync.Model.Conversation.ContextType.ApplicationData" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ContextType.ApplicationId" />
       <MemberSignature Language="VB.NET" Value="ApplicationId" />
       <MemberSignature Language="C++ CLI" Value="ApplicationId" />
+      <MemberSignature Language="F#" Value="ApplicationId = 0" Usage="Microsoft.Lync.Model.Conversation.ContextType.ApplicationId" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ContextType.HyperLink" />
       <MemberSignature Language="VB.NET" Value="HyperLink" />
       <MemberSignature Language="C++ CLI" Value="HyperLink" />
+      <MemberSignature Language="F#" Value="HyperLink = 2" Usage="Microsoft.Lync.Model.Conversation.ContextType.HyperLink" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ContextType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ContextType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

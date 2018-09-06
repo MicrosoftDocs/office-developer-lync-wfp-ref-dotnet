@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ContactNote" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactNote&#xA;Inherits ContactBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactNote : Microsoft::Lync::Controls::ContactBase" />
+  <TypeSignature Language="F#" Value="type ContactNote = class&#xA;    inherit ContactBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>

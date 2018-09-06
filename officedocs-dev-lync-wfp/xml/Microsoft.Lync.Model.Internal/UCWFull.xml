@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.UCWFull" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class UCWFull&#xA;Inherits UCWBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class UCWFull abstract : Microsoft::Lync::Model::Internal::UCWBase" />
+  <TypeSignature Language="F#" Value="type UCWFull = class&#xA;    inherit UCWBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.UCWFull.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!UCWFull ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="uCWFull.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.ContactListAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactListAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of ContactList)" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactListAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::ContactList ^&gt;" />
+  <TypeSignature Language="F#" Value="type ContactListAutomationPeer = class&#xA;    inherit UCBaseAutomationPeer&lt;ContactList&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactListAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactList)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContactList)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactListAutomationPeer(Microsoft::Lync::Controls::ContactList ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.ContactListAutomationPeer : Microsoft.Lync.Controls.ContactList -&gt; Microsoft.Lync.Controls.AutomationPeers.ContactListAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.ContactListAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactListAutomationPeer.GetHelpTextCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetHelpTextCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetHelpTextCore();" />
+      <MemberSignature Language="F#" Value="override this.GetHelpTextCore : unit -&gt; string" Usage="contactListAutomationPeer.GetHelpTextCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

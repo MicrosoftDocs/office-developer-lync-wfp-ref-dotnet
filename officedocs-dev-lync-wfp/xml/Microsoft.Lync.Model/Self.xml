@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Self" />
   <TypeSignature Language="VB.NET" Value="Public Class Self&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class Self : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type Self = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Self.AlertLevelChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event AlertLevelChanged As EventHandler(Of AlertLevelChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::AlertLevelChangedEventArgs ^&gt; ^ AlertLevelChanged;" />
+      <MemberSignature Language="F#" Value="member this.AlertLevelChanged : EventHandler&lt;Microsoft.Lync.Model.AlertLevelChangedEventArgs&gt; " Usage="member this.AlertLevelChanged : System.EventHandler&lt;Microsoft.Lync.Model.AlertLevelChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -45,6 +47,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.BeginPublishContactInformation(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{Microsoft.Lync.Model.PublishableContactInformationType,System.Object}},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginPublishContactInformation (items As IEnumerable(Of KeyValuePair(Of PublishableContactInformationType, Object)), selfCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginPublishContactInformation(System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;Microsoft::Lync::Model::PublishableContactInformationType, System::Object ^&gt;&gt; ^ items, AsyncCallback ^ selfCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginPublishContactInformation : seq&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Lync.Model.PublishableContactInformationType, obj&gt;&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="self.BeginPublishContactInformation (items, selfCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -76,6 +79,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.BeginRemovePhone(Microsoft.Lync.Model.ContactEndpointType,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginRemovePhone (phoneType As ContactEndpointType, selfCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRemovePhone(Microsoft::Lync::Model::ContactEndpointType phoneType, AsyncCallback ^ selfCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginRemovePhone : Microsoft.Lync.Model.ContactEndpointType * AsyncCallback * obj -&gt; IAsyncResult" Usage="self.BeginRemovePhone (phoneType, selfCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -106,6 +110,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.BeginSetPhone(Microsoft.Lync.Model.ContactEndpointType,System.String,System.Boolean,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSetPhone (phoneType As ContactEndpointType, phoneUri As String, toBePublished As Boolean, selfCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetPhone(Microsoft::Lync::Model::ContactEndpointType phoneType, System::String ^ phoneUri, bool toBePublished, AsyncCallback ^ selfCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSetPhone : Microsoft.Lync.Model.ContactEndpointType * string * bool * AsyncCallback * obj -&gt; IAsyncResult" Usage="self.BeginSetPhone (phoneType, phoneUri, toBePublished, selfCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -140,6 +145,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.CanSetPhone(Microsoft.Lync.Model.ContactEndpointType)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanSetPhone (phoneType As ContactEndpointType) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetPhone(Microsoft::Lync::Model::ContactEndpointType phoneType);" />
+      <MemberSignature Language="F#" Value="member this.CanSetPhone : Microsoft.Lync.Model.ContactEndpointType -&gt; bool" Usage="self.CanSetPhone phoneType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -164,6 +170,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Self.Contact" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contact As Contact" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Contact ^ Contact { Microsoft::Lync::Model::Contact ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Contact : Microsoft.Lync.Model.Contact" Usage="Microsoft.Lync.Model.Self.Contact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -184,6 +191,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.EndPublishContactInformation(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndPublishContactInformation (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndPublishContactInformation(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndPublishContactInformation : IAsyncResult -&gt; unit" Usage="self.EndPublishContactInformation asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -209,6 +217,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.EndRemovePhone(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndRemovePhone (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRemovePhone(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndRemovePhone : IAsyncResult -&gt; unit" Usage="self.EndRemovePhone asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -234,6 +243,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.EndSetPhone(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSetPhone (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSetPhone(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSetPhone : IAsyncResult -&gt; unit" Usage="self.EndSetPhone asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -259,6 +269,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Self ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="self.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -278,6 +289,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.AlertLevel GetAlertLevelForNotification(string senderIdentity, valuetype Microsoft.Lync.Model.NotificationTypes notificationTypes, valuetype Microsoft.Lync.Model.NotificationUrgencyType notificationUrgency) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.GetAlertLevelForNotification(System.String,Microsoft.Lync.Model.NotificationTypes,Microsoft.Lync.Model.NotificationUrgencyType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::AlertLevel ^ GetAlertLevelForNotification(System::String ^ senderIdentity, Microsoft::Lync::Model::NotificationTypes notificationTypes, Microsoft::Lync::Model::NotificationUrgencyType notificationUrgency);" />
+      <MemberSignature Language="F#" Value="member this.GetAlertLevelForNotification : string * Microsoft.Lync.Model.NotificationTypes * Microsoft.Lync.Model.NotificationUrgencyType -&gt; Microsoft.Lync.Model.AlertLevel" Usage="self.GetAlertLevelForNotification (senderIdentity, notificationTypes, notificationUrgency)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -308,6 +320,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.GetPhone(Microsoft.Lync.Model.ContactEndpointType)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPhone (phoneType As ContactEndpointType) As Phone" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Phone ^ GetPhone(Microsoft::Lync::Model::ContactEndpointType phoneType);" />
+      <MemberSignature Language="F#" Value="member this.GetPhone : Microsoft.Lync.Model.ContactEndpointType -&gt; Microsoft.Lync.Model.Phone" Usage="self.GetPhone phoneType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -332,6 +345,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Self.GetPublishableCustomAvailabilityStates(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPublishableCustomAvailabilityStates (localeId As Integer) As IList(Of CustomAvailabilityState)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Lync::Model::CustomAvailabilityState ^&gt; ^ GetPublishableCustomAvailabilityStates(int localeId);" />
+      <MemberSignature Language="F#" Value="member this.GetPublishableCustomAvailabilityStates : int -&gt; System.Collections.Generic.IList&lt;Microsoft.Lync.Model.CustomAvailabilityState&gt;" Usage="self.GetPublishableCustomAvailabilityStates localeId" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -356,6 +370,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Self.IsInResiliencyMode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInResiliencyMode As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInResiliencyMode { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsInResiliencyMode : bool" Usage="Microsoft.Lync.Model.Self.IsInResiliencyMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -376,6 +391,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Self.Permissions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Permissions As IList(Of AccessPermission)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::AccessPermission ^&gt; ^ Permissions { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::AccessPermission ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Permissions : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.AccessPermission&gt;" Usage="Microsoft.Lync.Model.Self.Permissions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -396,6 +412,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Self.PhonesChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event PhonesChanged As EventHandler(Of PhonesChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::PhonesChangedEventArgs ^&gt; ^ PhonesChanged;" />
+      <MemberSignature Language="F#" Value="member this.PhonesChanged : EventHandler&lt;Microsoft.Lync.Model.PhonesChangedEventArgs&gt; " Usage="member this.PhonesChanged : System.EventHandler&lt;Microsoft.Lync.Model.PhonesChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -415,6 +432,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Self.PhotoDisplayed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhotoDisplayed As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PhotoDisplayed { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.PhotoDisplayed : bool" Usage="Microsoft.Lync.Model.Self.PhotoDisplayed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -435,6 +453,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Self.ResiliencyModeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ResiliencyModeChanged As EventHandler(Of ResiliencyModeChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ResiliencyModeChangedEventArgs ^&gt; ^ ResiliencyModeChanged;" />
+      <MemberSignature Language="F#" Value="member this.ResiliencyModeChanged : EventHandler&lt;Microsoft.Lync.Model.ResiliencyModeChangedEventArgs&gt; " Usage="member this.ResiliencyModeChanged : System.EventHandler&lt;Microsoft.Lync.Model.ResiliencyModeChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -454,6 +473,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Self.TestCallEndpoint" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TestCallEndpoint As ContactEndpoint" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactEndpoint ^ TestCallEndpoint { Microsoft::Lync::Model::ContactEndpoint ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TestCallEndpoint : Microsoft.Lync.Model.ContactEndpoint" Usage="Microsoft.Lync.Model.Self.TestCallEndpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

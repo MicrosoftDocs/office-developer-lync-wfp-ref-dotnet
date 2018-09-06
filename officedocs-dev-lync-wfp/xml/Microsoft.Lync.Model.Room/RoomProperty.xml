@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomProperty" />
   <TypeSignature Language="VB.NET" Value="Public Enum RoomProperty" />
   <TypeSignature Language="C++ CLI" Value="public enum class RoomProperty" />
+  <TypeSignature Language="F#" Value="type RoomProperty = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Description" />
       <MemberSignature Language="VB.NET" Value="Description" />
       <MemberSignature Language="C++ CLI" Value="Description" />
+      <MemberSignature Language="F#" Value="Description = 983042" Usage="Microsoft.Lync.Model.Room.RoomProperty.Description" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.DomainUrl" />
       <MemberSignature Language="VB.NET" Value="DomainUrl" />
       <MemberSignature Language="C++ CLI" Value="DomainUrl" />
+      <MemberSignature Language="F#" Value="DomainUrl = 983041" Usage="Microsoft.Lync.Model.Room.RoomProperty.DomainUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Room.RoomProperty.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Title" />
       <MemberSignature Language="VB.NET" Value="Title" />
       <MemberSignature Language="C++ CLI" Value="Title" />
+      <MemberSignature Language="F#" Value="Title = 983043" Usage="Microsoft.Lync.Model.Room.RoomProperty.Title" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Type" />
       <MemberSignature Language="VB.NET" Value="Type" />
       <MemberSignature Language="C++ CLI" Value="Type" />
+      <MemberSignature Language="F#" Value="Type = 806289412" Usage="Microsoft.Lync.Model.Room.RoomProperty.Type" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomProperty.Uri" />
       <MemberSignature Language="VB.NET" Value="Uri" />
       <MemberSignature Language="C++ CLI" Value="Uri" />
+      <MemberSignature Language="F#" Value="Uri = 983040" Usage="Microsoft.Lync.Model.Room.RoomProperty.Uri" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

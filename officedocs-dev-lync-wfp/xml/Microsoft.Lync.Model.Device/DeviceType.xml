@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Device.DeviceType" />
   <TypeSignature Language="VB.NET" Value="Public Enum DeviceType" />
   <TypeSignature Language="C++ CLI" Value="public enum class DeviceType" />
+  <TypeSignature Language="F#" Value="type DeviceType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.Custom" />
       <MemberSignature Language="VB.NET" Value="Custom" />
       <MemberSignature Language="C++ CLI" Value="Custom" />
+      <MemberSignature Language="F#" Value="Custom = 3" Usage="Microsoft.Lync.Model.Device.DeviceType.Custom" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.HeadSet" />
       <MemberSignature Language="VB.NET" Value="HeadSet" />
       <MemberSignature Language="C++ CLI" Value="HeadSet" />
+      <MemberSignature Language="F#" Value="HeadSet = 2" Usage="Microsoft.Lync.Model.Device.DeviceType.HeadSet" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.HumanInterfaceDevice" />
       <MemberSignature Language="VB.NET" Value="HumanInterfaceDevice" />
       <MemberSignature Language="C++ CLI" Value="HumanInterfaceDevice" />
+      <MemberSignature Language="F#" Value="HumanInterfaceDevice = 1" Usage="Microsoft.Lync.Model.Device.DeviceType.HumanInterfaceDevice" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Device.DeviceType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Device.DeviceType.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Lync.Model.Device.DeviceType.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

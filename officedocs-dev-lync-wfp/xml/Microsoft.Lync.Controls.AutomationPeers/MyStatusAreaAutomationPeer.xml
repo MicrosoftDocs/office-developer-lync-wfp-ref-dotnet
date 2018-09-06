@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.MyStatusAreaAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class MyStatusAreaAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of MyStatusArea)" />
   <TypeSignature Language="C++ CLI" Value="public ref class MyStatusAreaAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::MyStatusArea ^&gt;" />
+  <TypeSignature Language="F#" Value="type MyStatusAreaAutomationPeer = class&#xA;    inherit UCBaseAutomationPeer&lt;MyStatusArea&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.MyStatusAreaAutomationPeer.#ctor(Microsoft.Lync.Controls.MyStatusArea)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As MyStatusArea)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; MyStatusAreaAutomationPeer(Microsoft::Lync::Controls::MyStatusArea ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.MyStatusAreaAutomationPeer : Microsoft.Lync.Controls.MyStatusArea -&gt; Microsoft.Lync.Controls.AutomationPeers.MyStatusAreaAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.MyStatusAreaAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

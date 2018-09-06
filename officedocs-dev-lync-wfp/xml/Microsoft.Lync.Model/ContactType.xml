@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContactType" />
+  <TypeSignature Language="F#" Value="type ContactType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactType.AutoAttendant" />
       <MemberSignature Language="VB.NET" Value="AutoAttendant" />
       <MemberSignature Language="C++ CLI" Value="AutoAttendant" />
+      <MemberSignature Language="F#" Value="AutoAttendant = 3" Usage="Microsoft.Lync.Model.ContactType.AutoAttendant" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactType.AutomatedBot" />
       <MemberSignature Language="VB.NET" Value="AutomatedBot" />
       <MemberSignature Language="C++ CLI" Value="AutomatedBot" />
+      <MemberSignature Language="F#" Value="AutomatedBot = 4" Usage="Microsoft.Lync.Model.ContactType.AutomatedBot" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactType.Huntgroup" />
       <MemberSignature Language="VB.NET" Value="Huntgroup" />
       <MemberSignature Language="C++ CLI" Value="Huntgroup" />
+      <MemberSignature Language="F#" Value="Huntgroup = 2" Usage="Microsoft.Lync.Model.ContactType.Huntgroup" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ContactType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactType.Person" />
       <MemberSignature Language="VB.NET" Value="Person" />
       <MemberSignature Language="C++ CLI" Value="Person" />
+      <MemberSignature Language="F#" Value="Person = 1" Usage="Microsoft.Lync.Model.ContactType.Person" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactType.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Lync.Model.ContactType.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class MyNoteBoxAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of MyNoteBox)&#xA;Implements IValueProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class MyNoteBoxAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::MyNoteBox ^&gt;, System::Windows::Automation::Provider::IValueProvider" />
+  <TypeSignature Language="F#" Value="type MyNoteBoxAutomationPeer = class&#xA;    inherit UCBaseAutomationPeer&lt;MyNoteBox&gt;&#xA;    interface IValueProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -30,6 +31,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer.#ctor(Microsoft.Lync.Controls.MyNoteBox)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As MyNoteBox)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; MyNoteBoxAutomationPeer(Microsoft::Lync::Controls::MyNoteBox ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer : Microsoft.Lync.Controls.MyNoteBox -&gt; Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -49,6 +51,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object GetPattern(valuetype System.Windows.Automation.Peers.PatternInterface patternInterface) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer.GetPattern(System.Windows.Automation.Peers.PatternInterface)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ GetPattern(System::Windows::Automation::Peers::PatternInterface patternInterface);" />
+      <MemberSignature Language="F#" Value="override this.GetPattern : System.Windows.Automation.Peers.PatternInterface -&gt; obj" Usage="myNoteBoxAutomationPeer.GetPattern patternInterface" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -73,6 +76,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer.IsReadOnly" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReadOnly As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer.IsReadOnly" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Windows.Automation.Provider.IValueProvider.IsReadOnly</InterfaceMember>
@@ -99,6 +103,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer.SetValue(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (value As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetValue(System::String ^ value);" />
+      <MemberSignature Language="F#" Value="abstract member SetValue : string -&gt; unit&#xA;override this.SetValue : string -&gt; unit" Usage="myNoteBoxAutomationPeer.SetValue value" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Windows.Automation.Provider.IValueProvider.SetValue(System.String)</InterfaceMember>
@@ -125,6 +130,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer.Value" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Value : string" Usage="Microsoft.Lync.Controls.AutomationPeers.MyNoteBoxAutomationPeer.Value" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Windows.Automation.Provider.IValueProvider.Value</InterfaceMember>

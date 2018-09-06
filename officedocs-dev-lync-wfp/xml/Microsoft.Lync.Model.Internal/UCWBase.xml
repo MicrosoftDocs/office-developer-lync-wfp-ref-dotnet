@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.UCWBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class UCWBase&#xA;Inherits MarshalByRefObject" />
   <TypeSignature Language="C++ CLI" Value="public ref class UCWBase abstract : MarshalByRefObject" />
+  <TypeSignature Language="F#" Value="type UCWBase = class&#xA;    inherit MarshalByRefObject" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Internal.UCWBase.InnerObject" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InnerObject As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ InnerObject { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.InnerObject : obj" Usage="Microsoft.Lync.Model.Internal.UCWBase.InnerObject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

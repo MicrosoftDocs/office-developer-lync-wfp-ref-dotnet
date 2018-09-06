@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactEndpoint" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactEndpoint&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactEndpoint : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type ContactEndpoint = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanStart(valuetype Microsoft.Lync.Model.Conversation.ModalityTypes modalityTypes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactEndpoint.CanStart(Microsoft.Lync.Model.Conversation.ModalityTypes)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanStart(Microsoft::Lync::Model::Conversation::ModalityTypes modalityTypes);" />
+      <MemberSignature Language="F#" Value="member this.CanStart : Microsoft.Lync.Model.Conversation.ModalityTypes -&gt; bool" Usage="contactEndpoint.CanStart modalityTypes" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactEndpoint.DisplayName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayName : string" Usage="Microsoft.Lync.Model.ContactEndpoint.DisplayName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -66,6 +69,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactEndpoint.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As ContactEndpointType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactEndpointType Type { Microsoft::Lync::Model::ContactEndpointType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Lync.Model.ContactEndpointType" Usage="Microsoft.Lync.Model.ContactEndpoint.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -86,6 +90,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactEndpoint.Uri" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Uri : string" Usage="Microsoft.Lync.Model.ContactEndpoint.Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

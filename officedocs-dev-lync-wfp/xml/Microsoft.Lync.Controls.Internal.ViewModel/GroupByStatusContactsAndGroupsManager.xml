@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager" />
   <TypeSignature Language="VB.NET" Value="Public Class GroupByStatusContactsAndGroupsManager&#xA;Inherits GroupByContactsAndGroupsManagerBase(Of StatusAvailability)" />
   <TypeSignature Language="C++ CLI" Value="public ref class GroupByStatusContactsAndGroupsManager : Microsoft::Lync::Controls::Internal::ViewModel::GroupByContactsAndGroupsManagerBase&lt;Microsoft::Lync::Controls::Internal::Model::StatusAvailability&gt;" />
+  <TypeSignature Language="F#" Value="type GroupByStatusContactsAndGroupsManager = class&#xA;    inherit GroupByContactsAndGroupsManagerBase&lt;StatusAvailability&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager.#ctor(System.Comparison{Microsoft.Lync.Controls.Internal.Model.IContactModel},System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel},System.Collections.Generic.List{Microsoft.Lync.Controls.Internal.Model.StatusAvailability})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (comparison As Comparison(Of IContactModel), groups As IEnumerable(Of IGroupModel), groupsOrder As List(Of StatusAvailability))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupByStatusContactsAndGroupsManager(Comparison&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ comparison, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groups, System::Collections::Generic::List&lt;Microsoft::Lync::Controls::Internal::Model::StatusAvailability&gt; ^ groupsOrder);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager : Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; * seq&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; * System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.StatusAvailability&gt; -&gt; Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager (comparison, groups, groupsOrder)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -50,6 +52,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager.CreateGroups(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel},System.Collections.Generic.List{Microsoft.Lync.Controls.Internal.Model.StatusAvailability})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub CreateGroups (sourceGroups As IEnumerable(Of IGroupModel), groupsOrder As List(Of StatusAvailability))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void CreateGroups(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ sourceGroups, System::Collections::Generic::List&lt;Microsoft::Lync::Controls::Internal::Model::StatusAvailability&gt; ^ groupsOrder);" />
+      <MemberSignature Language="F#" Value="override this.CreateGroups : seq&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; * System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.StatusAvailability&gt; -&gt; unit" Usage="groupByStatusContactsAndGroupsManager.CreateGroups (sourceGroups, groupsOrder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -75,6 +78,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager.OnSourceContactsAdded(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IContactModel})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceContactsAdded (contacts As IEnumerable(Of IContactModel))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceContactsAdded(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ contacts);" />
+      <MemberSignature Language="F#" Value="override this.OnSourceContactsAdded : seq&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; -&gt; unit" Usage="groupByStatusContactsAndGroupsManager.OnSourceContactsAdded contacts" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -98,6 +102,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager.OnSourceContactsRemoved(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IContactModel})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceContactsRemoved (contacts As IEnumerable(Of IContactModel))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceContactsRemoved(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ contacts);" />
+      <MemberSignature Language="F#" Value="override this.OnSourceContactsRemoved : seq&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; -&gt; unit" Usage="groupByStatusContactsAndGroupsManager.OnSourceContactsRemoved contacts" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -121,6 +126,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByStatusContactsAndGroupsManager.OnStatusAvailabilityChanged(Microsoft.Lync.Controls.Internal.Model.IContactModel,Microsoft.Lync.Controls.Internal.Model.StatusAvailability)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnStatusAvailabilityChanged (contact As IContactModel, newValue As StatusAvailability)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnStatusAvailabilityChanged(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ contact, Microsoft::Lync::Controls::Internal::Model::StatusAvailability newValue);" />
+      <MemberSignature Language="F#" Value="override this.OnStatusAvailabilityChanged : Microsoft.Lync.Controls.Internal.Model.IContactModel * Microsoft.Lync.Controls.Internal.Model.StatusAvailability -&gt; unit" Usage="groupByStatusContactsAndGroupsManager.OnStatusAvailabilityChanged (contact, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.NamedPropertyList" />
   <TypeSignature Language="VB.NET" Value="Public Class NamedPropertyList&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class NamedPropertyList : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type NamedPropertyList = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.NamedPropertyList.Add(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (propertyID As String, propertyValue As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::String ^ propertyID, System::Object ^ propertyValue);" />
+      <MemberSignature Language="F#" Value="member this.Add : string * obj -&gt; unit" Usage="namedPropertyList.Add (propertyID, propertyValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -48,6 +50,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.NamedPropertyList.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberSignature Language="F#" Value="member this.Clear : unit -&gt; unit" Usage="namedPropertyList.Clear " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -68,6 +71,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Internal.NamedPropertyList.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Lync.Model.Internal.NamedPropertyList.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -88,6 +92,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.NamedPropertyList.GetIDAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetIDAt (index As Integer) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetIDAt(int index);" />
+      <MemberSignature Language="F#" Value="member this.GetIDAt : int -&gt; string" Usage="namedPropertyList.GetIDAt index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -112,6 +117,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.NamedPropertyList.GetValueAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetValueAt (index As Integer) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValueAt(int index);" />
+      <MemberSignature Language="F#" Value="member this.GetValueAt : int -&gt; obj" Usage="namedPropertyList.GetValueAt index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +142,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.NamedPropertyList.RemoveAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberSignature Language="F#" Value="member this.RemoveAt : int -&gt; unit" Usage="namedPropertyList.RemoveAt index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -159,6 +166,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.NamedPropertyList.TryGetValue(System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (propertyID As String, ByRef propertyValue As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(System::String ^ propertyID, [Runtime::InteropServices::Out] System::Object ^ % propertyValue);" />
+      <MemberSignature Language="F#" Value="member this.TryGetValue : string *  -&gt; bool" Usage="namedPropertyList.TryGetValue (propertyID, propertyValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -169,7 +177,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="propertyID" Type="System.String" />
-        <Parameter Name="propertyValue" Type="System.Object&amp;" RefType="out" />
+        <Parameter Name="propertyValue" Type="System.Object" RefType="out" />
       </Parameters>
       <Docs>
         <param name="propertyID">To be added.</param>

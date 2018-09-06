@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ScheduleMeetingButton" />
   <TypeSignature Language="VB.NET" Value="Public Class ScheduleMeetingButton&#xA;Inherits ContactButton" />
   <TypeSignature Language="C++ CLI" Value="public ref class ScheduleMeetingButton : Microsoft::Lync::Controls::ContactButton" />
+  <TypeSignature Language="F#" Value="type ScheduleMeetingButton = class&#xA;    inherit ContactButton" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -43,6 +44,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ScheduleMeetingButton.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="scheduleMeetingButton.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

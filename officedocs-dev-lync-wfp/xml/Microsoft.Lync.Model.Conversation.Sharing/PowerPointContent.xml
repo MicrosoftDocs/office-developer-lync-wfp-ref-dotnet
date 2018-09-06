@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent" />
   <TypeSignature Language="VB.NET" Value="Public Class PowerPointContent&#xA;Inherits ShareableContent" />
   <TypeSignature Language="C++ CLI" Value="public ref class PowerPointContent : Microsoft::Lync::Model::Conversation::Sharing::ShareableContent" />
+  <TypeSignature Language="F#" Value="type PowerPointContent = class&#xA;    inherit ShareableContent" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!PowerPointContent ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="powerPointContent.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.GoBackward" />
       <MemberSignature Language="VB.NET" Value="Public Sub GoBackward ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoBackward();" />
+      <MemberSignature Language="F#" Value="member this.GoBackward : unit -&gt; unit" Usage="powerPointContent.GoBackward " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.GoForward" />
       <MemberSignature Language="VB.NET" Value="Public Sub GoForward ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoForward();" />
+      <MemberSignature Language="F#" Value="member this.GoForward : unit -&gt; unit" Usage="powerPointContent.GoForward " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.IsInSyncWithPresenter" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInSyncWithPresenter As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInSyncWithPresenter { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsInSyncWithPresenter : bool" Usage="Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.IsInSyncWithPresenter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.PowerPointContent.SyncWithPresenter" />
       <MemberSignature Language="VB.NET" Value="Public Sub SyncWithPresenter ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SyncWithPresenter();" />
+      <MemberSignature Language="F#" Value="member this.SyncWithPresenter : unit -&gt; unit" Usage="powerPointContent.SyncWithPresenter " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

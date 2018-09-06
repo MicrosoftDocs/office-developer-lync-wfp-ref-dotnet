@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation" />
   <TypeSignature Language="VB.NET" Value="Public Class ConferenceAccessInformation&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConferenceAccessInformation : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type ConferenceAccessInformation = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.AdmissionKey" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdmissionKey As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdmissionKey { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AdmissionKey : string" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.AdmissionKey" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.AutoAttendantNumbers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoAttendantNumbers As IList(Of String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ AutoAttendantNumbers { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AutoAttendantNumbers : System.Collections.Generic.IList&lt;string&gt;" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.AutoAttendantNumbers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.ExternalUrl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalUrl As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalUrl { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ExternalUrl : string" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.ExternalUrl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.Id" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.InternalUrl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternalUrl As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternalUrl { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.InternalUrl : string" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessInformation.InternalUrl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

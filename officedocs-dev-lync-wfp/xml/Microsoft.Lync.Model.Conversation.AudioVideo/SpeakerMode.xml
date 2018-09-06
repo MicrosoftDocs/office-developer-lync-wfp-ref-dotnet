@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.SpeakerMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum SpeakerMode" />
   <TypeSignature Language="C++ CLI" Value="public enum class SpeakerMode" />
+  <TypeSignature Language="F#" Value="type SpeakerMode = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.SpeakerMode.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.SpeakerMode.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.SpeakerMode.Off" />
       <MemberSignature Language="VB.NET" Value="Off" />
       <MemberSignature Language="C++ CLI" Value="Off" />
+      <MemberSignature Language="F#" Value="Off = 0" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.SpeakerMode.Off" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.SpeakerMode.On" />
       <MemberSignature Language="VB.NET" Value="On" />
       <MemberSignature Language="C++ CLI" Value="On" />
+      <MemberSignature Language="F#" Value="On = 1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.SpeakerMode.On" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty" />
   <TypeSignature Language="VB.NET" Value="Public Enum ModalityStateChangeProperty" />
   <TypeSignature Language="C++ CLI" Value="public enum class ModalityStateChangeProperty" />
+  <TypeSignature Language="F#" Value="type ModalityStateChangeProperty = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AcceptingEndpoint" />
       <MemberSignature Language="VB.NET" Value="AcceptingEndpoint" />
       <MemberSignature Language="C++ CLI" Value="AcceptingEndpoint" />
+      <MemberSignature Language="F#" Value="AcceptingEndpoint = 1074528258" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AcceptingEndpoint" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AcceptingParticipant" />
       <MemberSignature Language="VB.NET" Value="AcceptingParticipant" />
       <MemberSignature Language="C++ CLI" Value="AcceptingParticipant" />
+      <MemberSignature Language="F#" Value="AcceptingParticipant = 1074528257" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AcceptingParticipant" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AllowedRedirection" />
       <MemberSignature Language="VB.NET" Value="AllowedRedirection" />
       <MemberSignature Language="C++ CLI" Value="AllowedRedirection" />
+      <MemberSignature Language="F#" Value="AllowedRedirection = 537657351" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AllowedRedirection" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AlsoRingingOthers" />
       <MemberSignature Language="VB.NET" Value="AlsoRingingOthers" />
       <MemberSignature Language="C++ CLI" Value="AlsoRingingOthers" />
+      <MemberSignature Language="F#" Value="AlsoRingingOthers = 806092805" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.AlsoRingingOthers" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.ForwardHistoryInfo" />
       <MemberSignature Language="VB.NET" Value="ForwardHistoryInfo" />
       <MemberSignature Language="C++ CLI" Value="ForwardHistoryInfo" />
+      <MemberSignature Language="F#" Value="ForwardHistoryInfo = 1074528256" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.ForwardHistoryInfo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.InvitingDevice" />
       <MemberSignature Language="VB.NET" Value="InvitingDevice" />
       <MemberSignature Language="C++ CLI" Value="InvitingDevice" />
+      <MemberSignature Language="F#" Value="InvitingDevice = 1074528264" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.InvitingDevice" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.IsAutoAccepted" />
       <MemberSignature Language="VB.NET" Value="IsAutoAccepted" />
       <MemberSignature Language="C++ CLI" Value="IsAutoAccepted" />
+      <MemberSignature Language="F#" Value="IsAutoAccepted = 269221894" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.IsAutoAccepted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 1074561025" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved10" />
       <MemberSignature Language="VB.NET" Value="Reserved10" />
       <MemberSignature Language="C++ CLI" Value="Reserved10" />
+      <MemberSignature Language="F#" Value="Reserved10 = 1074561035" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved10" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -212,6 +223,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved11" />
       <MemberSignature Language="VB.NET" Value="Reserved11" />
       <MemberSignature Language="C++ CLI" Value="Reserved11" />
+      <MemberSignature Language="F#" Value="Reserved11 = 1074561036" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved11" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -231,6 +243,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved12" />
       <MemberSignature Language="VB.NET" Value="Reserved12" />
       <MemberSignature Language="C++ CLI" Value="Reserved12" />
+      <MemberSignature Language="F#" Value="Reserved12 = 1074561037" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved12" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -250,6 +263,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved13" />
       <MemberSignature Language="VB.NET" Value="Reserved13" />
       <MemberSignature Language="C++ CLI" Value="Reserved13" />
+      <MemberSignature Language="F#" Value="Reserved13 = 1074561038" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved13" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -269,6 +283,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved14" />
       <MemberSignature Language="VB.NET" Value="Reserved14" />
       <MemberSignature Language="C++ CLI" Value="Reserved14" />
+      <MemberSignature Language="F#" Value="Reserved14 = 1074561039" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved14" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -288,6 +303,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved15" />
       <MemberSignature Language="VB.NET" Value="Reserved15" />
       <MemberSignature Language="C++ CLI" Value="Reserved15" />
+      <MemberSignature Language="F#" Value="Reserved15 = 819216" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved15" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -307,6 +323,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved16" />
       <MemberSignature Language="VB.NET" Value="Reserved16" />
       <MemberSignature Language="C++ CLI" Value="Reserved16" />
+      <MemberSignature Language="F#" Value="Reserved16 = 537690129" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved16" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -326,6 +343,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved17" />
       <MemberSignature Language="VB.NET" Value="Reserved17" />
       <MemberSignature Language="C++ CLI" Value="Reserved17" />
+      <MemberSignature Language="F#" Value="Reserved17 = 537690130" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved17" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -345,6 +363,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved18" />
       <MemberSignature Language="VB.NET" Value="Reserved18" />
       <MemberSignature Language="C++ CLI" Value="Reserved18" />
+      <MemberSignature Language="F#" Value="Reserved18 = 269254675" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved18" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -364,6 +383,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved19" />
       <MemberSignature Language="VB.NET" Value="Reserved19" />
       <MemberSignature Language="C++ CLI" Value="Reserved19" />
+      <MemberSignature Language="F#" Value="Reserved19 = 269254676" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved19" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -383,6 +403,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 1074561027" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -402,6 +423,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved20" />
       <MemberSignature Language="VB.NET" Value="Reserved20" />
       <MemberSignature Language="C++ CLI" Value="Reserved20" />
+      <MemberSignature Language="F#" Value="Reserved20 = 269254677" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved20" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -421,6 +443,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved21" />
       <MemberSignature Language="VB.NET" Value="Reserved21" />
       <MemberSignature Language="C++ CLI" Value="Reserved21" />
+      <MemberSignature Language="F#" Value="Reserved21 = 269254678" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved21" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -440,6 +463,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved22" />
       <MemberSignature Language="VB.NET" Value="Reserved22" />
       <MemberSignature Language="C++ CLI" Value="Reserved22" />
+      <MemberSignature Language="F#" Value="Reserved22 = 269254679" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved22" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -459,6 +483,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved23" />
       <MemberSignature Language="VB.NET" Value="Reserved23" />
       <MemberSignature Language="C++ CLI" Value="Reserved23" />
+      <MemberSignature Language="F#" Value="Reserved23 = 537690136" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved23" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -478,6 +503,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved24" />
       <MemberSignature Language="VB.NET" Value="Reserved24" />
       <MemberSignature Language="C++ CLI" Value="Reserved24" />
+      <MemberSignature Language="F#" Value="Reserved24 = 269254681" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved24" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -497,6 +523,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved25" />
       <MemberSignature Language="VB.NET" Value="Reserved25" />
       <MemberSignature Language="C++ CLI" Value="Reserved25" />
+      <MemberSignature Language="F#" Value="Reserved25 = 537690138" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved25" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -516,6 +543,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved26" />
       <MemberSignature Language="VB.NET" Value="Reserved26" />
       <MemberSignature Language="C++ CLI" Value="Reserved26" />
+      <MemberSignature Language="F#" Value="Reserved26 = 1074561051" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved26" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -535,6 +563,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved27" />
       <MemberSignature Language="VB.NET" Value="Reserved27" />
       <MemberSignature Language="C++ CLI" Value="Reserved27" />
+      <MemberSignature Language="F#" Value="Reserved27 = 537690140" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved27" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -554,6 +583,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved28" />
       <MemberSignature Language="VB.NET" Value="Reserved28" />
       <MemberSignature Language="C++ CLI" Value="Reserved28" />
+      <MemberSignature Language="F#" Value="Reserved28 = 1074561053" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved28" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -573,6 +603,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved29" />
       <MemberSignature Language="VB.NET" Value="Reserved29" />
       <MemberSignature Language="C++ CLI" Value="Reserved29" />
+      <MemberSignature Language="F#" Value="Reserved29 = 1074561054" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved29" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -592,6 +623,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved3" />
       <MemberSignature Language="VB.NET" Value="Reserved3" />
       <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberSignature Language="F#" Value="Reserved3 = 1074561028" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved3" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -611,6 +643,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved30" />
       <MemberSignature Language="VB.NET" Value="Reserved30" />
       <MemberSignature Language="C++ CLI" Value="Reserved30" />
+      <MemberSignature Language="F#" Value="Reserved30 = 1074561055" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved30" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -630,6 +663,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved4" />
       <MemberSignature Language="VB.NET" Value="Reserved4" />
       <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberSignature Language="F#" Value="Reserved4 = 1074561029" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved4" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -649,6 +683,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved5" />
       <MemberSignature Language="VB.NET" Value="Reserved5" />
       <MemberSignature Language="C++ CLI" Value="Reserved5" />
+      <MemberSignature Language="F#" Value="Reserved5 = 1074561030" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved5" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -668,6 +703,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved6" />
       <MemberSignature Language="VB.NET" Value="Reserved6" />
       <MemberSignature Language="C++ CLI" Value="Reserved6" />
+      <MemberSignature Language="F#" Value="Reserved6 = 1074561031" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved6" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -687,6 +723,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved7" />
       <MemberSignature Language="VB.NET" Value="Reserved7" />
       <MemberSignature Language="C++ CLI" Value="Reserved7" />
+      <MemberSignature Language="F#" Value="Reserved7 = 1074561032" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved7" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -706,6 +743,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved8" />
       <MemberSignature Language="VB.NET" Value="Reserved8" />
       <MemberSignature Language="C++ CLI" Value="Reserved8" />
+      <MemberSignature Language="F#" Value="Reserved8 = 1074561033" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved8" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -725,6 +763,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved9" />
       <MemberSignature Language="VB.NET" Value="Reserved9" />
       <MemberSignature Language="C++ CLI" Value="Reserved9" />
+      <MemberSignature Language="F#" Value="Reserved9 = 1074561034" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.Reserved9" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -744,6 +783,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.TransferTargetEndpoint" />
       <MemberSignature Language="VB.NET" Value="TransferTargetEndpoint" />
       <MemberSignature Language="C++ CLI" Value="TransferTargetEndpoint" />
+      <MemberSignature Language="F#" Value="TransferTargetEndpoint = 1074528260" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.TransferTargetEndpoint" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -763,6 +803,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.TransferTargetParticipant" />
       <MemberSignature Language="VB.NET" Value="TransferTargetParticipant" />
       <MemberSignature Language="C++ CLI" Value="TransferTargetParticipant" />
+      <MemberSignature Language="F#" Value="TransferTargetParticipant = 1074528259" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangeProperty.TransferTargetParticipant" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

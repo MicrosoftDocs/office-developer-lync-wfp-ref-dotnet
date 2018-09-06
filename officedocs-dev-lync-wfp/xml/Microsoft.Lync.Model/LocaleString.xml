@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.LocaleString" />
   <TypeSignature Language="VB.NET" Value="Public Class LocaleString&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class LocaleString : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type LocaleString = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LocaleString.LocaleId" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocaleId As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LocaleId { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.LocaleId : int" Usage="Microsoft.Lync.Model.LocaleString.LocaleId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LocaleString.Value" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Value : string" Usage="Microsoft.Lync.Model.LocaleString.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

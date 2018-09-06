@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class HelpTextButtonAutomationPeer&#xA;Inherits ButtonAutomationPeer" />
   <TypeSignature Language="C++ CLI" Value="public ref class HelpTextButtonAutomationPeer : System::Windows::Automation::Peers::ButtonAutomationPeer" />
+  <TypeSignature Language="F#" Value="type HelpTextButtonAutomationPeer = class&#xA;    inherit ButtonAutomationPeer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.HelpTextButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As HelpTextButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; HelpTextButtonAutomationPeer(Microsoft::Lync::Controls::Internal::HelpTextButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer : Microsoft.Lync.Controls.Internal.HelpTextButton -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextButtonAutomationPeer.GetNameCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetNameCore();" />
+      <MemberSignature Language="F#" Value="override this.GetNameCore : unit -&gt; string" Usage="helpTextButtonAutomationPeer.GetNameCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

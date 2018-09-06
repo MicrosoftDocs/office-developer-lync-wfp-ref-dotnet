@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.PresenceCapabilityType" />
   <TypeSignature Language="VB.NET" Value="Public Enum PresenceCapabilityType" />
   <TypeSignature Language="C++ CLI" Value="public enum class PresenceCapabilityType" />
+  <TypeSignature Language="F#" Value="type PresenceCapabilityType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PresenceCapabilityType.AppShare" />
       <MemberSignature Language="VB.NET" Value="AppShare" />
       <MemberSignature Language="C++ CLI" Value="AppShare" />
+      <MemberSignature Language="F#" Value="AppShare = 3" Usage="Microsoft.Lync.Model.PresenceCapabilityType.AppShare" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PresenceCapabilityType.Audio" />
       <MemberSignature Language="VB.NET" Value="Audio" />
       <MemberSignature Language="C++ CLI" Value="Audio" />
+      <MemberSignature Language="F#" Value="Audio = 1" Usage="Microsoft.Lync.Model.PresenceCapabilityType.Audio" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PresenceCapabilityType.InstantMessaging" />
       <MemberSignature Language="VB.NET" Value="InstantMessaging" />
       <MemberSignature Language="C++ CLI" Value="InstantMessaging" />
+      <MemberSignature Language="F#" Value="InstantMessaging = 0" Usage="Microsoft.Lync.Model.PresenceCapabilityType.InstantMessaging" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PresenceCapabilityType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.PresenceCapabilityType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PresenceCapabilityType.Video" />
       <MemberSignature Language="VB.NET" Value="Video" />
       <MemberSignature Language="C++ CLI" Value="Video" />
+      <MemberSignature Language="F#" Value="Video = 2" Usage="Microsoft.Lync.Model.PresenceCapabilityType.Video" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

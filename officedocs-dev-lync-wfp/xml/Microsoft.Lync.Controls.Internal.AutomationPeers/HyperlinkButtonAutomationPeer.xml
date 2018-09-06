@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.HyperlinkButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class HyperlinkButtonAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of HyperlinkButton)" />
   <TypeSignature Language="C++ CLI" Value="public ref class HyperlinkButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::Internal::HyperlinkButton ^&gt;" />
+  <TypeSignature Language="F#" Value="type HyperlinkButtonAutomationPeer = class&#xA;    inherit UCBaseAutomationPeer&lt;HyperlinkButton&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HyperlinkButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.HyperlinkButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As HyperlinkButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; HyperlinkButtonAutomationPeer(Microsoft::Lync::Controls::Internal::HyperlinkButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.HyperlinkButtonAutomationPeer : Microsoft.Lync.Controls.Internal.HyperlinkButton -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.HyperlinkButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.HyperlinkButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

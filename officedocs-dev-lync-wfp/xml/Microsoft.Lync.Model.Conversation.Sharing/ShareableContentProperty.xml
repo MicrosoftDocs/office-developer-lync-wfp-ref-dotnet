@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty" />
   <TypeSignature Language="VB.NET" Value="Public Enum ShareableContentProperty" />
   <TypeSignature Language="C++ CLI" Value="public enum class ShareableContentProperty" />
+  <TypeSignature Language="F#" Value="type ShareableContentProperty = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.CreationTime" />
       <MemberSignature Language="VB.NET" Value="CreationTime" />
       <MemberSignature Language="C++ CLI" Value="CreationTime" />
+      <MemberSignature Language="F#" Value="CreationTime = 1343225860" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.CreationTime" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Id" />
       <MemberSignature Language="VB.NET" Value="Id" />
       <MemberSignature Language="C++ CLI" Value="Id" />
+      <MemberSignature Language="F#" Value="Id = 1048576" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Id" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -64,6 +67,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.IsInSyncWithPresenter" />
       <MemberSignature Language="VB.NET" Value="IsInSyncWithPresenter" />
       <MemberSignature Language="C++ CLI" Value="IsInSyncWithPresenter" />
+      <MemberSignature Language="F#" Value="IsInSyncWithPresenter = 269484062" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.IsInSyncWithPresenter" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -104,6 +109,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.LastUsedTime" />
       <MemberSignature Language="VB.NET" Value="LastUsedTime" />
       <MemberSignature Language="C++ CLI" Value="LastUsedTime" />
+      <MemberSignature Language="F#" Value="LastUsedTime = 1343225861" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.LastUsedTime" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -125,6 +131,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Owner" />
       <MemberSignature Language="VB.NET" Value="Owner" />
       <MemberSignature Language="C++ CLI" Value="Owner" />
+      <MemberSignature Language="F#" Value="Owner = 1074790403" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Owner" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -146,6 +153,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Presenter" />
       <MemberSignature Language="VB.NET" Value="Presenter" />
       <MemberSignature Language="C++ CLI" Value="Presenter" />
+      <MemberSignature Language="F#" Value="Presenter = 1074790420" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Presenter" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -167,6 +175,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 1048607" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -186,6 +195,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 1048608" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -205,6 +215,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Reserved3" />
       <MemberSignature Language="VB.NET" Value="Reserved3" />
       <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberSignature Language="F#" Value="Reserved3 = 806354977" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Reserved3" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -224,6 +235,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Reserved4" />
       <MemberSignature Language="VB.NET" Value="Reserved4" />
       <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberSignature Language="F#" Value="Reserved4 = 1048610" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Reserved4" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -243,6 +255,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Title" />
       <MemberSignature Language="VB.NET" Value="Title" />
       <MemberSignature Language="C++ CLI" Value="Title" />
+      <MemberSignature Language="F#" Value="Title = 1048578" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Title" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -264,6 +277,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Type" />
       <MemberSignature Language="VB.NET" Value="Type" />
       <MemberSignature Language="C++ CLI" Value="Type" />
+      <MemberSignature Language="F#" Value="Type = 806354945" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty.Type" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

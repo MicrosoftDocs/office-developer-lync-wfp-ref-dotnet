@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactSearchResultList" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactSearchResultList&#xA;Inherits UCListBox" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchResultList : Microsoft::Lync::Controls::UCListBox" />
+  <TypeSignature Language="F#" Value="type ContactSearchResultList = class&#xA;    inherit UCListBox" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -56,6 +57,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchResultList.ClearContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ClearContainerForItemOverride (element As DependencyObject, item As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ClearContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="override this.ClearContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit" Usage="contactSearchResultList.ClearContainerForItemOverride (element, item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -81,6 +83,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchResultList.GetContainerForItemOverride" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetContainerForItemOverride () As DependencyObject" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::DependencyObject ^ GetContainerForItemOverride();" />
+      <MemberSignature Language="F#" Value="override this.GetContainerForItemOverride : unit -&gt; System.Windows.DependencyObject" Usage="contactSearchResultList.GetContainerForItemOverride " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -102,6 +105,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchResultList.IsItemItsOwnContainerOverride(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function IsItemItsOwnContainerOverride (item As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool IsItemItsOwnContainerOverride(System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="override this.IsItemItsOwnContainerOverride : obj -&gt; bool" Usage="contactSearchResultList.IsItemItsOwnContainerOverride item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -126,6 +130,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchResultList.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="contactSearchResultList.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -146,6 +151,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchResultList.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="contactSearchResultList.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -167,6 +173,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchResultList.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PrepareContainerForItemOverride (element As DependencyObject, item As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PrepareContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="override this.PrepareContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit" Usage="contactSearchResultList.PrepareContainerForItemOverride (element, item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -192,6 +199,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchResultList.ResultsState" />
       <MemberSignature Language="VB.NET" Value="Public Property ResultsState As SearchState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchState ResultsState { Microsoft::Lync::Controls::SearchState get(); void set(Microsoft::Lync::Controls::SearchState value); };" />
+      <MemberSignature Language="F#" Value="member this.ResultsState : Microsoft.Lync.Controls.SearchState with get, set" Usage="Microsoft.Lync.Controls.ContactSearchResultList.ResultsState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -212,6 +220,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchResultList.ResultsStateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResultsStateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ResultsStateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ResultsStateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchResultList.ResultsStateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -231,6 +240,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchResultList.SearchType" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchType As SearchType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchType SearchType { Microsoft::Lync::Controls::SearchType get(); void set(Microsoft::Lync::Controls::SearchType value); };" />
+      <MemberSignature Language="F#" Value="member this.SearchType : Microsoft.Lync.Controls.SearchType with get, set" Usage="Microsoft.Lync.Controls.ContactSearchResultList.SearchType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -251,6 +261,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchResultList.SearchTypeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchTypeProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SearchTypeProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SearchTypeProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchResultList.SearchTypeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

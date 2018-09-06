@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.PresenceIndicator" />
   <TypeSignature Language="VB.NET" Value="Public Class PresenceIndicator&#xA;Inherits AvailabilityIcon" />
   <TypeSignature Language="C++ CLI" Value="public ref class PresenceIndicator : Microsoft::Lync::Controls::AvailabilityIcon" />
+  <TypeSignature Language="F#" Value="type PresenceIndicator = class&#xA;    inherit AvailabilityIcon" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -48,6 +49,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.PresenceIndicator.ActivityStatus" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivityStatus As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ActivityStatus { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActivityStatus : string" Usage="Microsoft.Lync.Controls.PresenceIndicator.ActivityStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -68,6 +70,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceIndicator.ActivityStatusProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ActivityStatusProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ActivityStatusProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ActivityStatusProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.PresenceIndicator.ActivityStatusProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -87,6 +90,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.PresenceIndicator.HoverAction" />
       <MemberSignature Language="VB.NET" Value="Public Property HoverAction As PresenceHoverActions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PresenceHoverActions HoverAction { Microsoft::Lync::Controls::PresenceHoverActions get(); void set(Microsoft::Lync::Controls::PresenceHoverActions value); };" />
+      <MemberSignature Language="F#" Value="member this.HoverAction : Microsoft.Lync.Controls.PresenceHoverActions with get, set" Usage="Microsoft.Lync.Controls.PresenceIndicator.HoverAction" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -107,6 +111,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceIndicator.HoverActionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoverActionProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HoverActionProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable HoverActionProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.PresenceIndicator.HoverActionProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -126,6 +131,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="presenceIndicator.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -146,6 +152,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="presenceIndicator.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -167,6 +174,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.OnKeyDown(System.Windows.Input.KeyEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnKeyDown (e As KeyEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnKeyDown(System::Windows::Input::KeyEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnKeyDown : System.Windows.Input.KeyEventArgs -&gt; unit" Usage="presenceIndicator.OnKeyDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -190,6 +198,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.OnPresenceItemsPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IPresenceItems,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnPresenceItemsPropertyChanged (presenceItems As IPresenceItems, propertyName As String)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPresenceItemsPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems, System::String ^ propertyName);" />
+      <MemberSignature Language="F#" Value="override this.OnPresenceItemsPropertyChanged : Microsoft.Lync.Controls.Internal.Model.IPresenceItems * string -&gt; unit" Usage="presenceIndicator.OnPresenceItemsPropertyChanged (presenceItems, propertyName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -215,6 +224,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.PresenceIndicator.SingleClickAction" />
       <MemberSignature Language="VB.NET" Value="Public Property SingleClickAction As PresenceClickActions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PresenceClickActions SingleClickAction { Microsoft::Lync::Controls::PresenceClickActions get(); void set(Microsoft::Lync::Controls::PresenceClickActions value); };" />
+      <MemberSignature Language="F#" Value="member this.SingleClickAction : Microsoft.Lync.Controls.PresenceClickActions with get, set" Usage="Microsoft.Lync.Controls.PresenceIndicator.SingleClickAction" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -235,6 +245,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceIndicator.SingleClickActionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SingleClickActionProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SingleClickActionProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SingleClickActionProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.PresenceIndicator.SingleClickActionProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -254,6 +265,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.UnwirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwirePresenceItems (presenceItems As IPresenceItems)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberSignature Language="F#" Value="override this.UnwirePresenceItems : Microsoft.Lync.Controls.Internal.Model.IPresenceItems -&gt; unit" Usage="presenceIndicator.UnwirePresenceItems presenceItems" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -277,6 +289,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.PresenceIndicator.WirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WirePresenceItems (presenceItems As IPresenceItems)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberSignature Language="F#" Value="override this.WirePresenceItems : Microsoft.Lync.Controls.Internal.Model.IPresenceItems -&gt; unit" Usage="presenceIndicator.WirePresenceItems presenceItems" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

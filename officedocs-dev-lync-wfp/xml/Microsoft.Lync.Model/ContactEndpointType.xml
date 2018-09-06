@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactEndpointType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactEndpointType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContactEndpointType" />
+  <TypeSignature Language="F#" Value="type ContactEndpointType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.HomePhone" />
       <MemberSignature Language="VB.NET" Value="HomePhone" />
       <MemberSignature Language="C++ CLI" Value="HomePhone" />
+      <MemberSignature Language="F#" Value="HomePhone = 2" Usage="Microsoft.Lync.Model.ContactEndpointType.HomePhone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ContactEndpointType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.Lync" />
       <MemberSignature Language="VB.NET" Value="Lync" />
       <MemberSignature Language="C++ CLI" Value="Lync" />
+      <MemberSignature Language="F#" Value="Lync = 4" Usage="Microsoft.Lync.Model.ContactEndpointType.Lync" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -81,6 +85,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.MobilePhone" />
       <MemberSignature Language="VB.NET" Value="MobilePhone" />
       <MemberSignature Language="C++ CLI" Value="MobilePhone" />
+      <MemberSignature Language="F#" Value="MobilePhone = 1" Usage="Microsoft.Lync.Model.ContactEndpointType.MobilePhone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -100,6 +105,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.OtherPhone" />
       <MemberSignature Language="VB.NET" Value="OtherPhone" />
       <MemberSignature Language="C++ CLI" Value="OtherPhone" />
+      <MemberSignature Language="F#" Value="OtherPhone = 3" Usage="Microsoft.Lync.Model.ContactEndpointType.OtherPhone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -119,6 +125,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.VoiceMail" />
       <MemberSignature Language="VB.NET" Value="VoiceMail" />
       <MemberSignature Language="C++ CLI" Value="VoiceMail" />
+      <MemberSignature Language="F#" Value="VoiceMail = 5" Usage="Microsoft.Lync.Model.ContactEndpointType.VoiceMail" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -138,6 +145,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactEndpointType.WorkPhone" />
       <MemberSignature Language="VB.NET" Value="WorkPhone" />
       <MemberSignature Language="C++ CLI" Value="WorkPhone" />
+      <MemberSignature Language="F#" Value="WorkPhone = 0" Usage="Microsoft.Lync.Model.ContactEndpointType.WorkPhone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

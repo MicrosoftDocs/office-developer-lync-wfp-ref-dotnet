@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class MenuManager.ContactManagementMenuRule&#xA;Inherits MenuManager.MenuRule" />
   <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::ContactManagementMenuRule abstract : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule" />
+  <TypeSignature Language="F#" Value="type MenuManager.ContactManagementMenuRule = class&#xA;    inherit MenuManager.MenuRule" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (manager As MenuManager)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; ContactManagementMenuRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule manager" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule.CanExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteCommand (arg As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.CanExecuteCommand : obj -&gt; bool" Usage="contactManagementMenuRule.CanExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule.ConfigureMenu" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ConfigureMenu ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ConfigureMenu();" />
+      <MemberSignature Language="F#" Value="override this.ConfigureMenu : unit -&gt; unit" Usage="contactManagementMenuRule.ConfigureMenu " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -87,6 +91,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule.CreateSubmenu(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager,Microsoft.Lync.Controls.Internal.Model.IGroupModel)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function CreateSubmenu (manager As MenuManager, model As IGroupModel) As MenuManager.ContactManagementMenuRule.GroupManagementSubmenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::ContactManagementMenuRule::GroupManagementSubmenuRule ^ CreateSubmenu(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager, Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ model);" />
+      <MemberSignature Language="F#" Value="abstract member CreateSubmenu : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager * Microsoft.Lync.Controls.Internal.Model.IGroupModel -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule.GroupManagementSubmenuRule" Usage="contactManagementMenuRule.CreateSubmenu (manager, model)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -113,6 +118,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule.GroupSubmenus" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupSubmenus As IEnumerable" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IEnumerable ^ GroupSubmenus { System::Collections::IEnumerable ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GroupSubmenus : System.Collections.IEnumerable" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ContactManagementMenuRule.GroupSubmenus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

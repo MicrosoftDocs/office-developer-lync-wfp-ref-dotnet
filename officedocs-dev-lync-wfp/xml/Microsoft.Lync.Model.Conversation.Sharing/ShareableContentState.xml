@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState" />
   <TypeSignature Language="VB.NET" Value="Public Enum ShareableContentState" />
   <TypeSignature Language="C++ CLI" Value="public enum class ShareableContentState" />
+  <TypeSignature Language="F#" Value="type ShareableContentState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Active" />
       <MemberSignature Language="VB.NET" Value="Active" />
       <MemberSignature Language="C++ CLI" Value="Active" />
+      <MemberSignature Language="F#" Value="Active = 5" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Active" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Connecting" />
       <MemberSignature Language="VB.NET" Value="Connecting" />
       <MemberSignature Language="C++ CLI" Value="Connecting" />
+      <MemberSignature Language="F#" Value="Connecting = 2" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Connecting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Disconnecting" />
       <MemberSignature Language="VB.NET" Value="Disconnecting" />
       <MemberSignature Language="C++ CLI" Value="Disconnecting" />
+      <MemberSignature Language="F#" Value="Disconnecting = 4" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Disconnecting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Initializing" />
       <MemberSignature Language="VB.NET" Value="Initializing" />
       <MemberSignature Language="C++ CLI" Value="Initializing" />
+      <MemberSignature Language="F#" Value="Initializing = 0" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Initializing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -100,6 +105,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -119,6 +125,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Offline" />
       <MemberSignature Language="VB.NET" Value="Offline" />
       <MemberSignature Language="C++ CLI" Value="Offline" />
+      <MemberSignature Language="F#" Value="Offline = 1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Offline" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -140,6 +147,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Online" />
       <MemberSignature Language="VB.NET" Value="Online" />
       <MemberSignature Language="C++ CLI" Value="Online" />
+      <MemberSignature Language="F#" Value="Online = 3" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Online" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -159,6 +167,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Unusable" />
       <MemberSignature Language="VB.NET" Value="Unusable" />
       <MemberSignature Language="C++ CLI" Value="Unusable" />
+      <MemberSignature Language="F#" Value="Unusable = 6" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState.Unusable" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

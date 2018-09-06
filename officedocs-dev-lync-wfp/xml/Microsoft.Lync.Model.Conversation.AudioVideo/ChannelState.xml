@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState" />
   <TypeSignature Language="VB.NET" Value="Public Enum ChannelState" />
   <TypeSignature Language="C++ CLI" Value="public enum class ChannelState" />
+  <TypeSignature Language="F#" Value="type ChannelState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Connecting" />
       <MemberSignature Language="VB.NET" Value="Connecting" />
       <MemberSignature Language="C++ CLI" Value="Connecting" />
+      <MemberSignature Language="F#" Value="Connecting = 1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Connecting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Inactive" />
       <MemberSignature Language="VB.NET" Value="Inactive" />
       <MemberSignature Language="C++ CLI" Value="Inactive" />
+      <MemberSignature Language="F#" Value="Inactive = 6" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Inactive" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Notified" />
       <MemberSignature Language="VB.NET" Value="Notified" />
       <MemberSignature Language="C++ CLI" Value="Notified" />
+      <MemberSignature Language="F#" Value="Notified = 2" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Notified" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Receive" />
       <MemberSignature Language="VB.NET" Value="Receive" />
       <MemberSignature Language="C++ CLI" Value="Receive" />
+      <MemberSignature Language="F#" Value="Receive = 4" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Receive" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Send" />
       <MemberSignature Language="VB.NET" Value="Send" />
       <MemberSignature Language="C++ CLI" Value="Send" />
+      <MemberSignature Language="F#" Value="Send = 3" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.Send" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.SendReceive" />
       <MemberSignature Language="VB.NET" Value="SendReceive" />
       <MemberSignature Language="C++ CLI" Value="SendReceive" />
+      <MemberSignature Language="F#" Value="SendReceive = 5" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState.SendReceive" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

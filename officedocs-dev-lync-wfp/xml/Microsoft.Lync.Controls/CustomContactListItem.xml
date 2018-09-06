@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.CustomContactListItem" />
   <TypeSignature Language="VB.NET" Value="Public Class CustomContactListItem&#xA;Inherits UCListBoxItem" />
   <TypeSignature Language="C++ CLI" Value="public ref class CustomContactListItem : Microsoft::Lync::Controls::UCListBoxItem" />
+  <TypeSignature Language="F#" Value="type CustomContactListItem = class&#xA;    inherit UCListBoxItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -43,6 +44,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.CustomContactListItem.BotTwoLineContentTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property BotTwoLineContentTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ BotTwoLineContentTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.BotTwoLineContentTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.CustomContactListItem.BotTwoLineContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.CustomContactListItem.BotTwoLineContentTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BotTwoLineContentTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ BotTwoLineContentTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable BotTwoLineContentTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.CustomContactListItem.BotTwoLineContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -82,6 +85,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.CustomContactListItem.ContactLayoutView" />
       <MemberSignature Language="VB.NET" Value="Public Property ContactLayoutView As ContactLayoutOption" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ContactLayoutOption ContactLayoutView { Microsoft::Lync::Controls::ContactLayoutOption get(); void set(Microsoft::Lync::Controls::ContactLayoutOption value); };" />
+      <MemberSignature Language="F#" Value="member this.ContactLayoutView : Microsoft.Lync.Controls.ContactLayoutOption with get, set" Usage="Microsoft.Lync.Controls.CustomContactListItem.ContactLayoutView" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -102,6 +106,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.CustomContactListItem.ContactLayoutViewProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContactLayoutViewProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContactLayoutViewProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContactLayoutViewProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.CustomContactListItem.ContactLayoutViewProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -121,6 +126,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.CustomContactListItem.GroupTwoLineContentTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupTwoLineContentTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ GroupTwoLineContentTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.GroupTwoLineContentTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.CustomContactListItem.GroupTwoLineContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -141,6 +147,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.CustomContactListItem.GroupTwoLineContentTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupTwoLineContentTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupTwoLineContentTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable GroupTwoLineContentTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.CustomContactListItem.GroupTwoLineContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -160,6 +167,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.CustomContactListItem.PersonTwoLineContentTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property PersonTwoLineContentTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ PersonTwoLineContentTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PersonTwoLineContentTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.CustomContactListItem.PersonTwoLineContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -180,6 +188,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.CustomContactListItem.PersonTwoLineContentTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PersonTwoLineContentTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PersonTwoLineContentTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PersonTwoLineContentTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.CustomContactListItem.PersonTwoLineContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -199,6 +208,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.CustomContactListItem.TelephoneTwoLineContentTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property TelephoneTwoLineContentTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ TelephoneTwoLineContentTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TelephoneTwoLineContentTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.CustomContactListItem.TelephoneTwoLineContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -219,6 +229,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.CustomContactListItem.TelephoneTwoLineContentTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TelephoneTwoLineContentTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TelephoneTwoLineContentTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable TelephoneTwoLineContentTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.CustomContactListItem.TelephoneTwoLineContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentStateChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ShareableContentStateChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ShareableContentStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ShareableContentStateChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentStateChangedEventArgs.NewState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As ShareableContentState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ShareableContentState NewState { Microsoft::Lync::Model::Conversation::Sharing::ShareableContentState get(); };" />
+      <MemberSignature Language="F#" Value="member this.NewState : Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentStateChangedEventArgs.NewState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentStateChangedEventArgs.OldState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldState As ShareableContentState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ShareableContentState OldState { Microsoft::Lync::Model::Conversation::Sharing::ShareableContentState get(); };" />
+      <MemberSignature Language="F#" Value="member this.OldState : Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentStateChangedEventArgs.OldState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

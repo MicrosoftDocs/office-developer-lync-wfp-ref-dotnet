@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.TransportMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum TransportMode" />
   <TypeSignature Language="C++ CLI" Value="public enum class TransportMode" />
+  <TypeSignature Language="F#" Value="type TransportMode = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.TransportMode.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.TransportMode.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.TransportMode.TcpTransport" />
       <MemberSignature Language="VB.NET" Value="TcpTransport" />
       <MemberSignature Language="C++ CLI" Value="TcpTransport" />
+      <MemberSignature Language="F#" Value="TcpTransport = 0" Usage="Microsoft.Lync.Model.TransportMode.TcpTransport" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.TransportMode.TlsTransport" />
       <MemberSignature Language="VB.NET" Value="TlsTransport" />
       <MemberSignature Language="C++ CLI" Value="TlsTransport" />
+      <MemberSignature Language="F#" Value="TlsTransport = 1" Usage="Microsoft.Lync.Model.TransportMode.TlsTransport" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

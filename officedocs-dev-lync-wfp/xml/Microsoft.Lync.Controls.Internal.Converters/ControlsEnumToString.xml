@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Converters.ControlsEnumToString" />
   <TypeSignature Language="VB.NET" Value="Public Class ControlsEnumToString&#xA;Inherits EnumToString" />
   <TypeSignature Language="C++ CLI" Value="public ref class ControlsEnumToString : Microsoft::Lync::Controls::Internal::Converters::EnumToString" />
+  <TypeSignature Language="F#" Value="type ControlsEnumToString = class&#xA;    inherit EnumToString" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.Converters.ControlsEnumToString.ResourceManager" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ResourceManager As ResourceManager" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property System::Resources::ResourceManager ^ ResourceManager { System::Resources::ResourceManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ResourceManager : System.Resources.ResourceManager" Usage="Microsoft.Lync.Controls.Internal.Converters.ControlsEnumToString.ResourceManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

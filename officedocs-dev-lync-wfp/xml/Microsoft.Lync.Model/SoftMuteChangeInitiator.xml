@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SoftMuteChangeInitiator" />
   <TypeSignature Language="VB.NET" Value="Public Enum SoftMuteChangeInitiator" />
   <TypeSignature Language="C++ CLI" Value="public enum class SoftMuteChangeInitiator" />
+  <TypeSignature Language="F#" Value="type SoftMuteChangeInitiator = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SoftMuteChangeInitiator.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.SoftMuteChangeInitiator.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SoftMuteChangeInitiator.Join" />
       <MemberSignature Language="VB.NET" Value="Join" />
       <MemberSignature Language="C++ CLI" Value="Join" />
+      <MemberSignature Language="F#" Value="Join = 2" Usage="Microsoft.Lync.Model.SoftMuteChangeInitiator.Join" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SoftMuteChangeInitiator.Local" />
       <MemberSignature Language="VB.NET" Value="Local" />
       <MemberSignature Language="C++ CLI" Value="Local" />
+      <MemberSignature Language="F#" Value="Local = 0" Usage="Microsoft.Lync.Model.SoftMuteChangeInitiator.Local" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SoftMuteChangeInitiator.Remote" />
       <MemberSignature Language="VB.NET" Value="Remote" />
       <MemberSignature Language="C++ CLI" Value="Remote" />
+      <MemberSignature Language="F#" Value="Remote = 1" Usage="Microsoft.Lync.Model.SoftMuteChangeInitiator.Remote" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ControlColors" />
   <TypeSignature Language="VB.NET" Value="Public Class ControlColors&#xA;Inherits NotifyPropertyChanged" />
   <TypeSignature Language="C++ CLI" Value="public ref class ControlColors : Microsoft::Lync::Internal::Utilities::DataModel::NotifyPropertyChanged" />
+  <TypeSignature Language="F#" Value="type ControlColors = class&#xA;    inherit NotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactCardBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactCardBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -80,6 +83,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardBorderBrushLight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardBorderBrushLight As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardBorderBrushLight { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardBorderBrushLight : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactCardBorderBrushLight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -100,6 +104,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardBubbleBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardBubbleBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardBubbleBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardBubbleBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactCardBubbleBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -120,6 +125,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardDetailsDividerBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardDetailsDividerBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardDetailsDividerBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailsDividerBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactCardDetailsDividerBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -140,6 +146,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardDetailsTabBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardDetailsTabBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardDetailsTabBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailsTabBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactCardDetailsTabBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -160,6 +167,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardSelfIndicatorBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardSelfIndicatorBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardSelfIndicatorBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardSelfIndicatorBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactCardSelfIndicatorBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -180,6 +188,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactCardSuperiorIndicatorBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactCardSuperiorIndicatorBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactCardSuperiorIndicatorBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardSuperiorIndicatorBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactCardSuperiorIndicatorBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -200,6 +209,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNameHoverBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNameHoverBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNameHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactNameHoverBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactNameHoverBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -220,6 +230,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNoteButtonDefaultBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNoteButtonDefaultBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNoteButtonDefaultBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactNoteButtonDefaultBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactNoteButtonDefaultBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -240,6 +251,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNoteButtonForegroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNoteButtonForegroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNoteButtonForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactNoteButtonForegroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactNoteButtonForegroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -260,6 +272,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNoteButtonHoverBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNoteButtonHoverBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNoteButtonHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactNoteButtonHoverBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactNoteButtonHoverBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -280,6 +293,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactNoteButtonPressedBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactNoteButtonPressedBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactNoteButtonPressedBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactNoteButtonPressedBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactNoteButtonPressedBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -300,6 +314,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -320,6 +335,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -340,6 +356,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelHoverBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelHoverBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelHoverBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchCancelHoverBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchCancelHoverBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -360,6 +377,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelHoverBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelHoverBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelHoverBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchCancelHoverBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchCancelHoverBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -380,6 +398,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelNormalBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelNormalBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelNormalBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchCancelNormalBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchCancelNormalBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -400,6 +419,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelNormalBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelNormalBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelNormalBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchCancelNormalBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchCancelNormalBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -420,6 +440,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchCancelPressedBorderBrus" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchCancelPressedBorderBrus As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchCancelPressedBorderBrus { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchCancelPressedBorderBrus : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchCancelPressedBorderBrus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -440,6 +461,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchLeftEdgeHoverBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchLeftEdgeHoverBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchLeftEdgeHoverBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchLeftEdgeHoverBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchLeftEdgeHoverBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -460,6 +482,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ContactSearchLeftEdgeNormalBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSearchLeftEdgeNormalBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ContactSearchLeftEdgeNormalBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactSearchLeftEdgeNormalBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ContactSearchLeftEdgeNormalBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -480,6 +503,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.DefaultControlBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultControlBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ DefaultControlBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DefaultControlBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.DefaultControlBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -500,6 +524,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.FilterButtonHoverBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilterButtonHoverBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ FilterButtonHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FilterButtonHoverBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.FilterButtonHoverBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -520,6 +545,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.FilterButtonPressedBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilterButtonPressedBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ FilterButtonPressedBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FilterButtonPressedBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.FilterButtonPressedBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -540,6 +566,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.FilterButtonSelectedBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilterButtonSelectedBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ FilterButtonSelectedBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FilterButtonSelectedBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.FilterButtonSelectedBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -560,6 +587,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Default" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_Default As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_Default { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBorderBrush_Tertiary_Default : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -580,6 +608,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Hover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_Hover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBorderBrush_Tertiary_Hover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Hover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -600,6 +629,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_OppositeHover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -620,6 +650,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Pressed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_Pressed As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_Pressed { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBorderBrush_Tertiary_Pressed : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Pressed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -640,6 +671,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Selected" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBorderBrush_Tertiary_Selected As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBorderBrush_Tertiary_Selected { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBorderBrush_Tertiary_Selected : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBorderBrush_Tertiary_Selected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -660,6 +692,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_Default" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_Default As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_Default { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Secondary_Default : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -680,6 +713,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_HoverA" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_HoverA As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_HoverA { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Secondary_HoverA : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_HoverA" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -700,6 +734,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_HoverB" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_HoverB As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_HoverB { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Secondary_HoverB : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_HoverB" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -720,6 +755,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressA" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_PressA As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_PressA { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Secondary_PressA : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressA" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -740,6 +776,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressB" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_PressB As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_PressB { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Secondary_PressB : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressB" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -760,6 +797,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressC" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_PressC As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_PressC { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Secondary_PressC : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_PressC" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -780,6 +818,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_SelectedA" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_SelectedA As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_SelectedA { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Secondary_SelectedA : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_SelectedA" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -800,6 +839,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_SelectedB" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Secondary_SelectedB As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Secondary_SelectedB { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Secondary_SelectedB : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Secondary_SelectedB" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -820,6 +860,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_Hover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Tertiary_Hover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Tertiary_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Tertiary_Hover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_Hover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -840,6 +881,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_OppositeHover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Tertiary_OppositeHover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Tertiary_OppositeHover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Tertiary_OppositeHover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_OppositeHover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -860,6 +902,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_Pressed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBackgroundBrush_Tertiary_Pressed As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBackgroundBrush_Tertiary_Pressed { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBackgroundBrush_Tertiary_Pressed : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBackgroundBrush_Tertiary_Pressed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -880,6 +923,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Default" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBorderBrush_Secondary_Default As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBorderBrush_Secondary_Default { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBorderBrush_Secondary_Default : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -900,6 +944,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Hover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBorderBrush_Secondary_Hover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBorderBrush_Secondary_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBorderBrush_Secondary_Hover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Hover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -920,6 +965,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Press" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBorderBrush_Secondary_Press As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBorderBrush_Secondary_Press { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBorderBrush_Secondary_Press : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Press" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -940,6 +986,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Selected" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonBorderBrush_Secondary_Selected As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonBorderBrush_Secondary_Selected { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonBorderBrush_Secondary_Selected : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonBorderBrush_Secondary_Selected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -960,6 +1007,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalButtonInternalBorderBrush_Tertiary_Hover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalButtonInternalBorderBrush_Tertiary_Hover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalButtonInternalBorderBrush_Tertiary_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalButtonInternalBorderBrush_Tertiary_Hover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalButtonInternalBorderBrush_Tertiary_Hover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -980,6 +1028,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelection_Focus" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelection_Focus As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelection_Focus { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalListSelection_Focus : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalListSelection_Focus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1000,6 +1049,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Hover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBackground_Hover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBackground_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalListSelectionBackground_Hover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Hover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1020,6 +1070,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Pressed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBackground_Pressed As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBackground_Pressed { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalListSelectionBackground_Pressed : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Pressed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1040,6 +1091,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Selected" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBackground_Selected As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBackground_Selected { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalListSelectionBackground_Selected : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBackground_Selected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1060,6 +1112,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBorder_Hover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBorder_Hover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBorder_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalListSelectionBorder_Hover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBorder_Hover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1080,6 +1133,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBorder_Selected" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionBorder_Selected As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionBorder_Selected { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalListSelectionBorder_Selected : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalListSelectionBorder_Selected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1100,6 +1154,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalListSelectionInnerBorder_Hover" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalListSelectionInnerBorder_Hover As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalListSelectionInnerBorder_Hover { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalListSelectionInnerBorder_Hover : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalListSelectionInnerBorder_Hover" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1120,6 +1175,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Black" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_Black As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_Black { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalTextColor_Black : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Black" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1140,6 +1196,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Dark" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_Dark As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_Dark { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalTextColor_Dark : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Dark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1160,6 +1217,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_GroupName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_GroupName As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_GroupName { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalTextColor_GroupName : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalTextColor_GroupName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1180,6 +1238,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_HoverForegroundBlack" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_HoverForegroundBlack As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_HoverForegroundBlack { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalTextColor_HoverForegroundBlack : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalTextColor_HoverForegroundBlack" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1200,6 +1259,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_HoverForegroundMediumDark" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_HoverForegroundMediumDark As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_HoverForegroundMediumDark { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalTextColor_HoverForegroundMediumDark : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalTextColor_HoverForegroundMediumDark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1220,6 +1280,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Link" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_Link As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_Link { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalTextColor_Link : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Link" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1240,6 +1301,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Medium" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_Medium As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_Medium { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalTextColor_Medium : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalTextColor_Medium" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1260,6 +1322,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.GlobalTextColor_MediumDark" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalTextColor_MediumDark As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ GlobalTextColor_MediumDark { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GlobalTextColor_MediumDark : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.GlobalTextColor_MediumDark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1280,6 +1343,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.MenuBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1300,6 +1364,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemCheckedBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemCheckedBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemCheckedBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuItemCheckedBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.MenuItemCheckedBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1320,6 +1385,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemHeaderBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemHeaderBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemHeaderBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuItemHeaderBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.MenuItemHeaderBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1340,6 +1406,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemHeaderForegroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemHeaderForegroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemHeaderForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuItemHeaderForegroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.MenuItemHeaderForegroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1360,6 +1427,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemHoverBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemHoverBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemHoverBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuItemHoverBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.MenuItemHoverBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1380,6 +1448,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MenuItemHoverBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuItemHoverBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MenuItemHoverBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuItemHoverBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.MenuItemHoverBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1400,6 +1469,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MyNoteBoxBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MyNoteBoxBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MyNoteBoxBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyNoteBoxBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.MyNoteBoxBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1420,6 +1490,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.MyNoteBoxBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MyNoteBoxBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ MyNoteBoxBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyNoteBoxBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.MyNoteBoxBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1440,6 +1511,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ScrollButtonBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ScrollButtonBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1460,6 +1532,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonContactNoteForegroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonContactNoteForegroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonContactNoteForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ScrollButtonContactNoteForegroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ScrollButtonContactNoteForegroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1480,6 +1553,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonContactNoteHoverBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonContactNoteHoverBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonContactNoteHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ScrollButtonContactNoteHoverBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ScrollButtonContactNoteHoverBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1500,6 +1574,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonForegroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonForegroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ScrollButtonForegroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ScrollButtonForegroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1520,6 +1595,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ScrollButtonHoverBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollButtonHoverBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ScrollButtonHoverBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ScrollButtonHoverBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ScrollButtonHoverBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1540,6 +1616,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.TabItemHoverBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TabItemHoverBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ TabItemHoverBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TabItemHoverBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.TabItemHoverBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1560,6 +1637,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.TabItemSelectedBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TabItemSelectedBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ TabItemSelectedBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TabItemSelectedBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.TabItemSelectedBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1580,6 +1658,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.TabItemSideBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TabItemSideBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ TabItemSideBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TabItemSideBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.TabItemSideBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1600,6 +1679,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ToolTipBackgroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolTipBackgroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ToolTipBackgroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipBackgroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ToolTipBackgroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1620,6 +1700,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ToolTipBorderBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolTipBorderBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ToolTipBorderBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipBorderBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ToolTipBorderBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1640,6 +1721,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ControlColors.ToolTipForegroundBrush" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolTipForegroundBrush As Brush" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Brush ^ ToolTipForegroundBrush { System::Windows::Media::Brush ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipForegroundBrush : System.Windows.Media.Brush" Usage="Microsoft.Lync.Controls.ControlColors.ToolTipForegroundBrush" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

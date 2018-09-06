@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail" />
   <TypeSignature Language="VB.NET" Value="Public Enum CanShareDetail" />
   <TypeSignature Language="C++ CLI" Value="public enum class CanShareDetail" />
+  <TypeSignature Language="F#" Value="type CanShareDetail = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.Allowed" />
       <MemberSignature Language="VB.NET" Value="Allowed" />
       <MemberSignature Language="C++ CLI" Value="Allowed" />
+      <MemberSignature Language="F#" Value="Allowed = 0" Usage="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.Allowed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.CannotConnect" />
       <MemberSignature Language="VB.NET" Value="CannotConnect" />
       <MemberSignature Language="C++ CLI" Value="CannotConnect" />
+      <MemberSignature Language="F#" Value="CannotConnect = 4" Usage="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.CannotConnect" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByOrganizerPolicy" />
       <MemberSignature Language="VB.NET" Value="DisabledByOrganizerPolicy" />
       <MemberSignature Language="C++ CLI" Value="DisabledByOrganizerPolicy" />
+      <MemberSignature Language="F#" Value="DisabledByOrganizerPolicy = 2" Usage="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByOrganizerPolicy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByPolicy" />
       <MemberSignature Language="VB.NET" Value="DisabledByPolicy" />
       <MemberSignature Language="C++ CLI" Value="DisabledByPolicy" />
+      <MemberSignature Language="F#" Value="DisabledByPolicy = 1" Usage="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByPolicy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByRole" />
       <MemberSignature Language="VB.NET" Value="DisabledByRole" />
       <MemberSignature Language="C++ CLI" Value="DisabledByRole" />
+      <MemberSignature Language="F#" Value="DisabledByRole = 3" Usage="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledByRole" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledForOtherReason" />
       <MemberSignature Language="VB.NET" Value="DisabledForOtherReason" />
       <MemberSignature Language="C++ CLI" Value="DisabledForOtherReason" />
+      <MemberSignature Language="F#" Value="DisabledForOtherReason = 5" Usage="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.DisabledForOtherReason" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -138,6 +145,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

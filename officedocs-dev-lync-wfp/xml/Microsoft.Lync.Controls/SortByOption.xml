@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SortByOption" />
   <TypeSignature Language="VB.NET" Value="Public Enum SortByOption" />
   <TypeSignature Language="C++ CLI" Value="public enum class SortByOption" />
+  <TypeSignature Language="F#" Value="type SortByOption = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SortByOption.Availability" />
       <MemberSignature Language="VB.NET" Value="Availability" />
       <MemberSignature Language="C++ CLI" Value="Availability" />
+      <MemberSignature Language="F#" Value="Availability = 0" Usage="Microsoft.Lync.Controls.SortByOption.Availability" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SortByOption.DisplayName" />
       <MemberSignature Language="VB.NET" Value="DisplayName" />
       <MemberSignature Language="C++ CLI" Value="DisplayName" />
+      <MemberSignature Language="F#" Value="DisplayName = 1" Usage="Microsoft.Lync.Controls.SortByOption.DisplayName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

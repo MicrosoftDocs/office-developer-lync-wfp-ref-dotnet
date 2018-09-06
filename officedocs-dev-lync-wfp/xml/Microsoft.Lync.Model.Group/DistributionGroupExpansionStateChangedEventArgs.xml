@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.DistributionGroupExpansionStateChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class DistributionGroupExpansionStateChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class DistributionGroupExpansionStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type DistributionGroupExpansionStateChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.DistributionGroupExpansionStateChangedEventArgs.IsExpanded" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExpanded As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExpanded { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsExpanded : bool" Usage="Microsoft.Lync.Model.Group.DistributionGroupExpansionStateChangedEventArgs.IsExpanded" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

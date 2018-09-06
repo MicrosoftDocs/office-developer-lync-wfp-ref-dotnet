@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.PopupContactCard" />
   <TypeSignature Language="VB.NET" Value="Public Class PopupContactCard&#xA;Inherits ContactBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class PopupContactCard : Microsoft::Lync::Controls::ContactBase" />
+  <TypeSignature Language="F#" Value="type PopupContactCard = class&#xA;    inherit ContactBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -51,6 +52,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.ClickTarget" />
       <MemberSignature Language="VB.NET" Value="Public Property ClickTarget As FrameworkElement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::FrameworkElement ^ ClickTarget { System::Windows::FrameworkElement ^ get(); void set(System::Windows::FrameworkElement ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ClickTarget : System.Windows.FrameworkElement with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.ClickTarget" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -71,6 +73,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.ClickTargetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ClickTargetProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ClickTargetProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ClickTargetProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.ClickTargetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.CloseButtonVerticalOffset" />
       <MemberSignature Language="VB.NET" Value="Public Property CloseButtonVerticalOffset As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CloseButtonVerticalOffset { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.CloseButtonVerticalOffset : double with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.CloseButtonVerticalOffset" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -110,6 +114,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.CloseButtonVerticalOffsetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CloseButtonVerticalOffsetProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CloseButtonVerticalOffsetProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable CloseButtonVerticalOffsetProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.CloseButtonVerticalOffsetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -129,6 +134,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.Internal.PopupContactCard.Closed" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event Closed As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Closed;" />
+      <MemberSignature Language="F#" Value="member this.Closed : EventHandler " Usage="member this.Closed : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -148,6 +154,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.DetailsHeight" />
       <MemberSignature Language="VB.NET" Value="Public Property DetailsHeight As Double" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property double DetailsHeight { double get(); void set(double value); };" />
+      <MemberSignature Language="F#" Value="member this.DetailsHeight : double with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.DetailsHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -168,6 +175,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.DetailsHeightProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DetailsHeightProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ DetailsHeightProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable DetailsHeightProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.DetailsHeightProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -187,6 +195,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.HoverAction" />
       <MemberSignature Language="VB.NET" Value="Public Property HoverAction As PresenceHoverActions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PresenceHoverActions HoverAction { Microsoft::Lync::Controls::PresenceHoverActions get(); void set(Microsoft::Lync::Controls::PresenceHoverActions value); };" />
+      <MemberSignature Language="F#" Value="member this.HoverAction : Microsoft.Lync.Controls.PresenceHoverActions with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.HoverAction" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -207,6 +216,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.HoverActionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoverActionProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HoverActionProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable HoverActionProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.HoverActionProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -226,6 +236,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.HoverOffTarget" />
       <MemberSignature Language="VB.NET" Value="Public Property HoverOffTarget As FrameworkElement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::FrameworkElement ^ HoverOffTarget { System::Windows::FrameworkElement ^ get(); void set(System::Windows::FrameworkElement ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.HoverOffTarget : System.Windows.FrameworkElement with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.HoverOffTarget" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -246,6 +257,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.HoverOffTargetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoverOffTargetProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HoverOffTargetProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable HoverOffTargetProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.HoverOffTargetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -265,6 +277,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.HoverOnTarget" />
       <MemberSignature Language="VB.NET" Value="Public Property HoverOnTarget As FrameworkElement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::FrameworkElement ^ HoverOnTarget { System::Windows::FrameworkElement ^ get(); void set(System::Windows::FrameworkElement ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.HoverOnTarget : System.Windows.FrameworkElement with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.HoverOnTarget" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -285,6 +298,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.HoverOnTargetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HoverOnTargetProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HoverOnTargetProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable HoverOnTargetProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.HoverOnTargetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -304,6 +318,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.IsExpanded" />
       <MemberSignature Language="VB.NET" Value="Public Property IsExpanded As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExpanded { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsExpanded : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsExpanded" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -324,6 +339,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.IsExpandedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsExpandedProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsExpandedProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsExpandedProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsExpandedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -343,6 +359,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.IsFloating" />
       <MemberSignature Language="VB.NET" Value="Public Property IsFloating As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFloating { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsFloating : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsFloating" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -363,6 +380,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.IsFloatingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsFloatingProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsFloatingProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsFloatingProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsFloatingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -382,6 +400,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.IsOpen" />
       <MemberSignature Language="VB.NET" Value="Public Property IsOpen As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOpen { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsOpen : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsOpen" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -402,6 +421,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.IsOpenProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsOpenProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsOpenProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsOpenProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsOpenProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -421,6 +441,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.IsPinned" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPinned As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPinned { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsPinned : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsPinned" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -441,6 +462,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.IsPinnedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPinnedProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsPinnedProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsPinnedProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsPinnedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -460,6 +482,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.IsSuppressed" />
       <MemberSignature Language="VB.NET" Value="Public Property IsSuppressed As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSuppressed { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsSuppressed : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsSuppressed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -480,6 +503,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.IsSuppressedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsSuppressedProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsSuppressedProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsSuppressedProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.IsSuppressedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -499,6 +523,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.ModelTarget" />
       <MemberSignature Language="VB.NET" Value="Public Property ModelTarget As ContactBase" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ContactBase ^ ModelTarget { Microsoft::Lync::Controls::ContactBase ^ get(); void set(Microsoft::Lync::Controls::ContactBase ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ModelTarget : Microsoft.Lync.Controls.ContactBase with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.ModelTarget" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -519,6 +544,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.ModelTargetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ModelTargetProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ModelTargetProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ModelTargetProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.ModelTargetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -538,6 +564,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="popupContactCard.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -558,6 +585,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="popupContactCard.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -579,6 +607,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnIsSignedPropertyChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnIsSignedPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnIsSignedPropertyChanged(bool oldValue, bool newValue);" />
+      <MemberSignature Language="F#" Value="override this.OnIsSignedPropertyChanged : bool * bool -&gt; unit" Usage="popupContactCard.OnIsSignedPropertyChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -604,6 +633,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnLoaded" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnLoaded ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnLoaded();" />
+      <MemberSignature Language="F#" Value="override this.OnLoaded : unit -&gt; unit" Usage="popupContactCard.OnLoaded " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -624,6 +654,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeftButtonDown (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeftButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnMouseLeftButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit&#xA;override this.OnMouseLeftButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="popupContactCard.OnMouseLeftButtonDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -647,6 +678,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeftButtonUp (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeftButtonUp(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnMouseLeftButtonUp : System.Windows.Input.MouseButtonEventArgs -&gt; unit&#xA;override this.OnMouseLeftButtonUp : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="popupContactCard.OnMouseLeftButtonUp e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -670,6 +702,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnMouseMove(System.Windows.Input.MouseEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseMove (e As MouseEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseMove(System::Windows::Input::MouseEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnMouseMove : System.Windows.Input.MouseEventArgs -&gt; unit&#xA;override this.OnMouseMove : System.Windows.Input.MouseEventArgs -&gt; unit" Usage="popupContactCard.OnMouseMove e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -693,6 +726,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnPreviewMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPreviewMouseLeftButtonDown (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPreviewMouseLeftButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnPreviewMouseLeftButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="popupContactCard.OnPreviewMouseLeftButtonDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -716,6 +750,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnSourceChanged(System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnSourceChanged (oldSource As Object, newSource As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceChanged(System::Object ^ oldSource, System::Object ^ newSource);" />
+      <MemberSignature Language="F#" Value="override this.OnSourceChanged : obj * obj -&gt; unit" Usage="popupContactCard.OnSourceChanged (oldSource, newSource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -741,6 +776,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.PopupContactCard.OnUnloaded" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnUnloaded ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnUnloaded();" />
+      <MemberSignature Language="F#" Value="override this.OnUnloaded : unit -&gt; unit" Usage="popupContactCard.OnUnloaded " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -761,6 +797,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.Internal.PopupContactCard.Pinned" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event Pinned As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Pinned;" />
+      <MemberSignature Language="F#" Value="member this.Pinned : EventHandler " Usage="member this.Pinned : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -780,6 +817,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.Placement" />
       <MemberSignature Language="VB.NET" Value="Public Property Placement As PopupPlacementMode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PopupPlacementMode Placement { Microsoft::Lync::Controls::PopupPlacementMode get(); void set(Microsoft::Lync::Controls::PopupPlacementMode value); };" />
+      <MemberSignature Language="F#" Value="member this.Placement : Microsoft.Lync.Controls.PopupPlacementMode with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.Placement" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -800,6 +838,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.PlacementProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlacementProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PlacementProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PlacementProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.PlacementProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -819,6 +858,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.PlacementTarget" />
       <MemberSignature Language="VB.NET" Value="Public Property PlacementTarget As FrameworkElement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::FrameworkElement ^ PlacementTarget { System::Windows::FrameworkElement ^ get(); void set(System::Windows::FrameworkElement ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PlacementTarget : System.Windows.FrameworkElement with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.PlacementTarget" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -839,6 +879,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.PlacementTargetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlacementTargetProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PlacementTargetProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PlacementTargetProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.PlacementTargetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -858,6 +899,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.SelectedTabIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedTabIndex As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectedTabIndex { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.SelectedTabIndex : int with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.SelectedTabIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -878,6 +920,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.SelectedTabIndexProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedTabIndexProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SelectedTabIndexProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectedTabIndexProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.SelectedTabIndexProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -897,6 +940,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.SingleClickAction" />
       <MemberSignature Language="VB.NET" Value="Public Property SingleClickAction As PresenceClickActions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PresenceClickActions SingleClickAction { Microsoft::Lync::Controls::PresenceClickActions get(); void set(Microsoft::Lync::Controls::PresenceClickActions value); };" />
+      <MemberSignature Language="F#" Value="member this.SingleClickAction : Microsoft.Lync.Controls.PresenceClickActions with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.SingleClickAction" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -917,6 +961,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.SingleClickActionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SingleClickActionProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SingleClickActionProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SingleClickActionProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.SingleClickActionProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -936,6 +981,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.PopupContactCard.SingleClickActionTarget" />
       <MemberSignature Language="VB.NET" Value="Public Property SingleClickActionTarget As ButtonBase" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Controls::Primitives::ButtonBase ^ SingleClickActionTarget { System::Windows::Controls::Primitives::ButtonBase ^ get(); void set(System::Windows::Controls::Primitives::ButtonBase ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SingleClickActionTarget : System.Windows.Controls.Primitives.ButtonBase with get, set" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.SingleClickActionTarget" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -956,6 +1002,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.PopupContactCard.SingleClickActionTargetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SingleClickActionTargetProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SingleClickActionTargetProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SingleClickActionTargetProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.PopupContactCard.SingleClickActionTargetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

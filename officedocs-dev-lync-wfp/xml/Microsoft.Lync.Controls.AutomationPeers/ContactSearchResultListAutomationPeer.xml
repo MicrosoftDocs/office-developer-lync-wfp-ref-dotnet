@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactSearchResultListAutomationPeer&#xA;Inherits ListBoxAutomationPeer" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchResultListAutomationPeer : System::Windows::Automation::Peers::ListBoxAutomationPeer" />
+  <TypeSignature Language="F#" Value="type ContactSearchResultListAutomationPeer = class&#xA;    inherit ListBoxAutomationPeer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactSearchResultList)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContactSearchResultList)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactSearchResultListAutomationPeer(Microsoft::Lync::Controls::ContactSearchResultList ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer : Microsoft.Lync.Controls.ContactSearchResultList -&gt; Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer.GetAutomationIdCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetAutomationIdCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetAutomationIdCore();" />
+      <MemberSignature Language="F#" Value="override this.GetAutomationIdCore : unit -&gt; string" Usage="contactSearchResultListAutomationPeer.GetAutomationIdCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -64,6 +67,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer.GetChildrenCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetChildrenCore () As List(Of AutomationPeer)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Collections::Generic::List&lt;System::Windows::Automation::Peers::AutomationPeer ^&gt; ^ GetChildrenCore();" />
+      <MemberSignature Language="F#" Value="override this.GetChildrenCore : unit -&gt; System.Collections.Generic.List&lt;System.Windows.Automation.Peers.AutomationPeer&gt;" Usage="contactSearchResultListAutomationPeer.GetChildrenCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -85,6 +89,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer.GetClassNameCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetClassNameCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetClassNameCore();" />
+      <MemberSignature Language="F#" Value="override this.GetClassNameCore : unit -&gt; string" Usage="contactSearchResultListAutomationPeer.GetClassNameCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -106,6 +111,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchResultListAutomationPeer.GetNameCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetNameCore();" />
+      <MemberSignature Language="F#" Value="override this.GetNameCore : unit -&gt; string" Usage="contactSearchResultListAutomationPeer.GetNameCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

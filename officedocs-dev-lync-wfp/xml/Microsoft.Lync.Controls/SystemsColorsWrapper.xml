@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SystemsColorsWrapper" />
   <TypeSignature Language="VB.NET" Value="Public Class SystemsColorsWrapper" />
   <TypeSignature Language="C++ CLI" Value="public ref class SystemsColorsWrapper" />
+  <TypeSignature Language="F#" Value="type SystemsColorsWrapper = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveBorderColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveBorderColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ActiveBorderColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveBorderColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveBorderColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveCaptionColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveCaptionColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ActiveCaptionColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveCaptionColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveCaptionColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -80,6 +83,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveCaptionTextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveCaptionTextColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ActiveCaptionTextColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveCaptionTextColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ActiveCaptionTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -100,6 +104,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.AppWorkspaceColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppWorkspaceColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color AppWorkspaceColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.AppWorkspaceColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.AppWorkspaceColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -120,6 +125,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ControlColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ControlColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -140,6 +146,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlDarkColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlDarkColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlDarkColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ControlDarkColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ControlDarkColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -160,6 +167,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlDarkDarkColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlDarkDarkColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlDarkDarkColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ControlDarkDarkColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ControlDarkDarkColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -180,6 +188,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlLightColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlLightColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlLightColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ControlLightColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ControlLightColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -200,6 +209,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlLightLightColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlLightLightColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlLightLightColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ControlLightLightColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ControlLightLightColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -220,6 +230,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ControlTextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControlTextColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ControlTextColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ControlTextColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ControlTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -240,6 +251,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.DesktopColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DesktopColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color DesktopColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.DesktopColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.DesktopColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -260,6 +272,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.GrayTextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GrayTextColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color GrayTextColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.GrayTextColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.GrayTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -280,6 +293,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.HighlightColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighlightColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color HighlightColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.HighlightColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.HighlightColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -300,6 +314,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.HighlightTextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighlightTextColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color HighlightTextColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.HighlightTextColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.HighlightTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -320,6 +335,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveBorderColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InactiveBorderColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InactiveBorderColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.InactiveBorderColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveBorderColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -340,6 +356,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveCaptionColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InactiveCaptionColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InactiveCaptionColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.InactiveCaptionColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveCaptionColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -360,6 +377,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveCaptionTextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InactiveCaptionTextColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InactiveCaptionTextColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.InactiveCaptionTextColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.InactiveCaptionTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -380,6 +398,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InfoColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InfoColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InfoColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.InfoColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.InfoColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -400,6 +419,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.InfoTextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InfoTextColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color InfoTextColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.InfoTextColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.InfoTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -420,6 +440,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.MenuColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color MenuColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.MenuColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -440,6 +461,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.MenuTextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuTextColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color MenuTextColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuTextColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.MenuTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -460,6 +482,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.ScrollBarColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollBarColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color ScrollBarColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.ScrollBarColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.ScrollBarColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -480,6 +503,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.WindowColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color WindowColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.WindowColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.WindowColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -500,6 +524,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.WindowFrameColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowFrameColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color WindowFrameColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.WindowFrameColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.WindowFrameColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -520,6 +545,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SystemsColorsWrapper.WindowTextColor" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowTextColor As Color" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Media::Color WindowTextColor { System::Windows::Media::Color get(); };" />
+      <MemberSignature Language="F#" Value="member this.WindowTextColor : System.Windows.Media.Color" Usage="Microsoft.Lync.Controls.SystemsColorsWrapper.WindowTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

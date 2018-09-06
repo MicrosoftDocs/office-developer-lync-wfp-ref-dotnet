@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConferenceAccessType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConferenceAccessType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ConferenceAccessType" />
+  <TypeSignature Language="F#" Value="type ConferenceAccessType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceAccessType.Anonymous" />
       <MemberSignature Language="VB.NET" Value="Anonymous" />
       <MemberSignature Language="C++ CLI" Value="Anonymous" />
+      <MemberSignature Language="F#" Value="Anonymous = 256" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessType.Anonymous" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceAccessType.Closed" />
       <MemberSignature Language="VB.NET" Value="Closed" />
       <MemberSignature Language="C++ CLI" Value="Closed" />
+      <MemberSignature Language="F#" Value="Closed = 16" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessType.Closed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceAccessType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceAccessType.Locked" />
       <MemberSignature Language="VB.NET" Value="Locked" />
       <MemberSignature Language="C++ CLI" Value="Locked" />
+      <MemberSignature Language="F#" Value="Locked = 4096" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessType.Locked" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceAccessType.Open" />
       <MemberSignature Language="VB.NET" Value="Open" />
       <MemberSignature Language="C++ CLI" Value="Open" />
+      <MemberSignature Language="F#" Value="Open = 1" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessType.Open" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceAccessType.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Lync.Model.Conversation.ConferenceAccessType.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

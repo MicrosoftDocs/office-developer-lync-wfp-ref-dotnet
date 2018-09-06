@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactLayoutOption" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactLayoutOption" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContactLayoutOption" />
+  <TypeSignature Language="F#" Value="type ContactLayoutOption = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactLayoutOption.OneLine" />
       <MemberSignature Language="VB.NET" Value="OneLine" />
       <MemberSignature Language="C++ CLI" Value="OneLine" />
+      <MemberSignature Language="F#" Value="OneLine = 0" Usage="Microsoft.Lync.Controls.ContactLayoutOption.OneLine" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactLayoutOption.TwoLines" />
       <MemberSignature Language="VB.NET" Value="TwoLines" />
       <MemberSignature Language="C++ CLI" Value="TwoLines" />
+      <MemberSignature Language="F#" Value="TwoLines = 1" Usage="Microsoft.Lync.Controls.ContactLayoutOption.TwoLines" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

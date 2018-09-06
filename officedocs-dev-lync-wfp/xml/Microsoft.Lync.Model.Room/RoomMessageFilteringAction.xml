@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomMessageFilteringAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum RoomMessageFilteringAction" />
   <TypeSignature Language="C++ CLI" Value="public enum class RoomMessageFilteringAction" />
+  <TypeSignature Language="F#" Value="type RoomMessageFilteringAction = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Canceled" />
       <MemberSignature Language="VB.NET" Value="Canceled" />
       <MemberSignature Language="C++ CLI" Value="Canceled" />
+      <MemberSignature Language="F#" Value="Canceled = 0" Usage="Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Canceled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Passed" />
       <MemberSignature Language="VB.NET" Value="Passed" />
       <MemberSignature Language="C++ CLI" Value="Passed" />
+      <MemberSignature Language="F#" Value="Passed = 2" Usage="Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Passed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -82,6 +86,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Replaced" />
       <MemberSignature Language="VB.NET" Value="Replaced" />
       <MemberSignature Language="C++ CLI" Value="Replaced" />
+      <MemberSignature Language="F#" Value="Replaced = 1" Usage="Microsoft.Lync.Model.Room.RoomMessageFilteringAction.Replaced" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

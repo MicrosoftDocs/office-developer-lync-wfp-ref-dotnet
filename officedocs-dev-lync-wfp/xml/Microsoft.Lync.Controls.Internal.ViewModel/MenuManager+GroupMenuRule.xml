@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class MenuManager.GroupMenuRule&#xA;Inherits MenuManager.MenuRule" />
   <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::GroupMenuRule abstract : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule" />
+  <TypeSignature Language="F#" Value="type MenuManager.GroupMenuRule = class&#xA;    inherit MenuManager.MenuRule" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (manager As MenuManager)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; GroupMenuRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule manager" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule.GetGroupManager" />
       <MemberSignature Language="VB.NET" Value="Protected Function GetGroupManager () As GroupByGroupsContactsAndGroupsManager" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroupsContactsAndGroupsManager ^ GetGroupManager();" />
+      <MemberSignature Language="F#" Value="member this.GetGroupManager : unit -&gt; Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager" Usage="groupMenuRule.GetGroupManager " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -64,6 +67,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule.GetGroupSortingInterface" />
       <MemberSignature Language="VB.NET" Value="Protected Function GetGroupSortingInterface () As ISortableContactsAndGroupManager" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; Microsoft::Lync::Controls::Internal::ViewModel::ISortableContactsAndGroupManager ^ GetGroupSortingInterface();" />
+      <MemberSignature Language="F#" Value="member this.GetGroupSortingInterface : unit -&gt; Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager" Usage="groupMenuRule.GetGroupSortingInterface " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -85,6 +89,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupMenuRule.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function IsVisible () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool IsVisible();" />
+      <MemberSignature Language="F#" Value="override this.IsVisible : unit -&gt; bool" Usage="groupMenuRule.IsVisible " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.SplitButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class SplitButtonAutomationPeer&#xA;Inherits FrameworkElementAutomationPeer" />
   <TypeSignature Language="C++ CLI" Value="public ref class SplitButtonAutomationPeer : System::Windows::Automation::Peers::FrameworkElementAutomationPeer" />
+  <TypeSignature Language="F#" Value="type SplitButtonAutomationPeer = class&#xA;    inherit FrameworkElementAutomationPeer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.SplitButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.SplitButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As SplitButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; SplitButtonAutomationPeer(Microsoft::Lync::Controls::Internal::SplitButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.SplitButtonAutomationPeer : Microsoft.Lync.Controls.Internal.SplitButton -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.SplitButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.SplitButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.SplitButtonAutomationPeer.GetChildrenCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetChildrenCore () As List(Of AutomationPeer)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Collections::Generic::List&lt;System::Windows::Automation::Peers::AutomationPeer ^&gt; ^ GetChildrenCore();" />
+      <MemberSignature Language="F#" Value="override this.GetChildrenCore : unit -&gt; System.Collections.Generic.List&lt;System.Windows.Automation.Peers.AutomationPeer&gt;" Usage="splitButtonAutomationPeer.GetChildrenCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -64,6 +67,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.AutomationPeers.SplitButtonAutomationPeer.TypeSafeOwner" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TypeSafeOwner As SplitButton" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::SplitButton ^ TypeSafeOwner { Microsoft::Lync::Controls::Internal::SplitButton ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TypeSafeOwner : Microsoft.Lync.Controls.Internal.SplitButton" Usage="Microsoft.Lync.Controls.Internal.AutomationPeers.SplitButtonAutomationPeer.TypeSafeOwner" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

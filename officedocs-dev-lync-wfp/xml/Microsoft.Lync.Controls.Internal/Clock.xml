@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Clock" />
   <TypeSignature Language="VB.NET" Value="Public Class Clock&#xA;Inherits Control" />
   <TypeSignature Language="C++ CLI" Value="public ref class Clock : System::Windows::Controls::Control" />
+  <TypeSignature Language="F#" Value="type Clock = class&#xA;    inherit Control" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Clock.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="clock.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.Clock.Time" />
       <MemberSignature Language="VB.NET" Value="Public Property Time As DateTime" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Time { DateTime get(); void set(DateTime value); };" />
+      <MemberSignature Language="F#" Value="member this.Time : DateTime with get, set" Usage="Microsoft.Lync.Controls.Internal.Clock.Time" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -81,6 +84,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.Clock.TimeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TimeProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TimeProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable TimeProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.Clock.TimeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -100,6 +104,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.Clock.TimeZoneBias" />
       <MemberSignature Language="VB.NET" Value="Public Property TimeZoneBias As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TimeZoneBias { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.TimeZoneBias : int with get, set" Usage="Microsoft.Lync.Controls.Internal.Clock.TimeZoneBias" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -120,6 +125,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.Clock.TimeZoneBiasProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TimeZoneBiasProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TimeZoneBiasProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable TimeZoneBiasProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.Clock.TimeZoneBiasProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

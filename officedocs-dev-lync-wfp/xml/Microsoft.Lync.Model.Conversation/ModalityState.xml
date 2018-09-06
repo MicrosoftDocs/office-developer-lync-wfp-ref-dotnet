@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityState" />
   <TypeSignature Language="VB.NET" Value="Public Enum ModalityState" />
   <TypeSignature Language="C++ CLI" Value="public enum class ModalityState" />
+  <TypeSignature Language="F#" Value="type ModalityState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Connected" />
       <MemberSignature Language="VB.NET" Value="Connected" />
       <MemberSignature Language="C++ CLI" Value="Connected" />
+      <MemberSignature Language="F#" Value="Connected = 5" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Connected" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Connecting" />
       <MemberSignature Language="VB.NET" Value="Connecting" />
       <MemberSignature Language="C++ CLI" Value="Connecting" />
+      <MemberSignature Language="F#" Value="Connecting = 1" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Connecting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.ConnectingToCaller" />
       <MemberSignature Language="VB.NET" Value="ConnectingToCaller" />
       <MemberSignature Language="C++ CLI" Value="ConnectingToCaller" />
+      <MemberSignature Language="F#" Value="ConnectingToCaller = 4" Usage="Microsoft.Lync.Model.Conversation.ModalityState.ConnectingToCaller" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Disconnected" />
       <MemberSignature Language="VB.NET" Value="Disconnected" />
       <MemberSignature Language="C++ CLI" Value="Disconnected" />
+      <MemberSignature Language="F#" Value="Disconnected = 0" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Disconnected" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Disconnecting" />
       <MemberSignature Language="VB.NET" Value="Disconnecting" />
       <MemberSignature Language="C++ CLI" Value="Disconnecting" />
+      <MemberSignature Language="F#" Value="Disconnecting = 10" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Disconnecting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -119,6 +125,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Forwarding" />
       <MemberSignature Language="VB.NET" Value="Forwarding" />
       <MemberSignature Language="C++ CLI" Value="Forwarding" />
+      <MemberSignature Language="F#" Value="Forwarding = 8" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Forwarding" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -138,6 +145,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -157,6 +165,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Joining" />
       <MemberSignature Language="VB.NET" Value="Joining" />
       <MemberSignature Language="C++ CLI" Value="Joining" />
+      <MemberSignature Language="F#" Value="Joining = 3" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Joining" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -176,6 +185,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Notified" />
       <MemberSignature Language="VB.NET" Value="Notified" />
       <MemberSignature Language="C++ CLI" Value="Notified" />
+      <MemberSignature Language="F#" Value="Notified = 2" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Notified" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -195,6 +205,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.OnHold" />
       <MemberSignature Language="VB.NET" Value="OnHold" />
       <MemberSignature Language="C++ CLI" Value="OnHold" />
+      <MemberSignature Language="F#" Value="OnHold = 7" Usage="Microsoft.Lync.Model.Conversation.ModalityState.OnHold" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -214,6 +225,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Suspended" />
       <MemberSignature Language="VB.NET" Value="Suspended" />
       <MemberSignature Language="C++ CLI" Value="Suspended" />
+      <MemberSignature Language="F#" Value="Suspended = 6" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Suspended" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -233,6 +245,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityState.Transferring" />
       <MemberSignature Language="VB.NET" Value="Transferring" />
       <MemberSignature Language="C++ CLI" Value="Transferring" />
+      <MemberSignature Language="F#" Value="Transferring = 9" Usage="Microsoft.Lync.Model.Conversation.ModalityState.Transferring" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

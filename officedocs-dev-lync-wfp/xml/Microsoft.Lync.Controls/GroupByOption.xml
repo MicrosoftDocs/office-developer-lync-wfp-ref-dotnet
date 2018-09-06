@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.GroupByOption" />
   <TypeSignature Language="VB.NET" Value="Public Enum GroupByOption" />
   <TypeSignature Language="C++ CLI" Value="public enum class GroupByOption" />
+  <TypeSignature Language="F#" Value="type GroupByOption = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.GroupByOption.Groups" />
       <MemberSignature Language="VB.NET" Value="Groups" />
       <MemberSignature Language="C++ CLI" Value="Groups" />
+      <MemberSignature Language="F#" Value="Groups = 0" Usage="Microsoft.Lync.Controls.GroupByOption.Groups" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.GroupByOption.Relationship" />
       <MemberSignature Language="VB.NET" Value="Relationship" />
       <MemberSignature Language="C++ CLI" Value="Relationship" />
+      <MemberSignature Language="F#" Value="Relationship = 1" Usage="Microsoft.Lync.Controls.GroupByOption.Relationship" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.GroupByOption.Status" />
       <MemberSignature Language="VB.NET" Value="Status" />
       <MemberSignature Language="C++ CLI" Value="Status" />
+      <MemberSignature Language="F#" Value="Status = 2" Usage="Microsoft.Lync.Controls.GroupByOption.Status" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

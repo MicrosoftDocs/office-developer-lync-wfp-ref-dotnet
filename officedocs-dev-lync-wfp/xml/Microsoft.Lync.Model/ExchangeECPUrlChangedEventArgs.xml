@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ExchangeECPUrlChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ExchangeECPUrlChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ExchangeECPUrlChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ExchangeECPUrlChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ExchangeECPUrlChangedEventArgs.NewUrl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewUrl As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NewUrl { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NewUrl : string" Usage="Microsoft.Lync.Model.ExchangeECPUrlChangedEventArgs.NewUrl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

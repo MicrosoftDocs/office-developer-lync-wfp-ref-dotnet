@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class MenuManager.MenuRule&#xA;Inherits NotifyPropertyChanged" />
   <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::MenuRule abstract : Microsoft::Lync::Internal::Utilities::DataModel::NotifyPropertyChanged" />
+  <TypeSignature Language="F#" Value="type MenuManager.MenuRule = class&#xA;    inherit NotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (manager As MenuManager)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; MenuRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule manager" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.AppendUri(System.String,System.Text.StringBuilder)" />
       <MemberSignature Language="VB.NET" Value="Protected Shared Sub AppendUri (value As String, builder As StringBuilder)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; static void AppendUri(System::String ^ value, System::Text::StringBuilder ^ builder);" />
+      <MemberSignature Language="F#" Value="static member AppendUri : string * System.Text.StringBuilder -&gt; unit" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.AppendUri (value, builder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -68,6 +71,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.CanExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function CanExecuteCommand (arg As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract bool CanExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="abstract member CanExecuteCommand : obj -&gt; bool" Usage="menuRule.CanExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -92,6 +96,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.ConfigureMenu" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ConfigureMenu ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ConfigureMenu();" />
+      <MemberSignature Language="F#" Value="abstract member ConfigureMenu : unit -&gt; unit&#xA;override this.ConfigureMenu : unit -&gt; unit" Usage="menuRule.ConfigureMenu " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -112,6 +117,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Context" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As MenuContext" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::MenuContext Context { Microsoft::Lync::Controls::MenuContext get(); };" />
+      <MemberSignature Language="F#" Value="member this.Context : Microsoft.Lync.Controls.MenuContext" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Context" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -132,6 +138,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.ExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub ExecuteCommand (arg As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract void ExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteCommand : obj -&gt; unit" Usage="menuRule.ExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -155,6 +162,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.GetOtherContactsGroup" />
       <MemberSignature Language="VB.NET" Value="Protected Function GetOtherContactsGroup () As IGroupModel" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ GetOtherContactsGroup();" />
+      <MemberSignature Language="F#" Value="member this.GetOtherContactsGroup : unit -&gt; Microsoft.Lync.Controls.Internal.Model.IGroupModel" Usage="menuRule.GetOtherContactsGroup " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -176,6 +184,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.GetUcClient" />
       <MemberSignature Language="VB.NET" Value="Protected Function GetUcClient () As IUCClientModel" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ GetUcClient();" />
+      <MemberSignature Language="F#" Value="member this.GetUcClient : unit -&gt; Microsoft.Lync.Controls.Internal.Model.IUCClientModel" Usage="menuRule.GetUcClient " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -197,6 +206,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsCustomGroupSelected" />
       <MemberSignature Language="VB.NET" Value="Protected Function IsCustomGroupSelected () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; bool IsCustomGroupSelected();" />
+      <MemberSignature Language="F#" Value="member this.IsCustomGroupSelected : unit -&gt; bool" Usage="menuRule.IsCustomGroupSelected " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -218,6 +228,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsNotSelfContact" />
       <MemberSignature Language="VB.NET" Value="Protected Function IsNotSelfContact () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; bool IsNotSelfContact();" />
+      <MemberSignature Language="F#" Value="member this.IsNotSelfContact : unit -&gt; bool" Usage="menuRule.IsNotSelfContact " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -239,6 +250,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsOtherContactsGroup(Microsoft.Lync.Controls.Internal.Model.IGroupModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Shared Function IsOtherContactsGroup (groupModel As IGroupModel) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; static bool IsOtherContactsGroup(Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ groupModel);" />
+      <MemberSignature Language="F#" Value="static member IsOtherContactsGroup : Microsoft.Lync.Controls.Internal.Model.IGroupModel -&gt; bool" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsOtherContactsGroup groupModel" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -263,6 +275,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function IsVisible () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsVisible();" />
+      <MemberSignature Language="F#" Value="abstract member IsVisible : unit -&gt; bool&#xA;override this.IsVisible : unit -&gt; bool" Usage="menuRule.IsVisible " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -284,6 +297,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Manager" />
       <MemberSignature Language="VB.NET" Value="Public Property Manager As MenuManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ Manager { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Manager : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Manager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -304,6 +318,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.MenuCommand" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuCommand As DelegateCommand(Of Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::Framework::Commands::DelegateCommand&lt;System::Object ^&gt; ^ MenuCommand { Microsoft::Lync::Controls::Internal::Framework::Commands::DelegateCommand&lt;System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuCommand : Microsoft.Lync.Controls.Internal.Framework.Commands.DelegateCommand&lt;obj&gt;" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.MenuCommand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -324,6 +339,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.MenuVisibility" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MenuVisibility As Visibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility MenuVisibility { System::Windows::Visibility get(); };" />
+      <MemberSignature Language="F#" Value="member this.MenuVisibility : System.Windows.Visibility" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.MenuVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -344,6 +360,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Models" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Models As IContactModel()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ Models { cli::array &lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Models : Microsoft.Lync.Controls.Internal.Model.IContactModel[]" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.Models" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -364,6 +381,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.SelectionIncludesContactType(Microsoft.Lync.Controls.Internal.Model.ContactType)" />
       <MemberSignature Language="VB.NET" Value="Protected Function SelectionIncludesContactType (type As ContactType) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; bool SelectionIncludesContactType(Microsoft::Lync::Controls::Internal::Model::ContactType type);" />
+      <MemberSignature Language="F#" Value="member this.SelectionIncludesContactType : Microsoft.Lync.Controls.Internal.Model.ContactType -&gt; bool" Usage="menuRule.SelectionIncludesContactType type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -388,6 +406,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.StartConversation(Microsoft.Lync.Controls.Internal.Model.ConversationModality)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub StartConversation (modality As ConversationModality)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void StartConversation(Microsoft::Lync::Controls::Internal::Model::ConversationModality modality);" />
+      <MemberSignature Language="F#" Value="member this.StartConversation : Microsoft.Lync.Controls.Internal.Model.ConversationModality -&gt; unit" Usage="menuRule.StartConversation modality" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -411,6 +430,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.StartConversation(Microsoft.Lync.Controls.Internal.Model.ConversationModality,Microsoft.Lync.Controls.Internal.Model.ConversationContextModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub StartConversation (modality As ConversationModality, contextModel As ConversationContextModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void StartConversation(Microsoft::Lync::Controls::Internal::Model::ConversationModality modality, Microsoft::Lync::Controls::Internal::Model::ConversationContextModel ^ contextModel);" />
+      <MemberSignature Language="F#" Value="member this.StartConversation : Microsoft.Lync.Controls.Internal.Model.ConversationModality * Microsoft.Lync.Controls.Internal.Model.ConversationContextModel -&gt; unit" Usage="menuRule.StartConversation (modality, contextModel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -436,6 +456,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule.StartConversation(Microsoft.Lync.Controls.Internal.Model.ConversationModality,Microsoft.Lync.Controls.Internal.Model.ConversationContextModel,Microsoft.Lync.Controls.Internal.Model.IContactModel[])" />
       <MemberSignature Language="VB.NET" Value="Protected Sub StartConversation (modality As ConversationModality, contextModel As ConversationContextModel, contactModels As IContactModel())" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void StartConversation(Microsoft::Lync::Controls::Internal::Model::ConversationModality modality, Microsoft::Lync::Controls::Internal::Model::ConversationContextModel ^ contextModel, cli::array &lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ contactModels);" />
+      <MemberSignature Language="F#" Value="member this.StartConversation : Microsoft.Lync.Controls.Internal.Model.ConversationModality * Microsoft.Lync.Controls.Internal.Model.ConversationContextModel * Microsoft.Lync.Controls.Internal.Model.IContactModel[] -&gt; unit" Usage="menuRule.StartConversation (modality, contextModel, contactModels)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

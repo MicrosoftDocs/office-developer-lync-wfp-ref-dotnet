@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent" />
   <TypeSignature Language="VB.NET" Value="Public Class ShareableContent&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class ShareableContent : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type ShareableContent = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.ActionAvailabilityChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ShareableContentActionAvailabilityChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ShareableContentActionAvailabilityChangedEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberSignature Language="F#" Value="member this.ActionAvailabilityChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContentActionAvailabilityChangedEventArgs&gt; " Usage="member this.ActionAvailabilityChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContentActionAvailabilityChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -42,6 +44,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.BeginDownloadFile(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginDownloadFile (localPath As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginDownloadFile(System::String ^ localPath, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginDownloadFile : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="shareableContent.BeginDownloadFile (localPath, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -72,6 +75,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.CanInvoke(Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ShareableContentAction, ByRef hrReason As Integer) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Conversation::Sharing::ShareableContentAction action, [Runtime::InteropServices::Out] int % hrReason);" />
+      <MemberSignature Language="F#" Value="member this.CanInvoke : Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction *  -&gt; bool" Usage="shareableContent.CanInvoke (action, hrReason)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -82,7 +86,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="action" Type="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction" />
-        <Parameter Name="hrReason" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="hrReason" Type="System.Int32" RefType="out" />
       </Parameters>
       <Docs>
         <param name="action">To be added.</param>
@@ -98,6 +102,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.ClearAllAnnotations" />
       <MemberSignature Language="VB.NET" Value="Public Sub ClearAllAnnotations ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearAllAnnotations();" />
+      <MemberSignature Language="F#" Value="member this.ClearAllAnnotations : unit -&gt; unit" Usage="shareableContent.ClearAllAnnotations " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -120,6 +125,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.CreationTime" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As DateTime" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreationTime { DateTime get(); };" />
+      <MemberSignature Language="F#" Value="member this.CreationTime : DateTime" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.CreationTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -140,6 +146,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.EndDownloadFile(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndDownloadFile (asyncResult As IAsyncResult) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ EndDownloadFile(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndDownloadFile : IAsyncResult -&gt; string" Usage="shareableContent.EndDownloadFile asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -166,6 +173,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!ShareableContent ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="shareableContent.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -186,6 +194,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.IsActive" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsActive As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsActive { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsActive : bool" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.IsActive" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -206,6 +215,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Modality" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Modality As Modality" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Modality ^ Modality { Microsoft::Lync::Model::Conversation::Modality ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Modality : Microsoft.Lync.Model.Conversation.Modality" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Modality" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -226,6 +236,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Owner" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Owner As Contact" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Contact ^ Owner { Microsoft::Lync::Model::Contact ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Owner : Microsoft.Lync.Model.Contact" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Owner" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -246,6 +257,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Present" />
       <MemberSignature Language="VB.NET" Value="Public Sub Present ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Present();" />
+      <MemberSignature Language="F#" Value="member this.Present : unit -&gt; unit" Usage="shareableContent.Present " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -269,6 +281,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Presenter" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Presenter As Participant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ Presenter { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Presenter : Microsoft.Lync.Model.Conversation.Participant" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Presenter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -289,6 +302,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ShareableContentProperty, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::Sharing::ShareableContentProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::Sharing::ShareableContentProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContentProperty, obj&gt;" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Properties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -309,6 +323,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event PropertyChanged As EventHandler(Of ShareableContentPropertyChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ShareableContentPropertyChangedEventArgs ^&gt; ^ PropertyChanged;" />
+      <MemberSignature Language="F#" Value="member this.PropertyChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContentPropertyChangedEventArgs&gt; " Usage="member this.PropertyChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContentPropertyChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -328,6 +343,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Remove" />
       <MemberSignature Language="VB.NET" Value="Public Sub Remove ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove();" />
+      <MemberSignature Language="F#" Value="member this.Remove : unit -&gt; unit" Usage="shareableContent.Remove " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -351,6 +367,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.SaveAnnotation(System.String,Microsoft.Lync.Model.Conversation.Sharing.ContentSavingFileType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SaveAnnotation (fileName As String, fileType As ContentSavingFileType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveAnnotation(System::String ^ fileName, Microsoft::Lync::Model::Conversation::Sharing::ContentSavingFileType fileType);" />
+      <MemberSignature Language="F#" Value="member this.SaveAnnotation : string * Microsoft.Lync.Model.Conversation.Sharing.ContentSavingFileType -&gt; unit" Usage="shareableContent.SaveAnnotation (fileName, fileType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -378,6 +395,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ShareableContentState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ShareableContentState State { Microsoft::Lync::Model::Conversation::Sharing::ShareableContentState get(); };" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Lync.Model.Conversation.Sharing.ShareableContentState" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.State" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -398,6 +416,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.StateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ShareableContentStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ShareableContentStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberSignature Language="F#" Value="member this.StateChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContentStateChangedEventArgs&gt; " Usage="member this.StateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ShareableContentStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -420,6 +439,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.StopPresenting" />
       <MemberSignature Language="VB.NET" Value="Public Sub StopPresenting ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void StopPresenting();" />
+      <MemberSignature Language="F#" Value="member this.StopPresenting : unit -&gt; unit" Usage="shareableContent.StopPresenting " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -443,6 +463,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.TakeOverAsPresenter" />
       <MemberSignature Language="VB.NET" Value="Public Sub TakeOverAsPresenter ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void TakeOverAsPresenter();" />
+      <MemberSignature Language="F#" Value="member this.TakeOverAsPresenter : unit -&gt; unit" Usage="shareableContent.TakeOverAsPresenter " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -465,6 +486,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Title" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Title As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Title : string" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Title" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -485,6 +507,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As ShareableContentType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ShareableContentType Type { Microsoft::Lync::Model::Conversation::Sharing::ShareableContentType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -505,6 +528,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ShareableContent.Upload" />
       <MemberSignature Language="VB.NET" Value="Public Sub Upload ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Upload();" />
+      <MemberSignature Language="F#" Value="member this.Upload : unit -&gt; unit" Usage="shareableContent.Upload " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

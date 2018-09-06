@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers" />
   <TypeSignature Language="VB.NET" Value="Public Module FrameworkElementHelpers" />
   <TypeSignature Language="C++ CLI" Value="public ref class FrameworkElementHelpers abstract sealed" />
+  <TypeSignature Language="F#" Value="type FrameworkElementHelpers = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.String,System.Windows.DependencyProperty)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BindToControlDependencyProperty (targetControl As FrameworkElement, sourceControl As FrameworkElement, sourceDependencyPropertyName As String, targetDependencyProperty As DependencyProperty)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToControlDependencyProperty(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ sourceControl, System::String ^ sourceDependencyPropertyName, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+      <MemberSignature Language="F#" Value="static member BindToControlDependencyProperty : System.Windows.FrameworkElement * System.Windows.FrameworkElement * string * System.Windows.DependencyProperty -&gt; unit" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty (targetControl, sourceControl, sourceDependencyPropertyName, targetDependencyProperty)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -51,6 +53,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BindToControlDependencyProperty(class System.Windows.FrameworkElement targetControl, class System.Windows.FrameworkElement sourceControl, string sourceDependencyPropertyName, valuetype System.Windows.Data.BindingMode bindingMode, class System.Windows.DependencyProperty targetDependencyProperty) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.String,System.Windows.Data.BindingMode,System.Windows.DependencyProperty)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToControlDependencyProperty(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ sourceControl, System::String ^ sourceDependencyPropertyName, System::Windows::Data::BindingMode bindingMode, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+      <MemberSignature Language="F#" Value="static member BindToControlDependencyProperty : System.Windows.FrameworkElement * System.Windows.FrameworkElement * string * System.Windows.Data.BindingMode * System.Windows.DependencyProperty -&gt; unit" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToControlDependencyProperty (targetControl, sourceControl, sourceDependencyPropertyName, bindingMode, targetDependencyProperty)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -82,6 +85,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToProperty(System.Windows.FrameworkElement,System.Object,System.String,System.Windows.DependencyProperty)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BindToProperty (targetControl As FrameworkElement, sourceObject As Object, sourcePropertyPath As String, targetDependencyProperty As DependencyProperty)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BindToProperty(System::Windows::FrameworkElement ^ targetControl, System::Object ^ sourceObject, System::String ^ sourcePropertyPath, System::Windows::DependencyProperty ^ targetDependencyProperty);" />
+      <MemberSignature Language="F#" Value="static member BindToProperty : System.Windows.FrameworkElement * obj * string * System.Windows.DependencyProperty -&gt; unit" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.BindToProperty (targetControl, sourceObject, sourcePropertyPath, targetDependencyProperty)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -111,6 +115,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.FindParent``1(System.Windows.FrameworkElement)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FindParent(Of T As FrameworkElement) (element As FrameworkElement) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::FrameworkElement[System::Runtime::CompilerServices::Extension]&#xA; static T FindParent(System::Windows::FrameworkElement ^ element);" />
+      <MemberSignature Language="F#" Value="static member FindParent : System.Windows.FrameworkElement -&gt; 'T (requires 'T :&gt; System.Windows.FrameworkElement)" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.FindParent element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -143,6 +148,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAbsolutePosition(System.Windows.UIElement)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAbsolutePosition (elt As UIElement) As Point" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Windows::Point GetAbsolutePosition(System::Windows::UIElement ^ elt);" />
+      <MemberSignature Language="F#" Value="static member GetAbsolutePosition : System.Windows.UIElement -&gt; System.Windows.Point" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAbsolutePosition elt" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -167,6 +173,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAbsolutePositionOrDefault(System.Windows.UIElement,System.Windows.Point)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAbsolutePositionOrDefault (elt As UIElement, defaultPoint As Point) As Point" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Windows::Point GetAbsolutePositionOrDefault(System::Windows::UIElement ^ elt, System::Windows::Point defaultPoint);" />
+      <MemberSignature Language="F#" Value="static member GetAbsolutePositionOrDefault : System.Windows.UIElement * System.Windows.Point -&gt; System.Windows.Point" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAbsolutePositionOrDefault (elt, defaultPoint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -193,6 +200,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAncestorValue``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAncestorValue(Of T) (reference As DependencyObject, property As DependencyProperty) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T GetAncestorValue(System::Windows::DependencyObject ^ reference, System::Windows::DependencyProperty ^ property);" />
+      <MemberSignature Language="F#" Value="static member GetAncestorValue : System.Windows.DependencyObject * System.Windows.DependencyProperty -&gt; 'T" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetAncestorValue (reference, property)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -223,6 +231,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetInheritedValue(System.Windows.DependencyObject,System.Windows.DependencyProperty)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetInheritedValue (reference As DependencyObject, property As DependencyProperty) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Object ^ GetInheritedValue(System::Windows::DependencyObject ^ reference, System::Windows::DependencyProperty ^ property);" />
+      <MemberSignature Language="F#" Value="static member GetInheritedValue : System.Windows.DependencyObject * System.Windows.DependencyProperty -&gt; obj" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetInheritedValue (reference, property)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -248,6 +257,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetOldestParent&lt;(class System.Windows.DependencyObject) T&gt;(class System.Windows.DependencyObject dependencyObject) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetOldestParent``1(System.Windows.DependencyObject)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject[System::Runtime::CompilerServices::Extension]&#xA; static T GetOldestParent(System::Windows::DependencyObject ^ dependencyObject);" />
+      <MemberSignature Language="F#" Value="static member GetOldestParent : System.Windows.DependencyObject -&gt; 'T (requires 'T :&gt; System.Windows.DependencyObject)" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.GetOldestParent dependencyObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -279,6 +289,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsInVisualTree(class System.Windows.DependencyObject dependencyObject) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsInVisualTree(System.Windows.DependencyObject)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsInVisualTree(System::Windows::DependencyObject ^ dependencyObject);" />
+      <MemberSignature Language="F#" Value="static member IsInVisualTree : System.Windows.DependencyObject -&gt; bool" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsInVisualTree dependencyObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -302,6 +313,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsInVisualTree(class System.Windows.Media.Visual visual) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsInVisualTree(System.Windows.Media.Visual)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsInVisualTree(System::Windows::Media::Visual ^ visual);" />
+      <MemberSignature Language="F#" Value="static member IsInVisualTree : System.Windows.Media.Visual -&gt; bool" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsInVisualTree visual" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -326,6 +338,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentOf(System.Windows.FrameworkElement,System.Windows.FrameworkElement)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsParentOf (targetControl As FrameworkElement, child As FrameworkElement) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsParentOf(System::Windows::FrameworkElement ^ targetControl, System::Windows::FrameworkElement ^ child);" />
+      <MemberSignature Language="F#" Value="static member IsParentOf : System.Windows.FrameworkElement * System.Windows.FrameworkElement -&gt; bool" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentOf (targetControl, child)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -351,6 +364,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsParentPopup(class System.Windows.DependencyObject dependencyObject) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentPopup(System.Windows.DependencyObject)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool IsParentPopup(System::Windows::DependencyObject ^ dependencyObject);" />
+      <MemberSignature Language="F#" Value="static member IsParentPopup : System.Windows.DependencyObject -&gt; bool" Usage="Microsoft.Lync.Controls.Internal.FrameworkElementHelpers.IsParentPopup dependencyObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

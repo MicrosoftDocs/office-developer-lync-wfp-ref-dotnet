@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.FocuslessButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class FocuslessButtonAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of FocuslessButton)" />
   <TypeSignature Language="C++ CLI" Value="public ref class FocuslessButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::Internal::FocuslessButton ^&gt;" />
+  <TypeSignature Language="F#" Value="type FocuslessButtonAutomationPeer = class&#xA;    inherit UCBaseAutomationPeer&lt;FocuslessButton&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.FocuslessButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.FocuslessButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As FocuslessButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; FocuslessButtonAutomationPeer(Microsoft::Lync::Controls::Internal::FocuslessButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.FocuslessButtonAutomationPeer : Microsoft.Lync.Controls.Internal.FocuslessButton -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.FocuslessButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.FocuslessButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

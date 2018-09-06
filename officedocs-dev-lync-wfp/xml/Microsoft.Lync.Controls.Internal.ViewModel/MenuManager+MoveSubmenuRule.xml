@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveSubmenuRule" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuManager.MoveSubmenuRule&#xA;Inherits MenuManager.CopySubmenuRule" />
   <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::MoveSubmenuRule : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::CopySubmenuRule" />
+  <TypeSignature Language="F#" Value="type MenuManager.MoveSubmenuRule = class&#xA;    inherit MenuManager.CopySubmenuRule" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveSubmenuRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager,Microsoft.Lync.Controls.Internal.Model.IGroupModel)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (manager As MenuManager, group As IGroupModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; MoveSubmenuRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager, Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ group);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveSubmenuRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager * Microsoft.Lync.Controls.Internal.Model.IGroupModel -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveSubmenuRule" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveSubmenuRule (manager, group)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -45,6 +47,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveSubmenuRule.ExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCommand (arg As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.ExecuteCommand : obj -&gt; unit" Usage="moveSubmenuRule.ExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

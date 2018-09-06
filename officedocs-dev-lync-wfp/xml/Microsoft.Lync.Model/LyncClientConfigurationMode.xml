@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.LyncClientConfigurationMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum LyncClientConfigurationMode" />
   <TypeSignature Language="C++ CLI" Value="public enum class LyncClientConfigurationMode" />
+  <TypeSignature Language="F#" Value="type LyncClientConfigurationMode = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientConfigurationMode.Auto" />
       <MemberSignature Language="VB.NET" Value="Auto" />
       <MemberSignature Language="C++ CLI" Value="Auto" />
+      <MemberSignature Language="F#" Value="Auto = 0" Usage="Microsoft.Lync.Model.LyncClientConfigurationMode.Auto" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientConfigurationMode.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.LyncClientConfigurationMode.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientConfigurationMode.Manual" />
       <MemberSignature Language="VB.NET" Value="Manual" />
       <MemberSignature Language="C++ CLI" Value="Manual" />
+      <MemberSignature Language="F#" Value="Manual = 1" Usage="Microsoft.Lync.Model.LyncClientConfigurationMode.Manual" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

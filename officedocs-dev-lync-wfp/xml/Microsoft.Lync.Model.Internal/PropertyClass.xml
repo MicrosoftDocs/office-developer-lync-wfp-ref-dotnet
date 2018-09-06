@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.PropertyClass" />
   <TypeSignature Language="VB.NET" Value="Public Enum PropertyClass" />
   <TypeSignature Language="C++ CLI" Value="public enum class PropertyClass" />
+  <TypeSignature Language="F#" Value="type PropertyClass = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ClientSettings" />
       <MemberSignature Language="VB.NET" Value="ClientSettings" />
       <MemberSignature Language="C++ CLI" Value="ClientSettings" />
+      <MemberSignature Language="F#" Value="ClientSettings = 1179648" Usage="Microsoft.Lync.Model.Internal.PropertyClass.ClientSettings" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ConferenceInfo" />
       <MemberSignature Language="VB.NET" Value="ConferenceInfo" />
       <MemberSignature Language="C++ CLI" Value="ConferenceInfo" />
+      <MemberSignature Language="F#" Value="ConferenceInfo = 393216" Usage="Microsoft.Lync.Model.Internal.PropertyClass.ConferenceInfo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ConferenceSetting" />
       <MemberSignature Language="VB.NET" Value="ConferenceSetting" />
       <MemberSignature Language="C++ CLI" Value="ConferenceSetting" />
+      <MemberSignature Language="F#" Value="ConferenceSetting = 458752" Usage="Microsoft.Lync.Model.Internal.PropertyClass.ConferenceSetting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Contact" />
       <MemberSignature Language="VB.NET" Value="Contact" />
       <MemberSignature Language="C++ CLI" Value="Contact" />
+      <MemberSignature Language="F#" Value="Contact = 0" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Contact" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Content" />
       <MemberSignature Language="VB.NET" Value="Content" />
       <MemberSignature Language="C++ CLI" Value="Content" />
+      <MemberSignature Language="F#" Value="Content = 1048576" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Content" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Conversation" />
       <MemberSignature Language="VB.NET" Value="Conversation" />
       <MemberSignature Language="C++ CLI" Value="Conversation" />
+      <MemberSignature Language="F#" Value="Conversation = 524288" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Conversation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ConversationStateChange" />
       <MemberSignature Language="VB.NET" Value="ConversationStateChange" />
       <MemberSignature Language="C++ CLI" Value="ConversationStateChange" />
+      <MemberSignature Language="F#" Value="ConversationStateChange = 589824" Usage="Microsoft.Lync.Model.Internal.PropertyClass.ConversationStateChange" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ConversationWindow" />
       <MemberSignature Language="VB.NET" Value="ConversationWindow" />
       <MemberSignature Language="C++ CLI" Value="ConversationWindow" />
+      <MemberSignature Language="F#" Value="ConversationWindow = 917504" Usage="Microsoft.Lync.Model.Internal.PropertyClass.ConversationWindow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Group" />
       <MemberSignature Language="VB.NET" Value="Group" />
       <MemberSignature Language="C++ CLI" Value="Group" />
+      <MemberSignature Language="F#" Value="Group = 65536" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Group" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -212,6 +223,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Modality" />
       <MemberSignature Language="VB.NET" Value="Modality" />
       <MemberSignature Language="C++ CLI" Value="Modality" />
+      <MemberSignature Language="F#" Value="Modality = 720896" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Modality" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -231,6 +243,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ModalityAction" />
       <MemberSignature Language="VB.NET" Value="ModalityAction" />
       <MemberSignature Language="C++ CLI" Value="ModalityAction" />
+      <MemberSignature Language="F#" Value="ModalityAction = 851968" Usage="Microsoft.Lync.Model.Internal.PropertyClass.ModalityAction" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -250,6 +263,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.ModalityStateChange" />
       <MemberSignature Language="VB.NET" Value="ModalityStateChange" />
       <MemberSignature Language="C++ CLI" Value="ModalityStateChange" />
+      <MemberSignature Language="F#" Value="ModalityStateChange = 786432" Usage="Microsoft.Lync.Model.Internal.PropertyClass.ModalityStateChange" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -269,6 +283,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Operation" />
       <MemberSignature Language="VB.NET" Value="Operation" />
       <MemberSignature Language="C++ CLI" Value="Operation" />
+      <MemberSignature Language="F#" Value="Operation = 131072" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Operation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -288,6 +303,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Participant" />
       <MemberSignature Language="VB.NET" Value="Participant" />
       <MemberSignature Language="C++ CLI" Value="Participant" />
+      <MemberSignature Language="F#" Value="Participant = 655360" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Participant" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -307,6 +323,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 327680000" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -326,6 +343,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 327745536" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -345,6 +363,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved3" />
       <MemberSignature Language="VB.NET" Value="Reserved3" />
       <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberSignature Language="F#" Value="Reserved3 = 327811072" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Reserved3" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -364,6 +383,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved4" />
       <MemberSignature Language="VB.NET" Value="Reserved4" />
       <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberSignature Language="F#" Value="Reserved4 = 327876608" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Reserved4" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -383,6 +403,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Reserved5" />
       <MemberSignature Language="VB.NET" Value="Reserved5" />
       <MemberSignature Language="C++ CLI" Value="Reserved5" />
+      <MemberSignature Language="F#" Value="Reserved5 = 327680" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Reserved5" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -402,6 +423,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.Room" />
       <MemberSignature Language="VB.NET" Value="Room" />
       <MemberSignature Language="C++ CLI" Value="Room" />
+      <MemberSignature Language="F#" Value="Room = 983040" Usage="Microsoft.Lync.Model.Internal.PropertyClass.Room" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -421,6 +443,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.SearchProvider" />
       <MemberSignature Language="VB.NET" Value="SearchProvider" />
       <MemberSignature Language="C++ CLI" Value="SearchProvider" />
+      <MemberSignature Language="F#" Value="SearchProvider = 262144" Usage="Microsoft.Lync.Model.Internal.PropertyClass.SearchProvider" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -440,6 +463,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.UCClientAddtionalInfo" />
       <MemberSignature Language="VB.NET" Value="UCClientAddtionalInfo" />
       <MemberSignature Language="C++ CLI" Value="UCClientAddtionalInfo" />
+      <MemberSignature Language="F#" Value="UCClientAddtionalInfo = 196608" Usage="Microsoft.Lync.Model.Internal.PropertyClass.UCClientAddtionalInfo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -459,6 +483,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyClass.VideoView" />
       <MemberSignature Language="VB.NET" Value="VideoView" />
       <MemberSignature Language="C++ CLI" Value="VideoView" />
+      <MemberSignature Language="F#" Value="VideoView = 1114112" Usage="Microsoft.Lync.Model.Internal.PropertyClass.VideoView" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

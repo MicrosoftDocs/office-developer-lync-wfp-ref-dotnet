@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.ModalityConnectOptions" />
   <TypeSignature Language="VB.NET" Value="Public Enum ModalityConnectOptions" />
   <TypeSignature Language="C++ CLI" Value="public enum class ModalityConnectOptions" />
+  <TypeSignature Language="F#" Value="type ModalityConnectOptions = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ModalityConnectOptions.IncludeActiveContext" />
       <MemberSignature Language="VB.NET" Value="IncludeActiveContext" />
       <MemberSignature Language="C++ CLI" Value="IncludeActiveContext" />
+      <MemberSignature Language="F#" Value="IncludeActiveContext = 1" Usage="Microsoft.Lync.Model.Internal.ModalityConnectOptions.IncludeActiveContext" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ModalityConnectOptions.IncludeAllContexts" />
       <MemberSignature Language="VB.NET" Value="IncludeAllContexts" />
       <MemberSignature Language="C++ CLI" Value="IncludeAllContexts" />
+      <MemberSignature Language="F#" Value="IncludeAllContexts = 2" Usage="Microsoft.Lync.Model.Internal.ModalityConnectOptions.IncludeAllContexts" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ModalityConnectOptions.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Internal.ModalityConnectOptions.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ModalityConnectOptions.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Internal.ModalityConnectOptions.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

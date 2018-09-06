@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomManager" />
   <TypeSignature Language="VB.NET" Value="Public Class RoomManager&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class RoomManager : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type RoomManager = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.BeginQueryRoomByUri(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginQueryRoomByUri (roomUri As String, roomManagerCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginQueryRoomByUri(System::String ^ roomUri, AsyncCallback ^ roomManagerCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginQueryRoomByUri : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="roomManager.BeginQueryRoomByUri (roomUri, roomManagerCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -53,6 +55,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.BeginQueryRooms(System.String,Microsoft.Lync.Model.Room.RoomSearchModeType,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginQueryRooms (keyword As String, searchType As RoomSearchModeType, roomManagerCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginQueryRooms(System::String ^ keyword, Microsoft::Lync::Model::Room::RoomSearchModeType searchType, AsyncCallback ^ roomManagerCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginQueryRooms : string * Microsoft.Lync.Model.Room.RoomSearchModeType * AsyncCallback * obj -&gt; IAsyncResult" Usage="roomManager.BeginQueryRooms (keyword, searchType, roomManagerCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -85,6 +88,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.EndQueryRoomByUri(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndQueryRoomByUri (asyncResult As IAsyncResult) As Room" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Room::Room ^ EndQueryRoomByUri(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndQueryRoomByUri : IAsyncResult -&gt; Microsoft.Lync.Model.Room.Room" Usage="roomManager.EndQueryRoomByUri asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -111,6 +115,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.EndQueryRooms(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndQueryRooms (asyncResult As IAsyncResult) As IList(Of Room)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::Room ^&gt; ^ EndQueryRooms(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndQueryRooms : IAsyncResult -&gt; System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.Room&gt;" Usage="roomManager.EndQueryRooms asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -137,6 +142,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomManager.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!RoomManager ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="roomManager.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -157,6 +163,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.RoomManager.FollowedRoomAdded" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event FollowedRoomAdded As EventHandler(Of FollowedRoomsChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::FollowedRoomsChangedEventArgs ^&gt; ^ FollowedRoomAdded;" />
+      <MemberSignature Language="F#" Value="member this.FollowedRoomAdded : EventHandler&lt;Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt; " Usage="member this.FollowedRoomAdded : System.EventHandler&lt;Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -176,6 +183,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.RoomManager.FollowedRoomRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event FollowedRoomRemoved As EventHandler(Of FollowedRoomsChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::FollowedRoomsChangedEventArgs ^&gt; ^ FollowedRoomRemoved;" />
+      <MemberSignature Language="F#" Value="member this.FollowedRoomRemoved : EventHandler&lt;Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt; " Usage="member this.FollowedRoomRemoved : System.EventHandler&lt;Microsoft.Lync.Model.Room.FollowedRoomsChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -195,6 +203,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomManager.FollowedRooms" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FollowedRooms As IList(Of Room)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::Room ^&gt; ^ FollowedRooms { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::Room ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FollowedRooms : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.Room&gt;" Usage="Microsoft.Lync.Model.Room.RoomManager.FollowedRooms" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -218,6 +227,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Room.RoomManager.RoomManagerStateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event RoomManagerStateChanged As EventHandler(Of RoomManagerStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Room::RoomManagerStateChangedEventArgs ^&gt; ^ RoomManagerStateChanged;" />
+      <MemberSignature Language="F#" Value="member this.RoomManagerStateChanged : EventHandler&lt;Microsoft.Lync.Model.Room.RoomManagerStateChangedEventArgs&gt; " Usage="member this.RoomManagerStateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Room.RoomManagerStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -237,6 +247,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomManager.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As RoomManagerState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomManagerState State { Microsoft::Lync::Model::Room::RoomManagerState get(); };" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Lync.Model.Room.RoomManagerState" Usage="Microsoft.Lync.Model.Room.RoomManager.State" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

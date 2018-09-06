@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.HyperlinkButton" />
   <TypeSignature Language="VB.NET" Value="Public Class HyperlinkButton&#xA;Inherits Button" />
   <TypeSignature Language="C++ CLI" Value="public ref class HyperlinkButton : System::Windows::Controls::Button" />
+  <TypeSignature Language="F#" Value="type HyperlinkButton = class&#xA;    inherit Button" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -41,13 +42,14 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.HyperlinkButton.NavigateUri" />
       <MemberSignature Language="VB.NET" Value="Public Property NavigateUri As Uri" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ NavigateUri { Uri ^ get(); void set(Uri ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.NavigateUri : Uri with get, set" Usage="Microsoft.Lync.Controls.Internal.HyperlinkButton.NavigateUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="lync-wfp">
           <AttributeName>System.ComponentModel.TypeConverter(typeof(System.UriTypeConverter))</AttributeName>
         </Attribute>
       </Attributes>
@@ -66,6 +68,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.HyperlinkButton.NavigateUriProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NavigateUriProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ NavigateUriProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable NavigateUriProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.HyperlinkButton.NavigateUriProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -85,6 +88,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.HyperlinkButton.OnClick" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnClick ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnClick();" />
+      <MemberSignature Language="F#" Value="override this.OnClick : unit -&gt; unit" Usage="hyperlinkButton.OnClick " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -105,6 +109,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.HyperlinkButton.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="hyperlinkButton.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -126,6 +131,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.HyperlinkButton.TargetName" />
       <MemberSignature Language="VB.NET" Value="Public Property TargetName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TargetName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TargetName : string with get, set" Usage="Microsoft.Lync.Controls.Internal.HyperlinkButton.TargetName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -146,6 +152,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.HyperlinkButton.TargetNameProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TargetNameProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TargetNameProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable TargetNameProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.HyperlinkButton.TargetNameProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

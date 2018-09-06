@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SearchType" />
   <TypeSignature Language="VB.NET" Value="Public Enum SearchType" />
   <TypeSignature Language="C++ CLI" Value="public enum class SearchType" />
+  <TypeSignature Language="F#" Value="type SearchType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchType.Name" />
       <MemberSignature Language="VB.NET" Value="Name" />
       <MemberSignature Language="C++ CLI" Value="Name" />
+      <MemberSignature Language="F#" Value="Name = 1" Usage="Microsoft.Lync.Controls.SearchType.Name" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchType.Skill" />
       <MemberSignature Language="VB.NET" Value="Skill" />
       <MemberSignature Language="C++ CLI" Value="Skill" />
+      <MemberSignature Language="F#" Value="Skill = 0" Usage="Microsoft.Lync.Controls.SearchType.Skill" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

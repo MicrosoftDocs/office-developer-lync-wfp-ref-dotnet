@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationManager" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationManager&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConversationManager : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type ConversationManager = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.ConversationManager.AddConversation" />
       <MemberSignature Language="VB.NET" Value="Public Function AddConversation () As Conversation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Conversation ^ AddConversation();" />
+      <MemberSignature Language="F#" Value="member this.AddConversation : unit -&gt; Microsoft.Lync.Model.Conversation.Conversation" Usage="conversationManager.AddConversation " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.ConversationManager.ConversationAdded" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ConversationAdded As EventHandler(Of ConversationManagerEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationManagerEventArgs ^&gt; ^ ConversationAdded;" />
+      <MemberSignature Language="F#" Value="member this.ConversationAdded : EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt; " Usage="member this.ConversationAdded : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.ConversationManager.ConversationRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ConversationRemoved As EventHandler(Of ConversationManagerEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationManagerEventArgs ^&gt; ^ ConversationRemoved;" />
+      <MemberSignature Language="F#" Value="member this.ConversationRemoved : EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt; " Usage="member this.ConversationRemoved : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationManagerEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -82,6 +86,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ConversationManager.Conversations" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversations As IList(Of Conversation)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Conversation ^&gt; ^ Conversations { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Conversation ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Conversations : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Conversation&gt;" Usage="Microsoft.Lync.Model.Conversation.ConversationManager.Conversations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -102,6 +107,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.ConversationManager.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!ConversationManager ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="conversationManager.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -122,6 +128,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.ConversationManager.JoinConference(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function JoinConference (conferenceUrl As String) As Conversation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Conversation ^ JoinConference(System::String ^ conferenceUrl);" />
+      <MemberSignature Language="F#" Value="member this.JoinConference : string -&gt; Microsoft.Lync.Model.Conversation.Conversation" Usage="conversationManager.JoinConference conferenceUrl" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

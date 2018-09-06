@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason" />
   <TypeSignature Language="VB.NET" Value="Public Enum CallUnparkReason" />
   <TypeSignature Language="C++ CLI" Value="public enum class CallUnparkReason" />
+  <TypeSignature Language="F#" Value="type CallUnparkReason = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Abandoned" />
       <MemberSignature Language="VB.NET" Value="Abandoned" />
       <MemberSignature Language="C++ CLI" Value="Abandoned" />
+      <MemberSignature Language="F#" Value="Abandoned = 1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Abandoned" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Disconnected" />
       <MemberSignature Language="VB.NET" Value="Disconnected" />
       <MemberSignature Language="C++ CLI" Value="Disconnected" />
+      <MemberSignature Language="F#" Value="Disconnected = 2" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Disconnected" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Fallback" />
       <MemberSignature Language="VB.NET" Value="Fallback" />
       <MemberSignature Language="C++ CLI" Value="Fallback" />
+      <MemberSignature Language="F#" Value="Fallback = 3" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Fallback" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Retrieved" />
       <MemberSignature Language="VB.NET" Value="Retrieved" />
       <MemberSignature Language="C++ CLI" Value="Retrieved" />
+      <MemberSignature Language="F#" Value="Retrieved = 4" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Retrieved" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Ringback" />
       <MemberSignature Language="VB.NET" Value="Ringback" />
       <MemberSignature Language="C++ CLI" Value="Ringback" />
+      <MemberSignature Language="F#" Value="Ringback = 5" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Ringback" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 6" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallUnparkReason.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

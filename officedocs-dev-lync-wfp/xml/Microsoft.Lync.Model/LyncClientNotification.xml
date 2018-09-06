@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.LyncClientNotification" />
   <TypeSignature Language="VB.NET" Value="Public Enum LyncClientNotification" />
   <TypeSignature Language="C++ CLI" Value="public enum class LyncClientNotification" />
+  <TypeSignature Language="F#" Value="type LyncClientNotification = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.Autodiscovery" />
       <MemberSignature Language="VB.NET" Value="Autodiscovery" />
       <MemberSignature Language="C++ CLI" Value="Autodiscovery" />
+      <MemberSignature Language="F#" Value="Autodiscovery = 1" Usage="Microsoft.Lync.Model.LyncClientNotification.Autodiscovery" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.CalendarQueryStatus" />
       <MemberSignature Language="VB.NET" Value="CalendarQueryStatus" />
       <MemberSignature Language="C++ CLI" Value="CalendarQueryStatus" />
+      <MemberSignature Language="F#" Value="CalendarQueryStatus = 2" Usage="Microsoft.Lync.Model.LyncClientNotification.CalendarQueryStatus" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.FolderManagerStatus" />
       <MemberSignature Language="VB.NET" Value="FolderManagerStatus" />
       <MemberSignature Language="C++ CLI" Value="FolderManagerStatus" />
+      <MemberSignature Language="F#" Value="FolderManagerStatus = 5" Usage="Microsoft.Lync.Model.LyncClientNotification.FolderManagerStatus" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.LyncClientNotification.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.MapiStatus" />
       <MemberSignature Language="VB.NET" Value="MapiStatus" />
       <MemberSignature Language="C++ CLI" Value="MapiStatus" />
+      <MemberSignature Language="F#" Value="MapiStatus = 0" Usage="Microsoft.Lync.Model.LyncClientNotification.MapiStatus" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.OutlookContactProviderStatus" />
       <MemberSignature Language="VB.NET" Value="OutlookContactProviderStatus" />
       <MemberSignature Language="C++ CLI" Value="OutlookContactProviderStatus" />
+      <MemberSignature Language="F#" Value="OutlookContactProviderStatus = 3" Usage="Microsoft.Lync.Model.LyncClientNotification.OutlookContactProviderStatus" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.LyncClientNotification.WabContactProviderStatus" />
       <MemberSignature Language="VB.NET" Value="WabContactProviderStatus" />
       <MemberSignature Language="C++ CLI" Value="WabContactProviderStatus" />
+      <MemberSignature Language="F#" Value="WabContactProviderStatus = 4" Usage="Microsoft.Lync.Model.LyncClientNotification.WabContactProviderStatus" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

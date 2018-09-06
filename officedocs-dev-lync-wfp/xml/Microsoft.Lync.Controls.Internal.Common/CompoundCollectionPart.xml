@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Common.CompoundCollectionPart" />
   <TypeSignature Language="VB.NET" Value="Public Class CompoundCollectionPart&#xA;Inherits FrameworkElement&#xA;Implements INotifyCollectionChanged" />
   <TypeSignature Language="C++ CLI" Value="public ref class CompoundCollectionPart : System::Windows::FrameworkElement, System::Collections::Specialized::INotifyCollectionChanged" />
+  <TypeSignature Language="F#" Value="type CompoundCollectionPart = class&#xA;    inherit FrameworkElement&#xA;    interface INotifyCollectionChanged" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -44,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.Common.CompoundCollectionPart.Collection" />
       <MemberSignature Language="VB.NET" Value="Public Property Collection As IEnumerable" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IEnumerable ^ Collection { System::Collections::IEnumerable ^ get(); void set(System::Collections::IEnumerable ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Collection : System.Collections.IEnumerable with get, set" Usage="Microsoft.Lync.Controls.Internal.Common.CompoundCollectionPart.Collection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.Internal.Common.CompoundCollectionPart.CollectionChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event CollectionChanged As NotifyCollectionChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::Collections::Specialized::NotifyCollectionChangedEventHandler ^ CollectionChanged;" />
+      <MemberSignature Language="F#" Value="member this.CollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " Usage="member this.CollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -83,6 +86,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.Common.CompoundCollectionPart.CollectionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CollectionProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CollectionProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable CollectionProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.Common.CompoundCollectionPart.CollectionProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

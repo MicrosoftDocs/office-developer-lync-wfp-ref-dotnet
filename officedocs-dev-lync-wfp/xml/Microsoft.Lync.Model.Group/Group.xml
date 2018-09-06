@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.Group" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Group&#xA;Inherits ContactCollection" />
   <TypeSignature Language="C++ CLI" Value="public ref class Group abstract : Microsoft::Lync::Model::Group::ContactCollection" />
+  <TypeSignature Language="F#" Value="type Group = class&#xA;    inherit ContactCollection" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -24,6 +25,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginAddContact(class Microsoft.Lync.Model.Contact contact, class System.AsyncCallback groupCallback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.Group.BeginAddContact(Microsoft.Lync.Model.Contact,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAddContact(Microsoft::Lync::Model::Contact ^ contact, AsyncCallback ^ groupCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginAddContact : Microsoft.Lync.Model.Contact * AsyncCallback * obj -&gt; IAsyncResult" Usage="group.BeginAddContact (contact, groupCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -54,6 +56,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.Group.BeginRemoveContact(Microsoft.Lync.Model.Contact,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginRemoveContact (pContact As Contact, groupCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRemoveContact(Microsoft::Lync::Model::Contact ^ pContact, AsyncCallback ^ groupCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginRemoveContact : Microsoft.Lync.Model.Contact * AsyncCallback * obj -&gt; IAsyncResult" Usage="group.BeginRemoveContact (pContact, groupCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +86,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanInvoke(valuetype Microsoft.Lync.Model.Group.GroupAction action, class Microsoft.Lync.Model.Contact contact) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.Group.CanInvoke(Microsoft.Lync.Model.Group.GroupAction,Microsoft.Lync.Model.Contact)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Group::GroupAction action, Microsoft::Lync::Model::Contact ^ contact);" />
+      <MemberSignature Language="F#" Value="member this.CanInvoke : Microsoft.Lync.Model.Group.GroupAction * Microsoft.Lync.Model.Contact -&gt; bool" Usage="group.CanInvoke (action, contact)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -111,6 +115,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.Group.ContactAdded" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ContactAdded As EventHandler(Of GroupMemberChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::GroupMemberChangedEventArgs ^&gt; ^ ContactAdded;" />
+      <MemberSignature Language="F#" Value="member this.ContactAdded : EventHandler&lt;Microsoft.Lync.Model.Group.GroupMemberChangedEventArgs&gt; " Usage="member this.ContactAdded : System.EventHandler&lt;Microsoft.Lync.Model.Group.GroupMemberChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -132,6 +137,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.Group.ContactManager" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactManager As ContactManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactManager ^ ContactManager { Microsoft::Lync::Model::ContactManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactManager : Microsoft.Lync.Model.ContactManager" Usage="Microsoft.Lync.Model.Group.Group.ContactManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -154,6 +160,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.Group.ContactRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ContactRemoved As EventHandler(Of GroupMemberChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::GroupMemberChangedEventArgs ^&gt; ^ ContactRemoved;" />
+      <MemberSignature Language="F#" Value="member this.ContactRemoved : EventHandler&lt;Microsoft.Lync.Model.Group.GroupMemberChangedEventArgs&gt; " Usage="member this.ContactRemoved : System.EventHandler&lt;Microsoft.Lync.Model.Group.GroupMemberChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -175,6 +182,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.Group.EndAddContact(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndAddContact (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndAddContact(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndAddContact : IAsyncResult -&gt; unit" Usage="group.EndAddContact asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -200,6 +208,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.Group.EndRemoveContact(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndRemoveContact (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRemoveContact(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndRemoveContact : IAsyncResult -&gt; unit" Usage="group.EndRemoveContact asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -225,6 +234,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.Group.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Group ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="group.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -245,6 +255,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.Group.Id" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Microsoft.Lync.Model.Group.Group.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -267,6 +278,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.Group.Name" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Lync.Model.Group.Group.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -289,6 +301,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.Group.NameChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event NameChanged As EventHandler(Of GroupNameChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::GroupNameChangedEventArgs ^&gt; ^ NameChanged;" />
+      <MemberSignature Language="F#" Value="member this.NameChanged : EventHandler&lt;Microsoft.Lync.Model.Group.GroupNameChangedEventArgs&gt; " Usage="member this.NameChanged : System.EventHandler&lt;Microsoft.Lync.Model.Group.GroupNameChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -310,6 +323,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.Group.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As GroupType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Group::GroupType Type { Microsoft::Lync::Model::Group::GroupType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Lync.Model.Group.GroupType" Usage="Microsoft.Lync.Model.Group.Group.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

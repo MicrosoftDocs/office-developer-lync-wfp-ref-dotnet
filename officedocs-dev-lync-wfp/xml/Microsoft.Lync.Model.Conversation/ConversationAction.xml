@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationAction" />
   <TypeSignature Language="C++ CLI" Value="public enum class ConversationAction" />
+  <TypeSignature Language="F#" Value="type ConversationAction = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAction.AddParticipant" />
       <MemberSignature Language="VB.NET" Value="AddParticipant" />
       <MemberSignature Language="C++ CLI" Value="AddParticipant" />
+      <MemberSignature Language="F#" Value="AddParticipant = 2" Usage="Microsoft.Lync.Model.Conversation.ConversationAction.AddParticipant" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAction.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ConversationAction.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAction.Merge" />
       <MemberSignature Language="VB.NET" Value="Merge" />
       <MemberSignature Language="C++ CLI" Value="Merge" />
+      <MemberSignature Language="F#" Value="Merge = 0" Usage="Microsoft.Lync.Model.Conversation.ConversationAction.Merge" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAction.Park" />
       <MemberSignature Language="VB.NET" Value="Park" />
       <MemberSignature Language="C++ CLI" Value="Park" />
+      <MemberSignature Language="F#" Value="Park = 1" Usage="Microsoft.Lync.Model.Conversation.ConversationAction.Park" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAction.RemoveParticipant" />
       <MemberSignature Language="VB.NET" Value="RemoveParticipant" />
       <MemberSignature Language="C++ CLI" Value="RemoveParticipant" />
+      <MemberSignature Language="F#" Value="RemoveParticipant = 3" Usage="Microsoft.Lync.Model.Conversation.ConversationAction.RemoveParticipant" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

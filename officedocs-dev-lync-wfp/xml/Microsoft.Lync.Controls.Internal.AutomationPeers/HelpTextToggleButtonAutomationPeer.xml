@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class HelpTextToggleButtonAutomationPeer&#xA;Inherits ToggleButtonAutomationPeer" />
   <TypeSignature Language="C++ CLI" Value="public ref class HelpTextToggleButtonAutomationPeer : System::Windows::Automation::Peers::ToggleButtonAutomationPeer" />
+  <TypeSignature Language="F#" Value="type HelpTextToggleButtonAutomationPeer = class&#xA;    inherit ToggleButtonAutomationPeer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.HelpTextToggleButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As HelpTextToggleButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; HelpTextToggleButtonAutomationPeer(Microsoft::Lync::Controls::Internal::HelpTextToggleButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer : Microsoft.Lync.Controls.Internal.HelpTextToggleButton -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.HelpTextToggleButtonAutomationPeer.GetNameCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetNameCore();" />
+      <MemberSignature Language="F#" Value="override this.GetNameCore : unit -&gt; string" Usage="helpTextToggleButtonAutomationPeer.GetNameCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

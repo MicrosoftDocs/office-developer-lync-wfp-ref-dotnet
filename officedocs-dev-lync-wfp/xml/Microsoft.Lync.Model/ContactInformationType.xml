@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactInformationType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactInformationType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContactInformationType" />
+  <TypeSignature Language="F#" Value="type ContactInformationType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Activity" />
       <MemberSignature Language="VB.NET" Value="Activity" />
       <MemberSignature Language="C++ CLI" Value="Activity" />
+      <MemberSignature Language="F#" Value="Activity = 7" Usage="Microsoft.Lync.Model.ContactInformationType.Activity" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.ActivityId" />
       <MemberSignature Language="VB.NET" Value="ActivityId" />
       <MemberSignature Language="C++ CLI" Value="ActivityId" />
+      <MemberSignature Language="F#" Value="ActivityId = 1" Usage="Microsoft.Lync.Model.ContactInformationType.ActivityId" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.AttributionString" />
       <MemberSignature Language="VB.NET" Value="AttributionString" />
       <MemberSignature Language="C++ CLI" Value="AttributionString" />
+      <MemberSignature Language="F#" Value="AttributionString = 49" Usage="Microsoft.Lync.Model.ContactInformationType.AttributionString" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Availability" />
       <MemberSignature Language="VB.NET" Value="Availability" />
       <MemberSignature Language="C++ CLI" Value="Availability" />
+      <MemberSignature Language="F#" Value="Availability = 0" Usage="Microsoft.Lync.Model.ContactInformationType.Availability" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Capabilities" />
       <MemberSignature Language="VB.NET" Value="Capabilities" />
       <MemberSignature Language="C++ CLI" Value="Capabilities" />
+      <MemberSignature Language="F#" Value="Capabilities = 33" Usage="Microsoft.Lync.Model.ContactInformationType.Capabilities" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.CapabilityDetails" />
       <MemberSignature Language="VB.NET" Value="CapabilityDetails" />
       <MemberSignature Language="C++ CLI" Value="CapabilityDetails" />
+      <MemberSignature Language="F#" Value="CapabilityDetails = 45" Usage="Microsoft.Lync.Model.ContactInformationType.CapabilityDetails" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.CapabilityString" />
       <MemberSignature Language="VB.NET" Value="CapabilityString" />
       <MemberSignature Language="C++ CLI" Value="CapabilityString" />
+      <MemberSignature Language="F#" Value="CapabilityString = 32" Usage="Microsoft.Lync.Model.ContactInformationType.CapabilityString" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Company" />
       <MemberSignature Language="VB.NET" Value="Company" />
       <MemberSignature Language="C++ CLI" Value="Company" />
+      <MemberSignature Language="F#" Value="Company = 15" Usage="Microsoft.Lync.Model.ContactInformationType.Company" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.ContactEndpoints" />
       <MemberSignature Language="VB.NET" Value="ContactEndpoints" />
       <MemberSignature Language="C++ CLI" Value="ContactEndpoints" />
+      <MemberSignature Language="F#" Value="ContactEndpoints = 27" Usage="Microsoft.Lync.Model.ContactInformationType.ContactEndpoints" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.ContactType" />
       <MemberSignature Language="VB.NET" Value="ContactType" />
       <MemberSignature Language="C++ CLI" Value="ContactType" />
+      <MemberSignature Language="F#" Value="ContactType = 34" Usage="Microsoft.Lync.Model.ContactInformationType.ContactType" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -212,6 +223,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.CurrentCalendarState" />
       <MemberSignature Language="VB.NET" Value="CurrentCalendarState" />
       <MemberSignature Language="C++ CLI" Value="CurrentCalendarState" />
+      <MemberSignature Language="F#" Value="CurrentCalendarState = 47" Usage="Microsoft.Lync.Model.ContactInformationType.CurrentCalendarState" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -231,6 +243,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.CustomActivity" />
       <MemberSignature Language="VB.NET" Value="CustomActivity" />
       <MemberSignature Language="C++ CLI" Value="CustomActivity" />
+      <MemberSignature Language="F#" Value="CustomActivity = 8" Usage="Microsoft.Lync.Model.ContactInformationType.CustomActivity" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -250,6 +263,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.DefaultNote" />
       <MemberSignature Language="VB.NET" Value="DefaultNote" />
       <MemberSignature Language="C++ CLI" Value="DefaultNote" />
+      <MemberSignature Language="F#" Value="DefaultNote = 20" Usage="Microsoft.Lync.Model.ContactInformationType.DefaultNote" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -269,6 +283,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.DefaultNotePublishedTime" />
       <MemberSignature Language="VB.NET" Value="DefaultNotePublishedTime" />
       <MemberSignature Language="C++ CLI" Value="DefaultNotePublishedTime" />
+      <MemberSignature Language="F#" Value="DefaultNotePublishedTime = 46" Usage="Microsoft.Lync.Model.ContactInformationType.DefaultNotePublishedTime" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -288,6 +303,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.DefaultNoteType" />
       <MemberSignature Language="VB.NET" Value="DefaultNoteType" />
       <MemberSignature Language="C++ CLI" Value="DefaultNoteType" />
+      <MemberSignature Language="F#" Value="DefaultNoteType = 21" Usage="Microsoft.Lync.Model.ContactInformationType.DefaultNoteType" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -307,6 +323,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Department" />
       <MemberSignature Language="VB.NET" Value="Department" />
       <MemberSignature Language="C++ CLI" Value="Department" />
+      <MemberSignature Language="F#" Value="Department = 16" Usage="Microsoft.Lync.Model.ContactInformationType.Department" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -326,6 +343,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Description" />
       <MemberSignature Language="VB.NET" Value="Description" />
       <MemberSignature Language="C++ CLI" Value="Description" />
+      <MemberSignature Language="F#" Value="Description = 35" Usage="Microsoft.Lync.Model.ContactInformationType.Description" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -345,6 +363,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.DisplayName" />
       <MemberSignature Language="VB.NET" Value="DisplayName" />
       <MemberSignature Language="C++ CLI" Value="DisplayName" />
+      <MemberSignature Language="F#" Value="DisplayName = 10" Usage="Microsoft.Lync.Model.ContactInformationType.DisplayName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -364,6 +383,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.EmailAddresses" />
       <MemberSignature Language="VB.NET" Value="EmailAddresses" />
       <MemberSignature Language="C++ CLI" Value="EmailAddresses" />
+      <MemberSignature Language="F#" Value="EmailAddresses = 13" Usage="Microsoft.Lync.Model.ContactInformationType.EmailAddresses" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -383,6 +403,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.FirstName" />
       <MemberSignature Language="VB.NET" Value="FirstName" />
       <MemberSignature Language="C++ CLI" Value="FirstName" />
+      <MemberSignature Language="F#" Value="FirstName = 37" Usage="Microsoft.Lync.Model.ContactInformationType.FirstName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -402,6 +423,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.HomePageUrl" />
       <MemberSignature Language="VB.NET" Value="HomePageUrl" />
       <MemberSignature Language="C++ CLI" Value="HomePageUrl" />
+      <MemberSignature Language="F#" Value="HomePageUrl = 18" Usage="Microsoft.Lync.Model.ContactInformationType.HomePageUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -421,6 +443,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.IconStream" />
       <MemberSignature Language="VB.NET" Value="IconStream" />
       <MemberSignature Language="C++ CLI" Value="IconStream" />
+      <MemberSignature Language="F#" Value="IconStream = 26" Usage="Microsoft.Lync.Model.ContactInformationType.IconStream" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -440,6 +463,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.IconUrl" />
       <MemberSignature Language="VB.NET" Value="IconUrl" />
       <MemberSignature Language="C++ CLI" Value="IconUrl" />
+      <MemberSignature Language="F#" Value="IconUrl = 25" Usage="Microsoft.Lync.Model.ContactInformationType.IconUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -459,6 +483,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.IdleStartTime" />
       <MemberSignature Language="VB.NET" Value="IdleStartTime" />
       <MemberSignature Language="C++ CLI" Value="IdleStartTime" />
+      <MemberSignature Language="F#" Value="IdleStartTime = 9" Usage="Microsoft.Lync.Model.ContactInformationType.IdleStartTime" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -478,6 +503,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.InstantMessageAddresses" />
       <MemberSignature Language="VB.NET" Value="InstantMessageAddresses" />
       <MemberSignature Language="C++ CLI" Value="InstantMessageAddresses" />
+      <MemberSignature Language="F#" Value="InstantMessageAddresses = 50" Usage="Microsoft.Lync.Model.ContactInformationType.InstantMessageAddresses" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -497,6 +523,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ContactInformationType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -516,6 +543,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.IsOutOfOffice" />
       <MemberSignature Language="VB.NET" Value="IsOutOfOffice" />
       <MemberSignature Language="C++ CLI" Value="IsOutOfOffice" />
+      <MemberSignature Language="F#" Value="IsOutOfOffice = 51" Usage="Microsoft.Lync.Model.ContactInformationType.IsOutOfOffice" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -537,6 +565,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.LastName" />
       <MemberSignature Language="VB.NET" Value="LastName" />
       <MemberSignature Language="C++ CLI" Value="LastName" />
+      <MemberSignature Language="F#" Value="LastName = 38" Usage="Microsoft.Lync.Model.ContactInformationType.LastName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -556,6 +585,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.LocationName" />
       <MemberSignature Language="VB.NET" Value="LocationName" />
       <MemberSignature Language="C++ CLI" Value="LocationName" />
+      <MemberSignature Language="F#" Value="LocationName = 2" Usage="Microsoft.Lync.Model.ContactInformationType.LocationName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -575,6 +605,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.MeetingLocation" />
       <MemberSignature Language="VB.NET" Value="MeetingLocation" />
       <MemberSignature Language="C++ CLI" Value="MeetingLocation" />
+      <MemberSignature Language="F#" Value="MeetingLocation = 6" Usage="Microsoft.Lync.Model.ContactInformationType.MeetingLocation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -594,6 +625,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.MeetingSubject" />
       <MemberSignature Language="VB.NET" Value="MeetingSubject" />
       <MemberSignature Language="C++ CLI" Value="MeetingSubject" />
+      <MemberSignature Language="F#" Value="MeetingSubject = 5" Usage="Microsoft.Lync.Model.ContactInformationType.MeetingSubject" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -613,6 +645,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.NextCalendarState" />
       <MemberSignature Language="VB.NET" Value="NextCalendarState" />
       <MemberSignature Language="C++ CLI" Value="NextCalendarState" />
+      <MemberSignature Language="F#" Value="NextCalendarState = 48" Usage="Microsoft.Lync.Model.ContactInformationType.NextCalendarState" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -632,6 +665,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.NextCalendarStateStartTime" />
       <MemberSignature Language="VB.NET" Value="NextCalendarStateStartTime" />
       <MemberSignature Language="C++ CLI" Value="NextCalendarStateStartTime" />
+      <MemberSignature Language="F#" Value="NextCalendarStateStartTime = 30" Usage="Microsoft.Lync.Model.ContactInformationType.NextCalendarStateStartTime" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -651,6 +685,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Office" />
       <MemberSignature Language="VB.NET" Value="Office" />
       <MemberSignature Language="C++ CLI" Value="Office" />
+      <MemberSignature Language="F#" Value="Office = 17" Usage="Microsoft.Lync.Model.ContactInformationType.Office" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -670,6 +705,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.OutOfficeNote" />
       <MemberSignature Language="VB.NET" Value="OutOfficeNote" />
       <MemberSignature Language="C++ CLI" Value="OutOfficeNote" />
+      <MemberSignature Language="F#" Value="OutOfficeNote = 23" Usage="Microsoft.Lync.Model.ContactInformationType.OutOfficeNote" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -689,6 +725,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.PersonalNote" />
       <MemberSignature Language="VB.NET" Value="PersonalNote" />
       <MemberSignature Language="C++ CLI" Value="PersonalNote" />
+      <MemberSignature Language="F#" Value="PersonalNote = 22" Usage="Microsoft.Lync.Model.ContactInformationType.PersonalNote" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -708,6 +745,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Photo" />
       <MemberSignature Language="VB.NET" Value="Photo" />
       <MemberSignature Language="C++ CLI" Value="Photo" />
+      <MemberSignature Language="F#" Value="Photo = 19" Usage="Microsoft.Lync.Model.ContactInformationType.Photo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -727,6 +765,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.PrimaryEmailAddress" />
       <MemberSignature Language="VB.NET" Value="PrimaryEmailAddress" />
       <MemberSignature Language="C++ CLI" Value="PrimaryEmailAddress" />
+      <MemberSignature Language="F#" Value="PrimaryEmailAddress = 12" Usage="Microsoft.Lync.Model.ContactInformationType.PrimaryEmailAddress" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -746,6 +785,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 11" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -765,6 +805,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved10" />
       <MemberSignature Language="VB.NET" Value="Reserved10" />
       <MemberSignature Language="C++ CLI" Value="Reserved10" />
+      <MemberSignature Language="F#" Value="Reserved10 = 43" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved10" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -784,6 +825,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved11" />
       <MemberSignature Language="VB.NET" Value="Reserved11" />
       <MemberSignature Language="C++ CLI" Value="Reserved11" />
+      <MemberSignature Language="F#" Value="Reserved11 = 52" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved11" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -803,6 +845,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved12" />
       <MemberSignature Language="VB.NET" Value="Reserved12" />
       <MemberSignature Language="C++ CLI" Value="Reserved12" />
+      <MemberSignature Language="F#" Value="Reserved12 = 53" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved12" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -822,6 +865,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved13" />
       <MemberSignature Language="VB.NET" Value="Reserved13" />
       <MemberSignature Language="C++ CLI" Value="Reserved13" />
+      <MemberSignature Language="F#" Value="Reserved13 = 54" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved13" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -841,6 +885,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved14" />
       <MemberSignature Language="VB.NET" Value="Reserved14" />
       <MemberSignature Language="C++ CLI" Value="Reserved14" />
+      <MemberSignature Language="F#" Value="Reserved14 = 55" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved14" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -860,6 +905,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved15" />
       <MemberSignature Language="VB.NET" Value="Reserved15" />
       <MemberSignature Language="C++ CLI" Value="Reserved15" />
+      <MemberSignature Language="F#" Value="Reserved15 = 56" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved15" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -879,6 +925,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 28" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -898,6 +945,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved3" />
       <MemberSignature Language="VB.NET" Value="Reserved3" />
       <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberSignature Language="F#" Value="Reserved3 = 29" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved3" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -917,6 +965,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved4" />
       <MemberSignature Language="VB.NET" Value="Reserved4" />
       <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberSignature Language="F#" Value="Reserved4 = 31" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved4" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -936,6 +985,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved5" />
       <MemberSignature Language="VB.NET" Value="Reserved5" />
       <MemberSignature Language="C++ CLI" Value="Reserved5" />
+      <MemberSignature Language="F#" Value="Reserved5 = 36" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved5" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -955,6 +1005,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved6" />
       <MemberSignature Language="VB.NET" Value="Reserved6" />
       <MemberSignature Language="C++ CLI" Value="Reserved6" />
+      <MemberSignature Language="F#" Value="Reserved6 = 39" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved6" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -974,6 +1025,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved7" />
       <MemberSignature Language="VB.NET" Value="Reserved7" />
       <MemberSignature Language="C++ CLI" Value="Reserved7" />
+      <MemberSignature Language="F#" Value="Reserved7 = 40" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved7" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -993,6 +1045,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved8" />
       <MemberSignature Language="VB.NET" Value="Reserved8" />
       <MemberSignature Language="C++ CLI" Value="Reserved8" />
+      <MemberSignature Language="F#" Value="Reserved8 = 41" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved8" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -1012,6 +1065,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Reserved9" />
       <MemberSignature Language="VB.NET" Value="Reserved9" />
       <MemberSignature Language="C++ CLI" Value="Reserved9" />
+      <MemberSignature Language="F#" Value="Reserved9 = 42" Usage="Microsoft.Lync.Model.ContactInformationType.Reserved9" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -1031,6 +1085,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.SourceNetwork" />
       <MemberSignature Language="VB.NET" Value="SourceNetwork" />
       <MemberSignature Language="C++ CLI" Value="SourceNetwork" />
+      <MemberSignature Language="F#" Value="SourceNetwork = 24" Usage="Microsoft.Lync.Model.ContactInformationType.SourceNetwork" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -1050,6 +1105,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.TimeZone" />
       <MemberSignature Language="VB.NET" Value="TimeZone" />
       <MemberSignature Language="C++ CLI" Value="TimeZone" />
+      <MemberSignature Language="F#" Value="TimeZone = 3" Usage="Microsoft.Lync.Model.ContactInformationType.TimeZone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -1069,6 +1125,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.TimeZoneBias" />
       <MemberSignature Language="VB.NET" Value="TimeZoneBias" />
       <MemberSignature Language="C++ CLI" Value="TimeZoneBias" />
+      <MemberSignature Language="F#" Value="TimeZoneBias = 4" Usage="Microsoft.Lync.Model.ContactInformationType.TimeZoneBias" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -1089,6 +1146,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactInformationType.Title" />
       <MemberSignature Language="VB.NET" Value="Title" />
       <MemberSignature Language="C++ CLI" Value="Title" />
+      <MemberSignature Language="F#" Value="Title = 14" Usage="Microsoft.Lync.Model.ContactInformationType.Title" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

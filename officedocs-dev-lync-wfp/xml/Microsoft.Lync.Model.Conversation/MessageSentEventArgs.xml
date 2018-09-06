@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.MessageSentEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class MessageSentEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class MessageSentEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type MessageSentEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.MessageSentEventArgs.Contents" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contents As IDictionary(Of InstantMessageContentType, String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::InstantMessageContentType, System::String ^&gt; ^ Contents { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::InstantMessageContentType, System::String ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Contents : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.InstantMessageContentType, string&gt;" Usage="Microsoft.Lync.Model.Conversation.MessageSentEventArgs.Contents" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -47,6 +49,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.MessageSentEventArgs.Text" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Text As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Text : string" Usage="Microsoft.Lync.Model.Conversation.MessageSentEventArgs.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

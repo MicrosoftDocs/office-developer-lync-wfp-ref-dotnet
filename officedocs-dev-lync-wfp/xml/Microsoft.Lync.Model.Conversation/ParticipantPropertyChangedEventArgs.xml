@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ParticipantPropertyChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ParticipantPropertyChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ParticipantPropertyChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ParticipantPropertyChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ParticipantPropertyChangedEventArgs.Property" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Property As ParticipantProperty" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ParticipantProperty Property { Microsoft::Lync::Model::Conversation::ParticipantProperty get(); };" />
+      <MemberSignature Language="F#" Value="member this.Property : Microsoft.Lync.Model.Conversation.ParticipantProperty" Usage="Microsoft.Lync.Model.Conversation.ParticipantPropertyChangedEventArgs.Property" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ParticipantPropertyChangedEventArgs.Value" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Value : obj" Usage="Microsoft.Lync.Model.Conversation.ParticipantPropertyChangedEventArgs.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactSetting" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactSetting" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContactSetting" />
+  <TypeSignature Language="F#" Value="type ContactSetting = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSetting.AccessLevel" />
       <MemberSignature Language="VB.NET" Value="AccessLevel" />
       <MemberSignature Language="C++ CLI" Value="AccessLevel" />
+      <MemberSignature Language="F#" Value="AccessLevel = 805306369" Usage="Microsoft.Lync.Model.ContactSetting.AccessLevel" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSetting.DefaultContactEndpoint" />
       <MemberSignature Language="VB.NET" Value="DefaultContactEndpoint" />
       <MemberSignature Language="C++ CLI" Value="DefaultContactEndpoint" />
+      <MemberSignature Language="F#" Value="DefaultContactEndpoint = 1073741828" Usage="Microsoft.Lync.Model.ContactSetting.DefaultContactEndpoint" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSetting.ExchangeServiceEntryId" />
       <MemberSignature Language="VB.NET" Value="ExchangeServiceEntryId" />
       <MemberSignature Language="C++ CLI" Value="ExchangeServiceEntryId" />
+      <MemberSignature Language="F#" Value="ExchangeServiceEntryId = 2" Usage="Microsoft.Lync.Model.ContactSetting.ExchangeServiceEntryId" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSetting.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ContactSetting.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSetting.Source" />
       <MemberSignature Language="VB.NET" Value="Source" />
       <MemberSignature Language="C++ CLI" Value="Source" />
+      <MemberSignature Language="F#" Value="Source = 805306371" Usage="Microsoft.Lync.Model.ContactSetting.Source" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactSetting.Tagged" />
       <MemberSignature Language="VB.NET" Value="Tagged" />
       <MemberSignature Language="C++ CLI" Value="Tagged" />
+      <MemberSignature Language="F#" Value="Tagged = 268435456" Usage="Microsoft.Lync.Model.ContactSetting.Tagged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
