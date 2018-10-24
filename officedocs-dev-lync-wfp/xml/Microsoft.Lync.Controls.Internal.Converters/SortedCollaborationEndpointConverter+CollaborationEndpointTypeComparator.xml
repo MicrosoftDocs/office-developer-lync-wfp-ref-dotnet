@@ -47,9 +47,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int Compare(Microsoft::Lync::Controls::Internal::Model::ICollaborationEndpointModel ^ cem1, Microsoft::Lync::Controls::Internal::Model::ICollaborationEndpointModel ^ cem2);" />
       <MemberSignature Language="F#" Value="abstract member Compare : Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel * Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel -&gt; int&#xA;override this.Compare : Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel * Microsoft.Lync.Controls.Internal.Model.ICollaborationEndpointModel -&gt; int" Usage="collaborationEndpointTypeComparator.Compare (cem1, cem2)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IComparer`1.Compare(`0,`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>

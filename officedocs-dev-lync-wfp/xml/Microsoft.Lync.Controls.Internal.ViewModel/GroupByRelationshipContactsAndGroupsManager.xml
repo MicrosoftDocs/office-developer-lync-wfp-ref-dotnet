@@ -1,9 +1,9 @@
 ﻿<Type Name="GroupByRelationshipContactsAndGroupsManager" FullName="Microsoft.Lync.Controls.Internal.ViewModel.GroupByRelationshipContactsAndGroupsManager">
-  <TypeSignature Language="C#" Value="public class GroupByRelationshipContactsAndGroupsManager : Microsoft.Lync.Controls.Internal.ViewModel.GroupByContactsAndGroupsManagerBase&lt;Microsoft.Lync.Controls.Internal.Model.ContactAccessLevel&gt;, IDisposable" />
+  <TypeSignature Language="C#" Value="public class GroupByRelationshipContactsAndGroupsManager : Microsoft.Lync.Controls.Internal.ViewModel.GroupByContactsAndGroupsManagerBase&lt;Microsoft.Lync.Controls.Internal.Model.ContactAccessLevel&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GroupByRelationshipContactsAndGroupsManager extends Microsoft.Lync.Controls.Internal.ViewModel.GroupByContactsAndGroupsManagerBase`1&lt;valuetype Microsoft.Lync.Controls.Internal.Model.ContactAccessLevel&gt; implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.GroupByRelationshipContactsAndGroupsManager" />
-  <TypeSignature Language="VB.NET" Value="Public Class GroupByRelationshipContactsAndGroupsManager&#xA;Inherits GroupByContactsAndGroupsManagerBase(Of ContactAccessLevel)&#xA;Implements IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GroupByRelationshipContactsAndGroupsManager : Microsoft::Lync::Controls::Internal::ViewModel::GroupByContactsAndGroupsManagerBase&lt;Microsoft::Lync::Controls::Internal::Model::ContactAccessLevel&gt;, IDisposable" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupByRelationshipContactsAndGroupsManager&#xA;Inherits GroupByContactsAndGroupsManagerBase(Of ContactAccessLevel)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupByRelationshipContactsAndGroupsManager : Microsoft::Lync::Controls::Internal::ViewModel::GroupByContactsAndGroupsManagerBase&lt;Microsoft::Lync::Controls::Internal::Model::ContactAccessLevel&gt;" />
   <TypeSignature Language="F#" Value="type GroupByRelationshipContactsAndGroupsManager = class&#xA;    inherit GroupByContactsAndGroupsManagerBase&lt;ContactAccessLevel&gt;&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

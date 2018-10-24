@@ -1,9 +1,9 @@
 ﻿<Type Name="ContactEndpointCollection" FullName="Microsoft.Lync.Model.ContactEndpointCollection">
-  <TypeSignature Language="C#" Value="public class ContactEndpointCollection : Microsoft.Lync.Model.Internal.UCWLite, System.Collections.Generic.ICollection&lt;Microsoft.Lync.Model.ContactEndpoint&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.ContactEndpoint&gt;, System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactEndpoint&gt;" />
+  <TypeSignature Language="C#" Value="public class ContactEndpointCollection : Microsoft.Lync.Model.Internal.UCWLite, System.Collections.Generic.ICollection&lt;Microsoft.Lync.Model.ContactEndpoint&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.ContactEndpoint&gt;, System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactEndpoint&gt;, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactEndpointCollection extends Microsoft.Lync.Model.Internal.UCWLite implements class System.Collections.Generic.ICollection`1&lt;class Microsoft.Lync.Model.ContactEndpoint&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Model.ContactEndpoint&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.ContactEndpoint&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactEndpointCollection" />
-  <TypeSignature Language="VB.NET" Value="Public Class ContactEndpointCollection&#xA;Inherits UCWLite&#xA;Implements ICollection(Of ContactEndpoint), IEnumerable(Of ContactEndpoint), IList(Of ContactEndpoint)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ContactEndpointCollection : Microsoft::Lync::Model::Internal::UCWLite, System::Collections::Generic::ICollection&lt;Microsoft::Lync::Model::ContactEndpoint ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::ContactEndpoint ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactEndpoint ^&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactEndpointCollection&#xA;Inherits UCWLite&#xA;Implements ICollection(Of ContactEndpoint), IEnumerable, IEnumerable(Of ContactEndpoint), IList(Of ContactEndpoint)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactEndpointCollection : Microsoft::Lync::Model::Internal::UCWLite, System::Collections::Generic::ICollection&lt;Microsoft::Lync::Model::ContactEndpoint ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::ContactEndpoint ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactEndpoint ^&gt;, System::Collections::IEnumerable" />
   <TypeSignature Language="F#" Value="type ContactEndpointCollection = class&#xA;    inherit UCWLite&#xA;    interface IList&lt;ContactEndpoint&gt;&#xA;    interface ICollection&lt;ContactEndpoint&gt;&#xA;    interface seq&lt;ContactEndpoint&gt;&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -22,6 +22,9 @@
     <Interface>
       <InterfaceName>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactEndpoint&gt;</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
   </Interfaces>
   <Docs>
     <summary>Represents a collection of endpoint identifiers available to a signed in user.</summary>
@@ -36,9 +39,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Add(Microsoft::Lync::Model::ContactEndpoint ^ endpoint);" />
       <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Lync.Model.ContactEndpoint -&gt; unit&#xA;override this.Add : Microsoft.Lync.Model.ContactEndpoint -&gt; unit" Usage="contactEndpointCollection.Add endpoint" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Add(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -89,9 +89,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="contactEndpointCollection.Clear " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -113,9 +110,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Contains(Microsoft::Lync::Model::ContactEndpoint ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Contains : Microsoft.Lync.Model.ContactEndpoint -&gt; bool&#xA;override this.Contains : Microsoft.Lync.Model.ContactEndpoint -&gt; bool" Usage="contactEndpointCollection.Contains item" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Contains(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -188,9 +182,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Lync::Model::ContactEndpoint ^&gt; ^ GetEnumerator();" />
       <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;Microsoft.Lync.Model.ContactEndpoint&gt;&#xA;override this.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;Microsoft.Lync.Model.ContactEndpoint&gt;" Usage="contactEndpointCollection.GetEnumerator " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -212,9 +203,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int IndexOf(Microsoft::Lync::Model::ContactEndpoint ^ contactEndpoint);" />
       <MemberSignature Language="F#" Value="abstract member IndexOf : Microsoft.Lync.Model.ContactEndpoint -&gt; int&#xA;override this.IndexOf : Microsoft.Lync.Model.ContactEndpoint -&gt; int" Usage="contactEndpointCollection.IndexOf contactEndpoint" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.IndexOf(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -240,9 +228,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Insert(int index, Microsoft::Lync::Model::ContactEndpoint ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Insert : int * Microsoft.Lync.Model.ContactEndpoint -&gt; unit&#xA;override this.Insert : int * Microsoft.Lync.Model.ContactEndpoint -&gt; unit" Usage="contactEndpointCollection.Insert (index, item)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.Insert(System.Int32,`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -269,9 +254,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Microsoft.Lync.Model.ContactEndpointCollection.IsReadOnly" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.Generic.ICollection`1.IsReadOnly</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -293,9 +275,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactEndpoint ^ default[int] { Microsoft::Lync::Model::ContactEndpoint ^ get(int _index); void set(int _index, Microsoft::Lync::Model::ContactEndpoint ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Lync.Model.ContactEndpoint with get, set" Usage="Microsoft.Lync.Model.ContactEndpointCollection.Item" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.Generic.IList`1.Item(System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -323,9 +302,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Remove(Microsoft::Lync::Model::ContactEndpoint ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Remove : Microsoft.Lync.Model.ContactEndpoint -&gt; bool&#xA;override this.Remove : Microsoft.Lync.Model.ContactEndpoint -&gt; bool" Usage="contactEndpointCollection.Remove item" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Remove(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -351,9 +327,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveAt(int index);" />
       <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="contactEndpointCollection.RemoveAt index" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -377,9 +350,6 @@
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>

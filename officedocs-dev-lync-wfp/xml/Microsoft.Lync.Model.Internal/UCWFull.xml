@@ -41,7 +41,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.UCWFull.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!UCWFull ()" />
-      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="uCWFull.Finalize " />
+      <MemberSignature Language="F#" Value="abstract member Finalize : unit -&gt; unit&#xA;override this.Finalize : unit -&gt; unit" Usage="uCWFull.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -5,7 +5,7 @@
         <Attribute>
           <AttributeName>System.CLSCompliant(false)</AttributeName>
         </Attribute>
-        <Attribute>
+        <Attribute FrameworkAlternate="lync-silverlight">
           <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
         </Attribute>
         <Attribute>
@@ -44,9 +44,6 @@
         <Attribute FrameworkAlternate="lync-wfp">
           <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.0", FrameworkDisplayName=".NET Framework 4")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="lync-wfp">
-          <AttributeName>System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)</AttributeName>
-        </Attribute>
         <Attribute>
           <AttributeName>System.Windows.Markup.XmlnsDefinition("clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls", "Microsoft.Lync.Controls")</AttributeName>
         </Attribute>
@@ -65,6 +62,12 @@
         <Attribute FrameworkAlternate="lync-silverlight">
           <AttributeName>System.Runtime.Versioning.TargetFramework("Silverlight,Version=v4.0", FrameworkDisplayName="Silverlight 4")</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="lync-wfp">
+          <AttributeName>System.Diagnostics.Debuggable</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="lync-wfp">
+          <AttributeName>System.Security.SecurityRules</AttributeName>
+        </Attribute>
       </Attributes>
     </Assembly>
     <Assembly Name="Microsoft.Lync.Model" Version="15.0.0.0">
@@ -72,9 +75,6 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.CLSCompliant(false)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
@@ -110,9 +110,14 @@
           <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)</AttributeName>
+          <AttributeName>System.Diagnostics.Debuggable</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Security.SecurityRules</AttributeName>
         </Attribute>
       </Attributes>
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 af d4 a0 e7 72 41 51 d5 dd 52 cb 23 a3 0d ed 7c 00 91 cc 01 cf e9 4b 2b cd 85 b3 f4 ee e3 c4 d8 f6 41 7b ff 76 37 63 a9 96 d6 b2 df c1 e7 c2 9b cf b8 29 97 79 df 87 85 cd e2 c1 68 ce ee 48 0e 57 07 25 f2 46 8e 78 2a 9c 24 01 30 2c f6 dc 17 e1 19 11 8e d2 01 19 37 ba e9 69 83 57 ad 21 e8 b6 df b4 04 75 d1 6e 87 eb 03 c7 44 a5 d3 28 99 a0 db c5 96 a6 b2 cf a1 e5 09 be 5f bd 09 fa cf ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 af d4 a0 e7 72 41 51 d5 dd 52 cb 23 a3 0d ed 7c 00 91 cc 01 cf e9 4b 2b cd 85 b3 f4 ee e3 c4 d8 f6 41 7b ff 76 37 63 a9 96 d6 b2 df c1 e7 c2 9b cf b8 29 97 79 df 87 85 cd e2 c1 68 ce ee 48 0e 57 07 25 f2 46 8e 78 2a 9c 24 01 30 2c f6 dc 17 e1 19 11 8e d2 01 19 37 ba e9 69 83 57 ad 21 e8 b6 df b4 04 75 d1 6e 87 eb 03 c7 44 a5 d3 28 99 a0 db c5 96 a6 b2 cf a1 e5 09 be 5f bd 09 fa cf ]</AssemblyPublicKey>
       <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 af d4 a0 e7 72 41 51 d5 dd 52 cb 23 a3 0d ed 7c 00 91 cc 01 cf e9 4b 2b cd 85 b3 f4 ee e3 c4 d8 f6 41 7b ff 76 37 63 a9 96 d6 b2 df c1 e7 c2 9b cf b8 29 97 79 df 87 85 cd e2 c1 68 ce ee 48 0e 57 07 25 f2 46 8e 78 2a 9c 24 01 30 2c f6 dc 17 e1 19 11 8e d2 01 19 37 ba e9 69 83 57 ad 21 e8 b6 df b4 04 75 d1 6e 87 eb 03 c7 44 a5 d3 28 99 a0 db c5 96 a6 b2 cf a1 e5 09 be 5f bd 09 fa cf ]</AssemblyPublicKey>
       <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 af d4 a0 e7 72 41 51 d5 dd 52 cb 23 a3 0d ed 7c 00 91 cc 01 cf e9 4b 2b cd 85 b3 f4 ee e3 c4 d8 f6 41 7b ff 76 37 63 a9 96 d6 b2 df c1 e7 c2 9b cf b8 29 97 79 df 87 85 cd e2 c1 68 ce ee 48 0e 57 07 25 f2 46 8e 78 2a 9c 24 01 30 2c f6 dc 17 e1 19 11 8e d2 01 19 37 ba e9 69 83 57 ad 21 e8 b6 df b4 04 75 d1 6e 87 eb 03 c7 44 a5 d3 28 99 a0 db c5 96 a6 b2 cf a1 e5 09 be 5f bd 09 fa cf ]</AssemblyPublicKey>
       <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 af d4 a0 e7 72 41 51 d5 dd 52 cb 23 a3 0d ed 7c 00 91 cc 01 cf e9 4b 2b cd 85 b3 f4 ee e3 c4 d8 f6 41 7b ff 76 37 63 a9 96 d6 b2 df c1 e7 c2 9b cf b8 29 97 79 df 87 85 cd e2 c1 68 ce ee 48 0e 57 07 25 f2 46 8e 78 2a 9c 24 01 30 2c f6 dc 17 e1 19 11 8e d2 01 19 37 ba e9 69 83 57 ad 21 e8 b6 df b4 04 75 d1 6e 87 eb 03 c7 44 a5 d3 28 99 a0 db c5 96 a6 b2 cf a1 e5 09 be 5f bd 09 fa cf ]</AssemblyPublicKey>

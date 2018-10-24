@@ -1,9 +1,9 @@
 ﻿<Type Name="DeviceCollection" FullName="Microsoft.Lync.Model.Internal.DeviceCollection">
-  <TypeSignature Language="C#" Value="public class DeviceCollection : Microsoft.Lync.Model.Internal.UCWLite, System.Collections.Generic.ICollection&lt;Microsoft.Lync.Model.Device.Device&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Device.Device&gt;, System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt;" />
+  <TypeSignature Language="C#" Value="public class DeviceCollection : Microsoft.Lync.Model.Internal.UCWLite, System.Collections.Generic.ICollection&lt;Microsoft.Lync.Model.Device.Device&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Device.Device&gt;, System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt;, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeviceCollection extends Microsoft.Lync.Model.Internal.UCWLite implements class System.Collections.Generic.ICollection`1&lt;class Microsoft.Lync.Model.Device.Device&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Model.Device.Device&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Device.Device&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.DeviceCollection" />
-  <TypeSignature Language="VB.NET" Value="Public Class DeviceCollection&#xA;Inherits UCWLite&#xA;Implements ICollection(Of Device), IEnumerable(Of Device), IList(Of Device)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DeviceCollection : Microsoft::Lync::Model::Internal::UCWLite, System::Collections::Generic::ICollection&lt;Microsoft::Lync::Model::Device::Device ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Device::Device ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeviceCollection&#xA;Inherits UCWLite&#xA;Implements ICollection(Of Device), IEnumerable, IEnumerable(Of Device), IList(Of Device)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeviceCollection : Microsoft::Lync::Model::Internal::UCWLite, System::Collections::Generic::ICollection&lt;Microsoft::Lync::Model::Device::Device ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Device::Device ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt;, System::Collections::IEnumerable" />
   <TypeSignature Language="F#" Value="type DeviceCollection = class&#xA;    inherit UCWLite&#xA;    interface IList&lt;Device&gt;&#xA;    interface ICollection&lt;Device&gt;&#xA;    interface seq&lt;Device&gt;&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -22,6 +22,9 @@
     <Interface>
       <InterfaceName>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt;</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
   </Interfaces>
   <Docs>
     <summary>To be added.</summary>
@@ -36,9 +39,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Add(Microsoft::Lync::Model::Device::Device ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Lync.Model.Device.Device -&gt; unit&#xA;override this.Add : Microsoft.Lync.Model.Device.Device -&gt; unit" Usage="deviceCollection.Add item" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Add(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -63,9 +63,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="deviceCollection.Clear " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -87,9 +84,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Contains(Microsoft::Lync::Model::Device::Device ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Contains : Microsoft.Lync.Model.Device.Device -&gt; bool&#xA;override this.Contains : Microsoft.Lync.Model.Device.Device -&gt; bool" Usage="deviceCollection.Contains item" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Contains(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -162,9 +156,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ GetEnumerator();" />
       <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;Microsoft.Lync.Model.Device.Device&gt;&#xA;override this.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;Microsoft.Lync.Model.Device.Device&gt;" Usage="deviceCollection.GetEnumerator " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -186,9 +177,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int IndexOf(Microsoft::Lync::Model::Device::Device ^ device);" />
       <MemberSignature Language="F#" Value="abstract member IndexOf : Microsoft.Lync.Model.Device.Device -&gt; int&#xA;override this.IndexOf : Microsoft.Lync.Model.Device.Device -&gt; int" Usage="deviceCollection.IndexOf device" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.IndexOf(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -214,9 +202,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Insert(int index, Microsoft::Lync::Model::Device::Device ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Insert : int * Microsoft.Lync.Model.Device.Device -&gt; unit&#xA;override this.Insert : int * Microsoft.Lync.Model.Device.Device -&gt; unit" Usage="deviceCollection.Insert (index, item)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.Insert(System.Int32,`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -243,9 +228,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Microsoft.Lync.Model.Internal.DeviceCollection.IsReadOnly" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.Generic.ICollection`1.IsReadOnly</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -267,9 +249,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Device::Device ^ default[int] { Microsoft::Lync::Model::Device::Device ^ get(int _index); void set(int _index, Microsoft::Lync::Model::Device::Device ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Lync.Model.Device.Device with get, set" Usage="Microsoft.Lync.Model.Internal.DeviceCollection.Item" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.Generic.IList`1.Item(System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -295,9 +274,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Remove(Microsoft::Lync::Model::Device::Device ^ item);" />
       <MemberSignature Language="F#" Value="abstract member Remove : Microsoft.Lync.Model.Device.Device -&gt; bool&#xA;override this.Remove : Microsoft.Lync.Model.Device.Device -&gt; bool" Usage="deviceCollection.Remove item" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Remove(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -323,9 +299,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveAt(int index);" />
       <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="deviceCollection.RemoveAt index" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -349,9 +322,6 @@
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
