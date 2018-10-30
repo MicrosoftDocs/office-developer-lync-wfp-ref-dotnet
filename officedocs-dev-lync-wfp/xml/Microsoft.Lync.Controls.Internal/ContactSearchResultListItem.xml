@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactSearchResultListItem&#xA;Inherits UCListBoxItem" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchResultListItem : Microsoft::Lync::Controls::UCListBoxItem" />
+  <TypeSignature Language="F#" Value="type ContactSearchResultListItem = class&#xA;    inherit UCListBoxItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -45,6 +46,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HandlePartContactItemOnItemTemplated(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub HandlePartContactItemOnItemTemplated (sender As Object, e As EventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void HandlePartContactItemOnItemTemplated(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.HandlePartContactItemOnItemTemplated : obj * EventArgs -&gt; unit" Usage="contactSearchResultListItem.HandlePartContactItemOnItemTemplated (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -70,6 +72,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HighlightRunCollection" />
       <MemberSignature Language="VB.NET" Value="Public Property HighlightRunCollection As List(Of Run)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;System::Windows::Documents::Run ^&gt; ^ HighlightRunCollection { System::Collections::Generic::List&lt;System::Windows::Documents::Run ^&gt; ^ get(); void set(System::Collections::Generic::List&lt;System::Windows::Documents::Run ^&gt; ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.HighlightRunCollection : System.Collections.Generic.List&lt;System.Windows.Documents.Run&gt; with get, set" Usage="Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HighlightRunCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HighlightRunCollectionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HighlightRunCollectionProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HighlightRunCollectionProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable HighlightRunCollectionProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HighlightRunCollectionProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -109,6 +113,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HitHighlightSummary" />
       <MemberSignature Language="VB.NET" Value="Public Property HitHighlightSummary As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HitHighlightSummary { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.HitHighlightSummary : string with get, set" Usage="Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HitHighlightSummary" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -129,6 +134,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HitHighlightSummaryProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HitHighlightSummaryProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HitHighlightSummaryProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable HitHighlightSummaryProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.ContactSearchResultListItem.HitHighlightSummaryProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

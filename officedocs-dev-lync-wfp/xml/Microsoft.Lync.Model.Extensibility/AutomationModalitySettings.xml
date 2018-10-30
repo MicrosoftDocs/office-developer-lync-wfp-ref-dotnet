@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings" />
   <TypeSignature Language="VB.NET" Value="Public Enum AutomationModalitySettings" />
   <TypeSignature Language="C++ CLI" Value="public enum class AutomationModalitySettings" />
+  <TypeSignature Language="F#" Value="type AutomationModalitySettings = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ApplicationData" />
       <MemberSignature Language="VB.NET" Value="ApplicationData" />
       <MemberSignature Language="C++ CLI" Value="ApplicationData" />
+      <MemberSignature Language="F#" Value="ApplicationData = 16" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ApplicationData" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ApplicationId" />
       <MemberSignature Language="VB.NET" Value="ApplicationId" />
       <MemberSignature Language="C++ CLI" Value="ApplicationId" />
+      <MemberSignature Language="F#" Value="ApplicationId = 15" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ApplicationId" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.DataObjectForFileTransfer" />
       <MemberSignature Language="VB.NET" Value="DataObjectForFileTransfer" />
       <MemberSignature Language="C++ CLI" Value="DataObjectForFileTransfer" />
+      <MemberSignature Language="F#" Value="DataObjectForFileTransfer = 14" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.DataObjectForFileTransfer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FileHistoryLink" />
       <MemberSignature Language="VB.NET" Value="FileHistoryLink" />
       <MemberSignature Language="C++ CLI" Value="FileHistoryLink" />
+      <MemberSignature Language="F#" Value="FileHistoryLink = 8" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FileHistoryLink" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FileIsShared" />
       <MemberSignature Language="VB.NET" Value="FileIsShared" />
       <MemberSignature Language="C++ CLI" Value="FileIsShared" />
+      <MemberSignature Language="F#" Value="FileIsShared = 5" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FileIsShared" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -122,6 +128,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FilePathToTransfer" />
       <MemberSignature Language="VB.NET" Value="FilePathToTransfer" />
       <MemberSignature Language="C++ CLI" Value="FilePathToTransfer" />
+      <MemberSignature Language="F#" Value="FilePathToTransfer = 4" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FilePathToTransfer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -141,6 +148,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FirstInstantMessage" />
       <MemberSignature Language="VB.NET" Value="FirstInstantMessage" />
       <MemberSignature Language="C++ CLI" Value="FirstInstantMessage" />
+      <MemberSignature Language="F#" Value="FirstInstantMessage = 6" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.FirstInstantMessage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -160,6 +168,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.HyperLink" />
       <MemberSignature Language="VB.NET" Value="HyperLink" />
       <MemberSignature Language="C++ CLI" Value="HyperLink" />
+      <MemberSignature Language="F#" Value="HyperLink = 17" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.HyperLink" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -179,6 +188,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -198,6 +208,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.OutlookEntryId" />
       <MemberSignature Language="VB.NET" Value="OutlookEntryId" />
       <MemberSignature Language="C++ CLI" Value="OutlookEntryId" />
+      <MemberSignature Language="F#" Value="OutlookEntryId = 3" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.OutlookEntryId" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -217,6 +228,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ParentWindow" />
       <MemberSignature Language="VB.NET" Value="ParentWindow" />
       <MemberSignature Language="C++ CLI" Value="ParentWindow" />
+      <MemberSignature Language="F#" Value="ParentWindow = 18" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.ParentWindow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -236,6 +248,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.PreviousConversation" />
       <MemberSignature Language="VB.NET" Value="PreviousConversation" />
       <MemberSignature Language="C++ CLI" Value="PreviousConversation" />
+      <MemberSignature Language="F#" Value="PreviousConversation = 2" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.PreviousConversation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -255,6 +268,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 19" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -274,6 +288,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 20" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -293,6 +308,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SendFirstInstantMessageImmediately" />
       <MemberSignature Language="VB.NET" Value="SendFirstInstantMessageImmediately" />
       <MemberSignature Language="C++ CLI" Value="SendFirstInstantMessageImmediately" />
+      <MemberSignature Language="F#" Value="SendFirstInstantMessageImmediately = 7" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SendFirstInstantMessageImmediately" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -312,6 +328,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedDesktop" />
       <MemberSignature Language="VB.NET" Value="SharedDesktop" />
       <MemberSignature Language="C++ CLI" Value="SharedDesktop" />
+      <MemberSignature Language="F#" Value="SharedDesktop = 12" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedDesktop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -331,6 +348,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedMonitor" />
       <MemberSignature Language="VB.NET" Value="SharedMonitor" />
       <MemberSignature Language="C++ CLI" Value="SharedMonitor" />
+      <MemberSignature Language="F#" Value="SharedMonitor = 13" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedMonitor" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -350,6 +368,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedProcess" />
       <MemberSignature Language="VB.NET" Value="SharedProcess" />
       <MemberSignature Language="C++ CLI" Value="SharedProcess" />
+      <MemberSignature Language="F#" Value="SharedProcess = 10" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedProcess" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -369,6 +388,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedWindow" />
       <MemberSignature Language="VB.NET" Value="SharedWindow" />
       <MemberSignature Language="C++ CLI" Value="SharedWindow" />
+      <MemberSignature Language="F#" Value="SharedWindow = 11" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.SharedWindow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -388,6 +408,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.StartConferenceByCallingMeAt" />
       <MemberSignature Language="VB.NET" Value="StartConferenceByCallingMeAt" />
       <MemberSignature Language="C++ CLI" Value="StartConferenceByCallingMeAt" />
+      <MemberSignature Language="F#" Value="StartConferenceByCallingMeAt = 9" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.StartConferenceByCallingMeAt" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -407,6 +428,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Subject" />
       <MemberSignature Language="VB.NET" Value="Subject" />
       <MemberSignature Language="C++ CLI" Value="Subject" />
+      <MemberSignature Language="F#" Value="Subject = 1" Usage="Microsoft.Lync.Model.Extensibility.AutomationModalitySettings.Subject" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

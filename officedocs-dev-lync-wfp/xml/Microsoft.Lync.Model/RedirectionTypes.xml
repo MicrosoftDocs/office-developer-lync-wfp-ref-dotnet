@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.RedirectionTypes" />
   <TypeSignature Language="VB.NET" Value="Public Enum RedirectionTypes" />
   <TypeSignature Language="C++ CLI" Value="public enum class RedirectionTypes" />
+  <TypeSignature Language="F#" Value="type RedirectionTypes = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.ForwardToContact" />
       <MemberSignature Language="VB.NET" Value="ForwardToContact" />
       <MemberSignature Language="C++ CLI" Value="ForwardToContact" />
+      <MemberSignature Language="F#" Value="ForwardToContact = 8" Usage="Microsoft.Lync.Model.RedirectionTypes.ForwardToContact" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.ForwardToVoiceMail" />
       <MemberSignature Language="VB.NET" Value="ForwardToVoiceMail" />
       <MemberSignature Language="C++ CLI" Value="ForwardToVoiceMail" />
+      <MemberSignature Language="F#" Value="ForwardToVoiceMail = 4" Usage="Microsoft.Lync.Model.RedirectionTypes.ForwardToVoiceMail" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.RedirectionTypes.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.RedirectionTypes.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.ReplyWithAudioVideo" />
       <MemberSignature Language="VB.NET" Value="ReplyWithAudioVideo" />
       <MemberSignature Language="C++ CLI" Value="ReplyWithAudioVideo" />
+      <MemberSignature Language="F#" Value="ReplyWithAudioVideo = 2" Usage="Microsoft.Lync.Model.RedirectionTypes.ReplyWithAudioVideo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -122,6 +128,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.RedirectionTypes.ReplyWithInstantMessage" />
       <MemberSignature Language="VB.NET" Value="ReplyWithInstantMessage" />
       <MemberSignature Language="C++ CLI" Value="ReplyWithInstantMessage" />
+      <MemberSignature Language="F#" Value="ReplyWithInstantMessage = 1" Usage="Microsoft.Lync.Model.RedirectionTypes.ReplyWithInstantMessage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

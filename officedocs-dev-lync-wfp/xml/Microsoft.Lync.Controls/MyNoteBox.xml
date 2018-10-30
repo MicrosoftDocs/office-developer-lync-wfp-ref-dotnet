@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.MyNoteBox" />
   <TypeSignature Language="VB.NET" Value="Public Class MyNoteBox&#xA;Inherits SelfBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class MyNoteBox : Microsoft::Lync::Controls::SelfBase" />
+  <TypeSignature Language="F#" Value="type MyNoteBox = class&#xA;    inherit SelfBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -54,6 +55,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="myNoteBox.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -74,6 +76,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="myNoteBox.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -95,6 +98,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.OnGotFocus(System.Windows.RoutedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnGotFocus (e As RoutedEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnGotFocus(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnGotFocus : System.Windows.RoutedEventArgs -&gt; unit" Usage="myNoteBox.OnGotFocus e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -118,6 +122,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.OnIsInResiliencyModePropertyChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnIsInResiliencyModePropertyChanged (oldValue As Boolean, newValue As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnIsInResiliencyModePropertyChanged(bool oldValue, bool newValue);" />
+      <MemberSignature Language="F#" Value="override this.OnIsInResiliencyModePropertyChanged : bool * bool -&gt; unit" Usage="myNoteBox.OnIsInResiliencyModePropertyChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -143,6 +148,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.OnIsSignedPropertyChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnIsSignedPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnIsSignedPropertyChanged(bool oldValue, bool newValue);" />
+      <MemberSignature Language="F#" Value="override this.OnIsSignedPropertyChanged : bool * bool -&gt; unit" Usage="myNoteBox.OnIsSignedPropertyChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -168,6 +174,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.OnLostFocus(System.Windows.RoutedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnLostFocus (e As RoutedEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnLostFocus(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnLostFocus : System.Windows.RoutedEventArgs -&gt; unit" Usage="myNoteBox.OnLostFocus e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -191,6 +198,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.OnPresenceItemsPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IPresenceItems,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnPresenceItemsPropertyChanged (presenceItems As IPresenceItems, propertyName As String)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPresenceItemsPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems, System::String ^ propertyName);" />
+      <MemberSignature Language="F#" Value="override this.OnPresenceItemsPropertyChanged : Microsoft.Lync.Controls.Internal.Model.IPresenceItems * string -&gt; unit" Usage="myNoteBox.OnPresenceItemsPropertyChanged (presenceItems, propertyName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -216,6 +224,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyNoteBox.PersonalNote" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PersonalNote As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PersonalNote { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PersonalNote : string" Usage="Microsoft.Lync.Controls.MyNoteBox.PersonalNote" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -236,6 +245,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyNoteBox.PersonalNoteProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PersonalNoteProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PersonalNoteProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PersonalNoteProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.MyNoteBox.PersonalNoteProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -255,6 +265,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.UnwirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwirePresenceItems (presenceItems As IPresenceItems)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberSignature Language="F#" Value="override this.UnwirePresenceItems : Microsoft.Lync.Controls.Internal.Model.IPresenceItems -&gt; unit" Usage="myNoteBox.UnwirePresenceItems presenceItems" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -278,6 +289,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyNoteBox.WirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WirePresenceItems (presenceItems As IPresenceItems)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberSignature Language="F#" Value="override this.WirePresenceItems : Microsoft.Lync.Controls.Internal.Model.IPresenceItems -&gt; unit" Usage="myNoteBox.WirePresenceItems presenceItems" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

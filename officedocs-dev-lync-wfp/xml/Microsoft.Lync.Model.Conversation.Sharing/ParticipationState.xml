@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ParticipationState" />
   <TypeSignature Language="VB.NET" Value="Public Enum ParticipationState" />
   <TypeSignature Language="C++ CLI" Value="public enum class ParticipationState" />
+  <TypeSignature Language="F#" Value="type ParticipationState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.Controlling" />
       <MemberSignature Language="VB.NET" Value="Controlling" />
       <MemberSignature Language="C++ CLI" Value="Controlling" />
+      <MemberSignature Language="F#" Value="Controlling = 3" Usage="Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.Controlling" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.RequestingControl" />
       <MemberSignature Language="VB.NET" Value="RequestingControl" />
       <MemberSignature Language="C++ CLI" Value="RequestingControl" />
+      <MemberSignature Language="F#" Value="RequestingControl = 2" Usage="Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.RequestingControl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.Sharing" />
       <MemberSignature Language="VB.NET" Value="Sharing" />
       <MemberSignature Language="C++ CLI" Value="Sharing" />
+      <MemberSignature Language="F#" Value="Sharing = 4" Usage="Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.Sharing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.Viewing" />
       <MemberSignature Language="VB.NET" Value="Viewing" />
       <MemberSignature Language="C++ CLI" Value="Viewing" />
+      <MemberSignature Language="F#" Value="Viewing = 1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ParticipationState.Viewing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

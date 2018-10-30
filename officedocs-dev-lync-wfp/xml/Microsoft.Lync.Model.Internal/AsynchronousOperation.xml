@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.AsynchronousOperation" />
   <TypeSignature Language="VB.NET" Value="Public Class AsynchronousOperation&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class AsynchronousOperation : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type AsynchronousOperation = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Internal.AsynchronousOperation.AsyncState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsyncState As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ AsyncState { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AsyncState : obj" Usage="Microsoft.Lync.Model.Internal.AsynchronousOperation.AsyncState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Internal.AsynchronousOperation.CancelOperation" />
       <MemberSignature Language="VB.NET" Value="Public Sub CancelOperation ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CancelOperation();" />
+      <MemberSignature Language="F#" Value="member this.CancelOperation : unit -&gt; unit" Usage="asynchronousOperation.CancelOperation " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Internal.AsynchronousOperation.DiagnosticCode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DiagnosticCode As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DiagnosticCode { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.DiagnosticCode : int" Usage="Microsoft.Lync.Model.Internal.AsynchronousOperation.DiagnosticCode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Internal.AsynchronousOperation.IsCancelable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCancelable As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCancelable { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsCancelable : bool" Usage="Microsoft.Lync.Model.Internal.AsynchronousOperation.IsCancelable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Internal.AsynchronousOperation.IsCompleted" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCompleted As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCompleted { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsCompleted : bool" Usage="Microsoft.Lync.Model.Internal.AsynchronousOperation.IsCompleted" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -123,6 +129,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Internal.AsynchronousOperation.IsSucceeded" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSucceeded As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSucceeded { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsSucceeded : bool" Usage="Microsoft.Lync.Model.Internal.AsynchronousOperation.IsSucceeded" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -143,6 +150,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Internal.AsynchronousOperation.StatusCode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusCode As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StatusCode { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.StatusCode : int" Usage="Microsoft.Lync.Model.Internal.AsynchronousOperation.StatusCode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

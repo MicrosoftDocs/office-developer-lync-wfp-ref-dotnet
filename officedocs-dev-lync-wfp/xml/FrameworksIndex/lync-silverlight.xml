@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="lync-silverlight">
+  <Assemblies>
+    <Assembly Name="Microsoft.Lync.Controls" Version="15.0.0.0" />
+    <Assembly Name="Microsoft.Lync.Model" Version="15.0.0.0" />
+  </Assemblies>
   <Namespace Name="Microsoft.Lync.Controls.AutomationPeers">
     <Type Name="Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer" Id="T:Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer">
       <Member Id="M:Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactCard)" />

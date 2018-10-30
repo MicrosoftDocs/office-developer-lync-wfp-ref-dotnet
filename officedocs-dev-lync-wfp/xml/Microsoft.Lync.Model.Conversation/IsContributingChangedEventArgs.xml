@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.IsContributingChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class IsContributingChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class IsContributingChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type IsContributingChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.IsContributingChangedEventArgs.IsContributing" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsContributing As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContributing { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsContributing : bool" Usage="Microsoft.Lync.Model.Conversation.IsContributingChangedEventArgs.IsContributing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationWindowInformationType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ConversationWindowInformationType" />
+  <TypeSignature Language="F#" Value="type ConversationWindowInformationType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasContentStage" />
       <MemberSignature Language="VB.NET" Value="HasContentStage" />
       <MemberSignature Language="C++ CLI" Value="HasContentStage" />
+      <MemberSignature Language="F#" Value="HasContentStage = 269352964" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasContentStage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasExtensionPane" />
       <MemberSignature Language="VB.NET" Value="HasExtensionPane" />
       <MemberSignature Language="C++ CLI" Value="HasExtensionPane" />
+      <MemberSignature Language="F#" Value="HasExtensionPane = 269352965" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasExtensionPane" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasVideo" />
       <MemberSignature Language="VB.NET" Value="HasVideo" />
       <MemberSignature Language="C++ CLI" Value="HasVideo" />
+      <MemberSignature Language="F#" Value="HasVideo = 269352963" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HasVideo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HeightMin" />
       <MemberSignature Language="VB.NET" Value="HeightMin" />
       <MemberSignature Language="C++ CLI" Value="HeightMin" />
+      <MemberSignature Language="F#" Value="HeightMin = 537788417" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.HeightMin" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.IsDocked" />
       <MemberSignature Language="VB.NET" Value="IsDocked" />
       <MemberSignature Language="C++ CLI" Value="IsDocked" />
+      <MemberSignature Language="F#" Value="IsDocked = 269352962" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.IsDocked" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.IsFullScreen" />
       <MemberSignature Language="VB.NET" Value="IsFullScreen" />
       <MemberSignature Language="C++ CLI" Value="IsFullScreen" />
+      <MemberSignature Language="F#" Value="IsFullScreen = 269352966" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.IsFullScreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.WidthMin" />
       <MemberSignature Language="VB.NET" Value="WidthMin" />
       <MemberSignature Language="C++ CLI" Value="WidthMin" />
+      <MemberSignature Language="F#" Value="WidthMin = 537788416" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType.WidthMin" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

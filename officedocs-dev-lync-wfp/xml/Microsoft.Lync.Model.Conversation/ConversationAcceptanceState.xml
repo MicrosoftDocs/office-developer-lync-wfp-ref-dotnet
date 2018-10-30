@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationAcceptanceState" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationAcceptanceState" />
   <TypeSignature Language="C++ CLI" Value="public enum class ConversationAcceptanceState" />
+  <TypeSignature Language="F#" Value="type ConversationAcceptanceState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Accepted" />
       <MemberSignature Language="VB.NET" Value="Accepted" />
       <MemberSignature Language="C++ CLI" Value="Accepted" />
+      <MemberSignature Language="F#" Value="Accepted = 1" Usage="Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Accepted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Deflected" />
       <MemberSignature Language="VB.NET" Value="Deflected" />
       <MemberSignature Language="C++ CLI" Value="Deflected" />
+      <MemberSignature Language="F#" Value="Deflected = 4" Usage="Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Deflected" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Missed" />
       <MemberSignature Language="VB.NET" Value="Missed" />
       <MemberSignature Language="C++ CLI" Value="Missed" />
+      <MemberSignature Language="F#" Value="Missed = 3" Usage="Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Missed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Rejected" />
       <MemberSignature Language="VB.NET" Value="Rejected" />
       <MemberSignature Language="C++ CLI" Value="Rejected" />
+      <MemberSignature Language="F#" Value="Rejected = 2" Usage="Microsoft.Lync.Model.Conversation.ConversationAcceptanceState.Rejected" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

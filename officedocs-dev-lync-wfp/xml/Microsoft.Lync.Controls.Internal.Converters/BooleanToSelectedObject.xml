@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject" />
   <TypeSignature Language="VB.NET" Value="Public Class BooleanToSelectedObject&#xA;Inherits DependencyObject&#xA;Implements IValueConverter" />
   <TypeSignature Language="C++ CLI" Value="public ref class BooleanToSelectedObject : System::Windows::DependencyObject, System::Windows::Data::IValueConverter" />
+  <TypeSignature Language="F#" Value="type BooleanToSelectedObject = class&#xA;    inherit DependencyObject&#xA;    interface IValueConverter" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -44,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function Convert (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ Convert(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
+      <MemberSignature Language="F#" Value="abstract member Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="booleanToSelectedObject.Convert (value, targetType, parameter, culture)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Windows.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
@@ -77,6 +79,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertBack (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ConvertBack(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
+      <MemberSignature Language="F#" Value="abstract member ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="booleanToSelectedObject.ConvertBack (value, targetType, parameter, culture)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Windows.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
@@ -110,6 +113,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.FalseObject" />
       <MemberSignature Language="VB.NET" Value="Public Property FalseObject As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ FalseObject { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.FalseObject : obj with get, set" Usage="Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.FalseObject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -130,6 +134,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.FalseObjectProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FalseObjectProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ FalseObjectProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable FalseObjectProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.FalseObjectProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -149,6 +154,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.TrueObject" />
       <MemberSignature Language="VB.NET" Value="Public Property TrueObject As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TrueObject { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TrueObject : obj with get, set" Usage="Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.TrueObject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -169,6 +175,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.TrueObjectProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TrueObjectProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TrueObjectProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable TrueObjectProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.Converters.BooleanToSelectedObject.TrueObjectProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

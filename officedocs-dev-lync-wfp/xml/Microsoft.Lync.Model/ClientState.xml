@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ClientState" />
   <TypeSignature Language="VB.NET" Value="Public Enum ClientState" />
   <TypeSignature Language="C++ CLI" Value="public enum class ClientState" />
+  <TypeSignature Language="F#" Value="type ClientState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.Initializing" />
       <MemberSignature Language="VB.NET" Value="Initializing" />
       <MemberSignature Language="C++ CLI" Value="Initializing" />
+      <MemberSignature Language="F#" Value="Initializing = 6" Usage="Microsoft.Lync.Model.ClientState.Initializing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ClientState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.ShuttingDown" />
       <MemberSignature Language="VB.NET" Value="ShuttingDown" />
       <MemberSignature Language="C++ CLI" Value="ShuttingDown" />
+      <MemberSignature Language="F#" Value="ShuttingDown = 5" Usage="Microsoft.Lync.Model.ClientState.ShuttingDown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.SignedIn" />
       <MemberSignature Language="VB.NET" Value="SignedIn" />
       <MemberSignature Language="C++ CLI" Value="SignedIn" />
+      <MemberSignature Language="F#" Value="SignedIn = 3" Usage="Microsoft.Lync.Model.ClientState.SignedIn" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.SignedOut" />
       <MemberSignature Language="VB.NET" Value="SignedOut" />
       <MemberSignature Language="C++ CLI" Value="SignedOut" />
+      <MemberSignature Language="F#" Value="SignedOut = 1" Usage="Microsoft.Lync.Model.ClientState.SignedOut" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.SigningIn" />
       <MemberSignature Language="VB.NET" Value="SigningIn" />
       <MemberSignature Language="C++ CLI" Value="SigningIn" />
+      <MemberSignature Language="F#" Value="SigningIn = 2" Usage="Microsoft.Lync.Model.ClientState.SigningIn" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.SigningOut" />
       <MemberSignature Language="VB.NET" Value="SigningOut" />
       <MemberSignature Language="C++ CLI" Value="SigningOut" />
+      <MemberSignature Language="F#" Value="SigningOut = 4" Usage="Microsoft.Lync.Model.ClientState.SigningOut" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientState.Uninitialized" />
       <MemberSignature Language="VB.NET" Value="Uninitialized" />
       <MemberSignature Language="C++ CLI" Value="Uninitialized" />
+      <MemberSignature Language="F#" Value="Uninitialized = 0" Usage="Microsoft.Lync.Model.ClientState.Uninitialized" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

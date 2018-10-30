@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.UCBase.PerformanceTracker" />
   <TypeSignature Language="VB.NET" Value="Public Class UCBase.PerformanceTracker" />
   <TypeSignature Language="C++ CLI" Value="public: ref class UCBase::PerformanceTracker" />
+  <TypeSignature Language="F#" Value="type UCBase.PerformanceTracker = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.PerformanceTracker.#ctor(Microsoft.Lync.Controls.UCBase)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As UCBase)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; PerformanceTracker(Microsoft::Lync::Controls::UCBase ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.UCBase.PerformanceTracker : Microsoft.Lync.Controls.UCBase -&gt; Microsoft.Lync.Controls.UCBase.PerformanceTracker" Usage="new Microsoft.Lync.Controls.UCBase.PerformanceTracker control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

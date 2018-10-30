@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum ShareableContentAction" />
   <TypeSignature Language="C++ CLI" Value="public enum class ShareableContentAction" />
+  <TypeSignature Language="F#" Value="type ShareableContentAction = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.ClearAllAnnotations" />
       <MemberSignature Language="VB.NET" Value="ClearAllAnnotations" />
       <MemberSignature Language="C++ CLI" Value="ClearAllAnnotations" />
+      <MemberSignature Language="F#" Value="ClearAllAnnotations = 7" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.ClearAllAnnotations" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.DownloadFile" />
       <MemberSignature Language="VB.NET" Value="DownloadFile" />
       <MemberSignature Language="C++ CLI" Value="DownloadFile" />
+      <MemberSignature Language="F#" Value="DownloadFile = 4" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.DownloadFile" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Present" />
       <MemberSignature Language="VB.NET" Value="Present" />
       <MemberSignature Language="C++ CLI" Value="Present" />
+      <MemberSignature Language="F#" Value="Present = 1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Present" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Remove" />
       <MemberSignature Language="VB.NET" Value="Remove" />
       <MemberSignature Language="C++ CLI" Value="Remove" />
+      <MemberSignature Language="F#" Value="Remove = 0" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Remove" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.SaveAnnotation" />
       <MemberSignature Language="VB.NET" Value="SaveAnnotation" />
       <MemberSignature Language="C++ CLI" Value="SaveAnnotation" />
+      <MemberSignature Language="F#" Value="SaveAnnotation = 6" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.SaveAnnotation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.StopPresenting" />
       <MemberSignature Language="VB.NET" Value="StopPresenting" />
       <MemberSignature Language="C++ CLI" Value="StopPresenting" />
+      <MemberSignature Language="F#" Value="StopPresenting = 2" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.StopPresenting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.SyncWithPresenter" />
       <MemberSignature Language="VB.NET" Value="SyncWithPresenter" />
       <MemberSignature Language="C++ CLI" Value="SyncWithPresenter" />
+      <MemberSignature Language="F#" Value="SyncWithPresenter = 3" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.SyncWithPresenter" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.TakeOverAsPresenter" />
       <MemberSignature Language="VB.NET" Value="TakeOverAsPresenter" />
       <MemberSignature Language="C++ CLI" Value="TakeOverAsPresenter" />
+      <MemberSignature Language="F#" Value="TakeOverAsPresenter = 5" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.TakeOverAsPresenter" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Upload" />
       <MemberSignature Language="VB.NET" Value="Upload" />
       <MemberSignature Language="C++ CLI" Value="Upload" />
+      <MemberSignature Language="F#" Value="Upload = 8" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentAction.Upload" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

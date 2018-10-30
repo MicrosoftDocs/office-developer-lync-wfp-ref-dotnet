@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactCardAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of ContactCard)" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactCardAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::ContactCard ^&gt;" />
+  <TypeSignature Language="F#" Value="type ContactCardAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;ContactCard&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactCard)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContactCard)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactCardAutomationPeer(Microsoft::Lync::Controls::ContactCard ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer : Microsoft.Lync.Controls.ContactCard -&gt; Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactCardAutomationPeer.GetHelpTextCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetHelpTextCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetHelpTextCore();" />
+      <MemberSignature Language="F#" Value="override this.GetHelpTextCore : unit -&gt; string" Usage="contactCardAutomationPeer.GetHelpTextCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

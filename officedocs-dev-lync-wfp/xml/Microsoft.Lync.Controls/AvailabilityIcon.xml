@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AvailabilityIcon" />
   <TypeSignature Language="VB.NET" Value="Public Class AvailabilityIcon&#xA;Inherits ContactBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class AvailabilityIcon : Microsoft::Lync::Controls::ContactBase" />
+  <TypeSignature Language="F#" Value="type AvailabilityIcon = class&#xA;    inherit ContactBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -99,6 +100,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AvailabilityIcon.AvailabilityState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AvailabilityState As ContactAvailability" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ContactAvailability AvailabilityState { Microsoft::Lync::Controls::ContactAvailability get(); };" />
+      <MemberSignature Language="F#" Value="member this.AvailabilityState : Microsoft.Lync.Controls.ContactAvailability" Usage="Microsoft.Lync.Controls.AvailabilityIcon.AvailabilityState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -119,6 +121,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.AvailabilityIcon.AvailabilityStateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AvailabilityStateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ AvailabilityStateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable AvailabilityStateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.AvailabilityIcon.AvailabilityStateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -138,6 +141,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AvailabilityIcon.IsBlocked" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsBlocked As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsBlocked { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsBlocked : bool" Usage="Microsoft.Lync.Controls.AvailabilityIcon.IsBlocked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -158,6 +162,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.AvailabilityIcon.IsBlockedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsBlockedProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsBlockedProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsBlockedProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.AvailabilityIcon.IsBlockedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -177,6 +182,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="availabilityIcon.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -197,6 +203,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.OnContactPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IContactModel,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnContactPropertyChanged (contactModel As IContactModel, propertyName As String)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnContactPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ contactModel, System::String ^ propertyName);" />
+      <MemberSignature Language="F#" Value="override this.OnContactPropertyChanged : Microsoft.Lync.Controls.Internal.Model.IContactModel * string -&gt; unit" Usage="availabilityIcon.OnContactPropertyChanged (contactModel, propertyName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -222,6 +229,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="availabilityIcon.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -243,6 +251,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.OnPresenceItemsPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IPresenceItems,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPresenceItemsPropertyChanged (presenceItems As IPresenceItems, propertyName As String)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPresenceItemsPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems, System::String ^ propertyName);" />
+      <MemberSignature Language="F#" Value="override this.OnPresenceItemsPropertyChanged : Microsoft.Lync.Controls.Internal.Model.IPresenceItems * string -&gt; unit" Usage="availabilityIcon.OnPresenceItemsPropertyChanged (presenceItems, propertyName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -268,6 +277,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.AvailabilityIcon.PhotoDisplayMode" />
       <MemberSignature Language="VB.NET" Value="Public Property PhotoDisplayMode As PhotoDisplayMode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PhotoDisplayMode PhotoDisplayMode { Microsoft::Lync::Controls::PhotoDisplayMode get(); void set(Microsoft::Lync::Controls::PhotoDisplayMode value); };" />
+      <MemberSignature Language="F#" Value="member this.PhotoDisplayMode : Microsoft.Lync.Controls.PhotoDisplayMode with get, set" Usage="Microsoft.Lync.Controls.AvailabilityIcon.PhotoDisplayMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -288,6 +298,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.AvailabilityIcon.PhotoDisplayModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhotoDisplayModeProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PhotoDisplayModeProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PhotoDisplayModeProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.AvailabilityIcon.PhotoDisplayModeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -307,6 +318,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.UnwirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub UnwirePresenceItems (presenceItems As IPresenceItems)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberSignature Language="F#" Value="override this.UnwirePresenceItems : Microsoft.Lync.Controls.Internal.Model.IPresenceItems -&gt; unit" Usage="availabilityIcon.UnwirePresenceItems presenceItems" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -330,6 +342,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AvailabilityIcon.WirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub WirePresenceItems (presenceItems As IPresenceItems)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberSignature Language="F#" Value="override this.WirePresenceItems : Microsoft.Lync.Controls.Internal.Model.IPresenceItems -&gt; unit" Usage="availabilityIcon.WirePresenceItems presenceItems" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

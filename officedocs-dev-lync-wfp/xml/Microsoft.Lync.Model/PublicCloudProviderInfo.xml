@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.PublicCloudProviderInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class PublicCloudProviderInfo&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class PublicCloudProviderInfo : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type PublicCloudProviderInfo = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.PublicCloudProviderInfo.IconUrl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IconUrl As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IconUrl { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.IconUrl : string" Usage="Microsoft.Lync.Model.PublicCloudProviderInfo.IconUrl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.PublicCloudProviderInfo.Name" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Lync.Model.PublicCloudProviderInfo.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

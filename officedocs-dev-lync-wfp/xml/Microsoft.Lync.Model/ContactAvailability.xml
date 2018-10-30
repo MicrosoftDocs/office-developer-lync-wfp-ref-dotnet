@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactAvailability" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactAvailability" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContactAvailability" />
+  <TypeSignature Language="F#" Value="type ContactAvailability = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.Away" />
       <MemberSignature Language="VB.NET" Value="Away" />
       <MemberSignature Language="C++ CLI" Value="Away" />
+      <MemberSignature Language="F#" Value="Away = 15500" Usage="Microsoft.Lync.Model.ContactAvailability.Away" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.Busy" />
       <MemberSignature Language="VB.NET" Value="Busy" />
       <MemberSignature Language="C++ CLI" Value="Busy" />
+      <MemberSignature Language="F#" Value="Busy = 6500" Usage="Microsoft.Lync.Model.ContactAvailability.Busy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.BusyIdle" />
       <MemberSignature Language="VB.NET" Value="BusyIdle" />
       <MemberSignature Language="C++ CLI" Value="BusyIdle" />
+      <MemberSignature Language="F#" Value="BusyIdle = 7500" Usage="Microsoft.Lync.Model.ContactAvailability.BusyIdle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.DoNotDisturb" />
       <MemberSignature Language="VB.NET" Value="DoNotDisturb" />
       <MemberSignature Language="C++ CLI" Value="DoNotDisturb" />
+      <MemberSignature Language="F#" Value="DoNotDisturb = 9500" Usage="Microsoft.Lync.Model.ContactAvailability.DoNotDisturb" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.Free" />
       <MemberSignature Language="VB.NET" Value="Free" />
       <MemberSignature Language="C++ CLI" Value="Free" />
+      <MemberSignature Language="F#" Value="Free = 3500" Usage="Microsoft.Lync.Model.ContactAvailability.Free" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.FreeIdle" />
       <MemberSignature Language="VB.NET" Value="FreeIdle" />
       <MemberSignature Language="C++ CLI" Value="FreeIdle" />
+      <MemberSignature Language="F#" Value="FreeIdle = 5000" Usage="Microsoft.Lync.Model.ContactAvailability.FreeIdle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ContactAvailability.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.ContactAvailability.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.Offline" />
       <MemberSignature Language="VB.NET" Value="Offline" />
       <MemberSignature Language="C++ CLI" Value="Offline" />
+      <MemberSignature Language="F#" Value="Offline = 18500" Usage="Microsoft.Lync.Model.ContactAvailability.Offline" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactAvailability.TemporarilyAway" />
       <MemberSignature Language="VB.NET" Value="TemporarilyAway" />
       <MemberSignature Language="C++ CLI" Value="TemporarilyAway" />
+      <MemberSignature Language="F#" Value="TemporarilyAway = 12500" Usage="Microsoft.Lync.Model.ContactAvailability.TemporarilyAway" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

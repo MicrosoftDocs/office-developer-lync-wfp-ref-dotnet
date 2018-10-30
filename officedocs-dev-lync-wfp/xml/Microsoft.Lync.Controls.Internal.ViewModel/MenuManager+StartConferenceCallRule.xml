@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuManager.StartConferenceCallRule&#xA;Inherits MenuManager.MenuRule" />
   <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::StartConferenceCallRule : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule" />
+  <TypeSignature Language="F#" Value="type MenuManager.StartConferenceCallRule = class&#xA;    inherit MenuManager.MenuRule" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (manager As MenuManager)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; StartConferenceCallRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule manager" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.CanExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteCommand (arg As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.CanExecuteCommand : obj -&gt; bool" Usage="startConferenceCallRule.CanExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.ConfigureMenu" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ConfigureMenu ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ConfigureMenu();" />
+      <MemberSignature Language="F#" Value="override this.ConfigureMenu : unit -&gt; unit" Usage="startConferenceCallRule.ConfigureMenu " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -87,6 +91,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.ExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCommand (arg As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.ExecuteCommand : obj -&gt; unit" Usage="startConferenceCallRule.ExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -110,6 +115,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.HomeSubmenuVisibility" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HomeSubmenuVisibility As Visibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility HomeSubmenuVisibility { System::Windows::Visibility get(); };" />
+      <MemberSignature Language="F#" Value="member this.HomeSubmenuVisibility : System.Windows.Visibility" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.HomeSubmenuVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -130,6 +136,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function IsVisible () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool IsVisible();" />
+      <MemberSignature Language="F#" Value="override this.IsVisible : unit -&gt; bool" Usage="startConferenceCallRule.IsVisible " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -151,6 +158,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.MobileSubmenuVisibility" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MobileSubmenuVisibility As Visibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility MobileSubmenuVisibility { System::Windows::Visibility get(); };" />
+      <MemberSignature Language="F#" Value="member this.MobileSubmenuVisibility : System.Windows.Visibility" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.MobileSubmenuVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -171,6 +179,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.NewNumberSubmenuVisibility" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewNumberSubmenuVisibility As Visibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility NewNumberSubmenuVisibility { System::Windows::Visibility get(); };" />
+      <MemberSignature Language="F#" Value="member this.NewNumberSubmenuVisibility : System.Windows.Visibility" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.NewNumberSubmenuVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -191,6 +200,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.OtherSubmenuVisibility" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OtherSubmenuVisibility As Visibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility OtherSubmenuVisibility { System::Windows::Visibility get(); };" />
+      <MemberSignature Language="F#" Value="member this.OtherSubmenuVisibility : System.Windows.Visibility" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.OtherSubmenuVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -211,6 +221,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.WorkSubmenuVisibility" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WorkSubmenuVisibility As Visibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility WorkSubmenuVisibility { System::Windows::Visibility get(); };" />
+      <MemberSignature Language="F#" Value="member this.WorkSubmenuVisibility : System.Windows.Visibility" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCallRule.WorkSubmenuVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

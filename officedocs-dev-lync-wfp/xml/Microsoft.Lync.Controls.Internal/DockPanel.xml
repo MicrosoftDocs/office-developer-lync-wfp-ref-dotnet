@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.DockPanel" />
   <TypeSignature Language="VB.NET" Value="Public Class DockPanel&#xA;Inherits Panel" />
   <TypeSignature Language="C++ CLI" Value="public ref class DockPanel : System::Windows::Controls::Panel" />
+  <TypeSignature Language="F#" Value="type DockPanel = class&#xA;    inherit Panel" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.DockPanel.ArrangeOverride(System.Windows.Size)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ArrangeOverride (arrangeSize As Size) As Size" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Size ArrangeOverride(System::Windows::Size arrangeSize);" />
+      <MemberSignature Language="F#" Value="override this.ArrangeOverride : System.Windows.Size -&gt; System.Windows.Size" Usage="dockPanel.ArrangeOverride arrangeSize" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="ILAsm" Value="see GetDock, and SetDock" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.DockPanel.Dock" />
       <MemberSignature Language="VB.NET" Value="see GetDock, and SetDock" />
+      <MemberSignature Language="F#" Value="see GetDock, and SetDock" Usage="see GetDock, and SetDock" />
       <MemberType>AttachedProperty</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -79,6 +82,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.DockPanel.DockProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DockProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ DockProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable DockProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.DockPanel.DockProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -98,6 +102,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.DockPanel.GetDock(System.Windows.UIElement)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetDock (element As UIElement) As Dock" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Lync::Controls::Internal::Dock GetDock(System::Windows::UIElement ^ element);" />
+      <MemberSignature Language="F#" Value="static member GetDock : System.Windows.UIElement -&gt; Microsoft.Lync.Controls.Internal.Dock" Usage="Microsoft.Lync.Controls.Internal.DockPanel.GetDock element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -122,6 +127,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.DockPanel.LastChildFill" />
       <MemberSignature Language="VB.NET" Value="Public Property LastChildFill As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LastChildFill { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.LastChildFill : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.DockPanel.LastChildFill" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -142,6 +148,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.DockPanel.LastChildFillProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LastChildFillProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ LastChildFillProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable LastChildFillProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.DockPanel.LastChildFillProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -161,6 +168,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.DockPanel.MeasureOverride(System.Windows.Size)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function MeasureOverride (constraint As Size) As Size" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Size MeasureOverride(System::Windows::Size constraint);" />
+      <MemberSignature Language="F#" Value="override this.MeasureOverride : System.Windows.Size -&gt; System.Windows.Size" Usage="dockPanel.MeasureOverride constraint" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -184,6 +192,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetDock(class System.Windows.UIElement element, valuetype Microsoft.Lync.Controls.Internal.Dock dock) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.DockPanel.SetDock(System.Windows.UIElement,Microsoft.Lync.Controls.Internal.Dock)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetDock(System::Windows::UIElement ^ element, Microsoft::Lync::Controls::Internal::Dock dock);" />
+      <MemberSignature Language="F#" Value="static member SetDock : System.Windows.UIElement * Microsoft.Lync.Controls.Internal.Dock -&gt; unit" Usage="Microsoft.Lync.Controls.Internal.DockPanel.SetDock (element, dock)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

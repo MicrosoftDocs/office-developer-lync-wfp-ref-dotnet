@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.UCListBox" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class UCListBox&#xA;Inherits ListBox" />
   <TypeSignature Language="C++ CLI" Value="public ref class UCListBox abstract : System::Windows::Controls::ListBox" />
+  <TypeSignature Language="F#" Value="type UCListBox = class&#xA;    inherit ListBox" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -45,6 +46,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBox.BotItemTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property BotItemTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ BotItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.BotItemTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.UCListBox.BotItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -65,6 +67,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBox.BotItemTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BotItemTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ BotItemTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable BotItemTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBox.BotItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -84,6 +87,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBox.ClearContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ClearContainerForItemOverride (element As DependencyObject, item As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ClearContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="override this.ClearContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit" Usage="uCListBox.ClearContainerForItemOverride (element, item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -109,6 +113,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBox.ContextMenu" />
       <MemberSignature Language="VB.NET" Value="Public Property ContextMenu As ContextMenu" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ContextMenu ^ ContextMenu { Microsoft::Lync::Controls::Internal::ContextMenu ^ get(); void set(Microsoft::Lync::Controls::Internal::ContextMenu ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenu : Microsoft.Lync.Controls.Internal.ContextMenu with get, set" Usage="Microsoft.Lync.Controls.UCListBox.ContextMenu" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -129,6 +134,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBox.ContextMenuProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextMenuProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextMenuProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextMenuProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBox.ContextMenuProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -148,6 +154,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBox.ContextualInformation" />
       <MemberSignature Language="VB.NET" Value="Public Property ContextualInformation As ConversationContextualInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ConversationContextualInfo ^ ContextualInformation { Microsoft::Lync::Controls::ConversationContextualInfo ^ get(); void set(Microsoft::Lync::Controls::ConversationContextualInfo ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextualInformation : Microsoft.Lync.Controls.ConversationContextualInfo with get, set" Usage="Microsoft.Lync.Controls.UCListBox.ContextualInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -171,6 +178,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBox.ContextualInformationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextualInformationProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextualInformationProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextualInformationProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBox.ContextualInformationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -190,6 +198,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBox.GroupItemTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupItemTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ GroupItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.GroupItemTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.UCListBox.GroupItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -210,6 +219,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBox.GroupItemTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupItemTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupItemTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable GroupItemTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBox.GroupItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -229,6 +239,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBox.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="uCListBox.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -249,6 +260,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBox.OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnItemsChanged (e As NotifyCollectionChangedEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnItemsChanged(System::Collections::Specialized::NotifyCollectionChangedEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnItemsChanged : System.Collections.Specialized.NotifyCollectionChangedEventArgs -&gt; unit" Usage="uCListBox.OnItemsChanged e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -272,6 +284,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBox.PersonItemTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property PersonItemTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ PersonItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PersonItemTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.UCListBox.PersonItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -292,6 +305,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBox.PersonItemTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PersonItemTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PersonItemTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PersonItemTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBox.PersonItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -311,6 +325,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBox.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PrepareContainerForItemOverride (element As DependencyObject, item As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PrepareContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="override this.PrepareContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit" Usage="uCListBox.PrepareContainerForItemOverride (element, item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -336,6 +351,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBox.ShowFriendlyName" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowFriendlyName As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowFriendlyName { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowFriendlyName : bool with get, set" Usage="Microsoft.Lync.Controls.UCListBox.ShowFriendlyName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -356,6 +372,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBox.ShowFriendlyNameProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShowFriendlyNameProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ShowFriendlyNameProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShowFriendlyNameProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBox.ShowFriendlyNameProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -375,6 +392,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBox.TelephoneItemTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property TelephoneItemTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ TelephoneItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TelephoneItemTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.UCListBox.TelephoneItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -395,6 +413,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBox.TelephoneItemTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TelephoneItemTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TelephoneItemTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable TelephoneItemTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBox.TelephoneItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

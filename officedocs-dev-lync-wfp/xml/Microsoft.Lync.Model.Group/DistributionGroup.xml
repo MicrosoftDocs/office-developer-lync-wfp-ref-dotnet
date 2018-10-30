@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.DistributionGroup" />
   <TypeSignature Language="VB.NET" Value="Public Class DistributionGroup&#xA;Inherits Group" />
   <TypeSignature Language="C++ CLI" Value="public ref class DistributionGroup : Microsoft::Lync::Model::Group::Group" />
+  <TypeSignature Language="F#" Value="type DistributionGroup = class&#xA;    inherit Group" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.DistributionGroup.BeginExpand(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginExpand (groupCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginExpand(AsyncCallback ^ groupCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginExpand : AsyncCallback * obj -&gt; IAsyncResult" Usage="distributionGroup.BeginExpand (groupCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -51,6 +53,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.DistributionGroup.BeginGetAllMembers(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginGetAllMembers (groupCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginGetAllMembers(AsyncCallback ^ groupCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginGetAllMembers : AsyncCallback * obj -&gt; IAsyncResult" Usage="distributionGroup.BeginGetAllMembers (groupCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +82,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.DistributionGroup.BeginGetOwner(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginGetOwner (groupCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginGetOwner(AsyncCallback ^ groupCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginGetOwner : AsyncCallback * obj -&gt; IAsyncResult" Usage="distributionGroup.BeginGetOwner (groupCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -107,6 +111,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.DistributionGroup.Description" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Description As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Description : string" Usage="Microsoft.Lync.Model.Group.DistributionGroup.Description" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -127,6 +132,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.DistributionGroup.DescriptionChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event DescriptionChanged As EventHandler(Of DescriptionChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::DescriptionChangedEventArgs ^&gt; ^ DescriptionChanged;" />
+      <MemberSignature Language="F#" Value="member this.DescriptionChanged : EventHandler&lt;Microsoft.Lync.Model.Group.DescriptionChangedEventArgs&gt; " Usage="member this.DescriptionChanged : System.EventHandler&lt;Microsoft.Lync.Model.Group.DescriptionChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -146,6 +152,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.DistributionGroup.EmailAddress" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddress As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EmailAddress { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.EmailAddress : string" Usage="Microsoft.Lync.Model.Group.DistributionGroup.EmailAddress" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -166,6 +173,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.DistributionGroup.EndExpand(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndExpand (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndExpand(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndExpand : IAsyncResult -&gt; unit" Usage="distributionGroup.EndExpand asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -191,6 +199,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.DistributionGroup.EndGetAllMembers(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndGetAllMembers (asyncResult As IAsyncResult) As ContactCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Group::ContactCollection ^ EndGetAllMembers(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndGetAllMembers : IAsyncResult -&gt; Microsoft.Lync.Model.Group.ContactCollection" Usage="distributionGroup.EndGetAllMembers asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -217,6 +226,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.DistributionGroup.EndGetOwner(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndGetOwner (asyncResult As IAsyncResult) As Contact" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Contact ^ EndGetOwner(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndGetOwner : IAsyncResult -&gt; Microsoft.Lync.Model.Contact" Usage="distributionGroup.EndGetOwner asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -243,6 +253,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.DistributionGroup.ExpansionStateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ExpansionStateChanged As EventHandler(Of DistributionGroupExpansionStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::DistributionGroupExpansionStateChangedEventArgs ^&gt; ^ ExpansionStateChanged;" />
+      <MemberSignature Language="F#" Value="member this.ExpansionStateChanged : EventHandler&lt;Microsoft.Lync.Model.Group.DistributionGroupExpansionStateChangedEventArgs&gt; " Usage="member this.ExpansionStateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Group.DistributionGroupExpansionStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -262,6 +273,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.DistributionGroup.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!DistributionGroup ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="distributionGroup.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -282,6 +294,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.DistributionGroup.IsExpanded" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExpanded As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExpanded { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsExpanded : bool" Usage="Microsoft.Lync.Model.Group.DistributionGroup.IsExpanded" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -302,6 +315,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.DistributionGroup.NestedGroupAdded" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event NestedGroupAdded As EventHandler(Of GroupCollectionChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::GroupCollectionChangedEventArgs ^&gt; ^ NestedGroupAdded;" />
+      <MemberSignature Language="F#" Value="member this.NestedGroupAdded : EventHandler&lt;Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt; " Usage="member this.NestedGroupAdded : System.EventHandler&lt;Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -321,6 +335,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.DistributionGroup.NestedGroupRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event NestedGroupRemoved As EventHandler(Of GroupCollectionChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::GroupCollectionChangedEventArgs ^&gt; ^ NestedGroupRemoved;" />
+      <MemberSignature Language="F#" Value="member this.NestedGroupRemoved : EventHandler&lt;Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt; " Usage="member this.NestedGroupRemoved : System.EventHandler&lt;Microsoft.Lync.Model.Group.GroupCollectionChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -340,6 +355,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.DistributionGroup.NestedGroups" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NestedGroups As GroupCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Group::GroupCollection ^ NestedGroups { Microsoft::Lync::Model::Group::GroupCollection ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NestedGroups : Microsoft.Lync.Model.Group.GroupCollection" Usage="Microsoft.Lync.Model.Group.DistributionGroup.NestedGroups" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

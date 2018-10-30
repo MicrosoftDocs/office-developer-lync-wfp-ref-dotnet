@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow" />
   <TypeSignature Language="VB.NET" Value="Public Class VideoWindow&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class VideoWindow : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type VideoWindow = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.AutoShow" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoShow As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AutoShow { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.AutoShow : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.AutoShow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.BackgroundPalette" />
       <MemberSignature Language="VB.NET" Value="Public Property BackgroundPalette As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BackgroundPalette { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.BackgroundPalette : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.BackgroundPalette" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.BorderColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BorderColor As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BorderColor { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.BorderColor : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.BorderColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Caption" />
       <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Caption : string with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Caption" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.FullScreenMode" />
       <MemberSignature Language="VB.NET" Value="Public Property FullScreenMode As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FullScreenMode { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.FullScreenMode : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.FullScreenMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -123,6 +129,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.GetMaxIdealImageSize(System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetMaxIdealImageSize (ByRef pWidth As Integer, ByRef pHeight As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetMaxIdealImageSize([Runtime::InteropServices::Out] int % pWidth, [Runtime::InteropServices::Out] int % pHeight);" />
+      <MemberSignature Language="F#" Value="member this.GetMaxIdealImageSize :  *  -&gt; unit" Usage="videoWindow.GetMaxIdealImageSize (pWidth, pHeight)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -132,8 +139,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="pWidth" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="pHeight" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pWidth" Type="System.Int32" RefType="out" />
+        <Parameter Name="pHeight" Type="System.Int32" RefType="out" />
       </Parameters>
       <Docs>
         <param name="pWidth">To be added.</param>
@@ -148,6 +155,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.GetMinIdealImageSize(System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetMinIdealImageSize (ByRef pWidth As Integer, ByRef pHeight As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetMinIdealImageSize([Runtime::InteropServices::Out] int % pWidth, [Runtime::InteropServices::Out] int % pHeight);" />
+      <MemberSignature Language="F#" Value="member this.GetMinIdealImageSize :  *  -&gt; unit" Usage="videoWindow.GetMinIdealImageSize (pWidth, pHeight)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -157,8 +165,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="pWidth" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="pHeight" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pWidth" Type="System.Int32" RefType="out" />
+        <Parameter Name="pHeight" Type="System.Int32" RefType="out" />
       </Parameters>
       <Docs>
         <param name="pWidth">To be added.</param>
@@ -173,6 +181,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.GetRestorePosition(System.Int32@,System.Int32@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetRestorePosition (ByRef pLeft As Integer, ByRef pTop As Integer, ByRef pWidth As Integer, ByRef pHeight As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetRestorePosition([Runtime::InteropServices::Out] int % pLeft, [Runtime::InteropServices::Out] int % pTop, [Runtime::InteropServices::Out] int % pWidth, [Runtime::InteropServices::Out] int % pHeight);" />
+      <MemberSignature Language="F#" Value="member this.GetRestorePosition :  *  *  *  -&gt; unit" Usage="videoWindow.GetRestorePosition (pLeft, pTop, pWidth, pHeight)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -182,10 +191,10 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="pLeft" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="pTop" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="pWidth" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="pHeight" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pLeft" Type="System.Int32" RefType="out" />
+        <Parameter Name="pTop" Type="System.Int32" RefType="out" />
+        <Parameter Name="pWidth" Type="System.Int32" RefType="out" />
+        <Parameter Name="pHeight" Type="System.Int32" RefType="out" />
       </Parameters>
       <Docs>
         <param name="pLeft">To be added.</param>
@@ -202,6 +211,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.GetWindowPosition(System.Int32@,System.Int32@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetWindowPosition (ByRef pLeft As Integer, ByRef pTop As Integer, ByRef pWidth As Integer, ByRef pHeight As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetWindowPosition([Runtime::InteropServices::Out] int % pLeft, [Runtime::InteropServices::Out] int % pTop, [Runtime::InteropServices::Out] int % pWidth, [Runtime::InteropServices::Out] int % pHeight);" />
+      <MemberSignature Language="F#" Value="member this.GetWindowPosition :  *  *  *  -&gt; unit" Usage="videoWindow.GetWindowPosition (pLeft, pTop, pWidth, pHeight)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -211,10 +221,10 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="pLeft" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="pTop" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="pWidth" Type="System.Int32&amp;" RefType="out" />
-        <Parameter Name="pHeight" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pLeft" Type="System.Int32" RefType="out" />
+        <Parameter Name="pTop" Type="System.Int32" RefType="out" />
+        <Parameter Name="pWidth" Type="System.Int32" RefType="out" />
+        <Parameter Name="pHeight" Type="System.Int32" RefType="out" />
       </Parameters>
       <Docs>
         <param name="pLeft">To be added.</param>
@@ -231,6 +241,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Height : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -251,6 +262,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.HideCursor(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub HideCursor (hideCursor As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void HideCursor(int hideCursor);" />
+      <MemberSignature Language="F#" Value="member this.HideCursor : int -&gt; unit" Usage="videoWindow.HideCursor hideCursor" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -274,6 +286,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.IsCursorHidden(System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub IsCursorHidden (ByRef cursorHidden As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void IsCursorHidden([Runtime::InteropServices::Out] int % cursorHidden);" />
+      <MemberSignature Language="F#" Value="member this.IsCursorHidden :  -&gt; unit" Usage="videoWindow.IsCursorHidden cursorHidden" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -283,7 +296,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cursorHidden" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="cursorHidden" Type="System.Int32" RefType="out" />
       </Parameters>
       <Docs>
         <param name="cursorHidden">To be added.</param>
@@ -297,6 +310,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Left" />
       <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Left : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -317,6 +331,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.MessageDrain" />
       <MemberSignature Language="VB.NET" Value="Public Property MessageDrain As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MessageDrain { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MessageDrain : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.MessageDrain" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -337,6 +352,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.NotifyOwnerMessage(System.Int32,System.Int32,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub NotifyOwnerMessage (hwnd As Integer, uMsg As Integer, wParam As Integer, lParam As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void NotifyOwnerMessage(int hwnd, int uMsg, int wParam, int lParam);" />
+      <MemberSignature Language="F#" Value="member this.NotifyOwnerMessage : int * int * int * int -&gt; unit" Usage="videoWindow.NotifyOwnerMessage (hwnd, uMsg, wParam, lParam)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -366,6 +382,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Owner" />
       <MemberSignature Language="VB.NET" Value="Public Property Owner As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Owner { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Owner : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Owner" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -386,6 +403,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.SetWindowForeground(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetWindowForeground (focus As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetWindowForeground(int focus);" />
+      <MemberSignature Language="F#" Value="member this.SetWindowForeground : int -&gt; unit" Usage="videoWindow.SetWindowForeground focus" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -409,6 +427,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.SetWindowPosition(System.Int32,System.Int32,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetWindowPosition (left As Integer, top As Integer, width As Integer, height As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetWindowPosition(int left, int top, int width, int height);" />
+      <MemberSignature Language="F#" Value="member this.SetWindowPosition : int * int * int * int -&gt; unit" Usage="videoWindow.SetWindowPosition (left, top, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -438,6 +457,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Top" />
       <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Top : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -458,6 +478,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Visible" />
       <MemberSignature Language="VB.NET" Value="Public Property Visible As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Visible { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Visible : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Visible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -478,6 +499,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Width" />
       <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Width : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -498,6 +520,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowState" />
       <MemberSignature Language="VB.NET" Value="Public Property WindowState As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WindowState { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.WindowState : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -518,6 +541,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property WindowStyle As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WindowStyle { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.WindowStyle : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -538,6 +562,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowStyleEx" />
       <MemberSignature Language="VB.NET" Value="Public Property WindowStyleEx As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WindowStyleEx { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.WindowStyleEx : int with get, set" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.VideoWindow.WindowStyleEx" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

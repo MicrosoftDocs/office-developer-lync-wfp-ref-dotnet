@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.CustomGroup" />
   <TypeSignature Language="VB.NET" Value="Public Class CustomGroup&#xA;Inherits Group" />
   <TypeSignature Language="C++ CLI" Value="public ref class CustomGroup : Microsoft::Lync::Model::Group::Group" />
+  <TypeSignature Language="F#" Value="type CustomGroup = class&#xA;    inherit Group" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.CustomGroup.BeginRename(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginRename (newName As String, groupCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRename(System::String ^ newName, AsyncCallback ^ groupCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginRename : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="customGroup.BeginRename (newName, groupCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -53,6 +55,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.CustomGroup.EndRename(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndRename (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRename(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndRename : IAsyncResult -&gt; unit" Usage="customGroup.EndRename asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -78,6 +81,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.CustomGroup.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!CustomGroup ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="customGroup.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

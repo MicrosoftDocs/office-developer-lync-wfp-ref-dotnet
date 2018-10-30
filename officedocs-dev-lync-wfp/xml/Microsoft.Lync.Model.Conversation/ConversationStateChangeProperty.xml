@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationStateChangeProperty" />
   <TypeSignature Language="C++ CLI" Value="public enum class ConversationStateChangeProperty" />
+  <TypeSignature Language="F#" Value="type ConversationStateChangeProperty = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Reason" />
       <MemberSignature Language="VB.NET" Value="Reason" />
       <MemberSignature Language="C++ CLI" Value="Reason" />
+      <MemberSignature Language="F#" Value="Reason = 805896192" Usage="Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Reason" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Target" />
       <MemberSignature Language="VB.NET" Value="Target" />
       <MemberSignature Language="C++ CLI" Value="Target" />
+      <MemberSignature Language="F#" Value="Target = 589825" Usage="Microsoft.Lync.Model.Conversation.ConversationStateChangeProperty.Target" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

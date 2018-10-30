@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.StartInstantMessagingButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class StartInstantMessagingButtonAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of StartInstantMessagingButton)" />
   <TypeSignature Language="C++ CLI" Value="public ref class StartInstantMessagingButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::StartInstantMessagingButton ^&gt;" />
+  <TypeSignature Language="F#" Value="type StartInstantMessagingButtonAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;StartInstantMessagingButton&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.StartInstantMessagingButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.StartInstantMessagingButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As StartInstantMessagingButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; StartInstantMessagingButtonAutomationPeer(Microsoft::Lync::Controls::StartInstantMessagingButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.StartInstantMessagingButtonAutomationPeer : Microsoft.Lync.Controls.StartInstantMessagingButton -&gt; Microsoft.Lync.Controls.AutomationPeers.StartInstantMessagingButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.StartInstantMessagingButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

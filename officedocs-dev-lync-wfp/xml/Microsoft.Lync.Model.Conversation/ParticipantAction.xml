@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ParticipantAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum ParticipantAction" />
   <TypeSignature Language="C++ CLI" Value="public enum class ParticipantAction" />
+  <TypeSignature Language="F#" Value="type ParticipantAction = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.Admit" />
       <MemberSignature Language="VB.NET" Value="Admit" />
       <MemberSignature Language="C++ CLI" Value="Admit" />
+      <MemberSignature Language="F#" Value="Admit = 1" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.Admit" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.Deny" />
       <MemberSignature Language="VB.NET" Value="Deny" />
       <MemberSignature Language="C++ CLI" Value="Deny" />
+      <MemberSignature Language="F#" Value="Deny = 2" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.Deny" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.Lock" />
       <MemberSignature Language="VB.NET" Value="Lock" />
       <MemberSignature Language="C++ CLI" Value="Lock" />
+      <MemberSignature Language="F#" Value="Lock = 4" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.Lock" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.Pin" />
       <MemberSignature Language="VB.NET" Value="Pin" />
       <MemberSignature Language="C++ CLI" Value="Pin" />
+      <MemberSignature Language="F#" Value="Pin = 3" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.Pin" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 5000" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 5001" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.SetMute" />
       <MemberSignature Language="VB.NET" Value="SetMute" />
       <MemberSignature Language="C++ CLI" Value="SetMute" />
+      <MemberSignature Language="F#" Value="SetMute = 5" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.SetMute" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -176,6 +185,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ParticipantAction.SetProperty" />
       <MemberSignature Language="VB.NET" Value="SetProperty" />
       <MemberSignature Language="C++ CLI" Value="SetProperty" />
+      <MemberSignature Language="F#" Value="SetProperty = 0" Usage="Microsoft.Lync.Model.Conversation.ParticipantAction.SetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

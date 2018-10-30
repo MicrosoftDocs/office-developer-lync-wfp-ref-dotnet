@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactCalendarState" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactCalendarState" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContactCalendarState" />
+  <TypeSignature Language="F#" Value="type ContactCalendarState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Available" />
       <MemberSignature Language="VB.NET" Value="Available" />
       <MemberSignature Language="C++ CLI" Value="Available" />
+      <MemberSignature Language="F#" Value="Available = 0" Usage="Microsoft.Lync.Model.ContactCalendarState.Available" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Busy" />
       <MemberSignature Language="VB.NET" Value="Busy" />
       <MemberSignature Language="C++ CLI" Value="Busy" />
+      <MemberSignature Language="F#" Value="Busy = 3" Usage="Microsoft.Lync.Model.ContactCalendarState.Busy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ContactCalendarState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.NotAvailable" />
       <MemberSignature Language="VB.NET" Value="NotAvailable" />
       <MemberSignature Language="C++ CLI" Value="NotAvailable" />
+      <MemberSignature Language="F#" Value="NotAvailable = 5" Usage="Microsoft.Lync.Model.ContactCalendarState.NotAvailable" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.OutOfOffice" />
       <MemberSignature Language="VB.NET" Value="OutOfOffice" />
       <MemberSignature Language="C++ CLI" Value="OutOfOffice" />
+      <MemberSignature Language="F#" Value="OutOfOffice = 4" Usage="Microsoft.Lync.Model.ContactCalendarState.OutOfOffice" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.OutsideWorkPeriod" />
       <MemberSignature Language="VB.NET" Value="OutsideWorkPeriod" />
       <MemberSignature Language="C++ CLI" Value="OutsideWorkPeriod" />
+      <MemberSignature Language="F#" Value="OutsideWorkPeriod = 2" Usage="Microsoft.Lync.Model.ContactCalendarState.OutsideWorkPeriod" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Tentative" />
       <MemberSignature Language="VB.NET" Value="Tentative" />
       <MemberSignature Language="C++ CLI" Value="Tentative" />
+      <MemberSignature Language="F#" Value="Tentative = 1" Usage="Microsoft.Lync.Model.ContactCalendarState.Tentative" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 6" Usage="Microsoft.Lync.Model.ContactCalendarState.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCalendarState.WorkingElsewhere" />
       <MemberSignature Language="VB.NET" Value="WorkingElsewhere" />
       <MemberSignature Language="C++ CLI" Value="WorkingElsewhere" />
+      <MemberSignature Language="F#" Value="WorkingElsewhere = 7" Usage="Microsoft.Lync.Model.ContactCalendarState.WorkingElsewhere" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

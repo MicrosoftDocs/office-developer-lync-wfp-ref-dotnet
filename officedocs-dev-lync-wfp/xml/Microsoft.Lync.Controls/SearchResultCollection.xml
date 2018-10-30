@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SearchResultCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class SearchResultCollection&#xA;Inherits ReadOnlyCollection(Of SearchResult)" />
   <TypeSignature Language="C++ CLI" Value="public ref class SearchResultCollection : System::Collections::ObjectModel::ReadOnlyCollection&lt;Microsoft::Lync::Controls::SearchResult ^&gt;" />
+  <TypeSignature Language="F#" Value="type SearchResultCollection = class&#xA;    inherit ReadOnlyCollection&lt;SearchResult&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Controls.SearchResult&gt; results, bool isMoreAvailable, valuetype Microsoft.Lync.Controls.SearchType searchType, class System.Uri skillSearchQueryUri, valuetype Microsoft.Lync.Controls.SearchError searchError, valuetype Microsoft.Lync.Controls.SyncState providerSyncState) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.SearchResultCollection.#ctor(System.Collections.Generic.IList{Microsoft.Lync.Controls.SearchResult},System.Boolean,Microsoft.Lync.Controls.SearchType,System.Uri,Microsoft.Lync.Controls.SearchError,Microsoft.Lync.Controls.SyncState)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchResultCollection(System::Collections::Generic::IList&lt;Microsoft::Lync::Controls::SearchResult ^&gt; ^ results, bool isMoreAvailable, Microsoft::Lync::Controls::SearchType searchType, Uri ^ skillSearchQueryUri, Microsoft::Lync::Controls::SearchError searchError, Microsoft::Lync::Controls::SyncState providerSyncState);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.SearchResultCollection : System.Collections.Generic.IList&lt;Microsoft.Lync.Controls.SearchResult&gt; * bool * Microsoft.Lync.Controls.SearchType * Uri * Microsoft.Lync.Controls.SearchError * Microsoft.Lync.Controls.SyncState -&gt; Microsoft.Lync.Controls.SearchResultCollection" Usage="new Microsoft.Lync.Controls.SearchResultCollection (results, isMoreAvailable, searchType, skillSearchQueryUri, searchError, providerSyncState)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -55,6 +57,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResultCollection.IsMoreAvailable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMoreAvailable As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMoreAvailable { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsMoreAvailable : bool" Usage="Microsoft.Lync.Controls.SearchResultCollection.IsMoreAvailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -75,6 +78,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResultCollection.IsSkillSearchPossible" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSkillSearchPossible As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSkillSearchPossible { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsSkillSearchPossible : bool" Usage="Microsoft.Lync.Controls.SearchResultCollection.IsSkillSearchPossible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -95,6 +99,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResultCollection.ProviderSyncState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderSyncState As SyncState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SyncState ProviderSyncState { Microsoft::Lync::Controls::SyncState get(); };" />
+      <MemberSignature Language="F#" Value="member this.ProviderSyncState : Microsoft.Lync.Controls.SyncState" Usage="Microsoft.Lync.Controls.SearchResultCollection.ProviderSyncState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -115,6 +120,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResultCollection.SearchError" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchError As SearchError" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchError SearchError { Microsoft::Lync::Controls::SearchError get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchError : Microsoft.Lync.Controls.SearchError" Usage="Microsoft.Lync.Controls.SearchResultCollection.SearchError" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -135,6 +141,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResultCollection.SearchType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchType As SearchType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchType SearchType { Microsoft::Lync::Controls::SearchType get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchType : Microsoft.Lync.Controls.SearchType" Usage="Microsoft.Lync.Controls.SearchResultCollection.SearchType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -155,6 +162,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.SearchResultCollection.SkillSearchQueryUri" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SkillSearchQueryUri As Uri" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ SkillSearchQueryUri { Uri ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SkillSearchQueryUri : Uri" Usage="Microsoft.Lync.Controls.SearchResultCollection.SkillSearchQueryUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

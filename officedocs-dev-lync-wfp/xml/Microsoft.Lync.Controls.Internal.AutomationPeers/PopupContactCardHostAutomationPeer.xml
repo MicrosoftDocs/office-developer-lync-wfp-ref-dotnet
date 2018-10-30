@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardHostAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class PopupContactCardHostAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of PopupContactCardHost)&#xA;Implements IInvokeProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class PopupContactCardHostAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::Internal::PopupContactCardHost ^&gt;, System::Windows::Automation::Provider::IInvokeProvider" />
+  <TypeSignature Language="F#" Value="type PopupContactCardHostAutomationPeer = class&#xA;    inherit UCBaseAutomationPeer&lt;PopupContactCardHost&gt;&#xA;    interface IInvokeProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -30,6 +31,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardHostAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.PopupContactCardHost)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As PopupContactCardHost)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; PopupContactCardHostAutomationPeer(Microsoft::Lync::Controls::Internal::PopupContactCardHost ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardHostAutomationPeer : Microsoft.Lync.Controls.Internal.PopupContactCardHost -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardHostAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardHostAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -49,6 +51,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object GetPattern(valuetype System.Windows.Automation.Peers.PatternInterface patternInterface) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.PopupContactCardHostAutomationPeer.GetPattern(System.Windows.Automation.Peers.PatternInterface)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ GetPattern(System::Windows::Automation::Peers::PatternInterface patternInterface);" />
+      <MemberSignature Language="F#" Value="override this.GetPattern : System.Windows.Automation.Peers.PatternInterface -&gt; obj" Usage="popupContactCardHostAutomationPeer.GetPattern patternInterface" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

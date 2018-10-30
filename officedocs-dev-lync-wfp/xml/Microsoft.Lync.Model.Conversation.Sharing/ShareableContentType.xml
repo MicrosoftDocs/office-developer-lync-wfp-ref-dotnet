@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ShareableContentType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ShareableContentType" />
+  <TypeSignature Language="F#" Value="type ShareableContentType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.NativeFile" />
       <MemberSignature Language="VB.NET" Value="NativeFile" />
       <MemberSignature Language="C++ CLI" Value="NativeFile" />
+      <MemberSignature Language="F#" Value="NativeFile = 3" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.NativeFile" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.PowerPoint" />
       <MemberSignature Language="VB.NET" Value="PowerPoint" />
       <MemberSignature Language="C++ CLI" Value="PowerPoint" />
+      <MemberSignature Language="F#" Value="PowerPoint = 1" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.PowerPoint" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 4" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 5" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Unsupported" />
       <MemberSignature Language="VB.NET" Value="Unsupported" />
       <MemberSignature Language="C++ CLI" Value="Unsupported" />
+      <MemberSignature Language="F#" Value="Unsupported = 0" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Unsupported" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Whiteboard" />
       <MemberSignature Language="VB.NET" Value="Whiteboard" />
       <MemberSignature Language="C++ CLI" Value="Whiteboard" />
+      <MemberSignature Language="F#" Value="Whiteboard = 2" Usage="Microsoft.Lync.Model.Conversation.Sharing.ShareableContentType.Whiteboard" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

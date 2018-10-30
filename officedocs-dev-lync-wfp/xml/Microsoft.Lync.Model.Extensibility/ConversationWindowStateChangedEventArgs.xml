@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationWindowStateChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConversationWindowStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ConversationWindowStateChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs.NewState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As ConversationWindowState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Extensibility::ConversationWindowState NewState { Microsoft::Lync::Model::Extensibility::ConversationWindowState get(); };" />
+      <MemberSignature Language="F#" Value="member this.NewState : Microsoft.Lync.Model.Extensibility.ConversationWindowState" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs.NewState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs.OldState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldState As ConversationWindowState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Extensibility::ConversationWindowState OldState { Microsoft::Lync::Model::Extensibility::ConversationWindowState get(); };" />
+      <MemberSignature Language="F#" Value="member this.OldState : Microsoft.Lync.Model.Extensibility.ConversationWindowState" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs.OldState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

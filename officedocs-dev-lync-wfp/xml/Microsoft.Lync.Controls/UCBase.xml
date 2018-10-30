@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.UCBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class UCBase&#xA;Inherits Control" />
   <TypeSignature Language="C++ CLI" Value="public ref class UCBase abstract : System::Windows::Controls::Control" />
+  <TypeSignature Language="F#" Value="type UCBase = class&#xA;    inherit Control" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.ContextMenu" />
       <MemberSignature Language="VB.NET" Value="Public Property ContextMenu As ContextMenu" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ContextMenu ^ ContextMenu { Microsoft::Lync::Controls::Internal::ContextMenu ^ get(); void set(Microsoft::Lync::Controls::Internal::ContextMenu ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenu : Microsoft.Lync.Controls.Internal.ContextMenu with get, set" Usage="Microsoft.Lync.Controls.UCBase.ContextMenu" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.ContextMenuProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextMenuProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextMenuProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextMenuProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCBase.ContextMenuProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -79,6 +82,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.ExtractTemplatePart``1(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Function ExtractTemplatePart(Of T As DependencyObject) (partName As String) As T" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject T ExtractTemplatePart(System::String ^ partName);" />
+      <MemberSignature Language="F#" Value="member this.ExtractTemplatePart : string -&gt; 'T (requires 'T :&gt; System.Windows.DependencyObject)" Usage="uCBase.ExtractTemplatePart partName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -111,6 +115,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.ExtractTemplatePart``1(System.String,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Function ExtractTemplatePart(Of T As DependencyObject) (partName As String, isPartRequired As Boolean) As T" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject T ExtractTemplatePart(System::String ^ partName, bool isPartRequired);" />
+      <MemberSignature Language="F#" Value="member this.ExtractTemplatePart : string * bool -&gt; 'T (requires 'T :&gt; System.Windows.DependencyObject)" Usage="uCBase.ExtractTemplatePart (partName, isPartRequired)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -145,6 +150,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.UCBase.InitializationCompleted" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event InitializationCompleted As RoutedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::RoutedEventHandler ^ InitializationCompleted;" />
+      <MemberSignature Language="F#" Value="member this.InitializationCompleted : System.Windows.RoutedEventHandler " Usage="member this.InitializationCompleted : System.Windows.RoutedEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -164,6 +170,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.InitializationError" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializationError As LyncControlInitializationError" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::LyncControlInitializationError InitializationError { Microsoft::Lync::Controls::LyncControlInitializationError get(); };" />
+      <MemberSignature Language="F#" Value="member this.InitializationError : Microsoft.Lync.Controls.LyncControlInitializationError" Usage="Microsoft.Lync.Controls.UCBase.InitializationError" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -184,6 +191,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.InitializationErrorMessage" />
       <MemberSignature Language="VB.NET" Value="Public Property InitializationErrorMessage As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InitializationErrorMessage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.InitializationErrorMessage : string with get, set" Usage="Microsoft.Lync.Controls.UCBase.InitializationErrorMessage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -204,6 +212,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.InitializationErrorMessageProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationErrorMessageProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationErrorMessageProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable InitializationErrorMessageProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCBase.InitializationErrorMessageProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -223,6 +232,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.InitializationErrorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationErrorProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationErrorProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable InitializationErrorProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCBase.InitializationErrorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -242,6 +252,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.InitializationFailed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializationFailed As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InitializationFailed { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.InitializationFailed : bool" Usage="Microsoft.Lync.Controls.UCBase.InitializationFailed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -262,6 +273,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.InitializationFailedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationFailedProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationFailedProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable InitializationFailedProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCBase.InitializationFailedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -281,6 +293,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.IsInResiliencyMode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInResiliencyMode As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInResiliencyMode { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsInResiliencyMode : bool" Usage="Microsoft.Lync.Controls.UCBase.IsInResiliencyMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -301,6 +314,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.IsInResiliencyModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsInResiliencyModeProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsInResiliencyModeProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsInResiliencyModeProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCBase.IsInResiliencyModeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -320,6 +334,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.IsLoaded" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLoaded As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLoaded { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsLoaded : bool" Usage="Microsoft.Lync.Controls.UCBase.IsLoaded" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -340,6 +355,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.IsLoadedAndIsInVisualTree" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property IsLoadedAndIsInVisualTree As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; property bool IsLoadedAndIsInVisualTree { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsLoadedAndIsInVisualTree : bool" Usage="Microsoft.Lync.Controls.UCBase.IsLoadedAndIsInVisualTree" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -360,6 +376,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.IsSignedIn" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSignedIn As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSignedIn { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsSignedIn : bool" Usage="Microsoft.Lync.Controls.UCBase.IsSignedIn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -380,6 +397,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCBase.IsSignedInProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsSignedInProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsSignedInProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsSignedInProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCBase.IsSignedInProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -399,6 +417,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="uCBase.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -419,6 +438,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnClientDisconnected" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnClientDisconnected ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnClientDisconnected();" />
+      <MemberSignature Language="F#" Value="abstract member OnClientDisconnected : unit -&gt; unit&#xA;override this.OnClientDisconnected : unit -&gt; unit" Usage="uCBase.OnClientDisconnected " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -439,6 +459,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnContactManagerPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel,Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnContactManagerPropertyChanged (oldContactManager As IContactsAndGroupsManagerModel, newContactManager As IContactsAndGroupsManagerModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnContactManagerPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ oldContactManager, Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ newContactManager);" />
+      <MemberSignature Language="F#" Value="abstract member OnContactManagerPropertyChanged : Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel * Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel -&gt; unit&#xA;override this.OnContactManagerPropertyChanged : Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel * Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel -&gt; unit" Usage="uCBase.OnContactManagerPropertyChanged (oldContactManager, newContactManager)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -464,6 +485,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnIsInResiliencyModePropertyChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnIsInResiliencyModePropertyChanged (oldValue As Boolean, newValue As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnIsInResiliencyModePropertyChanged(bool oldValue, bool newValue);" />
+      <MemberSignature Language="F#" Value="abstract member OnIsInResiliencyModePropertyChanged : bool * bool -&gt; unit&#xA;override this.OnIsInResiliencyModePropertyChanged : bool * bool -&gt; unit" Usage="uCBase.OnIsInResiliencyModePropertyChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -489,6 +511,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnIsSignedPropertyChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnIsSignedPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnIsSignedPropertyChanged(bool oldValue, bool newValue);" />
+      <MemberSignature Language="F#" Value="abstract member OnIsSignedPropertyChanged : bool * bool -&gt; unit&#xA;override this.OnIsSignedPropertyChanged : bool * bool -&gt; unit" Usage="uCBase.OnIsSignedPropertyChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -514,6 +537,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnLoaded" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnLoaded ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnLoaded();" />
+      <MemberSignature Language="F#" Value="override this.OnLoaded : unit -&gt; unit" Usage="uCBase.OnLoaded " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -534,6 +558,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnSelfModelPropertyChanged(Microsoft.Lync.Controls.Internal.Model.ISelfModel,Microsoft.Lync.Controls.Internal.Model.ISelfModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnSelfModelPropertyChanged (oldSelfModel As ISelfModel, newSelfModel As ISelfModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnSelfModelPropertyChanged(Microsoft::Lync::Controls::Internal::Model::ISelfModel ^ oldSelfModel, Microsoft::Lync::Controls::Internal::Model::ISelfModel ^ newSelfModel);" />
+      <MemberSignature Language="F#" Value="abstract member OnSelfModelPropertyChanged : Microsoft.Lync.Controls.Internal.Model.ISelfModel * Microsoft.Lync.Controls.Internal.Model.ISelfModel -&gt; unit&#xA;override this.OnSelfModelPropertyChanged : Microsoft.Lync.Controls.Internal.Model.ISelfModel * Microsoft.Lync.Controls.Internal.Model.ISelfModel -&gt; unit" Usage="uCBase.OnSelfModelPropertyChanged (oldSelfModel, newSelfModel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -559,6 +584,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.OnUnloaded" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnUnloaded ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnUnloaded();" />
+      <MemberSignature Language="F#" Value="override this.OnUnloaded : unit -&gt; unit" Usage="uCBase.OnUnloaded " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -579,6 +605,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCBase.UCClientModel" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property UCClientModel As IUCClientModel" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; property Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ UCClientModel { Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.UCClientModel : Microsoft.Lync.Controls.Internal.Model.IUCClientModel" Usage="Microsoft.Lync.Controls.UCBase.UCClientModel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -599,6 +626,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.UnwireUCClient" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub UnwireUCClient ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void UnwireUCClient();" />
+      <MemberSignature Language="F#" Value="abstract member UnwireUCClient : unit -&gt; unit&#xA;override this.UnwireUCClient : unit -&gt; unit" Usage="uCBase.UnwireUCClient " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -619,6 +647,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCBase.WireUCClient(Microsoft.Lync.Controls.Internal.Model.IUCClientModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub WireUCClient (ucClientModel As IUCClientModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void WireUCClient(Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ ucClientModel);" />
+      <MemberSignature Language="F#" Value="abstract member WireUCClient : Microsoft.Lync.Controls.Internal.Model.IUCClientModel -&gt; unit&#xA;override this.WireUCClient : Microsoft.Lync.Controls.Internal.Model.IUCClientModel -&gt; unit" Usage="uCBase.WireUCClient ucClientModel" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

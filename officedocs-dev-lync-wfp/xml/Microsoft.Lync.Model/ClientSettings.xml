@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ClientSettings" />
   <TypeSignature Language="VB.NET" Value="Public Class ClientSettings&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class ClientSettings : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type ClientSettings = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ClientSettings.CanSetValue(Microsoft.Lync.Model.ClientSettingsType)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanSetValue (settingType As ClientSettingsType) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetValue(Microsoft::Lync::Model::ClientSettingsType settingType);" />
+      <MemberSignature Language="F#" Value="member this.CanSetValue : Microsoft.Lync.Model.ClientSettingsType -&gt; bool" Usage="clientSettings.CanSetValue settingType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -49,6 +51,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ClientSettings.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!ClientSettings ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="clientSettings.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -69,6 +72,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ClientSettings.Item(Microsoft.Lync.Model.ClientSettingsType)" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Item(_settingType As ClientSettingsType) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[Microsoft::Lync::Model::ClientSettingsType] { System::Object ^ get(Microsoft::Lync::Model::ClientSettingsType _settingType); void set(Microsoft::Lync::Model::ClientSettingsType _settingType, System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Lync.Model.ClientSettingsType) : obj with get, set" Usage="Microsoft.Lync.Model.ClientSettings.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -93,6 +97,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.ClientSettings.SettingChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event SettingChanged As EventHandler(Of ClientSettingsChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ClientSettingsChangedEventArgs ^&gt; ^ SettingChanged;" />
+      <MemberSignature Language="F#" Value="member this.SettingChanged : EventHandler&lt;Microsoft.Lync.Model.ClientSettingsChangedEventArgs&gt; " Usage="member this.SettingChanged : System.EventHandler&lt;Microsoft.Lync.Model.ClientSettingsChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

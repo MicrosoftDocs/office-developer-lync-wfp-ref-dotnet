@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactPositionChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactPositionChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ContactPositionChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs.EndPosition" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndPosition As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int EndPosition { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.EndPosition : int" Usage="Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs.EndPosition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs.StartPosition" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartPosition As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartPosition { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.StartPosition : int" Usage="Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs.StartPosition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.LyncControlInitializationError" />
   <TypeSignature Language="VB.NET" Value="Public Enum LyncControlInitializationError" />
   <TypeSignature Language="C++ CLI" Value="public enum class LyncControlInitializationError" />
+  <TypeSignature Language="F#" Value="type LyncControlInitializationError = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.LyncIsNotRunning" />
       <MemberSignature Language="VB.NET" Value="LyncIsNotRunning" />
       <MemberSignature Language="C++ CLI" Value="LyncIsNotRunning" />
+      <MemberSignature Language="F#" Value="LyncIsNotRunning = 2" Usage="Microsoft.Lync.Controls.LyncControlInitializationError.LyncIsNotRunning" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.LyncRunningUnderSuppression" />
       <MemberSignature Language="VB.NET" Value="LyncRunningUnderSuppression" />
       <MemberSignature Language="C++ CLI" Value="LyncRunningUnderSuppression" />
+      <MemberSignature Language="F#" Value="LyncRunningUnderSuppression = 1" Usage="Microsoft.Lync.Controls.LyncControlInitializationError.LyncRunningUnderSuppression" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Controls.LyncControlInitializationError.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.OutOfBrowserNotSupported" />
       <MemberSignature Language="VB.NET" Value="OutOfBrowserNotSupported" />
       <MemberSignature Language="C++ CLI" Value="OutOfBrowserNotSupported" />
+      <MemberSignature Language="F#" Value="OutOfBrowserNotSupported = 3" Usage="Microsoft.Lync.Controls.LyncControlInitializationError.OutOfBrowserNotSupported" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.SiteNotTrusted" />
       <MemberSignature Language="VB.NET" Value="SiteNotTrusted" />
       <MemberSignature Language="C++ CLI" Value="SiteNotTrusted" />
+      <MemberSignature Language="F#" Value="SiteNotTrusted = 2" Usage="Microsoft.Lync.Controls.LyncControlInitializationError.SiteNotTrusted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 3" Usage="Microsoft.Lync.Controls.LyncControlInitializationError.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.LyncControlInitializationError.UnsupportedBrowser" />
       <MemberSignature Language="VB.NET" Value="UnsupportedBrowser" />
       <MemberSignature Language="C++ CLI" Value="UnsupportedBrowser" />
+      <MemberSignature Language="F#" Value="UnsupportedBrowser = 4" Usage="Microsoft.Lync.Controls.LyncControlInitializationError.UnsupportedBrowser" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

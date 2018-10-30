@@ -1,9 +1,10 @@
 ﻿<Type Name="GroupCollection" FullName="Microsoft.Lync.Model.Group.GroupCollection">
-  <TypeSignature Language="C#" Value="public class GroupCollection : Microsoft.Lync.Model.Internal.UCWLite, System.Collections.Generic.ICollection&lt;Microsoft.Lync.Model.Group.Group&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Group.Group&gt;, System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Group.Group&gt;" />
+  <TypeSignature Language="C#" Value="public class GroupCollection : Microsoft.Lync.Model.Internal.UCWLite, System.Collections.Generic.ICollection&lt;Microsoft.Lync.Model.Group.Group&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Lync.Model.Group.Group&gt;, System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Group.Group&gt;, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GroupCollection extends Microsoft.Lync.Model.Internal.UCWLite implements class System.Collections.Generic.ICollection`1&lt;class Microsoft.Lync.Model.Group.Group&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Lync.Model.Group.Group&gt;, class System.Collections.Generic.IList`1&lt;class Microsoft.Lync.Model.Group.Group&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.GroupCollection" />
-  <TypeSignature Language="VB.NET" Value="Public Class GroupCollection&#xA;Inherits UCWLite&#xA;Implements ICollection(Of Group), IEnumerable(Of Group), IList(Of Group)" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GroupCollection : Microsoft::Lync::Model::Internal::UCWLite, System::Collections::Generic::ICollection&lt;Microsoft::Lync::Model::Group::Group ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Group::Group ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Group::Group ^&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupCollection&#xA;Inherits UCWLite&#xA;Implements ICollection(Of Group), IEnumerable, IEnumerable(Of Group), IList(Of Group)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupCollection : Microsoft::Lync::Model::Internal::UCWLite, System::Collections::Generic::ICollection&lt;Microsoft::Lync::Model::Group::Group ^&gt;, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Group::Group ^&gt;, System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Group::Group ^&gt;, System::Collections::IEnumerable" />
+  <TypeSignature Language="F#" Value="type GroupCollection = class&#xA;    inherit UCWLite&#xA;    interface IList&lt;Group&gt;&#xA;    interface ICollection&lt;Group&gt;&#xA;    interface seq&lt;Group&gt;&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -21,6 +22,9 @@
     <Interface>
       <InterfaceName>System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Group.Group&gt;</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
   </Interfaces>
   <Docs>
     <summary>Represents the collection of all groups in the signed in user's contact list.</summary>
@@ -33,10 +37,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.Add(Microsoft.Lync.Model.Group.Group)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (item As Group)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Add(Microsoft::Lync::Model::Group::Group ^ item);" />
+      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Lync.Model.Group.Group -&gt; unit&#xA;override this.Add : Microsoft.Lync.Model.Group.Group -&gt; unit" Usage="groupCollection.Add item" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Add(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -59,10 +61,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="groupCollection.Clear " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -82,10 +82,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.Contains(Microsoft.Lync.Model.Group.Group)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (item As Group) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Contains(Microsoft::Lync::Model::Group::Group ^ item);" />
+      <MemberSignature Language="F#" Value="abstract member Contains : Microsoft.Lync.Model.Group.Group -&gt; bool&#xA;override this.Contains : Microsoft.Lync.Model.Group.Group -&gt; bool" Usage="groupCollection.Contains item" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Contains(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -109,6 +107,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.CopyTo(Microsoft.Lync.Model.Group.Group[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CopyTo (array As Group(), arrayIndex As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CopyTo(cli::array &lt;Microsoft::Lync::Model::Group::Group ^&gt; ^ array, int arrayIndex);" />
+      <MemberSignature Language="F#" Value="abstract member CopyTo : Microsoft.Lync.Model.Group.Group[] * int -&gt; unit&#xA;override this.CopyTo : Microsoft.Lync.Model.Group.Group[] * int -&gt; unit" Usage="groupCollection.CopyTo (array, arrayIndex)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -134,6 +133,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.GroupCollection.Count" />
       <MemberSignature Language="VB.NET" Value="Public Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int with get, set" Usage="Microsoft.Lync.Model.Group.GroupCollection.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -154,10 +154,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of Group)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Lync::Model::Group::Group ^&gt; ^ GetEnumerator();" />
+      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;Microsoft.Lync.Model.Group.Group&gt;&#xA;override this.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;Microsoft.Lync.Model.Group.Group&gt;" Usage="groupCollection.GetEnumerator " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -177,6 +175,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Group.GroupCollection GetGroupsByType(valuetype Microsoft.Lync.Model.Group.GroupType groupType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.GetGroupsByType(Microsoft.Lync.Model.Group.GroupType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Group::GroupCollection ^ GetGroupsByType(Microsoft::Lync::Model::Group::GroupType groupType);" />
+      <MemberSignature Language="F#" Value="member this.GetGroupsByType : Microsoft.Lync.Model.Group.GroupType -&gt; Microsoft.Lync.Model.Group.GroupCollection" Usage="groupCollection.GetGroupsByType groupType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -200,10 +199,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 IndexOf(class Microsoft.Lync.Model.Group.Group group) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.IndexOf(Microsoft.Lync.Model.Group.Group)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int IndexOf(Microsoft::Lync::Model::Group::Group ^ group);" />
+      <MemberSignature Language="F#" Value="abstract member IndexOf : Microsoft.Lync.Model.Group.Group -&gt; int&#xA;override this.IndexOf : Microsoft.Lync.Model.Group.Group -&gt; int" Usage="groupCollection.IndexOf group" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.IndexOf(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -227,10 +224,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.Insert(System.Int32,Microsoft.Lync.Model.Group.Group)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Insert (index As Integer, item As Group)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Insert(int index, Microsoft::Lync::Model::Group::Group ^ item);" />
+      <MemberSignature Language="F#" Value="abstract member Insert : int * Microsoft.Lync.Model.Group.Group -&gt; unit&#xA;override this.Insert : int * Microsoft.Lync.Model.Group.Group -&gt; unit" Usage="groupCollection.Insert (index, item)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.Insert(System.Int32,`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -255,10 +250,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.GroupCollection.IsReadOnly" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReadOnly As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Microsoft.Lync.Model.Group.GroupCollection.IsReadOnly" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.Generic.ICollection`1.IsReadOnly</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -278,10 +271,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Group.GroupCollection.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Item(_index As Integer) As Group" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Group::Group ^ default[int] { Microsoft::Lync::Model::Group::Group ^ get(int _index); void set(int _index, Microsoft::Lync::Model::Group::Group ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : Microsoft.Lync.Model.Group.Group with get, set" Usage="Microsoft.Lync.Model.Group.GroupCollection.Item" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.Generic.IList`1.Item(System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -305,10 +296,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.Remove(Microsoft.Lync.Model.Group.Group)" />
       <MemberSignature Language="VB.NET" Value="Public Function Remove (item As Group) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Remove(Microsoft::Lync::Model::Group::Group ^ item);" />
+      <MemberSignature Language="F#" Value="abstract member Remove : Microsoft.Lync.Model.Group.Group -&gt; bool&#xA;override this.Remove : Microsoft.Lync.Model.Group.Group -&gt; bool" Usage="groupCollection.Remove item" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.ICollection`1.Remove(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -332,10 +321,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.RemoveAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveAt(int index);" />
+      <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="groupCollection.RemoveAt index" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -359,9 +346,6 @@
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -382,6 +366,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.GroupCollection.TryGetGroup(System.String,Microsoft.Lync.Model.Group.Group@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryGetGroup (groupName As String, ByRef value As Group) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetGroup(System::String ^ groupName, [Runtime::InteropServices::Out] Microsoft::Lync::Model::Group::Group ^ % value);" />
+      <MemberSignature Language="F#" Value="member this.TryGetGroup : string *  -&gt; bool" Usage="groupCollection.TryGetGroup (groupName, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -392,7 +377,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="groupName" Type="System.String" />
-        <Parameter Name="value" Type="Microsoft.Lync.Model.Group.Group&amp;" RefType="out" />
+        <Parameter Name="value" Type="Microsoft.Lync.Model.Group.Group" RefType="out" />
       </Parameters>
       <Docs>
         <param name="groupName">To be added.</param>

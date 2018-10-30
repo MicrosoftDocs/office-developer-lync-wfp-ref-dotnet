@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactInformationChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactInformationChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactInformationChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ContactInformationChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactInformationChangedEventArgs.ChangedContactInformation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangedContactInformation As IList(Of ContactInformationType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ ChangedContactInformation { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ChangedContactInformation : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactInformationType&gt;" Usage="Microsoft.Lync.Model.ContactInformationChangedEventArgs.ChangedContactInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

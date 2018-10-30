@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Properties.Resources" />
   <TypeSignature Language="VB.NET" Value="Public Class Resources" />
   <TypeSignature Language="C++ CLI" Value="public ref class Resources" />
+  <TypeSignature Language="F#" Value="type Resources = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -31,6 +32,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.AvailabilityAway" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AvailabilityAway As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AvailabilityAway { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AvailabilityAway : string" Usage="Microsoft.Lync.Controls.Properties.Resources.AvailabilityAway" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -51,6 +53,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.AvailabilityOnline" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AvailabilityOnline As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AvailabilityOnline { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AvailabilityOnline : string" Usage="Microsoft.Lync.Controls.Properties.Resources.AvailabilityOnline" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -71,6 +74,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.AvailabilityUnavailable" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AvailabilityUnavailable As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AvailabilityUnavailable { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AvailabilityUnavailable : string" Usage="Microsoft.Lync.Controls.Properties.Resources.AvailabilityUnavailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -91,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.AvailabilityUnknown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AvailabilityUnknown As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AvailabilityUnknown { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AvailabilityUnknown : string" Usage="Microsoft.Lync.Controls.Properties.Resources.AvailabilityUnknown" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -111,6 +116,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarInfoDisplayed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarInfoDisplayed As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarInfoDisplayed { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarInfoDisplayed : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarInfoDisplayed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -131,6 +137,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateBusy" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateBusy As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateBusy { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateBusy : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateBusy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -151,6 +158,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateDetailsCurrentlyXYatZ" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateDetailsCurrentlyXYatZ As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateDetailsCurrentlyXYatZ { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateDetailsCurrentlyXYatZ : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateDetailsCurrentlyXYatZ" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -171,6 +179,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateDetailsForNextHours" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateDetailsForNextHours As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateDetailsForNextHours { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateDetailsForNextHours : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateDetailsForNextHours" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -191,6 +200,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateDetailsFreeUntil" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateDetailsFreeUntil As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateDetailsFreeUntil { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateDetailsFreeUntil : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateDetailsFreeUntil" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -211,6 +221,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateDetailsNotWorkingUntil" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateDetailsNotWorkingUntil As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateDetailsNotWorkingUntil { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateDetailsNotWorkingUntil : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateDetailsNotWorkingUntil" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -231,6 +242,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateFree" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateFree As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateFree { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateFree : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateFree" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -251,6 +263,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateNotAvailable" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateNotAvailable As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateNotAvailable { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateNotAvailable : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateNotAvailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -271,6 +284,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateNotWorking" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateNotWorking As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateNotWorking { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateNotWorking : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateNotWorking" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -291,6 +305,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateOutOfOffice" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateOutOfOffice As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateOutOfOffice { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateOutOfOffice : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateOutOfOffice" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -311,6 +326,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateTentative" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateTentative As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateTentative { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateTentative : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateTentative" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -331,6 +347,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CalendarStateUnknown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CalendarStateUnknown As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CalendarStateUnknown { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CalendarStateUnknown : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CalendarStateUnknown" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -351,6 +368,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CallButtonLabel" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CallButtonLabel As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CallButtonLabel { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CallButtonLabel : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CallButtonLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -371,6 +389,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactAccessLevelBlocked" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactAccessLevelBlocked As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactAccessLevelBlocked { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactAccessLevelBlocked : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactAccessLevelBlocked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -391,6 +410,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardAutomationPeerHelpText" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardAutomationPeerHelpText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardAutomationPeerHelpText { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardAutomationPeerHelpText : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardAutomationPeerHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -411,6 +431,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderCalendar" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderCalendar As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderCalendar { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderCalendar : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderCalendar" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -431,6 +452,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderDepartment" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderDepartment As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderDepartment { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderDepartment : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderDepartment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -451,6 +473,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderDescription" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderDescription As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderDescription { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderDescription : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderDescription" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -471,6 +494,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderDGOwners" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderDGOwners As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderDGOwners { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderDGOwners : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderDGOwners" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -491,6 +515,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderEmail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderEmail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderEmail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderEmail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderEmail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -511,6 +536,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderHome" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderHome As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderHome { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderHome : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderHome" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -531,6 +557,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderLocation" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderLocation As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderLocation { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderLocation : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderLocation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -551,6 +578,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderMobile" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderMobile As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderMobile { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderMobile : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderMobile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -571,6 +599,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderOffice" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderOffice As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderOffice { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderOffice : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderOffice" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -591,6 +620,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderTitle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderTitle As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderTitle { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderTitle : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderTitle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -611,6 +641,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderWork" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailHeaderWork As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailHeaderWork { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailHeaderWork : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailHeaderWork" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -631,6 +662,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailOrganizationHeaderManagement" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailOrganizationHeaderManagement As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailOrganizationHeaderManagement { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailOrganizationHeaderManagement : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailOrganizationHeaderManagement" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -651,6 +683,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailOrganizationHeaderManager" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailOrganizationHeaderManager As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailOrganizationHeaderManager { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailOrganizationHeaderManager : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailOrganizationHeaderManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -671,6 +704,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailOrganizationHeaderReports" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailOrganizationHeaderReports As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailOrganizationHeaderReports { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailOrganizationHeaderReports : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailOrganizationHeaderReports" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -691,6 +725,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailOrganizationHeaderSharesManager" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailOrganizationHeaderSharesManager As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailOrganizationHeaderSharesManager { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailOrganizationHeaderSharesManager : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailOrganizationHeaderSharesManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -711,6 +746,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTabContact" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailTabContact As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailTabContact { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailTabContact : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTabContact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -731,6 +767,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTabGroup" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailTabGroup As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailTabGroup { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailTabGroup : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTabGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -751,6 +788,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTabMembers" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailTabMembers As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailTabMembers { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailTabMembers : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTabMembers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -771,6 +809,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTabOrganization" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailTabOrganization As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailTabOrganization { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailTabOrganization : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTabOrganization" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -791,6 +830,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTimeIsLocal" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardDetailTimeIsLocal As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardDetailTimeIsLocal { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardDetailTimeIsLocal : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardDetailTimeIsLocal" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -811,6 +851,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardExpanderCollapse" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardExpanderCollapse As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardExpanderCollapse { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardExpanderCollapse : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardExpanderCollapse" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -831,6 +872,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardExpanderCollapseToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardExpanderCollapseToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardExpanderCollapseToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardExpanderCollapseToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardExpanderCollapseToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -851,6 +893,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardExpanderExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardExpanderExpand As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardExpanderExpand { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardExpanderExpand : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardExpanderExpand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -871,6 +914,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardExpanderExpandToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardExpanderExpandToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardExpanderExpandToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardExpanderExpandToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardExpanderExpandToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -891,6 +935,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactCardScheduleMeeting" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactCardScheduleMeeting As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactCardScheduleMeeting { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactCardScheduleMeeting : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactCardScheduleMeeting" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -911,6 +956,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeContact" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactEndpointTypeContact As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactEndpointTypeContact { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactEndpointTypeContact : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeContact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -931,6 +977,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeHome" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactEndpointTypeHome As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactEndpointTypeHome { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactEndpointTypeHome : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeHome" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -951,6 +998,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeMobile" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactEndpointTypeMobile As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactEndpointTypeMobile { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactEndpointTypeMobile : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeMobile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -971,6 +1019,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeOther" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactEndpointTypeOther As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactEndpointTypeOther { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactEndpointTypeOther : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeOther" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -991,6 +1040,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeVoiceMail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactEndpointTypeVoiceMail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactEndpointTypeVoiceMail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactEndpointTypeVoiceMail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeVoiceMail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1011,6 +1061,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeWork" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactEndpointTypeWork As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactEndpointTypeWork { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactEndpointTypeWork : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactEndpointTypeWork" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1031,6 +1082,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListCustomGroupLabel" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListCustomGroupLabel As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListCustomGroupLabel { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListCustomGroupLabel : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListCustomGroupLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1051,6 +1103,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListDistGroupLabel" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListDistGroupLabel As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListDistGroupLabel { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListDistGroupLabel : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListDistGroupLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1071,6 +1124,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListFilterGroup" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListFilterGroup As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListFilterGroup { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListFilterGroup : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListFilterGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1091,6 +1145,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListFilterGroupToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListFilterGroupToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListFilterGroupToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListFilterGroupToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListFilterGroupToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1111,6 +1166,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListFilterRelationship" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListFilterRelationship As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListFilterRelationship { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListFilterRelationship : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListFilterRelationship" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1131,6 +1187,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListFilterRelationshipToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListFilterRelationshipToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListFilterRelationshipToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListFilterRelationshipToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListFilterRelationshipToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1151,6 +1208,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListFilterStatus" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListFilterStatus As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListFilterStatus { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListFilterStatus : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListFilterStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1171,6 +1229,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListFilterStatusToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListFilterStatusToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListFilterStatusToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListFilterStatusToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListFilterStatusToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1191,6 +1250,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListFrequentContactsGroupName" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListFrequentContactsGroupName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListFrequentContactsGroupName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListFrequentContactsGroupName : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListFrequentContactsGroupName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1211,6 +1271,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListOtherGroupLabel" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListOtherGroupLabel As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListOtherGroupLabel { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListOtherGroupLabel : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListOtherGroupLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1231,6 +1292,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListUnknownGroupLabel" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListUnknownGroupLabel As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListUnknownGroupLabel { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListUnknownGroupLabel : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListUnknownGroupLabel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1251,6 +1313,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListViewAvailability" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListViewAvailability As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListViewAvailability { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListViewAvailability : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListViewAvailability" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1271,6 +1334,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListViewDisplayName" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListViewDisplayName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListViewDisplayName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListViewDisplayName : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListViewDisplayName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1291,6 +1355,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListViewOneLine" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListViewOneLine As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListViewOneLine { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListViewOneLine : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListViewOneLine" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1311,6 +1376,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListViewShowFrequentContacts" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListViewShowFrequentContacts As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListViewShowFrequentContacts { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListViewShowFrequentContacts : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListViewShowFrequentContacts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1331,6 +1397,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListViewShowFriendlyName" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListViewShowFriendlyName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListViewShowFriendlyName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListViewShowFriendlyName : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListViewShowFriendlyName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1351,6 +1418,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactListViewTwoLine" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactListViewTwoLine As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactListViewTwoLine { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactListViewTwoLine : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactListViewTwoLine" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1371,6 +1439,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContactsListAutomationPeerHelpText" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContactsListAutomationPeerHelpText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContactsListAutomationPeerHelpText { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactsListAutomationPeerHelpText : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContactsListAutomationPeerHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1391,6 +1460,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuAddToContactList" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuAddToContactList As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuAddToContactList { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuAddToContactList : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuAddToContactList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1411,6 +1481,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuChangePrivacy" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuChangePrivacy As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuChangePrivacy { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuChangePrivacy : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuChangePrivacy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1431,6 +1502,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuCopyContact" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuCopyContact As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuCopyContact { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuCopyContact : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuCopyContact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1451,6 +1523,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuCopyUri" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuCopyUri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuCopyUri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuCopyUri : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuCopyUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1471,6 +1544,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupDelete" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuGroupDelete As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuGroupDelete { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuGroupDelete : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupDelete" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1491,6 +1565,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupMoveDown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuGroupMoveDown As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuGroupMoveDown { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuGroupMoveDown : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupMoveDown" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1511,6 +1586,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupMoveUp" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuGroupMoveUp As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuGroupMoveUp { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuGroupMoveUp : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupMoveUp" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1531,6 +1607,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupNew" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuGroupNew As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuGroupNew { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuGroupNew : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupNew" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1551,6 +1628,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupRename" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuGroupRename As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuGroupRename { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuGroupRename : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuGroupRename" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1571,6 +1649,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuMoveContact" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuMoveContact As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuMoveContact { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuMoveContact : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuMoveContact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1591,6 +1670,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuPasteUri" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuPasteUri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuPasteUri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuPasteUri : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuPasteUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1611,6 +1691,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuPinContact" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuPinContact As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuPinContact { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuPinContact : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuPinContact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1631,6 +1712,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuRemoveContact" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuRemoveContact As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuRemoveContact { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuRemoveContact : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuRemoveContact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1651,6 +1733,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuRemoveContactFromGroup" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuRemoveContactFromGroup As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuRemoveContactFromGroup { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuRemoveContactFromGroup : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuRemoveContactFromGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1671,6 +1754,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuSendEmail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuSendEmail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuSendEmail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuSendEmail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuSendEmail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1691,6 +1775,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuSendIM" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuSendIM As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuSendIM { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuSendIM : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuSendIM" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1711,6 +1796,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuStartCall" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuStartCall As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuStartCall { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuStartCall : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuStartCall" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1731,6 +1817,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuStartConference" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuStartConference As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuStartConference { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuStartConference : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuStartConference" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1751,6 +1838,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuStartConferenceByCalling" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuStartConferenceByCalling As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuStartConferenceByCalling { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuStartConferenceByCalling : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuStartConferenceByCalling" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1771,6 +1859,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuStartConferenceNowUsing" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuStartConferenceNowUsing As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuStartConferenceNowUsing { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuStartConferenceNowUsing : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuStartConferenceNowUsing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1791,6 +1880,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuTag" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuTag As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuTag { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuTag : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuTag" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1811,6 +1901,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuUnpinContact" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuUnpinContact As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuUnpinContact { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuUnpinContact : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuUnpinContact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1831,6 +1922,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuViewContactCard" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuViewContactCard As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuViewContactCard { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuViewContactCard : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuViewContactCard" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1851,6 +1943,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuWithLync" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuWithLync As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuWithLync { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuWithLync : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuWithLync" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1871,6 +1964,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuWithNewNumber" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuWithNewNumber As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuWithNewNumber { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuWithNewNumber : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuWithNewNumber" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1891,6 +1985,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ContextMenuWithOtherDevice" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContextMenuWithOtherDevice As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContextMenuWithOtherDevice { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenuWithOtherDevice : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ContextMenuWithOtherDevice" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1911,14 +2006,18 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.Culture" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property Culture As CultureInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Globalization::CultureInfo ^ Culture { System::Globalization::CultureInfo ^ get(); void set(System::Globalization::CultureInfo ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Culture : System.Globalization.CultureInfo with get, set" Usage="Microsoft.Lync.Controls.Properties.Resources.Culture" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="lync-wfp">
           <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="lync-silverlight">
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1936,6 +2035,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.CustomContactsListAutomationPeerHelpText" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CustomContactsListAutomationPeerHelpText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CustomContactsListAutomationPeerHelpText { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CustomContactsListAutomationPeerHelpText : string" Usage="Microsoft.Lync.Controls.Properties.Resources.CustomContactsListAutomationPeerHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1956,6 +2056,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.Day" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Day As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ Day { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Day : string" Usage="Microsoft.Lync.Controls.Properties.Resources.Day" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1976,6 +2077,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.Days" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Days As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ Days { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Days : string" Usage="Microsoft.Lync.Controls.Properties.Resources.Days" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -1996,6 +2098,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.EigthMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EigthMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ EigthMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.EigthMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.EigthMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2016,6 +2119,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.EntireDesktop" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EntireDesktop As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ EntireDesktop { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.EntireDesktop : string" Usage="Microsoft.Lync.Controls.Properties.Resources.EntireDesktop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2036,6 +2140,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ERROR_PROVIDER_BROWSER" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ERROR_PROVIDER_BROWSER As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ERROR_PROVIDER_BROWSER { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ERROR_PROVIDER_BROWSER : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ERROR_PROVIDER_BROWSER" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2056,6 +2161,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ERROR_PROVIDER_OS" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ERROR_PROVIDER_OS As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ERROR_PROVIDER_OS { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ERROR_PROVIDER_OS : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ERROR_PROVIDER_OS" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2076,6 +2182,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.FifthMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FifthMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ FifthMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FifthMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.FifthMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2096,6 +2203,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.FourthMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FourthMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ FourthMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FourthMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.FourthMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2116,6 +2224,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.Hour" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Hour As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ Hour { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Hour : string" Usage="Microsoft.Lync.Controls.Properties.Resources.Hour" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2136,6 +2245,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.Hours" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Hours As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ Hours { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Hours : string" Usage="Microsoft.Lync.Controls.Properties.Resources.Hours" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2156,6 +2266,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.LocalUserNoteWatermark" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LocalUserNoteWatermark As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ LocalUserNoteWatermark { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LocalUserNoteWatermark : string" Usage="Microsoft.Lync.Controls.Properties.Resources.LocalUserNoteWatermark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2176,6 +2287,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MainMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MainMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MainMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MainMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MainMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2196,6 +2308,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.Minutes" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Minutes As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ Minutes { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Minutes : string" Usage="Microsoft.Lync.Controls.Properties.Resources.Minutes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2216,6 +2329,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MonitorSuffix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MonitorSuffix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MonitorSuffix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MonitorSuffix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MonitorSuffix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2236,6 +2350,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MyNoteBoxWatermark" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MyNoteBoxWatermark As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MyNoteBoxWatermark { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyNoteBoxWatermark : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MyNoteBoxWatermark" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2256,6 +2371,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserAppearAway" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MyPresenceChooserAppearAway As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MyPresenceChooserAppearAway { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyPresenceChooserAppearAway : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserAppearAway" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2276,6 +2392,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserAvailable" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MyPresenceChooserAvailable As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MyPresenceChooserAvailable { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyPresenceChooserAvailable : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserAvailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2296,6 +2413,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserBeRightBack" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MyPresenceChooserBeRightBack As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MyPresenceChooserBeRightBack { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyPresenceChooserBeRightBack : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserBeRightBack" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2316,6 +2434,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserBusy" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MyPresenceChooserBusy As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MyPresenceChooserBusy { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyPresenceChooserBusy : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserBusy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2336,6 +2455,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserDoNotDisturb" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MyPresenceChooserDoNotDisturb As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MyPresenceChooserDoNotDisturb { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyPresenceChooserDoNotDisturb : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserDoNotDisturb" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2356,6 +2476,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserOffWork" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MyPresenceChooserOffWork As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MyPresenceChooserOffWork { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyPresenceChooserOffWork : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserOffWork" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2376,6 +2497,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserResetStatus" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MyPresenceChooserResetStatus As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MyPresenceChooserResetStatus { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MyPresenceChooserResetStatus : string" Usage="Microsoft.Lync.Controls.Properties.Resources.MyPresenceChooserResetStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2396,6 +2518,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.NinthMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NinthMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ NinthMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NinthMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.NinthMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2416,6 +2539,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.OverflowMenuScheduleMeeting" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OverflowMenuScheduleMeeting As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ OverflowMenuScheduleMeeting { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OverflowMenuScheduleMeeting : string" Usage="Microsoft.Lync.Controls.Properties.Resources.OverflowMenuScheduleMeeting" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2436,6 +2560,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.OverflowMenuSendFile" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OverflowMenuSendFile As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ OverflowMenuSendFile { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OverflowMenuSendFile : string" Usage="Microsoft.Lync.Controls.Properties.Resources.OverflowMenuSendFile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2456,6 +2581,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.OverflowMenuShare" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OverflowMenuShare As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ OverflowMenuShare { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OverflowMenuShare : string" Usage="Microsoft.Lync.Controls.Properties.Resources.OverflowMenuShare" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2476,6 +2602,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.OverflowMenuStartVideo" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OverflowMenuStartVideo As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ OverflowMenuStartVideo { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OverflowMenuStartVideo : string" Usage="Microsoft.Lync.Controls.Properties.Resources.OverflowMenuStartVideo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2496,6 +2623,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.OverflowMenuViewMySite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OverflowMenuViewMySite As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ OverflowMenuViewMySite { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OverflowMenuViewMySite : string" Usage="Microsoft.Lync.Controls.Properties.Resources.OverflowMenuViewMySite" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2516,6 +2644,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PopupContactCardCloseToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PopupContactCardCloseToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PopupContactCardCloseToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PopupContactCardCloseToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PopupContactCardCloseToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2536,6 +2665,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PopupContactCardPinToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PopupContactCardPinToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PopupContactCardPinToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PopupContactCardPinToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PopupContactCardPinToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2556,6 +2686,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PopupContactCardUnPinToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PopupContactCardUnPinToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PopupContactCardUnPinToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PopupContactCardUnPinToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PopupContactCardUnPinToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2576,6 +2707,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PresenceAvailabilityIndicatorAutomationPeerHelpText" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PresenceAvailabilityIndicatorAutomationPeerHelpText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PresenceAvailabilityIndicatorAutomationPeerHelpText { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PresenceAvailabilityIndicatorAutomationPeerHelpText : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PresenceAvailabilityIndicatorAutomationPeerHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2596,6 +2728,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyAutoDetail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyAutoDetail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyAutoDetail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyAutoDetail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyAutoDetail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2616,6 +2749,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyAutoHeader" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyAutoHeader As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyAutoHeader { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyAutoHeader : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyAutoHeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2636,6 +2770,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyAutoToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyAutoToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyAutoToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyAutoToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyAutoToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2656,6 +2791,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyBlockedDetail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyBlockedDetail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyBlockedDetail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyBlockedDetail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyBlockedDetail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2676,6 +2812,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyBlockedHeader" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyBlockedHeader As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyBlockedHeader { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyBlockedHeader : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyBlockedHeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2696,6 +2833,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyBlockedToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyBlockedToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyBlockedToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyBlockedToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyBlockedToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2716,6 +2854,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyColleaguesDetail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyColleaguesDetail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyColleaguesDetail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyColleaguesDetail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyColleaguesDetail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2736,6 +2875,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyColleaguesHeader" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyColleaguesHeader As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyColleaguesHeader { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyColleaguesHeader : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyColleaguesHeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2756,6 +2896,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyColleaguesToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyColleaguesToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyColleaguesToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyColleaguesToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyColleaguesToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2776,6 +2917,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyExternalContactsDetail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyExternalContactsDetail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyExternalContactsDetail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyExternalContactsDetail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyExternalContactsDetail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2796,6 +2938,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyExternalContactsHeader" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyExternalContactsHeader As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyExternalContactsHeader { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyExternalContactsHeader : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyExternalContactsHeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2816,6 +2959,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyExternalContactsToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyExternalContactsToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyExternalContactsToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyExternalContactsToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyExternalContactsToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2836,6 +2980,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyFriendsFamilyDetail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyFriendsFamilyDetail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyFriendsFamilyDetail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyFriendsFamilyDetail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyFriendsFamilyDetail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2856,6 +3001,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyFriendsFamilyHeader" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyFriendsFamilyHeader As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyFriendsFamilyHeader { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyFriendsFamilyHeader : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyFriendsFamilyHeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2876,6 +3022,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyFriendsFamilyToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyFriendsFamilyToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyFriendsFamilyToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyFriendsFamilyToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyFriendsFamilyToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2896,6 +3043,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipBlockedContacts" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyRelationshipBlockedContacts As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyRelationshipBlockedContacts { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyRelationshipBlockedContacts : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipBlockedContacts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2916,6 +3064,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipColleagues" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyRelationshipColleagues As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyRelationshipColleagues { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyRelationshipColleagues : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipColleagues" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2936,6 +3085,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipExternalContacts" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyRelationshipExternalContacts As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyRelationshipExternalContacts { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyRelationshipExternalContacts : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipExternalContacts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2956,6 +3106,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipFriendsAndFamily" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyRelationshipFriendsAndFamily As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyRelationshipFriendsAndFamily { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyRelationshipFriendsAndFamily : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipFriendsAndFamily" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2976,6 +3127,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipWorkgroup" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyRelationshipWorkgroup As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyRelationshipWorkgroup { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyRelationshipWorkgroup : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyRelationshipWorkgroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -2996,6 +3148,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyWorkgroupDetail" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyWorkgroupDetail As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyWorkgroupDetail { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyWorkgroupDetail : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyWorkgroupDetail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3016,6 +3169,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyWorkgroupHeader" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyWorkgroupHeader As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyWorkgroupHeader { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyWorkgroupHeader : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyWorkgroupHeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3036,6 +3190,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PrivacyWorkgroupToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PrivacyWorkgroupToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PrivacyWorkgroupToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PrivacyWorkgroupToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PrivacyWorkgroupToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3056,6 +3211,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PRODUCT_NAME" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PRODUCT_NAME As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PRODUCT_NAME { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PRODUCT_NAME : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PRODUCT_NAME" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3076,6 +3232,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.PropertyChanged_InvalidWrite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PropertyChanged_InvalidWrite As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PropertyChanged_InvalidWrite { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PropertyChanged_InvalidWrite : string" Usage="Microsoft.Lync.Controls.Properties.Resources.PropertyChanged_InvalidWrite" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3096,14 +3253,18 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ResourceManager" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ResourceManager As ResourceManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Resources::ResourceManager ^ ResourceManager { System::Resources::ResourceManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ResourceManager : System.Resources.ResourceManager" Usage="Microsoft.Lync.Controls.Properties.Resources.ResourceManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="lync-wfp">
           <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="lync-silverlight">
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3121,6 +3282,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorAllNoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorAllNoise As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorAllNoise { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorAllNoise : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorAllNoise" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3141,6 +3303,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorBadQuery" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorBadQuery As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorBadQuery { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorBadQuery : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorBadQuery" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3161,6 +3324,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorBadRequest" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorBadRequest As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorBadRequest { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorBadRequest : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorBadRequest" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3181,6 +3345,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorBadScope" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorBadScope As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorBadScope { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorBadScope : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorBadScope" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3201,6 +3366,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorExternalUrlNotConfigured" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorExternalUrlNotConfigured As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorExternalUrlNotConfigured { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorExternalUrlNotConfigured : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorExternalUrlNotConfigured" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3221,6 +3387,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorGeneric" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorGeneric As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorGeneric { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorGeneric : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorGeneric" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3241,6 +3408,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorInternalUrlNotConfigured" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorInternalUrlNotConfigured As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorInternalUrlNotConfigured { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorInternalUrlNotConfigured : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorInternalUrlNotConfigured" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3261,6 +3429,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorNoAuthorization" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorNoAuthorization As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorNoAuthorization { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorNoAuthorization : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorNoAuthorization" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3281,6 +3450,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorNone" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorNone As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorNone { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorNone : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorNone" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3301,6 +3471,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorNoResponse" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorNoResponse As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorNoResponse { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorNoResponse : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorNoResponse" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3321,6 +3492,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchErrorSharepointNotConfigured" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchErrorSharepointNotConfigured As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchErrorSharepointNotConfigured { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchErrorSharepointNotConfigured : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchErrorSharepointNotConfigured" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3341,6 +3513,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputAutomationPeerHelpText" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputAutomationPeerHelpText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputAutomationPeerHelpText { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputAutomationPeerHelpText : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputAutomationPeerHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3361,6 +3534,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputCloseButtonTooltip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputCloseButtonTooltip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputCloseButtonTooltip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputCloseButtonTooltip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputCloseButtonTooltip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3381,6 +3555,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputFilterName" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputFilterName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputFilterName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputFilterName : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputFilterName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3401,6 +3576,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputFilterSkill" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputFilterSkill As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputFilterSkill { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputFilterSkill : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputFilterSkill" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3421,6 +3597,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputNameButtonTooltip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputNameButtonTooltip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputNameButtonTooltip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputNameButtonTooltip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputNameButtonTooltip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3441,6 +3618,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputNameTooltip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputNameTooltip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputNameTooltip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputNameTooltip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputNameTooltip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3461,6 +3639,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputNameWatermarkWithSkillSearch" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputNameWatermarkWithSkillSearch As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputNameWatermarkWithSkillSearch { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputNameWatermarkWithSkillSearch : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputNameWatermarkWithSkillSearch" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3481,6 +3660,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputNameWatermarkWithSkillSearchDisabled" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputNameWatermarkWithSkillSearchDisabled As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputNameWatermarkWithSkillSearchDisabled { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputNameWatermarkWithSkillSearchDisabled : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputNameWatermarkWithSkillSearchDisabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3501,6 +3681,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchInputSkillButtonTooltip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchInputSkillButtonTooltip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchInputSkillButtonTooltip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchInputSkillButtonTooltip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchInputSkillButtonTooltip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3521,6 +3702,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchNResults" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchNResults As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchNResults { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchNResults : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchNResults" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3541,6 +3723,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchOneResult" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchOneResult As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchOneResult { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchOneResult : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchOneResult" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3561,6 +3744,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchResultsAutomationPeerHelpText" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchResultsAutomationPeerHelpText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchResultsAutomationPeerHelpText { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchResultsAutomationPeerHelpText : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchResultsAutomationPeerHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3581,6 +3765,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchResultsError" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchResultsError As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchResultsError { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchResultsError : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchResultsError" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3601,6 +3786,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchResultsInProgress" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchResultsInProgress As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchResultsInProgress { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchResultsInProgress : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchResultsInProgress" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3621,6 +3807,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchTopNResults" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchTopNResults As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchTopNResults { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchTopNResults : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchTopNResults" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3641,6 +3828,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SearchTopOneResult" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SearchTopOneResult As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SearchTopOneResult { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchTopOneResult : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SearchTopOneResult" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3661,6 +3849,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SecondMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SecondMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SecondMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SecondMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SecondMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3681,6 +3870,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SeventMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SeventMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SeventMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SeventMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SeventMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3701,6 +3891,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SixthMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SixthMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SixthMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SixthMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SixthMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3721,6 +3912,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.StartAudioCallButtonRightToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StartAudioCallButtonRightToolTip As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ StartAudioCallButtonRightToolTip { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.StartAudioCallButtonRightToolTip : string" Usage="Microsoft.Lync.Controls.Properties.Resources.StartAudioCallButtonRightToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3741,6 +3933,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.StartAudioCallConfirmConferenceMessage1" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StartAudioCallConfirmConferenceMessage1 As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ StartAudioCallConfirmConferenceMessage1 { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.StartAudioCallConfirmConferenceMessage1 : string" Usage="Microsoft.Lync.Controls.Properties.Resources.StartAudioCallConfirmConferenceMessage1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3761,6 +3954,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.StartAudioCallConfirmConferenceMessage2Silverlight" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StartAudioCallConfirmConferenceMessage2Silverlight As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ StartAudioCallConfirmConferenceMessage2Silverlight { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.StartAudioCallConfirmConferenceMessage2Silverlight : string" Usage="Microsoft.Lync.Controls.Properties.Resources.StartAudioCallConfirmConferenceMessage2Silverlight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3781,6 +3975,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.StartAudioCallConfirmConferenceMessage2WPF" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StartAudioCallConfirmConferenceMessage2WPF As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ StartAudioCallConfirmConferenceMessage2WPF { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.StartAudioCallConfirmConferenceMessage2WPF : string" Usage="Microsoft.Lync.Controls.Properties.Resources.StartAudioCallConfirmConferenceMessage2WPF" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3801,6 +3996,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.StartAudioCallConfirmConferenceTitle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StartAudioCallConfirmConferenceTitle As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ StartAudioCallConfirmConferenceTitle { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.StartAudioCallConfirmConferenceTitle : string" Usage="Microsoft.Lync.Controls.Properties.Resources.StartAudioCallConfirmConferenceTitle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3821,6 +4017,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SUPPORTED_BROWSERS" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SUPPORTED_BROWSERS As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SUPPORTED_BROWSERS { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SUPPORTED_BROWSERS : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SUPPORTED_BROWSERS" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3841,6 +4038,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SUPPORTED_OPERATING_SYSTEMS" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SUPPORTED_OPERATING_SYSTEMS As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SUPPORTED_OPERATING_SYSTEMS { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SUPPORTED_OPERATING_SYSTEMS : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SUPPORTED_OPERATING_SYSTEMS" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3861,6 +4059,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SyncStateFailed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SyncStateFailed As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SyncStateFailed { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SyncStateFailed : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SyncStateFailed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3881,6 +4080,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SyncStateInProgress" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SyncStateInProgress As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SyncStateInProgress { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SyncStateInProgress : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SyncStateInProgress" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3901,6 +4101,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.SyncStateNotStarted" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SyncStateNotStarted As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SyncStateNotStarted { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SyncStateNotStarted : string" Usage="Microsoft.Lync.Controls.Properties.Resources.SyncStateNotStarted" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3921,6 +4122,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.TenthMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TenthMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ TenthMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TenthMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.TenthMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3941,6 +4143,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ThirdMonitorPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ThirdMonitorPrefix As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ThirdMonitorPrefix { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ThirdMonitorPrefix : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ThirdMonitorPrefix" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3961,6 +4164,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipAddContactToGroup" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipAddContactToGroup As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipAddContactToGroup { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipAddContactToGroup : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipAddContactToGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -3981,6 +4185,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipAddDistributionGroupToContactList" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipAddDistributionGroupToContactList As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipAddDistributionGroupToContactList { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipAddDistributionGroupToContactList : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipAddDistributionGroupToContactList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4001,6 +4206,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.TooltipCallButtonViewMoreCallOptions" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TooltipCallButtonViewMoreCallOptions As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ TooltipCallButtonViewMoreCallOptions { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TooltipCallButtonViewMoreCallOptions : string" Usage="Microsoft.Lync.Controls.Properties.Resources.TooltipCallButtonViewMoreCallOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4021,6 +4227,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipContactCardDetailsCallFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipContactCardDetailsCallFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipContactCardDetailsCallFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipContactCardDetailsCallFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipContactCardDetailsCallFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4041,6 +4248,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipContactListLayoutMenuLeft" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipContactListLayoutMenuLeft As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipContactListLayoutMenuLeft { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipContactListLayoutMenuLeft : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipContactListLayoutMenuLeft" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4061,6 +4269,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipContactListLayoutMenuRight" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipContactListLayoutMenuRight As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipContactListLayoutMenuRight { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipContactListLayoutMenuRight : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipContactListLayoutMenuRight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4081,6 +4290,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipOverflowMenu" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipOverflowMenu As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipOverflowMenu { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipOverflowMenu : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipOverflowMenu" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4101,6 +4311,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipScheduleMeeting" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipScheduleMeeting As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipScheduleMeeting { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipScheduleMeeting : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipScheduleMeeting" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4121,6 +4332,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipSendEmailFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipSendEmailFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipSendEmailFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipSendEmailFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipSendEmailFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4141,6 +4353,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipSendEmailNotAvailable" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipSendEmailNotAvailable As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipSendEmailNotAvailable { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipSendEmailNotAvailable : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipSendEmailNotAvailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4161,6 +4374,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipSendFile" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipSendFile As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipSendFile { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipSendFile : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipSendFile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4181,6 +4395,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipSendInsantMessageNotAvailable" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipSendInsantMessageNotAvailable As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipSendInsantMessageNotAvailable { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipSendInsantMessageNotAvailable : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipSendInsantMessageNotAvailable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4201,6 +4416,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipSendInstantMessageFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipSendInstantMessageFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipSendInstantMessageFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipSendInstantMessageFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipSendInstantMessageFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4221,6 +4437,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipSetAvailability" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipSetAvailability As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipSetAvailability { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipSetAvailability : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipSetAvailability" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4241,6 +4458,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipShareDesktop" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipShareDesktop As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipShareDesktop { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipShareDesktop : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipShareDesktop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4261,6 +4479,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioContactFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipStartAudioContactFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipStartAudioContactFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipStartAudioContactFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioContactFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4281,6 +4500,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioGroup" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipStartAudioGroup As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipStartAudioGroup { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipStartAudioGroup : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4301,6 +4521,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioHomeFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipStartAudioHomeFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipStartAudioHomeFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipStartAudioHomeFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioHomeFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4321,6 +4542,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioMobileFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipStartAudioMobileFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipStartAudioMobileFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipStartAudioMobileFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioMobileFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4341,6 +4563,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioOtherFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipStartAudioOtherFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipStartAudioOtherFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipStartAudioOtherFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioOtherFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4361,6 +4584,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioVoicemailFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipStartAudioVoicemailFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipStartAudioVoicemailFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipStartAudioVoicemailFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioVoicemailFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4381,6 +4605,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioWorkFormat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipStartAudioWorkFormat As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipStartAudioWorkFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipStartAudioWorkFormat : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipStartAudioWorkFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4401,6 +4626,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ToolTipStartVideo" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ToolTipStartVideo As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ToolTipStartVideo { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ToolTipStartVideo : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ToolTipStartVideo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4421,6 +4647,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.TryKeywordSearch" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TryKeywordSearch As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ TryKeywordSearch { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TryKeywordSearch : string" Usage="Microsoft.Lync.Controls.Properties.Resources.TryKeywordSearch" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -4441,6 +4668,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Properties.Resources.ViewResultsInSharePoint" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ViewResultsInSharePoint As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ViewResultsInSharePoint { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ViewResultsInSharePoint : string" Usage="Microsoft.Lync.Controls.Properties.Resources.ViewResultsInSharePoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

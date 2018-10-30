@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.NotificationUrgencyType" />
   <TypeSignature Language="VB.NET" Value="Public Enum NotificationUrgencyType" />
   <TypeSignature Language="C++ CLI" Value="public enum class NotificationUrgencyType" />
+  <TypeSignature Language="F#" Value="type NotificationUrgencyType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.NotificationUrgencyType.High" />
       <MemberSignature Language="VB.NET" Value="High" />
       <MemberSignature Language="C++ CLI" Value="High" />
+      <MemberSignature Language="F#" Value="High = 80" Usage="Microsoft.Lync.Model.NotificationUrgencyType.High" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.NotificationUrgencyType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.NotificationUrgencyType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.NotificationUrgencyType.Low" />
       <MemberSignature Language="VB.NET" Value="Low" />
       <MemberSignature Language="C++ CLI" Value="Low" />
+      <MemberSignature Language="F#" Value="Low = 20" Usage="Microsoft.Lync.Model.NotificationUrgencyType.Low" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.NotificationUrgencyType.Neutral" />
       <MemberSignature Language="VB.NET" Value="Neutral" />
       <MemberSignature Language="C++ CLI" Value="Neutral" />
+      <MemberSignature Language="F#" Value="Neutral = 50" Usage="Microsoft.Lync.Model.NotificationUrgencyType.Neutral" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

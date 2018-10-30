@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Modality" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Modality&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class Modality abstract : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type Modality = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.Accept" />
       <MemberSignature Language="VB.NET" Value="Public Sub Accept ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Accept();" />
+      <MemberSignature Language="F#" Value="member this.Accept : unit -&gt; unit" Usage="modality.Accept " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Modality.ActionAvailabilityChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ModalityActionAvailabilityChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityActionAvailabilityChangedEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberSignature Language="F#" Value="member this.ActionAvailabilityChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityActionAvailabilityChangedEventArgs&gt; " Usage="member this.ActionAvailabilityChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityActionAvailabilityChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -68,6 +71,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginConnect(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginConnect (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginConnect(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginConnect : AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginConnect (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -95,6 +99,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginConsultativeTransfer(class Microsoft.Lync.Model.Conversation.Conversation conversation, valuetype Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions options, class System.AsyncCallback modalityCallback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginConsultativeTransfer(Microsoft.Lync.Model.Conversation.Conversation,Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginConsultativeTransfer(Microsoft::Lync::Model::Conversation::Conversation ^ conversation, Microsoft::Lync::Model::Conversation::AudioVideo::TransferOptions options, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginConsultativeTransfer : Microsoft.Lync.Model.Conversation.Conversation * Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions * AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginConsultativeTransfer (conversation, options, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -127,6 +132,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginDisconnect(Microsoft.Lync.Model.Conversation.ModalityDisconnectReason,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginDisconnect (reason As ModalityDisconnectReason, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginDisconnect(Microsoft::Lync::Model::Conversation::ModalityDisconnectReason reason, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginDisconnect : Microsoft.Lync.Model.Conversation.ModalityDisconnectReason * AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginDisconnect (reason, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -156,6 +162,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginForward(class Microsoft.Lync.Model.Contact contact, class System.AsyncCallback modalityCallback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginForward(Microsoft.Lync.Model.Contact,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginForward(Microsoft::Lync::Model::Contact ^ contact, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginForward : Microsoft.Lync.Model.Contact * AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginForward (contact, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -190,6 +197,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginForward(Microsoft.Lync.Model.ContactEndpoint,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginForward (endpoint As ContactEndpoint, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginForward(Microsoft::Lync::Model::ContactEndpoint ^ endpoint, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginForward : Microsoft.Lync.Model.ContactEndpoint * AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginForward (endpoint, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -224,6 +232,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginHold(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginHold (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginHold(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginHold : AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginHold (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -252,6 +261,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginRetrieve(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginRetrieve (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRetrieve(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginRetrieve : AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginRetrieve (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -280,6 +290,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginSetProperty(Microsoft.Lync.Model.Conversation.ModalityProperty,System.Object,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSetProperty (propertyType As ModalityProperty, propertyValue As Object, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetProperty(Microsoft::Lync::Model::Conversation::ModalityProperty propertyType, System::Object ^ propertyValue, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSetProperty : Microsoft.Lync.Model.Conversation.ModalityProperty * obj * AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginSetProperty (propertyType, propertyValue, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -311,6 +322,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginTransfer(class Microsoft.Lync.Model.Contact contact, valuetype Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions options, class System.AsyncCallback modalityCallback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginTransfer(Microsoft.Lync.Model.Contact,Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginTransfer(Microsoft::Lync::Model::Contact ^ contact, Microsoft::Lync::Model::Conversation::AudioVideo::TransferOptions options, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginTransfer : Microsoft.Lync.Model.Contact * Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions * AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginTransfer (contact, options, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -346,6 +358,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.BeginTransfer(Microsoft.Lync.Model.ContactEndpoint,Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginTransfer (endpoint As ContactEndpoint, options As TransferOptions, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginTransfer(Microsoft::Lync::Model::ContactEndpoint ^ endpoint, Microsoft::Lync::Model::Conversation::AudioVideo::TransferOptions options, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginTransfer : Microsoft.Lync.Model.ContactEndpoint * Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions * AsyncCallback * obj -&gt; IAsyncResult" Usage="modality.BeginTransfer (endpoint, options, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -382,6 +395,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.CanInvoke(Microsoft.Lync.Model.Conversation.ModalityAction)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ModalityAction) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Conversation::ModalityAction action);" />
+      <MemberSignature Language="F#" Value="member this.CanInvoke : Microsoft.Lync.Model.Conversation.ModalityAction -&gt; bool" Usage="modality.CanInvoke action" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -407,6 +421,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanSetProperty(valuetype Microsoft.Lync.Model.Conversation.ModalityProperty modalityProperty) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.CanSetProperty(Microsoft.Lync.Model.Conversation.ModalityProperty)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetProperty(Microsoft::Lync::Model::Conversation::ModalityProperty modalityProperty);" />
+      <MemberSignature Language="F#" Value="member this.CanSetProperty : Microsoft.Lync.Model.Conversation.ModalityProperty -&gt; bool" Usage="modality.CanSetProperty modalityProperty" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -433,6 +448,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.Conversation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversation As Conversation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Conversation ^ Conversation { Microsoft::Lync::Model::Conversation::Conversation ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Conversation : Microsoft.Lync.Model.Conversation.Conversation" Usage="Microsoft.Lync.Model.Conversation.Modality.Conversation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -453,6 +469,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndConnect(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndConnect (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndConnect(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndConnect : IAsyncResult -&gt; unit" Usage="modality.EndConnect asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -478,6 +495,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndConsultativeTransfer(Microsoft.Lync.Model.Conversation.ModalityState@,System.Collections.Generic.IList{System.String}@,System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndConsultativeTransfer (ByRef targetState As ModalityState, ByRef contextProperties As IList(Of String), asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndConsultativeTransfer([Runtime::InteropServices::Out] Microsoft::Lync::Model::Conversation::ModalityState % targetState, [Runtime::InteropServices::Out] System::Collections::Generic::IList&lt;System::String ^&gt; ^ % contextProperties, IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndConsultativeTransfer :  *  * IAsyncResult -&gt; unit" Usage="modality.EndConsultativeTransfer (targetState, contextProperties, asyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -487,8 +505,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="targetState" Type="Microsoft.Lync.Model.Conversation.ModalityState&amp;" RefType="out" />
-        <Parameter Name="contextProperties" Type="System.Collections.Generic.IList&lt;System.String&gt;&amp;" RefType="out" />
+        <Parameter Name="targetState" Type="Microsoft.Lync.Model.Conversation.ModalityState" RefType="out" />
+        <Parameter Name="contextProperties" Type="System.Collections.Generic.IList&lt;System.String&gt;" RefType="out" />
         <Parameter Name="asyncResult" Type="System.IAsyncResult" />
       </Parameters>
       <Docs>
@@ -507,6 +525,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndDisconnect(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndDisconnect (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDisconnect(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndDisconnect : IAsyncResult -&gt; unit" Usage="modality.EndDisconnect asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -532,6 +551,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndForward(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndForward (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndForward(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndForward : IAsyncResult -&gt; unit" Usage="modality.EndForward asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -557,6 +577,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndHold(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndHold (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndHold(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndHold : IAsyncResult -&gt; unit" Usage="modality.EndHold asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -582,6 +603,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.Endpoint" />
       <MemberSignature Language="VB.NET" Value="Public Property Endpoint As ContactEndpoint" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactEndpoint ^ Endpoint { Microsoft::Lync::Model::ContactEndpoint ^ get(); void set(Microsoft::Lync::Model::ContactEndpoint ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Endpoint : Microsoft.Lync.Model.ContactEndpoint with get, set" Usage="Microsoft.Lync.Model.Conversation.Modality.Endpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -602,6 +624,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndRetrieve(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndRetrieve (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRetrieve(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndRetrieve : IAsyncResult -&gt; unit" Usage="modality.EndRetrieve asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -627,6 +650,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndSetProperty(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndSetProperty (asyncResult As IAsyncResult) As ModalityProperty" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::ModalityProperty EndSetProperty(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSetProperty : IAsyncResult -&gt; Microsoft.Lync.Model.Conversation.ModalityProperty" Usage="modality.EndSetProperty asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -653,6 +677,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.EndTransfer(Microsoft.Lync.Model.Conversation.ModalityState@,System.Collections.Generic.IList{System.String}@,System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndTransfer (ByRef targetState As ModalityState, ByRef contextProperties As IList(Of String), asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndTransfer([Runtime::InteropServices::Out] Microsoft::Lync::Model::Conversation::ModalityState % targetState, [Runtime::InteropServices::Out] System::Collections::Generic::IList&lt;System::String ^&gt; ^ % contextProperties, IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndTransfer :  *  * IAsyncResult -&gt; unit" Usage="modality.EndTransfer (targetState, contextProperties, asyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -662,8 +687,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="targetState" Type="Microsoft.Lync.Model.Conversation.ModalityState&amp;" RefType="out" />
-        <Parameter Name="contextProperties" Type="System.Collections.Generic.IList&lt;System.String&gt;&amp;" RefType="out" />
+        <Parameter Name="targetState" Type="Microsoft.Lync.Model.Conversation.ModalityState" RefType="out" />
+        <Parameter Name="contextProperties" Type="System.Collections.Generic.IList&lt;System.String&gt;" RefType="out" />
         <Parameter Name="asyncResult" Type="System.IAsyncResult" />
       </Parameters>
       <Docs>
@@ -682,6 +707,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Modality ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="modality.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -702,6 +728,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Modality.ModalityStateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ModalityStateChanged As EventHandler(Of ModalityStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityStateChangedEventArgs ^&gt; ^ ModalityStateChanged;" />
+      <MemberSignature Language="F#" Value="member this.ModalityStateChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs&gt; " Usage="member this.ModalityStateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -721,6 +748,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.Participant" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Participant As Participant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ Participant { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Participant : Microsoft.Lync.Model.Conversation.Participant" Usage="Microsoft.Lync.Model.Conversation.Modality.Participant" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -741,6 +769,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ModalityProperty, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ModalityProperty, obj&gt;" Usage="Microsoft.Lync.Model.Conversation.Modality.Properties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -761,6 +790,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Modality.Reject(Microsoft.Lync.Model.Conversation.ModalityDisconnectReason)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Reject (reason As ModalityDisconnectReason)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reject(Microsoft::Lync::Model::Conversation::ModalityDisconnectReason reason);" />
+      <MemberSignature Language="F#" Value="member this.Reject : Microsoft.Lync.Model.Conversation.ModalityDisconnectReason -&gt; unit" Usage="modality.Reject reason" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -786,6 +816,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Modality.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ModalityState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ModalityState State { Microsoft::Lync::Model::Conversation::ModalityState get(); };" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Lync.Model.Conversation.ModalityState" Usage="Microsoft.Lync.Model.Conversation.Modality.State" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

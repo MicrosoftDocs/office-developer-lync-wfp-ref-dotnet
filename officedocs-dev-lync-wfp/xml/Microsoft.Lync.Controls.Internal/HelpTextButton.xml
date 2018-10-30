@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.HelpTextButton" />
   <TypeSignature Language="VB.NET" Value="Public Class HelpTextButton&#xA;Inherits Button" />
   <TypeSignature Language="C++ CLI" Value="public ref class HelpTextButton : System::Windows::Controls::Button" />
+  <TypeSignature Language="F#" Value="type HelpTextButton = class&#xA;    inherit Button" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.HelpTextButton.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="helpTextButton.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

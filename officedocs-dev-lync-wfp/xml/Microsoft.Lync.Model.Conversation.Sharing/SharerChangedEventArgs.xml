@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.SharerChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class SharerChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class SharerChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type SharerChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.SharerChangedEventArgs.SharerName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SharerName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SharerName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SharerName : string" Usage="Microsoft.Lync.Model.Conversation.Sharing.SharerChangedEventArgs.SharerName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomParticipantsEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class RoomParticipantsEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class RoomParticipantsEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type RoomParticipantsEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomParticipantsEventArgs.Participants" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Participants As IList(Of RoomUser)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomUser ^&gt; ^ Participants { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomUser ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Participants : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomUser&gt;" Usage="Microsoft.Lync.Model.Room.RoomParticipantsEventArgs.Participants" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

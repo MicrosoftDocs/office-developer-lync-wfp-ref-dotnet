@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.AccessEntryScope" />
   <TypeSignature Language="VB.NET" Value="Public Enum AccessEntryScope" />
   <TypeSignature Language="C++ CLI" Value="public enum class AccessEntryScope" />
+  <TypeSignature Language="F#" Value="type AccessEntryScope = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessEntryScope.Domain" />
       <MemberSignature Language="VB.NET" Value="Domain" />
       <MemberSignature Language="C++ CLI" Value="Domain" />
+      <MemberSignature Language="F#" Value="Domain = 1" Usage="Microsoft.Lync.Model.AccessEntryScope.Domain" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessEntryScope.Enterprise" />
       <MemberSignature Language="VB.NET" Value="Enterprise" />
       <MemberSignature Language="C++ CLI" Value="Enterprise" />
+      <MemberSignature Language="F#" Value="Enterprise = 2" Usage="Microsoft.Lync.Model.AccessEntryScope.Enterprise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessEntryScope.Everyone" />
       <MemberSignature Language="VB.NET" Value="Everyone" />
       <MemberSignature Language="C++ CLI" Value="Everyone" />
+      <MemberSignature Language="F#" Value="Everyone = 5" Usage="Microsoft.Lync.Model.AccessEntryScope.Everyone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessEntryScope.Federated" />
       <MemberSignature Language="VB.NET" Value="Federated" />
       <MemberSignature Language="C++ CLI" Value="Federated" />
+      <MemberSignature Language="F#" Value="Federated = 3" Usage="Microsoft.Lync.Model.AccessEntryScope.Federated" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessEntryScope.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.AccessEntryScope.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessEntryScope.Public" />
       <MemberSignature Language="VB.NET" Value="Public" />
       <MemberSignature Language="C++ CLI" Value="Public" />
+      <MemberSignature Language="F#" Value="Public = 4" Usage="Microsoft.Lync.Model.AccessEntryScope.Public" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.AccessEntryScope.User" />
       <MemberSignature Language="VB.NET" Value="User" />
       <MemberSignature Language="C++ CLI" Value="User" />
+      <MemberSignature Language="F#" Value="User = 0" Usage="Microsoft.Lync.Model.AccessEntryScope.User" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

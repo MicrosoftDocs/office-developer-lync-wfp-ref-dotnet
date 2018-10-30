@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.ConversationDirection" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationDirection" />
   <TypeSignature Language="C++ CLI" Value="public enum class ConversationDirection" />
+  <TypeSignature Language="F#" Value="type ConversationDirection = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ConversationDirection.Incoming" />
       <MemberSignature Language="VB.NET" Value="Incoming" />
       <MemberSignature Language="C++ CLI" Value="Incoming" />
+      <MemberSignature Language="F#" Value="Incoming = 1" Usage="Microsoft.Lync.Model.Internal.ConversationDirection.Incoming" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ConversationDirection.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Internal.ConversationDirection.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ConversationDirection.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Internal.ConversationDirection.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ConversationDirection.Outgoing" />
       <MemberSignature Language="VB.NET" Value="Outgoing" />
       <MemberSignature Language="C++ CLI" Value="Outgoing" />
+      <MemberSignature Language="F#" Value="Outgoing = 2" Usage="Microsoft.Lync.Model.Internal.ConversationDirection.Outgoing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

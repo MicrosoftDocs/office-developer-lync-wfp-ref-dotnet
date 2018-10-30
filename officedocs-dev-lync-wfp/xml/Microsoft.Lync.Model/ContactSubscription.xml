@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactSubscription" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactSubscription&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactSubscription : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type ContactSubscription = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddContact(class Microsoft.Lync.Model.Contact contact) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.AddContact(Microsoft.Lync.Model.Contact)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddContact(Microsoft::Lync::Model::Contact ^ contact);" />
+      <MemberSignature Language="F#" Value="member this.AddContact : Microsoft.Lync.Model.Contact -&gt; unit" Usage="contactSubscription.AddContact contact" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -48,6 +50,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.AddContacts(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Contact})" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddContacts (contacts As IEnumerable(Of Contact))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddContacts(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Contact ^&gt; ^ contacts);" />
+      <MemberSignature Language="F#" Value="member this.AddContacts : seq&lt;Microsoft.Lync.Model.Contact&gt; -&gt; unit" Usage="contactSubscription.AddContacts contacts" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -71,6 +74,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactSubscription.Contacts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contacts As IList(Of Contact)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Contact ^&gt; ^ Contacts { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Contact ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Contacts : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Contact&gt;" Usage="Microsoft.Lync.Model.ContactSubscription.Contacts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -91,6 +95,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactSubscription.LastSubscribedContactInformation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastSubscribedContactInformation As IList(Of ContactInformationType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ LastSubscribedContactInformation { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LastSubscribedContactInformation : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.ContactInformationType&gt;" Usage="Microsoft.Lync.Model.ContactSubscription.LastSubscribedContactInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -111,6 +116,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.ContactSubscription.LastSubscribedRefreshRate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastSubscribedRefreshRate As ContactSubscriptionRefreshRate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactSubscriptionRefreshRate LastSubscribedRefreshRate { Microsoft::Lync::Model::ContactSubscriptionRefreshRate get(); };" />
+      <MemberSignature Language="F#" Value="member this.LastSubscribedRefreshRate : Microsoft.Lync.Model.ContactSubscriptionRefreshRate" Usage="Microsoft.Lync.Model.ContactSubscription.LastSubscribedRefreshRate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -130,6 +136,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveContact(class Microsoft.Lync.Model.Contact contact) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.RemoveContact(Microsoft.Lync.Model.Contact)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveContact(Microsoft::Lync::Model::Contact ^ contact);" />
+      <MemberSignature Language="F#" Value="member this.RemoveContact : Microsoft.Lync.Model.Contact -&gt; unit" Usage="contactSubscription.RemoveContact contact" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -156,6 +163,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.Subscribe(Microsoft.Lync.Model.ContactSubscriptionRefreshRate,System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.ContactInformationType})" />
       <MemberSignature Language="VB.NET" Value="Public Sub Subscribe (subscriptionFreshness As ContactSubscriptionRefreshRate, contactInformationTypes As IEnumerable(Of ContactInformationType))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Subscribe(Microsoft::Lync::Model::ContactSubscriptionRefreshRate subscriptionFreshness, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ contactInformationTypes);" />
+      <MemberSignature Language="F#" Value="member this.Subscribe : Microsoft.Lync.Model.ContactSubscriptionRefreshRate * seq&lt;Microsoft.Lync.Model.ContactInformationType&gt; -&gt; unit" Usage="contactSubscription.Subscribe (subscriptionFreshness, contactInformationTypes)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -181,6 +189,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContactSubscription.Unsubscribe" />
       <MemberSignature Language="VB.NET" Value="Public Sub Unsubscribe ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Unsubscribe();" />
+      <MemberSignature Language="F#" Value="member this.Unsubscribe : unit -&gt; unit" Usage="contactSubscription.Unsubscribe " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

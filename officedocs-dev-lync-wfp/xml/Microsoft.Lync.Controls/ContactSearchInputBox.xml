@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactSearchInputBox" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactSearchInputBox&#xA;Inherits UCBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchInputBox : Microsoft::Lync::Controls::UCBase" />
+  <TypeSignature Language="F#" Value="type ContactSearchInputBox = class&#xA;    inherit UCBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -60,6 +61,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.IsClearEnabled" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsClearEnabled As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsClearEnabled { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsClearEnabled : bool" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.IsClearEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -80,6 +82,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.IsClearEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsClearEnabledProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsClearEnabledProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsClearEnabledProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.IsClearEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -99,6 +102,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.IsSkillSearchEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsSkillSearchEnabled As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSkillSearchEnabled { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsSkillSearchEnabled : bool with get, set" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.IsSkillSearchEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -119,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.IsSkillSearchEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsSkillSearchEnabledProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsSkillSearchEnabledProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsSkillSearchEnabledProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.IsSkillSearchEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -138,6 +143,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.MaxResults" />
       <MemberSignature Language="VB.NET" Value="Public Property MaxResults As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxResults { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MaxResults : int with get, set" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.MaxResults" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -158,6 +164,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.MaxResultsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxResultsProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ MaxResultsProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable MaxResultsProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.MaxResultsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -177,6 +184,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="contactSearchInputBox.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -197,6 +205,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnContactManagerPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel,Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnContactManagerPropertyChanged (oldContactManager As IContactsAndGroupsManagerModel, newContactManager As IContactsAndGroupsManagerModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnContactManagerPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ oldContactManager, Microsoft::Lync::Controls::Internal::Model::IContactsAndGroupsManagerModel ^ newContactManager);" />
+      <MemberSignature Language="F#" Value="override this.OnContactManagerPropertyChanged : Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel * Microsoft.Lync.Controls.Internal.Model.IContactsAndGroupsManagerModel -&gt; unit" Usage="contactSearchInputBox.OnContactManagerPropertyChanged (oldContactManager, newContactManager)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -222,6 +231,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="contactSearchInputBox.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -243,6 +253,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnIsSignedPropertyChanged(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnIsSignedPropertyChanged (oldValue As Boolean, newValue As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnIsSignedPropertyChanged(bool oldValue, bool newValue);" />
+      <MemberSignature Language="F#" Value="override this.OnIsSignedPropertyChanged : bool * bool -&gt; unit" Usage="contactSearchInputBox.OnIsSignedPropertyChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -268,6 +279,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.OnUnloaded" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnUnloaded ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnUnloaded();" />
+      <MemberSignature Language="F#" Value="override this.OnUnloaded : unit -&gt; unit" Usage="contactSearchInputBox.OnUnloaded " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -288,6 +300,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.Results" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Results As SearchResultCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchResultCollection ^ Results { Microsoft::Lync::Controls::SearchResultCollection ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Results : Microsoft.Lync.Controls.SearchResultCollection" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.Results" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -308,6 +321,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.ResultsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResultsProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ResultsProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ResultsProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.ResultsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -327,6 +341,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchState As SearchState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchState SearchState { Microsoft::Lync::Controls::SearchState get(); };" />
+      <MemberSignature Language="F#" Value="member this.SearchState : Microsoft.Lync.Controls.SearchState" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.SearchState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -347,6 +362,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.SearchStateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchStateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SearchStateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SearchStateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.SearchStateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -366,6 +382,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchTextInput" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchTextInput As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchTextInput { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SearchTextInput : string with get, set" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.SearchTextInput" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -386,6 +403,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.SearchTextInputProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchTextInputProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SearchTextInputProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SearchTextInputProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.SearchTextInputProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -405,6 +423,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearchInputBox.SearchType" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchType As SearchType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchType SearchType { Microsoft::Lync::Controls::SearchType get(); void set(Microsoft::Lync::Controls::SearchType value); };" />
+      <MemberSignature Language="F#" Value="member this.SearchType : Microsoft.Lync.Controls.SearchType with get, set" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.SearchType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -425,6 +444,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearchInputBox.SearchTypeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchTypeProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SearchTypeProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SearchTypeProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearchInputBox.SearchTypeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -444,6 +464,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.UnwireUCClient" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwireUCClient ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwireUCClient();" />
+      <MemberSignature Language="F#" Value="override this.UnwireUCClient : unit -&gt; unit" Usage="contactSearchInputBox.UnwireUCClient " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -464,6 +485,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearchInputBox.WireUCClient(Microsoft.Lync.Controls.Internal.Model.IUCClientModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WireUCClient (ucClientModel As IUCClientModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WireUCClient(Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ ucClientModel);" />
+      <MemberSignature Language="F#" Value="override this.WireUCClient : Microsoft.Lync.Controls.Internal.Model.IUCClientModel -&gt; unit" Usage="contactSearchInputBox.WireUCClient ucClientModel" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.AudioChannel" />
   <TypeSignature Language="VB.NET" Value="Public Class AudioChannel&#xA;Inherits Channel" />
   <TypeSignature Language="C++ CLI" Value="public ref class AudioChannel : Microsoft::Lync::Model::Conversation::AudioVideo::Channel" />
+  <TypeSignature Language="F#" Value="type AudioChannel = class&#xA;    inherit Channel" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.AudioChannel.BeginSendDtmf(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendDtmf (tones As String, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendDtmf(System::String ^ tones, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendDtmf : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="audioChannel.BeginSendDtmf (tones, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -53,6 +55,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.AudioChannel.EndSendDtmf(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSendDtmf (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSendDtmf(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSendDtmf : IAsyncResult -&gt; unit" Usage="audioChannel.EndSendDtmf asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -78,6 +81,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.AudioChannel.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!AudioChannel ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="audioChannel.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

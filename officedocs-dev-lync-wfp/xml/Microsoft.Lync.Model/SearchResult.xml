@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchResult" />
   <TypeSignature Language="VB.NET" Value="Public Class SearchResult&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class SearchResult : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type SearchResult = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResult.HitHighlightSummary" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HitHighlightSummary As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HitHighlightSummary { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HitHighlightSummary : string" Usage="Microsoft.Lync.Model.SearchResult.HitHighlightSummary" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.SearchResult.Result" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Result { System::Object ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Result : obj" Usage="Microsoft.Lync.Model.SearchResult.Result" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

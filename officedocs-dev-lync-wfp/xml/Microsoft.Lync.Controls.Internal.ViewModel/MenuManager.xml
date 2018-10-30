@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuManager" />
   <TypeSignature Language="C++ CLI" Value="public ref class MenuManager" />
+  <TypeSignature Language="F#" Value="type MenuManager = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.AddRule(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddRule (rule As MenuManager.MenuRule) As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ AddRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ rule);" />
+      <MemberSignature Language="F#" Value="member this.AddRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule" Usage="menuManager.AddRule rule" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.AddToContactList" />
       <MemberSignature Language="VB.NET" Value="Public Property AddToContactList As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ AddToContactList { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.AddToContactList : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.AddToContactList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -84,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ChangePrivacyRelationship" />
       <MemberSignature Language="VB.NET" Value="Public Property ChangePrivacyRelationship As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ ChangePrivacyRelationship { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ChangePrivacyRelationship : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ChangePrivacyRelationship" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -104,6 +108,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ConfigureAllMenus(System.Collections.IList,Microsoft.Lync.Controls.MenuContext,System.Windows.Controls.Control,Microsoft.Lync.Controls.Internal.PopupContactCard)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConfigureAllMenus (selection As IList, context As MenuContext, owner As Control, popup As PopupContactCard) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ConfigureAllMenus(System::Collections::IList ^ selection, Microsoft::Lync::Controls::MenuContext context, System::Windows::Controls::Control ^ owner, Microsoft::Lync::Controls::Internal::PopupContactCard ^ popup);" />
+      <MemberSignature Language="F#" Value="member this.ConfigureAllMenus : System.Collections.IList * Microsoft.Lync.Controls.MenuContext * System.Windows.Controls.Control * Microsoft.Lync.Controls.Internal.PopupContactCard -&gt; bool" Usage="menuManager.ConfigureAllMenus (selection, context, owner, popup)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -134,6 +139,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.Contacts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contacts As IContactModel()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ Contacts { cli::array &lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Contacts : Microsoft.Lync.Controls.Internal.Model.IContactModel[]" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.Contacts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -154,6 +160,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.Context" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As MenuContext" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::MenuContext Context { Microsoft::Lync::Controls::MenuContext get(); };" />
+      <MemberSignature Language="F#" Value="member this.Context : Microsoft.Lync.Controls.MenuContext" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.Context" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -174,6 +181,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ConversationContext" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationContext As ConversationContextualInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ConversationContextualInfo ^ ConversationContext { Microsoft::Lync::Controls::ConversationContextualInfo ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ConversationContext : Microsoft.Lync.Controls.ConversationContextualInfo" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ConversationContext" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -194,6 +202,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopiedSelection" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CopiedSelection As List(Of WeakReference)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;WeakReference ^&gt; ^ CopiedSelection { System::Collections::Generic::List&lt;WeakReference ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CopiedSelection : System.Collections.Generic.List&lt;WeakReference&gt;" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopiedSelection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -214,6 +223,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopyContactTo" />
       <MemberSignature Language="VB.NET" Value="Public Property CopyContactTo As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ CopyContactTo { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CopyContactTo : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopyContactTo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -234,6 +244,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopyUri" />
       <MemberSignature Language="VB.NET" Value="Public Property CopyUri As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ CopyUri { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CopyUri : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopyUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -254,6 +265,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CreateGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property CreateGroup As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ CreateGroup { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CreateGroup : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CreateGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -274,6 +286,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.DeleteGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property DeleteGroup As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ DeleteGroup { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DeleteGroup : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.DeleteGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -294,6 +307,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupByGroup" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupByGroup As GroupByGroup" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ GroupByGroup { Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GroupByGroup : Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.GroupByGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -314,6 +328,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.HasContactsWhichAreNotGroups" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasContactsWhichAreNotGroups As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasContactsWhichAreNotGroups { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.HasContactsWhichAreNotGroups : bool" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.HasContactsWhichAreNotGroups" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -334,6 +349,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveContactTo" />
       <MemberSignature Language="VB.NET" Value="Public Property MoveContactTo As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ MoveContactTo { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.MoveContactTo : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveContactTo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -354,6 +370,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDown" />
       <MemberSignature Language="VB.NET" Value="Public Property MoveGroupDown As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ MoveGroupDown { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.MoveGroupDown : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDown" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -374,6 +391,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupUp" />
       <MemberSignature Language="VB.NET" Value="Public Property MoveGroupUp As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ MoveGroupUp { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.MoveGroupUp : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupUp" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -394,6 +412,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.Owner" />
       <MemberSignature Language="VB.NET" Value="Public Property Owner As Control" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Controls::Control ^ Owner { System::Windows::Controls::Control ^ get(); void set(System::Windows::Controls::Control ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Owner : System.Windows.Controls.Control with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.Owner" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -414,6 +433,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.PasteUri" />
       <MemberSignature Language="VB.NET" Value="Public Property PasteUri As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ PasteUri { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PasteUri : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.PasteUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -434,6 +454,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.PinContacts" />
       <MemberSignature Language="VB.NET" Value="Public Property PinContacts As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ PinContacts { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PinContacts : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.PinContacts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -454,6 +475,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.PopupContactCard" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property PopupContactCard As PopupContactCard" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; property Microsoft::Lync::Controls::Internal::PopupContactCard ^ PopupContactCard { Microsoft::Lync::Controls::Internal::PopupContactCard ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PopupContactCard : Microsoft.Lync.Controls.Internal.PopupContactCard" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.PopupContactCard" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -474,6 +496,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.RemoveFromContactList" />
       <MemberSignature Language="VB.NET" Value="Public Property RemoveFromContactList As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ RemoveFromContactList { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.RemoveFromContactList : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.RemoveFromContactList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -494,6 +517,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.RemoveFromGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property RemoveFromGroup As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ RemoveFromGroup { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.RemoveFromGroup : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.RemoveFromGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -514,6 +538,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.RenameGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property RenameGroup As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ RenameGroup { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.RenameGroup : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.RenameGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -534,6 +559,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ScheduleMeeting" />
       <MemberSignature Language="VB.NET" Value="Public Property ScheduleMeeting As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ ScheduleMeeting { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ScheduleMeeting : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ScheduleMeeting" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -554,6 +580,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.Selection" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Selection As IList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IList ^ Selection { System::Collections::IList ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Selection : System.Collections.IList" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.Selection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -574,6 +601,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.SendFile" />
       <MemberSignature Language="VB.NET" Value="Public Property SendFile As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ SendFile { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.SendFile : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.SendFile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -594,6 +622,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopMultiple" />
       <MemberSignature Language="VB.NET" Value="Public Property ShareDesktopMultiple As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ ShareDesktopMultiple { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ShareDesktopMultiple : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopMultiple" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -614,6 +643,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingle" />
       <MemberSignature Language="VB.NET" Value="Public Property ShareDesktopSingle As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ ShareDesktopSingle { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ShareDesktopSingle : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -634,6 +664,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartAudioCall" />
       <MemberSignature Language="VB.NET" Value="Public Property StartAudioCall As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ StartAudioCall { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StartAudioCall : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartAudioCall" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -654,6 +685,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCall" />
       <MemberSignature Language="VB.NET" Value="Public Property StartConferenceCall As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ StartConferenceCall { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StartConferenceCall : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartConferenceCall" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -674,6 +706,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartEmail" />
       <MemberSignature Language="VB.NET" Value="Public Property StartEmail As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ StartEmail { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StartEmail : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartEmail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -694,6 +727,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartInstantMessaging" />
       <MemberSignature Language="VB.NET" Value="Public Property StartInstantMessaging As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ StartInstantMessaging { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StartInstantMessaging : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartInstantMessaging" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -714,6 +748,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartVideo" />
       <MemberSignature Language="VB.NET" Value="Public Property StartVideo As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ StartVideo { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StartVideo : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.StartVideo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -734,6 +769,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.TagContact" />
       <MemberSignature Language="VB.NET" Value="Public Property TagContact As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ TagContact { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TagContact : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.TagContact" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -754,6 +790,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.UnpinContacts" />
       <MemberSignature Language="VB.NET" Value="Public Property UnpinContacts As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ UnpinContacts { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.UnpinContacts : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.UnpinContacts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -774,6 +811,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ViewContactCard" />
       <MemberSignature Language="VB.NET" Value="Public Property ViewContactCard As MenuManager.MenuRule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ ViewContactCard { Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ get(); void set(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ViewContactCard : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MenuRule with get, set" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ViewContactCard" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

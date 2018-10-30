@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchProviderStatusType" />
   <TypeSignature Language="VB.NET" Value="Public Enum SearchProviderStatusType" />
   <TypeSignature Language="C++ CLI" Value="public enum class SearchProviderStatusType" />
+  <TypeSignature Language="F#" Value="type SearchProviderStatusType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.CredentialsNotEntered" />
       <MemberSignature Language="VB.NET" Value="CredentialsNotEntered" />
       <MemberSignature Language="C++ CLI" Value="CredentialsNotEntered" />
+      <MemberSignature Language="F#" Value="CredentialsNotEntered = 1004" Usage="Microsoft.Lync.Model.SearchProviderStatusType.CredentialsNotEntered" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.FileCorrupted" />
       <MemberSignature Language="VB.NET" Value="FileCorrupted" />
       <MemberSignature Language="C++ CLI" Value="FileCorrupted" />
+      <MemberSignature Language="F#" Value="FileCorrupted = 1003" Usage="Microsoft.Lync.Model.SearchProviderStatusType.FileCorrupted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.FileNotFound" />
       <MemberSignature Language="VB.NET" Value="FileNotFound" />
       <MemberSignature Language="C++ CLI" Value="FileNotFound" />
+      <MemberSignature Language="F#" Value="FileNotFound = 1002" Usage="Microsoft.Lync.Model.SearchProviderStatusType.FileNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.InitializationFailed" />
       <MemberSignature Language="VB.NET" Value="InitializationFailed" />
       <MemberSignature Language="C++ CLI" Value="InitializationFailed" />
+      <MemberSignature Language="F#" Value="InitializationFailed = 1006" Usage="Microsoft.Lync.Model.SearchProviderStatusType.InitializationFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.SearchProviderStatusType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.LocalDatabaseFailure" />
       <MemberSignature Language="VB.NET" Value="LocalDatabaseFailure" />
       <MemberSignature Language="C++ CLI" Value="LocalDatabaseFailure" />
+      <MemberSignature Language="F#" Value="LocalDatabaseFailure = 1001" Usage="Microsoft.Lync.Model.SearchProviderStatusType.LocalDatabaseFailure" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.NotConfigured" />
       <MemberSignature Language="VB.NET" Value="NotConfigured" />
       <MemberSignature Language="C++ CLI" Value="NotConfigured" />
+      <MemberSignature Language="F#" Value="NotConfigured = 1005" Usage="Microsoft.Lync.Model.SearchProviderStatusType.NotConfigured" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.OtherFailure" />
       <MemberSignature Language="VB.NET" Value="OtherFailure" />
       <MemberSignature Language="C++ CLI" Value="OtherFailure" />
+      <MemberSignature Language="F#" Value="OtherFailure = 1000" Usage="Microsoft.Lync.Model.SearchProviderStatusType.OtherFailure" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncInProgress" />
       <MemberSignature Language="VB.NET" Value="SyncInProgress" />
       <MemberSignature Language="C++ CLI" Value="SyncInProgress" />
+      <MemberSignature Language="F#" Value="SyncInProgress = 1" Usage="Microsoft.Lync.Model.SearchProviderStatusType.SyncInProgress" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncNotStarted" />
       <MemberSignature Language="VB.NET" Value="SyncNotStarted" />
       <MemberSignature Language="C++ CLI" Value="SyncNotStarted" />
+      <MemberSignature Language="F#" Value="SyncNotStarted = 0" Usage="Microsoft.Lync.Model.SearchProviderStatusType.SyncNotStarted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -212,6 +223,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceeded" />
       <MemberSignature Language="VB.NET" Value="SyncSucceeded" />
       <MemberSignature Language="C++ CLI" Value="SyncSucceeded" />
+      <MemberSignature Language="F#" Value="SyncSucceeded = 2" Usage="Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceeded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -231,6 +243,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceededForExternalOnly" />
       <MemberSignature Language="VB.NET" Value="SyncSucceededForExternalOnly" />
       <MemberSignature Language="C++ CLI" Value="SyncSucceededForExternalOnly" />
+      <MemberSignature Language="F#" Value="SyncSucceededForExternalOnly = 4" Usage="Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceededForExternalOnly" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -252,6 +265,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceededForInternalOnly" />
       <MemberSignature Language="VB.NET" Value="SyncSucceededForInternalOnly" />
       <MemberSignature Language="C++ CLI" Value="SyncSucceededForInternalOnly" />
+      <MemberSignature Language="F#" Value="SyncSucceededForInternalOnly = 3" Usage="Microsoft.Lync.Model.SearchProviderStatusType.SyncSucceededForInternalOnly" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

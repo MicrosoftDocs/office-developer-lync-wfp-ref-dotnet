@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.PresenceCapability" />
   <TypeSignature Language="VB.NET" Value="Public Class PresenceCapability&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class PresenceCapability : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type PresenceCapability = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.PresenceCapability.Availability" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Availability As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Availability { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Availability : int" Usage="Microsoft.Lync.Model.PresenceCapability.Availability" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.PresenceCapability.CanCapture" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanCapture As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCapture { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.CanCapture : bool" Usage="Microsoft.Lync.Model.PresenceCapability.CanCapture" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.PresenceCapability.CanRender" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanRender As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanRender { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.CanRender : bool" Usage="Microsoft.Lync.Model.PresenceCapability.CanRender" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.PresenceCapability.Type" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As PresenceCapabilityType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::PresenceCapabilityType Type { Microsoft::Lync::Model::PresenceCapabilityType get(); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Lync.Model.PresenceCapabilityType" Usage="Microsoft.Lync.Model.PresenceCapability.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

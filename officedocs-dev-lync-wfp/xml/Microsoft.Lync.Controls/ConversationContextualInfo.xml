@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ConversationContextualInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationContextualInfo" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConversationContextualInfo" />
+  <TypeSignature Language="F#" Value="type ConversationContextualInfo = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -43,6 +44,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.ApplicationData" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplicationData As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationData { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ApplicationData : string with get, set" Usage="Microsoft.Lync.Controls.ConversationContextualInfo.ApplicationData" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -63,6 +65,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.ApplicationId" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplicationId As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ApplicationId : string with get, set" Usage="Microsoft.Lync.Controls.ConversationContextualInfo.ApplicationId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -83,6 +86,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.ContextualLink" />
       <MemberSignature Language="VB.NET" Value="Public Property ContextualLink As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContextualLink { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextualLink : string with get, set" Usage="Microsoft.Lync.Controls.ConversationContextualInfo.ContextualLink" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -103,6 +107,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.ParentWindowHandle" />
       <MemberSignature Language="VB.NET" Value="Public Property ParentWindowHandle As IntPtr" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property IntPtr ParentWindowHandle { IntPtr get(); void set(IntPtr value); };" />
+      <MemberSignature Language="F#" Value="member this.ParentWindowHandle : nativeint with get, set" Usage="Microsoft.Lync.Controls.ConversationContextualInfo.ParentWindowHandle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -123,6 +128,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ConversationContextualInfo.Subject" />
       <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Subject : string with get, set" Usage="Microsoft.Lync.Controls.ConversationContextualInfo.Subject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

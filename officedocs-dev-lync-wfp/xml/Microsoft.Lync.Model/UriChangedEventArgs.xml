@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.UriChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class UriChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class UriChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type UriChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.UriChangedEventArgs.NewUri" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewUri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NewUri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.NewUri : string" Usage="Microsoft.Lync.Model.UriChangedEventArgs.NewUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.UriChangedEventArgs.OldUri" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldUri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OldUri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.OldUri : string" Usage="Microsoft.Lync.Model.UriChangedEventArgs.OldUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

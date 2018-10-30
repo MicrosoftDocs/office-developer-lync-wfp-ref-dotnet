@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState" />
   <TypeSignature Language="VB.NET" Value="Public Enum PreviousConversationHistoryRetrievalState" />
   <TypeSignature Language="C++ CLI" Value="public enum class PreviousConversationHistoryRetrievalState" />
+  <TypeSignature Language="F#" Value="type PreviousConversationHistoryRetrievalState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.Complete" />
       <MemberSignature Language="VB.NET" Value="Complete" />
       <MemberSignature Language="C++ CLI" Value="Complete" />
+      <MemberSignature Language="F#" Value="Complete = 2" Usage="Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.Complete" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.InProgress" />
       <MemberSignature Language="VB.NET" Value="InProgress" />
       <MemberSignature Language="C++ CLI" Value="InProgress" />
+      <MemberSignature Language="F#" Value="InProgress = 1" Usage="Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.InProgress" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.NotStarted" />
       <MemberSignature Language="VB.NET" Value="NotStarted" />
       <MemberSignature Language="C++ CLI" Value="NotStarted" />
+      <MemberSignature Language="F#" Value="NotStarted = 0" Usage="Microsoft.Lync.Model.Internal.PreviousConversationHistoryRetrievalState.NotStarted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

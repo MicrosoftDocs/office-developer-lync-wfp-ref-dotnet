@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.AccessEntry" />
   <TypeSignature Language="VB.NET" Value="Public Class AccessEntry&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class AccessEntry : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type AccessEntry = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessEntry.CanClearPermission" />
       <MemberSignature Language="VB.NET" Value="Public Function CanClearPermission () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanClearPermission();" />
+      <MemberSignature Language="F#" Value="member this.CanClearPermission : unit -&gt; bool" Usage="accessEntry.CanClearPermission " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessEntry.CanSetPermission(Microsoft.Lync.Model.AccessPermission)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanSetPermission (permission As AccessPermission) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetPermission(Microsoft::Lync::Model::AccessPermission ^ permission);" />
+      <MemberSignature Language="F#" Value="member this.CanSetPermission : Microsoft.Lync.Model.AccessPermission -&gt; bool" Usage="accessEntry.CanSetPermission permission" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -68,6 +71,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessEntry.ClearPermission" />
       <MemberSignature Language="VB.NET" Value="Public Sub ClearPermission ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearPermission();" />
+      <MemberSignature Language="F#" Value="member this.ClearPermission : unit -&gt; unit" Usage="accessEntry.ClearPermission " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -88,6 +92,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AccessEntry.Id" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Microsoft.Lync.Model.AccessEntry.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -108,6 +113,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AccessEntry.Permission" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Permission As AccessPermission" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::AccessPermission ^ Permission { Microsoft::Lync::Model::AccessPermission ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Permission : Microsoft.Lync.Model.AccessPermission" Usage="Microsoft.Lync.Model.AccessEntry.Permission" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -128,6 +134,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.AccessEntry.Scope" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Scope As AccessEntryScope" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::AccessEntryScope Scope { Microsoft::Lync::Model::AccessEntryScope get(); };" />
+      <MemberSignature Language="F#" Value="member this.Scope : Microsoft.Lync.Model.AccessEntryScope" Usage="Microsoft.Lync.Model.AccessEntry.Scope" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -148,6 +155,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.AccessEntry.SetPermission(Microsoft.Lync.Model.AccessPermission)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetPermission (permission As AccessPermission)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetPermission(Microsoft::Lync::Model::AccessPermission ^ permission);" />
+      <MemberSignature Language="F#" Value="member this.SetPermission : Microsoft.Lync.Model.AccessPermission -&gt; unit" Usage="accessEntry.SetPermission permission" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

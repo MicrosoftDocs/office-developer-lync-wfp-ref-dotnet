@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.SendEmailButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class SendEmailButtonAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of SendEmailButton)" />
   <TypeSignature Language="C++ CLI" Value="public ref class SendEmailButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::SendEmailButton ^&gt;" />
+  <TypeSignature Language="F#" Value="type SendEmailButtonAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;SendEmailButton&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.SendEmailButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.SendEmailButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As SendEmailButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; SendEmailButtonAutomationPeer(Microsoft::Lync::Controls::SendEmailButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.SendEmailButtonAutomationPeer : Microsoft.Lync.Controls.SendEmailButton -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.SendEmailButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.SendEmailButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

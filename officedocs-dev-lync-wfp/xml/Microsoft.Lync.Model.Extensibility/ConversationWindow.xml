@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindow" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationWindow&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConversationWindow : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type ConversationWindow = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.ActionAvailabilityChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ConversationWindowActionAvailabilityChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowActionAvailabilityChangedEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberSignature Language="F#" Value="member this.ActionAvailabilityChanged : EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowActionAvailabilityChangedEventArgs&gt; " Usage="member this.ActionAvailabilityChanged : System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowActionAvailabilityChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.BeginOpenExtensibilityWindow(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginOpenExtensibilityWindow (applicationId As String, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginOpenExtensibilityWindow(System::String ^ applicationId, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginOpenExtensibilityWindow : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversationWindow.BeginOpenExtensibilityWindow (applicationId, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -74,6 +77,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.CanInvoke(Microsoft.Lync.Model.Extensibility.ConversationWindowAction)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ConversationWindowAction) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Extensibility::ConversationWindowAction action);" />
+      <MemberSignature Language="F#" Value="member this.CanInvoke : Microsoft.Lync.Model.Extensibility.ConversationWindowAction -&gt; bool" Usage="conversationWindow.CanInvoke action" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -100,6 +104,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Close" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberSignature Language="F#" Value="member this.Close : unit -&gt; unit" Usage="conversationWindow.Close " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -120,6 +125,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.CloseExtensibilityWindow(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CloseExtensibilityWindow (applicationId As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CloseExtensibilityWindow(System::String ^ applicationId);" />
+      <MemberSignature Language="F#" Value="member this.CloseExtensibilityWindow : string -&gt; unit" Usage="conversationWindow.CloseExtensibilityWindow applicationId" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -143,6 +149,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Conversation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversation As Conversation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Conversation ^ Conversation { Microsoft::Lync::Model::Conversation::Conversation ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Conversation : Microsoft.Lync.Model.Conversation.Conversation" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.Conversation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -163,6 +170,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Dock(System.IntPtr)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Dock (parentHwnd As IntPtr)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Dock(IntPtr parentHwnd);" />
+      <MemberSignature Language="F#" Value="member this.Dock : nativeint -&gt; unit" Usage="conversationWindow.Dock parentHwnd" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -189,6 +197,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.EndOpenExtensibilityWindow(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndOpenExtensibilityWindow (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndOpenExtensibilityWindow(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndOpenExtensibilityWindow : IAsyncResult -&gt; unit" Usage="conversationWindow.EndOpenExtensibilityWindow asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -214,6 +223,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.ExitFullScreen" />
       <MemberSignature Language="VB.NET" Value="Public Sub ExitFullScreen ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ExitFullScreen();" />
+      <MemberSignature Language="F#" Value="member this.ExitFullScreen : unit -&gt; unit" Usage="conversationWindow.ExitFullScreen " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -236,6 +246,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!ConversationWindow ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="conversationWindow.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -256,6 +267,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.FlashExtensibilityWindow(System.String,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub FlashExtensibilityWindow (applicationId As String, flash As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void FlashExtensibilityWindow(System::String ^ applicationId, bool flash);" />
+      <MemberSignature Language="F#" Value="member this.FlashExtensibilityWindow : string * bool -&gt; unit" Usage="conversationWindow.FlashExtensibilityWindow (applicationId, flash)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -281,6 +293,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Handle" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Handle As IntPtr" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property IntPtr Handle { IntPtr get(); };" />
+      <MemberSignature Language="F#" Value="member this.Handle : nativeint" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.Handle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -303,6 +316,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Height : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -323,6 +337,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.HideContent" />
       <MemberSignature Language="VB.NET" Value="Public Sub HideContent ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void HideContent();" />
+      <MemberSignature Language="F#" Value="member this.HideContent : unit -&gt; unit" Usage="conversationWindow.HideContent " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -345,6 +360,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.InformationChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event InformationChanged As EventHandler(Of ConversationWindowInformationChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowInformationChangedEventArgs ^&gt; ^ InformationChanged;" />
+      <MemberSignature Language="F#" Value="member this.InformationChanged : EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowInformationChangedEventArgs&gt; " Usage="member this.InformationChanged : System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowInformationChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -364,6 +380,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.IsDocked" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDocked As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDocked { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsDocked : bool" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.IsDocked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -384,6 +401,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.IsFullScreen" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFullScreen As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFullScreen { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsFullScreen : bool" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.IsFullScreen" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -404,6 +422,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Left" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Left : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -424,6 +443,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Move(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Move (left As Integer, top As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Move(int left, int top);" />
+      <MemberSignature Language="F#" Value="member this.Move : int * int -&gt; unit" Usage="conversationWindow.Move (left, top)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -449,6 +469,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.MoveAndResize(System.Int32,System.Int32,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub MoveAndResize (left As Integer, top As Integer, width As Integer, height As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveAndResize(int left, int top, int width, int height);" />
+      <MemberSignature Language="F#" Value="member this.MoveAndResize : int * int * int * int -&gt; unit" Usage="conversationWindow.MoveAndResize (left, top, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -480,6 +501,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.NeedsAttention" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event NeedsAttention As EventHandler(Of ConversationWindowNeedsAttentionEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowNeedsAttentionEventArgs ^&gt; ^ NeedsAttention;" />
+      <MemberSignature Language="F#" Value="member this.NeedsAttention : EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsAttentionEventArgs&gt; " Usage="member this.NeedsAttention : System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsAttentionEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -499,6 +521,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.NeedsSizeChange" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event NeedsSizeChange As EventHandler(Of ConversationWindowNeedsSizeChangeEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowNeedsSizeChangeEventArgs ^&gt; ^ NeedsSizeChange;" />
+      <MemberSignature Language="F#" Value="member this.NeedsSizeChange : EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs&gt; " Usage="member this.NeedsSizeChange : System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -518,6 +541,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.ParentWindow" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentWindow As IntPtr" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property IntPtr ParentWindow { IntPtr get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParentWindow : nativeint" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.ParentWindow" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -540,6 +564,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ConversationWindowInformationType, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowInformationType, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowInformationType, System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType, obj&gt;" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.Properties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -560,6 +585,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Resize(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Resize (width As Integer, height As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Resize(int width, int height);" />
+      <MemberSignature Language="F#" Value="member this.Resize : int * int -&gt; unit" Usage="conversationWindow.Resize (width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -585,6 +611,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.ShowContent" />
       <MemberSignature Language="VB.NET" Value="Public Sub ShowContent ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowContent();" />
+      <MemberSignature Language="F#" Value="member this.ShowContent : unit -&gt; unit" Usage="conversationWindow.ShowContent " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -607,6 +634,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.ShowFullScreen(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ShowFullScreen (monitorId As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowFullScreen(int monitorId);" />
+      <MemberSignature Language="F#" Value="member this.ShowFullScreen : int -&gt; unit" Usage="conversationWindow.ShowFullScreen monitorId" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -632,6 +660,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ConversationWindowState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Extensibility::ConversationWindowState State { Microsoft::Lync::Model::Extensibility::ConversationWindowState get(); };" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Lync.Model.Extensibility.ConversationWindowState" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.State" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -652,6 +681,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Extensibility.ConversationWindow.StateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ConversationWindowStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberSignature Language="F#" Value="member this.StateChanged : EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs&gt; " Usage="member this.StateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -671,6 +701,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Top" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Top : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -691,6 +722,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ConversationWindow.Undock" />
       <MemberSignature Language="VB.NET" Value="Public Sub Undock ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Undock();" />
+      <MemberSignature Language="F#" Value="member this.Undock : unit -&gt; unit" Usage="conversationWindow.Undock " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -711,6 +743,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindow.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Width : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindow.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

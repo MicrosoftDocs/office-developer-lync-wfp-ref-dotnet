@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.UCListBoxItem" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class UCListBoxItem&#xA;Inherits ListBoxItem" />
   <TypeSignature Language="C++ CLI" Value="public ref class UCListBoxItem abstract : System::Windows::Controls::ListBoxItem" />
+  <TypeSignature Language="F#" Value="type UCListBoxItem = class&#xA;    inherit ListBoxItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -48,6 +49,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.BotContentTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property BotContentTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ BotContentTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.BotContentTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.BotContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -68,6 +70,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.BotContentTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BotContentTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ BotContentTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable BotContentTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.BotContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -87,6 +90,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.CallButtonVisibility" />
       <MemberSignature Language="VB.NET" Value="Public Property CallButtonVisibility As Visibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility CallButtonVisibility { System::Windows::Visibility get(); void set(System::Windows::Visibility value); };" />
+      <MemberSignature Language="F#" Value="member this.CallButtonVisibility : System.Windows.Visibility with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.CallButtonVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -107,6 +111,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.CallButtonVisibilityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CallButtonVisibilityProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CallButtonVisibilityProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable CallButtonVisibilityProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.CallButtonVisibilityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -126,6 +131,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.ContextualInformation" />
       <MemberSignature Language="VB.NET" Value="Public Property ContextualInformation As ConversationContextualInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ConversationContextualInfo ^ ContextualInformation { Microsoft::Lync::Controls::ConversationContextualInfo ^ get(); void set(Microsoft::Lync::Controls::ConversationContextualInfo ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextualInformation : Microsoft.Lync.Controls.ConversationContextualInfo with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.ContextualInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -149,6 +155,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.ContextualInformationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextualInformationProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextualInformationProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextualInformationProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.ContextualInformationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -168,6 +175,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.GroupContentTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupContentTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ GroupContentTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.GroupContentTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.GroupContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -188,6 +196,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.GroupContentTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupContentTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ GroupContentTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable GroupContentTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.GroupContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -207,6 +216,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.HandleDropDownClosed(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub HandleDropDownClosed (sender As Object, e As EventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void HandleDropDownClosed(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="member this.HandleDropDownClosed : obj * EventArgs -&gt; unit" Usage="uCListBoxItem.HandleDropDownClosed (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -232,6 +242,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.HandleDropDownOpened(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub HandleDropDownOpened (sender As Object, e As EventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void HandleDropDownOpened(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="member this.HandleDropDownOpened : obj * EventArgs -&gt; unit" Usage="uCListBoxItem.HandleDropDownOpened (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -257,6 +268,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.HandlePartContactItemOnItemTemplated(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub HandlePartContactItemOnItemTemplated (sender As Object, e As EventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void HandlePartContactItemOnItemTemplated(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member HandlePartContactItemOnItemTemplated : obj * EventArgs -&gt; unit&#xA;override this.HandlePartContactItemOnItemTemplated : obj * EventArgs -&gt; unit" Usage="uCListBoxItem.HandlePartContactItemOnItemTemplated (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -282,6 +294,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.Model" />
       <MemberSignature Language="VB.NET" Value="Public Property Model As IContactModel" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::Model::IContactModel ^ Model { Microsoft::Lync::Controls::Internal::Model::IContactModel ^ get(); void set(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Model : Microsoft.Lync.Controls.Internal.Model.IContactModel with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.Model" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -302,6 +315,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.ModelProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ModelProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ModelProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ModelProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.ModelProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -321,6 +335,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="uCListBoxItem.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -341,6 +356,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.OnGotFocus(System.Windows.RoutedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnGotFocus (e As RoutedEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnGotFocus(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnGotFocus : System.Windows.RoutedEventArgs -&gt; unit" Usage="uCListBoxItem.OnGotFocus e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -364,6 +380,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.OnLostFocus(System.Windows.RoutedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnLostFocus (e As RoutedEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnLostFocus(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnLostFocus : System.Windows.RoutedEventArgs -&gt; unit" Usage="uCListBoxItem.OnLostFocus e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -387,6 +404,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.OnMouseEnter(System.Windows.Input.MouseEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseEnter (e As MouseEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseEnter(System::Windows::Input::MouseEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnMouseEnter : System.Windows.Input.MouseEventArgs -&gt; unit" Usage="uCListBoxItem.OnMouseEnter e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -410,6 +428,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.OnMouseLeave(System.Windows.Input.MouseEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeave (e As MouseEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeave(System::Windows::Input::MouseEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnMouseLeave : System.Windows.Input.MouseEventArgs -&gt; unit" Usage="uCListBoxItem.OnMouseLeave e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -433,6 +452,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeftButtonUp (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeftButtonUp(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnMouseLeftButtonUp : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="uCListBoxItem.OnMouseLeftButtonUp e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -456,6 +476,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.OnMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseRightButtonDown (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseRightButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnMouseRightButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="uCListBoxItem.OnMouseRightButtonDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -479,6 +500,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCListBoxItem.OnPreviewMouseDoubleClick(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPreviewMouseDoubleClick (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPreviewMouseDoubleClick(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnPreviewMouseDoubleClick : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="uCListBoxItem.OnPreviewMouseDoubleClick e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -502,6 +524,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.PersonContentTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property PersonContentTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ PersonContentTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PersonContentTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.PersonContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -522,6 +545,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.PersonContentTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PersonContentTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PersonContentTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PersonContentTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.PersonContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -541,6 +565,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.ShowFriendlyName" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowFriendlyName As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowFriendlyName { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.ShowFriendlyName : bool with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.ShowFriendlyName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -561,6 +586,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.ShowFriendlyNameProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ShowFriendlyNameProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ShowFriendlyNameProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShowFriendlyNameProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.ShowFriendlyNameProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -580,6 +606,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Source { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Source : obj with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -604,6 +631,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.SourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SourceProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SourceProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SourceProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.SourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -623,6 +651,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCListBoxItem.TelephoneContentTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property TelephoneContentTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ TelephoneContentTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.TelephoneContentTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.UCListBoxItem.TelephoneContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -643,6 +672,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCListBoxItem.TelephoneContentTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TelephoneContentTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ TelephoneContentTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable TelephoneContentTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCListBoxItem.TelephoneContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

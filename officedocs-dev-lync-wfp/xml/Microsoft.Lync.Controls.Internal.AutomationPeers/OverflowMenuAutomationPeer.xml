@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.OverflowMenuAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class OverflowMenuAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of OverflowMenu)" />
   <TypeSignature Language="C++ CLI" Value="public ref class OverflowMenuAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::Internal::OverflowMenu ^&gt;" />
+  <TypeSignature Language="F#" Value="type OverflowMenuAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;OverflowMenu&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.OverflowMenuAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.OverflowMenu)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As OverflowMenu)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; OverflowMenuAutomationPeer(Microsoft::Lync::Controls::Internal::OverflowMenu ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.OverflowMenuAutomationPeer : Microsoft.Lync.Controls.Internal.OverflowMenu -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.OverflowMenuAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.OverflowMenuAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

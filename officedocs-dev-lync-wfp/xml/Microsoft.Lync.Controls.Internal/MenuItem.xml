@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.MenuItem" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuItem&#xA;Inherits MenuItem" />
   <TypeSignature Language="C++ CLI" Value="public ref class MenuItem : System::Windows::Controls::MenuItem" />
+  <TypeSignature Language="F#" Value="type MenuItem = class&#xA;    inherit MenuItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -13,6 +14,14 @@
     <BaseTypeName FrameworkAlternate="lync-silverlight">System.Windows.Controls.ListBoxItem</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="lync-silverlight">
+      <AttributeName>System.Windows.TemplatePart(Name="PART_DropDownArrow", Type=typeof(System.Windows.UIElement))</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="lync-silverlight">
+      <AttributeName>System.Windows.TemplatePart(Name="PART_DropDown", Type=typeof(System.Windows.Controls.Primitives.Popup))</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>To be added.</summary>
     <remarks>To be added.</remarks>
@@ -41,6 +50,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem._logger" />
       <MemberSignature Language="VB.NET" Value="Protected Shared _logger As Category " />
       <MemberSignature Language="C++ CLI" Value="protected: static Microsoft::Lync::Utilities::Logging::Category ^ _logger;" />
+      <MemberSignature Language="F#" Value=" staticval mutable _logger : Microsoft.Lync.Utilities.Logging.Category" Usage="Microsoft.Lync.Controls.Internal.MenuItem._logger" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +70,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.Internal.MenuItem.Checked" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event Checked As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Checked;" />
+      <MemberSignature Language="F#" Value="member this.Checked : EventHandler " Usage="member this.Checked : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -79,6 +90,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.Internal.MenuItem.Click" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event Click As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Click;" />
+      <MemberSignature Language="F#" Value="member this.Click : EventHandler " Usage="member this.Click : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -98,6 +110,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.Command" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -118,6 +131,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.CommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -138,6 +152,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.CommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CommandParameterProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.CommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -157,6 +172,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.CommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CommandProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.CommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -176,6 +192,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.ContextMenuProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextMenuProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextMenuProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextMenuProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ContextMenuProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -195,6 +212,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.EnclosingContextMenu" />
       <MemberSignature Language="VB.NET" Value="Public Property EnclosingContextMenu As ContextMenu" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ContextMenu ^ EnclosingContextMenu { Microsoft::Lync::Controls::Internal::ContextMenu ^ get(); void set(Microsoft::Lync::Controls::Internal::ContextMenu ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.EnclosingContextMenu : Microsoft.Lync.Controls.Internal.ContextMenu with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.EnclosingContextMenu" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -215,6 +233,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.GetContainerForItemOverride" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetContainerForItemOverride () As DependencyObject" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::DependencyObject ^ GetContainerForItemOverride();" />
+      <MemberSignature Language="F#" Value="override this.GetContainerForItemOverride : unit -&gt; System.Windows.DependencyObject" Usage="menuItem.GetContainerForItemOverride " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -236,6 +255,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.Header" />
       <MemberSignature Language="VB.NET" Value="Public Property Header As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Header { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Header : obj with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.Header" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -256,6 +276,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.HeaderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ HeaderProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.HeaderProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -275,6 +296,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.Icon" />
       <MemberSignature Language="VB.NET" Value="Public Property Icon As UIElement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::UIElement ^ Icon { System::Windows::UIElement ^ get(); void set(System::Windows::UIElement ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Icon : System.Windows.UIElement with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.Icon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -295,6 +317,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.IconProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IconProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IconProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IconProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.IconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -314,6 +337,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.IsCheckable" />
       <MemberSignature Language="VB.NET" Value="Public Property IsCheckable As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCheckable { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsCheckable : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.IsCheckable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -334,6 +358,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.IsCheckableProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsCheckableProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsCheckableProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsCheckableProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.IsCheckableProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -353,6 +378,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.IsChecked" />
       <MemberSignature Language="VB.NET" Value="Public Property IsChecked As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsChecked { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsChecked : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.IsChecked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -373,6 +399,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.IsCheckedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsCheckedProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsCheckedProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsCheckedProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.IsCheckedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -392,6 +419,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.ItemContainerStyle" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemContainerStyle As Style" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Style ^ ItemContainerStyle { System::Windows::Style ^ get(); void set(System::Windows::Style ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ItemContainerStyle : System.Windows.Style with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ItemContainerStyle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -412,6 +440,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.ItemContainerStyleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemContainerStyleProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ItemContainerStyleProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemContainerStyleProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ItemContainerStyleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -431,6 +460,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.ItemsSource" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemsSource As IEnumerable" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IEnumerable ^ ItemsSource { System::Collections::IEnumerable ^ get(); void set(System::Collections::IEnumerable ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ItemsSource : System.Collections.IEnumerable with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ItemsSource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -451,6 +481,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.ItemsSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsSourceProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ItemsSourceProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemsSourceProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ItemsSourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -470,6 +501,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.ItemTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemTemplate As DataTemplate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::DataTemplate ^ ItemTemplate { System::Windows::DataTemplate ^ get(); void set(System::Windows::DataTemplate ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ItemTemplate : System.Windows.DataTemplate with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -490,6 +522,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.ItemTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemTemplateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ItemTemplateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -509,6 +542,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="abstract member OnApplyTemplate : unit -&gt; unit&#xA;override this.OnApplyTemplate : unit -&gt; unit" Usage="menuItem.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -529,6 +563,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnChecked(System.Windows.RoutedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnChecked (e As RoutedEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnChecked(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnChecked : System.Windows.RoutedEventArgs -&gt; unit&#xA;override this.OnChecked : System.Windows.RoutedEventArgs -&gt; unit" Usage="menuItem.OnChecked e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -552,6 +587,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnClick" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnClick ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnClick();" />
+      <MemberSignature Language="F#" Value="abstract member OnClick : unit -&gt; unit&#xA;override this.OnClick : unit -&gt; unit" Usage="menuItem.OnClick " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -572,6 +608,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="abstract member OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer&#xA;override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="menuItem.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -593,6 +630,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnKeyDown(System.Windows.Input.KeyEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnKeyDown (e As KeyEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnKeyDown(System::Windows::Input::KeyEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnKeyDown : System.Windows.Input.KeyEventArgs -&gt; unit&#xA;override this.OnKeyDown : System.Windows.Input.KeyEventArgs -&gt; unit" Usage="menuItem.OnKeyDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -616,6 +654,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnKeyUp(System.Windows.Input.KeyEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnKeyUp (e As KeyEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnKeyUp(System::Windows::Input::KeyEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnKeyUp : System.Windows.Input.KeyEventArgs -&gt; unit" Usage="menuItem.OnKeyUp e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -639,6 +678,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnMouseEnter(System.Windows.Input.MouseEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseEnter (e As MouseEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseEnter(System::Windows::Input::MouseEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnMouseEnter : System.Windows.Input.MouseEventArgs -&gt; unit&#xA;override this.OnMouseEnter : System.Windows.Input.MouseEventArgs -&gt; unit" Usage="menuItem.OnMouseEnter e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -662,6 +702,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeftButtonDown (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeftButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnMouseLeftButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit&#xA;override this.OnMouseLeftButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="menuItem.OnMouseLeftButtonDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -685,6 +726,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.MenuItem.OnMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseRightButtonDown (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseRightButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnMouseRightButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit&#xA;override this.OnMouseRightButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="menuItem.OnMouseRightButtonDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -708,6 +750,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.MenuItem.ParentContextMenu" />
       <MemberSignature Language="VB.NET" Value="Public Property ParentContextMenu As ContextMenu" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ContextMenu ^ ParentContextMenu { Microsoft::Lync::Controls::Internal::ContextMenu ^ get(); void set(Microsoft::Lync::Controls::Internal::ContextMenu ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ParentContextMenu : Microsoft.Lync.Controls.Internal.ContextMenu with get, set" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ParentContextMenu" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -728,6 +771,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.MenuItem.ParentContextMenuProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ParentContextMenuProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ParentContextMenuProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ParentContextMenuProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.MenuItem.ParentContextMenuProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

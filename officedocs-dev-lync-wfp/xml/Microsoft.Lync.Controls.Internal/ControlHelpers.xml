@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ControlHelpers" />
   <TypeSignature Language="VB.NET" Value="Public Module ControlHelpers" />
   <TypeSignature Language="C++ CLI" Value="public ref class ControlHelpers abstract sealed" />
+  <TypeSignature Language="F#" Value="type ControlHelpers = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T CastTemplatePart&lt;(class System.Windows.DependencyObject) T&gt;(class System.Windows.Controls.Control control, string partName, class System.Windows.DependencyObject obj, bool isPartRequired) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ControlHelpers.CastTemplatePart``1(System.Windows.Controls.Control,System.String,System.Windows.DependencyObject,System.Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Windows::DependencyObject[System::Runtime::CompilerServices::Extension]&#xA; static T CastTemplatePart(System::Windows::Controls::Control ^ control, System::String ^ partName, System::Windows::DependencyObject ^ obj, bool isPartRequired);" />
+      <MemberSignature Language="F#" Value="static member CastTemplatePart : System.Windows.Controls.Control * string * System.Windows.DependencyObject * bool -&gt; 'T (requires 'T :&gt; System.Windows.DependencyObject)" Usage="Microsoft.Lync.Controls.Internal.ControlHelpers.CastTemplatePart (control, partName, obj, isPartRequired)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

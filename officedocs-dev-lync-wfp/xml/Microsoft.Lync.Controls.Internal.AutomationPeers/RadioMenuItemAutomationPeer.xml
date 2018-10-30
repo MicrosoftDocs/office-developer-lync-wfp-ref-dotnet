@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class RadioMenuItemAutomationPeer&#xA;Inherits MenuItemAutomationPeer&#xA;Implements IToggleProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class RadioMenuItemAutomationPeer : System::Windows::Automation::Peers::MenuItemAutomationPeer, System::Windows::Automation::Provider::IToggleProvider" />
+  <TypeSignature Language="F#" Value="type RadioMenuItemAutomationPeer = class&#xA;    inherit MenuItemAutomationPeer&#xA;    interface IToggleProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.RadioMenuItem)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As RadioMenuItem)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; RadioMenuItemAutomationPeer(Microsoft::Lync::Controls::Internal::RadioMenuItem ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer : Microsoft.Lync.Controls.Internal.RadioMenuItem -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -48,6 +50,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer.GetClassNameCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetClassNameCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetClassNameCore();" />
+      <MemberSignature Language="F#" Value="override this.GetClassNameCore : unit -&gt; string" Usage="radioMenuItemAutomationPeer.GetClassNameCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -68,6 +71,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object GetPattern(valuetype System.Windows.Automation.Peers.PatternInterface patternInterface) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer.GetPattern(System.Windows.Automation.Peers.PatternInterface)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ GetPattern(System::Windows::Automation::Peers::PatternInterface patternInterface);" />
+      <MemberSignature Language="F#" Value="override this.GetPattern : System.Windows.Automation.Peers.PatternInterface -&gt; obj" Usage="radioMenuItemAutomationPeer.GetPattern patternInterface" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -114,7 +118,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Automation.ToggleState System.Windows.Automation.Provider.IToggleProvider.ToggleState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer.System#Windows#Automation#Provider#IToggleProvider#ToggleState" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property ToggleState As ToggleState Implements IToggleProvider.ToggleState" />
-      <MemberSignature Language="C++ CLI" Value="property System::Windows::Automation::ToggleState System.Windows.Automation.Provider.IToggleProvider.ToggleState { System::Windows::Automation::ToggleState get(); };" />
+      <MemberSignature Language="C++ CLI" Value="property System::Windows::Automation::ToggleState System::Windows::Automation::Provider::IToggleProvider::ToggleState { System::Windows::Automation::ToggleState get(); };" />
+      <MemberSignature Language="F#" Usage="System.Windows.Automation.Provider.IToggleProvider.ToggleState" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Windows.Automation.Provider.IToggleProvider.ToggleState</InterfaceMember>
@@ -138,6 +143,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer.TypeSafeOwner" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TypeSafeOwner As RadioMenuItem" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::RadioMenuItem ^ TypeSafeOwner { Microsoft::Lync::Controls::Internal::RadioMenuItem ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.TypeSafeOwner : Microsoft.Lync.Controls.Internal.RadioMenuItem" Usage="Microsoft.Lync.Controls.Internal.AutomationPeers.RadioMenuItemAutomationPeer.TypeSafeOwner" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

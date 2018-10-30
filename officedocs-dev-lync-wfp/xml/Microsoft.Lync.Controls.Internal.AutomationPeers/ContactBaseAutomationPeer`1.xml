@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ContactBaseAutomationPeer(Of T)&#xA;Inherits UCBaseAutomationPeer(Of T)" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA; where T : ContactBasepublic ref class ContactBaseAutomationPeer abstract : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;T&gt;" />
+  <TypeSignature Language="F#" Value="type ContactBaseAutomationPeer&lt;'T (requires 'T :&gt; ContactBase)&gt; = class&#xA;    inherit UCBaseAutomationPeer&lt;'T (requires 'T :&gt; ContactBase)&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -34,6 +35,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer`1.#ctor(`0)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As T)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactBaseAutomationPeer(T control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;'T (requires 'T :&gt; Microsoft.Lync.Controls.ContactBase)&gt; : 'T -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;'T (requires 'T :&gt; Microsoft.Lync.Controls.ContactBase)&gt;" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer&lt;'T (requires 'T :&gt; Microsoft.Lync.Controls.ContactBase)&gt; control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -54,6 +56,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.ContactBaseAutomationPeer`1.GetNameCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetNameCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetNameCore();" />
+      <MemberSignature Language="F#" Value="override this.GetNameCore : unit -&gt; string" Usage="contactBaseAutomationPeer.GetNameCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

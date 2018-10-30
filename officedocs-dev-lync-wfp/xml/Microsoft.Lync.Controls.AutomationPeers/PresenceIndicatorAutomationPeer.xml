@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.PresenceIndicatorAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class PresenceIndicatorAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of PresenceIndicator)" />
   <TypeSignature Language="C++ CLI" Value="public ref class PresenceIndicatorAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::PresenceIndicator ^&gt;" />
+  <TypeSignature Language="F#" Value="type PresenceIndicatorAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;PresenceIndicator&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.PresenceIndicatorAutomationPeer.#ctor(Microsoft.Lync.Controls.PresenceIndicator)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As PresenceIndicator)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; PresenceIndicatorAutomationPeer(Microsoft::Lync::Controls::PresenceIndicator ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.PresenceIndicatorAutomationPeer : Microsoft.Lync.Controls.PresenceIndicator -&gt; Microsoft.Lync.Controls.AutomationPeers.PresenceIndicatorAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.PresenceIndicatorAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.PresenceIndicatorAutomationPeer.GetBoundingRectangleCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetBoundingRectangleCore () As Rect" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Rect GetBoundingRectangleCore();" />
+      <MemberSignature Language="F#" Value="override this.GetBoundingRectangleCore : unit -&gt; System.Windows.Rect" Usage="presenceIndicatorAutomationPeer.GetBoundingRectangleCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -70,6 +73,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.PresenceIndicatorAutomationPeer.GetHelpTextCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetHelpTextCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetHelpTextCore();" />
+      <MemberSignature Language="F#" Value="override this.GetHelpTextCore : unit -&gt; string" Usage="presenceIndicatorAutomationPeer.GetHelpTextCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

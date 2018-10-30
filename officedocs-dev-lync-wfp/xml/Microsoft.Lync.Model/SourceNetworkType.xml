@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SourceNetworkType" />
   <TypeSignature Language="VB.NET" Value="Public Enum SourceNetworkType" />
   <TypeSignature Language="C++ CLI" Value="public enum class SourceNetworkType" />
+  <TypeSignature Language="F#" Value="type SourceNetworkType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SourceNetworkType.Enterprise" />
       <MemberSignature Language="VB.NET" Value="Enterprise" />
       <MemberSignature Language="C++ CLI" Value="Enterprise" />
+      <MemberSignature Language="F#" Value="Enterprise = 1" Usage="Microsoft.Lync.Model.SourceNetworkType.Enterprise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SourceNetworkType.FederatedEnterprise" />
       <MemberSignature Language="VB.NET" Value="FederatedEnterprise" />
       <MemberSignature Language="C++ CLI" Value="FederatedEnterprise" />
+      <MemberSignature Language="F#" Value="FederatedEnterprise = 2" Usage="Microsoft.Lync.Model.SourceNetworkType.FederatedEnterprise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SourceNetworkType.FederatedPublic" />
       <MemberSignature Language="VB.NET" Value="FederatedPublic" />
       <MemberSignature Language="C++ CLI" Value="FederatedPublic" />
+      <MemberSignature Language="F#" Value="FederatedPublic = 3" Usage="Microsoft.Lync.Model.SourceNetworkType.FederatedPublic" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SourceNetworkType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.SourceNetworkType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SourceNetworkType.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Lync.Model.SourceNetworkType.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

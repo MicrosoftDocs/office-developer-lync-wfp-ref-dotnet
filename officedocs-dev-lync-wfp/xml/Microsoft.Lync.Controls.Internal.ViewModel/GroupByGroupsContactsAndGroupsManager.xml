@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager" />
   <TypeSignature Language="VB.NET" Value="Public Class GroupByGroupsContactsAndGroupsManager&#xA;Inherits GroupByContactsAndGroupsManagerBase(Of IGroupModel)" />
   <TypeSignature Language="C++ CLI" Value="public ref class GroupByGroupsContactsAndGroupsManager : Microsoft::Lync::Controls::Internal::ViewModel::GroupByContactsAndGroupsManagerBase&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt;" />
+  <TypeSignature Language="F#" Value="type GroupByGroupsContactsAndGroupsManager = class&#xA;    inherit GroupByContactsAndGroupsManagerBase&lt;IGroupModel&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.#ctor(System.Comparison{Microsoft.Lync.Controls.Internal.Model.IContactModel},System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel},System.Collections.Generic.List{Microsoft.Lync.Controls.Internal.Model.IGroupModel},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (comparison As Comparison(Of IContactModel), groups As IEnumerable(Of IGroupModel), groupsOrder As List(Of IGroupModel), presenceAware As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupByGroupsContactsAndGroupsManager(Comparison&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ comparison, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groups, System::Collections::Generic::List&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groupsOrder, bool presenceAware);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager : Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; * seq&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; * System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; * bool -&gt; Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager (comparison, groups, groupsOrder, presenceAware)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -52,6 +54,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.CanExecuteCreateGroupCommand(Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteCreateGroupCommand (group As GroupByGroup) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteCreateGroupCommand(Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ group);" />
+      <MemberSignature Language="F#" Value="override this.CanExecuteCreateGroupCommand : Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup -&gt; bool" Usage="groupByGroupsContactsAndGroupsManager.CanExecuteCreateGroupCommand group" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -76,6 +79,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.CanExecuteDeleteGroupCommand(Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteDeleteGroupCommand (group As GroupByGroup) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteDeleteGroupCommand(Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ group);" />
+      <MemberSignature Language="F#" Value="override this.CanExecuteDeleteGroupCommand : Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup -&gt; bool" Usage="groupByGroupsContactsAndGroupsManager.CanExecuteDeleteGroupCommand group" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -100,6 +104,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.CreateGroup(Microsoft.Lync.Controls.Internal.Model.IGroupModel,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateGroup (groupId As IGroupModel, groupName As String) As GroupByGroup" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ CreateGroup(Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ groupId, System::String ^ groupName);" />
+      <MemberSignature Language="F#" Value="override this.CreateGroup : Microsoft.Lync.Controls.Internal.Model.IGroupModel * string -&gt; Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" Usage="groupByGroupsContactsAndGroupsManager.CreateGroup (groupId, groupName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -126,6 +131,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.CreateGroups(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel},System.Collections.Generic.List{Microsoft.Lync.Controls.Internal.Model.IGroupModel})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub CreateGroups (sourceGroups As IEnumerable(Of IGroupModel), groupsOrder As List(Of IGroupModel))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void CreateGroups(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ sourceGroups, System::Collections::Generic::List&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groupsOrder);" />
+      <MemberSignature Language="F#" Value="override this.CreateGroups : seq&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; * System.Collections.Generic.List&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; -&gt; unit" Usage="groupByGroupsContactsAndGroupsManager.CreateGroups (sourceGroups, groupsOrder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -151,6 +157,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.Dispose(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Dispose(bool disposing);" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="groupByGroupsContactsAndGroupsManager.Dispose disposing" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -174,6 +181,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.ExecuteCreateGroupCommand(Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCreateGroupCommand (group As GroupByGroup)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCreateGroupCommand(Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ group);" />
+      <MemberSignature Language="F#" Value="override this.ExecuteCreateGroupCommand : Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup -&gt; unit" Usage="groupByGroupsContactsAndGroupsManager.ExecuteCreateGroupCommand group" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -197,6 +205,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.ExecuteDeleteGroupCommand(Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteDeleteGroupCommand (group As GroupByGroup)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteDeleteGroupCommand(Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ group);" />
+      <MemberSignature Language="F#" Value="override this.ExecuteDeleteGroupCommand : Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup -&gt; unit" Usage="groupByGroupsContactsAndGroupsManager.ExecuteDeleteGroupCommand group" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -220,6 +229,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.GetGroupByGroup(Microsoft.Lync.Controls.Internal.Model.IGroupModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Function GetGroupByGroup (groupId As IGroupModel) As GroupByGroup" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^ GetGroupByGroup(Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ groupId);" />
+      <MemberSignature Language="F#" Value="override this.GetGroupByGroup : Microsoft.Lync.Controls.Internal.Model.IGroupModel -&gt; Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup" Usage="groupByGroupsContactsAndGroupsManager.GetGroupByGroup groupId" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -244,6 +254,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.OnSourceContactsAdded(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IContactModel})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceContactsAdded (contacts As IEnumerable(Of IContactModel))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceContactsAdded(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ contacts);" />
+      <MemberSignature Language="F#" Value="override this.OnSourceContactsAdded : seq&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; -&gt; unit" Usage="groupByGroupsContactsAndGroupsManager.OnSourceContactsAdded contacts" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -267,6 +278,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.OnSourceContactsRemoved(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IContactModel})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceContactsRemoved (contacts As IEnumerable(Of IContactModel))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceContactsRemoved(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ contacts);" />
+      <MemberSignature Language="F#" Value="override this.OnSourceContactsRemoved : seq&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; -&gt; unit" Usage="groupByGroupsContactsAndGroupsManager.OnSourceContactsRemoved contacts" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -290,6 +302,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.OnSourceGroupsAdded(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceGroupsAdded (groups As IEnumerable(Of IGroupModel))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceGroupsAdded(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groups);" />
+      <MemberSignature Language="F#" Value="override this.OnSourceGroupsAdded : seq&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; -&gt; unit" Usage="groupByGroupsContactsAndGroupsManager.OnSourceGroupsAdded groups" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -313,6 +326,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroupsContactsAndGroupsManager.OnSourceGroupsRemoved(System.Collections.Generic.IEnumerable{Microsoft.Lync.Controls.Internal.Model.IGroupModel})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSourceGroupsRemoved (groups As IEnumerable(Of IGroupModel))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSourceGroupsRemoved(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::Model::IGroupModel ^&gt; ^ groups);" />
+      <MemberSignature Language="F#" Value="override this.OnSourceGroupsRemoved : seq&lt;Microsoft.Lync.Controls.Internal.Model.IGroupModel&gt; -&gt; unit" Usage="groupByGroupsContactsAndGroupsManager.OnSourceGroupsRemoved groups" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

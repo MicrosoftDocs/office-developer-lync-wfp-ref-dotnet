@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.InitialContextEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class InitialContextEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class InitialContextEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type InitialContextEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.InitialContextEventArgs.ApplicationData" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationData As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationData { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ApplicationData : string" Usage="Microsoft.Lync.Model.Conversation.InitialContextEventArgs.ApplicationData" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.InitialContextEventArgs.ApplicationId" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationId As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApplicationId { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ApplicationId : string" Usage="Microsoft.Lync.Model.Conversation.InitialContextEventArgs.ApplicationId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

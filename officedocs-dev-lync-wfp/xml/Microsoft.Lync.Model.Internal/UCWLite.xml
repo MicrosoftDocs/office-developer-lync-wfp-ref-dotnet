@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.UCWLite" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class UCWLite&#xA;Inherits UCWBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class UCWLite abstract : Microsoft::Lync::Model::Internal::UCWBase" />
+  <TypeSignature Language="F#" Value="type UCWLite = class&#xA;    inherit UCWBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>

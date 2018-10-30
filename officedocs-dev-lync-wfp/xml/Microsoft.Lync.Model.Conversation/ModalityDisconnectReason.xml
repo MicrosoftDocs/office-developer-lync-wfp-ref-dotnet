@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason" />
   <TypeSignature Language="VB.NET" Value="Public Enum ModalityDisconnectReason" />
   <TypeSignature Language="C++ CLI" Value="public enum class ModalityDisconnectReason" />
+  <TypeSignature Language="F#" Value="type ModalityDisconnectReason = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.Busy" />
       <MemberSignature Language="VB.NET" Value="Busy" />
       <MemberSignature Language="C++ CLI" Value="Busy" />
+      <MemberSignature Language="F#" Value="Busy = 2" Usage="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.Busy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.Decline" />
       <MemberSignature Language="VB.NET" Value="Decline" />
       <MemberSignature Language="C++ CLI" Value="Decline" />
+      <MemberSignature Language="F#" Value="Decline = 4" Usage="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.Decline" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.DeclineEverywhere" />
       <MemberSignature Language="VB.NET" Value="DeclineEverywhere" />
       <MemberSignature Language="C++ CLI" Value="DeclineEverywhere" />
+      <MemberSignature Language="F#" Value="DeclineEverywhere = 5" Usage="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.DeclineEverywhere" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.NotAcceptableHere" />
       <MemberSignature Language="VB.NET" Value="NotAcceptableHere" />
       <MemberSignature Language="C++ CLI" Value="NotAcceptableHere" />
+      <MemberSignature Language="F#" Value="NotAcceptableHere = 3" Usage="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.NotAcceptableHere" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.ReplyOther" />
       <MemberSignature Language="VB.NET" Value="ReplyOther" />
       <MemberSignature Language="C++ CLI" Value="ReplyOther" />
+      <MemberSignature Language="F#" Value="ReplyOther = 6" Usage="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.ReplyOther" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.Timeout" />
       <MemberSignature Language="VB.NET" Value="Timeout" />
       <MemberSignature Language="C++ CLI" Value="Timeout" />
+      <MemberSignature Language="F#" Value="Timeout = 1" Usage="Microsoft.Lync.Model.Conversation.ModalityDisconnectReason.Timeout" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

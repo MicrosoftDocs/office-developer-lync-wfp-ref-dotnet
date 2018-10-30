@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.OverflowMenu" />
   <TypeSignature Language="VB.NET" Value="Public Class OverflowMenu&#xA;Inherits ContactBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class OverflowMenu : Microsoft::Lync::Controls::ContactBase" />
+  <TypeSignature Language="F#" Value="type OverflowMenu = class&#xA;    inherit ContactBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.OverflowMenu.ContextInformationModelsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextInformationModelsProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextInformationModelsProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextInformationModelsProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.OverflowMenu.ContextInformationModelsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -59,6 +61,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="overflowMenu.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -79,6 +82,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.OnContextualInformationChanged(Microsoft.Lync.Controls.ConversationContextualInfo,Microsoft.Lync.Controls.ConversationContextualInfo)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnContextualInformationChanged (oldValue As ConversationContextualInfo, newValue As ConversationContextualInfo)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnContextualInformationChanged(Microsoft::Lync::Controls::ConversationContextualInfo ^ oldValue, Microsoft::Lync::Controls::ConversationContextualInfo ^ newValue);" />
+      <MemberSignature Language="F#" Value="override this.OnContextualInformationChanged : Microsoft.Lync.Controls.ConversationContextualInfo * Microsoft.Lync.Controls.ConversationContextualInfo -&gt; unit" Usage="overflowMenu.OnContextualInformationChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -104,6 +108,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="overflowMenu.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -125,6 +130,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.UnwireModel(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwireModel (model As IContactModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwireModel(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ model);" />
+      <MemberSignature Language="F#" Value="override this.UnwireModel : Microsoft.Lync.Controls.Internal.Model.IContactModel -&gt; unit" Usage="overflowMenu.UnwireModel model" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -148,6 +154,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.OverflowMenu.WireModel(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WireModel (model As IContactModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WireModel(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ model);" />
+      <MemberSignature Language="F#" Value="override this.WireModel : Microsoft.Lync.Controls.Internal.Model.IContactModel -&gt; unit" Usage="overflowMenu.WireModel model" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

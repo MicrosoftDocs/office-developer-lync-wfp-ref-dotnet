@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.MenuItemAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuItemAutomationPeer&#xA;Inherits ListBoxItemAutomationPeer" />
   <TypeSignature Language="C++ CLI" Value="public ref class MenuItemAutomationPeer : System::Windows::Automation::Peers::ListBoxItemAutomationPeer" />
+  <TypeSignature Language="F#" Value="type MenuItemAutomationPeer = class&#xA;    inherit ListBoxItemAutomationPeer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.MenuItemAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.MenuItem)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As MenuItem)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; MenuItemAutomationPeer(Microsoft::Lync::Controls::Internal::MenuItem ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.MenuItemAutomationPeer : Microsoft.Lync.Controls.Internal.MenuItem -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.MenuItemAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.MenuItemAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -42,6 +44,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object GetPattern(valuetype System.Windows.Automation.Peers.PatternInterface patternInterface) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.MenuItemAutomationPeer.GetPattern(System.Windows.Automation.Peers.PatternInterface)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Object ^ GetPattern(System::Windows::Automation::Peers::PatternInterface patternInterface);" />
+      <MemberSignature Language="F#" Value="abstract member GetPattern : System.Windows.Automation.Peers.PatternInterface -&gt; obj&#xA;override this.GetPattern : System.Windows.Automation.Peers.PatternInterface -&gt; obj" Usage="menuItemAutomationPeer.GetPattern patternInterface" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

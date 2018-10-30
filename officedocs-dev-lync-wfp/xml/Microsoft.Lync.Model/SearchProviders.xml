@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchProviders" />
   <TypeSignature Language="VB.NET" Value="Public Enum SearchProviders" />
   <TypeSignature Language="C++ CLI" Value="public enum class SearchProviders" />
+  <TypeSignature Language="F#" Value="type SearchProviders = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
       <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Lync.Model.SearchProviders.Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.ExchangeService" />
       <MemberSignature Language="VB.NET" Value="ExchangeService" />
       <MemberSignature Language="C++ CLI" Value="ExchangeService" />
+      <MemberSignature Language="F#" Value="ExchangeService = 1" Usage="Microsoft.Lync.Model.SearchProviders.ExchangeService" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.Expert" />
       <MemberSignature Language="VB.NET" Value="Expert" />
       <MemberSignature Language="C++ CLI" Value="Expert" />
+      <MemberSignature Language="F#" Value="Expert = 65535" Usage="Microsoft.Lync.Model.SearchProviders.Expert" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.GlobalAddressList" />
       <MemberSignature Language="VB.NET" Value="GlobalAddressList" />
       <MemberSignature Language="C++ CLI" Value="GlobalAddressList" />
+      <MemberSignature Language="F#" Value="GlobalAddressList = 2" Usage="Microsoft.Lync.Model.SearchProviders.GlobalAddressList" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.SearchProviders.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -122,6 +128,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.OtherContacts" />
       <MemberSignature Language="VB.NET" Value="OtherContacts" />
       <MemberSignature Language="C++ CLI" Value="OtherContacts" />
+      <MemberSignature Language="F#" Value="OtherContacts = 8" Usage="Microsoft.Lync.Model.SearchProviders.OtherContacts" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -141,6 +148,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.PersonalContacts" />
       <MemberSignature Language="VB.NET" Value="PersonalContacts" />
       <MemberSignature Language="C++ CLI" Value="PersonalContacts" />
+      <MemberSignature Language="F#" Value="PersonalContacts = 5" Usage="Microsoft.Lync.Model.SearchProviders.PersonalContacts" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -160,6 +168,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 65534" Usage="Microsoft.Lync.Model.SearchProviders.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -179,6 +188,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchProviders.WindowsAddressBook" />
       <MemberSignature Language="VB.NET" Value="WindowsAddressBook" />
       <MemberSignature Language="C++ CLI" Value="WindowsAddressBook" />
+      <MemberSignature Language="F#" Value="WindowsAddressBook = 4" Usage="Microsoft.Lync.Model.SearchProviders.WindowsAddressBook" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.PropertyMask" />
   <TypeSignature Language="VB.NET" Value="Public Enum PropertyMask" />
   <TypeSignature Language="C++ CLI" Value="public enum class PropertyMask" />
+  <TypeSignature Language="F#" Value="type PropertyMask = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyMask.Class" />
       <MemberSignature Language="VB.NET" Value="Class" />
       <MemberSignature Language="C++ CLI" Value="Class" />
+      <MemberSignature Language="F#" Value="Class = 268369920" Usage="Microsoft.Lync.Model.Internal.PropertyMask.Class" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyMask.Id" />
       <MemberSignature Language="VB.NET" Value="Id" />
       <MemberSignature Language="C++ CLI" Value="Id" />
+      <MemberSignature Language="F#" Value="Id = 65535" Usage="Microsoft.Lync.Model.Internal.PropertyMask.Id" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyMask.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Internal.PropertyMask.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PropertyMask.Type" />
       <MemberSignature Language="VB.NET" Value="Type" />
       <MemberSignature Language="C++ CLI" Value="Type" />
+      <MemberSignature Language="F#" Value="Type = -268435456" Usage="Microsoft.Lync.Model.Internal.PropertyMask.Type" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
