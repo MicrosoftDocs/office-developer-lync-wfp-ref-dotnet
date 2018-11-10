@@ -278,7 +278,7 @@
         <param name="modalityCallback">To be added.</param>
         <param name="state">To be added.</param>
         <summary> 
-            Retrives a held modality.
+            Retrieves a held modality.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -639,7 +639,7 @@
       <Docs>
         <param name="asyncResult">To be added.</param>
         <summary> 
-            Retrives a held modality.
+            Retrieves a held modality.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
