@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationWindowExtensionSize" />
   <TypeSignature Language="C++ CLI" Value="public enum class ConversationWindowExtensionSize" />
+  <TypeSignature Language="F#" Value="type ConversationWindowExtensionSize = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize.Large" />
       <MemberSignature Language="VB.NET" Value="Large" />
       <MemberSignature Language="C++ CLI" Value="Large" />
+      <MemberSignature Language="F#" Value="Large = 2" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize.Large" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize.Medium" />
       <MemberSignature Language="VB.NET" Value="Medium" />
       <MemberSignature Language="C++ CLI" Value="Medium" />
+      <MemberSignature Language="F#" Value="Medium = 1" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize.Medium" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize.Small" />
       <MemberSignature Language="VB.NET" Value="Small" />
       <MemberSignature Language="C++ CLI" Value="Small" />
+      <MemberSignature Language="F#" Value="Small = 0" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize.Small" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

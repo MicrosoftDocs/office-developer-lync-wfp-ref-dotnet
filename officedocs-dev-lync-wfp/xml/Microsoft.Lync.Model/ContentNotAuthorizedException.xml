@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContentNotAuthorizedException" />
   <TypeSignature Language="VB.NET" Value="Public Class ContentNotAuthorizedException&#xA;Inherits LyncClientException" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContentNotAuthorizedException : Microsoft::Lync::Model::LyncClientException" />
+  <TypeSignature Language="F#" Value="type ContentNotAuthorizedException = class&#xA;    inherit LyncClientException" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -12,6 +13,11 @@
     <BaseTypeName>Microsoft.Lync.Model.LyncClientException</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Serializable</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Exception thrown when a cotent title already exists
@@ -25,6 +31,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.ContentNotAuthorizedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (info As SerializationInfo, context As StreamingContext)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; ContentNotAuthorizedException(System::Runtime::Serialization::SerializationInfo ^ info, System::Runtime::Serialization::StreamingContext context);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Model.ContentNotAuthorizedException : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; Microsoft.Lync.Model.ContentNotAuthorizedException" Usage="new Microsoft.Lync.Model.ContentNotAuthorizedException (info, context)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

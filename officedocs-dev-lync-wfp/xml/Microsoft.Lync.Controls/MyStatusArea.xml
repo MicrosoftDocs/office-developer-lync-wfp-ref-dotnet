@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.MyStatusArea" />
   <TypeSignature Language="VB.NET" Value="Public Class MyStatusArea&#xA;Inherits SelfBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class MyStatusArea : Microsoft::Lync::Controls::SelfBase" />
+  <TypeSignature Language="F#" Value="type MyStatusArea = class&#xA;    inherit SelfBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -54,6 +55,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyStatusArea.AvailabilityState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AvailabilityState As ContactAvailability" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ContactAvailability AvailabilityState { Microsoft::Lync::Controls::ContactAvailability get(); };" />
+      <MemberSignature Language="F#" Value="member this.AvailabilityState : Microsoft.Lync.Controls.ContactAvailability" Usage="Microsoft.Lync.Controls.MyStatusArea.AvailabilityState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -74,6 +76,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyStatusArea.AvailabilityStateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AvailabilityStateProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ AvailabilityStateProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable AvailabilityStateProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.MyStatusArea.AvailabilityStateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyStatusArea.Location" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Location : string" Usage="Microsoft.Lync.Controls.MyStatusArea.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -113,6 +117,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyStatusArea.LocationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LocationProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ LocationProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable LocationProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.MyStatusArea.LocationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -132,6 +137,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="myStatusArea.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -152,6 +158,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="myStatusArea.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -173,6 +180,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.OnPresenceItemsPropertyChanged(Microsoft.Lync.Controls.Internal.Model.IPresenceItems,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub OnPresenceItemsPropertyChanged (presenceItems As IPresenceItems, propertyName As String)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPresenceItemsPropertyChanged(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems, System::String ^ propertyName);" />
+      <MemberSignature Language="F#" Value="override this.OnPresenceItemsPropertyChanged : Microsoft.Lync.Controls.Internal.Model.IPresenceItems * string -&gt; unit" Usage="myStatusArea.OnPresenceItemsPropertyChanged (presenceItems, propertyName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -198,6 +206,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyStatusArea.PersonalNote" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PersonalNote As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PersonalNote { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PersonalNote : string" Usage="Microsoft.Lync.Controls.MyStatusArea.PersonalNote" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -221,6 +230,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyStatusArea.PersonalNoteProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PersonalNoteProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PersonalNoteProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PersonalNoteProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.MyStatusArea.PersonalNoteProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -243,6 +253,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.MyStatusArea.PhotoDisplayMode" />
       <MemberSignature Language="VB.NET" Value="Public Property PhotoDisplayMode As PhotoDisplayMode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::PhotoDisplayMode PhotoDisplayMode { Microsoft::Lync::Controls::PhotoDisplayMode get(); void set(Microsoft::Lync::Controls::PhotoDisplayMode value); };" />
+      <MemberSignature Language="F#" Value="member this.PhotoDisplayMode : Microsoft.Lync.Controls.PhotoDisplayMode with get, set" Usage="Microsoft.Lync.Controls.MyStatusArea.PhotoDisplayMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -263,6 +274,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.MyStatusArea.PhotoDisplayModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhotoDisplayModeProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ PhotoDisplayModeProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable PhotoDisplayModeProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.MyStatusArea.PhotoDisplayModeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -282,6 +294,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.UnwirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub UnwirePresenceItems (presenceItems As IPresenceItems)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void UnwirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberSignature Language="F#" Value="override this.UnwirePresenceItems : Microsoft.Lync.Controls.Internal.Model.IPresenceItems -&gt; unit" Usage="myStatusArea.UnwirePresenceItems presenceItems" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -305,6 +318,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.MyStatusArea.WirePresenceItems(Microsoft.Lync.Controls.Internal.Model.IPresenceItems)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub WirePresenceItems (presenceItems As IPresenceItems)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void WirePresenceItems(Microsoft::Lync::Controls::Internal::Model::IPresenceItems ^ presenceItems);" />
+      <MemberSignature Language="F#" Value="override this.WirePresenceItems : Microsoft.Lync.Controls.Internal.Model.IPresenceItems -&gt; unit" Usage="myStatusArea.WirePresenceItems presenceItems" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

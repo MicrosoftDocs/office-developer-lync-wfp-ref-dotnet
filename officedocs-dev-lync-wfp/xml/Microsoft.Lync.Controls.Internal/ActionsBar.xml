@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ActionsBar" />
   <TypeSignature Language="VB.NET" Value="Public Class ActionsBar&#xA;Inherits ContactBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class ActionsBar : Microsoft::Lync::Controls::ContactBase" />
+  <TypeSignature Language="F#" Value="type ActionsBar = class&#xA;    inherit ContactBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality" />
   <TypeSignature Language="VB.NET" Value="Public Class ApplicationSharingModality&#xA;Inherits Modality" />
   <TypeSignature Language="C++ CLI" Value="public ref class ApplicationSharingModality : Microsoft::Lync::Model::Conversation::Modality" />
+  <TypeSignature Language="F#" Value="type ApplicationSharingModality = class&#xA;    inherit Modality" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ApplicationSharingModalityPropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ApplicationSharingModalityPropertyChanged As EventHandler(Of ModalityPropertyChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityPropertyChangedEventArgs ^&gt; ^ ApplicationSharingModalityPropertyChanged;" />
+      <MemberSignature Language="F#" Value="member this.ApplicationSharingModalityPropertyChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; " Usage="member this.ApplicationSharingModalityPropertyChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -47,6 +49,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginAcceptControlRequest(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginAcceptControlRequest (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAcceptControlRequest(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginAcceptControlRequest : AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginAcceptControlRequest (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -75,6 +78,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginDeclineControlRequest(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginDeclineControlRequest (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginDeclineControlRequest(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginDeclineControlRequest : AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginDeclineControlRequest (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +107,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginGrantControl(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginGrantControl (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginGrantControl(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginGrantControl : AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginGrantControl (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -131,6 +136,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginReleaseControl(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginReleaseControl (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginReleaseControl(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginReleaseControl : AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginReleaseControl (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -159,6 +165,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginRequestControl(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginRequestControl (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRequestControl(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginRequestControl : AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginRequestControl (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -187,6 +194,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginRevokeControl(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginRevokeControl (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginRevokeControl(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginRevokeControl : AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginRevokeControl (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -215,6 +223,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginShareDesktop(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginShareDesktop (modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShareDesktop(AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginShareDesktop : AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginShareDesktop (modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -243,6 +252,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginShareResources(Microsoft.Lync.Model.Conversation.Sharing.SharingResource,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginShareResources (resource As SharingResource, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShareResources(Microsoft::Lync::Model::Conversation::Sharing::SharingResource ^ resource, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginShareResources : Microsoft.Lync.Model.Conversation.Sharing.SharingResource * AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginShareResources (resource, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -273,6 +283,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginShareResources(Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginShareResources (resources As SharingResourceList, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShareResources(Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ resources, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginShareResources : Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList * AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginShareResources (resources, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -303,6 +314,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.BeginShareResources(System.Collections.Generic.IList{Microsoft.Lync.Model.Conversation.Sharing.SharingResource},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginShareResources (resourceList As IList(Of SharingResource), callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShareResources(System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Sharing::SharingResource ^&gt; ^ resourceList, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginShareResources : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Sharing.SharingResource&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="applicationSharingModality.BeginShareResources (resourceList, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -333,6 +345,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.CanShare(Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanShare (type As SharingResourceType) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanShare(Microsoft::Lync::Model::Conversation::Sharing::SharingResourceType type);" />
+      <MemberSignature Language="F#" Value="member this.CanShare : Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType -&gt; bool" Usage="applicationSharingModality.CanShare type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -359,6 +372,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.CanShare(Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType,Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail@)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanShare (type As SharingResourceType, ByRef detail As CanShareDetail) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanShare(Microsoft::Lync::Model::Conversation::Sharing::SharingResourceType type, [Runtime::InteropServices::Out] Microsoft::Lync::Model::Conversation::Sharing::CanShareDetail % detail);" />
+      <MemberSignature Language="F#" Value="member this.CanShare : Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType *  -&gt; bool" Usage="applicationSharingModality.CanShare (type, detail)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -369,7 +383,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="type" Type="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType" />
-        <Parameter Name="detail" Type="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail&amp;" RefType="out" />
+        <Parameter Name="detail" Type="Microsoft.Lync.Model.Conversation.Sharing.CanShareDetail" RefType="out" />
       </Parameters>
       <Docs>
         <param name="type">To be added.</param>
@@ -387,6 +401,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.Controller" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Controller As Participant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ Controller { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Controller : Microsoft.Lync.Model.Conversation.Participant" Usage="Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.Controller" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -410,6 +425,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ControllerChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ControllerChanged As EventHandler(Of ControllerChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ControllerChangedEventArgs ^&gt; ^ ControllerChanged;" />
+      <MemberSignature Language="F#" Value="member this.ControllerChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ControllerChangedEventArgs&gt; " Usage="member this.ControllerChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ControllerChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -429,6 +445,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ControlRequestReceived" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ControlRequestReceived As EventHandler(Of ControlRequestReceivedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ControlRequestReceivedEventArgs ^&gt; ^ ControlRequestReceived;" />
+      <MemberSignature Language="F#" Value="member this.ControlRequestReceived : EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ControlRequestReceivedEventArgs&gt; " Usage="member this.ControlRequestReceived : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ControlRequestReceivedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -451,6 +468,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndAcceptControlRequest(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndAcceptControlRequest (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndAcceptControlRequest(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndAcceptControlRequest : IAsyncResult -&gt; unit" Usage="applicationSharingModality.EndAcceptControlRequest asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -476,6 +494,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndDeclineControlRequest(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndDeclineControlRequest (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDeclineControlRequest(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndDeclineControlRequest : IAsyncResult -&gt; unit" Usage="applicationSharingModality.EndDeclineControlRequest asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -501,6 +520,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndGrantControl(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndGrantControl (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndGrantControl(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndGrantControl : IAsyncResult -&gt; unit" Usage="applicationSharingModality.EndGrantControl asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -526,6 +546,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndReleaseControl(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndReleaseControl (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndReleaseControl(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndReleaseControl : IAsyncResult -&gt; unit" Usage="applicationSharingModality.EndReleaseControl asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -551,6 +572,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndRequestControl(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndRequestControl (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRequestControl(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndRequestControl : IAsyncResult -&gt; unit" Usage="applicationSharingModality.EndRequestControl asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -576,6 +598,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndRevokeControl(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndRevokeControl (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndRevokeControl(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndRevokeControl : IAsyncResult -&gt; unit" Usage="applicationSharingModality.EndRevokeControl asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -601,6 +624,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndShareDesktop(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndShareDesktop (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndShareDesktop(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndShareDesktop : IAsyncResult -&gt; unit" Usage="applicationSharingModality.EndShareDesktop asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -626,6 +650,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.EndShareResources(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndShareResources (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndShareResources(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndShareResources : IAsyncResult -&gt; unit" Usage="applicationSharingModality.EndShareResources asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -651,6 +676,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!ApplicationSharingModality ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="applicationSharingModality.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -671,6 +697,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.LocalSharedResources" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocalSharedResources As SharingResourceList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ LocalSharedResources { Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LocalSharedResources : Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList" Usage="Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.LocalSharedResources" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -691,6 +718,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.LocalSharedResourcesChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event LocalSharedResourcesChanged As EventHandler(Of LocalSharedResourcesChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::LocalSharedResourcesChangedEventArgs ^&gt; ^ LocalSharedResourcesChanged;" />
+      <MemberSignature Language="F#" Value="member this.LocalSharedResourcesChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.LocalSharedResourcesChangedEventArgs&gt; " Usage="member this.LocalSharedResourcesChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.LocalSharedResourcesChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -710,6 +738,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ParticipationState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParticipationState As ParticipationState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::ParticipationState ParticipationState { Microsoft::Lync::Model::Conversation::Sharing::ParticipationState get(); };" />
+      <MemberSignature Language="F#" Value="member this.ParticipationState : Microsoft.Lync.Model.Conversation.Sharing.ParticipationState" Usage="Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ParticipationState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -730,6 +759,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ParticipationStateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipationStateChanged As EventHandler(Of ParticipationStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::ParticipationStateChangedEventArgs ^&gt; ^ ParticipationStateChanged;" />
+      <MemberSignature Language="F#" Value="member this.ParticipationStateChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs&gt; " Usage="member this.ParticipationStateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.ParticipationStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -752,6 +782,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ShareableResources" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShareableResources As SharingResourceList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ ShareableResources { Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ShareableResources : Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList" Usage="Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.ShareableResources" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -772,6 +803,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.Sharer" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sharer As Participant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ Sharer { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Sharer : Microsoft.Lync.Model.Conversation.Participant" Usage="Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.Sharer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -794,6 +826,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Sharing.ApplicationSharingModality.SharerChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event SharerChanged As EventHandler(Of SharerChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::Sharing::SharerChangedEventArgs ^&gt; ^ SharerChanged;" />
+      <MemberSignature Language="F#" Value="member this.SharerChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.SharerChangedEventArgs&gt; " Usage="member this.SharerChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.Sharing.SharerChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

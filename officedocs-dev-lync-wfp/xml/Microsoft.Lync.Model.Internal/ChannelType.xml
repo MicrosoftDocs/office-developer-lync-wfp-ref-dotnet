@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.ChannelType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ChannelType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ChannelType" />
+  <TypeSignature Language="F#" Value="type ChannelType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ChannelType.Audio" />
       <MemberSignature Language="VB.NET" Value="Audio" />
       <MemberSignature Language="C++ CLI" Value="Audio" />
+      <MemberSignature Language="F#" Value="Audio = 0" Usage="Microsoft.Lync.Model.Internal.ChannelType.Audio" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ChannelType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Internal.ChannelType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ChannelType.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 2" Usage="Microsoft.Lync.Model.Internal.ChannelType.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.ChannelType.Video" />
       <MemberSignature Language="VB.NET" Value="Video" />
       <MemberSignature Language="C++ CLI" Value="Video" />
+      <MemberSignature Language="F#" Value="Video = 1" Usage="Microsoft.Lync.Model.Internal.ChannelType.Video" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -1,15 +1,7 @@
 {
-  "dependencies": [
-    "Microsoft.Lync.Controls.Framework",
-    "Microsoft.Lync.Utilities",
-    "microsoft.office.uc",
-    "PresentationCore",
-    "PresentationFramework",
-    "System.Core",
-    "System.Windows.Browser",
-    "UIAutomationProvider",
-    "UIAutomationTypes",
-    "WindowsBase"
+  "lync-silverlight": [
+    "microsoft.lync.controls",
+    "Microsoft.Lync.Model"
   ],
   "lync-wfp": [
     "Microsoft.Lync.Controls",

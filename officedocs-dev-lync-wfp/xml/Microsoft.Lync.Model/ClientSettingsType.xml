@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ClientSettingsType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ClientSettingsType" />
   <TypeSignature Language="C++ CLI" Value="public enum class ClientSettingsType" />
+  <TypeSignature Language="F#" Value="type ClientSettingsType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.EnableP2PVideo" />
       <MemberSignature Language="VB.NET" Value="EnableP2PVideo" />
       <MemberSignature Language="C++ CLI" Value="EnableP2PVideo" />
+      <MemberSignature Language="F#" Value="EnableP2PVideo = 269615105" Usage="Microsoft.Lync.Model.ClientSettingsType.EnableP2PVideo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ClientSettingsType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.PublicCloudProviderInfo" />
       <MemberSignature Language="VB.NET" Value="PublicCloudProviderInfo" />
       <MemberSignature Language="C++ CLI" Value="PublicCloudProviderInfo" />
+      <MemberSignature Language="F#" Value="PublicCloudProviderInfo = 1611792386" Usage="Microsoft.Lync.Model.ClientSettingsType.PublicCloudProviderInfo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 269615104" Usage="Microsoft.Lync.Model.ClientSettingsType.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 538050563" Usage="Microsoft.Lync.Model.ClientSettingsType.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ClientSettingsType.Reserved3" />
       <MemberSignature Language="VB.NET" Value="Reserved3" />
       <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberSignature Language="F#" Value="Reserved3 = 538050564" Usage="Microsoft.Lync.Model.ClientSettingsType.Reserved3" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

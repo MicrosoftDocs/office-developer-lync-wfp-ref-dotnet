@@ -4,12 +4,14 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ContextMenu" />
   <TypeSignature Language="VB.NET" Value="Public Class ContextMenu&#xA;Inherits ContextMenu" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContextMenu : System::Windows::Controls::ContextMenu" />
+  <TypeSignature Language="F#" Value="type ContextMenu = class&#xA;    inherit ContextMenu" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Controls.ContextMenu</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="lync-silverlight">System.Windows.Controls.ListBox</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -34,12 +36,54 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Closed">
+      <MemberSignature Language="C#" Value="public event System.Windows.RoutedEventHandler Closed;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.Windows.RoutedEventHandler Closed" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.Internal.ContextMenu.Closed" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Closed As RoutedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::RoutedEventHandler ^ Closed;" />
+      <MemberSignature Language="F#" Value="member this.Closed : System.Windows.RoutedEventHandler " Usage="member this.Closed : System.Windows.RoutedEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.RoutedEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentItem">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.MenuItem CurrentItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.MenuItem CurrentItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContextMenu.CurrentItem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentItem As MenuItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::MenuItem ^ CurrentItem { Microsoft::Lync::Controls::Internal::MenuItem ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CurrentItem : Microsoft.Lync.Controls.Internal.MenuItem" Usage="Microsoft.Lync.Controls.Internal.ContextMenu.CurrentItem" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.MenuItem</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetContainerForItemOverride">
       <MemberSignature Language="C#" Value="protected override System.Windows.DependencyObject GetContainerForItemOverride ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.DependencyObject GetContainerForItemOverride() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContextMenu.GetContainerForItemOverride" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetContainerForItemOverride () As DependencyObject" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::DependencyObject ^ GetContainerForItemOverride();" />
+      <MemberSignature Language="F#" Value="override this.GetContainerForItemOverride : unit -&gt; System.Windows.DependencyObject" Usage="contextMenu.GetContainerForItemOverride " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -55,12 +99,172 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="HandleKeyDown">
+      <MemberSignature Language="C#" Value="protected void HandleKeyDown (object sender, System.Windows.Input.KeyEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void HandleKeyDown(object sender, class System.Windows.Input.KeyEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContextMenu.HandleKeyDown(System.Object,System.Windows.Input.KeyEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub HandleKeyDown (sender As Object, e As KeyEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void HandleKeyDown(System::Object ^ sender, System::Windows::Input::KeyEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="member this.HandleKeyDown : obj * System.Windows.Input.KeyEventArgs -&gt; unit" Usage="contextMenu.HandleKeyDown (sender, e)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="System.Windows.Input.KeyEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsItemItsOwnContainerOverride">
+      <MemberSignature Language="C#" Value="protected override bool IsItemItsOwnContainerOverride (object item);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool IsItemItsOwnContainerOverride(object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContextMenu.IsItemItsOwnContainerOverride(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function IsItemItsOwnContainerOverride (item As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool IsItemItsOwnContainerOverride(System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="abstract member IsItemItsOwnContainerOverride : obj -&gt; bool&#xA;override this.IsItemItsOwnContainerOverride : obj -&gt; bool" Usage="contextMenu.IsItemItsOwnContainerOverride item" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOpen">
+      <MemberSignature Language="C#" Value="public bool IsOpen { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOpen" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContextMenu.IsOpen" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOpen As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOpen { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsOpen : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.ContextMenu.IsOpen" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Point&gt; Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Point&gt; Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContextMenu.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As Nullable(Of Point)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;System::Windows::Point&gt; Location { Nullable&lt;System::Windows::Point&gt; get(); void set(Nullable&lt;System::Windows::Point&gt; value); };" />
+      <MemberSignature Language="F#" Value="member this.Location : Nullable&lt;System.Windows.Point&gt; with get, set" Usage="Microsoft.Lync.Controls.Internal.ContextMenu.Location" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Windows.Point&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnCreateAutomationPeer">
+      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer OnCreateAutomationPeer() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContextMenu.OnCreateAutomationPeer" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="abstract member OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer&#xA;override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="contextMenu.OnCreateAutomationPeer " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnKeyDown">
+      <MemberSignature Language="C#" Value="protected override void OnKeyDown (System.Windows.Input.KeyEventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnKeyDown(class System.Windows.Input.KeyEventArgs e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContextMenu.OnKeyDown(System.Windows.Input.KeyEventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnKeyDown (e As KeyEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnKeyDown(System::Windows::Input::KeyEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="abstract member OnKeyDown : System.Windows.Input.KeyEventArgs -&gt; unit&#xA;override this.OnKeyDown : System.Windows.Input.KeyEventArgs -&gt; unit" Usage="contextMenu.OnKeyDown e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Windows.Input.KeyEventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Opened">
+      <MemberSignature Language="C#" Value="public event System.Windows.RoutedEventHandler Opened;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.Windows.RoutedEventHandler Opened" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.Internal.ContextMenu.Opened" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Opened As RoutedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::RoutedEventHandler ^ Opened;" />
+      <MemberSignature Language="F#" Value="member this.Opened : System.Windows.RoutedEventHandler " Usage="member this.Opened : System.Windows.RoutedEventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.RoutedEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Owner">
       <MemberSignature Language="C#" Value="public System.Windows.FrameworkElement Owner { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.FrameworkElement Owner" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContextMenu.Owner" />
       <MemberSignature Language="VB.NET" Value="Public Property Owner As FrameworkElement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::FrameworkElement ^ Owner { System::Windows::FrameworkElement ^ get(); void set(System::Windows::FrameworkElement ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Owner : System.Windows.FrameworkElement with get, set" Usage="Microsoft.Lync.Controls.Internal.ContextMenu.Owner" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -72,6 +276,74 @@
       <Docs>
         <summary>To be added.</summary>
         <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Placement">
+      <MemberSignature Language="C#" Value="public System.Windows.Controls.Primitives.PlacementMode Placement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Windows.Controls.Primitives.PlacementMode Placement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContextMenu.Placement" />
+      <MemberSignature Language="VB.NET" Value="Public Property Placement As PlacementMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Controls::Primitives::PlacementMode Placement { System::Windows::Controls::Primitives::PlacementMode get(); void set(System::Windows::Controls::Primitives::PlacementMode value); };" />
+      <MemberSignature Language="F#" Value="member this.Placement : System.Windows.Controls.Primitives.PlacementMode with get, set" Usage="Microsoft.Lync.Controls.Internal.ContextMenu.Placement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.Controls.Primitives.PlacementMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlacementTarget">
+      <MemberSignature Language="C#" Value="public System.Windows.FrameworkElement PlacementTarget { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.FrameworkElement PlacementTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContextMenu.PlacementTarget" />
+      <MemberSignature Language="VB.NET" Value="Public Property PlacementTarget As FrameworkElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::FrameworkElement ^ PlacementTarget { System::Windows::FrameworkElement ^ get(); void set(System::Windows::FrameworkElement ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.PlacementTarget : System.Windows.FrameworkElement with get, set" Usage="Microsoft.Lync.Controls.Internal.ContextMenu.PlacementTarget" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.FrameworkElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrepareContainerForItemOverride">
+      <MemberSignature Language="C#" Value="protected override void PrepareContainerForItemOverride (System.Windows.DependencyObject element, object item);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PrepareContainerForItemOverride(class System.Windows.DependencyObject element, object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ContextMenu.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PrepareContainerForItemOverride (element As DependencyObject, item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PrepareContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="abstract member PrepareContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit&#xA;override this.PrepareContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit" Usage="contextMenu.PrepareContainerForItemOverride (element, item)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="element" Type="System.Windows.DependencyObject" />
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="element">To be added.</param>
+        <param name="item">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

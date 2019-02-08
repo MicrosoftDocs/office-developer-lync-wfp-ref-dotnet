@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Common.CompoundCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class CompoundCollection&#xA;Implements IEnumerable, INotifyCollectionChanged" />
   <TypeSignature Language="C++ CLI" Value="public ref class CompoundCollection : System::Collections::IEnumerable, System::Collections::Specialized::INotifyCollectionChanged" />
+  <TypeSignature Language="F#" Value="type CompoundCollection = class&#xA;    interface INotifyCollectionChanged&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -52,6 +53,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.Internal.Common.CompoundCollection.CollectionChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event CollectionChanged As NotifyCollectionChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::Collections::Specialized::NotifyCollectionChangedEventHandler ^ CollectionChanged;" />
+      <MemberSignature Language="F#" Value="member this.CollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " Usage="member this.CollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -71,6 +73,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.Common.CompoundCollection.Items" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As IList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IList ^ Items { System::Collections::IList ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Items : System.Collections.IList" Usage="Microsoft.Lync.Controls.Internal.Common.CompoundCollection.Items" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -92,9 +95,6 @@
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
         <AssemblyVersion>15.0.0.0</AssemblyVersion>

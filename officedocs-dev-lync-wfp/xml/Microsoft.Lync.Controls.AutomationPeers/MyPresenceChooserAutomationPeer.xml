@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.MyPresenceChooserAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class MyPresenceChooserAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of MyPresenceChooser)" />
   <TypeSignature Language="C++ CLI" Value="public ref class MyPresenceChooserAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::MyPresenceChooser ^&gt;" />
+  <TypeSignature Language="F#" Value="type MyPresenceChooserAutomationPeer = class&#xA;    inherit UCBaseAutomationPeer&lt;MyPresenceChooser&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.MyPresenceChooserAutomationPeer.#ctor(Microsoft.Lync.Controls.MyPresenceChooser)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As MyPresenceChooser)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; MyPresenceChooserAutomationPeer(Microsoft::Lync::Controls::MyPresenceChooser ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.MyPresenceChooserAutomationPeer : Microsoft.Lync.Controls.MyPresenceChooser -&gt; Microsoft.Lync.Controls.AutomationPeers.MyPresenceChooserAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.MyPresenceChooserAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

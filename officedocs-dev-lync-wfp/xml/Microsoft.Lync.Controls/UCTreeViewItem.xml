@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.UCTreeViewItem" />
   <TypeSignature Language="VB.NET" Value="Public Class UCTreeViewItem&#xA;Inherits TreeViewItem" />
   <TypeSignature Language="C++ CLI" Value="public ref class UCTreeViewItem : System::Windows::Controls::TreeViewItem" />
+  <TypeSignature Language="F#" Value="type UCTreeViewItem = class&#xA;    inherit TreeViewItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -45,6 +46,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem._callButton" />
       <MemberSignature Language="VB.NET" Value="Protected _callButton As StartAudioCallButton " />
       <MemberSignature Language="C++ CLI" Value="protected: Microsoft::Lync::Controls::StartAudioCallButton ^ _callButton;" />
+      <MemberSignature Language="F#" Value="val mutable _callButton : Microsoft.Lync.Controls.StartAudioCallButton" Usage="Microsoft.Lync.Controls.UCTreeViewItem._callButton" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCTreeViewItem.CallButtonVisibility" />
       <MemberSignature Language="VB.NET" Value="Public Property CallButtonVisibility As Visibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Visibility CallButtonVisibility { System::Windows::Visibility get(); void set(System::Windows::Visibility value); };" />
+      <MemberSignature Language="F#" Value="member this.CallButtonVisibility : System.Windows.Visibility with get, set" Usage="Microsoft.Lync.Controls.UCTreeViewItem.CallButtonVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -84,6 +87,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.CallButtonVisibilityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CallButtonVisibilityProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CallButtonVisibilityProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable CallButtonVisibilityProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCTreeViewItem.CallButtonVisibilityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -103,6 +107,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.ClearContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ClearContainerForItemOverride (element As DependencyObject, item As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ClearContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="override this.ClearContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit" Usage="uCTreeViewItem.ClearContainerForItemOverride (element, item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -128,6 +133,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCTreeViewItem.ContextualInformation" />
       <MemberSignature Language="VB.NET" Value="Public Property ContextualInformation As ConversationContextualInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ConversationContextualInfo ^ ContextualInformation { Microsoft::Lync::Controls::ConversationContextualInfo ^ get(); void set(Microsoft::Lync::Controls::ConversationContextualInfo ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextualInformation : Microsoft.Lync.Controls.ConversationContextualInfo with get, set" Usage="Microsoft.Lync.Controls.UCTreeViewItem.ContextualInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -151,6 +157,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.ContextualInformationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextualInformationProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextualInformationProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextualInformationProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCTreeViewItem.ContextualInformationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -170,6 +177,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.HandleDropDownClosed(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub HandleDropDownClosed (sender As Object, e As EventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void HandleDropDownClosed(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="member this.HandleDropDownClosed : obj * EventArgs -&gt; unit" Usage="uCTreeViewItem.HandleDropDownClosed (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -195,6 +203,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.HandleDropDownOpened(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub HandleDropDownOpened (sender As Object, e As EventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void HandleDropDownOpened(System::Object ^ sender, EventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="member this.HandleDropDownOpened : obj * EventArgs -&gt; unit" Usage="uCTreeViewItem.HandleDropDownOpened (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -220,6 +229,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCTreeViewItem.IsContainerSelected" />
       <MemberSignature Language="VB.NET" Value="Public Property IsContainerSelected As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContainerSelected { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsContainerSelected : bool with get, set" Usage="Microsoft.Lync.Controls.UCTreeViewItem.IsContainerSelected" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -240,6 +250,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.IsContainerSelectedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsContainerSelectedProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsContainerSelectedProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsContainerSelectedProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCTreeViewItem.IsContainerSelectedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -259,6 +270,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.IsItemItsOwnContainerOverride(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function IsItemItsOwnContainerOverride (item As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool IsItemItsOwnContainerOverride(System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="override this.IsItemItsOwnContainerOverride : obj -&gt; bool" Usage="uCTreeViewItem.IsItemItsOwnContainerOverride item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -283,6 +295,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="uCTreeViewItem.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -303,6 +316,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="uCTreeViewItem.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -324,6 +338,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnGotFocus(System.Windows.RoutedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnGotFocus (e As RoutedEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnGotFocus(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnGotFocus : System.Windows.RoutedEventArgs -&gt; unit" Usage="uCTreeViewItem.OnGotFocus e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -347,6 +362,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnKeyDown(System.Windows.Input.KeyEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnKeyDown (e As KeyEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnKeyDown(System::Windows::Input::KeyEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnKeyDown : System.Windows.Input.KeyEventArgs -&gt; unit" Usage="uCTreeViewItem.OnKeyDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -370,6 +386,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnLostFocus(System.Windows.RoutedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnLostFocus (e As RoutedEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnLostFocus(System::Windows::RoutedEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnLostFocus : System.Windows.RoutedEventArgs -&gt; unit" Usage="uCTreeViewItem.OnLostFocus e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -393,6 +410,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeftButtonDown (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeftButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnMouseLeftButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="uCTreeViewItem.OnMouseLeftButtonDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -416,6 +434,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseLeftButtonUp (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseLeftButtonUp(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnMouseLeftButtonUp : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="uCTreeViewItem.OnMouseLeftButtonUp e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -439,6 +458,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMouseRightButtonDown (e As MouseButtonEventArgs)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMouseRightButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
+      <MemberSignature Language="F#" Value="override this.OnMouseRightButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="uCTreeViewItem.OnMouseRightButtonDown e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -462,6 +482,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.OnSourceChanged(System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnSourceChanged (oldValue As Object, newValue As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnSourceChanged(System::Object ^ oldValue, System::Object ^ newValue);" />
+      <MemberSignature Language="F#" Value="abstract member OnSourceChanged : obj * obj -&gt; unit&#xA;override this.OnSourceChanged : obj * obj -&gt; unit" Usage="uCTreeViewItem.OnSourceChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -487,6 +508,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.PartNameCallButton" />
       <MemberSignature Language="VB.NET" Value="Protected Const PartNameCallButton As String " />
       <MemberSignature Language="C++ CLI" Value="protected: System::String ^ PartNameCallButton;" />
+      <MemberSignature Language="F#" Value="val mutable PartNameCallButton : string" Usage="Microsoft.Lync.Controls.UCTreeViewItem.PartNameCallButton" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -506,6 +528,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.UCTreeViewItem.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PrepareContainerForItemOverride (element As DependencyObject, item As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PrepareContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
+      <MemberSignature Language="F#" Value="override this.PrepareContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit" Usage="uCTreeViewItem.PrepareContainerForItemOverride (element, item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -531,6 +554,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.UCTreeViewItem.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Source { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Source : obj with get, set" Usage="Microsoft.Lync.Controls.UCTreeViewItem.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -555,6 +579,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.UCTreeViewItem.SourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SourceProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SourceProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SourceProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.UCTreeViewItem.SourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

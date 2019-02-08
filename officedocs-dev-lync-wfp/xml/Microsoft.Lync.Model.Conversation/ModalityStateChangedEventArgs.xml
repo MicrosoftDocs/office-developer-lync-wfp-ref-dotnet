@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ModalityStateChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ModalityStateChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ModalityStateChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.NewState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewState As ModalityState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ModalityState NewState { Microsoft::Lync::Model::Conversation::ModalityState get(); };" />
+      <MemberSignature Language="F#" Value="member this.NewState : Microsoft.Lync.Model.Conversation.ModalityState" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.NewState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.OldState" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldState As ModalityState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ModalityState OldState { Microsoft::Lync::Model::Conversation::ModalityState get(); };" />
+      <MemberSignature Language="F#" Value="member this.OldState : Microsoft.Lync.Model.Conversation.ModalityState" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.OldState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.StatusCode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusCode As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StatusCode { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.StatusCode : int" Usage="Microsoft.Lync.Model.Conversation.ModalityStateChangedEventArgs.StatusCode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

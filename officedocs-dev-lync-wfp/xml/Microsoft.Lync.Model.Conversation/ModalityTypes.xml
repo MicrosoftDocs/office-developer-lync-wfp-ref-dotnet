@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ModalityTypes" />
   <TypeSignature Language="VB.NET" Value="Public Enum ModalityTypes" />
   <TypeSignature Language="C++ CLI" Value="public enum class ModalityTypes" />
+  <TypeSignature Language="F#" Value="type ModalityTypes = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityTypes.ApplicationSharing" />
       <MemberSignature Language="VB.NET" Value="ApplicationSharing" />
       <MemberSignature Language="C++ CLI" Value="ApplicationSharing" />
+      <MemberSignature Language="F#" Value="ApplicationSharing = 4" Usage="Microsoft.Lync.Model.Conversation.ModalityTypes.ApplicationSharing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityTypes.AudioVideo" />
       <MemberSignature Language="VB.NET" Value="AudioVideo" />
       <MemberSignature Language="C++ CLI" Value="AudioVideo" />
+      <MemberSignature Language="F#" Value="AudioVideo = 2" Usage="Microsoft.Lync.Model.Conversation.ModalityTypes.AudioVideo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityTypes.ContentSharing" />
       <MemberSignature Language="VB.NET" Value="ContentSharing" />
       <MemberSignature Language="C++ CLI" Value="ContentSharing" />
+      <MemberSignature Language="F#" Value="ContentSharing = 8" Usage="Microsoft.Lync.Model.Conversation.ModalityTypes.ContentSharing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityTypes.InstantMessage" />
       <MemberSignature Language="VB.NET" Value="InstantMessage" />
       <MemberSignature Language="C++ CLI" Value="InstantMessage" />
+      <MemberSignature Language="F#" Value="InstantMessage = 1" Usage="Microsoft.Lync.Model.Conversation.ModalityTypes.InstantMessage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityTypes.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ModalityTypes.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -122,6 +128,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityTypes.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Conversation.ModalityTypes.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -141,6 +148,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityTypes.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 16" Usage="Microsoft.Lync.Model.Conversation.ModalityTypes.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -160,6 +168,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ModalityTypes.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 32" Usage="Microsoft.Lync.Model.Conversation.ModalityTypes.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

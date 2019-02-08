@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.FrequentContacts" />
   <TypeSignature Language="VB.NET" Value="Public Class FrequentContacts&#xA;Inherits Group" />
   <TypeSignature Language="C++ CLI" Value="public ref class FrequentContacts : Microsoft::Lync::Model::Group::Group" />
+  <TypeSignature Language="F#" Value="type FrequentContacts = class&#xA;    inherit Group" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Group.FrequentContacts.ContactPositionChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ContactPositionChanged As EventHandler(Of ContactPositionChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Group::ContactPositionChangedEventArgs ^&gt; ^ ContactPositionChanged;" />
+      <MemberSignature Language="F#" Value="member this.ContactPositionChanged : EventHandler&lt;Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs&gt; " Usage="member this.ContactPositionChanged : System.EventHandler&lt;Microsoft.Lync.Model.Group.ContactPositionChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -42,6 +44,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.FrequentContacts.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!FrequentContacts ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="frequentContacts.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -62,6 +65,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.FrequentContacts.GetValueAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetValueAt (index As Integer) As Contact" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Contact ^ GetValueAt(int index);" />
+      <MemberSignature Language="F#" Value="member this.GetValueAt : int -&gt; Microsoft.Lync.Model.Contact" Usage="frequentContacts.GetValueAt index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.StartAudioCallButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class StartAudioCallButtonAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of StartAudioCallButton)" />
   <TypeSignature Language="C++ CLI" Value="public ref class StartAudioCallButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::StartAudioCallButton ^&gt;" />
+  <TypeSignature Language="F#" Value="type StartAudioCallButtonAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;StartAudioCallButton&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.StartAudioCallButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.StartAudioCallButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As StartAudioCallButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; StartAudioCallButtonAutomationPeer(Microsoft::Lync::Controls::StartAudioCallButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.StartAudioCallButtonAutomationPeer : Microsoft.Lync.Controls.StartAudioCallButton -&gt; Microsoft.Lync.Controls.AutomationPeers.StartAudioCallButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.StartAudioCallButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,12 +4,14 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.ContextMenuAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class ContextMenuAutomationPeer&#xA;Inherits ContextMenuAutomationPeer" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContextMenuAutomationPeer : System::Windows::Automation::Peers::ContextMenuAutomationPeer" />
+  <TypeSignature Language="F#" Value="type ContextMenuAutomationPeer = class&#xA;    inherit ContextMenuAutomationPeer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Automation.Peers.ContextMenuAutomationPeer</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="lync-silverlight">System.Windows.Automation.Peers.ListBoxAutomationPeer</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -23,6 +25,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.ContextMenuAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.ContextMenu)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContextMenu)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ContextMenuAutomationPeer(Microsoft::Lync::Controls::Internal::ContextMenu ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.ContextMenuAutomationPeer : Microsoft.Lync.Controls.Internal.ContextMenu -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.ContextMenuAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.ContextMenuAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

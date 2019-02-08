@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactSearchInputBoxAutomationPeer&#xA;Inherits UCBaseAutomationPeer(Of ContactSearchInputBox)" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactSearchInputBoxAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::UCBaseAutomationPeer&lt;Microsoft::Lync::Controls::ContactSearchInputBox ^&gt;" />
+  <TypeSignature Language="F#" Value="type ContactSearchInputBoxAutomationPeer = class&#xA;    inherit UCBaseAutomationPeer&lt;ContactSearchInputBox&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactSearchInputBox)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContactSearchInputBox)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactSearchInputBoxAutomationPeer(Microsoft::Lync::Controls::ContactSearchInputBox ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer : Microsoft.Lync.Controls.ContactSearchInputBox -&gt; Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactSearchInputBoxAutomationPeer.GetHelpTextCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetHelpTextCore () As String" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetHelpTextCore();" />
+      <MemberSignature Language="F#" Value="override this.GetHelpTextCore : unit -&gt; string" Usage="contactSearchInputBoxAutomationPeer.GetHelpTextCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

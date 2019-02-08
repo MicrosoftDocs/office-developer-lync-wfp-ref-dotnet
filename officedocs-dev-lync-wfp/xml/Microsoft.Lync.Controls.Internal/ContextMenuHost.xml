@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ContextMenuHost" />
   <TypeSignature Language="VB.NET" Value="Public Class ContextMenuHost&#xA;Inherits Control" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContextMenuHost : System::Windows::Controls::Control" />
+  <TypeSignature Language="F#" Value="type ContextMenuHost = class&#xA;    inherit Control" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -29,6 +30,47 @@
         <AssemblyVersion>15.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextMenu">
+      <MemberSignature Language="C#" Value="public Microsoft.Lync.Controls.Internal.ContextMenu ContextMenu { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Lync.Controls.Internal.ContextMenu ContextMenu" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ContextMenuHost.ContextMenu" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContextMenu As ContextMenu" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ContextMenu ^ ContextMenu { Microsoft::Lync::Controls::Internal::ContextMenu ^ get(); void set(Microsoft::Lync::Controls::Internal::ContextMenu ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextMenu : Microsoft.Lync.Controls.Internal.ContextMenu with get, set" Usage="Microsoft.Lync.Controls.Internal.ContextMenuHost.ContextMenu" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Lync.Controls.Internal.ContextMenu</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextMenuProperty">
+      <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty ContextMenuProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty ContextMenuProperty" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.ContextMenuHost.ContextMenuProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextMenuProperty As DependencyProperty " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextMenuProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextMenuProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.ContextMenuHost.ContextMenuProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Windows.DependencyProperty</ReturnType>
+      </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>

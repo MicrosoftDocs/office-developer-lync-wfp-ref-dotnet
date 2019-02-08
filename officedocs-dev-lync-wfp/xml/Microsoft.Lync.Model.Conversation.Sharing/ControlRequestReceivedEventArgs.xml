@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ControlRequestReceivedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ControlRequestReceivedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ControlRequestReceivedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ControlRequestReceivedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ControlRequestReceivedEventArgs.Requester" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Requester As Participant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ Requester { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Requester : Microsoft.Lync.Model.Conversation.Participant" Usage="Microsoft.Lync.Model.Conversation.Sharing.ControlRequestReceivedEventArgs.Requester" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

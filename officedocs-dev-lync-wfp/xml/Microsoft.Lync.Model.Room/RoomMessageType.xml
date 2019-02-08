@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomMessageType" />
   <TypeSignature Language="VB.NET" Value="Public Enum RoomMessageType" />
   <TypeSignature Language="C++ CLI" Value="public enum class RoomMessageType" />
+  <TypeSignature Language="F#" Value="type RoomMessageType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageType.Alert" />
       <MemberSignature Language="VB.NET" Value="Alert" />
       <MemberSignature Language="C++ CLI" Value="Alert" />
+      <MemberSignature Language="F#" Value="Alert = 0" Usage="Microsoft.Lync.Model.Room.RoomMessageType.Alert" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Room.RoomMessageType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomMessageType.Regular" />
       <MemberSignature Language="VB.NET" Value="Regular" />
       <MemberSignature Language="C++ CLI" Value="Regular" />
+      <MemberSignature Language="F#" Value="Regular = 1" Usage="Microsoft.Lync.Model.Room.RoomMessageType.Regular" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

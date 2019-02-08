@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions" />
   <TypeSignature Language="VB.NET" Value="Public Enum TransferOptions" />
   <TypeSignature Language="C++ CLI" Value="public enum class TransferOptions" />
+  <TypeSignature Language="F#" Value="type TransferOptions = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.DisallowRedirection" />
       <MemberSignature Language="VB.NET" Value="DisallowRedirection" />
       <MemberSignature Language="C++ CLI" Value="DisallowRedirection" />
+      <MemberSignature Language="F#" Value="DisallowRedirection = 1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.DisallowRedirection" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 2" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 4" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.TransferOptions.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

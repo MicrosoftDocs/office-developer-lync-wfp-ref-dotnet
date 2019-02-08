@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopySubmenuRule" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuManager.CopySubmenuRule&#xA;Inherits MenuManager.ContactManagementMenuRule.GroupManagementSubmenuRule" />
   <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::CopySubmenuRule : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::ContactManagementMenuRule::GroupManagementSubmenuRule" />
+  <TypeSignature Language="F#" Value="type MenuManager.CopySubmenuRule = class&#xA;    inherit MenuManager.ContactManagementMenuRule.GroupManagementSubmenuRule" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopySubmenuRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager,Microsoft.Lync.Controls.Internal.Model.IGroupModel)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (manager As MenuManager, group As IGroupModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; CopySubmenuRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager, Microsoft::Lync::Controls::Internal::Model::IGroupModel ^ group);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopySubmenuRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager * Microsoft.Lync.Controls.Internal.Model.IGroupModel -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopySubmenuRule" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopySubmenuRule (manager, group)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -45,6 +47,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopySubmenuRule.CanExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteCommand (arg As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.CanExecuteCommand : obj -&gt; bool" Usage="copySubmenuRule.CanExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -69,6 +72,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopySubmenuRule.ExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCommand (arg As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.ExecuteCommand : obj -&gt; unit" Usage="copySubmenuRule.ExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -92,6 +96,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.CopySubmenuRule.SelectContactAfterMove(Microsoft.Lync.Controls.Internal.Model.IContactModel)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub SelectContactAfterMove (contact As IContactModel)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void SelectContactAfterMove(Microsoft::Lync::Controls::Internal::Model::IContactModel ^ contact);" />
+      <MemberSignature Language="F#" Value="member this.SelectContactAfterMove : Microsoft.Lync.Controls.Internal.Model.IContactModel -&gt; unit" Usage="copySubmenuRule.SelectContactAfterMove contact" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.Automation" />
   <TypeSignature Language="VB.NET" Value="Public Class Automation&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class Automation : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type Automation = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.BeginMeetNow(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginMeetNow (callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMeetNow(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginMeetNow : AsyncCallback * obj -&gt; IAsyncResult" Usage="automation.BeginMeetNow (callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -52,6 +54,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.BeginMeetNow(System.IntPtr,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginMeetNow (parentHWND As IntPtr, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMeetNow(IntPtr parentHWND, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginMeetNow : nativeint * AsyncCallback * obj -&gt; IAsyncResult" Usage="automation.BeginMeetNow (parentHWND, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +86,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.BeginStartConversation(System.String,System.Int32,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginStartConversation (conferenceUrl As String, parentHWND As Integer, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginStartConversation(System::String ^ conferenceUrl, int parentHWND, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginStartConversation : string * int * AsyncCallback * obj -&gt; IAsyncResult" Usage="automation.BeginStartConversation (conferenceUrl, parentHWND, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -113,6 +117,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.BeginStartConversation(Microsoft.Lync.Model.Extensibility.AutomationModalities,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{Microsoft.Lync.Model.Extensibility.AutomationModalitySettings,System.Object}},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginStartConversation (conversationModes As AutomationModalities, participantUris As IEnumerable(Of String), contextData As IEnumerable(Of KeyValuePair(Of AutomationModalitySettings, Object)), callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginStartConversation(Microsoft::Lync::Model::Extensibility::AutomationModalities conversationModes, System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ participantUris, System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;Microsoft::Lync::Model::Extensibility::AutomationModalitySettings, System::Object ^&gt;&gt; ^ contextData, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginStartConversation : Microsoft.Lync.Model.Extensibility.AutomationModalities * seq&lt;string&gt; * seq&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Lync.Model.Extensibility.AutomationModalitySettings, obj&gt;&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="automation.BeginStartConversation (conversationModes, participantUris, contextData, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -148,6 +153,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.EndMeetNow(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndMeetNow (asyncResult As IAsyncResult) As ConversationWindow" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Extensibility::ConversationWindow ^ EndMeetNow(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndMeetNow : IAsyncResult -&gt; Microsoft.Lync.Model.Extensibility.ConversationWindow" Usage="automation.EndMeetNow asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +180,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.EndStartConversation(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndStartConversation (asyncResult As IAsyncResult) As ConversationWindow" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Extensibility::ConversationWindow ^ EndStartConversation(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndStartConversation : IAsyncResult -&gt; Microsoft.Lync.Model.Extensibility.ConversationWindow" Usage="automation.EndStartConversation asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -199,6 +206,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Extensibility.ConversationWindow GetConversationWindow(class Microsoft.Lync.Model.Conversation.Conversation conversation) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.GetConversationWindow(Microsoft.Lync.Model.Conversation.Conversation)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Extensibility::ConversationWindow ^ GetConversationWindow(Microsoft::Lync::Model::Conversation::Conversation ^ conversation);" />
+      <MemberSignature Language="F#" Value="member this.GetConversationWindow : Microsoft.Lync.Model.Conversation.Conversation -&gt; Microsoft.Lync.Model.Extensibility.ConversationWindow" Usage="automation.GetConversationWindow conversation" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -223,6 +231,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.Automation.LaunchAddContactWizard(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub LaunchAddContactWizard (contactEmail As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void LaunchAddContactWizard(System::String ^ contactEmail);" />
+      <MemberSignature Language="F#" Value="member this.LaunchAddContactWizard : string -&gt; unit" Usage="automation.LaunchAddContactWizard contactEmail" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

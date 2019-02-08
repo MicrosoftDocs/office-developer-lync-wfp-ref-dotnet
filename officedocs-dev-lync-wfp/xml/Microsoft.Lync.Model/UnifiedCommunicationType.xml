@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.UnifiedCommunicationType" />
   <TypeSignature Language="VB.NET" Value="Public Enum UnifiedCommunicationType" />
   <TypeSignature Language="C++ CLI" Value="public enum class UnifiedCommunicationType" />
+  <TypeSignature Language="F#" Value="type UnifiedCommunicationType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UnifiedCommunicationType.Enabled" />
       <MemberSignature Language="VB.NET" Value="Enabled" />
       <MemberSignature Language="C++ CLI" Value="Enabled" />
+      <MemberSignature Language="F#" Value="Enabled = 1" Usage="Microsoft.Lync.Model.UnifiedCommunicationType.Enabled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UnifiedCommunicationType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.UnifiedCommunicationType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UnifiedCommunicationType.NotEnabled" />
       <MemberSignature Language="VB.NET" Value="NotEnabled" />
       <MemberSignature Language="C++ CLI" Value="NotEnabled" />
+      <MemberSignature Language="F#" Value="NotEnabled = 2" Usage="Microsoft.Lync.Model.UnifiedCommunicationType.NotEnabled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UnifiedCommunicationType.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Lync.Model.UnifiedCommunicationType.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

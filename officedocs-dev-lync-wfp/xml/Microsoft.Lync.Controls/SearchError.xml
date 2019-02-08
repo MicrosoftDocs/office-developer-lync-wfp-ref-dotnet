@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.SearchError" />
   <TypeSignature Language="VB.NET" Value="Public Enum SearchError" />
   <TypeSignature Language="C++ CLI" Value="public enum class SearchError" />
+  <TypeSignature Language="F#" Value="type SearchError = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.AllNoise" />
       <MemberSignature Language="VB.NET" Value="AllNoise" />
       <MemberSignature Language="C++ CLI" Value="AllNoise" />
+      <MemberSignature Language="F#" Value="AllNoise = 3" Usage="Microsoft.Lync.Controls.SearchError.AllNoise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.BadQuery" />
       <MemberSignature Language="VB.NET" Value="BadQuery" />
       <MemberSignature Language="C++ CLI" Value="BadQuery" />
+      <MemberSignature Language="F#" Value="BadQuery = 5" Usage="Microsoft.Lync.Controls.SearchError.BadQuery" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.BadRequest" />
       <MemberSignature Language="VB.NET" Value="BadRequest" />
       <MemberSignature Language="C++ CLI" Value="BadRequest" />
+      <MemberSignature Language="F#" Value="BadRequest = 7" Usage="Microsoft.Lync.Controls.SearchError.BadRequest" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.BadScope" />
       <MemberSignature Language="VB.NET" Value="BadScope" />
       <MemberSignature Language="C++ CLI" Value="BadScope" />
+      <MemberSignature Language="F#" Value="BadScope = 6" Usage="Microsoft.Lync.Controls.SearchError.BadScope" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.NoAuthorization" />
       <MemberSignature Language="VB.NET" Value="NoAuthorization" />
       <MemberSignature Language="C++ CLI" Value="NoAuthorization" />
+      <MemberSignature Language="F#" Value="NoAuthorization = 9" Usage="Microsoft.Lync.Controls.SearchError.NoAuthorization" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = -1" Usage="Microsoft.Lync.Controls.SearchError.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.NoQuery" />
       <MemberSignature Language="VB.NET" Value="NoQuery" />
       <MemberSignature Language="C++ CLI" Value="NoQuery" />
+      <MemberSignature Language="F#" Value="NoQuery = 8" Usage="Microsoft.Lync.Controls.SearchError.NoQuery" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.NoResponse" />
       <MemberSignature Language="VB.NET" Value="NoResponse" />
       <MemberSignature Language="C++ CLI" Value="NoResponse" />
+      <MemberSignature Language="F#" Value="NoResponse = 4" Usage="Microsoft.Lync.Controls.SearchError.NoResponse" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.ServerError" />
       <MemberSignature Language="VB.NET" Value="ServerError" />
       <MemberSignature Language="C++ CLI" Value="ServerError" />
+      <MemberSignature Language="F#" Value="ServerError = 10" Usage="Microsoft.Lync.Controls.SearchError.ServerError" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.SharepointNotConfigured" />
       <MemberSignature Language="VB.NET" Value="SharepointNotConfigured" />
       <MemberSignature Language="C++ CLI" Value="SharepointNotConfigured" />
+      <MemberSignature Language="F#" Value="SharepointNotConfigured = 2" Usage="Microsoft.Lync.Controls.SearchError.SharepointNotConfigured" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -212,6 +223,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Lync.Controls.SearchError.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -231,6 +243,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.SearchError.Unspecified" />
       <MemberSignature Language="VB.NET" Value="Unspecified" />
       <MemberSignature Language="C++ CLI" Value="Unspecified" />
+      <MemberSignature Language="F#" Value="Unspecified = 1" Usage="Microsoft.Lync.Controls.SearchError.Unspecified" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

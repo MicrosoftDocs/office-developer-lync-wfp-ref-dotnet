@@ -1,0 +1,105 @@
+﻿<Type Name="EmailAddressToMailto" FullName="Microsoft.Lync.Controls.Internal.Converters.EmailAddressToMailto">
+  <TypeSignature Language="C#" Value="public class EmailAddressToMailto : System.Windows.Data.IValueConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailAddressToMailto extends System.Object implements class System.Windows.Data.IValueConverter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Converters.EmailAddressToMailto" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailAddressToMailto&#xA;Implements IValueConverter" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddressToMailto : System::Windows::Data::IValueConverter" />
+  <TypeSignature Language="F#" Value="type EmailAddressToMailto = class&#xA;    interface IValueConverter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Windows.Data.IValueConverter</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddressToMailto ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.EmailAddressToMailto.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddressToMailto();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Convert">
+      <MemberSignature Language="C#" Value="public object Convert (object value, Type targetType, object parameter, System.Globalization.CultureInfo culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Convert(object value, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.EmailAddressToMailto.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Convert (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ Convert(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
+      <MemberSignature Language="F#" Value="abstract member Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="emailAddressToMailto.Convert (value, targetType, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="targetType" Type="System.Type" />
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="targetType">To be added.</param>
+        <param name="parameter">To be added.</param>
+        <param name="culture">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBack">
+      <MemberSignature Language="C#" Value="public object ConvertBack (object value, Type targetType, object parameter, System.Globalization.CultureInfo culture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ConvertBack(object value, class System.Type targetType, object parameter, class System.Globalization.CultureInfo culture) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.EmailAddressToMailto.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConvertBack (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ConvertBack(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
+      <MemberSignature Language="F#" Value="abstract member ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="emailAddressToMailto.ConvertBack (value, targetType, parameter, culture)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="targetType" Type="System.Type" />
+        <Parameter Name="parameter" Type="System.Object" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="targetType">To be added.</param>
+        <param name="parameter">To be added.</param>
+        <param name="culture">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

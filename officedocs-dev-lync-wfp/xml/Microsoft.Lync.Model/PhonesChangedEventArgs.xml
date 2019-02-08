@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.PhonesChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class PhonesChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class PhonesChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type PhonesChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.PhonesChangedEventArgs.Phones" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Phones As IList(Of Phone)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Phone ^&gt; ^ Phones { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Phone ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Phones : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Phone&gt;" Usage="Microsoft.Lync.Model.PhonesChangedEventArgs.Phones" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

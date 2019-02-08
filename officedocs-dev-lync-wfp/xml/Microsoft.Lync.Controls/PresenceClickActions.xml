@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.PresenceClickActions" />
   <TypeSignature Language="VB.NET" Value="Public Enum PresenceClickActions" />
   <TypeSignature Language="C++ CLI" Value="public enum class PresenceClickActions" />
+  <TypeSignature Language="F#" Value="type PresenceClickActions = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceClickActions.None" />
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberSignature Language="F#" Value="None = 2" Usage="Microsoft.Lync.Controls.PresenceClickActions.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceClickActions.ShowContactBrief" />
       <MemberSignature Language="VB.NET" Value="ShowContactBrief" />
       <MemberSignature Language="C++ CLI" Value="ShowContactBrief" />
+      <MemberSignature Language="F#" Value="ShowContactBrief = 0" Usage="Microsoft.Lync.Controls.PresenceClickActions.ShowContactBrief" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PresenceClickActions.ShowContactDetails" />
       <MemberSignature Language="VB.NET" Value="ShowContactDetails" />
       <MemberSignature Language="C++ CLI" Value="ShowContactDetails" />
+      <MemberSignature Language="F#" Value="ShowContactDetails = 1" Usage="Microsoft.Lync.Controls.PresenceClickActions.ShowContactDetails" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISortableContactsAndGroupManager&#xA;Implements IDisposable" />
   <TypeSignature Language="C++ CLI" Value="public interface class ISortableContactsAndGroupManager : IDisposable" />
+  <TypeSignature Language="F#" Value="type ISortableContactsAndGroupManager = interface&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -24,6 +25,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager.Groups" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Groups As IEnumerable(Of GroupByGroup)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^&gt; ^ Groups { System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Controls::Internal::ViewModel::GroupByGroup ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Groups : seq&lt;Microsoft.Lync.Controls.Internal.ViewModel.GroupByGroup&gt;" Usage="Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager.Groups" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager.MoveGroupDownCommand" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoveGroupDownCommand As ICommand" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ MoveGroupDownCommand { System::Windows::Input::ICommand ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MoveGroupDownCommand : System.Windows.Input.ICommand" Usage="Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager.MoveGroupDownCommand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -64,6 +67,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager.MoveGroupUpCommand" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoveGroupUpCommand As ICommand" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ MoveGroupUpCommand { System::Windows::Input::ICommand ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MoveGroupUpCommand : System.Windows.Input.ICommand" Usage="Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager.MoveGroupUpCommand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.ISortableContactsAndGroupManager.Sort(System.Comparison{Microsoft.Lync.Controls.Internal.Model.IContactModel},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Sort (comparison As Comparison(Of IContactModel), presenceAware As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Sort(Comparison&lt;Microsoft::Lync::Controls::Internal::Model::IContactModel ^&gt; ^ comparison, bool presenceAware);" />
+      <MemberSignature Language="F#" Value="abstract member Sort : Comparison&lt;Microsoft.Lync.Controls.Internal.Model.IContactModel&gt; * bool -&gt; unit" Usage="iSortableContactsAndGroupManager.Sort (comparison, presenceAware)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

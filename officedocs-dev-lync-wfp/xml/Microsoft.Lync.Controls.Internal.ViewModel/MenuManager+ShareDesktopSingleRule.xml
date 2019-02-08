@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuManager.ShareDesktopSingleRule&#xA;Inherits MenuManager.MenuRule" />
   <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::ShareDesktopSingleRule : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::MenuRule" />
+  <TypeSignature Language="F#" Value="type MenuManager.ShareDesktopSingleRule = class&#xA;    inherit MenuManager.MenuRule" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (manager As MenuManager)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ShareDesktopSingleRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule manager" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule.CanExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteCommand (arg As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.CanExecuteCommand : obj -&gt; bool" Usage="shareDesktopSingleRule.CanExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule.ExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCommand (arg As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.ExecuteCommand : obj -&gt; unit" Usage="shareDesktopSingleRule.ExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -90,6 +94,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function IsVisible () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool IsVisible();" />
+      <MemberSignature Language="F#" Value="override this.IsVisible : unit -&gt; bool" Usage="shareDesktopSingleRule.IsVisible " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -111,6 +116,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule.NumberOfMonitors" />
       <MemberSignature Language="VB.NET" Value="Protected Shared Function NumberOfMonitors () As Integer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; static int NumberOfMonitors();" />
+      <MemberSignature Language="F#" Value="static member NumberOfMonitors : unit -&gt; int" Usage="Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.ShareDesktopSingleRule.NumberOfMonitors " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

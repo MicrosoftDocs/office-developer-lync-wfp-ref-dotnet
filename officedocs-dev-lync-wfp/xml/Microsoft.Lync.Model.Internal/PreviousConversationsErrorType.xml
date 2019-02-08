@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Internal.PreviousConversationsErrorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum PreviousConversationsErrorType" />
   <TypeSignature Language="C++ CLI" Value="public enum class PreviousConversationsErrorType" />
+  <TypeSignature Language="F#" Value="type PreviousConversationsErrorType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationsErrorType.Critical" />
       <MemberSignature Language="VB.NET" Value="Critical" />
       <MemberSignature Language="C++ CLI" Value="Critical" />
+      <MemberSignature Language="F#" Value="Critical = 0" Usage="Microsoft.Lync.Model.Internal.PreviousConversationsErrorType.Critical" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationsErrorType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Internal.PreviousConversationsErrorType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationsErrorType.NotConfigured" />
       <MemberSignature Language="VB.NET" Value="NotConfigured" />
       <MemberSignature Language="C++ CLI" Value="NotConfigured" />
+      <MemberSignature Language="F#" Value="NotConfigured = 2" Usage="Microsoft.Lync.Model.Internal.PreviousConversationsErrorType.NotConfigured" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Internal.PreviousConversationsErrorType.Transient" />
       <MemberSignature Language="VB.NET" Value="Transient" />
       <MemberSignature Language="C++ CLI" Value="Transient" />
+      <MemberSignature Language="F#" Value="Transient = 1" Usage="Microsoft.Lync.Model.Internal.PreviousConversationsErrorType.Transient" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

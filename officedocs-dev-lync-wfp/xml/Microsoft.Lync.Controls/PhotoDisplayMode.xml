@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.PhotoDisplayMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum PhotoDisplayMode" />
   <TypeSignature Language="C++ CLI" Value="public enum class PhotoDisplayMode" />
+  <TypeSignature Language="F#" Value="type PhotoDisplayMode = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PhotoDisplayMode.Hidden" />
       <MemberSignature Language="VB.NET" Value="Hidden" />
       <MemberSignature Language="C++ CLI" Value="Hidden" />
+      <MemberSignature Language="F#" Value="Hidden = 0" Usage="Microsoft.Lync.Controls.PhotoDisplayMode.Hidden" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PhotoDisplayMode.Large" />
       <MemberSignature Language="VB.NET" Value="Large" />
       <MemberSignature Language="C++ CLI" Value="Large" />
+      <MemberSignature Language="F#" Value="Large = 2" Usage="Microsoft.Lync.Controls.PhotoDisplayMode.Large" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.PhotoDisplayMode.Small" />
       <MemberSignature Language="VB.NET" Value="Small" />
       <MemberSignature Language="C++ CLI" Value="Small" />
+      <MemberSignature Language="F#" Value="Small = 1" Usage="Microsoft.Lync.Controls.PhotoDisplayMode.Small" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomJoinState" />
   <TypeSignature Language="VB.NET" Value="Public Enum RoomJoinState" />
   <TypeSignature Language="C++ CLI" Value="public enum class RoomJoinState" />
+  <TypeSignature Language="F#" Value="type RoomJoinState = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomJoinState.Failed" />
       <MemberSignature Language="VB.NET" Value="Failed" />
       <MemberSignature Language="C++ CLI" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 3" Usage="Microsoft.Lync.Model.Room.RoomJoinState.Failed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomJoinState.FailedUnauthorized" />
       <MemberSignature Language="VB.NET" Value="FailedUnauthorized" />
       <MemberSignature Language="C++ CLI" Value="FailedUnauthorized" />
+      <MemberSignature Language="F#" Value="FailedUnauthorized = 4" Usage="Microsoft.Lync.Model.Room.RoomJoinState.FailedUnauthorized" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomJoinState.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Room.RoomJoinState.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomJoinState.NotJoined" />
       <MemberSignature Language="VB.NET" Value="NotJoined" />
       <MemberSignature Language="C++ CLI" Value="NotJoined" />
+      <MemberSignature Language="F#" Value="NotJoined = 0" Usage="Microsoft.Lync.Model.Room.RoomJoinState.NotJoined" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomJoinState.Pending" />
       <MemberSignature Language="VB.NET" Value="Pending" />
       <MemberSignature Language="C++ CLI" Value="Pending" />
+      <MemberSignature Language="F#" Value="Pending = 1" Usage="Microsoft.Lync.Model.Room.RoomJoinState.Pending" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Room.RoomJoinState.Success" />
       <MemberSignature Language="VB.NET" Value="Success" />
       <MemberSignature Language="C++ CLI" Value="Success" />
+      <MemberSignature Language="F#" Value="Success = 2" Usage="Microsoft.Lync.Model.Room.RoomJoinState.Success" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

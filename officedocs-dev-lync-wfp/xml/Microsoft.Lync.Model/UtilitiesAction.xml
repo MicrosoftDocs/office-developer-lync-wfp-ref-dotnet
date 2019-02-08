@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.UtilitiesAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum UtilitiesAction" />
   <TypeSignature Language="C++ CLI" Value="public enum class UtilitiesAction" />
+  <TypeSignature Language="F#" Value="type UtilitiesAction = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UtilitiesAction.AddToExternalContacts" />
       <MemberSignature Language="VB.NET" Value="AddToExternalContacts" />
       <MemberSignature Language="C++ CLI" Value="AddToExternalContacts" />
+      <MemberSignature Language="F#" Value="AddToExternalContacts = 1" Usage="Microsoft.Lync.Model.UtilitiesAction.AddToExternalContacts" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UtilitiesAction.ComposeEmail" />
       <MemberSignature Language="VB.NET" Value="ComposeEmail" />
       <MemberSignature Language="C++ CLI" Value="ComposeEmail" />
+      <MemberSignature Language="F#" Value="ComposeEmail = 3" Usage="Microsoft.Lync.Model.UtilitiesAction.ComposeEmail" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UtilitiesAction.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.UtilitiesAction.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UtilitiesAction.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 2" Usage="Microsoft.Lync.Model.UtilitiesAction.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UtilitiesAction.ScheduleMeeting" />
       <MemberSignature Language="VB.NET" Value="ScheduleMeeting" />
       <MemberSignature Language="C++ CLI" Value="ScheduleMeeting" />
+      <MemberSignature Language="F#" Value="ScheduleMeeting = 4" Usage="Microsoft.Lync.Model.UtilitiesAction.ScheduleMeeting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.UtilitiesAction.ShowPropertiesDialog" />
       <MemberSignature Language="VB.NET" Value="ShowPropertiesDialog" />
       <MemberSignature Language="C++ CLI" Value="ShowPropertiesDialog" />
+      <MemberSignature Language="F#" Value="ShowPropertiesDialog = 0" Usage="Microsoft.Lync.Model.UtilitiesAction.ShowPropertiesDialog" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

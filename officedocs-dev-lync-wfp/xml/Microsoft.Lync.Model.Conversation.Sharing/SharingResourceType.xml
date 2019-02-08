@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType" />
   <TypeSignature Language="VB.NET" Value="Public Enum SharingResourceType" />
   <TypeSignature Language="C++ CLI" Value="public enum class SharingResourceType" />
+  <TypeSignature Language="F#" Value="type SharingResourceType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Desktop" />
       <MemberSignature Language="VB.NET" Value="Desktop" />
       <MemberSignature Language="C++ CLI" Value="Desktop" />
+      <MemberSignature Language="F#" Value="Desktop = 0" Usage="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Desktop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Monitor" />
       <MemberSignature Language="VB.NET" Value="Monitor" />
       <MemberSignature Language="C++ CLI" Value="Monitor" />
+      <MemberSignature Language="F#" Value="Monitor = 1" Usage="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Monitor" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Other" />
       <MemberSignature Language="VB.NET" Value="Other" />
       <MemberSignature Language="C++ CLI" Value="Other" />
+      <MemberSignature Language="F#" Value="Other = 4" Usage="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Other" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Process" />
       <MemberSignature Language="VB.NET" Value="Process" />
       <MemberSignature Language="C++ CLI" Value="Process" />
+      <MemberSignature Language="F#" Value="Process = 2" Usage="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Process" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Window" />
       <MemberSignature Language="VB.NET" Value="Window" />
       <MemberSignature Language="C++ CLI" Value="Window" />
+      <MemberSignature Language="F#" Value="Window = 3" Usage="Microsoft.Lync.Model.Conversation.Sharing.SharingResourceType.Window" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

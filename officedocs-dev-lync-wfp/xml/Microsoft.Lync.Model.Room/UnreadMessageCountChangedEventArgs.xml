@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.UnreadMessageCountChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class UnreadMessageCountChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class UnreadMessageCountChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type UnreadMessageCountChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.UnreadMessageCountChangedEventArgs.NewUnreadMessageCount" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewUnreadMessageCount As UInteger" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 NewUnreadMessageCount { System::UInt32 get(); };" />
+      <MemberSignature Language="F#" Value="member this.NewUnreadMessageCount : uint32" Usage="Microsoft.Lync.Model.Room.UnreadMessageCountChangedEventArgs.NewUnreadMessageCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

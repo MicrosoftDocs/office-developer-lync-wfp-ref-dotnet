@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Converters.BooleanToVisibility" />
   <TypeSignature Language="VB.NET" Value="Public Class BooleanToVisibility&#xA;Implements IValueConverter" />
   <TypeSignature Language="C++ CLI" Value="public ref class BooleanToVisibility : System::Windows::Data::IValueConverter" />
+  <TypeSignature Language="F#" Value="type BooleanToVisibility = class&#xA;    interface IValueConverter" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -44,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.BooleanToVisibility.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function Convert (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ Convert(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
+      <MemberSignature Language="F#" Value="abstract member Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.Convert : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="booleanToVisibility.Convert (value, targetType, parameter, culture)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Windows.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
@@ -77,6 +79,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.BooleanToVisibility.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertBack (value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ ConvertBack(System::Object ^ value, Type ^ targetType, System::Object ^ parameter, System::Globalization::CultureInfo ^ culture);" />
+      <MemberSignature Language="F#" Value="abstract member ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj&#xA;override this.ConvertBack : obj * Type * obj * System.Globalization.CultureInfo -&gt; obj" Usage="booleanToVisibility.ConvertBack (value, targetType, parameter, culture)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Windows.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)</InterfaceMember>
@@ -110,6 +113,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.BooleanToVisibility.ConvertValue(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function ConvertValue (value As Boolean) As Visibility" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Windows::Visibility ConvertValue(bool value);" />
+      <MemberSignature Language="F#" Value="abstract member ConvertValue : bool -&gt; System.Windows.Visibility&#xA;override this.ConvertValue : bool -&gt; System.Windows.Visibility" Usage="booleanToVisibility.ConvertValue value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

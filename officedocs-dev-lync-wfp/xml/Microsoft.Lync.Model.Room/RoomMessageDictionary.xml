@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomMessageDictionary" />
   <TypeSignature Language="VB.NET" Value="Public Class RoomMessageDictionary&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class RoomMessageDictionary : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type RoomMessageDictionary = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.Add(Microsoft.Lync.Model.Room.RoomMessageFormat,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (key As RoomMessageFormat, value As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Lync::Model::Room::RoomMessageFormat key, System::Object ^ value);" />
+      <MemberSignature Language="F#" Value="member this.Add : Microsoft.Lync.Model.Room.RoomMessageFormat * obj -&gt; unit" Usage="roomMessageDictionary.Add (key, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -54,6 +56,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.ContainsKey(Microsoft.Lync.Model.Room.RoomMessageFormat)" />
       <MemberSignature Language="VB.NET" Value="Public Function ContainsKey (key As RoomMessageFormat) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ContainsKey(Microsoft::Lync::Model::Room::RoomMessageFormat key);" />
+      <MemberSignature Language="F#" Value="member this.ContainsKey : Microsoft.Lync.Model.Room.RoomMessageFormat -&gt; bool" Usage="roomMessageDictionary.ContainsKey key" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -78,6 +81,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Microsoft.Lync.Model.Room.RoomMessageDictionary.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +102,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.GetKeyAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetKeyAt (index As Integer) As RoomMessageFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Room::RoomMessageFormat GetKeyAt(int index);" />
+      <MemberSignature Language="F#" Value="member this.GetKeyAt : int -&gt; Microsoft.Lync.Model.Room.RoomMessageFormat" Usage="roomMessageDictionary.GetKeyAt index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -122,6 +127,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.GetValueAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetValueAt (index As Integer) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValueAt(int index);" />
+      <MemberSignature Language="F#" Value="member this.GetValueAt : int -&gt; obj" Usage="roomMessageDictionary.GetValueAt index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -146,6 +152,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Item(Microsoft.Lync.Model.Room.RoomMessageFormat)" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Item(_key As RoomMessageFormat) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[Microsoft::Lync::Model::Room::RoomMessageFormat] { System::Object ^ get(Microsoft::Lync::Model::Room::RoomMessageFormat _key); void set(Microsoft::Lync::Model::Room::RoomMessageFormat _key, System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Item(Microsoft.Lync.Model.Room.RoomMessageFormat) : obj with get, set" Usage="Microsoft.Lync.Model.Room.RoomMessageDictionary.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -172,6 +179,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Keys" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Keys As IList(Of RoomMessageFormat)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessageFormat&gt; ^ Keys { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessageFormat&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Keys : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessageFormat&gt;" Usage="Microsoft.Lync.Model.Room.RoomMessageDictionary.Keys" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -192,6 +200,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.Remove(Microsoft.Lync.Model.Room.RoomMessageFormat)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Remove (key As RoomMessageFormat)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(Microsoft::Lync::Model::Room::RoomMessageFormat key);" />
+      <MemberSignature Language="F#" Value="member this.Remove : Microsoft.Lync.Model.Room.RoomMessageFormat -&gt; unit" Usage="roomMessageDictionary.Remove key" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -215,6 +224,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.RemoveAll" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveAll ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAll();" />
+      <MemberSignature Language="F#" Value="member this.RemoveAll : unit -&gt; unit" Usage="roomMessageDictionary.RemoveAll " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -235,6 +245,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.RemoveAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberSignature Language="F#" Value="member this.RemoveAt : int -&gt; unit" Usage="roomMessageDictionary.RemoveAt index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -258,6 +269,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.StoryTitle" />
       <MemberSignature Language="VB.NET" Value="Public Property StoryTitle As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StoryTitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.StoryTitle : string with get, set" Usage="Microsoft.Lync.Model.Room.RoomMessageDictionary.StoryTitle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -281,6 +293,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Room.RoomMessageDictionary.TryGetValue(Microsoft.Lync.Model.Room.RoomMessageFormat,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As RoomMessageFormat, ByRef itemValue As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Lync::Model::Room::RoomMessageFormat key, [Runtime::InteropServices::Out] System::Object ^ % itemValue);" />
+      <MemberSignature Language="F#" Value="member this.TryGetValue : Microsoft.Lync.Model.Room.RoomMessageFormat *  -&gt; bool" Usage="roomMessageDictionary.TryGetValue (key, itemValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -291,7 +304,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="key" Type="Microsoft.Lync.Model.Room.RoomMessageFormat" />
-        <Parameter Name="itemValue" Type="System.Object&amp;" RefType="out" />
+        <Parameter Name="itemValue" Type="System.Object" RefType="out" />
       </Parameters>
       <Docs>
         <param name="key">To be added.</param>
@@ -307,6 +320,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As RoomMessageType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomMessageType Type { Microsoft::Lync::Model::Room::RoomMessageType get(); void set(Microsoft::Lync::Model::Room::RoomMessageType value); };" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Lync.Model.Room.RoomMessageType with get, set" Usage="Microsoft.Lync.Model.Room.RoomMessageDictionary.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -327,6 +341,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessageDictionary.Values" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Values As IList(Of Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::Object ^&gt; ^ Values { System::Collections::Generic::IList&lt;System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Values : System.Collections.Generic.IList&lt;obj&gt;" Usage="Microsoft.Lync.Model.Room.RoomMessageDictionary.Values" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

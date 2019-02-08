@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ApplicationRegistration" />
   <TypeSignature Language="VB.NET" Value="Public Class ApplicationRegistration&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class ApplicationRegistration : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type ApplicationRegistration = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ApplicationRegistration.AddRegistration" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddRegistration ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRegistration();" />
+      <MemberSignature Language="F#" Value="member this.AddRegistration : unit -&gt; unit" Usage="applicationRegistration.AddRegistration " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ApplicationRegistration.RemoveRegistration" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveRegistration ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveRegistration();" />
+      <MemberSignature Language="F#" Value="member this.RemoveRegistration : unit -&gt; unit" Usage="applicationRegistration.RemoveRegistration " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Extensibility.ApplicationRegistration.SetExtensibilityWindowProperties(System.String,System.String,Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetExtensibilityWindowProperties (intrnalUrl As String, externalUrl As String, windowSize As ConversationWindowExtensionSize)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtensibilityWindowProperties(System::String ^ intrnalUrl, System::String ^ externalUrl, Microsoft::Lync::Model::Extensibility::ConversationWindowExtensionSize windowSize);" />
+      <MemberSignature Language="F#" Value="member this.SetExtensibilityWindowProperties : string * string * Microsoft.Lync.Model.Extensibility.ConversationWindowExtensionSize -&gt; unit" Usage="applicationRegistration.SetExtensibilityWindowProperties (intrnalUrl, externalUrl, windowSize)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

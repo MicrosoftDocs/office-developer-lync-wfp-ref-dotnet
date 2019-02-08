@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.ControllerChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ControllerChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ControllerChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ControllerChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.ControllerChangedEventArgs.ControllerName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ControllerName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ControllerName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ControllerName : string" Usage="Microsoft.Lync.Model.Conversation.Sharing.ControllerChangedEventArgs.ControllerName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

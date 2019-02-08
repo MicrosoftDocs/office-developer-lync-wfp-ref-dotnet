@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationWindowNeedsSizeChangeEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConversationWindowNeedsSizeChangeEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ConversationWindowNeedsSizeChangeEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MaximumWindowHeight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaximumWindowHeight As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumWindowHeight { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.MaximumWindowHeight : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MaximumWindowHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MaximumWindowWidth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaximumWindowWidth As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumWindowWidth { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.MaximumWindowWidth : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MaximumWindowWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MinimumWindowHeight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinimumWindowHeight As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumWindowHeight { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.MinimumWindowHeight : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MinimumWindowHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MinimumWindowWidth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinimumWindowWidth As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumWindowWidth { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.MinimumWindowWidth : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.MinimumWindowWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.RecommendedWindowHeight" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecommendedWindowHeight As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RecommendedWindowHeight { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.RecommendedWindowHeight : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.RecommendedWindowHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -123,6 +129,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.RecommendedWindowWidth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecommendedWindowWidth As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RecommendedWindowWidth { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.RecommendedWindowWidth : int" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowNeedsSizeChangeEventArgs.RecommendedWindowWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

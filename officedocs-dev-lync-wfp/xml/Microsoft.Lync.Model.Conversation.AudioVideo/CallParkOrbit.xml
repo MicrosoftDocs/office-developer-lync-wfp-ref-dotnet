@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.CallParkOrbit" />
   <TypeSignature Language="VB.NET" Value="Public Class CallParkOrbit&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class CallParkOrbit : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type CallParkOrbit = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.CallParkOrbit.FriendlyOrbit" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FriendlyOrbit As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FriendlyOrbit { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FriendlyOrbit : string" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallParkOrbit.FriendlyOrbit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.CallParkOrbit.MsParkedCall" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MsParkedCall As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MsParkedCall { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MsParkedCall : string" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallParkOrbit.MsParkedCall" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.CallParkOrbit.SafeRetrieveUri" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SafeRetrieveUri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SafeRetrieveUri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SafeRetrieveUri : string" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.CallParkOrbit.SafeRetrieveUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

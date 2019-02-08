@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.LyncServiceProvider" />
   <TypeSignature Language="VB.NET" Value="Public Class LyncServiceProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class LyncServiceProvider abstract sealed" />
+  <TypeSignature Language="F#" Value="type LyncServiceProvider = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Controls.LyncServiceProvider.ContextChanged" />
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event ContextChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ ContextChanged;" />
+      <MemberSignature Language="F#" Value="member this.ContextChanged : EventHandler " Usage="member this.ContextChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Lync.Controls.Internal.Model.IUCClientModel GetProvider(class System.Windows.DependencyObject dependencyObject) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.LyncServiceProvider.GetProvider(System.Windows.DependencyObject)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ GetProvider(System::Windows::DependencyObject ^ dependencyObject);" />
+      <MemberSignature Language="F#" Value="static member GetProvider : System.Windows.DependencyObject -&gt; Microsoft.Lync.Controls.Internal.Model.IUCClientModel" Usage="Microsoft.Lync.Controls.LyncServiceProvider.GetProvider dependencyObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.LyncServiceProvider.SetProvider(Microsoft.Lync.Controls.Internal.Model.IUCClientModel)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetProvider (ucClientModel As IUCClientModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetProvider(Microsoft::Lync::Controls::Internal::Model::IUCClientModel ^ ucClientModel);" />
+      <MemberSignature Language="F#" Value="static member SetProvider : Microsoft.Lync.Controls.Internal.Model.IUCClientModel -&gt; unit" Usage="Microsoft.Lync.Controls.LyncServiceProvider.SetProvider ucClientModel" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

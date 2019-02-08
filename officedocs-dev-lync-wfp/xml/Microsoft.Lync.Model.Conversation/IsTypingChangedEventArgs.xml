@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.IsTypingChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class IsTypingChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class IsTypingChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type IsTypingChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.IsTypingChangedEventArgs.IsTyping" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTyping As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTyping { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsTyping : bool" Usage="Microsoft.Lync.Model.Conversation.IsTypingChangedEventArgs.IsTyping" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

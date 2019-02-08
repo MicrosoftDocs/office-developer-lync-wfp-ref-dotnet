@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.SplitButton" />
   <TypeSignature Language="VB.NET" Value="Public Class SplitButton&#xA;Inherits ContentControl" />
   <TypeSignature Language="C++ CLI" Value="public ref class SplitButton : System::Windows::Controls::ContentControl" />
+  <TypeSignature Language="F#" Value="type SplitButton = class&#xA;    inherit ContentControl" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -75,6 +76,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.SplitButton.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Input::ICommand ^ Command { System::Windows::Input::ICommand ^ get(); void set(System::Windows::Input::ICommand ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Microsoft.Lync.Controls.Internal.SplitButton.Command" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -95,6 +97,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.SplitButton.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CommandParameter { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Microsoft.Lync.Controls.Internal.SplitButton.CommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -115,6 +118,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.SplitButton.CommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CommandParameterProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.SplitButton.CommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -134,6 +138,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.SplitButton.CommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ CommandProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.SplitButton.CommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -153,6 +158,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.SplitButton.DropDown" />
       <MemberSignature Language="VB.NET" Value="Public Property DropDown As ContextMenu" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::Internal::ContextMenu ^ DropDown { Microsoft::Lync::Controls::Internal::ContextMenu ^ get(); void set(Microsoft::Lync::Controls::Internal::ContextMenu ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DropDown : Microsoft.Lync.Controls.Internal.ContextMenu with get, set" Usage="Microsoft.Lync.Controls.Internal.SplitButton.DropDown" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -173,6 +179,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.SplitButton.DropDownProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DropDownProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ DropDownProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable DropDownProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.SplitButton.DropDownProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -186,12 +193,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="IsLoaded">
+      <MemberSignature Language="C#" Value="public bool IsLoaded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLoaded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.SplitButton.IsLoaded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLoaded As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLoaded { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsLoaded : bool" Usage="Microsoft.Lync.Controls.Internal.SplitButton.IsLoaded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="IsMenuOpen">
       <MemberSignature Language="C#" Value="public bool IsMenuOpen { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsMenuOpen" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.SplitButton.IsMenuOpen" />
       <MemberSignature Language="VB.NET" Value="Public Property IsMenuOpen As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMenuOpen { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsMenuOpen : bool with get, set" Usage="Microsoft.Lync.Controls.Internal.SplitButton.IsMenuOpen" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -212,6 +241,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.SplitButton.IsMenuOpenProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsMenuOpenProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ IsMenuOpenProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsMenuOpenProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.SplitButton.IsMenuOpenProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -231,6 +261,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.SplitButton.LeftToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Property LeftToolTip As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ LeftToolTip { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.LeftToolTip : obj with get, set" Usage="Microsoft.Lync.Controls.Internal.SplitButton.LeftToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -251,6 +282,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.SplitButton.LeftToolTipProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LeftToolTipProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ LeftToolTipProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable LeftToolTipProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.SplitButton.LeftToolTipProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -270,6 +302,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.SplitButton.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="splitButton.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -290,6 +323,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.SplitButton.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="splitButton.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -311,6 +345,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.Internal.SplitButton.RightToolTip" />
       <MemberSignature Language="VB.NET" Value="Public Property RightToolTip As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RightToolTip { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.RightToolTip : obj with get, set" Usage="Microsoft.Lync.Controls.Internal.SplitButton.RightToolTip" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -331,6 +366,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.Internal.SplitButton.RightToolTipProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RightToolTipProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ RightToolTipProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable RightToolTipProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.Internal.SplitButton.RightToolTipProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

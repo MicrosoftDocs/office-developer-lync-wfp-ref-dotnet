@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.StartVideoCallButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class StartVideoCallButtonAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of StartVideoCallButton)" />
   <TypeSignature Language="C++ CLI" Value="public ref class StartVideoCallButtonAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::StartVideoCallButton ^&gt;" />
+  <TypeSignature Language="F#" Value="type StartVideoCallButtonAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;StartVideoCallButton&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.StartVideoCallButtonAutomationPeer.#ctor(Microsoft.Lync.Controls.StartVideoCallButton)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As StartVideoCallButton)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; StartVideoCallButtonAutomationPeer(Microsoft::Lync::Controls::StartVideoCallButton ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.StartVideoCallButtonAutomationPeer : Microsoft.Lync.Controls.StartVideoCallButton -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.StartVideoCallButtonAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.StartVideoCallButtonAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

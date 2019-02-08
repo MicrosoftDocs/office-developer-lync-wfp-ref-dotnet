@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Conversation" />
   <TypeSignature Language="VB.NET" Value="Public Class Conversation&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class Conversation : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type Conversation = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ActionAvailabilityChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ConversationActionAvailabilityEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationActionAvailabilityEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberSignature Language="F#" Value="member this.ActionAvailabilityChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs&gt; " Usage="member this.ActionAvailabilityChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationActionAvailabilityEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Lync.Model.Conversation.Participant AddParticipant(class Microsoft.Lync.Model.Contact contact) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.AddParticipant(Microsoft.Lync.Model.Contact)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Participant ^ AddParticipant(Microsoft::Lync::Model::Contact ^ contact);" />
+      <MemberSignature Language="F#" Value="member this.AddParticipant : Microsoft.Lync.Model.Contact -&gt; Microsoft.Lync.Model.Conversation.Participant" Usage="conversation.AddParticipant contact" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.AddParticipant(Microsoft.Lync.Model.ContactEndpoint)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddParticipant (endpoint As ContactEndpoint) As Participant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::Participant ^ AddParticipant(Microsoft::Lync::Model::ContactEndpoint ^ endpoint);" />
+      <MemberSignature Language="F#" Value="member this.AddParticipant : Microsoft.Lync.Model.ContactEndpoint -&gt; Microsoft.Lync.Model.Conversation.Participant" Usage="conversation.AddParticipant endpoint" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -93,6 +97,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginAdmitParticipants(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Conversation.Participant},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginAdmitParticipants (participants As IEnumerable(Of Participant), conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAdmitParticipants(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ participants, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginAdmitParticipants : seq&lt;Microsoft.Lync.Model.Conversation.Participant&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginAdmitParticipants (participants, conversationCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -123,6 +128,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginDenyParticipants(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Conversation.Participant},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginDenyParticipants (participants As IEnumerable(Of Participant), conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginDenyParticipants(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ participants, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginDenyParticipants : seq&lt;Microsoft.Lync.Model.Conversation.Participant&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginDenyParticipants (participants, conversationCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -152,6 +158,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginMerge(class Microsoft.Lync.Model.Conversation.Conversation conversation, valuetype Microsoft.Lync.Model.Conversation.ModalityTypes modalityTypes, class System.AsyncCallback conversationCallback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginMerge(Microsoft.Lync.Model.Conversation.Conversation,Microsoft.Lync.Model.Conversation.ModalityTypes,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMerge(Microsoft::Lync::Model::Conversation::Conversation ^ conversation, Microsoft::Lync::Model::Conversation::ModalityTypes modalityTypes, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginMerge : Microsoft.Lync.Model.Conversation.Conversation * Microsoft.Lync.Model.Conversation.ModalityTypes * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginMerge (conversation, modalityTypes, conversationCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -184,6 +191,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginMuteParticipants(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Conversation.Participant},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginMuteParticipants (participants As IEnumerable(Of Participant), conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMuteParticipants(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ participants, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginMuteParticipants : seq&lt;Microsoft.Lync.Model.Conversation.Participant&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginMuteParticipants (participants, conversationCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -214,6 +222,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginPark(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginPark (conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginPark(AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginPark : AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginPark (conversationCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -242,6 +251,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginSendContextData(System.String,System.String,System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendContextData (applicationId As String, dataType As String, data As String, conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendContextData(System::String ^ applicationId, System::String ^ dataType, System::String ^ data, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendContextData : string * string * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginSendContextData (applicationId, dataType, data, conversationCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -276,6 +286,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginSendInitialContext(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{Microsoft.Lync.Model.Conversation.ContextType,System.Object}},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendInitialContext (contextData As IEnumerable(Of KeyValuePair(Of ContextType, Object)), callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendInitialContext(System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;Microsoft::Lync::Model::Conversation::ContextType, System::Object ^&gt;&gt; ^ contextData, AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendInitialContext : seq&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Lync.Model.Conversation.ContextType, obj&gt;&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginSendInitialContext (contextData, callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -306,6 +317,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginSetProperty(Microsoft.Lync.Model.Conversation.ConversationProperty,System.Object,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSetProperty (propertyType As ConversationProperty, propertyValue As Object, conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetProperty(Microsoft::Lync::Model::Conversation::ConversationProperty propertyType, System::Object ^ propertyValue, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSetProperty : Microsoft.Lync.Model.Conversation.ConversationProperty * obj * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginSetProperty (propertyType, propertyValue, conversationCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -338,6 +350,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.BeginUnmuteParticipants(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Conversation.Participant},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginUnmuteParticipants (participants As IEnumerable(Of Participant), conversationCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginUnmuteParticipants(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ participants, AsyncCallback ^ conversationCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginUnmuteParticipants : seq&lt;Microsoft.Lync.Model.Conversation.Participant&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="conversation.BeginUnmuteParticipants (participants, conversationCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -368,6 +381,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.CanInvoke(Microsoft.Lync.Model.Conversation.ConversationAction)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ConversationAction) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Conversation::ConversationAction action);" />
+      <MemberSignature Language="F#" Value="member this.CanInvoke : Microsoft.Lync.Model.Conversation.ConversationAction -&gt; bool" Usage="conversation.CanInvoke action" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -392,6 +406,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.CanSetProperty(Microsoft.Lync.Model.Conversation.ConversationProperty)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanSetProperty (convProperty As ConversationProperty) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanSetProperty(Microsoft::Lync::Model::Conversation::ConversationProperty convProperty);" />
+      <MemberSignature Language="F#" Value="member this.CanSetProperty : Microsoft.Lync.Model.Conversation.ConversationProperty -&gt; bool" Usage="conversation.CanSetProperty convProperty" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -416,6 +431,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ContextDataReceived" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ContextDataReceived As EventHandler(Of ContextEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ContextEventArgs ^&gt; ^ ContextDataReceived;" />
+      <MemberSignature Language="F#" Value="member this.ContextDataReceived : EventHandler&lt;Microsoft.Lync.Model.Conversation.ContextEventArgs&gt; " Usage="member this.ContextDataReceived : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ContextEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -435,6 +451,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ContextDataSent" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ContextDataSent As EventHandler(Of ContextEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ContextEventArgs ^&gt; ^ ContextDataSent;" />
+      <MemberSignature Language="F#" Value="member this.ContextDataSent : EventHandler&lt;Microsoft.Lync.Model.Conversation.ContextEventArgs&gt; " Usage="member this.ContextDataSent : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ContextEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -454,6 +471,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ConversationContextLinkClicked" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ConversationContextLinkClicked As EventHandler(Of InitialContextEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::InitialContextEventArgs ^&gt; ^ ConversationContextLinkClicked;" />
+      <MemberSignature Language="F#" Value="member this.ConversationContextLinkClicked : EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; " Usage="member this.ConversationContextLinkClicked : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -473,6 +491,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.ConversationManager" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationManager As ConversationManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationManager ^ ConversationManager { Microsoft::Lync::Model::Conversation::ConversationManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ConversationManager : Microsoft.Lync.Model.Conversation.ConversationManager" Usage="Microsoft.Lync.Model.Conversation.Conversation.ConversationManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -493,6 +512,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.End" />
       <MemberSignature Language="VB.NET" Value="Public Sub End ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void End();" />
+      <MemberSignature Language="F#" Value="member this.End : unit -&gt; unit" Usage="conversation.End " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -513,6 +533,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndAdmitParticipants(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndAdmitParticipants (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndAdmitParticipants(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndAdmitParticipants : IAsyncResult -&gt; unit" Usage="conversation.EndAdmitParticipants asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -538,6 +559,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndDenyParticipants(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndDenyParticipants (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDenyParticipants(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndDenyParticipants : IAsyncResult -&gt; unit" Usage="conversation.EndDenyParticipants asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -563,6 +585,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndMerge(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndMerge (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndMerge(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndMerge : IAsyncResult -&gt; unit" Usage="conversation.EndMerge asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -588,6 +611,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndMuteParticipants(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndMuteParticipants (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndMuteParticipants(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndMuteParticipants : IAsyncResult -&gt; unit" Usage="conversation.EndMuteParticipants asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -613,6 +637,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndPark(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndPark (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndPark(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndPark : IAsyncResult -&gt; unit" Usage="conversation.EndPark asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -638,6 +663,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndSendContextData(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSendContextData (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSendContextData(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSendContextData : IAsyncResult -&gt; unit" Usage="conversation.EndSendContextData asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -663,6 +689,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndSendInitialContext(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSendInitialContext (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSendInitialContext(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSendInitialContext : IAsyncResult -&gt; unit" Usage="conversation.EndSendInitialContext asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -688,6 +715,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndSetProperty(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndSetProperty (asyncResult As IAsyncResult) As ConversationProperty" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Conversation::ConversationProperty EndSetProperty(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSetProperty : IAsyncResult -&gt; Microsoft.Lync.Model.Conversation.ConversationProperty" Usage="conversation.EndSetProperty asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -714,6 +742,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.EndUnmuteParticipants(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndUnmuteParticipants (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndUnmuteParticipants(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndUnmuteParticipants : IAsyncResult -&gt; unit" Usage="conversation.EndUnmuteParticipants asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -739,6 +768,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Conversation ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="conversation.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -759,6 +789,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.GetApplicationData(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetApplicationData (appGuid As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetApplicationData(System::String ^ appGuid);" />
+      <MemberSignature Language="F#" Value="member this.GetApplicationData : string -&gt; string" Usage="conversation.GetApplicationData appGuid" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -783,6 +814,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.InitialContextReceived" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event InitialContextReceived As EventHandler(Of InitialContextEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::InitialContextEventArgs ^&gt; ^ InitialContextReceived;" />
+      <MemberSignature Language="F#" Value="member this.InitialContextReceived : EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; " Usage="member this.InitialContextReceived : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -802,6 +834,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.InitialContextSent" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event InitialContextSent As EventHandler(Of InitialContextEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::InitialContextEventArgs ^&gt; ^ InitialContextSent;" />
+      <MemberSignature Language="F#" Value="member this.InitialContextSent : EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; " Usage="member this.InitialContextSent : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.InitialContextEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -821,6 +854,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.Modalities" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Modalities As IDictionary(Of ModalityTypes, Modality)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityTypes, Microsoft::Lync::Model::Conversation::Modality ^&gt; ^ Modalities { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ModalityTypes, Microsoft::Lync::Model::Conversation::Modality ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Modalities : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ModalityTypes, Microsoft.Lync.Model.Conversation.Modality&gt;" Usage="Microsoft.Lync.Model.Conversation.Conversation.Modalities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -841,6 +875,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ParticipantAdded" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipantAdded As EventHandler(Of ParticipantCollectionChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ParticipantCollectionChangedEventArgs ^&gt; ^ ParticipantAdded;" />
+      <MemberSignature Language="F#" Value="member this.ParticipantAdded : EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt; " Usage="member this.ParticipantAdded : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -860,6 +895,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.ParticipantRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ParticipantRemoved As EventHandler(Of ParticipantCollectionChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ParticipantCollectionChangedEventArgs ^&gt; ^ ParticipantRemoved;" />
+      <MemberSignature Language="F#" Value="member this.ParticipantRemoved : EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt; " Usage="member this.ParticipantRemoved : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ParticipantCollectionChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -879,6 +915,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.Participants" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Participants As IList(Of Participant)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ Participants { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Conversation::Participant ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Participants : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Conversation.Participant&gt;" Usage="Microsoft.Lync.Model.Conversation.Conversation.Participants" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -899,6 +936,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of ConversationProperty, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ConversationProperty, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::ConversationProperty, System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.ConversationProperty, obj&gt;" Usage="Microsoft.Lync.Model.Conversation.Conversation.Properties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -919,6 +957,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event PropertyChanged As EventHandler(Of ConversationPropertyChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationPropertyChangedEventArgs ^&gt; ^ PropertyChanged;" />
+      <MemberSignature Language="F#" Value="member this.PropertyChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationPropertyChangedEventArgs&gt; " Usage="member this.PropertyChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationPropertyChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -937,6 +976,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveParticipant(class Microsoft.Lync.Model.Conversation.Participant participant) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.Conversation.RemoveParticipant(Microsoft.Lync.Model.Conversation.Participant)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveParticipant(Microsoft::Lync::Model::Conversation::Participant ^ participant);" />
+      <MemberSignature Language="F#" Value="member this.RemoveParticipant : Microsoft.Lync.Model.Conversation.Participant -&gt; unit" Usage="conversation.RemoveParticipant participant" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -960,6 +1000,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.SelfParticipant" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelfParticipant As Participant" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Participant ^ SelfParticipant { Microsoft::Lync::Model::Conversation::Participant ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SelfParticipant : Microsoft.Lync.Model.Conversation.Participant" Usage="Microsoft.Lync.Model.Conversation.Conversation.SelfParticipant" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -980,6 +1021,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Conversation.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ConversationState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationState State { Microsoft::Lync::Model::Conversation::ConversationState get(); };" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Lync.Model.Conversation.ConversationState" Usage="Microsoft.Lync.Model.Conversation.Conversation.State" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -1000,6 +1042,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.Conversation.StateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ConversationStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ConversationStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberSignature Language="F#" Value="member this.StateChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs&gt; " Usage="member this.StateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ConversationStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

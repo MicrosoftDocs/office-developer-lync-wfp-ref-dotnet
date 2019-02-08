@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.ContactCapabilities" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactCapabilities" />
   <TypeSignature Language="C++ CLI" Value="public enum class ContactCapabilities" />
+  <TypeSignature Language="F#" Value="type ContactCapabilities = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.CaptureAppShare" />
       <MemberSignature Language="VB.NET" Value="CaptureAppShare" />
       <MemberSignature Language="C++ CLI" Value="CaptureAppShare" />
+      <MemberSignature Language="F#" Value="CaptureAppShare = 128" Usage="Microsoft.Lync.Model.ContactCapabilities.CaptureAppShare" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.CaptureAudio" />
       <MemberSignature Language="VB.NET" Value="CaptureAudio" />
       <MemberSignature Language="C++ CLI" Value="CaptureAudio" />
+      <MemberSignature Language="F#" Value="CaptureAudio = 8" Usage="Microsoft.Lync.Model.ContactCapabilities.CaptureAudio" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.CaptureInstantMessage" />
       <MemberSignature Language="VB.NET" Value="CaptureInstantMessage" />
       <MemberSignature Language="C++ CLI" Value="CaptureInstantMessage" />
+      <MemberSignature Language="F#" Value="CaptureInstantMessage = 2" Usage="Microsoft.Lync.Model.ContactCapabilities.CaptureInstantMessage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.CaptureVideo" />
       <MemberSignature Language="VB.NET" Value="CaptureVideo" />
       <MemberSignature Language="C++ CLI" Value="CaptureVideo" />
+      <MemberSignature Language="F#" Value="CaptureVideo = 32" Usage="Microsoft.Lync.Model.ContactCapabilities.CaptureVideo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.ContactCapabilities.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -122,6 +128,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.RenderAppShare" />
       <MemberSignature Language="VB.NET" Value="RenderAppShare" />
       <MemberSignature Language="C++ CLI" Value="RenderAppShare" />
+      <MemberSignature Language="F#" Value="RenderAppShare = 256" Usage="Microsoft.Lync.Model.ContactCapabilities.RenderAppShare" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -141,6 +148,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.RenderAudio" />
       <MemberSignature Language="VB.NET" Value="RenderAudio" />
       <MemberSignature Language="C++ CLI" Value="RenderAudio" />
+      <MemberSignature Language="F#" Value="RenderAudio = 16" Usage="Microsoft.Lync.Model.ContactCapabilities.RenderAudio" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -160,6 +168,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.RenderInstantMessage" />
       <MemberSignature Language="VB.NET" Value="RenderInstantMessage" />
       <MemberSignature Language="C++ CLI" Value="RenderInstantMessage" />
+      <MemberSignature Language="F#" Value="RenderInstantMessage = 4" Usage="Microsoft.Lync.Model.ContactCapabilities.RenderInstantMessage" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -179,6 +188,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.RenderVideo" />
       <MemberSignature Language="VB.NET" Value="RenderVideo" />
       <MemberSignature Language="C++ CLI" Value="RenderVideo" />
+      <MemberSignature Language="F#" Value="RenderVideo = 64" Usage="Microsoft.Lync.Model.ContactCapabilities.RenderVideo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -198,6 +208,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.ContactCapabilities.ShowPresence" />
       <MemberSignature Language="VB.NET" Value="ShowPresence" />
       <MemberSignature Language="C++ CLI" Value="ShowPresence" />
+      <MemberSignature Language="F#" Value="ShowPresence = 1" Usage="Microsoft.Lync.Model.ContactCapabilities.ShowPresence" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

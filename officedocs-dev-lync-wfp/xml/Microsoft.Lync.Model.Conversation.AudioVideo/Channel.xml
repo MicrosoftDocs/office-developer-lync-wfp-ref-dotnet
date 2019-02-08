@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.Channel" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Channel&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class Channel abstract : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type Channel = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.ActionAvailabilityChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ActionAvailabilityChanged As EventHandler(Of ChannelActionAvailabilityEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::AudioVideo::ChannelActionAvailabilityEventArgs ^&gt; ^ ActionAvailabilityChanged;" />
+      <MemberSignature Language="F#" Value="member this.ActionAvailabilityChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.ChannelActionAvailabilityEventArgs&gt; " Usage="member this.ActionAvailabilityChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.ChannelActionAvailabilityEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -42,6 +44,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.BeginPause(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginPause (callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginPause(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginPause : AsyncCallback * obj -&gt; IAsyncResult" Usage="channel.BeginPause (callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -70,6 +73,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.BeginResume(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginResume (callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginResume(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginResume : AsyncCallback * obj -&gt; IAsyncResult" Usage="channel.BeginResume (callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +102,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.BeginStart(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginStart (mediaChannelCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginStart(AsyncCallback ^ mediaChannelCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginStart : AsyncCallback * obj -&gt; IAsyncResult" Usage="channel.BeginStart (mediaChannelCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -126,6 +131,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.BeginStop(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginStop (mediaChannelCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginStop(AsyncCallback ^ mediaChannelCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginStop : AsyncCallback * obj -&gt; IAsyncResult" Usage="channel.BeginStop (mediaChannelCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -154,6 +160,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.CanInvoke(Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanInvoke (action As ChannelAction) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::Conversation::AudioVideo::ChannelAction action);" />
+      <MemberSignature Language="F#" Value="member this.CanInvoke : Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction -&gt; bool" Usage="channel.CanInvoke action" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -180,6 +187,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.EndPause(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndPause (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndPause(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndPause : IAsyncResult -&gt; unit" Usage="channel.EndPause asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -205,6 +213,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.EndResume(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndResume (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndResume(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndResume : IAsyncResult -&gt; unit" Usage="channel.EndResume asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -230,6 +239,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.EndStart(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndStart (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndStart(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndStart : IAsyncResult -&gt; unit" Usage="channel.EndStart asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -255,6 +265,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.EndStop(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndStop (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndStop(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndStop : IAsyncResult -&gt; unit" Usage="channel.EndStop asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -280,6 +291,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Channel ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="channel.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -300,6 +312,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.IsContributing" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsContributing As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContributing { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsContributing : bool" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.Channel.IsContributing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -320,6 +333,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.Modality" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Modality As Modality" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Modality ^ Modality { Microsoft::Lync::Model::Conversation::Modality ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Modality : Microsoft.Lync.Model.Conversation.Modality" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.Channel.Modality" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -340,6 +354,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ChannelState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::AudioVideo::ChannelState State { Microsoft::Lync::Model::Conversation::AudioVideo::ChannelState get(); };" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Lync.Model.Conversation.AudioVideo.ChannelState" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.Channel.State" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -360,6 +375,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.AudioVideo.Channel.StateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ChannelStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::AudioVideo::ChannelStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberSignature Language="F#" Value="member this.StateChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.ChannelStateChangedEventArgs&gt; " Usage="member this.StateChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.AudioVideo.ChannelStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.PhotoSetting" />
   <TypeSignature Language="VB.NET" Value="Public Enum PhotoSetting" />
   <TypeSignature Language="C++ CLI" Value="public enum class PhotoSetting" />
+  <TypeSignature Language="F#" Value="type PhotoSetting = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PhotoSetting.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
       <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 2" Usage="Microsoft.Lync.Model.PhotoSetting.Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PhotoSetting.Display" />
       <MemberSignature Language="VB.NET" Value="Display" />
       <MemberSignature Language="C++ CLI" Value="Display" />
+      <MemberSignature Language="F#" Value="Display = 0" Usage="Microsoft.Lync.Model.PhotoSetting.Display" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PhotoSetting.DoNotDisplay" />
       <MemberSignature Language="VB.NET" Value="DoNotDisplay" />
       <MemberSignature Language="C++ CLI" Value="DoNotDisplay" />
+      <MemberSignature Language="F#" Value="DoNotDisplay = 1" Usage="Microsoft.Lync.Model.PhotoSetting.DoNotDisplay" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.PhotoSetting.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.PhotoSetting.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

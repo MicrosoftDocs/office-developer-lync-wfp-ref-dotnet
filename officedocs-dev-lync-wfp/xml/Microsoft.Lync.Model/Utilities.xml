@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Utilities" />
   <TypeSignature Language="VB.NET" Value="Public Class Utilities&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class Utilities : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type Utilities = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.BeginAddToExternalContacts(Microsoft.Lync.Model.Contact,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginAddToExternalContacts (contactContext As Contact, utilitiesCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginAddToExternalContacts(Microsoft::Lync::Model::Contact ^ contactContext, AsyncCallback ^ utilitiesCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginAddToExternalContacts : Microsoft.Lync.Model.Contact * AsyncCallback * obj -&gt; IAsyncResult" Usage="utilities.BeginAddToExternalContacts (contactContext, utilitiesCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -53,6 +55,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.BeginComposeEmail(Microsoft.Lync.Model.Contact,System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginComposeEmail (to As Contact, subject As String, utilitiesCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginComposeEmail(Microsoft::Lync::Model::Contact ^ to, System::String ^ subject, AsyncCallback ^ utilitiesCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginComposeEmail : Microsoft.Lync.Model.Contact * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="utilities.BeginComposeEmail (to, subject, utilitiesCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -86,6 +89,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.BeginComposeEmail(Microsoft.Lync.Model.Group.DistributionGroup,System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginComposeEmail (to As DistributionGroup, subject As String, utilitiesCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginComposeEmail(Microsoft::Lync::Model::Group::DistributionGroup ^ to, System::String ^ subject, AsyncCallback ^ utilitiesCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginComposeEmail : Microsoft.Lync.Model.Group.DistributionGroup * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="utilities.BeginComposeEmail (to, subject, utilitiesCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -119,6 +123,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.BeginComposeEmail(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Contact},System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Group.DistributionGroup},System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginComposeEmail (toContacts As IEnumerable(Of Contact), toDGs As IEnumerable(Of DistributionGroup), subject As String, utilitiesCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginComposeEmail(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Contact ^&gt; ^ toContacts, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Group::DistributionGroup ^&gt; ^ toDGs, System::String ^ subject, AsyncCallback ^ utilitiesCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginComposeEmail : seq&lt;Microsoft.Lync.Model.Contact&gt; * seq&lt;Microsoft.Lync.Model.Group.DistributionGroup&gt; * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="utilities.BeginComposeEmail (toContacts, toDGs, subject, utilitiesCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -154,6 +159,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.BeginScheduleMeeting(Microsoft.Lync.Model.Contact,System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginScheduleMeeting (to As Contact, subject As String, utilitiesCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginScheduleMeeting(Microsoft::Lync::Model::Contact ^ to, System::String ^ subject, AsyncCallback ^ utilitiesCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginScheduleMeeting : Microsoft.Lync.Model.Contact * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="utilities.BeginScheduleMeeting (to, subject, utilitiesCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -187,6 +193,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.BeginScheduleMeeting(Microsoft.Lync.Model.Group.DistributionGroup,System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginScheduleMeeting (to As DistributionGroup, subject As String, utilitiesCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginScheduleMeeting(Microsoft::Lync::Model::Group::DistributionGroup ^ to, System::String ^ subject, AsyncCallback ^ utilitiesCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginScheduleMeeting : Microsoft.Lync.Model.Group.DistributionGroup * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="utilities.BeginScheduleMeeting (to, subject, utilitiesCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -220,6 +227,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.BeginScheduleMeeting(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Contact},System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.Group.DistributionGroup},System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginScheduleMeeting (toContacts As IEnumerable(Of Contact), toDGs As IEnumerable(Of DistributionGroup), subject As String, utilitiesCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginScheduleMeeting(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Contact ^&gt; ^ toContacts, System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::Group::DistributionGroup ^&gt; ^ toDGs, System::String ^ subject, AsyncCallback ^ utilitiesCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginScheduleMeeting : seq&lt;Microsoft.Lync.Model.Contact&gt; * seq&lt;Microsoft.Lync.Model.Group.DistributionGroup&gt; * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="utilities.BeginScheduleMeeting (toContacts, toDGs, subject, utilitiesCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -254,6 +262,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanInvoke(valuetype Microsoft.Lync.Model.UtilitiesAction utilitiesAction, object actionContext) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.CanInvoke(Microsoft.Lync.Model.UtilitiesAction,System.Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanInvoke(Microsoft::Lync::Model::UtilitiesAction utilitiesAction, System::Object ^ actionContext);" />
+      <MemberSignature Language="F#" Value="member this.CanInvoke : Microsoft.Lync.Model.UtilitiesAction * obj -&gt; bool" Usage="utilities.CanInvoke (utilitiesAction, actionContext)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -280,6 +289,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.EndAddToExternalContacts(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndAddToExternalContacts (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndAddToExternalContacts(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndAddToExternalContacts : IAsyncResult -&gt; unit" Usage="utilities.EndAddToExternalContacts asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -305,6 +315,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.EndComposeEmail(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndComposeEmail (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndComposeEmail(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndComposeEmail : IAsyncResult -&gt; unit" Usage="utilities.EndComposeEmail asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -330,6 +341,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.EndScheduleMeeting(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndScheduleMeeting (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndScheduleMeeting(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndScheduleMeeting : IAsyncResult -&gt; unit" Usage="utilities.EndScheduleMeeting asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -355,6 +367,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Utilities.ExchangeECPUrl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExchangeECPUrl As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExchangeECPUrl { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ExchangeECPUrl : string" Usage="Microsoft.Lync.Model.Utilities.ExchangeECPUrl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -375,6 +388,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Utilities.ExchangeECPUrlChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ExchangeECPUrlChanged As EventHandler(Of ExchangeECPUrlChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ExchangeECPUrlChangedEventArgs ^&gt; ^ ExchangeECPUrlChanged;" />
+      <MemberSignature Language="F#" Value="member this.ExchangeECPUrlChanged : EventHandler&lt;Microsoft.Lync.Model.ExchangeECPUrlChangedEventArgs&gt; " Usage="member this.ExchangeECPUrlChanged : System.EventHandler&lt;Microsoft.Lync.Model.ExchangeECPUrlChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -394,6 +408,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Utilities ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="utilities.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -414,6 +429,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Utilities.ShowPropertiesDialog(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ShowPropertiesDialog (context As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowPropertiesDialog(System::Object ^ context);" />
+      <MemberSignature Language="F#" Value="member this.ShowPropertiesDialog : obj -&gt; unit" Usage="utilities.ShowPropertiesDialog context" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

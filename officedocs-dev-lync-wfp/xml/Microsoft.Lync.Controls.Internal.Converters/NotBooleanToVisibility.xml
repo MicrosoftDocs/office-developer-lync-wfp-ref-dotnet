@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.Converters.NotBooleanToVisibility" />
   <TypeSignature Language="VB.NET" Value="Public Class NotBooleanToVisibility&#xA;Inherits BooleanToVisibility" />
   <TypeSignature Language="C++ CLI" Value="public ref class NotBooleanToVisibility : Microsoft::Lync::Controls::Internal::Converters::BooleanToVisibility" />
+  <TypeSignature Language="F#" Value="type NotBooleanToVisibility = class&#xA;    inherit BooleanToVisibility" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -40,6 +41,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.Converters.NotBooleanToVisibility.ConvertValue(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ConvertValue (value As Boolean) As Visibility" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Visibility ConvertValue(bool value);" />
+      <MemberSignature Language="F#" Value="override this.ConvertValue : bool -&gt; System.Windows.Visibility" Usage="notBooleanToVisibility.ConvertValue value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

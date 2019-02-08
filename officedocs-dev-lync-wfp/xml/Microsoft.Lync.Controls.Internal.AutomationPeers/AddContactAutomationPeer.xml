@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.AutomationPeers.AddContactAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class AddContactAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of AddContact)" />
   <TypeSignature Language="C++ CLI" Value="public ref class AddContactAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::Internal::AddContact ^&gt;" />
+  <TypeSignature Language="F#" Value="type AddContactAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;AddContact&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.AutomationPeers.AddContactAutomationPeer.#ctor(Microsoft.Lync.Controls.Internal.AddContact)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As AddContact)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; AddContactAutomationPeer(Microsoft::Lync::Controls::Internal::AddContact ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.AutomationPeers.AddContactAutomationPeer : Microsoft.Lync.Controls.Internal.AddContact -&gt; Microsoft.Lync.Controls.Internal.AutomationPeers.AddContactAutomationPeer" Usage="new Microsoft.Lync.Controls.Internal.AutomationPeers.AddContactAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

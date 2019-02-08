@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Device.VideoDevice" />
   <TypeSignature Language="VB.NET" Value="Public Class VideoDevice&#xA;Inherits Device" />
   <TypeSignature Language="C++ CLI" Value="public ref class VideoDevice : Microsoft::Lync::Model::Device::Device" />
+  <TypeSignature Language="F#" Value="type VideoDevice = class&#xA;    inherit Device" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>

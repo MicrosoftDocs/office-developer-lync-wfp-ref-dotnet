@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.InstantMessageModality" />
   <TypeSignature Language="VB.NET" Value="Public Class InstantMessageModality&#xA;Inherits Modality" />
   <TypeSignature Language="C++ CLI" Value="public ref class InstantMessageModality : Microsoft::Lync::Model::Conversation::Modality" />
+  <TypeSignature Language="F#" Value="type InstantMessageModality = class&#xA;    inherit Modality" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.BeginSendMessage(System.Collections.Generic.IDictionary{Microsoft.Lync.Model.Conversation.InstantMessageContentType,System.String},System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendMessage (contents As IDictionary(Of InstantMessageContentType, String), modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendMessage(System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Conversation::InstantMessageContentType, System::String ^&gt; ^ contents, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendMessage : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Conversation.InstantMessageContentType, string&gt; * AsyncCallback * obj -&gt; IAsyncResult" Usage="instantMessageModality.BeginSendMessage (contents, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -53,6 +55,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.BeginSendMessage(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSendMessage (text As String, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSendMessage(System::String ^ text, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSendMessage : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="instantMessageModality.BeginSendMessage (text, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +86,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.BeginSetComposing(System.Boolean,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSetComposing (isComposing As Boolean, modalityCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSetComposing(bool isComposing, AsyncCallback ^ modalityCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSetComposing : bool * AsyncCallback * obj -&gt; IAsyncResult" Usage="instantMessageModality.BeginSetComposing (isComposing, modalityCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -113,6 +117,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.InstantMessageModality.Capabilities" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Capabilities { int get(); };" />
+      <MemberSignature Language="F#" Value="member this.Capabilities : int" Usage="Microsoft.Lync.Model.Conversation.InstantMessageModality.Capabilities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -133,6 +138,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.EndSendMessage(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSendMessage (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSendMessage(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSendMessage : IAsyncResult -&gt; unit" Usage="instantMessageModality.EndSendMessage asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -158,6 +164,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.EndSetComposing(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSetComposing (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSetComposing(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSetComposing : IAsyncResult -&gt; unit" Usage="instantMessageModality.EndSetComposing asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -183,6 +190,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!InstantMessageModality ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="instantMessageModality.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -203,6 +211,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.InstantMessageModality.InstantMessagePropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event InstantMessagePropertyChanged As EventHandler(Of ModalityPropertyChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::ModalityPropertyChangedEventArgs ^&gt; ^ InstantMessagePropertyChanged;" />
+      <MemberSignature Language="F#" Value="member this.InstantMessagePropertyChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; " Usage="member this.InstantMessagePropertyChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.ModalityPropertyChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -222,6 +231,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.InstantMessageModality.InstantMessageReceived" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event InstantMessageReceived As EventHandler(Of MessageSentEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::MessageSentEventArgs ^&gt; ^ InstantMessageReceived;" />
+      <MemberSignature Language="F#" Value="member this.InstantMessageReceived : EventHandler&lt;Microsoft.Lync.Model.Conversation.MessageSentEventArgs&gt; " Usage="member this.InstantMessageReceived : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.MessageSentEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -241,6 +251,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.InstantMessageModality.IsTyping" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTyping As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTyping { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsTyping : bool" Usage="Microsoft.Lync.Model.Conversation.InstantMessageModality.IsTyping" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -261,6 +272,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Conversation.InstantMessageModality.IsTypingChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event IsTypingChanged As EventHandler(Of IsTypingChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::Conversation::IsTypingChangedEventArgs ^&gt; ^ IsTypingChanged;" />
+      <MemberSignature Language="F#" Value="member this.IsTypingChanged : EventHandler&lt;Microsoft.Lync.Model.Conversation.IsTypingChangedEventArgs&gt; " Usage="member this.IsTypingChanged : System.EventHandler&lt;Microsoft.Lync.Model.Conversation.IsTypingChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -280,6 +292,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Conversation.InstantMessageModality.SetCapabilities(Microsoft.Lync.Model.Conversation.InstantMessageCapabilities)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetCapabilities (capabilities As InstantMessageCapabilities)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetCapabilities(Microsoft::Lync::Model::Conversation::InstantMessageCapabilities capabilities);" />
+      <MemberSignature Language="F#" Value="member this.SetCapabilities : Microsoft.Lync.Model.Conversation.InstantMessageCapabilities -&gt; unit" Usage="instantMessageModality.SetCapabilities capabilities" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

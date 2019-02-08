@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.MutedChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class MutedChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class MutedChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type MutedChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.MutedChangedEventArgs.IsMuted" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMuted As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMuted { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsMuted : bool" Usage="Microsoft.Lync.Model.Conversation.MutedChangedEventArgs.IsMuted" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

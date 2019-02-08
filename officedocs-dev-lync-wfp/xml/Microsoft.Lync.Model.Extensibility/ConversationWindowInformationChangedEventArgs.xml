@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationWindowInformationChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConversationWindowInformationChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type ConversationWindowInformationChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Extensibility.ConversationWindowInformationChangedEventArgs.ChangedProperties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangedProperties As IDictionary(Of ConversationWindowInformationType, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowInformationType, System::Object ^&gt; ^ ChangedProperties { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::Extensibility::ConversationWindowInformationType, System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ChangedProperties : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.Extensibility.ConversationWindowInformationType, obj&gt;" Usage="Microsoft.Lync.Model.Extensibility.ConversationWindowInformationChangedEventArgs.ChangedProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

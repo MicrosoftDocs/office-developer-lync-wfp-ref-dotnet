@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.AutomationPeers.ContactItemAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactItemAutomationPeer&#xA;Inherits ContactBaseAutomationPeer(Of ContactItem)" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactItemAutomationPeer : Microsoft::Lync::Controls::Internal::AutomationPeers::ContactBaseAutomationPeer&lt;Microsoft::Lync::Controls::ContactItem ^&gt;" />
+  <TypeSignature Language="F#" Value="type ContactItemAutomationPeer = class&#xA;    inherit ContactBaseAutomationPeer&lt;ContactItem&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.AutomationPeers.ContactItemAutomationPeer.#ctor(Microsoft.Lync.Controls.ContactItem)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (control As ContactItem)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactItemAutomationPeer(Microsoft::Lync::Controls::ContactItem ^ control);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.AutomationPeers.ContactItemAutomationPeer : Microsoft.Lync.Controls.ContactItem -&gt; Microsoft.Lync.Controls.AutomationPeers.ContactItemAutomationPeer" Usage="new Microsoft.Lync.Controls.AutomationPeers.ContactItemAutomationPeer control" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

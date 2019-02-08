@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Contact" />
   <TypeSignature Language="VB.NET" Value="Public Class Contact&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class Contact : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type Contact = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.BeginChangeSetting(Microsoft.Lync.Model.ContactSetting,System.Object,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginChangeSetting (contactSettingType As ContactSetting, contactSettingValue As Object, contactCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginChangeSetting(Microsoft::Lync::Model::ContactSetting contactSettingType, System::Object ^ contactSettingValue, AsyncCallback ^ contactCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginChangeSetting : Microsoft.Lync.Model.ContactSetting * obj * AsyncCallback * obj -&gt; IAsyncResult" Usage="contact.BeginChangeSetting (contactSettingType, contactSettingValue, contactCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -55,6 +57,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.BeginGetOrganizationInformation(Microsoft.Lync.Model.OrganizationStructureTypes,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginGetOrganizationInformation (orgInfoTypes As OrganizationStructureTypes, contactCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginGetOrganizationInformation(Microsoft::Lync::Model::OrganizationStructureTypes orgInfoTypes, AsyncCallback ^ contactCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginGetOrganizationInformation : Microsoft.Lync.Model.OrganizationStructureTypes * AsyncCallback * obj -&gt; IAsyncResult" Usage="contact.BeginGetOrganizationInformation (orgInfoTypes, contactCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -85,6 +88,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.BeginMoveToGroup(Microsoft.Lync.Model.Group.Group,Microsoft.Lync.Model.Group.Group,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginMoveToGroup (targetGroup As Group, sourceGroup As Group, contactCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginMoveToGroup(Microsoft::Lync::Model::Group::Group ^ targetGroup, Microsoft::Lync::Model::Group::Group ^ sourceGroup, AsyncCallback ^ contactCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginMoveToGroup : Microsoft.Lync.Model.Group.Group * Microsoft.Lync.Model.Group.Group * AsyncCallback * obj -&gt; IAsyncResult" Usage="contact.BeginMoveToGroup (targetGroup, sourceGroup, contactCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -116,6 +120,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanChangeSetting(valuetype Microsoft.Lync.Model.ContactSetting contactSetting) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.CanChangeSetting(Microsoft.Lync.Model.ContactSetting)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanChangeSetting(Microsoft::Lync::Model::ContactSetting contactSetting);" />
+      <MemberSignature Language="F#" Value="member this.CanChangeSetting : Microsoft.Lync.Model.ContactSetting -&gt; bool" Usage="contact.CanChangeSetting contactSetting" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -140,6 +145,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.CanMoveToGroup(Microsoft.Lync.Model.Group.Group,Microsoft.Lync.Model.Group.Group)" />
       <MemberSignature Language="VB.NET" Value="Public Function CanMoveToGroup (targetGroup As Group, sourceGroup As Group) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanMoveToGroup(Microsoft::Lync::Model::Group::Group ^ targetGroup, Microsoft::Lync::Model::Group::Group ^ sourceGroup);" />
+      <MemberSignature Language="F#" Value="member this.CanMoveToGroup : Microsoft.Lync.Model.Group.Group * Microsoft.Lync.Model.Group.Group -&gt; bool" Usage="contact.CanMoveToGroup (targetGroup, sourceGroup)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -165,6 +171,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CanStart(valuetype Microsoft.Lync.Model.Conversation.ModalityTypes modalityTypes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.CanStart(Microsoft.Lync.Model.Conversation.ModalityTypes)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanStart(Microsoft::Lync::Model::Conversation::ModalityTypes modalityTypes);" />
+      <MemberSignature Language="F#" Value="member this.CanStart : Microsoft.Lync.Model.Conversation.ModalityTypes -&gt; bool" Usage="contact.CanStart modalityTypes" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -189,6 +196,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Contact.ContactInformationChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ContactInformationChanged As EventHandler(Of ContactInformationChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ContactInformationChangedEventArgs ^&gt; ^ ContactInformationChanged;" />
+      <MemberSignature Language="F#" Value="member this.ContactInformationChanged : EventHandler&lt;Microsoft.Lync.Model.ContactInformationChangedEventArgs&gt; " Usage="member this.ContactInformationChanged : System.EventHandler&lt;Microsoft.Lync.Model.ContactInformationChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -211,6 +219,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.ContactManager" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactManager As ContactManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactManager ^ ContactManager { Microsoft::Lync::Model::ContactManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactManager : Microsoft.Lync.Model.ContactManager" Usage="Microsoft.Lync.Model.Contact.ContactManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -231,6 +240,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.CreateContactEndpoint(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateContactEndpoint (telephoneUri As String) As ContactEndpoint" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::ContactEndpoint ^ CreateContactEndpoint(System::String ^ telephoneUri);" />
+      <MemberSignature Language="F#" Value="member this.CreateContactEndpoint : string -&gt; Microsoft.Lync.Model.ContactEndpoint" Usage="contact.CreateContactEndpoint telephoneUri" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -257,6 +267,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.CustomGroups" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomGroups As GroupCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Group::GroupCollection ^ CustomGroups { Microsoft::Lync::Model::Group::GroupCollection ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CustomGroups : Microsoft.Lync.Model.Group.GroupCollection" Usage="Microsoft.Lync.Model.Contact.CustomGroups" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -277,6 +288,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.EndChangeSetting(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndChangeSetting (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndChangeSetting(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndChangeSetting : IAsyncResult -&gt; unit" Usage="contact.EndChangeSetting asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -302,6 +314,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.EndGetOrganizationInformation(Microsoft.Lync.Model.Group.ContactCollection@,Microsoft.Lync.Model.Group.ContactCollection@,Microsoft.Lync.Model.Group.ContactCollection@,System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndGetOrganizationInformation (ByRef managers As ContactCollection, ByRef peers As ContactCollection, ByRef directors As ContactCollection, asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndGetOrganizationInformation([Runtime::InteropServices::Out] Microsoft::Lync::Model::Group::ContactCollection ^ % managers, [Runtime::InteropServices::Out] Microsoft::Lync::Model::Group::ContactCollection ^ % peers, [Runtime::InteropServices::Out] Microsoft::Lync::Model::Group::ContactCollection ^ % directors, IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndGetOrganizationInformation :  *  *  * IAsyncResult -&gt; unit" Usage="contact.EndGetOrganizationInformation (managers, peers, directors, asyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -311,9 +324,9 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="managers" Type="Microsoft.Lync.Model.Group.ContactCollection&amp;" RefType="out" />
-        <Parameter Name="peers" Type="Microsoft.Lync.Model.Group.ContactCollection&amp;" RefType="out" />
-        <Parameter Name="directors" Type="Microsoft.Lync.Model.Group.ContactCollection&amp;" RefType="out" />
+        <Parameter Name="managers" Type="Microsoft.Lync.Model.Group.ContactCollection" RefType="out" />
+        <Parameter Name="peers" Type="Microsoft.Lync.Model.Group.ContactCollection" RefType="out" />
+        <Parameter Name="directors" Type="Microsoft.Lync.Model.Group.ContactCollection" RefType="out" />
         <Parameter Name="asyncResult" Type="System.IAsyncResult" />
       </Parameters>
       <Docs>
@@ -333,6 +346,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.EndMoveToGroup(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndMoveToGroup (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndMoveToGroup(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndMoveToGroup : IAsyncResult -&gt; unit" Usage="contact.EndMoveToGroup asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -358,6 +372,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Contact ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="contact.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -377,6 +392,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetContactInformation(valuetype Microsoft.Lync.Model.ContactInformationType contactInformationType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.GetContactInformation(Microsoft.Lync.Model.ContactInformationType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetContactInformation(Microsoft::Lync::Model::ContactInformationType contactInformationType);" />
+      <MemberSignature Language="F#" Value="member this.GetContactInformation : Microsoft.Lync.Model.ContactInformationType -&gt; obj" Usage="contact.GetContactInformation contactInformationType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -401,6 +417,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Contact.GetContactInformation(System.Collections.Generic.IEnumerable{Microsoft.Lync.Model.ContactInformationType})" />
       <MemberSignature Language="VB.NET" Value="Public Function GetContactInformation (contactInformationTypes As IEnumerable(Of ContactInformationType)) As IDictionary(Of ContactInformationType, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::ContactInformationType, System::Object ^&gt; ^ GetContactInformation(System::Collections::Generic::IEnumerable&lt;Microsoft::Lync::Model::ContactInformationType&gt; ^ contactInformationTypes);" />
+      <MemberSignature Language="F#" Value="member this.GetContactInformation : seq&lt;Microsoft.Lync.Model.ContactInformationType&gt; -&gt; System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.ContactInformationType, obj&gt;" Usage="contact.GetContactInformation contactInformationTypes" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -427,6 +444,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Contact.SettingChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event SettingChanged As EventHandler(Of ContactSettingChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ContactSettingChangedEventArgs ^&gt; ^ SettingChanged;" />
+      <MemberSignature Language="F#" Value="member this.SettingChanged : EventHandler&lt;Microsoft.Lync.Model.ContactSettingChangedEventArgs&gt; " Usage="member this.SettingChanged : System.EventHandler&lt;Microsoft.Lync.Model.ContactSettingChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -446,6 +464,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.Settings" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As IDictionary(Of ContactSetting, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::ContactSetting, System::Object ^&gt; ^ Settings { System::Collections::Generic::IDictionary&lt;Microsoft::Lync::Model::ContactSetting, System::Object ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Settings : System.Collections.Generic.IDictionary&lt;Microsoft.Lync.Model.ContactSetting, obj&gt;" Usage="Microsoft.Lync.Model.Contact.Settings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -466,6 +485,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.UnifiedCommunicationType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnifiedCommunicationType As UnifiedCommunicationType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::UnifiedCommunicationType UnifiedCommunicationType { Microsoft::Lync::Model::UnifiedCommunicationType get(); };" />
+      <MemberSignature Language="F#" Value="member this.UnifiedCommunicationType : Microsoft.Lync.Model.UnifiedCommunicationType" Usage="Microsoft.Lync.Model.Contact.UnifiedCommunicationType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -486,6 +506,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Contact.Uri" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Uri : string" Usage="Microsoft.Lync.Model.Contact.Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -506,6 +527,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Contact.UriChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event UriChanged As EventHandler(Of UriChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::UriChangedEventArgs ^&gt; ^ UriChanged;" />
+      <MemberSignature Language="F#" Value="member this.UriChanged : EventHandler&lt;Microsoft.Lync.Model.UriChangedEventArgs&gt; " Usage="member this.UriChanged : System.EventHandler&lt;Microsoft.Lync.Model.UriChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

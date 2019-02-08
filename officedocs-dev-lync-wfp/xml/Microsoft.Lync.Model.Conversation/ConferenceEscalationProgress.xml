@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConferenceEscalationProgress" />
   <TypeSignature Language="C++ CLI" Value="public enum class ConferenceEscalationProgress" />
+  <TypeSignature Language="F#" Value="type ConferenceEscalationProgress = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.AwaitingDisclaimerResponse" />
       <MemberSignature Language="VB.NET" Value="AwaitingDisclaimerResponse" />
       <MemberSignature Language="C++ CLI" Value="AwaitingDisclaimerResponse" />
+      <MemberSignature Language="F#" Value="AwaitingDisclaimerResponse = 9" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.AwaitingDisclaimerResponse" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.AwaitingJoinDialogResponse" />
       <MemberSignature Language="VB.NET" Value="AwaitingJoinDialogResponse" />
       <MemberSignature Language="C++ CLI" Value="AwaitingJoinDialogResponse" />
+      <MemberSignature Language="F#" Value="AwaitingJoinDialogResponse = 10" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.AwaitingJoinDialogResponse" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Completed" />
       <MemberSignature Language="VB.NET" Value="Completed" />
       <MemberSignature Language="C++ CLI" Value="Completed" />
+      <MemberSignature Language="F#" Value="Completed = 7" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Completed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.ConnectedToLobby" />
       <MemberSignature Language="VB.NET" Value="ConnectedToLobby" />
       <MemberSignature Language="C++ CLI" Value="ConnectedToLobby" />
+      <MemberSignature Language="F#" Value="ConnectedToLobby = 3" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.ConnectedToLobby" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.ConnectingToConference" />
       <MemberSignature Language="VB.NET" Value="ConnectingToConference" />
       <MemberSignature Language="C++ CLI" Value="ConnectingToConference" />
+      <MemberSignature Language="F#" Value="ConnectingToConference = 2" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.ConnectingToConference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Failed" />
       <MemberSignature Language="VB.NET" Value="Failed" />
       <MemberSignature Language="C++ CLI" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 8" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Failed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.JoiningLocalMedia" />
       <MemberSignature Language="VB.NET" Value="JoiningLocalMedia" />
       <MemberSignature Language="C++ CLI" Value="JoiningLocalMedia" />
+      <MemberSignature Language="F#" Value="JoiningLocalMedia = 4" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.JoiningLocalMedia" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.NotStarted" />
       <MemberSignature Language="VB.NET" Value="NotStarted" />
       <MemberSignature Language="C++ CLI" Value="NotStarted" />
+      <MemberSignature Language="F#" Value="NotStarted = 0" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.NotStarted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.SchedulingConference" />
       <MemberSignature Language="VB.NET" Value="SchedulingConference" />
       <MemberSignature Language="C++ CLI" Value="SchedulingConference" />
+      <MemberSignature Language="F#" Value="SchedulingConference = 1" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.SchedulingConference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -212,6 +223,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.WaitingForPair" />
       <MemberSignature Language="VB.NET" Value="WaitingForPair" />
       <MemberSignature Language="C++ CLI" Value="WaitingForPair" />
+      <MemberSignature Language="F#" Value="WaitingForPair = 5" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.WaitingForPair" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -231,6 +243,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.WaitingForPeer" />
       <MemberSignature Language="VB.NET" Value="WaitingForPeer" />
       <MemberSignature Language="C++ CLI" Value="WaitingForPeer" />
+      <MemberSignature Language="F#" Value="WaitingForPeer = 6" Usage="Microsoft.Lync.Model.Conversation.ConferenceEscalationProgress.WaitingForPeer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

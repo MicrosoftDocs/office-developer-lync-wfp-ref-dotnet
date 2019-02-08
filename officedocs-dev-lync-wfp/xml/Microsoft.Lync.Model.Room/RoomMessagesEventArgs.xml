@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomMessagesEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class RoomMessagesEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class RoomMessagesEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type RoomMessagesEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomMessagesEventArgs.Messages" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Messages As IList(Of RoomMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessage ^&gt; ^ Messages { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Room::RoomMessage ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Messages : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Room.RoomMessage&gt;" Usage="Microsoft.Lync.Model.Room.RoomMessagesEventArgs.Messages" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

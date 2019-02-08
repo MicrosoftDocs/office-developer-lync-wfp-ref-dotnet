@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.InstantMessageContentType" />
   <TypeSignature Language="VB.NET" Value="Public Enum InstantMessageContentType" />
   <TypeSignature Language="C++ CLI" Value="public enum class InstantMessageContentType" />
+  <TypeSignature Language="F#" Value="type InstantMessageContentType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageContentType.Gif" />
       <MemberSignature Language="VB.NET" Value="Gif" />
       <MemberSignature Language="C++ CLI" Value="Gif" />
+      <MemberSignature Language="F#" Value="Gif = 3" Usage="Microsoft.Lync.Model.Conversation.InstantMessageContentType.Gif" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageContentType.Html" />
       <MemberSignature Language="VB.NET" Value="Html" />
       <MemberSignature Language="C++ CLI" Value="Html" />
+      <MemberSignature Language="F#" Value="Html = 1" Usage="Microsoft.Lync.Model.Conversation.InstantMessageContentType.Html" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageContentType.Ink" />
       <MemberSignature Language="VB.NET" Value="Ink" />
       <MemberSignature Language="C++ CLI" Value="Ink" />
+      <MemberSignature Language="F#" Value="Ink = 4" Usage="Microsoft.Lync.Model.Conversation.InstantMessageContentType.Ink" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageContentType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.InstantMessageContentType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageContentType.PlainText" />
       <MemberSignature Language="VB.NET" Value="PlainText" />
       <MemberSignature Language="C++ CLI" Value="PlainText" />
+      <MemberSignature Language="F#" Value="PlainText = 0" Usage="Microsoft.Lync.Model.Conversation.InstantMessageContentType.PlainText" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageContentType.RichText" />
       <MemberSignature Language="VB.NET" Value="RichText" />
       <MemberSignature Language="C++ CLI" Value="RichText" />
+      <MemberSignature Language="F#" Value="RichText = 2" Usage="Microsoft.Lync.Model.Conversation.InstantMessageContentType.RichText" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.InstantMessageContentType.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 5" Usage="Microsoft.Lync.Model.Conversation.InstantMessageContentType.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

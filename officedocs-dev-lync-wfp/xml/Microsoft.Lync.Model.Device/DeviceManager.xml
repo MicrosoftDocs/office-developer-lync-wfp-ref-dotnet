@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Device.DeviceManager" />
   <TypeSignature Language="VB.NET" Value="Public Class DeviceManager&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class DeviceManager : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type DeviceManager = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Device.DeviceManager.ActiveAudioDevice" />
       <MemberSignature Language="VB.NET" Value="Public Property ActiveAudioDevice As AudioDevice" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Device::AudioDevice ^ ActiveAudioDevice { Microsoft::Lync::Model::Device::AudioDevice ^ get(); void set(Microsoft::Lync::Model::Device::AudioDevice ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveAudioDevice : Microsoft.Lync.Model.Device.AudioDevice with get, set" Usage="Microsoft.Lync.Model.Device.DeviceManager.ActiveAudioDevice" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -47,6 +49,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Device.DeviceManager.ActiveVideoDevice" />
       <MemberSignature Language="VB.NET" Value="Public Property ActiveVideoDevice As VideoDevice" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Device::VideoDevice ^ ActiveVideoDevice { Microsoft::Lync::Model::Device::VideoDevice ^ get(); void set(Microsoft::Lync::Model::Device::VideoDevice ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ActiveVideoDevice : Microsoft.Lync.Model.Device.VideoDevice with get, set" Usage="Microsoft.Lync.Model.Device.DeviceManager.ActiveVideoDevice" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Device.DeviceManager.AudioDevices" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AudioDevices As IList(Of Device)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ AudioDevices { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AudioDevices : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt;" Usage="Microsoft.Lync.Model.Device.DeviceManager.AudioDevices" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -90,6 +94,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Device.DeviceManager.BeginPlayAudioFile(System.String,Microsoft.Lync.Model.Device.AudioPlayBackModes,System.Boolean,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginPlayAudioFile (audioFileName As String, playbackDevices As AudioPlayBackModes, loop As Boolean, deviceManagerCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginPlayAudioFile(System::String ^ audioFileName, Microsoft::Lync::Model::Device::AudioPlayBackModes playbackDevices, bool loop, AsyncCallback ^ deviceManagerCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginPlayAudioFile : string * Microsoft.Lync.Model.Device.AudioPlayBackModes * bool * AsyncCallback * obj -&gt; IAsyncResult" Usage="deviceManager.BeginPlayAudioFile (audioFileName, playbackDevices, loop, deviceManagerCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -124,6 +129,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Device.DeviceManager.EndPlayAudioFile(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndPlayAudioFile (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndPlayAudioFile(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndPlayAudioFile : IAsyncResult -&gt; unit" Usage="deviceManager.EndPlayAudioFile asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -149,6 +155,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Device.DeviceManager.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!DeviceManager ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="deviceManager.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -169,6 +176,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Device.DeviceManager.StopPlayingAllAudioFiles" />
       <MemberSignature Language="VB.NET" Value="Public Sub StopPlayingAllAudioFiles ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void StopPlayingAllAudioFiles();" />
+      <MemberSignature Language="F#" Value="member this.StopPlayingAllAudioFiles : unit -&gt; unit" Usage="deviceManager.StopPlayingAllAudioFiles " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -189,6 +197,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Device.DeviceManager.VideoDevices" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VideoDevices As IList(Of Device)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ VideoDevices { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::Device::Device ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.VideoDevices : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.Device.Device&gt;" Usage="Microsoft.Lync.Model.Device.DeviceManager.VideoDevices" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

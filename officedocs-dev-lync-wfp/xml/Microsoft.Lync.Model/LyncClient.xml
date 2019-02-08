@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.LyncClient" />
   <TypeSignature Language="VB.NET" Value="Public Class LyncClient&#xA;Inherits Client" />
   <TypeSignature Language="C++ CLI" Value="public ref class LyncClient : Microsoft::Lync::Model::Client" />
+  <TypeSignature Language="F#" Value="type LyncClient = class&#xA;    inherit Client" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.BeginInitialize(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginInitialize (callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginInitialize(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginInitialize : AsyncCallback * obj -&gt; IAsyncResult" Usage="lyncClient.BeginInitialize (callback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -52,6 +54,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.BeginShutdown(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginShutdown (communicatorClientCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginShutdown(AsyncCallback ^ communicatorClientCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginShutdown : AsyncCallback * obj -&gt; IAsyncResult" Usage="lyncClient.BeginShutdown (communicatorClientCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -80,6 +83,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.BeginSignIn(System.String,System.String,System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSignIn (userUri As String, domainAndUsername As String, password As String, communicatorClientCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSignIn(System::String ^ userUri, System::String ^ domainAndUsername, System::String ^ password, AsyncCallback ^ communicatorClientCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSignIn : string * string * string * AsyncCallback * obj -&gt; IAsyncResult" Usage="lyncClient.BeginSignIn (userUri, domainAndUsername, password, communicatorClientCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -114,6 +118,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.BeginSignOut(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginSignOut (communicatorClientCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginSignOut(AsyncCallback ^ communicatorClientCallback, System::Object ^ state);" />
+      <MemberSignature Language="F#" Value="member this.BeginSignOut : AsyncCallback * obj -&gt; IAsyncResult" Usage="lyncClient.BeginSignOut (communicatorClientCallback, state)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -142,6 +147,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.Capabilities" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As LyncClientCapabilityTypes" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::LyncClientCapabilityTypes Capabilities { Microsoft::Lync::Model::LyncClientCapabilityTypes get(); };" />
+      <MemberSignature Language="F#" Value="member this.Capabilities : Microsoft.Lync.Model.LyncClientCapabilityTypes" Usage="Microsoft.Lync.Model.LyncClient.Capabilities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -162,6 +168,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.CapabilitiesChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event CapabilitiesChanged As EventHandler(Of PreferredCapabilitiesChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::PreferredCapabilitiesChangedEventArgs ^&gt; ^ CapabilitiesChanged;" />
+      <MemberSignature Language="F#" Value="member this.CapabilitiesChanged : EventHandler&lt;Microsoft.Lync.Model.PreferredCapabilitiesChangedEventArgs&gt; " Usage="member this.CapabilitiesChanged : System.EventHandler&lt;Microsoft.Lync.Model.PreferredCapabilitiesChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -181,6 +188,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.ClientDisconnected" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event ClientDisconnected As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ClientDisconnected;" />
+      <MemberSignature Language="F#" Value="member this.ClientDisconnected : EventHandler " Usage="member this.ClientDisconnected : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -202,6 +210,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.CreateApplicationRegistration(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateApplicationRegistration (appGuid As String, appName As String) As ApplicationRegistration" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Lync::Model::Extensibility::ApplicationRegistration ^ CreateApplicationRegistration(System::String ^ appGuid, System::String ^ appName);" />
+      <MemberSignature Language="F#" Value="member this.CreateApplicationRegistration : string * string -&gt; Microsoft.Lync.Model.Extensibility.ApplicationRegistration" Usage="lyncClient.CreateApplicationRegistration (appGuid, appName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -228,6 +237,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.CredentialRequested" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event CredentialRequested As EventHandler(Of CredentialRequestedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::CredentialRequestedEventArgs ^&gt; ^ CredentialRequested;" />
+      <MemberSignature Language="F#" Value="member this.CredentialRequested : EventHandler&lt;Microsoft.Lync.Model.CredentialRequestedEventArgs&gt; " Usage="member this.CredentialRequested : System.EventHandler&lt;Microsoft.Lync.Model.CredentialRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -250,6 +260,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.DelegatorClientAdded" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event DelegatorClientAdded As EventHandler(Of DelegatorClientCollectionEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::DelegatorClientCollectionEventArgs ^&gt; ^ DelegatorClientAdded;" />
+      <MemberSignature Language="F#" Value="member this.DelegatorClientAdded : EventHandler&lt;Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt; " Usage="member this.DelegatorClientAdded : System.EventHandler&lt;Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -269,6 +280,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.DelegatorClientRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event DelegatorClientRemoved As EventHandler(Of DelegatorClientCollectionEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::DelegatorClientCollectionEventArgs ^&gt; ^ DelegatorClientRemoved;" />
+      <MemberSignature Language="F#" Value="member this.DelegatorClientRemoved : EventHandler&lt;Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt; " Usage="member this.DelegatorClientRemoved : System.EventHandler&lt;Microsoft.Lync.Model.DelegatorClientCollectionEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -288,6 +300,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.DelegatorClients" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DelegatorClients As IList(Of DelegatorClient)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;Microsoft::Lync::Model::DelegatorClient ^&gt; ^ DelegatorClients { System::Collections::Generic::IList&lt;Microsoft::Lync::Model::DelegatorClient ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DelegatorClients : System.Collections.Generic.IList&lt;Microsoft.Lync.Model.DelegatorClient&gt;" Usage="Microsoft.Lync.Model.LyncClient.DelegatorClients" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -308,6 +321,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.DeviceManager" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceManager As DeviceManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Device::DeviceManager ^ DeviceManager { Microsoft::Lync::Model::Device::DeviceManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DeviceManager : Microsoft.Lync.Model.Device.DeviceManager" Usage="Microsoft.Lync.Model.LyncClient.DeviceManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -328,6 +342,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.EndInitialize(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndInitialize (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndInitialize(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndInitialize : IAsyncResult -&gt; unit" Usage="lyncClient.EndInitialize asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -353,6 +368,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.EndShutdown(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndShutdown (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndShutdown(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndShutdown : IAsyncResult -&gt; unit" Usage="lyncClient.EndShutdown asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -378,6 +394,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.EndSignIn(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSignIn (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSignIn(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSignIn : IAsyncResult -&gt; unit" Usage="lyncClient.EndSignIn asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -403,6 +420,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.EndSignOut(System.IAsyncResult)" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndSignOut (asyncResult As IAsyncResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSignOut(IAsyncResult ^ asyncResult);" />
+      <MemberSignature Language="F#" Value="member this.EndSignOut : IAsyncResult -&gt; unit" Usage="lyncClient.EndSignOut asyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -428,6 +446,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!LyncClient ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="lyncClient.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -448,6 +467,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.GetAutomation" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetAutomation () As Automation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Lync::Model::Extensibility::Automation ^ GetAutomation();" />
+      <MemberSignature Language="F#" Value="static member GetAutomation : unit -&gt; Microsoft.Lync.Model.Extensibility.Automation" Usage="Microsoft.Lync.Model.LyncClient.GetAutomation " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -471,6 +491,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.LyncClient.GetClient" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetClient () As LyncClient" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Lync::Model::LyncClient ^ GetClient();" />
+      <MemberSignature Language="F#" Value="static member GetClient : unit -&gt; Microsoft.Lync.Model.LyncClient" Usage="Microsoft.Lync.Model.LyncClient.GetClient " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -492,6 +513,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.InSuppressedMode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InSuppressedMode As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InSuppressedMode { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.InSuppressedMode : bool" Usage="Microsoft.Lync.Model.LyncClient.InSuppressedMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -512,6 +534,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.SignInConfiguration" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignInConfiguration As SignInConfiguration" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::SignInConfiguration ^ SignInConfiguration { Microsoft::Lync::Model::SignInConfiguration ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SignInConfiguration : Microsoft.Lync.Model.SignInConfiguration" Usage="Microsoft.Lync.Model.LyncClient.SignInConfiguration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -532,6 +555,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.LyncClient.SignInDelayed" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event SignInDelayed As EventHandler(Of SignInDelayedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::SignInDelayedEventArgs ^&gt; ^ SignInDelayed;" />
+      <MemberSignature Language="F#" Value="member this.SignInDelayed : EventHandler&lt;Microsoft.Lync.Model.SignInDelayedEventArgs&gt; " Usage="member this.SignInDelayed : System.EventHandler&lt;Microsoft.Lync.Model.SignInDelayedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -551,6 +575,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.LyncClient.Utilities" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Utilities As Utilities" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Utilities ^ Utilities { Microsoft::Lync::Model::Utilities ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Utilities : Microsoft.Lync.Model.Utilities" Usage="Microsoft.Lync.Model.LyncClient.Utilities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

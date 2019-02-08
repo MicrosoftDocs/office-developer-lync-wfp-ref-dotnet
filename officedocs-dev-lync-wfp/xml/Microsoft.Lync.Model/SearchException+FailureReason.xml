@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.SearchException.FailureReason" />
   <TypeSignature Language="VB.NET" Value="Public Enum SearchException.FailureReason" />
   <TypeSignature Language="C++ CLI" Value="public: enum class SearchException::FailureReason" />
+  <TypeSignature Language="F#" Value="type SearchException.FailureReason = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -24,6 +25,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.AllNoise" />
       <MemberSignature Language="VB.NET" Value="AllNoise" />
       <MemberSignature Language="C++ CLI" Value="AllNoise" />
+      <MemberSignature Language="F#" Value="AllNoise = 3" Usage="Microsoft.Lync.Model.SearchException.FailureReason.AllNoise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.BadQuery" />
       <MemberSignature Language="VB.NET" Value="BadQuery" />
       <MemberSignature Language="C++ CLI" Value="BadQuery" />
+      <MemberSignature Language="F#" Value="BadQuery = 5" Usage="Microsoft.Lync.Model.SearchException.FailureReason.BadQuery" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -62,6 +65,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.BadRequest" />
       <MemberSignature Language="VB.NET" Value="BadRequest" />
       <MemberSignature Language="C++ CLI" Value="BadRequest" />
+      <MemberSignature Language="F#" Value="BadRequest = 7" Usage="Microsoft.Lync.Model.SearchException.FailureReason.BadRequest" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -81,6 +85,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.BadScope" />
       <MemberSignature Language="VB.NET" Value="BadScope" />
       <MemberSignature Language="C++ CLI" Value="BadScope" />
+      <MemberSignature Language="F#" Value="BadScope = 6" Usage="Microsoft.Lync.Model.SearchException.FailureReason.BadScope" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -100,6 +105,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.NoAuthorization" />
       <MemberSignature Language="VB.NET" Value="NoAuthorization" />
       <MemberSignature Language="C++ CLI" Value="NoAuthorization" />
+      <MemberSignature Language="F#" Value="NoAuthorization = 9" Usage="Microsoft.Lync.Model.SearchException.FailureReason.NoAuthorization" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -119,6 +125,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.NoQuery" />
       <MemberSignature Language="VB.NET" Value="NoQuery" />
       <MemberSignature Language="C++ CLI" Value="NoQuery" />
+      <MemberSignature Language="F#" Value="NoQuery = 8" Usage="Microsoft.Lync.Model.SearchException.FailureReason.NoQuery" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -138,6 +145,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.NoResponse" />
       <MemberSignature Language="VB.NET" Value="NoResponse" />
       <MemberSignature Language="C++ CLI" Value="NoResponse" />
+      <MemberSignature Language="F#" Value="NoResponse = 4" Usage="Microsoft.Lync.Model.SearchException.FailureReason.NoResponse" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -157,6 +165,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.ServerError" />
       <MemberSignature Language="VB.NET" Value="ServerError" />
       <MemberSignature Language="C++ CLI" Value="ServerError" />
+      <MemberSignature Language="F#" Value="ServerError = 10" Usage="Microsoft.Lync.Model.SearchException.FailureReason.ServerError" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -176,6 +185,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.SharepointNotConfigured" />
       <MemberSignature Language="VB.NET" Value="SharepointNotConfigured" />
       <MemberSignature Language="C++ CLI" Value="SharepointNotConfigured" />
+      <MemberSignature Language="F#" Value="SharepointNotConfigured = 2" Usage="Microsoft.Lync.Model.SearchException.FailureReason.SharepointNotConfigured" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -195,6 +205,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Lync.Model.SearchException.FailureReason.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -214,6 +225,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.SearchException.FailureReason.Unspecified" />
       <MemberSignature Language="VB.NET" Value="Unspecified" />
       <MemberSignature Language="C++ CLI" Value="Unspecified" />
+      <MemberSignature Language="F#" Value="Unspecified = 1" Usage="Microsoft.Lync.Model.SearchException.FailureReason.Unspecified" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

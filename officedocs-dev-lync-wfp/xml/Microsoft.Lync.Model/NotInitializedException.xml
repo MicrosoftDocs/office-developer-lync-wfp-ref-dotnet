@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.NotInitializedException" />
   <TypeSignature Language="VB.NET" Value="Public Class NotInitializedException&#xA;Inherits LyncClientException" />
   <TypeSignature Language="C++ CLI" Value="public ref class NotInitializedException : Microsoft::Lync::Model::LyncClientException" />
+  <TypeSignature Language="F#" Value="type NotInitializedException = class&#xA;    inherit LyncClientException" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -12,6 +13,11 @@
     <BaseTypeName>Microsoft.Lync.Model.LyncClientException</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Serializable</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Exception thrown when the Lync client is not initialized or is already shutdown.
@@ -25,6 +31,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.NotInitializedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (info As SerializationInfo, context As StreamingContext)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; NotInitializedException(System::Runtime::Serialization::SerializationInfo ^ info, System::Runtime::Serialization::StreamingContext context);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Model.NotInitializedException : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; Microsoft.Lync.Model.NotInitializedException" Usage="new Microsoft.Lync.Model.NotInitializedException (info, context)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

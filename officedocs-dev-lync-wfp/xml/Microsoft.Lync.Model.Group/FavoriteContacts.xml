@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Group.FavoriteContacts" />
   <TypeSignature Language="VB.NET" Value="Public Class FavoriteContacts&#xA;Inherits Group" />
   <TypeSignature Language="C++ CLI" Value="public ref class FavoriteContacts : Microsoft::Lync::Model::Group::Group" />
+  <TypeSignature Language="F#" Value="type FavoriteContacts = class&#xA;    inherit Group" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Group.FavoriteContacts.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!FavoriteContacts ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="favoriteContacts.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

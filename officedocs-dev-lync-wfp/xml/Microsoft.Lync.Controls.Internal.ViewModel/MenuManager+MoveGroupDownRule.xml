@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuManager.MoveGroupDownRule&#xA;Inherits MenuManager.GroupMenuRule" />
   <TypeSignature Language="C++ CLI" Value="public: ref class MenuManager::MoveGroupDownRule : Microsoft::Lync::Controls::Internal::ViewModel::MenuManager::GroupMenuRule" />
+  <TypeSignature Language="F#" Value="type MenuManager.MoveGroupDownRule = class&#xA;    inherit MenuManager.GroupMenuRule" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule.#ctor(Microsoft.Lync.Controls.Internal.ViewModel.MenuManager)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (manager As MenuManager)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; MoveGroupDownRule(Microsoft::Lync::Controls::Internal::ViewModel::MenuManager ^ manager);" />
+      <MemberSignature Language="F#" Value="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule : Microsoft.Lync.Controls.Internal.ViewModel.MenuManager -&gt; Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule" Usage="new Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule manager" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule.CanExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CanExecuteCommand (arg As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CanExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.CanExecuteCommand : obj -&gt; bool" Usage="moveGroupDownRule.CanExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.Internal.ViewModel.MenuManager.MoveGroupDownRule.ExecuteCommand(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ExecuteCommand (arg As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void ExecuteCommand(System::Object ^ arg);" />
+      <MemberSignature Language="F#" Value="override this.ExecuteCommand : obj -&gt; unit" Usage="moveGroupDownRule.ExecuteCommand arg" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

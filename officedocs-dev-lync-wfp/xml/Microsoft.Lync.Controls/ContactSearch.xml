@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Controls.ContactSearch" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactSearch&#xA;Inherits Control" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContactSearch : System::Windows::Controls::Control" />
+  <TypeSignature Language="F#" Value="type ContactSearch = class&#xA;    inherit Control" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -49,6 +50,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearch.ContextualInformation" />
       <MemberSignature Language="VB.NET" Value="Public Property ContextualInformation As ConversationContextualInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::ConversationContextualInfo ^ ContextualInformation { Microsoft::Lync::Controls::ConversationContextualInfo ^ get(); void set(Microsoft::Lync::Controls::ConversationContextualInfo ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ContextualInformation : Microsoft.Lync.Controls.ConversationContextualInfo with get, set" Usage="Microsoft.Lync.Controls.ContactSearch.ContextualInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -72,6 +74,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearch.ContextualInformationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContextualInformationProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ ContextualInformationProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable ContextualInformationProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearch.ContextualInformationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearch.InitializationError" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializationError As LyncControlInitializationError" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::LyncControlInitializationError InitializationError { Microsoft::Lync::Controls::LyncControlInitializationError get(); };" />
+      <MemberSignature Language="F#" Value="member this.InitializationError : Microsoft.Lync.Controls.LyncControlInitializationError" Usage="Microsoft.Lync.Controls.ContactSearch.InitializationError" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -111,6 +115,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearch.InitializationErrorMessage" />
       <MemberSignature Language="VB.NET" Value="Public Property InitializationErrorMessage As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InitializationErrorMessage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.InitializationErrorMessage : string with get, set" Usage="Microsoft.Lync.Controls.ContactSearch.InitializationErrorMessage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -131,6 +136,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearch.InitializationErrorMessageProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationErrorMessageProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationErrorMessageProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable InitializationErrorMessageProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearch.InitializationErrorMessageProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -150,6 +156,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearch.InitializationErrorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationErrorProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationErrorProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable InitializationErrorProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearch.InitializationErrorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -169,6 +176,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearch.InitializationFailed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializationFailed As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InitializationFailed { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.InitializationFailed : bool" Usage="Microsoft.Lync.Controls.ContactSearch.InitializationFailed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -189,6 +197,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearch.InitializationFailedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InitializationFailedProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ InitializationFailedProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable InitializationFailedProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearch.InitializationFailedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -208,6 +217,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearch.MaxResults" />
       <MemberSignature Language="VB.NET" Value="Public Property MaxResults As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxResults { int get(); void set(int value); };" />
+      <MemberSignature Language="F#" Value="member this.MaxResults : int with get, set" Usage="Microsoft.Lync.Controls.ContactSearch.MaxResults" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -228,6 +238,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearch.MaxResultsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxResultsProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ MaxResultsProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable MaxResultsProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearch.MaxResultsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -247,6 +258,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearch.OnApplyTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnApplyTemplate ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnApplyTemplate();" />
+      <MemberSignature Language="F#" Value="override this.OnApplyTemplate : unit -&gt; unit" Usage="contactSearch.OnApplyTemplate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -267,6 +279,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Controls.ContactSearch.OnCreateAutomationPeer" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnCreateAutomationPeer () As AutomationPeer" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ OnCreateAutomationPeer();" />
+      <MemberSignature Language="F#" Value="override this.OnCreateAutomationPeer : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="contactSearch.OnCreateAutomationPeer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -288,6 +301,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Controls.ContactSearch.SearchType" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchType As SearchType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Controls::SearchType SearchType { Microsoft::Lync::Controls::SearchType get(); void set(Microsoft::Lync::Controls::SearchType value); };" />
+      <MemberSignature Language="F#" Value="member this.SearchType : Microsoft.Lync.Controls.SearchType with get, set" Usage="Microsoft.Lync.Controls.ContactSearch.SearchType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>
@@ -308,6 +322,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Controls.ContactSearch.SearchTypeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchTypeProperty As DependencyProperty " />
       <MemberSignature Language="C++ CLI" Value="public: static initonly System::Windows::DependencyProperty ^ SearchTypeProperty;" />
+      <MemberSignature Language="F#" Value=" staticval mutable SearchTypeProperty : System.Windows.DependencyProperty" Usage="Microsoft.Lync.Controls.ContactSearch.SearchTypeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Controls</AssemblyName>

@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Room.RoomUser" />
   <TypeSignature Language="VB.NET" Value="Public Class RoomUser&#xA;Inherits UCWLite" />
   <TypeSignature Language="C++ CLI" Value="public ref class RoomUser : Microsoft::Lync::Model::Internal::UCWLite" />
+  <TypeSignature Language="F#" Value="type RoomUser = class&#xA;    inherit UCWLite" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomUser.CanSendMessage" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanSendMessage As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanSendMessage { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.CanSendMessage : bool" Usage="Microsoft.Lync.Model.Room.RoomUser.CanSendMessage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Room.RoomUser.Uri" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Uri : string" Usage="Microsoft.Lync.Model.Room.RoomUser.Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

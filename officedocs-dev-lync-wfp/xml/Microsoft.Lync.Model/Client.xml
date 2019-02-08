@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Client" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Client&#xA;Inherits UCWFull" />
   <TypeSignature Language="C++ CLI" Value="public ref class Client abstract : Microsoft::Lync::Model::Internal::UCWFull" />
+  <TypeSignature Language="F#" Value="type Client = class&#xA;    inherit UCWFull" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.ContactManager" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactManager As ContactManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ContactManager ^ ContactManager { Microsoft::Lync::Model::ContactManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContactManager : Microsoft.Lync.Model.ContactManager" Usage="Microsoft.Lync.Model.Client.ContactManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.ConversationManager" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationManager As ConversationManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::ConversationManager ^ ConversationManager { Microsoft::Lync::Model::Conversation::ConversationManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ConversationManager : Microsoft.Lync.Model.Conversation.ConversationManager" Usage="Microsoft.Lync.Model.Client.ConversationManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Lync.Model.Client.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!Client ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="client.Finalize " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -83,6 +87,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.RoomManager" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RoomManager As RoomManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Room::RoomManager ^ RoomManager { Microsoft::Lync::Model::Room::RoomManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.RoomManager : Microsoft.Lync.Model.Room.RoomManager" Usage="Microsoft.Lync.Model.Client.RoomManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.Self" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Self As Self" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Self ^ Self { Microsoft::Lync::Model::Self ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Self : Microsoft.Lync.Model.Self" Usage="Microsoft.Lync.Model.Client.Self" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -123,6 +129,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.Settings" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As ClientSettings" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ClientSettings ^ Settings { Microsoft::Lync::Model::ClientSettings ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Settings : Microsoft.Lync.Model.ClientSettings" Usage="Microsoft.Lync.Model.Client.Settings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -145,6 +152,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ClientState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::ClientState State { Microsoft::Lync::Model::ClientState get(); };" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Lync.Model.ClientState" Usage="Microsoft.Lync.Model.Client.State" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -165,6 +173,7 @@
       <MemberSignature Language="DocId" Value="E:Microsoft.Lync.Model.Client.StateChanged" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event StateChanged As EventHandler(Of ClientStateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;Microsoft::Lync::Model::ClientStateChangedEventArgs ^&gt; ^ StateChanged;" />
+      <MemberSignature Language="F#" Value="member this.StateChanged : EventHandler&lt;Microsoft.Lync.Model.ClientStateChangedEventArgs&gt; " Usage="member this.StateChanged : System.EventHandler&lt;Microsoft.Lync.Model.ClientStateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -184,6 +193,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Client.Uri" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uri As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Uri : string" Usage="Microsoft.Lync.Model.Client.Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

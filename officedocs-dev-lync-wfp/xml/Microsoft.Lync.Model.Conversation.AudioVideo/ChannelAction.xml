@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum ChannelAction" />
   <TypeSignature Language="C++ CLI" Value="public enum class ChannelAction" />
+  <TypeSignature Language="F#" Value="type ChannelAction = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Pause" />
       <MemberSignature Language="VB.NET" Value="Pause" />
       <MemberSignature Language="C++ CLI" Value="Pause" />
+      <MemberSignature Language="F#" Value="Pause = 5005" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Pause" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Reserved1" />
       <MemberSignature Language="VB.NET" Value="Reserved1" />
       <MemberSignature Language="C++ CLI" Value="Reserved1" />
+      <MemberSignature Language="F#" Value="Reserved1 = 5001" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Reserved1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Reserved2" />
       <MemberSignature Language="VB.NET" Value="Reserved2" />
       <MemberSignature Language="C++ CLI" Value="Reserved2" />
+      <MemberSignature Language="F#" Value="Reserved2 = 5002" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Reserved2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -98,6 +103,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Reserved3" />
       <MemberSignature Language="VB.NET" Value="Reserved3" />
       <MemberSignature Language="C++ CLI" Value="Reserved3" />
+      <MemberSignature Language="F#" Value="Reserved3 = 5003" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Reserved3" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -117,6 +123,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Reserved4" />
       <MemberSignature Language="VB.NET" Value="Reserved4" />
       <MemberSignature Language="C++ CLI" Value="Reserved4" />
+      <MemberSignature Language="F#" Value="Reserved4 = 5004" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Reserved4" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Resume" />
       <MemberSignature Language="VB.NET" Value="Resume" />
       <MemberSignature Language="C++ CLI" Value="Resume" />
+      <MemberSignature Language="F#" Value="Resume = 5006" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Resume" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -155,6 +163,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.SendDtmf" />
       <MemberSignature Language="VB.NET" Value="SendDtmf" />
       <MemberSignature Language="C++ CLI" Value="SendDtmf" />
+      <MemberSignature Language="F#" Value="SendDtmf = 2" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.SendDtmf" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Start" />
       <MemberSignature Language="VB.NET" Value="Start" />
       <MemberSignature Language="C++ CLI" Value="Start" />
+      <MemberSignature Language="F#" Value="Start = 0" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Start" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Stop" />
       <MemberSignature Language="VB.NET" Value="Stop" />
       <MemberSignature Language="C++ CLI" Value="Stop" />
+      <MemberSignature Language="F#" Value="Stop = 1" Usage="Microsoft.Lync.Model.Conversation.AudioVideo.ChannelAction.Stop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

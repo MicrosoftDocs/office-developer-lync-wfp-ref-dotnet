@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.Conversation.Sharing.LocalSharedResourcesChangedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class LocalSharedResourcesChangedEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class LocalSharedResourcesChangedEventArgs : EventArgs" />
+  <TypeSignature Language="F#" Value="type LocalSharedResourcesChangedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Lync.Model.Conversation.Sharing.LocalSharedResourcesChangedEventArgs.ResourceList" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceList As SharingResourceList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ ResourceList { Microsoft::Lync::Model::Conversation::Sharing::SharingResourceList ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ResourceList : Microsoft.Lync.Model.Conversation.Sharing.SharingResourceList" Usage="Microsoft.Lync.Model.Conversation.Sharing.LocalSharedResourcesChangedEventArgs.ResourceList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>

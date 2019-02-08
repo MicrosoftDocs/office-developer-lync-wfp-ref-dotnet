@@ -4,6 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Lync.Model.DefaultNoteType" />
   <TypeSignature Language="VB.NET" Value="Public Enum DefaultNoteType" />
   <TypeSignature Language="C++ CLI" Value="public enum class DefaultNoteType" />
+  <TypeSignature Language="F#" Value="type DefaultNoteType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Lync.Model</AssemblyName>
     <AssemblyVersion>15.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.DefaultNoteType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = -1" Usage="Microsoft.Lync.Model.DefaultNoteType.Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.DefaultNoteType.OutOfOffice" />
       <MemberSignature Language="VB.NET" Value="OutOfOffice" />
       <MemberSignature Language="C++ CLI" Value="OutOfOffice" />
+      <MemberSignature Language="F#" Value="OutOfOffice = 2" Usage="Microsoft.Lync.Model.DefaultNoteType.OutOfOffice" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.DefaultNoteType.Personal" />
       <MemberSignature Language="VB.NET" Value="Personal" />
       <MemberSignature Language="C++ CLI" Value="Personal" />
+      <MemberSignature Language="F#" Value="Personal = 1" Usage="Microsoft.Lync.Model.DefaultNoteType.Personal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Lync.Model.DefaultNoteType.Unknown" />
       <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.Lync.Model.DefaultNoteType.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Lync.Model</AssemblyName>
