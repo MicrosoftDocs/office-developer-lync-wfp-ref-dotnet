@@ -39,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-lync-wfp/xml",
         "OutputYamlFolder": "officedocs-dev-lync-wfp/api",
         "Flatten": true,
-        "id": "officedocs-dev-lync-wfp"
+        "id": "officedocs-dev-lync-wfp",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-lync-wfp/api/officedocs-dev-lync-wfp/toc.yml"
@@ -88,8 +89,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }
