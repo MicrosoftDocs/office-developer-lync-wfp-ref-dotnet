@@ -49,7 +49,7 @@
       "ms.topic": "reference",
       "audience": "developer",
       "ms.reviewer": "",
-      "ms.suite": "office365",
+      "ms.suite": "office",
       "ms.prod": "lync",
       "ms.technology": "sdk",
       "ms.tgt_pltfrm": "dotnet",
@@ -61,6 +61,7 @@
       }
     },
     "template": [],
+    "isCanonicalUrlWithMoniker": true,
     "dest": "_site",
     "xref": [
       "_zip/msdn.4.5.2.zip"
