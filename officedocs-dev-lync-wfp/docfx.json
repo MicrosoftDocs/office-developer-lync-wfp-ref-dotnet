@@ -43,8 +43,7 @@
       "ms.service": "lync",
       "feedback_system": "Standard",
       "apiPlatform": "dotnet",
-      "breadcrumb_path": "~/breadcrumb/toc.yml",
-      "ROBOTS": "INDEX,FOLLOW",
+      "breadcrumb_path": "/previous-versions/dotnet/breadcrumb/toc.yml",
       "author": "o365devx",
       "ms.author": "o365devx",
       "manager": "davech",
@@ -54,7 +53,12 @@
       "ms.reviewer": "",
       "ms.suite": "office",
       "ms.tgt_pltfrm": "dotnet",
-      "apiPlatform": "dotnet"
+      "apiPlatform": "dotnet",
+       "ROBOTS": "NOINDEX,NOFOLLOW",
+      "is_archived": true,
+      "is_retired": true, 
+      "feedback_system": "None",
+      "learn_archive": "manual"
     },
     "fileMetadata": {
       "author": {
